@@ -1,0 +1,1 @@
+{"index_type": "faiss.IndexFlatIP", "backend": "sentence", "clauses_json": "/Users/my/Documents/projects/detectionDeviation/gdpr_clause/gdpr_clauses.json", "clause_count": 59, "backend_meta": {"model_name": "sentence-transformers/all-MiniLM-L6-v2", "batch_size": 32}}

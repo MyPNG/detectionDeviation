@@ -1,0 +1,108 @@
+[
+  {
+    "query_file": "/Users/my/Documents/projects/detectionDeviation/datasets/rea/test_data",
+    "query_text": "We retain user data indefinitely.",
+    "top_matches": [
+      {
+        "score": 0.615299,
+        "clause": {
+          "id": "REG-047",
+          "text": "Personal data shall be kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes in accordance with Article 89(1) subject to implementation of the appropriate technical and organisational measures required by REGULATION (EU) 2016/679 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL in order to safeguard the rights and freedoms of the data subject (‘storage limitation’).",
+          "article": "Art5",
+          "location": "Art5(1)(e)",
+          "type": "point"
+        }
+      },
+      {
+        "score": 0.468842,
+        "clause": {
+          "id": "REG-046",
+          "text": "Personal data shall be accurate and, where necessary, kept up to date; every reasonable step must be taken to ensure that personal data that are inaccurate, having regard to the purposes for which they are processed, are erased or rectified without delay (‘accuracy’).",
+          "article": "Art5",
+          "location": "Art5(1)(d)",
+          "type": "point"
+        }
+      },
+      {
+        "score": 0.437823,
+        "clause": {
+          "id": "REG-048",
+          "text": "Personal data shall be processed in a manner that ensures appropriate security of the personal data, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures (‘integrity and confidentiality’).",
+          "article": "Art5",
+          "location": "Art5(1)(f)",
+          "type": "point"
+        }
+      },
+      {
+        "score": 0.435038,
+        "clause": {
+          "id": "REG-044",
+          "text": "Personal data shall be collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes shall, in accordance with Article 89(1), not be considered to be incompatible with the initial purposes (‘purpose limitation’);",
+          "article": "Art5",
+          "location": "Art5(1)(b)",
+          "type": "point"
+        }
+      },
+      {
+        "score": 0.403818,
+        "clause": {
+          "id": "REG-129",
+          "text": "The controller shall provide the information referred to in paragraphs 1 and 2 within a reasonable period after obtaining the personal data, but at the latest within one month, having regard to the specific circumstances in which the personal data are processed.",
+          "article": "Art14",
+          "location": "Art14(3)",
+          "type": "paragraph"
+        }
+      },
+      {
+        "score": 0.38441,
+        "clause": {
+          "id": "REG-045",
+          "text": "Personal data shall be adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed (‘data minimisation’).",
+          "article": "Art5",
+          "location": "Art5(1)(c)",
+          "type": "point"
+        }
+      },
+      {
+        "score": 0.379123,
+        "clause": {
+          "id": "REG-108",
+          "text": "In addition to the information referred to in paragraph 1, the controller shall, at the time when personal data are obtained, provide the data subject with the following further information necessary to ensure fair and transparent processing the period for which the personal data will be stored, or if that is not possible, the criteria used to determine that period.",
+          "article": "Art13",
+          "location": "Art13(2)",
+          "type": "paragraph"
+        }
+      },
+      {
+        "score": 0.373619,
+        "clause": {
+          "id": "REG-134",
+          "text": "Paragraphs 1 to 4 shall not apply where and insofar as the provision of such information proves impossible or would involve a disproportionate effort, in particular for processing for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes, subject to the conditions and safeguards referred to in Article 89(1) or in so far as the obligation referred to in paragraph 1 of Article 14 is likely to render impossible or seriously impair the achievement of the objectives of that processing. In such cases the controller shall take appropriate measures to protect the data subject's rights and freedoms and legitimate interests, including making the information publicly available;",
+          "article": "Art14",
+          "location": "Art14(5)",
+          "type": "paragraph"
+        }
+      },
+      {
+        "score": 0.360361,
+        "clause": {
+          "id": "REG-107",
+          "text": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information where applicable, the fact that the controller intends to transfer personal data to a third country or international organisation and the existence or absence of an adequacy decision by the Commission, or in the case of transfers referred to in Article 46 or 47, or the second subparagraph of Article 49(1), reference to the appropriate or suitable safeguards and the means by which to obtain a copy of them or where they have been made available.",
+          "article": "Art13",
+          "location": "Art13(1)",
+          "type": "paragraph"
+        }
+      },
+      {
+        "score": 0.348757,
+        "clause": {
+          "id": "REG-130",
+          "text": "The controller shall provide the information referred to in paragraphs 1 and 2 if the personal data are to be used for communication with the data subject, at the latest at the time of the first communication to that data subject; or.",
+          "article": "Art14",
+          "location": "Art14(3)",
+          "type": "paragraph"
+        }
+      }
+    ]
+  }
+]
