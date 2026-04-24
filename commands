@@ -1,17 +1,40 @@
-# 1) Build GDPR clauses JSON from reg test data (5/6/13/14)
-.venv/bin/python /Users/my/Documents/projects/detectionDeviation/helpers/gdpr_clause_builder.py
+# 1) Build GDPR clauses JSON from reg test data
+.venv/bin/python helpers/gdpr_clause_builder.py \
+  --input-file /Users/my/Documents/projects/detectionDeviation/datasets/reg/test_data/test_reg.txt \
+  --output-file /Users/my/Documents/projects/detectionDeviation/gdpr_clause/gdpr_clauses.json
+
 
 # 2) Run end-to-end policy analysis (REA sample)
-.venv/bin/python /Users/my/Documents/projects/detectionDeviation/helpers/run_gdpr_pipeline.py \
-  --policy-file /Users/my/Documents/projects/detectionDeviation/datasets/rea/test_data \
+.venv/bin/python helpers/gdpr_clause_retrieval.py \
+  --mode run \
+  --clauses-json /Users/my/Documents/projects/detectionDeviation/gdpr_clause/gdpr_clauses.json \
+  --queries-path /Users/my/Documents/projects/detectionDeviation/datasets/rea/test_data \
   --top-k 10 \
-  --graph-hops 2 \
-  --graph-max-clauses 30 \
-  --output-file /Users/my/Documents/projects/detectionDeviation/gdpr_clause/deviation_context.json
+  --output-file /Users/my/Documents/projects/detectionDeviation/gdpr_clause/rea_top_matches.json
+
+ # with debug file to see how the scores are created:
+.venv/bin/python /Users/my/Documents/projects/detectionDeviation/helpers/gdpr_clause_retrieval.py \
+  --mode query \
+  --backend tfidf \
+  --clauses-json /Users/my/Documents/projects/detectionDeviation/gdpr_clause/gdpr_clauses.json \
+  --queries-path /Users/my/Documents/projects/detectionDeviation/datasets/rea/test_data \
+  --top-k 10 \
+  --score-debug-dir /Users/my/Documents/projects/detectionDeviation/gdpr_clause/score_debug \
+  --output-file /Users/my/Documents/projects/detectionDeviation/gdpr_clause/rea_top_matches.json
+
 
 # visualise graph
 cd /Users/my/Documents/projects/detectionDeviation
 .venv/bin/python /Users/my/Documents/projects/detectionDeviation/helpers/visualize_gdpr_subgraph.py \
-  --reg-file /Users/my/Documents/projects/detectionDeviation/reg_ids.txt \
+  --reg-file /Users/my/Documents/projects/detectionDeviation/regs_id.txt \
   --only-selected-regs \
   --output-file /Users/my/Documents/projects/detectionDeviation/gdpr_clause/subgraph_from_reg_ids.html
+
+# visualise graph_new_stricter_own_schema
+.venv/bin/python /Users/my/Documents/projects/detectionDeviation/helpers/visualize_gdpr_subgraph.py \
+  --reg-file /Users/my/Documents/projects/detectionDeviation/regs_id.txt \
+  --only-selected-regs \
+  --full-graph \
+  --unbounded \
+  --output-file /Users/my/Documents/projects/detectionDeviation/gdpr_clause/full_graph_from_regs_id.html
+

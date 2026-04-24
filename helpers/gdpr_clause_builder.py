@@ -13,6 +13,7 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from gdpr_compliance.concept_extractor import extract_concepts
+from gdpr_compliance.reference_resolver import extract_precise_references
 from gdpr_compliance.schema import normalize_clause_record
 
 
@@ -32,15 +33,6 @@ class GDPRClause(TypedDict):
 LINE_PATTERN = re.compile(r"^(REG-\d+)\s+\[(Art\.\s*\d+(?:\([^)]*\))*)[^\]]*\]\s*(.+)$")
 LOCATION_PATTERN = re.compile(r"^Art\.\s*(\d+)((?:\([^)]*\))*)$")
 REF_PATTERN = re.compile(r"\s*\[Ref:[^\]]+\]")
-REF_CONTENT_PATTERN = re.compile(r"\[Ref:\s*([^\]]+?)\]", flags=re.IGNORECASE)
-ARTICLE_FROM_REF_CONTENT_PATTERN = re.compile(r"\bArticle\s+(\d+)(\([^)]*\))?", flags=re.IGNORECASE)
-ARTICLE_LIST_PATTERN = re.compile(
-    r"\bArticle(?:s)?\s+((?:\d+(?:\([^)]*\))?(?:\s*(?:,|and|or)\s*)?)+)",
-    flags=re.IGNORECASE,
-)
-ARTICLE_DIRECT_PATTERN = re.compile(r"\bArticle\s+(\d+(?:\([^)]*\))*)", flags=re.IGNORECASE)
-ART_DIRECT_PATTERN = re.compile(r"\bArt\.?\s*(\d+(?:\([^)]*\))*)", flags=re.IGNORECASE)
-REF_TOKEN_PATTERN = re.compile(r"\d+(?:\([^)]*\))*")
 REG_AND_LOCATION_PATTERN = re.compile(r"^(REG-\d+)\s+\[(Art\.\s*\d+(?:\([^)]*\))*)", flags=re.IGNORECASE)
 
 
@@ -75,15 +67,19 @@ def infer_clause_type(location_suffix: str) -> str:
     return "paragraph"
 
 
-def _canonical_article_ref(article_number: str, suffix: str = "") -> str:
-    return f"Art{int(article_number)}{suffix.replace(' ', '')}"
-
-
 def _reference_to_article_root(reference: str) -> str | None:
     match = re.match(r"^Art(\d+)", reference)
     if not match:
         return None
     return f"Art{int(match.group(1))}"
+
+
+def _canonical_location(raw_location: str) -> str | None:
+    location_match = LOCATION_PATTERN.match(raw_location)
+    if not location_match:
+        return None
+    article_number, suffix = location_match.groups()
+    return f"Art{int(article_number)}{suffix}"
 
 
 def _dedupe_keep_order(items: list[str]) -> list[str]:
@@ -95,58 +91,6 @@ def _dedupe_keep_order(items: list[str]) -> list[str]:
         seen.add(item)
         ordered.append(item)
     return ordered
-
-
-def _drop_generic_refs_when_specific_exists(references: list[str]) -> list[str]:
-    specific_roots = {
-        root
-        for reference in references
-        if "(" in reference
-        for root in [_reference_to_article_root(reference)]
-        if root
-    }
-    filtered: list[str] = []
-    for reference in references:
-        root = _reference_to_article_root(reference)
-        if root and "(" not in reference and root in specific_roots:
-            continue
-        filtered.append(reference)
-    return filtered
-
-
-def extract_references(raw_text: str, clean_text: str) -> list[str]:
-    refs: list[str] = []
-
-    # 1) Explicit inline [Ref: Article X Context] tags.
-    for content in REF_CONTENT_PATTERN.findall(raw_text):
-        for article_number, suffix in ARTICLE_FROM_REF_CONTENT_PATTERN.findall(content):
-            refs.append(_canonical_article_ref(article_number, suffix))
-
-    # 2) In-text Article lists, e.g. "Article 46 or 47".
-    for list_payload in ARTICLE_LIST_PATTERN.findall(clean_text):
-        for token in REF_TOKEN_PATTERN.findall(list_payload):
-            number_match = re.match(r"^(\d+)((?:\([^)]*\))*)$", token)
-            if not number_match:
-                continue
-            article_number, suffix = number_match.groups()
-            refs.append(_canonical_article_ref(article_number, suffix))
-
-    # 3) In-text direct mentions, e.g. "Article 49(1)" or "Art. 6(1)".
-    for token in ARTICLE_DIRECT_PATTERN.findall(clean_text):
-        number_match = re.match(r"^(\d+)((?:\([^)]*\))*)$", token)
-        if not number_match:
-            continue
-        article_number, suffix = number_match.groups()
-        refs.append(_canonical_article_ref(article_number, suffix))
-
-    for token in ART_DIRECT_PATTERN.findall(clean_text):
-        number_match = re.match(r"^(\d+)((?:\([^)]*\))*)$", token)
-        if not number_match:
-            continue
-        article_number, suffix = number_match.groups()
-        refs.append(_canonical_article_ref(article_number, suffix))
-
-    return _drop_generic_refs_when_specific_exists(_dedupe_keep_order(refs))
 
 
 def parse_line(raw_line: str) -> GDPRClause | None:
@@ -166,10 +110,17 @@ def parse_line(raw_line: str) -> GDPRClause | None:
     article_number, suffix = location_match.groups()
     clean_text = REF_PATTERN.sub("", raw_text)
     clean_text = re.sub(r"\s+", " ", clean_text).strip()
-    references = extract_references(raw_text=raw_text, clean_text=clean_text)
 
     article = f"Art{article_number}"
     location = f"{article}{suffix}"
+    references = extract_precise_references(
+        clean_text,
+        {
+            "id": reg_id,
+            "article": article,
+            "location": location,
+        },
+    )
     concepts = extract_concepts(clean_text)
 
     normalized = normalize_clause_record(
@@ -203,8 +154,16 @@ def build_article_to_clause_ids(clauses: list[GDPRClause]) -> dict[str, list[str
     return article_to_clause_ids
 
 
-def load_external_article_index(paths: list[Path]) -> dict[str, list[str]]:
+def build_location_to_clause_ids(clauses: list[GDPRClause]) -> dict[str, list[str]]:
+    location_to_clause_ids: dict[str, list[str]] = defaultdict(list)
+    for clause in clauses:
+        location_to_clause_ids[clause["location"]].append(clause["id"])
+    return location_to_clause_ids
+
+
+def load_external_indexes(paths: list[Path]) -> tuple[dict[str, list[str]], dict[str, list[str]]]:
     article_to_clause_ids: dict[str, list[str]] = defaultdict(list)
+    location_to_clause_ids: dict[str, list[str]] = defaultdict(list)
     for path in paths:
         if not path.is_file():
             continue
@@ -216,36 +175,85 @@ def load_external_article_index(paths: list[Path]) -> dict[str, list[str]]:
             if not match:
                 continue
             reg_id, raw_location = match.groups()
-            location_match = LOCATION_PATTERN.match(raw_location)
-            if not location_match:
+            canonical_location = _canonical_location(raw_location)
+            if canonical_location is None:
                 continue
-            article_number, _ = location_match.groups()
-            article = f"Art{int(article_number)}"
+            article = _reference_to_article_root(canonical_location)
+            if article is None:
+                continue
             article_to_clause_ids[article].append(reg_id)
+            location_to_clause_ids[canonical_location].append(reg_id)
 
     # Ensure deterministic ordering and deduplication.
-    return {article: _dedupe_keep_order(ids) for article, ids in article_to_clause_ids.items()}
+    normalized_article_index = {article: _dedupe_keep_order(ids) for article, ids in article_to_clause_ids.items()}
+    normalized_location_index = {loc: _dedupe_keep_order(ids) for loc, ids in location_to_clause_ids.items()}
+    return normalized_article_index, normalized_location_index
+
+
+def _resolve_reference_targets(
+    reference: str,
+    article_index: dict[str, list[str]],
+    location_index: dict[str, list[str]],
+    exclude_clause_id: str | None = None,
+) -> list[str]:
+    # 1) Exact location match (best precision).
+    exact_targets = location_index.get(reference, [])
+    if exclude_clause_id is not None:
+        exact_targets = [reg_id for reg_id in exact_targets if reg_id != exclude_clause_id]
+    if exact_targets:
+        return _dedupe_keep_order(exact_targets)
+
+    # 2) Prefix location match for paragraph-level refs, e.g. Art49(1) -> Art49(1)(a)/(b)/...
+    if "(" in reference:
+        prefixed_targets: list[str] = []
+        prefix = f"{reference}("
+        for location, reg_ids in location_index.items():
+            if location.startswith(prefix):
+                prefixed_targets.extend(reg_ids)
+        if exclude_clause_id is not None:
+            prefixed_targets = [reg_id for reg_id in prefixed_targets if reg_id != exclude_clause_id]
+        if prefixed_targets:
+            return _dedupe_keep_order(prefixed_targets)
+
+    # 3) Article-level fallback.
+    article_root = _reference_to_article_root(reference)
+    if not article_root:
+        return []
+
+    article_targets = article_index.get(article_root, [])
+    if exclude_clause_id is not None:
+        article_targets = [reg_id for reg_id in article_targets if reg_id != exclude_clause_id]
+    return _dedupe_keep_order(article_targets)
 
 
 def resolve_reference_clause_ids(
     clauses: list[GDPRClause],
     local_article_index: dict[str, list[str]],
+    local_location_index: dict[str, list[str]],
     external_article_index: dict[str, list[str]],
+    external_location_index: dict[str, list[str]],
 ) -> None:
     for clause in clauses:
         targets: list[str] = []
         for reference in clause.get("references", []):
-            article_root = _reference_to_article_root(reference)
-            if not article_root:
-                continue
-
-            local_targets = [reg_id for reg_id in local_article_index.get(article_root, []) if reg_id != clause["id"]]
+            local_targets = _resolve_reference_targets(
+                reference=reference,
+                article_index=local_article_index,
+                location_index=local_location_index,
+                exclude_clause_id=clause["id"],
+            )
             if local_targets:
                 targets.extend(local_targets)
                 continue
 
             # Fallback: resolve from external cleaned corpus when article missing in local JSON scope.
-            targets.extend(external_article_index.get(article_root, []))
+            targets.extend(
+                _resolve_reference_targets(
+                    reference=reference,
+                    article_index=external_article_index,
+                    location_index=external_location_index,
+                )
+            )
 
         clause["reference_clause_ids"] = _dedupe_keep_order(targets)
 
@@ -278,11 +286,14 @@ def extract_clauses(files: list[Path], external_reference_files: list[Path] | No
             clauses.append(clause)
 
     local_article_index = build_article_to_clause_ids(clauses)
-    external_article_index = load_external_article_index(external_reference_files or [])
+    local_location_index = build_location_to_clause_ids(clauses)
+    external_article_index, external_location_index = load_external_indexes(external_reference_files or [])
     resolve_reference_clause_ids(
         clauses=clauses,
         local_article_index=local_article_index,
+        local_location_index=local_location_index,
         external_article_index=external_article_index,
+        external_location_index=external_location_index,
     )
 
     return clauses
@@ -290,7 +301,7 @@ def extract_clauses(files: list[Path], external_reference_files: list[Path] | No
 
 def build_parser() -> argparse.ArgumentParser:
     root = Path(__file__).resolve().parents[1]
-    default_input_file = root / "datasets" / "reg" / "test_data" / "test_5_6_13_14.txt"
+    default_input_file = root / "datasets" / "reg" / "test_data" / "test_reg.txt"
 
     parser = argparse.ArgumentParser(description="Build GDPR clauses JSON from dataset text files.")
     parser.add_argument(
