@@ -1,7 +1,9 @@
 # 1) Build GDPR clauses JSON from reg test data
-.venv/bin/python helpers/gdpr_clause_builder.py \
+cd /Users/my/Documents/projects/detectionDeviation
+.venv/bin/python /Users/my/Documents/projects/detectionDeviation/helpers/gdpr_clause_builder.py \
   --input-file /Users/my/Documents/projects/detectionDeviation/datasets/reg/test_data/test_reg.txt \
   --output-file /Users/my/Documents/projects/detectionDeviation/gdpr_clause/gdpr_clauses.json
+
 
 
 # 2) Run end-to-end policy analysis (REA sample)
@@ -17,12 +19,45 @@
   --mode query \
   --backend tfidf \
   --clauses-json /Users/my/Documents/projects/detectionDeviation/gdpr_clause/gdpr_clauses.json \
-  --queries-path /Users/my/Documents/projects/detectionDeviation/datasets/rea/test_data \
+  --queries-path /Users/my/Documents/projects/detectionDeviation/datasets/rea/transformed_text_2.txt \
   --top-k 10 \
   --score-debug-dir /Users/my/Documents/projects/detectionDeviation/gdpr_clause/score_debug \
   --output-file /Users/my/Documents/projects/detectionDeviation/gdpr_clause/rea_top_matches.json
 
+File: rea_top_matches.json
+Produced by: gdpr_clause_retrieval.py
+Uses the hybrid scorer from vector_index.py:
+vector similarity + BM25 + concept overlap fusion
+Input corpus: gdpr_clauses.json (standard clause records)
 
+# 2B) ==================================================================================================================
+
+# Build structured embeddings + vector storage:
+.venv/bin/python /Users/my/Documents/projects/detectionDeviation/helpers/build_structured_clause_embeddings.py \
+  --input-json /Users/my/Documents/projects/detectionDeviation/gdpr_clause/gdpr_clauses.json \
+  --output-json /Users/my/Documents/projects/detectionDeviation/gdpr_clause/structured_embeddings/clauses_structured_embeddings.json \
+  --vectors-npy /Users/my/Documents/projects/detectionDeviation/gdpr_clause/structured_embeddings/embeddings.npy \
+  --vectors-metadata-json /Users/my/Documents/projects/detectionDeviation/gdpr_clause/structured_embeddings/embeddings_metadata.json \
+  --embedding-backend sentence
+
+# Query top matches from structured vectors:
+cd /Users/my/Documents/projects/detectionDeviation
+.venv/bin/python /Users/my/Documents/projects/detectionDeviation/helpers/query_structured_clause_vectors.py \
+  --records-json /Users/my/Documents/projects/detectionDeviation/gdpr_clause/structured_embeddings/clauses_structured_embeddings.json \
+  --vectors-npy /Users/my/Documents/projects/detectionDeviation/gdpr_clause/structured_embeddings/embeddings.npy \
+  --query-file /Users/my/Documents/projects/detectionDeviation/datasets/rea/test_data \
+  --top-k 10 \
+  --vector-top-k 50 \
+  --bm25-top-k 50 \
+  --vector-weight 0.6 \
+  --bm25-weight 0.3 \
+  --concept-overlap-weight 0.1 \
+  --score-debug-file /Users/my/Documents/projects/detectionDeviation/gdpr_clause/score_debug/score_debug_query_results.json \
+  --output-file /Users/my/Documents/projects/detectionDeviation/gdpr_clause/query_results.json
+
+
+
+========================================================================================================================
 # visualise graph
 cd /Users/my/Documents/projects/detectionDeviation
 .venv/bin/python /Users/my/Documents/projects/detectionDeviation/helpers/visualize_gdpr_subgraph.py \
