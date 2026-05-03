@@ -193,7 +193,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--queries-path",
         type=Path,
-        default=project_root / "datasets" / "rea" / "test_data",
+        default=project_root / "datasets" / "rea" / "test_data.txt",
         help="Path to policy text file or directory.",
     )
     parser.add_argument(

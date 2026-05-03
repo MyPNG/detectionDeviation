@@ -93,16 +93,13 @@ class RequirementsExtractor:
             )
         return sections
 
-    def identify_paragraph(self, text_item: dict[str, Any], is_first_in_group: bool) -> bool:
+    def identify_paragraph(self, text_item: dict[str, Any]) -> bool:
         """
         Paragraph rule:
         - label == list_item
-        - first item in a group
         - text does NOT start with sub-marker like (a)
         """
         if str(text_item.get("label", "")).strip() != "list_item":
-            return False
-        if not is_first_in_group:
             return False
         text = self._normalize_text(str(text_item.get("text", "")))
         return BULLET_RE.match(text) is None
@@ -223,11 +220,6 @@ class RequirementsExtractor:
                 continue
             article_no = article_section.number
 
-            first_item = self.texts[first_idx]
-            if self.identify_paragraph(first_item, is_first_in_group=True):
-                paragraph_counter_by_article[article_no] += 1
-                current_paragraph_by_article[article_no] = paragraph_counter_by_article[article_no]
-
             for idx in text_indices:
                 item = self.texts[idx]
                 if str(item.get("label", "")).strip() != "list_item":
@@ -237,6 +229,11 @@ class RequirementsExtractor:
                 if not text:
                     continue
 
+                # Each list_item without (a)/(b)/... starts a new paragraph.
+                if self.identify_paragraph(item):
+                    paragraph_counter_by_article[article_no] += 1
+                    current_paragraph_by_article[article_no] = paragraph_counter_by_article[article_no]
+
                 paragraph_no = current_paragraph_by_article.get(article_no)
                 bullet_letter = self.identify_bullet_point(item)
 
@@ -244,8 +241,6 @@ class RequirementsExtractor:
                     paragraph_value = f"{paragraph_no}({bullet_letter})"
                 elif bullet_letter and paragraph_no is None:
                     paragraph_value = f"({bullet_letter})"
-                elif idx == first_idx and paragraph_no is not None:
-                    paragraph_value = str(paragraph_no)
                 elif paragraph_no is not None:
                     paragraph_value = str(paragraph_no)
                 else:

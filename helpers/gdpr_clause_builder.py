@@ -15,6 +15,7 @@ if str(ROOT) not in sys.path:
 from gdpr_compliance.concept_extractor import extract_concepts
 from gdpr_compliance.reference_resolver import extract_precise_references
 from gdpr_compliance.schema import normalize_clause_record
+from pipeline.graphBuilder.additional_reference_detector import AdditionalReferenceDetector
 
 
 class GDPRClause(TypedDict):
@@ -34,6 +35,7 @@ LINE_PATTERN = re.compile(r"^(REG-\d+)\s+\[(Art\.\s*\d+(?:\([^)]*\))*)[^\]]*\]\s
 LOCATION_PATTERN = re.compile(r"^Art\.\s*(\d+)((?:\([^)]*\))*)$")
 REF_PATTERN = re.compile(r"\s*\[Ref:[^\]]+\]")
 REG_AND_LOCATION_PATTERN = re.compile(r"^(REG-\d+)\s+\[(Art\.\s*\d+(?:\([^)]*\))*)", flags=re.IGNORECASE)
+ADDITIONAL_REFERENCE_DETECTOR = AdditionalReferenceDetector()
 
 
 def discover_dataset_files(dataset_root: Path) -> list[Path]:
@@ -113,7 +115,7 @@ def parse_line(raw_line: str) -> GDPRClause | None:
 
     article = f"Art{article_number}"
     location = f"{article}{suffix}"
-    references = extract_precise_references(
+    references_precise = extract_precise_references(
         clean_text,
         {
             "id": reg_id,
@@ -121,6 +123,11 @@ def parse_line(raw_line: str) -> GDPRClause | None:
             "location": location,
         },
     )
+    references_additional = ADDITIONAL_REFERENCE_DETECTOR.detect_additional_references(
+        clean_text,
+        current_article=article,
+    )
+    references = _dedupe_keep_order(references_precise + references_additional)
     concepts = extract_concepts(clean_text)
 
     normalized = normalize_clause_record(
@@ -301,7 +308,7 @@ def extract_clauses(files: list[Path], external_reference_files: list[Path] | No
 
 def build_parser() -> argparse.ArgumentParser:
     root = Path(__file__).resolve().parents[1]
-    default_input_file = root / "datasets" / "reg" / "test_data" / "test_reg.txt"
+    default_input_file = root / "datasets" / "reg" / "test_data.txt" / "test_reg.txt"
 
     parser = argparse.ArgumentParser(description="Build GDPR clauses JSON from dataset text files.")
     parser.add_argument(
