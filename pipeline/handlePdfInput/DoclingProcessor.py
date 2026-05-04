@@ -102,9 +102,9 @@ class DoclingProcessor:
 if __name__ == "__main__":
     processor = DoclingProcessor()
 
-    pdf_path = Path("/Users/my/Documents/projects/detectionDeviation/datasets/reg/gdpr.pdf")
-    md_path = Path("/Users/my/Documents/projects/detectionDeviation/datasets/reg/gdpr.md")
-    json_path = Path("/Users/my/Documents/projects/detectionDeviation/datasets/reg/gdpr.json")
+    pdf_path = Path("/input/reg/gdpr.pdf")
+    md_path = Path("/input/reg/gdpr.md")
+    json_path = Path("/input/reg/gdpr.json")
     include_articles: list[int] | None = None
     # Example filter:
     include_articles = [6, 8, 9, 10, 13, 14, 15, 16, 17, 18, 20, 21, 22, 23, 26, 40, 42, 45, 46, 47, 49, 63, 77, 78, 89, 93 ]
