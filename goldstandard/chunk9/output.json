@@ -10,33 +10,33 @@
     "reg_id": "REG-012",
     "clause": "Art 13(1)",
     "considered_references": [
-      "REG-001"
+      "Art6(1)"
     ],
     "deviation_found": false,
     "deviations": [],
-    "analysis": "The policy chunk identifies the purposes of processing and explicitly cites the legal bases (Art 6(1)(a) and Art 6(1)(b)) as required by Article 13(1)(c). Omissions regarding controller identity, DPO contact, and recipients are skipped per Rule 4."
+    "analysis": "The policy chunk identifies the purposes of processing and explicitly cites the legal bases (Art 6(1)(a) and Art 6(1)(b)) as required by Article 13(1)(c)."
   },
   {
     "reg_id": "REG-013",
     "clause": "Art 13(2)",
     "considered_references": [
-      "REG-001",
-      "REG-009",
-      "REG-041"
+      "Art6(1)",
+      "Art9(2)",
+      "Art22(1)"
     ],
     "deviation_found": false,
     "deviations": [],
-    "analysis": "The policy chunk provides criteria for the storage period based on contractual necessity and legal retention obligations, fulfilling Article 13(2)(a). Omissions regarding data subject rights are skipped per Rule 4."
+    "analysis": "The policy chunk provides criteria for the storage period based on contractual necessity and legal retention obligations, fulfilling Article 13(2)(a)."
   },
   {
     "reg_id": "REG-025",
     "clause": "Art 17(1)",
     "considered_references": [
-      "REG-001",
-      "REG-005",
-      "REG-009",
-      "REG-035",
-      "REG-036"
+      "Art6(1)",
+      "Art8(1)",
+      "Art9(2)",
+      "Art21(1)",
+      "Art21(2)"
     ],
     "deviation_found": false,
     "deviations": [],

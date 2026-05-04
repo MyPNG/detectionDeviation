@@ -10,7 +10,7 @@
     "reg_id": "REG-012",
     "clause": "Art 13(1)",
     "considered_references": [
-      "REG-001"
+      "Art6(1)"
     ],
     "deviation_found": false,
     "deviations": []
@@ -19,8 +19,8 @@
     "reg_id": "REG-013",
     "clause": "Art 13(2)",
     "considered_references": [
-      "REG-001",
-      "REG-009"
+      "Art6(1)",
+      "Art9(2)"
     ],
     "deviation_found": true,
     "deviations": [
@@ -41,14 +41,14 @@
     "reg_id": "REG-017",
     "clause": "Art 14(2)",
     "considered_references": [
-      "REG-001",
-      "REG-009"
+      "Art6(1)",
+      "Art9(2)"
     ],
     "deviation_found": true,
     "deviations": [
       {
         "deviation_type": "Data deviation",
-        "analysis": "Article 14(2)(c) requires informing the data subject of the right to object to processing. As the regulation specifies that the right to object to direct marketing and legitimate interest processing (Art 6(1)(f)) includes profiling, the policy chunk's omission of profiling when informing the user of their objection rights constitutes a narrowing of the scope of processing activities covered by that right."
+        "analysis": "GDPR: States that your right to object to marketing includes profiling. The Policy: Mentions the right to object to marketing but leaves out the word \"profiling\"."
       }
     ]
   },
@@ -56,11 +56,11 @@
     "reg_id": "REG-025",
     "clause": "Art 17(1)",
     "considered_references": [
-      "REG-001",
-      "REG-005",
-      "REG-009",
-      "REG-035",
-      "REG-036"
+      "Art6(1)",
+      "Art8(1)",
+      "Art9(2)",
+      "Art21(1)",
+      "Art21(2)"
     ],
     "deviation_found": false,
     "deviations": []
@@ -69,13 +69,13 @@
     "reg_id": "REG-035",
     "clause": "Art 21(1)",
     "considered_references": [
-      "REG-001"
+      "Art6(1)"
     ],
     "deviation_found": true,
     "deviations": [
       {
         "deviation_type": "Data deviation",
-        "analysis": "Article 21(1) grants the data subject the right to object to processing based on legitimate interests (Art 6(1)(f)), explicitly including profiling based on those provisions. The policy chunk cites Art 6(1)(f) as the basis for its marketing activities but omits profiling from the scope of the right to object it presents to the user, thereby narrowing the category of processing to which the subject can object."
+        "analysis": "(GDPR): Article 21(1) states that if a company uses \"legitimate interests\" as their reason for processing your data, you have the right to object to that processing—and the law specifically points out that this includes profiling.\n\nThe Policy: The company admits they are using \"legitimate interests\" for marketing, but when they describe your right to object, they leave out the word profiling."
       }
     ]
   },
@@ -87,7 +87,7 @@
     "deviations": [
       {
         "deviation_type": "Data deviation",
-        "analysis": "Article 21(2) establishes an absolute right for data subjects to object to processing for direct marketing purposes, specifically stating that this 'includes profiling.' The policy chunk describes the right to object to direct marketing but narrows the specific scope of the right by omitting profiling from the description of the processing activities covered."
+        "analysis": "similar arguemtn as in REG-035 and REG-017"
       }
     ]
   }

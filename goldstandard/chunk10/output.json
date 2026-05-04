@@ -10,7 +10,7 @@
     "reg_id": "REG-012",
     "clause": "Art 13(1)",
     "considered_references": [
-      "REG-001"
+      "Art6(1)"
     ],
     "deviation_found": false,
     "deviations": []
@@ -19,8 +19,8 @@
     "reg_id": "REG-013",
     "clause": "Art 13(2)",
     "considered_references": [
-      "REG-001",
-      "REG-025"
+      "Art6(1)",
+      "Art17(1)"
     ],
     "deviation_found": false,
     "deviations": []

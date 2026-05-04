@@ -11,23 +11,23 @@
     "reg_id": "REG-012",
     "clause": "Art 13(1)",
     "considered_references": [
-      "REG-001"
+      "Art6(1)"
     ],
     "deviation_found": false,
     "deviations": [],
-    "analysis": "The policy chunk provides the processing purposes and legal bases required by Article 13(1)(c) and describes the legitimate interests as required by Article 13(1)(d). While it omits other mandatory information (controller identity, recipients, etc.), these are completeness deviations and are skipped per Rule 4."
+    "analysis": "The policy chunk provides the processing purposes and legal bases required by Article 13(1)(c) and describes the legitimate interests as required by Article 13(1)(d)."
   },
   {
     "reg_id": "REG-013",
     "clause": "Art 13(2)",
     "considered_references": [
-      "REG-001",
-      "REG-009",
-      "REG-041"
+      "Art6(1)",
+      "Art9(2)",
+      "Art22(1)"
     ],
     "deviation_found": false,
     "deviations": [],
-    "analysis": "The policy chunk provides criteria for the storage period (Art 13(2)(a)) and informs the user that the provision of data is voluntary and not a prerequisite (Art 13(2)(e)). Omissions of subject rights or the right to lodge a complaint are skipped per Rule 4."
+    "analysis": "The policy chunk provides criteria for the storage period (Art 13(2)(a)) and informs the user that the provision of data is voluntary and not a prerequisite (Art 13(2)(e))."
   },
   {
     "reg_id": "REG-016",
@@ -40,9 +40,9 @@
     "reg_id": "REG-017",
     "clause": "Art 14(2)",
     "considered_references": [
-      "REG-001",
-      "REG-009",
-      "REG-041"
+      "Art6(1)",
+      "Art9(2)",
+      "Art22(1)"
     ],
     "deviation_found": false,
     "deviations": []
@@ -58,11 +58,11 @@
     "reg_id": "REG-025",
     "clause": "Art 17(1)",
     "considered_references": [
-      "REG-001",
-      "REG-009",
-      "REG-035",
-      "REG-036",
-      "REG-005"
+      "Art6(1)",
+      "Art9(2)",
+      "Art21(1)",
+      "Art21(2)",
+      "Art8(1)"
     ],
     "deviation_found": false,
     "deviations": [],

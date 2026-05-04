@@ -10,7 +10,7 @@
     "reg_id": "REG-012",
     "clause": "Art 13(1)",
     "considered_references": [
-      "REG-001"
+      "Art6(1)"
     ],
     "deviation_found": false,
     "deviations": []
@@ -19,9 +19,9 @@
     "reg_id": "REG-013",
     "clause": "Art 13(2)",
     "considered_references": [
-      "REG-001",
-      "REG-009",
-      "REG-041"
+      "Art6(1)",
+      "Art9(2)",
+      "Art22(1)"
     ],
     "deviation_found": false,
     "deviations": []
@@ -37,9 +37,9 @@
     "reg_id": "REG-017",
     "clause": "Art 14(2)",
     "considered_references": [
-      "REG-001",
-      "REG-009",
-      "REG-041"
+      "Art6(1)",
+      "Art9(2)",
+      "Art22(1)"
     ],
     "deviation_found": false,
     "deviations": []
@@ -48,7 +48,7 @@
     "reg_id": "REG-035",
     "clause": "Art 21(1)",
     "considered_references": [
-      "REG-001"
+      "Art6(1)"
     ],
     "deviation_found": false,
     "deviations": []
