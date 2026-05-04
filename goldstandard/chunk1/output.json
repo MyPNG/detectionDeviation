@@ -1,0 +1,138 @@
+[
+  {
+    "reg_id": "REG-001",
+    "clause": "Art6(1)",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": [],
+    "analysis": "The policy chunk satisfies the regulatory context of Article 6(1) by correctly identifying Art 6(1)(f) as the trigger for the right to object. Article 6(1) defines the lawfulness of processing rather than mandatory policy disclosures (which are covered by Articles 13 and 14). As the policy text does not contradict or narrow the legal grounds established in this article, no deviation is found."
+  },
+  {
+    "reg_id": "REG-005",
+    "clause": "Art 8(1)",
+    "considered_references": [
+      "REG-001"
+    ],
+    "deviation_found": false,
+    "deviations": [],
+    "analysis": "The policy chunk references Article 8(1) correctly as a condition that limits the right to erasure. It does not narrow the age threshold or parental consent requirements established by the GDPR, nor does it contradict the link to Article 6(1)(a) regarding the legal basis of consent. Following a pragmatic audit approach, the omission of specific age numbers (e.g., '16 years') in a summary of rights is not a deviation, as the policy accurately incorporates the regulatory category by reference."
+  },
+  {
+    "reg_id": "REG-013",
+    "clause": "Art 13(2)",
+    "considered_references": [
+      "REG-001",
+      "REG-009",
+      "REG-041",
+      "REG-044"
+    ],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Data deviation",
+        "analysis": "Regarding the implementation of the Right of Access under Article 13(2)(b), the policy narrows the scope of information to personal data the company 'stores' rather than all data 'being processed' as required by the regulation."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-017",
+    "clause": "Art 14(2)",
+    "considered_references": [
+      "REG-001",
+      "REG-041",
+      "REG-044"
+    ],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Data deviation",
+        "analysis": "In describing the right of access required by Article 14(2)(c), the policy chunk limits the scope to personal data that the company 'stores.' This narrows the regulatory scope defined in the referenced Article 15, which grants access to all data 'being processed,' regardless of whether it is currently in storage."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-021",
+    "clause": "Art15(1)",
+    "considered_references": [
+      "REG-041",
+      "REG-044"
+    ],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Data deviation",
+        "analysis": "Article 15(1) grants data subjects the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed. The policy chunk narrows this scope by stating the user can request information regarding data the company 'stores.' This represents a Data deviation as it restricts the right of access to data at rest (stored) and excludes other states of processing (e.g., data in transit or transient processing) mandated by the GDPR."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-025",
+    "clause": "Art 17(1)",
+    "considered_references": [
+      "REG-001",
+      "REG-005",
+      "REG-009",
+      "REG-035",
+      "REG-036"
+    ],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Data deviation",
+        "analysis": "The policy identifies the **Right to Erasure** but contains a **Data deviation**. It uses **scope narrowing** by limiting the erasure obligation to 'IT systems and databases'. This contradicts the **GDPR Requirement**, which demands the deletion of all personal data regardless of storage type (e.g., paper files). Other missing **trigger grounds**, like the right to erase after an **objection**, are **completeness deviations** and were **skipped** per instructions."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-028",
+    "clause": "Art18(1)",
+    "considered_references": [
+      "REG-035"
+    ],
+    "deviation_found": false,
+    "deviations": [],
+    "analysis": "The policy chunk acknowledges the existence of the 'Right to restrict processing' as required by Article 18(1). While the policy omits the specific grounds (a-d) under which this right applies (including the reference to Article 21(1)/REG-035), these omissions are classified as completeness deviations and are skipped per Rule 4. The active statement in the policy does not narrow the scope of the right or contradict the regulatory constraints."
+  },
+  {
+    "reg_id": "REG-031",
+    "clause": "Art 20(1)",
+    "considered_references": [
+      "REG-001",
+      "REG-009"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-035",
+    "clause": "Art 21(1)",
+    "considered_references": [
+      "REG-001",
+      "REG-036"
+    ],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Data deviation",
+        "analysis": "Article 21(1) defines the right to object to processing based on either Article 6(1)(e) or Article 6(1)(f). The policy chunk narrows the category of processing grounds by stating the right only applies if processing is based on Art 6(1)(f), effectively excluding objections to processing carried out in the public interest or exercise of official authority."
+      },
+      {
+        "deviation_type": "Data deviation",
+        "analysis": "While the regulation explicitly states the right to object includes 'profiling' based on the aforementioned legal provisions, the policy realization only mentions general 'processing.' This constitutes a Data deviation as it narrows the specific category of processing to which the data subject is informed they can object."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-092",
+    "clause": "Art 77(1)",
+    "considered_references": [
+      "REG-001",
+      "REG-005",
+      "REG-009",
+      "REG-035",
+      "REG-036"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  }
+]

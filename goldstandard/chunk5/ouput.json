@@ -1,0 +1,23 @@
+[
+  {
+    "reg_id": "REG-001",
+    "clause": "Article 6 Paragraph 1",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-012",
+    "clause": "Article 13 Paragraph 1",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-017",
+    "clause": "Article 14 Paragraph 2",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": []
+  }
+]

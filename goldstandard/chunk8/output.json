@@ -1,0 +1,71 @@
+[
+  {
+    "reg_id": "REG-001",
+    "clause": "Art 6(1)",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": [],
+    "analysis": "The policy chunk correctly identifies and applies Article 6(1)(f) (legitimate interest) for responding to general enquiries and Article 6(1)(b) (contractual/pre-contractual steps) for requests related to contracts. The phrasing aligns with the regulatory text, and no active deviations are present."
+  },
+  {
+    "reg_id": "REG-012",
+    "clause": "Art 13(1)",
+    "considered_references": [
+      "REG-001"
+    ],
+    "deviation_found": false,
+    "deviations": [],
+    "analysis": "The policy chunk provides the processing purposes and legal bases required by Article 13(1)(c) and describes the legitimate interests as required by Article 13(1)(d). While it omits other mandatory information (controller identity, recipients, etc.), these are completeness deviations and are skipped per Rule 4."
+  },
+  {
+    "reg_id": "REG-013",
+    "clause": "Art 13(2)",
+    "considered_references": [
+      "REG-001",
+      "REG-009",
+      "REG-041"
+    ],
+    "deviation_found": false,
+    "deviations": [],
+    "analysis": "The policy chunk provides criteria for the storage period (Art 13(2)(a)) and informs the user that the provision of data is voluntary and not a prerequisite (Art 13(2)(e)). Omissions of subject rights or the right to lodge a complaint are skipped per Rule 4."
+  },
+  {
+    "reg_id": "REG-016",
+    "clause": "Art 14(1)",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-017",
+    "clause": "Art 14(2)",
+    "considered_references": [
+      "REG-001",
+      "REG-009",
+      "REG-041"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-018",
+    "clause": "Art 14(3)",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-025",
+    "clause": "Art 17(1)",
+    "considered_references": [
+      "REG-001",
+      "REG-009",
+      "REG-035",
+      "REG-036",
+      "REG-005"
+    ],
+    "deviation_found": false,
+    "deviations": [],
+    "analysis": "The policy’s commitment to delete data once it is 'no longer required for processing your enquiry' aligns with the grounds for erasure under Article 17(1)(a). No deviations are found."
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "reg_id": "REG-001",
+    "clause": "Art 6(1)",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-012",
+    "clause": "Art 13(1)",
+    "considered_references": [
+      "REG-001"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-013",
+    "clause": "Art 13(2)",
+    "considered_references": [
+      "REG-001",
+      "REG-025"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-025",
+    "clause": "Art 17(1)",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-078",
+    "clause": "Art 46(1)",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": []
+  }
+]

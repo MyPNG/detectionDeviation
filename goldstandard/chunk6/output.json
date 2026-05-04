@@ -1,0 +1,39 @@
+[
+  {
+    "reg_id": "REG-012",
+    "clause": "Art 13(1)",
+    "considered_references": ["REG-001", "REG-078", "REG-079", "REG-080", "REG-083", "REG-084", "REG-086"],
+    "deviation_found": false,
+    "deviations": [],
+    "analysis": "The policy chunk provides the information required by Art 13(1)(f) regarding international transfers by referencing the use of EU Standard Contractual Clauses (Art 46(2)(c)) and providing a contact email for further information. The omission of the mention of adequacy decisions is a completeness deviation and is skipped per Rule 4."
+  },
+  {
+    "reg_id": "REG-016",
+    "clause": "Art 14(1)",
+    "considered_references": ["REG-078", "REG-079", "REG-080"],
+    "deviation_found": false,
+    "deviations": [],
+    "analysis": "The policy chunk addresses the requirements of Art 14(1)(f) for data not collected from the subject by specifying the safeguards (SCCs) used for international transfers. Active statements are compliant; omissions of other required info are skipped per Rule 4."
+  },
+  {
+    "reg_id": "REG-083",
+    "clause": "Art 47(1)",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-084",
+    "clause": "Art 47(2)",
+    "considered_references": ["REG-041", "REG-013", "REG-014"],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-085",
+    "clause": "Art 47(3)",
+    "considered_references": ["REG-083"],
+    "deviation_found": false,
+    "deviations": []
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "reg_id": "REG-001",
+    "clause": "Art 6(1)",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-012",
+    "clause": "Art 13(1)",
+    "considered_references": [
+      "REG-001"
+    ],
+    "deviation_found": false,
+    "deviations": [],
+    "analysis": "The policy chunk identifies the purposes of processing and explicitly cites the legal bases (Art 6(1)(a) and Art 6(1)(b)) as required by Article 13(1)(c). Omissions regarding controller identity, DPO contact, and recipients are skipped per Rule 4."
+  },
+  {
+    "reg_id": "REG-013",
+    "clause": "Art 13(2)",
+    "considered_references": [
+      "REG-001",
+      "REG-009",
+      "REG-041"
+    ],
+    "deviation_found": false,
+    "deviations": [],
+    "analysis": "The policy chunk provides criteria for the storage period based on contractual necessity and legal retention obligations, fulfilling Article 13(2)(a). Omissions regarding data subject rights are skipped per Rule 4."
+  },
+  {
+    "reg_id": "REG-025",
+    "clause": "Art 17(1)",
+    "considered_references": [
+      "REG-001",
+      "REG-005",
+      "REG-009",
+      "REG-035",
+      "REG-036"
+    ],
+    "deviation_found": false,
+    "deviations": [],
+    "analysis": "The policy's commitment to erase data when it is no longer required for the processing of the contractual relationship aligns with the ground for erasure defined in Article 17(1)(a)."
+  }
+]
