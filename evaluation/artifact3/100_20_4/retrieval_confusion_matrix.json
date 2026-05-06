@@ -1,0 +1,864 @@
+{
+  "gold_root": "/Users/my/Documents/projects/detectionDeviation/goldstandard",
+  "system_root": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100",
+  "evaluated_chunks": 12,
+  "skipped_chunks": 0,
+  "overall_metrics": {
+    "tp": 31,
+    "fn": 32,
+    "fp": 99,
+    "tn": 0,
+    "precision": 0.238462,
+    "recall": 0.492063,
+    "f1": 0.321244
+  },
+  "chunks": [
+    {
+      "expected_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/chunk1/output.json",
+      "actual_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk1/reg_main_clauses.csv",
+      "relevant_ids": [
+        "REG-001",
+        "REG-005",
+        "REG-013",
+        "REG-017",
+        "REG-021",
+        "REG-025",
+        "REG-028",
+        "REG-031",
+        "REG-035",
+        "REG-092"
+      ],
+      "retrieved_ids": [
+        "REG-009",
+        "REG-010",
+        "REG-012",
+        "REG-013",
+        "REG-017",
+        "REG-018",
+        "REG-020",
+        "REG-021",
+        "REG-025",
+        "REG-027",
+        "REG-028",
+        "REG-029",
+        "REG-030",
+        "REG-031",
+        "REG-032",
+        "REG-033",
+        "REG-035",
+        "REG-036",
+        "REG-038",
+        "REG-049",
+        "REG-092"
+      ],
+      "missed_reg_ids": [
+        "REG-001",
+        "REG-005"
+      ],
+      "false_positive_reg_ids": [
+        "REG-009",
+        "REG-010",
+        "REG-012",
+        "REG-018",
+        "REG-020",
+        "REG-027",
+        "REG-029",
+        "REG-030",
+        "REG-032",
+        "REG-033",
+        "REG-036",
+        "REG-038",
+        "REG-049"
+      ],
+      "true_positive_reg_ids": [
+        "REG-013",
+        "REG-017",
+        "REG-021",
+        "REG-025",
+        "REG-028",
+        "REG-031",
+        "REG-035",
+        "REG-092"
+      ],
+      "true_negative_reg_ids": [],
+      "confusion_table": [
+        {
+          "row_label": "Relevant (Gold Standard)",
+          "retrieved": 8,
+          "not_retrieved": 2,
+          "retrieved_label": "True Positives",
+          "not_retrieved_label": "False Negatives"
+        },
+        {
+          "row_label": "Irrelevant (Not in Gold)",
+          "retrieved": 13,
+          "not_retrieved": 0,
+          "retrieved_label": "False Positives",
+          "not_retrieved_label": "True Negatives"
+        }
+      ],
+      "metrics": {
+        "tp": 8,
+        "fn": 2,
+        "fp": 13,
+        "tn": 0,
+        "precision": 0.380952,
+        "recall": 0.8,
+        "f1": 0.516129
+      },
+      "chunk": "chunk1"
+    },
+    {
+      "expected_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/chunk2/output.json",
+      "actual_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk2/reg_main_clauses.csv",
+      "relevant_ids": [
+        "REG-013",
+        "REG-017",
+        "REG-092"
+      ],
+      "retrieved_ids": [
+        "REG-021",
+        "REG-092",
+        "REG-093",
+        "REG-095"
+      ],
+      "missed_reg_ids": [
+        "REG-013",
+        "REG-017"
+      ],
+      "false_positive_reg_ids": [
+        "REG-021",
+        "REG-093",
+        "REG-095"
+      ],
+      "true_positive_reg_ids": [
+        "REG-092"
+      ],
+      "true_negative_reg_ids": [],
+      "confusion_table": [
+        {
+          "row_label": "Relevant (Gold Standard)",
+          "retrieved": 1,
+          "not_retrieved": 2,
+          "retrieved_label": "True Positives",
+          "not_retrieved_label": "False Negatives"
+        },
+        {
+          "row_label": "Irrelevant (Not in Gold)",
+          "retrieved": 3,
+          "not_retrieved": 0,
+          "retrieved_label": "False Positives",
+          "not_retrieved_label": "True Negatives"
+        }
+      ],
+      "metrics": {
+        "tp": 1,
+        "fn": 2,
+        "fp": 3,
+        "tn": 0,
+        "precision": 0.25,
+        "recall": 0.333333,
+        "f1": 0.285714
+      },
+      "chunk": "chunk2"
+    },
+    {
+      "expected_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/chunk3/output.json",
+      "actual_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk3/reg_main_clauses.csv",
+      "relevant_ids": [
+        "REG-001",
+        "REG-013"
+      ],
+      "retrieved_ids": [
+        "REG-001",
+        "REG-010",
+        "REG-015",
+        "REG-016",
+        "REG-029",
+        "REG-042",
+        "REG-063",
+        "REG-087",
+        "REG-103",
+        "REG-104"
+      ],
+      "missed_reg_ids": [
+        "REG-013"
+      ],
+      "false_positive_reg_ids": [
+        "REG-010",
+        "REG-015",
+        "REG-016",
+        "REG-029",
+        "REG-042",
+        "REG-063",
+        "REG-087",
+        "REG-103",
+        "REG-104"
+      ],
+      "true_positive_reg_ids": [
+        "REG-001"
+      ],
+      "true_negative_reg_ids": [],
+      "confusion_table": [
+        {
+          "row_label": "Relevant (Gold Standard)",
+          "retrieved": 1,
+          "not_retrieved": 1,
+          "retrieved_label": "True Positives",
+          "not_retrieved_label": "False Negatives"
+        },
+        {
+          "row_label": "Irrelevant (Not in Gold)",
+          "retrieved": 9,
+          "not_retrieved": 0,
+          "retrieved_label": "False Positives",
+          "not_retrieved_label": "True Negatives"
+        }
+      ],
+      "metrics": {
+        "tp": 1,
+        "fn": 1,
+        "fp": 9,
+        "tn": 0,
+        "precision": 0.1,
+        "recall": 0.5,
+        "f1": 0.166667
+      },
+      "chunk": "chunk3"
+    },
+    {
+      "expected_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/chunk 4/output.json",
+      "actual_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk4/reg_main_clauses.csv",
+      "relevant_ids": [
+        "REG-001",
+        "REG-012",
+        "REG-013",
+        "REG-016",
+        "REG-017"
+      ],
+      "retrieved_ids": [
+        "REG-001",
+        "REG-003",
+        "REG-009",
+        "REG-015",
+        "REG-022",
+        "REG-069",
+        "REG-070",
+        "REG-075",
+        "REG-080",
+        "REG-085",
+        "REG-103"
+      ],
+      "missed_reg_ids": [
+        "REG-012",
+        "REG-013",
+        "REG-016",
+        "REG-017"
+      ],
+      "false_positive_reg_ids": [
+        "REG-003",
+        "REG-009",
+        "REG-015",
+        "REG-022",
+        "REG-069",
+        "REG-070",
+        "REG-075",
+        "REG-080",
+        "REG-085",
+        "REG-103"
+      ],
+      "true_positive_reg_ids": [
+        "REG-001"
+      ],
+      "true_negative_reg_ids": [],
+      "confusion_table": [
+        {
+          "row_label": "Relevant (Gold Standard)",
+          "retrieved": 1,
+          "not_retrieved": 4,
+          "retrieved_label": "True Positives",
+          "not_retrieved_label": "False Negatives"
+        },
+        {
+          "row_label": "Irrelevant (Not in Gold)",
+          "retrieved": 10,
+          "not_retrieved": 0,
+          "retrieved_label": "False Positives",
+          "not_retrieved_label": "True Negatives"
+        }
+      ],
+      "metrics": {
+        "tp": 1,
+        "fn": 4,
+        "fp": 10,
+        "tn": 0,
+        "precision": 0.090909,
+        "recall": 0.2,
+        "f1": 0.125
+      },
+      "chunk": "chunk 4"
+    },
+    {
+      "expected_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/chunk5/ouput.json",
+      "actual_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk5/reg_main_clauses.csv",
+      "relevant_ids": [
+        "REG-001",
+        "REG-012",
+        "REG-017"
+      ],
+      "retrieved_ids": [
+        "REG-001",
+        "REG-003",
+        "REG-012",
+        "REG-018",
+        "REG-022",
+        "REG-031",
+        "REG-042",
+        "REG-075",
+        "REG-080",
+        "REG-086"
+      ],
+      "missed_reg_ids": [
+        "REG-017"
+      ],
+      "false_positive_reg_ids": [
+        "REG-003",
+        "REG-018",
+        "REG-022",
+        "REG-031",
+        "REG-042",
+        "REG-075",
+        "REG-080",
+        "REG-086"
+      ],
+      "true_positive_reg_ids": [
+        "REG-001",
+        "REG-012"
+      ],
+      "true_negative_reg_ids": [],
+      "confusion_table": [
+        {
+          "row_label": "Relevant (Gold Standard)",
+          "retrieved": 2,
+          "not_retrieved": 1,
+          "retrieved_label": "True Positives",
+          "not_retrieved_label": "False Negatives"
+        },
+        {
+          "row_label": "Irrelevant (Not in Gold)",
+          "retrieved": 8,
+          "not_retrieved": 0,
+          "retrieved_label": "False Positives",
+          "not_retrieved_label": "True Negatives"
+        }
+      ],
+      "metrics": {
+        "tp": 2,
+        "fn": 1,
+        "fp": 8,
+        "tn": 0,
+        "precision": 0.2,
+        "recall": 0.666667,
+        "f1": 0.307692
+      },
+      "chunk": "chunk5"
+    },
+    {
+      "expected_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/chunk6/output.json",
+      "actual_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk6/reg_main_clauses.csv",
+      "relevant_ids": [
+        "REG-012",
+        "REG-016",
+        "REG-083",
+        "REG-084",
+        "REG-085"
+      ],
+      "retrieved_ids": [
+        "REG-022",
+        "REG-052",
+        "REG-062",
+        "REG-069",
+        "REG-078",
+        "REG-079",
+        "REG-080"
+      ],
+      "missed_reg_ids": [
+        "REG-012",
+        "REG-016",
+        "REG-083",
+        "REG-084",
+        "REG-085"
+      ],
+      "false_positive_reg_ids": [
+        "REG-022",
+        "REG-052",
+        "REG-062",
+        "REG-069",
+        "REG-078",
+        "REG-079",
+        "REG-080"
+      ],
+      "true_positive_reg_ids": [],
+      "true_negative_reg_ids": [],
+      "confusion_table": [
+        {
+          "row_label": "Relevant (Gold Standard)",
+          "retrieved": 0,
+          "not_retrieved": 5,
+          "retrieved_label": "True Positives",
+          "not_retrieved_label": "False Negatives"
+        },
+        {
+          "row_label": "Irrelevant (Not in Gold)",
+          "retrieved": 7,
+          "not_retrieved": 0,
+          "retrieved_label": "False Positives",
+          "not_retrieved_label": "True Negatives"
+        }
+      ],
+      "metrics": {
+        "tp": 0,
+        "fn": 5,
+        "fp": 7,
+        "tn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "chunk": "chunk6"
+    },
+    {
+      "expected_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/chunk7/output.json",
+      "actual_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk7/reg_main_clauses.csv",
+      "relevant_ids": [
+        "REG-001",
+        "REG-012",
+        "REG-013",
+        "REG-025",
+        "REG-078"
+      ],
+      "retrieved_ids": [
+        "REG-001",
+        "REG-012",
+        "REG-013",
+        "REG-017",
+        "REG-022",
+        "REG-026",
+        "REG-029",
+        "REG-035",
+        "REG-037",
+        "REG-069",
+        "REG-078",
+        "REG-090",
+        "REG-098"
+      ],
+      "missed_reg_ids": [
+        "REG-025"
+      ],
+      "false_positive_reg_ids": [
+        "REG-017",
+        "REG-022",
+        "REG-026",
+        "REG-029",
+        "REG-035",
+        "REG-037",
+        "REG-069",
+        "REG-090",
+        "REG-098"
+      ],
+      "true_positive_reg_ids": [
+        "REG-001",
+        "REG-012",
+        "REG-013",
+        "REG-078"
+      ],
+      "true_negative_reg_ids": [],
+      "confusion_table": [
+        {
+          "row_label": "Relevant (Gold Standard)",
+          "retrieved": 4,
+          "not_retrieved": 1,
+          "retrieved_label": "True Positives",
+          "not_retrieved_label": "False Negatives"
+        },
+        {
+          "row_label": "Irrelevant (Not in Gold)",
+          "retrieved": 9,
+          "not_retrieved": 0,
+          "retrieved_label": "False Positives",
+          "not_retrieved_label": "True Negatives"
+        }
+      ],
+      "metrics": {
+        "tp": 4,
+        "fn": 1,
+        "fp": 9,
+        "tn": 0,
+        "precision": 0.307692,
+        "recall": 0.8,
+        "f1": 0.444444
+      },
+      "chunk": "chunk7"
+    },
+    {
+      "expected_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/chunk8/output.json",
+      "actual_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk8/reg_main_clauses.csv",
+      "relevant_ids": [
+        "REG-001",
+        "REG-012",
+        "REG-013",
+        "REG-016",
+        "REG-017",
+        "REG-018",
+        "REG-025"
+      ],
+      "retrieved_ids": [
+        "REG-001",
+        "REG-003",
+        "REG-017",
+        "REG-025",
+        "REG-029",
+        "REG-031",
+        "REG-035",
+        "REG-063",
+        "REG-068",
+        "REG-092",
+        "REG-103",
+        "REG-104"
+      ],
+      "missed_reg_ids": [
+        "REG-012",
+        "REG-013",
+        "REG-016",
+        "REG-018"
+      ],
+      "false_positive_reg_ids": [
+        "REG-003",
+        "REG-029",
+        "REG-031",
+        "REG-035",
+        "REG-063",
+        "REG-068",
+        "REG-092",
+        "REG-103",
+        "REG-104"
+      ],
+      "true_positive_reg_ids": [
+        "REG-001",
+        "REG-017",
+        "REG-025"
+      ],
+      "true_negative_reg_ids": [],
+      "confusion_table": [
+        {
+          "row_label": "Relevant (Gold Standard)",
+          "retrieved": 3,
+          "not_retrieved": 4,
+          "retrieved_label": "True Positives",
+          "not_retrieved_label": "False Negatives"
+        },
+        {
+          "row_label": "Irrelevant (Not in Gold)",
+          "retrieved": 9,
+          "not_retrieved": 0,
+          "retrieved_label": "False Positives",
+          "not_retrieved_label": "True Negatives"
+        }
+      ],
+      "metrics": {
+        "tp": 3,
+        "fn": 4,
+        "fp": 9,
+        "tn": 0,
+        "precision": 0.25,
+        "recall": 0.428571,
+        "f1": 0.315789
+      },
+      "chunk": "chunk8"
+    },
+    {
+      "expected_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/chunk9/output.json",
+      "actual_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk9/reg_main_clauses.csv",
+      "relevant_ids": [
+        "REG-001",
+        "REG-012",
+        "REG-013",
+        "REG-025"
+      ],
+      "retrieved_ids": [
+        "REG-003",
+        "REG-025",
+        "REG-031",
+        "REG-036",
+        "REG-037",
+        "REG-091",
+        "REG-103"
+      ],
+      "missed_reg_ids": [
+        "REG-001",
+        "REG-012",
+        "REG-013"
+      ],
+      "false_positive_reg_ids": [
+        "REG-003",
+        "REG-031",
+        "REG-036",
+        "REG-037",
+        "REG-091",
+        "REG-103"
+      ],
+      "true_positive_reg_ids": [
+        "REG-025"
+      ],
+      "true_negative_reg_ids": [],
+      "confusion_table": [
+        {
+          "row_label": "Relevant (Gold Standard)",
+          "retrieved": 1,
+          "not_retrieved": 3,
+          "retrieved_label": "True Positives",
+          "not_retrieved_label": "False Negatives"
+        },
+        {
+          "row_label": "Irrelevant (Not in Gold)",
+          "retrieved": 6,
+          "not_retrieved": 0,
+          "retrieved_label": "False Positives",
+          "not_retrieved_label": "True Negatives"
+        }
+      ],
+      "metrics": {
+        "tp": 1,
+        "fn": 3,
+        "fp": 6,
+        "tn": 0,
+        "precision": 0.142857,
+        "recall": 0.25,
+        "f1": 0.181818
+      },
+      "chunk": "chunk9"
+    },
+    {
+      "expected_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/chunk10/output.json",
+      "actual_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk10/reg_main_clauses.csv",
+      "relevant_ids": [
+        "REG-001",
+        "REG-012",
+        "REG-013",
+        "REG-078"
+      ],
+      "retrieved_ids": [
+        "REG-003",
+        "REG-008",
+        "REG-013",
+        "REG-015",
+        "REG-017",
+        "REG-025",
+        "REG-029",
+        "REG-031",
+        "REG-035",
+        "REG-036",
+        "REG-037",
+        "REG-103",
+        "REG-104"
+      ],
+      "missed_reg_ids": [
+        "REG-001",
+        "REG-012",
+        "REG-078"
+      ],
+      "false_positive_reg_ids": [
+        "REG-003",
+        "REG-008",
+        "REG-015",
+        "REG-017",
+        "REG-025",
+        "REG-029",
+        "REG-031",
+        "REG-035",
+        "REG-036",
+        "REG-037",
+        "REG-103",
+        "REG-104"
+      ],
+      "true_positive_reg_ids": [
+        "REG-013"
+      ],
+      "true_negative_reg_ids": [],
+      "confusion_table": [
+        {
+          "row_label": "Relevant (Gold Standard)",
+          "retrieved": 1,
+          "not_retrieved": 3,
+          "retrieved_label": "True Positives",
+          "not_retrieved_label": "False Negatives"
+        },
+        {
+          "row_label": "Irrelevant (Not in Gold)",
+          "retrieved": 12,
+          "not_retrieved": 0,
+          "retrieved_label": "False Positives",
+          "not_retrieved_label": "True Negatives"
+        }
+      ],
+      "metrics": {
+        "tp": 1,
+        "fn": 3,
+        "fp": 12,
+        "tn": 0,
+        "precision": 0.076923,
+        "recall": 0.25,
+        "f1": 0.117647
+      },
+      "chunk": "chunk10"
+    },
+    {
+      "expected_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/chunk11/output.json",
+      "actual_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk11/reg_main_clauses.csv",
+      "relevant_ids": [
+        "REG-001",
+        "REG-012",
+        "REG-013",
+        "REG-016",
+        "REG-017",
+        "REG-035",
+        "REG-036"
+      ],
+      "retrieved_ids": [
+        "REG-001",
+        "REG-003",
+        "REG-008",
+        "REG-017",
+        "REG-025",
+        "REG-026",
+        "REG-035",
+        "REG-036",
+        "REG-037",
+        "REG-075",
+        "REG-080"
+      ],
+      "missed_reg_ids": [
+        "REG-012",
+        "REG-013",
+        "REG-016"
+      ],
+      "false_positive_reg_ids": [
+        "REG-003",
+        "REG-008",
+        "REG-025",
+        "REG-026",
+        "REG-037",
+        "REG-075",
+        "REG-080"
+      ],
+      "true_positive_reg_ids": [
+        "REG-001",
+        "REG-017",
+        "REG-035",
+        "REG-036"
+      ],
+      "true_negative_reg_ids": [],
+      "confusion_table": [
+        {
+          "row_label": "Relevant (Gold Standard)",
+          "retrieved": 4,
+          "not_retrieved": 3,
+          "retrieved_label": "True Positives",
+          "not_retrieved_label": "False Negatives"
+        },
+        {
+          "row_label": "Irrelevant (Not in Gold)",
+          "retrieved": 7,
+          "not_retrieved": 0,
+          "retrieved_label": "False Positives",
+          "not_retrieved_label": "True Negatives"
+        }
+      ],
+      "metrics": {
+        "tp": 4,
+        "fn": 3,
+        "fp": 7,
+        "tn": 0,
+        "precision": 0.363636,
+        "recall": 0.571429,
+        "f1": 0.444444
+      },
+      "chunk": "chunk11"
+    },
+    {
+      "expected_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/chunk12/output.json",
+      "actual_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk12/reg_main_clauses.csv",
+      "relevant_ids": [
+        "REG-001",
+        "REG-012",
+        "REG-013",
+        "REG-016",
+        "REG-017",
+        "REG-025",
+        "REG-035",
+        "REG-036"
+      ],
+      "retrieved_ids": [
+        "REG-001",
+        "REG-003",
+        "REG-012",
+        "REG-014",
+        "REG-017",
+        "REG-019",
+        "REG-028",
+        "REG-035",
+        "REG-036",
+        "REG-037",
+        "REG-089"
+      ],
+      "missed_reg_ids": [
+        "REG-013",
+        "REG-016",
+        "REG-025"
+      ],
+      "false_positive_reg_ids": [
+        "REG-003",
+        "REG-014",
+        "REG-019",
+        "REG-028",
+        "REG-037",
+        "REG-089"
+      ],
+      "true_positive_reg_ids": [
+        "REG-001",
+        "REG-012",
+        "REG-017",
+        "REG-035",
+        "REG-036"
+      ],
+      "true_negative_reg_ids": [],
+      "confusion_table": [
+        {
+          "row_label": "Relevant (Gold Standard)",
+          "retrieved": 5,
+          "not_retrieved": 3,
+          "retrieved_label": "True Positives",
+          "not_retrieved_label": "False Negatives"
+        },
+        {
+          "row_label": "Irrelevant (Not in Gold)",
+          "retrieved": 6,
+          "not_retrieved": 0,
+          "retrieved_label": "False Positives",
+          "not_retrieved_label": "True Negatives"
+        }
+      ],
+      "metrics": {
+        "tp": 5,
+        "fn": 3,
+        "fp": 6,
+        "tn": 0,
+        "precision": 0.454545,
+        "recall": 0.625,
+        "f1": 0.526316
+      },
+      "chunk": "chunk12"
+    }
+  ],
+  "skipped": []
+}
