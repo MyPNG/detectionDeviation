@@ -1,0 +1,561 @@
+{
+  "gold_root": "/Users/my/Documents/projects/detectionDeviation/goldstandard",
+  "system_root": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03",
+  "evaluated_chunks": 12,
+  "skipped_chunks": 0,
+  "overall_calculation_matrix": {
+    "tp": 2,
+    "fp": 5,
+    "fn": 10,
+    "tn": 152,
+    "precision": 0.285714,
+    "recall": 0.166667,
+    "f1": 0.210526,
+    "accuracy": 0.911243
+  },
+  "chunks": [
+    {
+      "expected_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/chunk1/output.json",
+      "actual_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03/chunk1/llm_extracted_normalized.json",
+      "table": [
+        {
+          "ID": "REG-013",
+          "Gold Standard": "Deviation (True)",
+          "System Output": "Non-Deviation (False)",
+          "Result": "False Negative (Miss)"
+        },
+        {
+          "ID": "REG-017",
+          "Gold Standard": "Deviation (True)",
+          "System Output": "Non-Deviation (False)",
+          "Result": "False Negative (Miss)"
+        },
+        {
+          "ID": "REG-021",
+          "Gold Standard": "Deviation (True)",
+          "System Output": "Deviation (True)",
+          "Result": "True Positive (Hit)"
+        },
+        {
+          "ID": "REG-025",
+          "Gold Standard": "Deviation (True)",
+          "System Output": "Non-Deviation (False)",
+          "Result": "False Negative (Miss)"
+        },
+        {
+          "ID": "REG-028",
+          "Gold Standard": "Non-Deviation (False)",
+          "System Output": "Deviation (True)",
+          "Result": "False Positive (Alarm)"
+        },
+        {
+          "ID": "REG-032",
+          "Gold Standard": "Non-Deviation (False)",
+          "System Output": "Deviation (True)",
+          "Result": "False Positive (Alarm)"
+        },
+        {
+          "ID": "REG-035",
+          "Gold Standard": "Deviation (True)",
+          "System Output": "Deviation (True)",
+          "Result": "True Positive (Hit)"
+        },
+        {
+          "ID": "Others (10)",
+          "Gold Standard": "Non-Deviation (False)",
+          "System Output": "Non-Deviation (False)",
+          "Result": "True Negatives",
+          "tn_reg_ids": [
+            "REG-001",
+            "REG-005",
+            "REG-010",
+            "REG-016",
+            "REG-018",
+            "REG-026",
+            "REG-029",
+            "REG-031",
+            "REG-040",
+            "REG-092"
+          ]
+        }
+      ],
+      "calculation_matrix": {
+        "tp": 2,
+        "fp": 2,
+        "fn": 3,
+        "tn": 10,
+        "precision": 0.5,
+        "recall": 0.4,
+        "f1": 0.444444
+      },
+      "chunk": "chunk1"
+    },
+    {
+      "expected_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/chunk2/output.json",
+      "actual_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03/chunk2/llm_response.json",
+      "table": [
+        {
+          "ID": "REG-092",
+          "Gold Standard": "Non-Deviation (False)",
+          "System Output": "Deviation (True)",
+          "Result": "False Positive (Alarm)"
+        },
+        {
+          "ID": "Others (5)",
+          "Gold Standard": "Non-Deviation (False)",
+          "System Output": "Non-Deviation (False)",
+          "Result": "True Negatives",
+          "tn_reg_ids": [
+            "REG-013",
+            "REG-017",
+            "REG-021",
+            "REG-093",
+            "REG-095"
+          ]
+        }
+      ],
+      "calculation_matrix": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "tn": 5,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "chunk": "chunk2"
+    },
+    {
+      "expected_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/chunk3/output.json",
+      "actual_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03/chunk3/llm_response.json",
+      "table": [
+        {
+          "ID": "Others (12)",
+          "Gold Standard": "Non-Deviation (False)",
+          "System Output": "Non-Deviation (False)",
+          "Result": "True Negatives",
+          "tn_reg_ids": [
+            "REG-001",
+            "REG-004",
+            "REG-013",
+            "REG-016",
+            "REG-020",
+            "REG-021",
+            "REG-023",
+            "REG-025",
+            "REG-031",
+            "REG-040",
+            "REG-086",
+            "REG-090"
+          ]
+        }
+      ],
+      "calculation_matrix": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tn": 12,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "chunk": "chunk3"
+    },
+    {
+      "expected_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/chunk 4/output.json",
+      "actual_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03/chunk4/llm_response.json",
+      "table": [
+        {
+          "ID": "REG-001",
+          "Gold Standard": "Deviation (True)",
+          "System Output": "Non-Deviation (False)",
+          "Result": "False Negative (Miss)"
+        },
+        {
+          "ID": "REG-012",
+          "Gold Standard": "Deviation (True)",
+          "System Output": "Non-Deviation (False)",
+          "Result": "False Negative (Miss)"
+        },
+        {
+          "ID": "REG-016",
+          "Gold Standard": "Deviation (True)",
+          "System Output": "Non-Deviation (False)",
+          "Result": "False Negative (Miss)"
+        },
+        {
+          "ID": "Others (16)",
+          "Gold Standard": "Non-Deviation (False)",
+          "System Output": "Non-Deviation (False)",
+          "Result": "True Negatives",
+          "tn_reg_ids": [
+            "REG-004",
+            "REG-013",
+            "REG-017",
+            "REG-022",
+            "REG-031",
+            "REG-032",
+            "REG-052",
+            "REG-062",
+            "REG-069",
+            "REG-070",
+            "REG-075",
+            "REG-078",
+            "REG-080",
+            "REG-084",
+            "REG-086",
+            "REG-087"
+          ]
+        }
+      ],
+      "calculation_matrix": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 3,
+        "tn": 16,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "chunk": "chunk 4"
+    },
+    {
+      "expected_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/chunk5/ouput.json",
+      "actual_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03/chunk5/llm_response.json",
+      "table": [
+        {
+          "ID": "REG-001",
+          "Gold Standard": "Non-Deviation (False)",
+          "System Output": "Deviation (True)",
+          "Result": "False Positive (Alarm)"
+        },
+        {
+          "ID": "Others (10)",
+          "Gold Standard": "Non-Deviation (False)",
+          "System Output": "Non-Deviation (False)",
+          "Result": "True Negatives",
+          "tn_reg_ids": [
+            "REG-004",
+            "REG-012",
+            "REG-016",
+            "REG-017",
+            "REG-031",
+            "REG-069",
+            "REG-070",
+            "REG-078",
+            "REG-086",
+            "REG-090"
+          ]
+        }
+      ],
+      "calculation_matrix": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "tn": 10,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "chunk": "chunk5"
+    },
+    {
+      "expected_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/chunk6/output.json",
+      "actual_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03/chunk6/llm_response.json",
+      "table": [
+        {
+          "ID": "Others (13)",
+          "Gold Standard": "Non-Deviation (False)",
+          "System Output": "Non-Deviation (False)",
+          "Result": "True Negatives",
+          "tn_reg_ids": [
+            "REG-004",
+            "REG-012",
+            "REG-016",
+            "REG-022",
+            "REG-052",
+            "REG-069",
+            "REG-070",
+            "REG-078",
+            "REG-080",
+            "REG-083",
+            "REG-084",
+            "REG-085",
+            "REG-086"
+          ]
+        }
+      ],
+      "calculation_matrix": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tn": 13,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "chunk": "chunk6"
+    },
+    {
+      "expected_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/chunk7/output.json",
+      "actual_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03/chunk7/llm_response.json",
+      "table": [
+        {
+          "ID": "Others (17)",
+          "Gold Standard": "Non-Deviation (False)",
+          "System Output": "Non-Deviation (False)",
+          "Result": "True Negatives",
+          "tn_reg_ids": [
+            "REG-001",
+            "REG-004",
+            "REG-012",
+            "REG-013",
+            "REG-017",
+            "REG-018",
+            "REG-022",
+            "REG-025",
+            "REG-027",
+            "REG-031",
+            "REG-036",
+            "REG-052",
+            "REG-067",
+            "REG-069",
+            "REG-075",
+            "REG-078",
+            "REG-086"
+          ]
+        }
+      ],
+      "calculation_matrix": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tn": 17,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "chunk": "chunk7"
+    },
+    {
+      "expected_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/chunk8/output.json",
+      "actual_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03/chunk8/llm_response.json",
+      "table": [
+        {
+          "ID": "Others (15)",
+          "Gold Standard": "Non-Deviation (False)",
+          "System Output": "Non-Deviation (False)",
+          "Result": "True Negatives",
+          "tn_reg_ids": [
+            "REG-001",
+            "REG-004",
+            "REG-012",
+            "REG-013",
+            "REG-016",
+            "REG-017",
+            "REG-018",
+            "REG-021",
+            "REG-023",
+            "REG-025",
+            "REG-031",
+            "REG-035",
+            "REG-040",
+            "REG-084",
+            "REG-086"
+          ]
+        }
+      ],
+      "calculation_matrix": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tn": 15,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "chunk": "chunk8"
+    },
+    {
+      "expected_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/chunk9/output.json",
+      "actual_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03/chunk9/llm_response.json",
+      "table": [
+        {
+          "ID": "Others (10)",
+          "Gold Standard": "Non-Deviation (False)",
+          "System Output": "Non-Deviation (False)",
+          "Result": "True Negatives",
+          "tn_reg_ids": [
+            "REG-001",
+            "REG-012",
+            "REG-013",
+            "REG-017",
+            "REG-018",
+            "REG-025",
+            "REG-031",
+            "REG-036",
+            "REG-040",
+            "REG-086"
+          ]
+        }
+      ],
+      "calculation_matrix": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tn": 10,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "chunk": "chunk9"
+    },
+    {
+      "expected_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/chunk10/output.json",
+      "actual_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03/chunk10/llm_response.json",
+      "table": [
+        {
+          "ID": "Others (17)",
+          "Gold Standard": "Non-Deviation (False)",
+          "System Output": "Non-Deviation (False)",
+          "Result": "True Negatives",
+          "tn_reg_ids": [
+            "REG-001",
+            "REG-004",
+            "REG-010",
+            "REG-012",
+            "REG-013",
+            "REG-017",
+            "REG-018",
+            "REG-019",
+            "REG-021",
+            "REG-025",
+            "REG-029",
+            "REG-035",
+            "REG-036",
+            "REG-037",
+            "REG-040",
+            "REG-078",
+            "REG-086"
+          ]
+        }
+      ],
+      "calculation_matrix": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tn": 17,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "chunk": "chunk10"
+    },
+    {
+      "expected_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/chunk11/output.json",
+      "actual_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03/chunk11/llm_response.json",
+      "table": [
+        {
+          "ID": "REG-025",
+          "Gold Standard": "Non-Deviation (False)",
+          "System Output": "Deviation (True)",
+          "Result": "False Positive (Alarm)"
+        },
+        {
+          "ID": "Others (17)",
+          "Gold Standard": "Non-Deviation (False)",
+          "System Output": "Non-Deviation (False)",
+          "Result": "True Negatives",
+          "tn_reg_ids": [
+            "REG-001",
+            "REG-012",
+            "REG-013",
+            "REG-016",
+            "REG-017",
+            "REG-018",
+            "REG-021",
+            "REG-026",
+            "REG-028",
+            "REG-029",
+            "REG-031",
+            "REG-035",
+            "REG-036",
+            "REG-037",
+            "REG-040",
+            "REG-062",
+            "REG-067"
+          ]
+        }
+      ],
+      "calculation_matrix": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "tn": 17,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "chunk": "chunk11"
+    },
+    {
+      "expected_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/chunk12/output.json",
+      "actual_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03/chunk12/llm_response.json",
+      "table": [
+        {
+          "ID": "REG-013",
+          "Gold Standard": "Deviation (True)",
+          "System Output": "Non-Deviation (False)",
+          "Result": "False Negative (Miss)"
+        },
+        {
+          "ID": "REG-017",
+          "Gold Standard": "Deviation (True)",
+          "System Output": "Non-Deviation (False)",
+          "Result": "False Negative (Miss)"
+        },
+        {
+          "ID": "REG-035",
+          "Gold Standard": "Deviation (True)",
+          "System Output": "Non-Deviation (False)",
+          "Result": "False Negative (Miss)"
+        },
+        {
+          "ID": "REG-036",
+          "Gold Standard": "Deviation (True)",
+          "System Output": "Non-Deviation (False)",
+          "Result": "False Negative (Miss)"
+        },
+        {
+          "ID": "Others (10)",
+          "Gold Standard": "Non-Deviation (False)",
+          "System Output": "Non-Deviation (False)",
+          "Result": "True Negatives",
+          "tn_reg_ids": [
+            "REG-001",
+            "REG-004",
+            "REG-012",
+            "REG-016",
+            "REG-018",
+            "REG-019",
+            "REG-023",
+            "REG-025",
+            "REG-037",
+            "REG-087"
+          ]
+        }
+      ],
+      "calculation_matrix": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 4,
+        "tn": 10,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "chunk": "chunk12"
+    }
+  ],
+  "skipped": []
+}
