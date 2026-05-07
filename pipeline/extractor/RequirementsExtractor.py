@@ -274,8 +274,8 @@ class RequirementsExtractor:
 
 
 def main() -> None:
-    input_json = "/Users/my/Documents/projects/detectionDeviation/input/reg/gdpr.json"
-    output_json = "/Users/my/Documents/projects/detectionDeviation/intermediate_results/reg/gdpr_requirements.json"
+    input_json = "/Users/my/Documents/projects/detectionDeviation/input/reg_for_injectiontest/gdpr.json"
+    output_json = "/Users/my/Documents/projects/detectionDeviation/intermediate_results/reg_for_injectiontest/gdpr_requirements.json"
     extractor = RequirementsExtractor(input_json)
     saved_path = extractor.save_requirements(output_json)
     print(f"Saved requirements: {saved_path}")

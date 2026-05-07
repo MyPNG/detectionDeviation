@@ -102,12 +102,17 @@ class DoclingProcessor:
 if __name__ == "__main__":
     processor = DoclingProcessor()
 
-    pdf_path = Path("/input/reg/gdpr.pdf")
-    md_path = Path("/input/reg/gdpr.md")
-    json_path = Path("/input/reg/gdpr.json")
+    project_root = Path(__file__).resolve().parents[2]
+    pdf_path = project_root / "input" / "reg" / "gdpr.pdf"
+    md_path = project_root / "input" / "reg_for_injectiontest" / "gdpr.md"
+    json_path = project_root / "input" / "reg_for_injectiontest" / "gdpr.json"
     include_articles: list[int] | None = None
     # Example filter:
-    include_articles = [6, 8, 9, 10, 13, 14, 15, 16, 17, 18, 20, 21, 22, 23, 26, 40, 42, 45, 46, 47, 49, 63, 77, 78, 89, 93 ]
+    # 12, 15, 16, 20, 21, 33, 34 (relevant)
+    # non relevant: 30, 37
+    include_articles = [6, 9, 10, 11, 12, 13, 14, 15, 16, 17, 20, 21, 22, 30, 32, 33, 34, 37, 39, 46, 49, 55, 89, 92]
+
+
 
     # pdf to json
     markdown_output = processor.pdf_to_markdown_for_articles(pdf_path, include_articles=include_articles)
