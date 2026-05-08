@@ -103,14 +103,14 @@ if __name__ == "__main__":
     processor = DoclingProcessor()
 
     project_root = Path(__file__).resolve().parents[2]
-    pdf_path = project_root / "input" / "reg" / "gdpr.pdf"
-    md_path = project_root / "input" / "reg_for_injectiontest" / "gdpr.md"
-    json_path = project_root / "input" / "reg_for_injectiontest" / "gdpr.json"
+    pdf_path = project_root / "input" / "reg_eu_ai_act" / "EU_AI_ACT.pdf"
+    md_path = project_root / "input" / "reg_eu_ai_act" / "eu_ai_act.md"
+    json_path = project_root / "input" / "reg_eu_ai_act" / "eu_ai_act.json"
     include_articles: list[int] | None = None
     # Example filter:
-    # 12, 15, 16, 20, 21, 33, 34 (relevant)
-    # non relevant: 30, 37
-    include_articles = [6, 9, 10, 11, 12, 13, 14, 15, 16, 17, 20, 21, 22, 30, 32, 33, 34, 37, 39, 46, 49, 55, 89, 92]
+    # main:8, 9, 10, 11, 12, 13, 14, 15
+    # 1-depth: 72, 79, 60, 97, 26
+    include_articles = [8, 9, 10, 11, 12, 13, 14, 15, 72, 79, 60, 97, 26 ]
 
 
 

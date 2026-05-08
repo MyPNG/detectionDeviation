@@ -200,6 +200,62 @@ class RequirementsExtractor:
 
         return merged_rows
 
+    def _append_text_labels_to_previous_requirement(
+        self,
+        requirements: list[dict[str, str]],
+        index_to_article: dict[int, ArticleSection],
+    ) -> None:
+        """
+        Attach standalone `label == text` items to the nearest previous
+        extracted requirement in the same article.
+
+        This captures patterns where explanatory body text follows a list_item
+        paragraph and should belong to that paragraph.
+        """
+        if not requirements:
+            return
+
+        # Work on rows carrying source text index before merge.
+        eligible_rows = [
+            row
+            for row in requirements
+            if "_src_idx" in row and str(row.get("Article", "")).strip()
+        ]
+        if not eligible_rows:
+            return
+
+        for text_idx, item in enumerate(self.texts):
+            if str(item.get("label", "")).strip() != "text":
+                continue
+
+            text_value = self._normalize_text(str(item.get("text", "")))
+            if not text_value:
+                continue
+
+            article_section = index_to_article.get(text_idx)
+            if article_section is None:
+                continue
+            article_key = str(article_section.number)
+
+            # Pick nearest previous extracted row in same article.
+            best_row: dict[str, str] | None = None
+            best_src_idx = -1
+            for row in eligible_rows:
+                if str(row.get("Article", "")).strip() != article_key:
+                    continue
+                src_idx = int(str(row.get("_src_idx", "-1")))
+                if src_idx < text_idx and src_idx > best_src_idx:
+                    best_src_idx = src_idx
+                    best_row = row
+
+            if best_row is None:
+                continue
+
+            current_text = self._normalize_text(str(best_row.get("Text", "")))
+            # Avoid duplicate appends.
+            if text_value and text_value not in current_text:
+                best_row["Text"] = f"{current_text} {text_value}".strip()
+
     def extract_requirements(self) -> list[dict[str, str]]:
         sections = self.extract_articles()
         index_to_article = self._build_text_index_to_article(sections)
@@ -253,16 +309,19 @@ class RequirementsExtractor:
                         "Paragraph": paragraph_value,
                         "Text": text,
                         "_order": str(order_counter),
+                        "_src_idx": str(idx),
                     }
                 )
                 order_counter += 1
 
+        self._append_text_labels_to_previous_requirement(extracted, index_to_article)
         extracted = self.merge_bullet_points_by_paragraph(extracted)
 
         width = max(3, len(str(len(extracted))))
         for i, row in enumerate(sorted(extracted, key=lambda r: int(r.get("_order", 0))), start=1):
             row["ID"] = f"REG-{i:0{width}d}"
             row.pop("_order", None)
+            row.pop("_src_idx", None)
         return extracted
 
     def save_requirements(self, output_path: str | Path) -> Path:
@@ -274,8 +333,8 @@ class RequirementsExtractor:
 
 
 def main() -> None:
-    input_json = "/Users/my/Documents/projects/detectionDeviation/input/reg_for_injectiontest/gdpr.json"
-    output_json = "/Users/my/Documents/projects/detectionDeviation/intermediate_results/reg_for_injectiontest/gdpr_requirements.json"
+    input_json = "/Users/my/Documents/projects/detectionDeviation/input/reg_eu_ai_act/eu_ai_act.json"
+    output_json = "/Users/my/Documents/projects/detectionDeviation/intermediate_results/reg_eu_ai_act/eu_ai_requirements.json"
     extractor = RequirementsExtractor(input_json)
     saved_path = extractor.save_requirements(output_json)
     print(f"Saved requirements: {saved_path}")
