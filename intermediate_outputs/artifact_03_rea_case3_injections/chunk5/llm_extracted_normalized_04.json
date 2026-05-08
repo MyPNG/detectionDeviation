@@ -1,0 +1,16 @@
+[
+  {
+    "reg_id": "REG-021",
+    "clause": "Art11(3)",
+    "considered_references": [
+      "Art45(6)",
+      "Art45(7)",
+      "Art45(8)",
+      "Art45(9)",
+      "Art46(1)",
+      "Art46(2)"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  }
+]

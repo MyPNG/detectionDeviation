@@ -1,0 +1,63 @@
+{
+  "chunk": "chunk2",
+  "max_hop": 1,
+  "visited_nodes_count": 8,
+  "nodes": [
+    {
+      "ID": "REG-021",
+      "Article": "15",
+      "Paragraph": "1",
+      "Text": "The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (a) the purposes of the processing; (b) the categories of personal data concerned; (c) the recipients or categories of recipient to whom the personal data have been or will be disclosed, in particular recipients in third countries or international organisations; (d) where possible, the envisaged period for which the personal data will be stored, or, if not possible, the criteria used to determine that period; (e) the existence of the right to request from the controller rectification or erasure of personal data or restriction of processing of personal data concerning the data subject or to object to such processing; (f) the right to lodge a complaint with a supervisory authority; (g) where the personal data are not collected from the data subject, any available information as to their source; (h) the existence of automated decision-making, including profiling, referred to in Article 22(1) and (4) and, at least in those cases, meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing for the data subject.",
+      "system_name": "Art15(1)"
+    },
+    {
+      "ID": "REG-041",
+      "Article": "22",
+      "Paragraph": "1",
+      "Text": "The data subject shall have the right not to be subject to a decision based solely on automated processing, including profiling, which produces legal effects concerning him or her or similarly significantly affects him or her.",
+      "system_name": "Art22(1)"
+    },
+    {
+      "ID": "REG-092",
+      "Article": "77",
+      "Paragraph": "1",
+      "Text": "Without prejudice to any other administrative or judicial remedy, every data subject shall have the right to lodge a complaint with a supervisory authority, in particular in the Member State of his or her habitual residence, place of work or place of the alleged infringement if the data subject considers that the processing of personal data relating to him or her infringes this Regulation.",
+      "system_name": "Art77(1)"
+    },
+    {
+      "ID": "REG-093",
+      "Article": "77",
+      "Paragraph": "2",
+      "Text": "The supervisory authority with which the complaint has been lodged shall inform the complainant on the progress and the outcome of the complaint including the possibility of a judicial remedy pursuant to Article 78.",
+      "system_name": "Art77(2)"
+    },
+    {
+      "ID": "REG-094",
+      "Article": "78",
+      "Paragraph": "1",
+      "Text": "Without prejudice to any other administrative or non-judicial remedy, each natural or legal person shall have the right to an effective judicial remedy against a legally binding decision of a supervisory authority concerning them.",
+      "system_name": "Art78(1)"
+    },
+    {
+      "ID": "REG-095",
+      "Article": "78",
+      "Paragraph": "2",
+      "Text": "Without prejudice to any other administrative or non-judicial remedy, each data subject shall have the right to a an effective judicial remedy where the supervisory authority which is competent pursuant to Articles 55 and 56 does not handle a complaint or does not inform the data subject within three months on the progress or outcome of the complaint lodged pursuant to Article 77.",
+      "system_name": "Art78(2)"
+    },
+    {
+      "ID": "REG-096",
+      "Article": "78",
+      "Paragraph": "3",
+      "Text": "Proceedings against a supervisory authority shall be brought before the courts of the Member State where the supervisory authority is established.",
+      "system_name": "Art78(3)"
+    },
+    {
+      "ID": "REG-097",
+      "Article": "78",
+      "Paragraph": "4",
+      "Text": "Where proceedings are brought against a decision of a supervisory authority which was preceded by an opinion or a decision of the Board in the consistency mechanism, the supervisory authority shall forward that opinion or decision to the court.",
+      "system_name": "Art78(4)"
+    }
+  ]
+}

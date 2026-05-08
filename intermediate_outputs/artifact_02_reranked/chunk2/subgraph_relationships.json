@@ -1,0 +1,51 @@
+{
+  "chunk": "chunk2",
+  "entry_source": "reg_main_clauses.csv",
+  "max_hop": 1,
+  "entry_points_count": 3,
+  "visited_nodes_count": 6,
+  "relationships": [
+    {
+      "source": "REG-093",
+      "relation": "REFERENCES",
+      "target": "REG-094",
+      "hop_from_source": 1,
+      "reference": "Art78"
+    },
+    {
+      "source": "REG-093",
+      "relation": "REFERENCES",
+      "target": "REG-095",
+      "hop_from_source": 1,
+      "reference": "Art78"
+    },
+    {
+      "source": "REG-093",
+      "relation": "REFERENCES",
+      "target": "REG-096",
+      "hop_from_source": 1,
+      "reference": "Art78"
+    },
+    {
+      "source": "REG-093",
+      "relation": "REFERENCES",
+      "target": "REG-097",
+      "hop_from_source": 1,
+      "reference": "Art78"
+    },
+    {
+      "source": "REG-095",
+      "relation": "REFERENCES",
+      "target": "REG-092",
+      "hop_from_source": 1,
+      "reference": "Art77"
+    },
+    {
+      "source": "REG-095",
+      "relation": "REFERENCES",
+      "target": "REG-093",
+      "hop_from_source": 1,
+      "reference": "Art77"
+    }
+  ]
+}

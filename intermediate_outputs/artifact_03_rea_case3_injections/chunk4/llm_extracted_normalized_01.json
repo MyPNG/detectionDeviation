@@ -1,0 +1,25 @@
+[
+  {
+    "reg_id": "REG-039",
+    "clause": "Art15(2)",
+    "considered_references": [
+      "Art21(4)"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-040",
+    "clause": "Art15(3)",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-030",
+    "clause": "Art13(6)",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": []
+  }
+]

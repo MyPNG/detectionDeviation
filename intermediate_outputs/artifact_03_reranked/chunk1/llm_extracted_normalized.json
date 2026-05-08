@@ -1,0 +1,161 @@
+[
+  {
+    "reg_id": "REG-021",
+    "clause": "Art15(1)",
+    "considered_references": [
+      "Art22(1)"
+    ],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Data deviation",
+        "analysis": "Art15(1) gives a right of access to personal data 'being processed' and to specified accompanying information. The policy limits access to 'whether and which personal data we store about you', which narrows the scope to data at rest and could exclude data otherwise being processed but not stored. While Art15(1)(h) read with Art22(1) (REG-041) also requires information on automated decision-making, its omission is treated as a non-deviation; the 'stored' wording remains a scope narrowing relative to Art15(1)."
+      },
+      {
+        "deviation_type": "Data deviation",
+        "analysis": "The policy states that the right to information 'does not exist or is subject to limitations' where disclosure would reveal confidential/professionally secret information. Art15(1) (and its cross-reference to Art22(1) via REG-041) does not include such a qualifier. Introducing this limitation narrows the Art15(1) access right beyond the clause's terms (separate GDPR provisions may allow limits, but they are not part of Art15(1))."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-031",
+    "clause": "Art20(1)",
+    "considered_references": [
+      "Art6(1)",
+      "Art9(2)"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-035",
+    "clause": "Art21(1)",
+    "considered_references": [
+      "Art6(1)"
+    ],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Data deviation",
+        "analysis": "Art21(1) grants a right to object to processing based on Art6(1)(e) or (f), including profiling based on those provisions. The policy only allows objection where processing is based on Art6(1)(f), omitting Art6(1)(e). With reference to Art6(1) (REG-001), this narrows the scope of the right relative to Art21(1)."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-020",
+    "clause": "Art14(5)",
+    "considered_references": [
+      "Art14(1)",
+      "Art89(1)"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-010",
+    "clause": "Art9(3)",
+    "considered_references": [
+      "Art9(2)",
+      "Art9(1)"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-018",
+    "clause": "Art14(3)",
+    "considered_references": [
+      "Art14(1)",
+      "Art14(2)"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-092",
+    "clause": "Art77(1)",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-028",
+    "clause": "Art18(1)",
+    "considered_references": [
+      "Art21(1)"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-025",
+    "clause": "Art17(1)",
+    "considered_references": [
+      "Art21(1)",
+      "Art21(2)",
+      "Art6(1)",
+      "Art9(2)",
+      "Art8(1)"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-027",
+    "clause": "Art17(3)",
+    "considered_references": [
+      "Art9(2)",
+      "Art9(3)",
+      "Art89(1)"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-029",
+    "clause": "Art18(2)",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-032",
+    "clause": "Art20(2)",
+    "considered_references": [
+      "Art20(1)"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-013",
+    "clause": "Art13(2)",
+    "considered_references": [
+      "Art13(1)",
+      "Art22(1)",
+      "Art6(1)",
+      "Art9(2)"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-036",
+    "clause": "Art21(2)",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-017",
+    "clause": "Art14(2)",
+    "considered_references": [
+      "Art14(1)",
+      "Art22(1)",
+      "Art6(1)",
+      "Art9(2)"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  }
+]

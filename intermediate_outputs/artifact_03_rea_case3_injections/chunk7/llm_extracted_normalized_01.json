@@ -1,0 +1,47 @@
+[
+  {
+    "reg_id": "REG-014",
+    "clause": "Art10(2)",
+    "considered_references": [],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Severity deviation",
+        "gdpr_quote": "Training, validation and testing data sets shall be subject to data governance and management practices appropriate for the intended purpose of the high-risk AI system.",
+        "policy_quote": "Applies to: All AI systems.",
+        "mismatch": "The regulation targets high-risk AI systems, while the policy applies these practices to all AI systems.",
+        "analysis": "The policy broadens the scope beyond the regulation’s high-risk AI system limitation, constituting over-compliance in scope."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-015",
+    "clause": "Art10(3)",
+    "considered_references": [],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Severity deviation",
+        "gdpr_quote": "including, where applicable, as regards the persons or groups of persons in relation to whom the high-risk AI system is intended to be used.",
+        "policy_quote": "Applies to: All AI systems.",
+        "mismatch": "The regulation’s dataset quality/statistical property requirements are framed in relation to high-risk AI systems, while the policy applies them to all AI systems.",
+        "analysis": "By extending requirements to all AI systems, the policy is stricter in scope than the regulation specifies."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-016",
+    "clause": "Art10(4)",
+    "considered_references": [],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Severity deviation",
+        "gdpr_quote": "within which the high-risk AI system is intended to be used.",
+        "policy_quote": "Applies to: All AI systems.",
+        "mismatch": "The regulation’s requirement to account for contextual characteristics applies to high-risk AI systems, while the policy applies it to all AI systems.",
+        "analysis": "The policy imposes this consideration across all AI systems rather than limiting to high-risk, indicating over-compliance."
+      }
+    ]
+  }
+]

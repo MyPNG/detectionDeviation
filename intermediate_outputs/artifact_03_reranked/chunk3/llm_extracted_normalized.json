@@ -1,0 +1,97 @@
+[
+  {
+    "reg_id": "REG-087",
+    "clause": "Art49(2)",
+    "considered_references": [
+      "Art49(1)"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-029",
+    "clause": "Art18(2)",
+    "considered_references": [
+      "Art18(1)"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-037",
+    "clause": "Art21(3)",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-016",
+    "clause": "Art14(1)",
+    "considered_references": [
+      "Art45(3)",
+      "Art46(1)",
+      "Art46(2)",
+      "Art46(3)",
+      "Art46(4)",
+      "Art46(5)",
+      "Art47(1)",
+      "Art47(2)",
+      "Art47(3)",
+      "Art49(1)"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-012",
+    "clause": "Art13(1)",
+    "considered_references": [
+      "Art45(3)",
+      "Art46(1)",
+      "Art46(2)",
+      "Art46(3)",
+      "Art46(4)",
+      "Art46(5)",
+      "Art47(1)",
+      "Art47(2)",
+      "Art47(3)",
+      "Art49(1)"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-010",
+    "clause": "Art9(3)",
+    "considered_references": [
+      "Art9(2)",
+      "Art9(1)"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-001",
+    "clause": "Art6(1)",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-086",
+    "clause": "Art49(1)",
+    "considered_references": [
+      "Art45(3)",
+      "Art46(1)",
+      "Art46(2)",
+      "Art46(3)",
+      "Art46(4)",
+      "Art46(5)",
+      "Art47(1)",
+      "Art47(2)",
+      "Art47(3)"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  }
+]

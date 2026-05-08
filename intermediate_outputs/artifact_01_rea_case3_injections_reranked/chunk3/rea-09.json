@@ -1,0 +1,194 @@
+{
+  "id": "REA-09",
+  "search query": "Define and document for each model in the AI system: 1) the model's proposed inputs and how well they represent the concepts they are intended to represent; include analysis of the limitations of this representation, Define and document for each model in the AI system: 1) the model's proposed inputs and how well they represent the concepts they are intended to represent; include analysis of the limitations of this representation, Define and document for each model in the AI system: 2) the model's proposed output and how well it represents the concept it is intended to represent; include analysis of the limitations of this representation, Define and document for each model in the AI system: 2) the model's proposed output and how well it represents the concept it is intended to represent; include analysis of the limitations of this representation, Define and document for each model in the AI system: 3) limitations to the generalizability of the resulting model based on the training and testing data that will be used. Define and document for each model in the AI system: 3) limitations to the generalizability of the resulting model based on the training and testing data that will be used.",
+  "top matches": [
+    {
+      "ID": "REG-031",
+      "article": "Art13(7)",
+      "embedding test": "(vi) when appropriate, specifications for the input data, or any other relevant information in terms of the training, validation and testing data sets used, taking into account the intended purpose of the high-risk AI system;",
+      "similarity score": 0.382997,
+      "rerank score": 0.6288918852806091,
+      "rerank rank": 1
+    },
+    {
+      "ID": "REG-013",
+      "article": "Art10(1)",
+      "embedding test": "High-risk AI systems which make use of techniques involving the training of AI models with data shall be developed on the basis of training, validation and testing data sets that meet the quality criteria referred to in paragraphs 2 to 5 whenever such data sets are used.",
+      "similarity score": 0.390633,
+      "rerank score": 0.619154691696167,
+      "rerank rank": 2
+    },
+    {
+      "ID": "REG-018",
+      "article": "Art10(6)",
+      "embedding test": "For the development of high-risk AI systems not using techniques involving the training of AI models, paragraphs 2 to 5 apply only to the testing data sets.",
+      "similarity score": 0.363313,
+      "rerank score": 0.5506299734115601,
+      "rerank rank": 3
+    },
+    {
+      "ID": "REG-046",
+      "article": "Art26(4)",
+      "embedding test": "Without prejudice to paragraphs 1 and 2, to the extent the deployer exercises control over the input data, that deployer shall ensure that input data is relevant and sufficiently representative in view of the intended purpose of the high-risk AI system.",
+      "similarity score": 0.34381,
+      "rerank score": 0.5099473595619202,
+      "rerank rank": 4
+    },
+    {
+      "ID": "REG-015",
+      "article": "Art10(3)",
+      "embedding test": "Training, validation and testing data sets shall be relevant, sufficiently representative, and to the best extent possible, free of errors and complete in view of the intended purpose. They shall have the appropriate statistical properties, including, where applicable, as regards the persons or groups of persons in relation to whom the high-risk AI system is intended to be used. Those characteristics of the data sets may be met at the level of individual data sets or at the level of a combination thereof.",
+      "similarity score": 0.3748,
+      "rerank score": 0.4408378303050995,
+      "rerank rank": 5
+    },
+    {
+      "ID": "REG-001",
+      "article": "Art8(1)",
+      "embedding test": "High-risk AI systems shall comply with the requirements laid down in this Section, taking into account their intended purpose as well as the generally acknowledged state of the art on AI and AI-related technologies. The risk management system referred to in Article 9 shall be taken into account when ensuring compliance with those requirements.",
+      "similarity score": 0.297645,
+      "rerank score": 0.43222442269325256,
+      "rerank rank": 6
+    },
+    {
+      "ID": "REG-028",
+      "article": "Art13(4)",
+      "embedding test": "(ii) the level of accuracy, including its metrics, robustness and cybersecurity referred to in Article 15 against which the high-risk AI system has been tested and validated and which can be expected, and any known and foreseeable circumstances that may have an impact on that expected level of accuracy, robustness and cybersecurity;",
+      "similarity score": 0.292057,
+      "rerank score": 0.3687998652458191,
+      "rerank rank": 7
+    },
+    {
+      "ID": "REG-014",
+      "article": "Art10(2)",
+      "embedding test": "Training, validation and testing data sets shall be subject to data governance and management practices appropriate for the intended purpose of the high-risk AI system. Those practices shall concern in particular: (a) the relevant design choices; (b) data collection processes and the origin of data, and in the case of personal data, the original purpose of the data collection; (c) relevant data-preparation processing operations, such as annotation, labelling, cleaning, updating, enrichment and aggregation; (d) the formulation of assumptions, in particular with respect to the information that the data are supposed to measure and represent; (e) an assessment of the availability, quantity and suitability of the data sets that are needed; (f) examination in view of possible biases that are likely to affect the health and safety of persons, have a negative impact on fundamental rights or lead to discrimination prohibited under Union law, especially where data outputs influence inputs for future operations; (g) appropriate measures to detect, prevent and mitigate possible biases identified according to point (f); (h) the identification of relevant data gaps or shortcomings that prevent compliance with this Regulation, and how those gaps and shortcomings can be addressed.",
+      "similarity score": 0.333043,
+      "rerank score": 0.35650965571403503,
+      "rerank rank": 8
+    },
+    {
+      "ID": "REG-032",
+      "article": "Art13(8)",
+      "embedding test": "(vii) where applicable, information to enable deployers to interpret the output of the high-risk AI system and use it appropriately; (c) the changes to the high-risk AI system and its performance which have been pre-determined by the provider at the moment of the initial conformity assessment, if any; (d) the human oversight measures referred to in Article 14, including the technical measures put in place to facilitate the interpretation of the outputs of the high-risk AI systems by the deployers; (e) the computational and hardware resources needed, the expected lifetime of the high-risk AI system and any necessary maintenance and care measures, including their frequency, to ensure the proper functioning of that AI system, including as regards software updates; (f) where relevant, a description of the mechanisms included within the high-risk AI system that allows deployers to properly collect, store and interpret the logs in accordance with Article 12.",
+      "similarity score": 0.301413,
+      "rerank score": 0.33106228709220886,
+      "rerank rank": 9
+    },
+    {
+      "ID": "REG-030",
+      "article": "Art13(6)",
+      "embedding test": "(iv) where applicable, the technical capabilities and characteristics of the high-risk AI system to provide information that is relevant to explain its output; (v) when appropriate, its performance regarding specific persons or groups of persons on which the system is intended to be used;",
+      "similarity score": 0.365439,
+      "rerank score": 0.3076699376106262,
+      "rerank rank": 10
+    },
+    {
+      "ID": "REG-038",
+      "article": "Art15(1)",
+      "embedding test": "High-risk AI systems shall be designed and developed in such a way that they achieve an appropriate level of accuracy, robustness, and cybersecurity, and that they perform consistently in those respects throughout their lifecycle.",
+      "similarity score": 0.302452,
+      "rerank score": 0.2818007171154022,
+      "rerank rank": 11
+    },
+    {
+      "ID": "REG-010",
+      "article": "Art9(8)",
+      "embedding test": "The testing of high-risk AI systems shall be performed, as appropriate, at any time throughout the development process, and, in any event, prior to their being placed on the market or put into service. Testing shall be carried out against prior defined metrics and probabilistic thresholds that are appropriate to the intended purpose of the high-risk AI system.",
+      "similarity score": 0.303927,
+      "rerank score": 0.271933913230896,
+      "rerank rank": 12
+    },
+    {
+      "ID": "REG-042",
+      "article": "Art15(5)",
+      "embedding test": "High-risk AI systems shall be resilient against attempts by unauthorised third parties to alter their use, outputs or performance by exploiting system vulnerabilities. The technical solutions aiming to ensure the cybersecurity of high-risk AI systems shall be appropriate to the relevant circumstances and the risks. The technical solutions to address AI specific vulnerabilities shall include, where appropriate, measures to prevent, detect, respond to, resolve and control for attacks trying to manipulate the training data set (data poisoning), or pre-trained components used in training (model poisoning), inputs designed to cause the AI model to make a mistake (adversarial examples or model evasion), confidentiality attacks or model flaws.",
+      "similarity score": 0.312848,
+      "rerank score": 0.26581496000289917,
+      "rerank rank": 13
+    },
+    {
+      "ID": "REG-026",
+      "article": "Art13(2)",
+      "embedding test": "High-risk AI systems shall be accompanied by instructions for use in an appropriate digital format or otherwise that include concise, complete, correct and clear information that is relevant, accessible and comprehensible to deployers.",
+      "similarity score": 0.299665,
+      "rerank score": 0.23423145711421967,
+      "rerank rank": 14
+    },
+    {
+      "ID": "REG-016",
+      "article": "Art10(4)",
+      "embedding test": "Data sets shall take into account, to the extent required by the intended purpose, the characteristics or elements that are particular to the specific geographical, contextual, behavioural or functional setting within which the high-risk AI system is intended to be used.",
+      "similarity score": 0.376788,
+      "rerank score": 0.2314513474702835,
+      "rerank rank": 15
+    },
+    {
+      "ID": "REG-025",
+      "article": "Art13(1)",
+      "embedding test": "High-risk AI systems shall be designed and developed in such a way as to ensure that their operation is sufficiently transparent to enable deployers to interpret a system's output and use it appropriately. An appropriate type and degree of transparency shall be ensured with a view to achieving compliance with the relevant obligations of the provider and deployer set out in Section 3.",
+      "similarity score": 0.314466,
+      "rerank score": 0.21613559126853943,
+      "rerank rank": 16
+    },
+    {
+      "ID": "REG-008",
+      "article": "Art9(6)",
+      "embedding test": "High-risk AI systems shall be tested for the purpose of identifying the most appropriate and targeted risk management measures. Testing shall ensure that high-risk AI systems perform consistently for their intended purpose and that they are in compliance with the requirements set out in this Section.",
+      "similarity score": 0.32928,
+      "rerank score": 0.2152579426765442,
+      "rerank rank": 17
+    },
+    {
+      "ID": "REG-041",
+      "article": "Art15(4)",
+      "embedding test": "High-risk AI systems shall be as resilient as possible regarding errors, faults or inconsistencies that may occur within the system or the environment in which the system operates, in particular due to their interaction with natural persons or other systems. Technical and organisational measures shall be taken in this regard. The robustness of high-risk AI systems may be achieved through technical redundancy solutions, which may include backup or fail-safe plans. High-risk AI systems that continue to learn after being placed on the market or put into service shall be developed in such a way as to eliminate or reduce as far as possible the risk of possibly biased outputs influencing input for future operations (feedback loops), and as to ensure that any such feedback loops are duly addressed with appropriate mitigation measures.",
+      "similarity score": 0.307079,
+      "rerank score": 0.21090847253799438,
+      "rerank rank": 18
+    },
+    {
+      "ID": "REG-064",
+      "article": "Art79(1)",
+      "embedding test": "AI systems presenting a risk shall be understood as a 'product presenting a risk' as defined in Article 3, point 19 of Regulation (EU) 2019/1020, in so far as they present risks to the health or safety, or to fundamental rights, of persons.",
+      "similarity score": 0.323912,
+      "rerank score": 0.20156756043434143,
+      "rerank rank": 19
+    },
+    {
+      "ID": "REG-024",
+      "article": "Art12(3)",
+      "embedding test": "For high-risk AI systems referred to in point 1 (a), of Annex III, the logging capabilities shall provide, at a minimum: (a) recording of the period of each use of the system (start date and time and end date and time of each use); (b) the reference database against which input data has been checked by the system; (c) the input data for which the search has led to a match; (d) the identification of the natural persons involved in the verification of the results, as referred to in Article 14(5).",
+      "similarity score": 0.302031,
+      "rerank score": 0.13725757598876953,
+      "rerank rank": 20
+    }
+  ],
+  "final_texts_for_llm": [
+    "(vi) when appropriate, specifications for the input data, or any other relevant information in terms of the training, validation and testing data sets used, taking into account the intended purpose of the high-risk AI system;",
+    "High-risk AI systems which make use of techniques involving the training of AI models with data shall be developed on the basis of training, validation and testing data sets that meet the quality criteria referred to in paragraphs 2 to 5 whenever such data sets are used.",
+    "For the development of high-risk AI systems not using techniques involving the training of AI models, paragraphs 2 to 5 apply only to the testing data sets.",
+    "Without prejudice to paragraphs 1 and 2, to the extent the deployer exercises control over the input data, that deployer shall ensure that input data is relevant and sufficiently representative in view of the intended purpose of the high-risk AI system.",
+    "Training, validation and testing data sets shall be relevant, sufficiently representative, and to the best extent possible, free of errors and complete in view of the intended purpose. They shall have the appropriate statistical properties, including, where applicable, as regards the persons or groups of persons in relation to whom the high-risk AI system is intended to be used. Those characteristics of the data sets may be met at the level of individual data sets or at the level of a combination thereof.",
+    "High-risk AI systems shall comply with the requirements laid down in this Section, taking into account their intended purpose as well as the generally acknowledged state of the art on AI and AI-related technologies. The risk management system referred to in Article 9 shall be taken into account when ensuring compliance with those requirements.",
+    "(ii) the level of accuracy, including its metrics, robustness and cybersecurity referred to in Article 15 against which the high-risk AI system has been tested and validated and which can be expected, and any known and foreseeable circumstances that may have an impact on that expected level of accuracy, robustness and cybersecurity;",
+    "Training, validation and testing data sets shall be subject to data governance and management practices appropriate for the intended purpose of the high-risk AI system. Those practices shall concern in particular: (a) the relevant design choices; (b) data collection processes and the origin of data, and in the case of personal data, the original purpose of the data collection; (c) relevant data-preparation processing operations, such as annotation, labelling, cleaning, updating, enrichment and aggregation; (d) the formulation of assumptions, in particular with respect to the information that the data are supposed to measure and represent; (e) an assessment of the availability, quantity and suitability of the data sets that are needed; (f) examination in view of possible biases that are likely to affect the health and safety of persons, have a negative impact on fundamental rights or lead to discrimination prohibited under Union law, especially where data outputs influence inputs for future operations; (g) appropriate measures to detect, prevent and mitigate possible biases identified according to point (f); (h) the identification of relevant data gaps or shortcomings that prevent compliance with this Regulation, and how those gaps and shortcomings can be addressed.",
+    "(vii) where applicable, information to enable deployers to interpret the output of the high-risk AI system and use it appropriately; (c) the changes to the high-risk AI system and its performance which have been pre-determined by the provider at the moment of the initial conformity assessment, if any; (d) the human oversight measures referred to in Article 14, including the technical measures put in place to facilitate the interpretation of the outputs of the high-risk AI systems by the deployers; (e) the computational and hardware resources needed, the expected lifetime of the high-risk AI system and any necessary maintenance and care measures, including their frequency, to ensure the proper functioning of that AI system, including as regards software updates; (f) where relevant, a description of the mechanisms included within the high-risk AI system that allows deployers to properly collect, store and interpret the logs in accordance with Article 12.",
+    "(iv) where applicable, the technical capabilities and characteristics of the high-risk AI system to provide information that is relevant to explain its output; (v) when appropriate, its performance regarding specific persons or groups of persons on which the system is intended to be used;",
+    "High-risk AI systems shall be designed and developed in such a way that they achieve an appropriate level of accuracy, robustness, and cybersecurity, and that they perform consistently in those respects throughout their lifecycle.",
+    "The testing of high-risk AI systems shall be performed, as appropriate, at any time throughout the development process, and, in any event, prior to their being placed on the market or put into service. Testing shall be carried out against prior defined metrics and probabilistic thresholds that are appropriate to the intended purpose of the high-risk AI system.",
+    "High-risk AI systems shall be resilient against attempts by unauthorised third parties to alter their use, outputs or performance by exploiting system vulnerabilities. The technical solutions aiming to ensure the cybersecurity of high-risk AI systems shall be appropriate to the relevant circumstances and the risks. The technical solutions to address AI specific vulnerabilities shall include, where appropriate, measures to prevent, detect, respond to, resolve and control for attacks trying to manipulate the training data set (data poisoning), or pre-trained components used in training (model poisoning), inputs designed to cause the AI model to make a mistake (adversarial examples or model evasion), confidentiality attacks or model flaws.",
+    "High-risk AI systems shall be accompanied by instructions for use in an appropriate digital format or otherwise that include concise, complete, correct and clear information that is relevant, accessible and comprehensible to deployers.",
+    "Data sets shall take into account, to the extent required by the intended purpose, the characteristics or elements that are particular to the specific geographical, contextual, behavioural or functional setting within which the high-risk AI system is intended to be used.",
+    "High-risk AI systems shall be designed and developed in such a way as to ensure that their operation is sufficiently transparent to enable deployers to interpret a system's output and use it appropriately. An appropriate type and degree of transparency shall be ensured with a view to achieving compliance with the relevant obligations of the provider and deployer set out in Section 3.",
+    "High-risk AI systems shall be tested for the purpose of identifying the most appropriate and targeted risk management measures. Testing shall ensure that high-risk AI systems perform consistently for their intended purpose and that they are in compliance with the requirements set out in this Section.",
+    "High-risk AI systems shall be as resilient as possible regarding errors, faults or inconsistencies that may occur within the system or the environment in which the system operates, in particular due to their interaction with natural persons or other systems. Technical and organisational measures shall be taken in this regard. The robustness of high-risk AI systems may be achieved through technical redundancy solutions, which may include backup or fail-safe plans. High-risk AI systems that continue to learn after being placed on the market or put into service shall be developed in such a way as to eliminate or reduce as far as possible the risk of possibly biased outputs influencing input for future operations (feedback loops), and as to ensure that any such feedback loops are duly addressed with appropriate mitigation measures.",
+    "AI systems presenting a risk shall be understood as a 'product presenting a risk' as defined in Article 3, point 19 of Regulation (EU) 2019/1020, in so far as they present risks to the health or safety, or to fundamental rights, of persons.",
+    "For high-risk AI systems referred to in point 1 (a), of Annex III, the logging capabilities shall provide, at a minimum: (a) recording of the period of each use of the system (start date and time and end date and time of each use); (b) the reference database against which input data has been checked by the system; (c) the input data for which the search has led to a match; (d) the identification of the natural persons involved in the verification of the results, as referred to in Article 14(5)."
+  ],
+  "reranker": {
+    "provider": "isaacus",
+    "model": "kanon-2-reranker",
+    "top_n": 20,
+    "llm_max_items": null
+  }
+}

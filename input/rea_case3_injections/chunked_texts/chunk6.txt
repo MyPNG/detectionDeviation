@@ -1,7 +1,7 @@
-A3.7 If an intended use is not supported by evidence, or if evidence comes to light that refutes that the system is fit for purpose for the intended use at any point in the system's use: 1) remove the intended use from customer-facing materials and make current customers aware of the issue, take action to close the identified gap, or discontinue the system,
-A3.7 If an intended use is not supported by evidence, or if evidence comes to light that refutes that the system is fit for purpose for the intended use at any point in the system's use: 1) remove the intended use from customer-facing materials and make current customers aware of the issue, take action to close the identified gap, or discontinue the system,
-A3.7 2) revise documentation related to the intended use,
-A3.7 3) publish the revised documentation to customers.
-A3.7 When the system is a platform service made available to external customers or partners, include this information in the required Transparency Note.
-A3.8 Communicate with care about system benefits; follow any applicable guidance from your attorney.
-A3.8 follow any applicable guidance from your attorney.
+REA-12: If an intended use is not supported by evidence, or if evidence comes to light that refutes that the system is fit for purpose for the intended use at any point in the system's use: 1) remove the intended use from customer-facing materials and make current customers aware of the issue, take action to close the identified gap, or discontinue the system,
+If an intended use is not supported by evidence, or if evidence comes to light that refutes that the system is fit for purpose for the intended use at any point in the system's use: 1) remove the intended use from customer-facing materials and make current customers aware of the issue, take action to close the identified gap, or discontinue the system,
+2) revise documentation related to the intended use,
+3) publish the revised documentation to customers.
+When the system is a platform service made available to external customers or partners, include this information in the required Transparency Note.
+REA-13: Communicate with care about system benefits; follow any applicable guidance from your attorney.
+follow any applicable guidance from your attorney.

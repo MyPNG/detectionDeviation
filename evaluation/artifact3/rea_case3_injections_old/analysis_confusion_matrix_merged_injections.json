@@ -1,0 +1,165 @@
+{
+  "mode": "merged_injection_analysis",
+  "expected_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/eu_ai_injections.json",
+  "actual_file": "/Users/my/Documents/projects/detectionDeviation/evaluation/artifact3/rea_case3_injections/merged_llm_extracted_normalized.json",
+  "table": [
+    {
+      "ID": "art10(2)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Deviation (True)",
+      "Result": "True Positive (Hit)"
+    },
+    {
+      "ID": "art10(3)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Non-Deviation (False)",
+      "Result": "False Negative (Miss)"
+    },
+    {
+      "ID": "art10(4)",
+      "Gold Standard": "Non-Deviation (False)",
+      "System Output": "Deviation (True)",
+      "Result": "False Positive (Alarm)"
+    },
+    {
+      "ID": "art11(1)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Non-Deviation (False)",
+      "Result": "False Negative (Miss)"
+    },
+    {
+      "ID": "art13(1)",
+      "Gold Standard": "Non-Deviation (False)",
+      "System Output": "Deviation (True)",
+      "Result": "False Positive (Alarm)"
+    },
+    {
+      "ID": "art13(2)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Non-Deviation (False)",
+      "Result": "False Negative (Miss)"
+    },
+    {
+      "ID": "art13(3)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Deviation (True)",
+      "Result": "True Positive (Hit)"
+    },
+    {
+      "ID": "art13(4)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Non-Deviation (False)",
+      "Result": "False Negative (Miss)"
+    },
+    {
+      "ID": "art13(8)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Deviation (True)",
+      "Result": "True Positive (Hit)"
+    },
+    {
+      "ID": "art14(1)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Deviation (True)",
+      "Result": "True Positive (Hit)"
+    },
+    {
+      "ID": "art14(2)",
+      "Gold Standard": "Non-Deviation (False)",
+      "System Output": "Deviation (True)",
+      "Result": "False Positive (Alarm)"
+    },
+    {
+      "ID": "art14(3)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Deviation (True)",
+      "Result": "True Positive (Hit)"
+    },
+    {
+      "ID": "art14(4)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Deviation (True)",
+      "Result": "True Positive (Hit)"
+    },
+    {
+      "ID": "art15(3)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Non-Deviation (False)",
+      "Result": "False Negative (Miss)"
+    },
+    {
+      "ID": "art9(1)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Non-Deviation (False)",
+      "Result": "False Negative (Miss)"
+    },
+    {
+      "ID": "art9(2)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Non-Deviation (False)",
+      "Result": "False Negative (Miss)"
+    },
+    {
+      "ID": "art9(5)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Non-Deviation (False)",
+      "Result": "False Negative (Miss)"
+    },
+    {
+      "ID": "art9(6)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Non-Deviation (False)",
+      "Result": "False Negative (Miss)"
+    },
+    {
+      "ID": "art9(8)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Non-Deviation (False)",
+      "Result": "False Negative (Miss)"
+    },
+    {
+      "ID": "Others (26)",
+      "Gold Standard": "Non-Deviation (False)",
+      "System Output": "Non-Deviation (False)",
+      "Result": "True Negatives",
+      "tn_keys": [
+        "REG-091",
+        "art10(1)",
+        "art10(6)",
+        "art11(3)",
+        "art13(6)",
+        "art13(7)",
+        "art13(7)(vi)",
+        "art15(1)",
+        "art15(2)",
+        "art26(1)",
+        "art26(2)",
+        "art26(3)",
+        "art26(4)",
+        "art26(7)",
+        "art26(8)",
+        "art26(9)",
+        "art60(2)",
+        "art60(8)",
+        "art79(1)",
+        "art79(10)",
+        "art79(6)",
+        "art8(1)",
+        "art9(4)",
+        "art9(7)",
+        "art9(9)",
+        "unknown"
+      ]
+    }
+  ],
+  "calculation_matrix": {
+    "tp": 6,
+    "fp": 3,
+    "fn": 10,
+    "tn": 26,
+    "precision": 0.666667,
+    "recall": 0.375,
+    "f1": 0.48,
+    "accuracy": 0.711111
+  }
+}

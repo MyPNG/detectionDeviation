@@ -1,0 +1,60 @@
+[
+  {
+    "reg_id": "REG-092",
+    "clause": "Art77(1)",
+    "considered_references": [],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Data deviation",
+        "gdpr_quote": "every data subject shall have the right to lodge a complaint with a supervisory authority, in particular in the Member State of his or her habitual residence, place of work or place of the alleged infringement if the data subject considers that the processing of personal data relating to him or her infringes this Regulation.",
+        "policy_quote": "In accordance with Art 77 GDPR, you have the right to lodge a complaint with a data protection supervisory authority if you believe that the processing of your personal data infringes data protection law.",
+        "mismatch": "The policy expands the trigger from infringements of “this Regulation” to infringements of broader “data protection law.”",
+        "analysis": "GDPR Art 77(1) specifies the complaint right applies where processing infringes the GDPR itself; the policy broadens this condition to any data protection law, altering the scope of when a complaint may be lodged."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-093",
+    "clause": "Art77(2)",
+    "considered_references": [
+      "Art78(2)",
+      "Art78(1)",
+      "Art78(3)",
+      "Art78(4)"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-095",
+    "clause": "Art78(2)",
+    "considered_references": [
+      "Art77(1)",
+      "Art77(2)"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-021",
+    "clause": "Art15(1)",
+    "considered_references": [
+      "Art22(1)"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-013",
+    "clause": "Art13(2)",
+    "considered_references": [
+      "Art13(1)",
+      "Art6(1)",
+      "Art9(2)",
+      "Art22(1)"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  }
+]

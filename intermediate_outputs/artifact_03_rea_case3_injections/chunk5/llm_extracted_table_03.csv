@@ -1,0 +1,4 @@
+reg_id,clause,considered_references,policy_id,deviation_index,deviation_found,article,gdpr_requirement,policy_realization,deviation_type,analysis
+REG-030,Art13(6),[],,,False,,,,,
+REG-032,Art13(8),"[""Art20(3)"", ""Art20(4)"", ""Art21(1)"", ""Art21(2)"", ""Art21(3)"", ""Art15(2)"", ""Art15(3)"", ""Art15(4)""]",,,False,,,,,
+REG-031,Art13(7),[],,,False,,,,,

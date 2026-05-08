@@ -1,0 +1,11 @@
+reg_id,clause,considered_references,policy_id,deviation_index,deviation_found,article,gdpr_requirement,policy_realization,deviation_type,gdpr_quote,policy_quote,mismatch,analysis
+REG-056,Art60(2),[],,,False,,,,,,,,
+REG-008,Art9(6),[],,,False,,,,,,,,
+REG-091,Unknown,[],,,False,,,,,,,,
+REG-010,Art9(8),[],,,False,,,,,,,,
+REG-039,Art15(2),"[""Art21(4)""]",,,False,,,,,,,,
+REG-027,Art13(3),[],,1,True,,,,Execution style deviation,"The instructions for use shall contain at least the following information: (a) the identity and the contact details of the provider and, where applicable, of its authorised representative; (b) the characteristics, capabilities and limitations of performance of the high-risk AI system, including: (i) its intended purpose;","Provide documentation to customers which describes the system's: 1) intended uses, Provide documentation to customers which describes the system's: 2) evidence that the system is fit for purpose for each intended use. When the system is a platform service made available to external customers or partners, include this information in the required Transparency Note.","The regulation requires an 'instructions for use' artifact, whereas the policy commits to 'documentation to customers' and a 'Transparency Note' for platforms.",The method/artefact for delivering user-facing information differs in terminology and format; this is an execution style difference and does not inherently negate compliance with content requirements.
+REG-030,Art13(6),[],,,False,,,,,,,,
+REG-032,Art13(8),"[""Art20(3)"", ""Art20(4)"", ""Art21(1)"", ""Art21(2)"", ""Art21(3)"", ""Art15(2)"", ""Art15(3)"", ""Art15(4)""]",,,False,,,,,,,,
+REG-031,Art13(7),[],,,False,,,,,,,,
+REG-021,Art11(3),"[""Art45(6)"", ""Art45(7)"", ""Art45(8)"", ""Art45(9)"", ""Art46(1)"", ""Art46(2)""]",,,False,,,,,,,,

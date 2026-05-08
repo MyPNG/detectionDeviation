@@ -1,0 +1,25 @@
+[
+  {
+    "reg_id": "REG-010",
+    "clause": "Art9(8)",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-006",
+    "clause": "Art9(4)",
+    "considered_references": [
+      "Art6(4)"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-091",
+    "clause": "Unknown (not provided)",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": []
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "chunk": "chunk14",
+  "max_hop": 1,
+  "visited_nodes_count": 6,
+  "nodes": [
+    {
+      "ID": "REG-014",
+      "Article": "12",
+      "Paragraph": "4",
+      "Text": "If the controller does not take action on the request of the data subject, the controller shall inform the data subject without delay and at the latest within one month of receipt of the request of the reasons for not taking action and on the possibility of lodging a complaint with a supervisory authority and seeking a judicial remedy.",
+      "system_name": "Art12(4)"
+    },
+    {
+      "ID": "REG-058",
+      "Article": "33",
+      "Paragraph": "1",
+      "Text": "In the case of a personal data breach, the controller shall without undue delay and, where feasible, not later than 72 hours after having become aware of it, notify the personal data breach to the supervisory authority competent in accordance with Article 55, unless the personal data breach is unlikely to result in a risk to the rights and freedoms of natural persons. Where the notification to the supervisory authority is not made within 72 hours, it shall be accompanied by reasons for the delay.",
+      "system_name": "Art33(1)"
+    },
+    {
+      "ID": "REG-073",
+      "Article": "37",
+      "Paragraph": "7",
+      "Text": "The controller or the processor shall publish the contact details of the data protection officer and communicate them to the supervisory authority.",
+      "system_name": "Art37(7)"
+    },
+    {
+      "ID": "REG-087",
+      "Article": "55",
+      "Paragraph": "1",
+      "Text": "Each supervisory authority shall be competent for the performance of the tasks assigned to and the exercise of the powers conferred on it in accordance with this Regulation on the territory of its own Member State.",
+      "system_name": "Art55(1)"
+    },
+    {
+      "ID": "REG-088",
+      "Article": "55",
+      "Paragraph": "2",
+      "Text": "Where processing is carried out by public authorities or private bodies acting on the basis of point (c) or (e) of Article 6(1), the supervisory authority of the Member State concerned shall be competent. In such cases Article 56 does not apply.",
+      "system_name": "Art55(2)"
+    },
+    {
+      "ID": "REG-089",
+      "Article": "55",
+      "Paragraph": "3",
+      "Text": "Supervisory authorities shall not be competent to supervise processing operations of courts acting in their judicial capacity.",
+      "system_name": "Art55(3)"
+    }
+  ]
+}

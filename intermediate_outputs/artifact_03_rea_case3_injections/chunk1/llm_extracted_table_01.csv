@@ -1,0 +1,4 @@
+reg_id,clause,considered_references,policy_id,deviation_index,deviation_found,article,gdpr_requirement,policy_realization,deviation_type,analysis
+REG-064,Art79(1),[],,,False,,,,,
+REG-051,Art26(9),"[""Art17(1)"", ""Art17(2)"", ""Art17(3)"", ""Art18(1)"", ""Art18(2)"", ""Art18(3)"", ""Art20(1)"", ""Art20(2)""]",,,False,,,,,
+REG-011,Art9(9),"[""Art6(3)""]",,,False,,,,,

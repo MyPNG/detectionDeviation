@@ -1,0 +1,687 @@
+[
+  {
+    "reg_id": "REG-001",
+    "clause": "Art8(1)",
+    "considered_references": [
+      "Art6(3)",
+      "Art6(4)",
+      "Art8(1)",
+      "Art8(2)",
+      "Art8(3)",
+      "Art9(2)",
+      "Art9(4)",
+      "Art13(1)",
+      "Art9(3)"
+    ],
+    "deviation_found": false,
+    "deviations": [],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk2/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk3/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-004",
+    "clause": "Art9(2)",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": [],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk1/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-006",
+    "clause": "Art9(4)",
+    "considered_references": [
+      "Art6(4)"
+    ],
+    "deviation_found": false,
+    "deviations": [],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk4/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk1/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk9/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-008",
+    "clause": "Art9(6)",
+    "considered_references": [
+      "Art9(2)",
+      "Art6(3)",
+      "Art6(4)",
+      "Art9(3)"
+    ],
+    "deviation_found": false,
+    "deviations": [],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk2/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk5/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk3/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk9/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-009",
+    "clause": "Art9(7)",
+    "considered_references": [
+      "Art40(6)",
+      "Art40(7)",
+      "Art40(8)",
+      "Art40(9)",
+      "Art40(10)",
+      "Art40(11)",
+      "Art42(1)",
+      "Art42(2)",
+      "Art42(3)"
+    ],
+    "deviation_found": false,
+    "deviations": [],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk7/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-010",
+    "clause": "Art9(8)",
+    "considered_references": [
+      "Art9(2)"
+    ],
+    "deviation_found": false,
+    "deviations": [],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk2/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk5/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk4/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk1/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk9/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-011",
+    "clause": "Art9(9)",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": [],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk1/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-013",
+    "clause": "Art10(1)",
+    "considered_references": [
+      "Art13(3)",
+      "Art13(4)",
+      "Art14(1)"
+    ],
+    "deviation_found": false,
+    "deviations": [],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk3/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk7/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-014",
+    "clause": "Art10(2)",
+    "considered_references": [],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Severity deviation",
+        "gdpr_quote": "Training, validation and testing data sets shall be subject to data governance and management practices appropriate for the intended purpose of the high-risk AI system.",
+        "policy_quote": "Microsoft AI systems are subject to appropriate data governance and management practices. Applies to: All AI systems.",
+        "mismatch": "The regulation targets high-risk AI systems, while the policy applies the requirement to all AI systems, which is stricter in scope.",
+        "analysis": "By extending governance requirements beyond high-risk systems, the policy imposes a broader obligation than the regulation requires."
+      }
+    ],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk9/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk7/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-015",
+    "clause": "Art10(3)",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": [],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk3/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk7/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-016",
+    "clause": "Art10(4)",
+    "considered_references": [],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Severity deviation",
+        "gdpr_quote": "Data sets shall take into account, to the extent required by the intended purpose, the characteristics or elements that are particular to the specific geographical, contextual, behavioural or functional setting within which the high-risk AI system is intended to be used.",
+        "policy_quote": "Applies to: All AI systems. Define and document data requirements with respect to the system's intended uses, stakeholders, and the geographic areas where the system will be deployed.",
+        "mismatch": "The regulation limits the obligation to high-risk AI systems and only to the extent required by the intended purpose, while the policy applies this across all AI systems.",
+        "analysis": "The policy broadens the scope of systems covered beyond what the regulation mandates, making it stricter in scope."
+      }
+    ],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk7/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-018",
+    "clause": "Art10(6)",
+    "considered_references": [
+      "Art13(3)",
+      "Art13(4)"
+    ],
+    "deviation_found": false,
+    "deviations": [],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk3/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk1/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-021",
+    "clause": "Art11(3)",
+    "considered_references": [
+      "Art45(6)",
+      "Art45(7)",
+      "Art45(8)",
+      "Art45(9)",
+      "Art46(1)",
+      "Art46(2)"
+    ],
+    "deviation_found": false,
+    "deviations": [],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk5/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-025",
+    "clause": "Art13(1)",
+    "considered_references": [
+      "Art17(2)",
+      "Art17(3)",
+      "Art18(1)",
+      "Art18(2)",
+      "Art20(1)",
+      "Art20(2)"
+    ],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Severity deviation",
+        "gdpr_quote": "High-risk AI systems shall be designed and developed in such a way as to ensure that their operation is sufficiently transparent to enable deployers to interpret a system's output and use it appropriately.",
+        "policy_quote": "Applies to: All AI systems.",
+        "mismatch": "The policy applies the transparency-by-design expectation to all AI systems, while the regulation sets it for high-risk AI systems.",
+        "analysis": "Article 13(1) targets high-risk AI systems; the policy adopts a broader scope, which is stricter than required."
+      }
+    ],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk2/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk1/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk8/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-026",
+    "clause": "Art13(2)",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": [],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk6/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-027",
+    "clause": "Art13(3)",
+    "considered_references": [],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Execution style deviation",
+        "gdpr_quote": "The instructions for use shall contain at least the following information: (a) the identity and the contact details of the provider and, where applicable, of its authorised representative; (b) the characteristics, capabilities and limitations of performance of the high-risk AI system, including: (i) its intended purpose;",
+        "policy_quote": "Provide documentation to customers which describes the system's: 1) intended uses, Provide documentation to customers which describes the system's: 2) evidence that the system is fit for purpose for each intended use. When the system is a platform service made available to external customers or partners, include this information in the required Transparency Note.",
+        "mismatch": "The regulation requires an 'instructions for use' artifact, whereas the policy commits to 'documentation to customers' and a 'Transparency Note' for platforms.",
+        "analysis": "The method/artefact for delivering user-facing information differs in terminology and format; this is an execution style difference and does not inherently negate compliance with content requirements."
+      }
+    ],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk5/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk6/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-028",
+    "clause": "Art13(4)",
+    "considered_references": [
+      "Art21(4)",
+      "Art22(1)",
+      "Art22(2)",
+      "Art21(6)"
+    ],
+    "deviation_found": false,
+    "deviations": [],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk4/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk9/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-030",
+    "clause": "Art13(6)",
+    "considered_references": [
+      "Art17(2)",
+      "Art17(3)",
+      "Art18(1)",
+      "Art18(2)",
+      "Art20(1)",
+      "Art20(2)"
+    ],
+    "deviation_found": false,
+    "deviations": [],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk2/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk5/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk4/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk6/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-031",
+    "clause": "Art13(7)",
+    "considered_references": [
+      "Art17(1)",
+      "Art17(2)",
+      "Art17(3)",
+      "Art18(1)",
+      "Art18(2)",
+      "Art18(3)",
+      "Art20(2)"
+    ],
+    "deviation_found": false,
+    "deviations": [],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk5/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk4/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk3/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk9/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk7/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-032",
+    "clause": "Art13(8)",
+    "considered_references": [
+      "Art20(3)",
+      "Art20(4)",
+      "Art21(1)",
+      "Art21(2)",
+      "Art21(3)",
+      "Art15(2)",
+      "Art15(3)",
+      "Art15(4)"
+    ],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Severity deviation",
+        "gdpr_quote": "(d) the human oversight measures referred to in Article 14, including the technical measures put in place to facilitate the interpretation of the outputs of the high-risk AI systems by the deployers; (e) the computational and hardware resources needed, the expected lifetime of the high-risk AI system and any necessary maintenance and care measures...",
+        "policy_quote": "Applies to: All AI systems.",
+        "mismatch": "Article 13(8) content is framed around high-risk AI systems, whereas the policy applies analogous transparency/oversight documentation expectations to all AI systems.",
+        "analysis": "The regulation’s transparency and information-to-deployers items are specific to high-risk AI systems; the policy broadens the scope, which is over-compliant."
+      }
+    ],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk5/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk8/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk9/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-033",
+    "clause": "Art14(1)",
+    "considered_references": [
+      "Art20(2)",
+      "Art23(1)",
+      "Art20(4)",
+      "Art21(1)",
+      "Art21(2)",
+      "Art21(3)",
+      "Art22(4)"
+    ],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Severity deviation",
+        "gdpr_quote": "High-risk AI systems shall be designed and developed in such a way, including with appropriate human-machine interface tools, that they can be effectively overseen by natural persons...",
+        "policy_quote": "Applies to: All AI systems.",
+        "mismatch": "The regulation’s requirement targets high-risk AI systems, while the policy applies oversight-related controls across all AI systems (broader/stricter scope).",
+        "analysis": "Policy broadens scope beyond high-risk systems; this is an over-compliance deviation in scope."
+      },
+      {
+        "deviation_type": "Severity deviation",
+        "gdpr_quote": "High-risk AI systems shall be designed and developed in such a way, including with appropriate human-machine interface tools, that they can be effectively overseen by natural persons during the period in which they are in use.",
+        "policy_quote": "Applies to: All AI systems.",
+        "mismatch": "The policy extends the human-oversight design requirement beyond high-risk AI systems to all AI systems.",
+        "analysis": "The regulation confines this oversight-by-design obligation to high-risk AI systems; the policy applies it more broadly, which is over-compliant."
+      }
+    ],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk2/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk3/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk8/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk9/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-034",
+    "clause": "Art14(2)",
+    "considered_references": [
+      "Art20(2)",
+      "Art23(1)",
+      "Art20(3)",
+      "Art21(1)",
+      "Art21(2)",
+      "Art21(3)"
+    ],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Severity deviation",
+        "gdpr_quote": "Human oversight shall aim to prevent or minimise the risks to health, safety or fundamental rights that may emerge when a high-risk AI system is used...",
+        "policy_quote": "Applies to: All AI systems.",
+        "mismatch": "The regulation frames human oversight around high-risk AI systems, while the policy applies oversight processes to all AI systems (broader/stricter scope).",
+        "analysis": "Scope of application is expanded beyond high-risk AI systems; this is over-compliance in scope."
+      },
+      {
+        "deviation_type": "Severity deviation",
+        "gdpr_quote": "Human oversight shall aim to prevent or minimise the risks to health, safety or fundamental rights that may emerge when a high-risk AI system is used...",
+        "policy_quote": "Applies to: All AI systems.",
+        "mismatch": "The policy generalizes human-oversight risk mitigation obligations to all AI systems, while the regulation targets high-risk AI systems.",
+        "analysis": "Article 14(2) frames oversight objectives specifically for high-risk AI systems; the policy’s scope is broader and thus stricter."
+      }
+    ],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk2/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk8/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk9/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-035",
+    "clause": "Art14(3)",
+    "considered_references": [
+      "Art20(2)",
+      "Art23(1)",
+      "Art20(3)",
+      "Art20(4)",
+      "Art21(2)",
+      "Art21(3)"
+    ],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Severity deviation",
+        "gdpr_quote": "The oversight measures shall be commensurate with the risks, level of autonomy and context of use of the high-risk AI system...",
+        "policy_quote": "Applies to: All AI systems.",
+        "mismatch": "The regulation targets oversight for high-risk AI systems, while the policy scopes oversight processes to all AI systems (broader/stricter scope).",
+        "analysis": "Policy extends oversight applicability beyond high-risk AI systems; this is over-compliance in scope, not a contradiction."
+      }
+    ],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk2/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk9/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-036",
+    "clause": "Art14(4)",
+    "considered_references": [
+      "Art20(3)",
+      "Art20(4)",
+      "Art21(1)",
+      "Art21(3)"
+    ],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Severity deviation",
+        "gdpr_quote": "For the purpose of implementing paragraphs 1, 2 and 3, the high-risk AI system shall be provided to the deployer in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: ...",
+        "policy_quote": "Applies to: All AI systems.",
+        "mismatch": "The policy applies the oversight-enablement requirements to all AI systems, whereas the regulation limits them to high-risk AI systems.",
+        "analysis": "Article 14(4) expressly addresses enabling oversight for high-risk AI systems; the policy expands this requirement to all AI systems, which is stricter than required."
+      }
+    ],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk8/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk9/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-038",
+    "clause": "Art15(1)",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": [],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk3/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-039",
+    "clause": "Art15(2)",
+    "considered_references": [
+      "Art21(4)",
+      "Art21(6)",
+      "Art22(1)",
+      "Art22(2)"
+    ],
+    "deviation_found": false,
+    "deviations": [],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk5/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk4/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk9/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk7/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-040",
+    "clause": "Art15(3)",
+    "considered_references": [
+      "Art21(4)"
+    ],
+    "deviation_found": false,
+    "deviations": [],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk4/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk9/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-043",
+    "clause": "Art26(1)",
+    "considered_references": [
+      "Art23(1)",
+      "Art26(2)"
+    ],
+    "deviation_found": false,
+    "deviations": [],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk2/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk6/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-044",
+    "clause": "Art26(2)",
+    "considered_references": [
+      "Art22(3)",
+      "Art23(1)"
+    ],
+    "deviation_found": false,
+    "deviations": [],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk1/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk8/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk9/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-045",
+    "clause": "Art26(3)",
+    "considered_references": [
+      "Art22(3)",
+      "Art22(4)"
+    ],
+    "deviation_found": false,
+    "deviations": [],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk9/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-046",
+    "clause": "Art26(4)",
+    "considered_references": [
+      "Art22(3)",
+      "Art22(4)"
+    ],
+    "deviation_found": false,
+    "deviations": [],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk3/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk6/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk7/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-049",
+    "clause": "Art26(7)",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": [],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk6/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk1/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-050",
+    "clause": "Art26(8)",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": [],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk2/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-051",
+    "clause": "Art26(9)",
+    "considered_references": [
+      "Art17(2)",
+      "Art17(3)",
+      "Art18(1)",
+      "Art18(2)",
+      "Art20(1)",
+      "Art20(2)",
+      "Art17(1)",
+      "Art18(3)"
+    ],
+    "deviation_found": false,
+    "deviations": [],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk2/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk1/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk7/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-056",
+    "clause": "Art60(2)",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": [],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk5/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk9/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-062",
+    "clause": "Art60(8)",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": [],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk6/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-064",
+    "clause": "Art79(1)",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": [],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk3/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk1/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-069",
+    "clause": "Art79(6)",
+    "considered_references": [
+      "Art42(5)"
+    ],
+    "deviation_found": false,
+    "deviations": [],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk6/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-073",
+    "clause": "Art79(10)",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": [],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk6/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-091",
+    "clause": "Unknown",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": [],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk2/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk5/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk4/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk1/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk9/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk7/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-101",
+    "clause": "Unknown",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": [],
+    "source": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk7/llm_extracted_normalized.json"
+    ]
+  }
+]

@@ -1,0 +1,149 @@
+{
+  "chunk": "chunk12",
+  "entry_source": "reg_main_clauses.csv",
+  "max_hop": 1,
+  "entry_points_count": 11,
+  "visited_nodes_count": 24,
+  "relationships": [
+    {
+      "source": "REG-019",
+      "relation": "REFERENCES",
+      "target": "REG-017",
+      "hop_from_source": 1,
+      "reference": "Art14(2)"
+    },
+    {
+      "source": "REG-014",
+      "relation": "REFERENCES",
+      "target": "REG-013",
+      "hop_from_source": 1,
+      "reference": "Art13(2)"
+    },
+    {
+      "source": "REG-035",
+      "relation": "REFERENCES",
+      "target": "REG-001",
+      "hop_from_source": 1,
+      "reference": "Art6(1)"
+    },
+    {
+      "source": "REG-028",
+      "relation": "REFERENCES",
+      "target": "REG-035",
+      "hop_from_source": 1,
+      "reference": "Art21(1)"
+    },
+    {
+      "source": "REG-012",
+      "relation": "REFERENCES",
+      "target": "REG-001",
+      "hop_from_source": 1,
+      "reference": "Art6(1)"
+    },
+    {
+      "source": "REG-012",
+      "relation": "REFERENCES",
+      "target": "REG-078",
+      "hop_from_source": 1,
+      "reference": "Art46"
+    },
+    {
+      "source": "REG-012",
+      "relation": "REFERENCES",
+      "target": "REG-079",
+      "hop_from_source": 1,
+      "reference": "Art46"
+    },
+    {
+      "source": "REG-012",
+      "relation": "REFERENCES",
+      "target": "REG-080",
+      "hop_from_source": 1,
+      "reference": "Art46"
+    },
+    {
+      "source": "REG-012",
+      "relation": "REFERENCES",
+      "target": "REG-081",
+      "hop_from_source": 1,
+      "reference": "Art46"
+    },
+    {
+      "source": "REG-012",
+      "relation": "REFERENCES",
+      "target": "REG-082",
+      "hop_from_source": 1,
+      "reference": "Art46"
+    },
+    {
+      "source": "REG-012",
+      "relation": "REFERENCES",
+      "target": "REG-083",
+      "hop_from_source": 1,
+      "reference": "Art47"
+    },
+    {
+      "source": "REG-012",
+      "relation": "REFERENCES",
+      "target": "REG-084",
+      "hop_from_source": 1,
+      "reference": "Art47"
+    },
+    {
+      "source": "REG-012",
+      "relation": "REFERENCES",
+      "target": "REG-085",
+      "hop_from_source": 1,
+      "reference": "Art47"
+    },
+    {
+      "source": "REG-012",
+      "relation": "REFERENCES",
+      "target": "REG-086",
+      "hop_from_source": 1,
+      "reference": "Art49(1)"
+    },
+    {
+      "source": "REG-003",
+      "relation": "REFERENCES",
+      "target": "REG-001",
+      "hop_from_source": 1,
+      "reference": "Art6(1)"
+    },
+    {
+      "source": "REG-017",
+      "relation": "REFERENCES",
+      "target": "REG-001",
+      "hop_from_source": 1,
+      "reference": "Art6(1)"
+    },
+    {
+      "source": "REG-017",
+      "relation": "REFERENCES",
+      "target": "REG-009",
+      "hop_from_source": 1,
+      "reference": "Art9(2)"
+    },
+    {
+      "source": "REG-017",
+      "relation": "REFERENCES",
+      "target": "REG-041",
+      "hop_from_source": 1,
+      "reference": "Art22(1)"
+    },
+    {
+      "source": "REG-017",
+      "relation": "REFERENCES",
+      "target": "REG-016",
+      "hop_from_source": 1,
+      "reference": "Art14(1)"
+    },
+    {
+      "source": "REG-089",
+      "relation": "REFERENCES",
+      "target": "REG-086",
+      "hop_from_source": 1,
+      "reference": "Art49(1)"
+    }
+  ]
+}

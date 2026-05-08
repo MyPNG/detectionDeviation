@@ -1,0 +1,36 @@
+[
+  {
+    "reg_id": "REG-069",
+    "clause": "Art79(6)",
+    "considered_references": [
+      "Art42(5)"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-046",
+    "clause": "Art26(4)",
+    "considered_references": [
+      "Art22(3)",
+      "Art22(4)"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-027",
+    "clause": "Art13(3)",
+    "considered_references": [],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Negation deviation",
+        "gdpr_quote": "The instructions for use shall contain at least the following information: (a) the identity and the contact details of the provider and, where applicable, of its authorised representative; (b) the characteristics, capabilities and limitations of performance of the high-risk AI system, including: (i) its intended purpose;",
+        "policy_quote": "1) remove the intended use from customer-facing materials and make current customers aware of the issue, take action to close the identified gap, or discontinue the system,",
+        "mismatch": "While the regulation requires that instructions for use include the intended purpose, the policy directs removing the intended use from customer-facing materials when evidence is lacking.",
+        "analysis": "Customer-facing materials typically include instructions for use; authorizing removal of the intended use results in documentation that omits the required intended purpose, contradicting the mandate that it shall be included."
+      }
+    ]
+  }
+]

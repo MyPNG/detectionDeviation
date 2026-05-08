@@ -1,0 +1,389 @@
+[
+  {
+    "reg_id": "REG-064",
+    "clause": "Art79(1)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk1/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk3/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-051",
+    "clause": "Art26(9)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk1/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk2/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk7/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-011",
+    "clause": "Art9(9)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk1/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-010",
+    "clause": "Art9(8)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk1/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk2/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk4/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk5/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk9/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-018",
+    "clause": "Art10(6)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk1/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk3/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-091",
+    "clause": "UNKNOWN",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk1/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk4/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk5/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk7/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk9/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-044",
+    "clause": "Art26(2)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk1/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk8/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk9/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-025",
+    "clause": "Art13(1)",
+    "deviation_found": true,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk1/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk2/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk8/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-049",
+    "clause": "Art26(7)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk1/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk6/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-006",
+    "clause": "Art9(4)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk1/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk4/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk9/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-004",
+    "clause": "Art9(2)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk1/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-035",
+    "clause": "Art14(3)",
+    "deviation_found": true,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk2/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk9/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-001",
+    "clause": "Art8(1)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk2/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk3/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-034",
+    "clause": "Art14(2)",
+    "deviation_found": true,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk2/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk8/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk9/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-008",
+    "clause": "Art9(6)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk2/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk3/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk5/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk9/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-030",
+    "clause": "Art13(6)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk2/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk4/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk5/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk6/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-043",
+    "clause": "Art26(1)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk2/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk6/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-091",
+    "clause": "",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk2/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-050",
+    "clause": "Art26(8)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk2/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-033",
+    "clause": "Art14(1)",
+    "deviation_found": true,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk2/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk3/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk8/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk9/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-038",
+    "clause": "Art15(1)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk3/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-031",
+    "clause": "Art13(7)(vi)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk3/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-013",
+    "clause": "Art10(1)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk3/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk7/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-046",
+    "clause": "Art26(4)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk3/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk6/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk7/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-015",
+    "clause": "Art10(3)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk3/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk7/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-039",
+    "clause": "Art15(2)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk4/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk5/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk7/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk9/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-040",
+    "clause": "Art15(3)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk4/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk9/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-031",
+    "clause": "Art13(7)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk4/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk5/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk7/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk9/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-028",
+    "clause": "Art13(4)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk4/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk9/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-056",
+    "clause": "Art60(2)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk5/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk9/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-027",
+    "clause": "Art13(3)",
+    "deviation_found": true,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk5/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk6/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-032",
+    "clause": "Art13(8)",
+    "deviation_found": true,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk5/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk8/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk9/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-021",
+    "clause": "Art11(3)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk5/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-069",
+    "clause": "Art79(6)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk6/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-062",
+    "clause": "Art60(8)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk6/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-073",
+    "clause": "Art79(10)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk6/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-026",
+    "clause": "Art13(2)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk6/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-014",
+    "clause": "Art10(2)",
+    "deviation_found": true,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk7/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk9/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-016",
+    "clause": "Art10(4)",
+    "deviation_found": true,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk7/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-009",
+    "clause": "Art9(7)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk7/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-036",
+    "clause": "Art14(4)",
+    "deviation_found": true,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk8/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk9/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-045",
+    "clause": "Art26(3)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_rea_case3_injections/chunk9/llm_extracted_normalized.json"
+    ]
+  }
+]

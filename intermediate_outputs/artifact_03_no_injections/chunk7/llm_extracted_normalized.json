@@ -1,0 +1,66 @@
+[
+  {
+    "reg_id": "REG-092",
+    "clause": "Art77(1)",
+    "considered_references": [],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Severity deviation",
+        "gdpr_quote": "if the data subject considers that the processing of personal data relating to him or her infringes this Regulation.",
+        "policy_quote": "In accordance with Art 77 GDPR, you have the right to lodge a complaint with a data protection supervisory authority if you believe that the processing of your personal data infringes data protection law.",
+        "mismatch": "Policy expands the complaint trigger from infringement of “this Regulation” to any “data protection law,” over-broadening the basis for complaint.",
+        "analysis": "GDPR ties the complaint right in Art 77(1) specifically to infringements of the GDPR, whereas the policy grants the right for broader ‘data protection law’ infringements, which is more permissive toward data subjects."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-035",
+    "clause": "Art21(1)",
+    "considered_references": [
+      "Art6(1)"
+    ],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Severity deviation",
+        "gdpr_quote": "The data subject shall have the right to object, on grounds relating to his or her particular situation, at any time to processing of personal data concerning him or her which is based on point (e) or (f) of Article 6(1)",
+        "policy_quote": "Right to object to processing: If the processing of your data is based on Art 6 para 1 lit f) GDPR, you may object to the processing at any time.",
+        "mismatch": "Policy allows unconditional objection to processing based on Art 6(1)(f), whereas GDPR requires that the objection be based on grounds relating to the data subject’s particular situation.",
+        "analysis": "By omitting the ‘particular situation’ condition, the policy broadens the right to object beyond the GDPR’s requirement. Non-mention of Art 6(1)(e), profiling, or the balancing exception are treated as omissions, not deviations."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-095",
+    "clause": "Art78(2)",
+    "considered_references": [
+      "Art77(1)",
+      "Art77(2)"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-021",
+    "clause": "Art15(1)",
+    "considered_references": [
+      "Art22(1)",
+      "Art77(1)"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-017",
+    "clause": "Art14(2)",
+    "considered_references": [
+      "Art14(1)",
+      "Art6(1)",
+      "Art9(2)",
+      "Art22(1)"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  }
+]

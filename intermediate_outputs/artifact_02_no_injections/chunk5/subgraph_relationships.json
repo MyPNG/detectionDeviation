@@ -1,0 +1,93 @@
+{
+  "chunk": "chunk5",
+  "entry_source": "reg_main_clauses.csv",
+  "max_hop": 1,
+  "entry_points_count": 5,
+  "visited_nodes_count": 10,
+  "relationships": [
+    {
+      "source": "REG-031",
+      "relation": "REFERENCES",
+      "target": "REG-001",
+      "hop_from_source": 1,
+      "reference": "Art6(1)"
+    },
+    {
+      "source": "REG-031",
+      "relation": "REFERENCES",
+      "target": "REG-009",
+      "hop_from_source": 1,
+      "reference": "Art9(2)"
+    },
+    {
+      "source": "REG-035",
+      "relation": "REFERENCES",
+      "target": "REG-001",
+      "hop_from_source": 1,
+      "reference": "Art6(1)"
+    },
+    {
+      "source": "REG-017",
+      "relation": "REFERENCES",
+      "target": "REG-001",
+      "hop_from_source": 1,
+      "reference": "Art6(1)"
+    },
+    {
+      "source": "REG-017",
+      "relation": "REFERENCES",
+      "target": "REG-009",
+      "hop_from_source": 1,
+      "reference": "Art9(2)"
+    },
+    {
+      "source": "REG-017",
+      "relation": "REFERENCES",
+      "target": "REG-041",
+      "hop_from_source": 1,
+      "reference": "Art22(1)"
+    },
+    {
+      "source": "REG-017",
+      "relation": "REFERENCES",
+      "target": "REG-016",
+      "hop_from_source": 1,
+      "reference": "Art14(1)"
+    },
+    {
+      "source": "REG-013",
+      "relation": "REFERENCES",
+      "target": "REG-001",
+      "hop_from_source": 1,
+      "reference": "Art6(1)"
+    },
+    {
+      "source": "REG-013",
+      "relation": "REFERENCES",
+      "target": "REG-009",
+      "hop_from_source": 1,
+      "reference": "Art9(2)"
+    },
+    {
+      "source": "REG-013",
+      "relation": "REFERENCES",
+      "target": "REG-041",
+      "hop_from_source": 1,
+      "reference": "Art22(1)"
+    },
+    {
+      "source": "REG-013",
+      "relation": "REFERENCES",
+      "target": "REG-012",
+      "hop_from_source": 1,
+      "reference": "Art13(1)"
+    },
+    {
+      "source": "REG-028",
+      "relation": "REFERENCES",
+      "target": "REG-035",
+      "hop_from_source": 1,
+      "reference": "Art21(1)"
+    }
+  ]
+}

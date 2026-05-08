@@ -1,0 +1,39 @@
+[
+  {
+    "reg_id": "REG-021",
+    "clause": "Art13(3)",
+    "considered_references": [
+      "Art14(5)"
+    ],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Severity deviation",
+        "gdpr_quote": "Where the controller intends to further process the personal data for a purpose other than that for which the personal data were collected, the controller shall provide the data subject prior to that further processing with information on that other purpose and with any relevant further information as referred to in paragraph 2.",
+        "policy_quote": "Your data is not used for any other purposes or shared with third parties.",
+        "mismatch": "GDPR allows further processing with prior information, but the policy categorically disallows any other-purpose processing.",
+        "analysis": "The policy’s blanket prohibition on further processing is stricter than GDPR Art13(3), which contemplates allowing further processing if prior information (and Art13(2) details) is provided."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-032",
+    "clause": "Art17(1)",
+    "considered_references": [
+      "Art6(1)",
+      "Art21(5)",
+      "Art21(6)"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-005",
+    "clause": "Art9(1)",
+    "considered_references": [
+      "Art8(2)"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  }
+]

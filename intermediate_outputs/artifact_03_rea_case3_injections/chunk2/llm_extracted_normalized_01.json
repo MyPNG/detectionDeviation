@@ -1,0 +1,65 @@
+[
+  {
+    "reg_id": "REG-035",
+    "clause": "Art14(3)",
+    "considered_references": [],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Severity deviation",
+        "gdpr_quote": "The oversight measures shall be commensurate with the risks, level of autonomy and context of use of the high-risk AI system, and shall be ensured through either one or both of the following types of measures:",
+        "policy_quote": "Applies to: All AI systems.",
+        "mismatch": "The regulation’s oversight requirement targets high-risk AI systems, whereas the policy applies oversight to all AI systems, which is broader.",
+        "analysis": "Policy scope exceeds the regulatory scope by applying oversight broadly beyond high-risk AI; this is over-compliance rather than a contradiction."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-001",
+    "clause": "Art8(1)",
+    "considered_references": [
+      "Art6(3)",
+      "Art6(4)",
+      "Art8(1)",
+      "Art8(2)",
+      "Art8(3)",
+      "Art9(1)",
+      "Art9(2)",
+      "Art9(3)",
+      "Art9(4)",
+      "Art13(1)"
+    ],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Severity deviation",
+        "gdpr_quote": "High-risk AI systems shall comply with the requirements laid down in this Section, taking into account their intended purpose as well as the generally acknowledged state of the art on AI and AI-related technologies. The risk management system referred to in Article 9 shall be taken into account when ensuring compliance with those requirements.",
+        "policy_quote": "Applies to: All AI systems.",
+        "mismatch": "The regulation addresses compliance obligations for high-risk AI systems, while the policy extends these review/oversight obligations to all AI systems.",
+        "analysis": "Applying the requirements to all AI systems is stricter than the regulation’s scope that targets high-risk AI systems; this is over-compliant."
+      },
+      {
+        "deviation_type": "Time deviation",
+        "gdpr_quote": "The risk management system shall be understood as a continuous iterative process planned and run throughout the entire lifecycle of a high-risk AI system, requiring regular systematic review and updating.",
+        "policy_quote": "Review your systems at least annually against the definitions for Sensitive Uses and Restricted Uses.",
+        "mismatch": "The regulation requires a continuous, lifecycle-long iterative process with regular systematic review, whereas the policy sets a minimum annual review cadence.",
+        "analysis": "An “at least annually” review cadence is weaker than a continuous iterative process across the lifecycle; this narrows the temporal rigor required by Article 9 as referenced by Article 8(1)."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-034",
+    "clause": "Art14(2)",
+    "considered_references": [],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Severity deviation",
+        "gdpr_quote": "Human oversight shall aim to prevent or minimise the risks to health, safety or fundamental rights that may emerge when a high-risk AI system is used in accordance with its intended purpose or under conditions of reasonably foreseeable misuse, in particular where such risks persist despite the application of other requirements set out in this Section.",
+        "policy_quote": "Microsoft AI systems are reviewed to identify systems that may have a significant adverse impact on people, organizations, and society, and additional oversight and requirements are applied to those systems.",
+        "mismatch": "The regulation targets protection of health, safety or fundamental rights of persons, while the policy’s oversight trigger extends to impacts on organizations and society as well.",
+        "analysis": "By broadening the protected subjects (organizations and society), the policy’s oversight scope exceeds the regulation’s focus on individuals’ health, safety, and fundamental rights; this is over-compliance."
+      }
+    ]
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "reg_id": "REG-021",
+    "clause": "Art15(1)",
+    "considered_references": [
+      "Art22(1)"
+    ],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Data deviation",
+        "gdpr_quote": "The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed",
+        "policy_quote": "Right of access: You can request information from us at any time about whether and which personal data we store about you.",
+        "mismatch": "The policy limits access to personal data that are \"stored\" rather than all personal data \"being processed\" as required by GDPR.",
+        "analysis": "Art15(1) covers any personal data being processed (not limited to storage). The policy narrows the scope to stored data only."
+      },
+      {
+        "deviation_type": "Data deviation",
+        "gdpr_quote": "The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information:",
+        "policy_quote": "The right to information does not exist or is subject to limitations if and to the extent that confidential information, such as information that is subject to professional secrecy, would be disclosed.",
+        "mismatch": "The policy introduces a limitation on the Art15(1) access right based on confidentiality/professional secrecy that is not stated in the cited GDPR provision.",
+        "analysis": "Within the provided Art15(1) text, the right of access is stated without the professional-secrecy limitation the policy adds, thereby narrowing the right’s scope."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-092",
+    "clause": "Art77(1)",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-025",
+    "clause": "Art17(1)",
+    "considered_references": [
+      "Art6(1)",
+      "Art9(2)",
+      "Art21(1)",
+      "Art21(2)",
+      "Art8(1)"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-022",
+    "clause": "Art15(2)",
+    "considered_references": [
+      "Art46(1)",
+      "Art46(2)",
+      "Art46(3)",
+      "Art46(4)",
+      "Art46(5)"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-017",
+    "clause": "Art14(2)",
+    "considered_references": [
+      "Art14(1)",
+      "Art6(1)",
+      "Art9(2)",
+      "Art22(1)"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  }
+]

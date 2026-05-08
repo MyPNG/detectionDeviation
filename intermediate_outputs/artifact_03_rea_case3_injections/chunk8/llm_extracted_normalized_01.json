@@ -1,0 +1,50 @@
+[
+  {
+    "reg_id": "REG-044",
+    "clause": "Art26(2)",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-036",
+    "clause": "Art14(4)",
+    "considered_references": [
+      "Art20(3)",
+      "Art20(4)",
+      "Art21(1)"
+    ],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Data deviation",
+        "gdpr_quote": "For the purpose of implementing paragraphs 1, 2 and 3, the high-risk AI system shall be provided to the deployer in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate:",
+        "policy_quote": "Applies to: All AI systems.",
+        "mismatch": "The policy applies the oversight enablement to all AI systems, whereas Art 14(4) applies specifically to high-risk AI systems.",
+        "analysis": "Art 14(4) is scoped to high-risk AI systems and implements Art 14(1)–(3) (REG-033, REG-034, REG-035); the policy broadens the scope to all AI systems, altering the regulatory scope."
+      },
+      {
+        "deviation_type": "Severity deviation",
+        "gdpr_quote": "(c) to correctly interpret the high-risk AI system's output, taking into account, for example, the interpretation tools and methods available;",
+        "policy_quote": "Stakeholders must be able to understand: 3) how to interpret system behavior and the specific logic of the internal processing steps that led to the output",
+        "mismatch": "The policy requires understanding the specific internal processing logic, which is stricter than the regulation’s requirement to correctly interpret the system’s output using available tools.",
+        "analysis": "Art 14(4)(c) focuses on correct interpretation of outputs (with available tools/methods), not necessarily the internal processing logic; requiring knowledge of specific internal steps imposes a stricter standard."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-033",
+    "clause": "Art14(1)",
+    "considered_references": [],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Data deviation",
+        "gdpr_quote": "High-risk AI systems shall be designed and developed in such a way, including with appropriate human-machine interface tools, that they can be effectively overseen by natural persons during the period in which they are in use.",
+        "policy_quote": "Applies to: All AI systems.",
+        "mismatch": "The policy applies oversight-related design provisions to all AI systems, whereas Art 14(1) applies only to high-risk AI systems.",
+        "analysis": "This is a scope alteration from ‘high-risk AI systems’ to ‘all AI systems’; no contradiction, but the category/scope differs from the regulation."
+      }
+    ]
+  }
+]

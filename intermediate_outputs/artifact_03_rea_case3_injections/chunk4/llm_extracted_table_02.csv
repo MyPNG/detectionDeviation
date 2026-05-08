@@ -1,0 +1,4 @@
+reg_id,clause,considered_references,policy_id,deviation_index,deviation_found,article,gdpr_requirement,policy_realization,deviation_type,analysis
+REG-010,Art9(8),[],,,False,,,,,
+REG-006,Art9(4),"[""Art6(4)""]",,,False,,,,,
+REG-091,Unknown (not provided),[],,,False,,,,,

@@ -1,0 +1,31 @@
+[
+  {
+    "reg_id": "REG-008",
+    "clause": "Art9(6)",
+    "considered_references": [],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Execution style deviation",
+        "gdpr_quote": "Testing shall ensure that high-risk AI systems perform consistently for their intended purpose and that they are in compliance with the requirements set out in this Section.",
+        "policy_quote": "If there are Responsible Release Criteria for metrics or rubrics that have not been met, consult with the reviewers named in the Impact Assessment, and in the case of Sensitive Uses, with the Office of Responsible AI, to develop a plan detailing how the gap will be managed until it can be closed. Document that plan.",
+        "mismatch": "The regulation requires testing to ensure compliance, whereas the policy contemplates managing unmet criteria via a gap-management plan rather than ensuring compliance through testing.",
+        "analysis": "By allowing a managed plan for unmet criteria, the policy’s execution approach does not guarantee that testing ensures compliance as the Article requires."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-010",
+    "clause": "Art9(8)",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-040",
+    "clause": "Art15(3)",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": []
+  }
+]

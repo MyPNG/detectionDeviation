@@ -1,0 +1,12 @@
+reg_id,clause,considered_references,policy_id,deviation_index,deviation_found,article,gdpr_requirement,policy_realization,deviation_type,gdpr_quote,policy_quote,mismatch,analysis
+REG-014,Art10(2),[],,1,True,,,,Severity deviation,"Training, validation and testing data sets shall be subject to data governance and management practices appropriate for the intended purpose of the high-risk AI system.",Microsoft AI systems are subject to appropriate data governance and management practices. Applies to: All AI systems.,"The regulation targets high-risk AI systems, while the policy applies the requirement to all AI systems, which is stricter in scope.","By extending governance requirements beyond high-risk systems, the policy imposes a broader obligation than the regulation requires."
+REG-016,Art10(4),[],,1,True,,,,Severity deviation,"Data sets shall take into account, to the extent required by the intended purpose, the characteristics or elements that are particular to the specific geographical, contextual, behavioural or functional setting within which the high-risk AI system is intended to be used.","Applies to: All AI systems. Define and document data requirements with respect to the system's intended uses, stakeholders, and the geographic areas where the system will be deployed.","The regulation limits the obligation to high-risk AI systems and only to the extent required by the intended purpose, while the policy applies this across all AI systems.","The policy broadens the scope of systems covered beyond what the regulation mandates, making it stricter in scope."
+REG-015,Art10(3),[],,,False,,,,,,,,
+REG-031,Art13(7),"[""Art17(1)"", ""Art17(2)"", ""Art17(3)"", ""Art18(1)"", ""Art18(2)"", ""Art18(3)"", ""Art20(2)""]",,,False,,,,,,,,
+REG-051,Art26(9),"[""Art17(1)"", ""Art17(2)"", ""Art17(3)"", ""Art18(1)"", ""Art18(2)"", ""Art18(3)"", ""Art20(2)""]",,,False,,,,,,,,
+REG-009,Art9(7),"[""Art40(6)"", ""Art40(7)"", ""Art40(8)"", ""Art40(9)"", ""Art40(10)"", ""Art40(11)"", ""Art42(1)"", ""Art42(2)"", ""Art42(3)""]",,,False,,,,,,,,
+REG-101,Unknown,[],,,False,,,,,,,,
+REG-013,Art10(1),"[""Art13(3)"", ""Art13(4)"", ""Art14(1)""]",,,False,,,,,,,,
+REG-091,Unknown,[],,,False,,,,,,,,
+REG-039,Art15(2),"[""Art21(4)""]",,,False,,,,,,,,
+REG-046,Art26(4),"[""Art22(3)"", ""Art22(4)""]",,,False,,,,,,,,

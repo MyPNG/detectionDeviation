@@ -1,0 +1,87 @@
+{
+  "mode": "article_relevance",
+  "expected_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/relevant_non_relevant_requirements_case3.json",
+  "actual_file": "/Users/my/Documents/projects/detectionDeviation/evaluation/artifact3/rea_case3_injections/merged_main_clauses_deduplicated.csv",
+  "relevant_articles": [
+    "Article 10",
+    "Article 11",
+    "Article 13",
+    "Article 14",
+    "Article 15",
+    "Article 8",
+    "Article 9"
+  ],
+  "non_relevant_articles": [
+    "Article 12",
+    "Article 26",
+    "Article 60",
+    "Article 72",
+    "Article 79",
+    "Article 97"
+  ],
+  "retrieved_articles": [
+    "Article 10",
+    "Article 11",
+    "Article 13",
+    "Article 14",
+    "Article 15",
+    "Article 26",
+    "Article 49",
+    "Article 60",
+    "Article 79",
+    "Article 8",
+    "Article 89",
+    "Article 9"
+  ],
+  "true_positive_articles": [
+    "Article 10",
+    "Article 11",
+    "Article 13",
+    "Article 14",
+    "Article 15",
+    "Article 8",
+    "Article 9"
+  ],
+  "false_negative_articles": [],
+  "false_positive_articles": [
+    "Article 26",
+    "Article 49",
+    "Article 60",
+    "Article 79",
+    "Article 89"
+  ],
+  "true_negative_articles": [
+    "Article 12",
+    "Article 72",
+    "Article 97"
+  ],
+  "unknown_retrieved_articles": [
+    "Article 49",
+    "Article 89"
+  ],
+  "confusion_table": [
+    {
+      "row_label": "Relevant (Gold Standard)",
+      "retrieved": 7,
+      "not_retrieved": 0,
+      "retrieved_label": "True Positives",
+      "not_retrieved_label": "False Negatives"
+    },
+    {
+      "row_label": "Irrelevant (Gold Standard)",
+      "retrieved": 5,
+      "not_retrieved": 3,
+      "retrieved_label": "False Positives",
+      "not_retrieved_label": "True Negatives"
+    }
+  ],
+  "metrics": {
+    "tp": 7,
+    "fn": 0,
+    "fp": 5,
+    "tn": 3,
+    "precision": 0.583333,
+    "recall": 1.0,
+    "f1": 0.736842
+  }
+}

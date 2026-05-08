@@ -1,10 +1,10 @@
-Microsoft AI systems include capabilities that support informed human oversight and control. Applies to: All AI systems.
-A5.1 Identify the stakeholders who are responsible for troubleshooting, managing, operating, overseeing, and controlling the system during and after deployment.
-A5.1 Document these stakeholders and their oversight and control responsibilities using the Impact Assessment template.
-A5.2 Identify the system elements (including system UX, features, alerting and reporting functions, and educational materials) necessary for stakeholders identified in requirement A5.1 to effectively understand their oversight responsibilities and carry them out.
-A5.2 Stakeholders must be able to understand: 1) the system's intended uses,
-A5.2 Stakeholders must be able to understand: 2) how to effectively execute interactions with the system,
-A5.2 Stakeholders must be able to understand: 3) how to interpret system behavior and the specific logic of the internal processing steps that led to the output
-A5.2 Stakeholders must be able to understand: 4) when and how to override, intervene, or interrupt the system,
-A5.2 Stakeholders must be able to understand: 5) how to remain aware of the possible tendency of over-relying on outputs produced by the system (automation bias).
-A5.2 Document the system design elements that will support relevant stakeholders for each oversight and control function.
+REA-19: Microsoft AI systems include capabilities that support informed human oversight and control. Applies to: All AI systems.
+Identify the stakeholders who are responsible for troubleshooting, managing, operating, overseeing, and controlling the system during and after deployment.
+Document these stakeholders and their oversight and control responsibilities using the Impact Assessment template.
+REA-20: Identify the system elements (including system UX, features, alerting and reporting functions, and educational materials) necessary for stakeholders identified in requirement A5.1 to effectively understand their oversight responsibilities and carry them out.
+Stakeholders must be able to understand: 1) the system's intended uses,
+Stakeholders must be able to understand: 2) how to effectively execute interactions with the system,
+Stakeholders must be able to understand: 3) how to interpret system behavior and the specific logic of the internal processing steps that led to the output
+Stakeholders must be able to understand: 4) when and how to override, intervene, or interrupt the system,
+Stakeholders must be able to understand: 5) how to remain aware of the possible tendency of over-relying on outputs produced by the system (automation bias).
+Document the system design elements that will support relevant stakeholders for each oversight and control function.

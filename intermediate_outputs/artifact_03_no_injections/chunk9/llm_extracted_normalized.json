@@ -1,0 +1,71 @@
+[
+  {
+    "reg_id": "REG-069",
+    "clause": "Art45(1)",
+    "considered_references": [
+      "Art45(3)"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-078",
+    "clause": "Art46(1)",
+    "considered_references": [
+      "Art45(3)",
+      "Art46(2)",
+      "Art46(3)",
+      "Art46(4)",
+      "Art46(5)"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-012",
+    "clause": "Art13(1)",
+    "considered_references": [
+      "Art6(1)",
+      "Art46(2)",
+      "Art46(3)",
+      "Art46(4)",
+      "Art46(5)",
+      "Art47(1)",
+      "Art47(2)",
+      "Art47(3)",
+      "Art49(1)"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-086",
+    "clause": "Art49(1)",
+    "considered_references": [
+      "Art45(3)",
+      "Art46(2)",
+      "Art46(3)",
+      "Art46(4)",
+      "Art46(5)"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-016",
+    "clause": "Art14(1)",
+    "considered_references": [
+      "Art6(1)",
+      "Art46(2)",
+      "Art46(3)",
+      "Art46(4)",
+      "Art46(5)",
+      "Art47(1)",
+      "Art47(2)",
+      "Art47(3)",
+      "Art49(1)"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  }
+]

@@ -1,0 +1,4 @@
+reg_id,clause,considered_references,policy_id,deviation_index,deviation_found,article,gdpr_requirement,policy_realization,deviation_type,gdpr_quote,policy_quote,mismatch,analysis
+REG-064,Art79(1),"[""Reg2019/1020-Art3(19)""]",,,False,,,,,,,,
+REG-033,Art14(1),[],,,False,,,,,,,,
+REG-031,Art13(7)(vi),[],,1,True,,,,Severity deviation,"(vi) when appropriate, specifications for the input data, or any other relevant information in terms of the training, validation and testing data sets used, taking into account the intended purpose of the high-risk AI system;",Applies to: All AI systems.,"The regulation targets only high-risk AI systems, whereas the policy applies the same measures to all AI systems (over-compliance).","The policy broadens the scope of documentation requirements from high-risk AI systems to all AI systems, making it stricter than required."

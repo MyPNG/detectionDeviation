@@ -1,0 +1,194 @@
+{
+  "id": "REA-03",
+  "search query": "The aforementioned data will be stored for 7 days and then deleted.",
+  "top matches": [
+    {
+      "ID": "REG-029",
+      "article": "Art18(2)",
+      "embedding test": "Where processing has been restricted under paragraph 1, such personal data shall, with the exception of storage, only be processed with the data subject's consent or for the establishment, exercise or defence of legal claims or for the protection of the rights of another natural or legal person or for reasons of important public interest of the Union or of a Member State.",
+      "similarity score": 0.030102,
+      "rerank score": 0.016466174274683,
+      "rerank rank": 1
+    },
+    {
+      "ID": "REG-037",
+      "article": "Art21(3)",
+      "embedding test": "Where the data subject objects to processing for direct marketing purposes, the personal data shall no longer be processed for such purposes.",
+      "similarity score": 0.102641,
+      "rerank score": 0.013982613570988178,
+      "rerank rank": 2
+    },
+    {
+      "ID": "REG-026",
+      "article": "Art17(2)",
+      "embedding test": "Where the controller has made the personal data public and is obliged pursuant to paragraph 1 to erase the personal data, the controller, taking account of available technology and the cost of implementation, shall take reasonable steps, including technical measures, to inform controllers which are processing the personal data that the data subject has requested the erasure by such controllers of any links to, or copy or replication of, those personal data.",
+      "similarity score": 0.145121,
+      "rerank score": 0.011628186330199242,
+      "rerank rank": 3
+    },
+    {
+      "ID": "REG-098",
+      "article": "Art89(1)",
+      "embedding test": "Processing for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes, shall be subject to appropriate safeguards, in accordance with this Regulation, for the rights and freedoms of the data subject. Those safeguards shall ensure that technical and organisational measures are in place in particular in",
+      "similarity score": 0.046062,
+      "rerank score": 0.01049416046589613,
+      "rerank rank": 4
+    },
+    {
+      "ID": "REG-008",
+      "article": "Art9(1)",
+      "embedding test": "Processing of personal data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, or trade union membership, and the processing of genetic data, biometric data for the purpose of uniquely identifying a natural person, data concerning health or data concerning a natural person's sex life or sexual orientation shall be prohibited.",
+      "similarity score": 0.008057,
+      "rerank score": 0.010280845686793327,
+      "rerank rank": 5
+    },
+    {
+      "ID": "REG-015",
+      "article": "Art13(4)",
+      "embedding test": "Paragraphs 1, 2 and 3 shall not apply where and insofar as the data subject already has the information.",
+      "similarity score": -0.032759,
+      "rerank score": 0.009867008775472641,
+      "rerank rank": 6
+    },
+    {
+      "ID": "REG-075",
+      "article": "Art45(7)",
+      "embedding test": "A decision pursuant to paragraph 5 of this Article is without prejudice to transfers of personal data to the third country, a territory or one or more specified sectors within that third country, or the international organisation in question pursuant to Articles 46 to 49.",
+      "similarity score": 0.080563,
+      "rerank score": 0.009276984259486198,
+      "rerank rank": 7
+    },
+    {
+      "ID": "REG-100",
+      "article": "Art89(3)",
+      "embedding test": "Where personal data are processed for archiving purposes in the public interest, Union or Member State law may provide for derogations from the rights referred to in Articles 15, 16, 18, 19, 20 and 21 subject to the conditions and safeguards referred to in paragraph 1 of this Article in so far as such rights are likely to render impossible or seriously impair the achievement of the specific purposes, and such derogations are necessary for the fulfilment of those purposes.",
+      "similarity score": 0.080034,
+      "rerank score": 0.009088184684515,
+      "rerank rank": 8
+    },
+    {
+      "ID": "REG-023",
+      "article": "Art15(3)",
+      "embedding test": "The controller shall provide a copy of the personal data undergoing processing. For any further copies requested by the data subject, the controller may charge a reasonable fee based on administrative costs. Where the data subject makes the request by electronic means, and unless otherwise requested by the data subject, the information shall be provided in a commonly used electronic form.",
+      "similarity score": 0.050185,
+      "rerank score": 0.008903191424906254,
+      "rerank rank": 9
+    },
+    {
+      "ID": "REG-010",
+      "article": "Art9(3)",
+      "embedding test": "Personal data referred to in paragraph 1 may be processed for the purposes referred to in point (h) of paragraph 2 when those data are processed by or under the responsibility of a professional subject to the obligation of professional secrecy under Union or Member State law or rules established by national competent bodies or by another person also subject to an obligation of secrecy under Union or Member State law or rules established by national competent bodies.",
+      "similarity score": 0.007003,
+      "rerank score": 0.008903191424906254,
+      "rerank rank": 10
+    },
+    {
+      "ID": "REG-017",
+      "article": "Art14(2)",
+      "embedding test": "In addition to the information referred to in paragraph 1, the controller shall provide the data subject with the following information necessary to ensure fair and transparent processing in respect of the data subject: (a) the period for which the personal data will be stored, or if that is not possible, the criteria used to determine that period; (b) where the processing is based on point (f) of Article 6(1), the legitimate interests pursued by the controller or by a third party; (c) the existence of the right to request from the controller access to and rectification or erasure of personal data or restriction of processing concerning the data subject and to object to processing as well as the right to data portability; (d) where processing is based on point (a) of Article 6(1) or point (a) of Article 9(2), the existence of the right to withdraw consent at any time, without affecting the lawfulness of processing based on consent before its withdrawal; (e) the right to lodge a complaint with a supervisory authority; (f) from which source the personal data originate, and if applicable, whether it came from publicly accessible sources; (g) the existence of automated decision-making, including profiling, referred to in Article 22(1) and (4) and, at least in those cases, meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing for the data subject.",
+      "similarity score": 0.222961,
+      "rerank score": 0.008721931837499142,
+      "rerank rank": 11
+    },
+    {
+      "ID": "REG-003",
+      "article": "Art6(3)",
+      "embedding test": "The basis for the processing referred to in point (c) and (e) of paragraph 1 shall be laid down by: (a) Union law; or (b) Member State law to which the controller is subject.",
+      "similarity score": -0.109949,
+      "rerank score": 0.008721931837499142,
+      "rerank rank": 12
+    },
+    {
+      "ID": "REG-011",
+      "article": "Art9(4)",
+      "embedding test": "Member States may maintain or introduce further conditions, including limitations, with regard to the processing of genetic data, biometric data or data concerning health.",
+      "similarity score": 0.000216,
+      "rerank score": 0.008199813775718212,
+      "rerank rank": 13
+    },
+    {
+      "ID": "REG-006",
+      "article": "Art8(2)",
+      "embedding test": "The controller shall make reasonable efforts to verify in such cases that consent is given or authorised by the holder of parental responsibility over the child, taking into consideration available technology.",
+      "similarity score": -0.062571,
+      "rerank score": 0.00803275778889656,
+      "rerank rank": 14
+    },
+    {
+      "ID": "REG-030",
+      "article": "Art18(3)",
+      "embedding test": "A data subject who has obtained restriction of processing pursuant to paragraph 1 shall be informed by the controller before the restriction of processing is lifted.",
+      "similarity score": -0.03347,
+      "rerank score": 0.007708708290010691,
+      "rerank rank": 15
+    },
+    {
+      "ID": "REG-069",
+      "article": "Art45(1)",
+      "embedding test": "A transfer of personal data to a third country or an international organisation may take place where the Commission has decided that the third country, a territory or one or more specified sectors within that third country, or the international organisation in question ensures an adequate level of protection. Such a transfer shall not require any specific authorisation.",
+      "similarity score": -0.011887,
+      "rerank score": 0.007551581598818302,
+      "rerank rank": 16
+    },
+    {
+      "ID": "REG-091",
+      "article": "Art49(6)",
+      "embedding test": "The controller or processor shall document the assessment as well as the suitable safeguards referred to in the second subparagraph of paragraph 1 of this Article in the records referred to in Article 30.",
+      "similarity score": -0.031333,
+      "rerank score": 0.007551581598818302,
+      "rerank rank": 17
+    },
+    {
+      "ID": "REG-025",
+      "article": "Art17(1)",
+      "embedding test": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies: (a) the personal data are no longer necessary in relation to the purposes for which they were collected or otherwise processed; (b) the data subject withdraws consent on which the processing is based according to point (a) of Article 6(1), or point (a) of Article 9(2), and where there is no other legal ground for the processing; (c) the data subject objects to the processing pursuant to Article 21(1) and there are no overriding legitimate grounds for the processing, or the data subject objects to the processing pursuant to Article 21(2); (d) the personal data have been unlawfully processed; (e) the personal data have to be erased for compliance with a legal obligation in Union or Member State law to which the controller is subject; (f) the personal data have been collected in relation to the offer of information society services referred to in Article 8(1).",
+      "similarity score": 0.167794,
+      "rerank score": 0.007397634442895651,
+      "rerank rank": 18
+    },
+    {
+      "ID": "REG-040",
+      "article": "Art21(6)",
+      "embedding test": "Where personal data are processed for scientific or historical research purposes or statistical purposes pursuant to Article 89(1), the data subject, on grounds relating to his or her particular situation, shall have the right to object to processing of personal data concerning him or her, unless the processing is necessary for the performance of a task carried out for reasons of public interest.",
+      "similarity score": 0.076777,
+      "rerank score": 0.007397634442895651,
+      "rerank rank": 19
+    },
+    {
+      "ID": "REG-046",
+      "article": "Art23(2)",
+      "embedding test": "In particular, any legislative measure referred to in paragraph 1 shall contain specific provisions at least, where relevant, as to: (a) the purposes of the processing or categories of processing; (b) the categories of personal data; (c) the scope of the restrictions introduced; (d) the safeguards to prevent abuse or unlawful access or transfer; (e) the specification of the controller or categories of controllers; (f) the storage periods and the applicable safeguards taking into account the nature, scope and purposes of the processing or categories of processing; (g) the risks to the rights and freedoms of data subjects; and (h) the right of data subjects to be informed about the restriction, unless that may be prejudicial to the purpose of the restriction.",
+      "similarity score": 0.034039,
+      "rerank score": 0.007397634442895651,
+      "rerank rank": 20
+    }
+  ],
+  "final_texts_for_llm": [
+    "Where processing has been restricted under paragraph 1, such personal data shall, with the exception of storage, only be processed with the data subject's consent or for the establishment, exercise or defence of legal claims or for the protection of the rights of another natural or legal person or for reasons of important public interest of the Union or of a Member State.",
+    "Where the data subject objects to processing for direct marketing purposes, the personal data shall no longer be processed for such purposes.",
+    "Where the controller has made the personal data public and is obliged pursuant to paragraph 1 to erase the personal data, the controller, taking account of available technology and the cost of implementation, shall take reasonable steps, including technical measures, to inform controllers which are processing the personal data that the data subject has requested the erasure by such controllers of any links to, or copy or replication of, those personal data.",
+    "Processing for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes, shall be subject to appropriate safeguards, in accordance with this Regulation, for the rights and freedoms of the data subject. Those safeguards shall ensure that technical and organisational measures are in place in particular in",
+    "Processing of personal data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, or trade union membership, and the processing of genetic data, biometric data for the purpose of uniquely identifying a natural person, data concerning health or data concerning a natural person's sex life or sexual orientation shall be prohibited.",
+    "Paragraphs 1, 2 and 3 shall not apply where and insofar as the data subject already has the information.",
+    "A decision pursuant to paragraph 5 of this Article is without prejudice to transfers of personal data to the third country, a territory or one or more specified sectors within that third country, or the international organisation in question pursuant to Articles 46 to 49.",
+    "Where personal data are processed for archiving purposes in the public interest, Union or Member State law may provide for derogations from the rights referred to in Articles 15, 16, 18, 19, 20 and 21 subject to the conditions and safeguards referred to in paragraph 1 of this Article in so far as such rights are likely to render impossible or seriously impair the achievement of the specific purposes, and such derogations are necessary for the fulfilment of those purposes.",
+    "The controller shall provide a copy of the personal data undergoing processing. For any further copies requested by the data subject, the controller may charge a reasonable fee based on administrative costs. Where the data subject makes the request by electronic means, and unless otherwise requested by the data subject, the information shall be provided in a commonly used electronic form.",
+    "Personal data referred to in paragraph 1 may be processed for the purposes referred to in point (h) of paragraph 2 when those data are processed by or under the responsibility of a professional subject to the obligation of professional secrecy under Union or Member State law or rules established by national competent bodies or by another person also subject to an obligation of secrecy under Union or Member State law or rules established by national competent bodies.",
+    "In addition to the information referred to in paragraph 1, the controller shall provide the data subject with the following information necessary to ensure fair and transparent processing in respect of the data subject: (a) the period for which the personal data will be stored, or if that is not possible, the criteria used to determine that period; (b) where the processing is based on point (f) of Article 6(1), the legitimate interests pursued by the controller or by a third party; (c) the existence of the right to request from the controller access to and rectification or erasure of personal data or restriction of processing concerning the data subject and to object to processing as well as the right to data portability; (d) where processing is based on point (a) of Article 6(1) or point (a) of Article 9(2), the existence of the right to withdraw consent at any time, without affecting the lawfulness of processing based on consent before its withdrawal; (e) the right to lodge a complaint with a supervisory authority; (f) from which source the personal data originate, and if applicable, whether it came from publicly accessible sources; (g) the existence of automated decision-making, including profiling, referred to in Article 22(1) and (4) and, at least in those cases, meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing for the data subject.",
+    "The basis for the processing referred to in point (c) and (e) of paragraph 1 shall be laid down by: (a) Union law; or (b) Member State law to which the controller is subject.",
+    "Member States may maintain or introduce further conditions, including limitations, with regard to the processing of genetic data, biometric data or data concerning health.",
+    "The controller shall make reasonable efforts to verify in such cases that consent is given or authorised by the holder of parental responsibility over the child, taking into consideration available technology.",
+    "A data subject who has obtained restriction of processing pursuant to paragraph 1 shall be informed by the controller before the restriction of processing is lifted.",
+    "A transfer of personal data to a third country or an international organisation may take place where the Commission has decided that the third country, a territory or one or more specified sectors within that third country, or the international organisation in question ensures an adequate level of protection. Such a transfer shall not require any specific authorisation.",
+    "The controller or processor shall document the assessment as well as the suitable safeguards referred to in the second subparagraph of paragraph 1 of this Article in the records referred to in Article 30.",
+    "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies: (a) the personal data are no longer necessary in relation to the purposes for which they were collected or otherwise processed; (b) the data subject withdraws consent on which the processing is based according to point (a) of Article 6(1), or point (a) of Article 9(2), and where there is no other legal ground for the processing; (c) the data subject objects to the processing pursuant to Article 21(1) and there are no overriding legitimate grounds for the processing, or the data subject objects to the processing pursuant to Article 21(2); (d) the personal data have been unlawfully processed; (e) the personal data have to be erased for compliance with a legal obligation in Union or Member State law to which the controller is subject; (f) the personal data have been collected in relation to the offer of information society services referred to in Article 8(1).",
+    "Where personal data are processed for scientific or historical research purposes or statistical purposes pursuant to Article 89(1), the data subject, on grounds relating to his or her particular situation, shall have the right to object to processing of personal data concerning him or her, unless the processing is necessary for the performance of a task carried out for reasons of public interest.",
+    "In particular, any legislative measure referred to in paragraph 1 shall contain specific provisions at least, where relevant, as to: (a) the purposes of the processing or categories of processing; (b) the categories of personal data; (c) the scope of the restrictions introduced; (d) the safeguards to prevent abuse or unlawful access or transfer; (e) the specification of the controller or categories of controllers; (f) the storage periods and the applicable safeguards taking into account the nature, scope and purposes of the processing or categories of processing; (g) the risks to the rights and freedoms of data subjects; and (h) the right of data subjects to be informed about the restriction, unless that may be prejudicial to the purpose of the restriction."
+  ],
+  "reranker": {
+    "provider": "isaacus",
+    "model": "kanon-2-reranker",
+    "top_n": 20,
+    "llm_max_items": null
+  }
+}

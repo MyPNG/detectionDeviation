@@ -1,0 +1,17 @@
+reg_id,clause,considered_references,policy_id,deviation_index,deviation_found,article,gdpr_requirement,policy_realization,deviation_type,analysis
+REG-021,Art15(1),"[""Art22(1)""]",,1,True,,,,Data deviation,"Art15(1) gives a right of access to personal data 'being processed' and to specified accompanying information. The policy limits access to 'whether and which personal data we store about you', which narrows the scope to data at rest and could exclude data otherwise being processed but not stored. While Art15(1)(h) read with Art22(1) (REG-041) also requires information on automated decision-making, its omission is treated as a non-deviation; the 'stored' wording remains a scope narrowing relative to Art15(1)."
+REG-021,Art15(1),"[""Art22(1)""]",,2,True,,,,Data deviation,"The policy states that the right to information 'does not exist or is subject to limitations' where disclosure would reveal confidential/professionally secret information. Art15(1) (and its cross-reference to Art22(1) via REG-041) does not include such a qualifier. Introducing this limitation narrows the Art15(1) access right beyond the clause's terms (separate GDPR provisions may allow limits, but they are not part of Art15(1))."
+REG-031,Art20(1),"[""Art6(1)"", ""Art9(2)""]",,,False,,,,,
+REG-035,Art21(1),"[""Art6(1)""]",,1,True,,,,Data deviation,"Art21(1) grants a right to object to processing based on Art6(1)(e) or (f), including profiling based on those provisions. The policy only allows objection where processing is based on Art6(1)(f), omitting Art6(1)(e). With reference to Art6(1) (REG-001), this narrows the scope of the right relative to Art21(1)."
+REG-020,Art14(5),"[""Art14(1)"", ""Art89(1)""]",,,False,,,,,
+REG-010,Art9(3),"[""Art9(2)"", ""Art9(1)""]",,,False,,,,,
+REG-018,Art14(3),"[""Art14(1)"", ""Art14(2)""]",,,False,,,,,
+REG-092,Art77(1),[],,,False,,,,,
+REG-028,Art18(1),"[""Art21(1)""]",,,False,,,,,
+REG-025,Art17(1),"[""Art21(1)"", ""Art21(2)"", ""Art6(1)"", ""Art9(2)"", ""Art8(1)""]",,,False,,,,,
+REG-027,Art17(3),"[""Art9(2)"", ""Art9(3)"", ""Art89(1)""]",,,False,,,,,
+REG-029,Art18(2),[],,,False,,,,,
+REG-032,Art20(2),"[""Art20(1)""]",,,False,,,,,
+REG-013,Art13(2),"[""Art13(1)"", ""Art22(1)"", ""Art6(1)"", ""Art9(2)""]",,,False,,,,,
+REG-036,Art21(2),[],,,False,,,,,
+REG-017,Art14(2),"[""Art14(1)"", ""Art22(1)"", ""Art6(1)"", ""Art9(2)""]",,,False,,,,,
