@@ -61,17 +61,21 @@ Note: If deviation_found is false, output an empty array for "deviations": []
 
 ```text
 <main_entry_nodes>
-REG-028, REG-014
+REG-010, REG-040, REG-028
 </main_entry_nodes>
 
 <main_nodes>
+  <node id="REG-010">
+    ### Article 9 Paragraph 8
+    The testing of high-risk AI systems shall be performed, as appropriate, at any time throughout the development process, and, in any event, prior to their being placed on the market or put into service. Testing shall be carried out against prior defined metrics and probabilistic thresholds that are appropriate to the intended purpose of the high-risk AI system.
+  </node>
+  <node id="REG-040">
+    ### Article 15 Paragraph 3
+    The levels of accuracy and the relevant accuracy metrics of high-risk AI systems shall be declared in the accompanying instructions of use.
+  </node>
   <node id="REG-028">
     ### Article 13 Paragraph 4
     (ii) the level of accuracy, including its metrics, robustness and cybersecurity referred to in Article 15 against which the high-risk AI system has been tested and validated and which can be expected, and any known and foreseeable circumstances that may have an impact on that expected level of accuracy, robustness and cybersecurity;
-  </node>
-  <node id="REG-014">
-    ### Article 10 Paragraph 2
-    Training, validation and testing data sets shall be subject to data governance and management practices appropriate for the intended purpose of the high-risk AI system. Those practices shall concern in particular: (a) the relevant design choices; (b) data collection processes and the origin of data, and in the case of personal data, the original purpose of the data collection; (c) relevant data-preparation processing operations, such as annotation, labelling, cleaning, updating, enrichment and aggregation; (d) the formulation of assumptions, in particular with respect to the information that the data are supposed to measure and represent; (e) an assessment of the availability, quantity and suitability of the data sets that are needed; (f) examination in view of possible biases that are likely to affect the health and safety of persons, have a negative impact on fundamental rights or lead to discrimination prohibited under Union law, especially where data outputs influence inputs for future operations; (g) appropriate measures to detect, prevent and mitigate possible biases identified according to point (f); (h) the identification of relevant data gaps or shortcomings that prevent compliance with this Regulation, and how those gaps and shortcomings can be addressed.
   </node>
 </main_nodes>
 
@@ -83,10 +87,6 @@ REG-028, REG-014
   <node id="REG-039">
     ### Article 15 Paragraph 2
     To address the technical aspects of how to measure the appropriate levels of accuracy and robustness set out in paragraph 1 and any other relevant performance metrics, the Commission shall, in cooperation with relevant stakeholders and organisations such as metrology and benchmarking authorities, encourage, as appropriate, the development of benchmarks and measurement methodologies.
-  </node>
-  <node id="REG-040">
-    ### Article 15 Paragraph 3
-    The levels of accuracy and the relevant accuracy metrics of high-risk AI systems shall be declared in the accompanying instructions of use.
   </node>
   <node id="REG-041">
     ### Article 15 Paragraph 4

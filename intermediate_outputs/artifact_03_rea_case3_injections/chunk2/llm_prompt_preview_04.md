@@ -61,25 +61,33 @@ Note: If deviation_found is false, output an empty array for "deviations": []
 
 ```text
 <main_entry_nodes>
-REG-050, REG-033, REG-010
+REG-011, REG-029, REG-038
 </main_entry_nodes>
 
 <main_nodes>
-  <node id="REG-050">
-    ### Article 26 Paragraph 8
-    Deployers of high-risk AI systems that are public authorities, or Union institutions, bodies, offices or agencies shall comply with the registration obligations referred to in Article 49. When such deployers find that the high-risk AI system that they envisage using has not been registered in the EU database referred to in Article 71, they shall not use that system and shall inform the provider or the distributor.
+  <node id="REG-011">
+    ### Article 9 Paragraph 9
+    When implementing the risk management system as provided for in paragraphs 1 to 7, providers shall give consideration to whether in view of its intended purpose the high-risk AI system is likely to have an adverse impact on persons under the age of 18 and, as appropriate, other vulnerable groups.
   </node>
-  <node id="REG-033">
-    ### Article 14 Paragraph 1
-    High-risk AI systems shall be designed and developed in such a way, including with appropriate human-machine interface tools, that they can be effectively overseen by natural persons during the period in which they are in use.
+  <node id="REG-029">
+    ### Article 13 Paragraph 5
+    (iii) any known or foreseeable circumstance, related to the use of the high-risk AI system in accordance with its intended purpose or under conditions of reasonably foreseeable misuse, which may lead to risks to the health and safety or fundamental rights referred to in Article 9(2);
   </node>
-  <node id="REG-010">
-    ### Article 9 Paragraph 8
-    The testing of high-risk AI systems shall be performed, as appropriate, at any time throughout the development process, and, in any event, prior to their being placed on the market or put into service. Testing shall be carried out against prior defined metrics and probabilistic thresholds that are appropriate to the intended purpose of the high-risk AI system.
+  <node id="REG-038">
+    ### Article 15 Paragraph 1
+    High-risk AI systems shall be designed and developed in such a way that they achieve an appropriate level of accuracy, robustness, and cybersecurity, and that they perform consistently in those respects throughout their lifecycle.
   </node>
 </main_nodes>
 
 <referenced_nodes>
+  <node id="REG-003">
+    ### Article 9 Paragraph 1
+    A risk management system shall be established, implemented, documented and maintained in relation to high-risk AI systems.
+  </node>
+  <node id="REG-004">
+    ### Article 9 Paragraph 2
+    The risk management system shall be understood as a continuous iterative process planned and run throughout the entire lifecycle of a high-risk AI system, requiring regular systematic review and updating. It shall comprise the following steps: (a) the identification and analysis of the known and the reasonably foreseeable risks that the high-risk AI system can pose to health, safety or fundamental rights when the high-risk AI system is used in accordance with its intended purpose; (b) the estimation and evaluation of the risks that may emerge when the high-risk AI system is used in accordance with its intended purpose, and under conditions of reasonably foreseeable misuse; (c) the evaluation of other risks possibly arising, based on the analysis of data gathered from the post-market monitoring system referred to in Article 72; (d) the adoption of appropriate and targeted risk management measures designed to address the risks identified pursuant to point (a).
+  </node>
 </referenced_nodes>
 
 <target_policy_chunk>

@@ -61,7 +61,7 @@ Note: If deviation_found is false, output an empty array for "deviations": []
 
 ```text
 <main_entry_nodes>
-REG-064, REG-051, REG-011
+REG-064, REG-003, REG-051
 </main_entry_nodes>
 
 <main_nodes>
@@ -69,13 +69,13 @@ REG-064, REG-051, REG-011
     ### Article 79 Paragraph 1
     AI systems presenting a risk shall be understood as a 'product presenting a risk' as defined in Article 3, point 19 of Regulation (EU) 2019/1020, in so far as they present risks to the health or safety, or to fundamental rights, of persons.
   </node>
+  <node id="REG-003">
+    ### Article 9 Paragraph 1
+    A risk management system shall be established, implemented, documented and maintained in relation to high-risk AI systems.
+  </node>
   <node id="REG-051">
     ### Article 26 Paragraph 9
     Where applicable, deployers of high-risk AI systems shall use the information provided under Article 13 of this Regulation to comply with their obligation to carry out a data protection impact assessment under Article 35 of Regulation (EU) 2016/679 or Article 27 of Directive (EU) 2016/680.
-  </node>
-  <node id="REG-011">
-    ### Article 9 Paragraph 9
-    When implementing the risk management system as provided for in paragraphs 1 to 7, providers shall give consideration to whether in view of its intended purpose the high-risk AI system is likely to have an adverse impact on persons under the age of 18 and, as appropriate, other vulnerable groups.
   </node>
 </main_nodes>
 
@@ -111,10 +111,6 @@ REG-064, REG-051, REG-011
   <node id="REG-032">
     ### Article 13 Paragraph 8
     (vii) where applicable, information to enable deployers to interpret the output of the high-risk AI system and use it appropriately; (c) the changes to the high-risk AI system and its performance which have been pre-determined by the provider at the moment of the initial conformity assessment, if any; (d) the human oversight measures referred to in Article 14, including the technical measures put in place to facilitate the interpretation of the outputs of the high-risk AI systems by the deployers; (e) the computational and hardware resources needed, the expected lifetime of the high-risk AI system and any necessary maintenance and care measures, including their frequency, to ensure the proper functioning of that AI system, including as regards software updates; (f) where relevant, a description of the mechanisms included within the high-risk AI system that allows deployers to properly collect, store and interpret the logs in accordance with Article 12.
-  </node>
-  <node id="REG-003">
-    ### Article 9 Paragraph 1
-    A risk management system shall be established, implemented, documented and maintained in relation to high-risk AI systems.
   </node>
 </referenced_nodes>
 

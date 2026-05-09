@@ -61,7 +61,7 @@ Note: If deviation_found is false, output an empty array for "deviations": []
 
 ```text
 <main_entry_nodes>
-REG-013, REG-018, REG-046
+REG-013, REG-019, REG-018
 </main_entry_nodes>
 
 <main_nodes>
@@ -69,13 +69,13 @@ REG-013, REG-018, REG-046
     ### Article 10 Paragraph 1
     High-risk AI systems which make use of techniques involving the training of AI models with data shall be developed on the basis of training, validation and testing data sets that meet the quality criteria referred to in paragraphs 2 to 5 whenever such data sets are used.
   </node>
+  <node id="REG-019">
+    ### Article 11 Paragraph 1
+    The technical documentation of a high-risk AI system shall be drawn up before that system is placed on the market or put into service and shall be kept up-to date. The technical documentation shall be drawn up in such a way as to demonstrate that the high-risk AI system complies with the requirements set out in this Section and to provide national competent authorities and notified bodies with the necessary information in a clear and comprehensive form to assess the compliance of the AI system with those requirements. It shall contain, at a minimum, the elements set out in Annex IV. SMEs, including start-ups, may provide the elements of the technical documentation specified in Annex IV in a simplified manner. To that end, the Commission shall establish a simplified technical documentation form targeted at the needs of small and microenterprises. Where an SME, including a start-up, opts to provide the information required in Annex IV in a simplified manner, it shall use the form referred to in this paragraph. Notified bodies shall accept the form for the purposes of the conformity assessment.
+  </node>
   <node id="REG-018">
     ### Article 10 Paragraph 6
     For the development of high-risk AI systems not using techniques involving the training of AI models, paragraphs 2 to 5 apply only to the testing data sets.
-  </node>
-  <node id="REG-046">
-    ### Article 26 Paragraph 4
-    Without prejudice to paragraphs 1 and 2, to the extent the deployer exercises control over the input data, that deployer shall ensure that input data is relevant and sufficiently representative in view of the intended purpose of the high-risk AI system.
   </node>
 </main_nodes>
 
@@ -83,14 +83,6 @@ REG-013, REG-018, REG-046
   <node id="REG-014">
     ### Article 10 Paragraph 2
     Training, validation and testing data sets shall be subject to data governance and management practices appropriate for the intended purpose of the high-risk AI system. Those practices shall concern in particular: (a) the relevant design choices; (b) data collection processes and the origin of data, and in the case of personal data, the original purpose of the data collection; (c) relevant data-preparation processing operations, such as annotation, labelling, cleaning, updating, enrichment and aggregation; (d) the formulation of assumptions, in particular with respect to the information that the data are supposed to measure and represent; (e) an assessment of the availability, quantity and suitability of the data sets that are needed; (f) examination in view of possible biases that are likely to affect the health and safety of persons, have a negative impact on fundamental rights or lead to discrimination prohibited under Union law, especially where data outputs influence inputs for future operations; (g) appropriate measures to detect, prevent and mitigate possible biases identified according to point (f); (h) the identification of relevant data gaps or shortcomings that prevent compliance with this Regulation, and how those gaps and shortcomings can be addressed.
-  </node>
-  <node id="REG-043">
-    ### Article 26 Paragraph 1
-    Deployers of high-risk AI systems shall take appropriate technical and organisational measures to ensure they use such systems in accordance with the instructions for use accompanying the systems, pursuant to paragraphs 3 and 6.
-  </node>
-  <node id="REG-044">
-    ### Article 26 Paragraph 2
-    Deployers shall assign human oversight to natural persons who have the necessary competence, training and authority, as well as the necessary support.
   </node>
 </referenced_nodes>
 

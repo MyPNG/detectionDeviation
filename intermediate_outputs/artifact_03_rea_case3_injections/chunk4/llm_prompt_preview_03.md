@@ -61,7 +61,7 @@ Note: If deviation_found is false, output an empty array for "deviations": []
 
 ```text
 <main_entry_nodes>
-REG-031, REG-028
+REG-031
 </main_entry_nodes>
 
 <main_nodes>
@@ -69,33 +69,9 @@ REG-031, REG-028
     ### Article 13 Paragraph 7
     (vi) when appropriate, specifications for the input data, or any other relevant information in terms of the training, validation and testing data sets used, taking into account the intended purpose of the high-risk AI system;
   </node>
-  <node id="REG-028">
-    ### Article 13 Paragraph 4
-    (ii) the level of accuracy, including its metrics, robustness and cybersecurity referred to in Article 15 against which the high-risk AI system has been tested and validated and which can be expected, and any known and foreseeable circumstances that may have an impact on that expected level of accuracy, robustness and cybersecurity;
-  </node>
 </main_nodes>
 
 <referenced_nodes>
-  <node id="REG-038">
-    ### Article 15 Paragraph 1
-    High-risk AI systems shall be designed and developed in such a way that they achieve an appropriate level of accuracy, robustness, and cybersecurity, and that they perform consistently in those respects throughout their lifecycle.
-  </node>
-  <node id="REG-039">
-    ### Article 15 Paragraph 2
-    To address the technical aspects of how to measure the appropriate levels of accuracy and robustness set out in paragraph 1 and any other relevant performance metrics, the Commission shall, in cooperation with relevant stakeholders and organisations such as metrology and benchmarking authorities, encourage, as appropriate, the development of benchmarks and measurement methodologies.
-  </node>
-  <node id="REG-040">
-    ### Article 15 Paragraph 3
-    The levels of accuracy and the relevant accuracy metrics of high-risk AI systems shall be declared in the accompanying instructions of use.
-  </node>
-  <node id="REG-041">
-    ### Article 15 Paragraph 4
-    High-risk AI systems shall be as resilient as possible regarding errors, faults or inconsistencies that may occur within the system or the environment in which the system operates, in particular due to their interaction with natural persons or other systems. Technical and organisational measures shall be taken in this regard. The robustness of high-risk AI systems may be achieved through technical redundancy solutions, which may include backup or fail-safe plans. High-risk AI systems that continue to learn after being placed on the market or put into service shall be developed in such a way as to eliminate or reduce as far as possible the risk of possibly biased outputs influencing input for future operations (feedback loops), and as to ensure that any such feedback loops are duly addressed with appropriate mitigation measures.
-  </node>
-  <node id="REG-042">
-    ### Article 15 Paragraph 5
-    High-risk AI systems shall be resilient against attempts by unauthorised third parties to alter their use, outputs or performance by exploiting system vulnerabilities. The technical solutions aiming to ensure the cybersecurity of high-risk AI systems shall be appropriate to the relevant circumstances and the risks. The technical solutions to address AI specific vulnerabilities shall include, where appropriate, measures to prevent, detect, respond to, resolve and control for attacks trying to manipulate the training data set (data poisoning), or pre-trained components used in training (model poisoning), inputs designed to cause the AI model to make a mistake (adversarial examples or model evasion), confidentiality attacks or model flaws.
-  </node>
 </referenced_nodes>
 
 <target_policy_chunk>

@@ -61,21 +61,21 @@ Note: If deviation_found is false, output an empty array for "deviations": []
 
 ```text
 <main_entry_nodes>
-REG-008, REG-010, REG-040
+REG-056, REG-008, REG-054
 </main_entry_nodes>
 
 <main_nodes>
+  <node id="REG-056">
+    ### Article 60 Paragraph 2
+    Providers or prospective providers may conduct testing of high-risk AI systems referred to in Annex III in real world conditions at any time before the placing on the market or the putting into service of the AI system on their own or in partnership with one or more deployers or prospective deployers.
+  </node>
   <node id="REG-008">
     ### Article 9 Paragraph 6
     High-risk AI systems shall be tested for the purpose of identifying the most appropriate and targeted risk management measures. Testing shall ensure that high-risk AI systems perform consistently for their intended purpose and that they are in compliance with the requirements set out in this Section.
   </node>
-  <node id="REG-010">
-    ### Article 9 Paragraph 8
-    The testing of high-risk AI systems shall be performed, as appropriate, at any time throughout the development process, and, in any event, prior to their being placed on the market or put into service. Testing shall be carried out against prior defined metrics and probabilistic thresholds that are appropriate to the intended purpose of the high-risk AI system.
-  </node>
-  <node id="REG-040">
-    ### Article 15 Paragraph 3
-    The levels of accuracy and the relevant accuracy metrics of high-risk AI systems shall be declared in the accompanying instructions of use.
+  <node id="REG-054">
+    ### Article 26 Paragraph 12
+    Deployers shall cooperate with the relevant competent authorities in any action those authorities take in relation to the high-risk AI system in order to implement this Regulation.
   </node>
 </main_nodes>
 

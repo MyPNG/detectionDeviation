@@ -61,17 +61,17 @@ Note: If deviation_found is false, output an empty array for "deviations": []
 
 ```text
 <main_entry_nodes>
-REG-064, REG-033, REG-031
+REG-040, REG-008, REG-031
 </main_entry_nodes>
 
 <main_nodes>
-  <node id="REG-064">
-    ### Article 79 Paragraph 1
-    AI systems presenting a risk shall be understood as a 'product presenting a risk' as defined in Article 3, point 19 of Regulation (EU) 2019/1020, in so far as they present risks to the health or safety, or to fundamental rights, of persons.
+  <node id="REG-040">
+    ### Article 15 Paragraph 3
+    The levels of accuracy and the relevant accuracy metrics of high-risk AI systems shall be declared in the accompanying instructions of use.
   </node>
-  <node id="REG-033">
-    ### Article 14 Paragraph 1
-    High-risk AI systems shall be designed and developed in such a way, including with appropriate human-machine interface tools, that they can be effectively overseen by natural persons during the period in which they are in use.
+  <node id="REG-008">
+    ### Article 9 Paragraph 6
+    High-risk AI systems shall be tested for the purpose of identifying the most appropriate and targeted risk management measures. Testing shall ensure that high-risk AI systems perform consistently for their intended purpose and that they are in compliance with the requirements set out in this Section.
   </node>
   <node id="REG-031">
     ### Article 13 Paragraph 7

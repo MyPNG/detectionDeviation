@@ -61,7 +61,7 @@ Note: If deviation_found is false, output an empty array for "deviations": []
 
 ```text
 <main_entry_nodes>
-REG-010, REG-039, REG-027
+REG-010, REG-008, REG-030
 </main_entry_nodes>
 
 <main_nodes>
@@ -69,21 +69,17 @@ REG-010, REG-039, REG-027
     ### Article 9 Paragraph 8
     The testing of high-risk AI systems shall be performed, as appropriate, at any time throughout the development process, and, in any event, prior to their being placed on the market or put into service. Testing shall be carried out against prior defined metrics and probabilistic thresholds that are appropriate to the intended purpose of the high-risk AI system.
   </node>
-  <node id="REG-039">
-    ### Article 15 Paragraph 2
-    To address the technical aspects of how to measure the appropriate levels of accuracy and robustness set out in paragraph 1 and any other relevant performance metrics, the Commission shall, in cooperation with relevant stakeholders and organisations such as metrology and benchmarking authorities, encourage, as appropriate, the development of benchmarks and measurement methodologies.
+  <node id="REG-008">
+    ### Article 9 Paragraph 6
+    High-risk AI systems shall be tested for the purpose of identifying the most appropriate and targeted risk management measures. Testing shall ensure that high-risk AI systems perform consistently for their intended purpose and that they are in compliance with the requirements set out in this Section.
   </node>
-  <node id="REG-027">
-    ### Article 13 Paragraph 3
-    The instructions for use shall contain at least the following information: (a) the identity and the contact details of the provider and, where applicable, of its authorised representative; (b) the characteristics, capabilities and limitations of performance of the high-risk AI system, including: (i) its intended purpose;
+  <node id="REG-030">
+    ### Article 13 Paragraph 6
+    (iv) where applicable, the technical capabilities and characteristics of the high-risk AI system to provide information that is relevant to explain its output; (v) when appropriate, its performance regarding specific persons or groups of persons on which the system is intended to be used;
   </node>
 </main_nodes>
 
 <referenced_nodes>
-  <node id="REG-038">
-    ### Article 15 Paragraph 1
-    High-risk AI systems shall be designed and developed in such a way that they achieve an appropriate level of accuracy, robustness, and cybersecurity, and that they perform consistently in those respects throughout their lifecycle.
-  </node>
 </referenced_nodes>
 
 <target_policy_chunk>

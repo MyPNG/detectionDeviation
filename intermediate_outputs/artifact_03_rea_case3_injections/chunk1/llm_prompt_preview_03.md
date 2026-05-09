@@ -61,25 +61,29 @@ Note: If deviation_found is false, output an empty array for "deviations": []
 
 ```text
 <main_entry_nodes>
-REG-044, REG-025, REG-049
+REG-038, REG-044, REG-006
 </main_entry_nodes>
 
 <main_nodes>
+  <node id="REG-038">
+    ### Article 15 Paragraph 1
+    High-risk AI systems shall be designed and developed in such a way that they achieve an appropriate level of accuracy, robustness, and cybersecurity, and that they perform consistently in those respects throughout their lifecycle.
+  </node>
   <node id="REG-044">
     ### Article 26 Paragraph 2
     Deployers shall assign human oversight to natural persons who have the necessary competence, training and authority, as well as the necessary support.
   </node>
-  <node id="REG-025">
-    ### Article 13 Paragraph 1
-    High-risk AI systems shall be designed and developed in such a way as to ensure that their operation is sufficiently transparent to enable deployers to interpret a system's output and use it appropriately. An appropriate type and degree of transparency shall be ensured with a view to achieving compliance with the relevant obligations of the provider and deployer set out in Section 3.
-  </node>
-  <node id="REG-049">
-    ### Article 26 Paragraph 7
-    Before putting into service or using a high-risk AI system at the workplace, deployers who are employers shall inform workers' representatives and the affected workers that they will be subject to the use of the high-risk AI system. This information shall be provided, where applicable, in accordance with the rules and procedures laid down in Union and national law and practice on information of workers and their representatives.
+  <node id="REG-006">
+    ### Article 9 Paragraph 4
+    The risk management measures referred to in paragraph 2, point (d), shall give due consideration to the effects and possible interaction resulting from the combined application of the requirements set out in this Section, with a view to minimising risks more effectively while achieving an appropriate balance in implementing the measures to fulfil those requirements.
   </node>
 </main_nodes>
 
 <referenced_nodes>
+  <node id="REG-004">
+    ### Article 9 Paragraph 2
+    The risk management system shall be understood as a continuous iterative process planned and run throughout the entire lifecycle of a high-risk AI system, requiring regular systematic review and updating. It shall comprise the following steps: (a) the identification and analysis of the known and the reasonably foreseeable risks that the high-risk AI system can pose to health, safety or fundamental rights when the high-risk AI system is used in accordance with its intended purpose; (b) the estimation and evaluation of the risks that may emerge when the high-risk AI system is used in accordance with its intended purpose, and under conditions of reasonably foreseeable misuse; (c) the evaluation of other risks possibly arising, based on the analysis of data gathered from the post-market monitoring system referred to in Article 72; (d) the adoption of appropriate and targeted risk management measures designed to address the risks identified pursuant to point (a).
+  </node>
 </referenced_nodes>
 
 <target_policy_chunk>

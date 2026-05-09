@@ -61,7 +61,7 @@ Note: If deviation_found is false, output an empty array for "deviations": []
 
 ```text
 <main_entry_nodes>
-REG-091, REG-051, REG-025
+REG-051, REG-030, REG-003
 </main_entry_nodes>
 
 <main_nodes>
@@ -69,13 +69,21 @@ REG-091, REG-051, REG-025
     ### Article 26 Paragraph 9
     Where applicable, deployers of high-risk AI systems shall use the information provided under Article 13 of this Regulation to comply with their obligation to carry out a data protection impact assessment under Article 35 of Regulation (EU) 2016/679 or Article 27 of Directive (EU) 2016/680.
   </node>
-  <node id="REG-025">
-    ### Article 13 Paragraph 1
-    High-risk AI systems shall be designed and developed in such a way as to ensure that their operation is sufficiently transparent to enable deployers to interpret a system's output and use it appropriately. An appropriate type and degree of transparency shall be ensured with a view to achieving compliance with the relevant obligations of the provider and deployer set out in Section 3.
+  <node id="REG-030">
+    ### Article 13 Paragraph 6
+    (iv) where applicable, the technical capabilities and characteristics of the high-risk AI system to provide information that is relevant to explain its output; (v) when appropriate, its performance regarding specific persons or groups of persons on which the system is intended to be used;
+  </node>
+  <node id="REG-003">
+    ### Article 9 Paragraph 1
+    A risk management system shall be established, implemented, documented and maintained in relation to high-risk AI systems.
   </node>
 </main_nodes>
 
 <referenced_nodes>
+  <node id="REG-025">
+    ### Article 13 Paragraph 1
+    High-risk AI systems shall be designed and developed in such a way as to ensure that their operation is sufficiently transparent to enable deployers to interpret a system's output and use it appropriately. An appropriate type and degree of transparency shall be ensured with a view to achieving compliance with the relevant obligations of the provider and deployer set out in Section 3.
+  </node>
   <node id="REG-026">
     ### Article 13 Paragraph 2
     High-risk AI systems shall be accompanied by instructions for use in an appropriate digital format or otherwise that include concise, complete, correct and clear information that is relevant, accessible and comprehensible to deployers.
@@ -91,10 +99,6 @@ REG-091, REG-051, REG-025
   <node id="REG-029">
     ### Article 13 Paragraph 5
     (iii) any known or foreseeable circumstance, related to the use of the high-risk AI system in accordance with its intended purpose or under conditions of reasonably foreseeable misuse, which may lead to risks to the health and safety or fundamental rights referred to in Article 9(2);
-  </node>
-  <node id="REG-030">
-    ### Article 13 Paragraph 6
-    (iv) where applicable, the technical capabilities and characteristics of the high-risk AI system to provide information that is relevant to explain its output; (v) when appropriate, its performance regarding specific persons or groups of persons on which the system is intended to be used;
   </node>
   <node id="REG-031">
     ### Article 13 Paragraph 7

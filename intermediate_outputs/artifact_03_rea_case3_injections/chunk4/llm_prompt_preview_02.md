@@ -61,25 +61,25 @@ Note: If deviation_found is false, output an empty array for "deviations": []
 
 ```text
 <main_entry_nodes>
-REG-010, REG-006, REG-091
+REG-040, REG-038, REG-010
 </main_entry_nodes>
 
 <main_nodes>
+  <node id="REG-040">
+    ### Article 15 Paragraph 3
+    The levels of accuracy and the relevant accuracy metrics of high-risk AI systems shall be declared in the accompanying instructions of use.
+  </node>
+  <node id="REG-038">
+    ### Article 15 Paragraph 1
+    High-risk AI systems shall be designed and developed in such a way that they achieve an appropriate level of accuracy, robustness, and cybersecurity, and that they perform consistently in those respects throughout their lifecycle.
+  </node>
   <node id="REG-010">
     ### Article 9 Paragraph 8
     The testing of high-risk AI systems shall be performed, as appropriate, at any time throughout the development process, and, in any event, prior to their being placed on the market or put into service. Testing shall be carried out against prior defined metrics and probabilistic thresholds that are appropriate to the intended purpose of the high-risk AI system.
   </node>
-  <node id="REG-006">
-    ### Article 9 Paragraph 4
-    The risk management measures referred to in paragraph 2, point (d), shall give due consideration to the effects and possible interaction resulting from the combined application of the requirements set out in this Section, with a view to minimising risks more effectively while achieving an appropriate balance in implementing the measures to fulfil those requirements.
-  </node>
 </main_nodes>
 
 <referenced_nodes>
-  <node id="REG-004">
-    ### Article 9 Paragraph 2
-    The risk management system shall be understood as a continuous iterative process planned and run throughout the entire lifecycle of a high-risk AI system, requiring regular systematic review and updating. It shall comprise the following steps: (a) the identification and analysis of the known and the reasonably foreseeable risks that the high-risk AI system can pose to health, safety or fundamental rights when the high-risk AI system is used in accordance with its intended purpose; (b) the estimation and evaluation of the risks that may emerge when the high-risk AI system is used in accordance with its intended purpose, and under conditions of reasonably foreseeable misuse; (c) the evaluation of other risks possibly arising, based on the analysis of data gathered from the post-market monitoring system referred to in Article 72; (d) the adoption of appropriate and targeted risk management measures designed to address the risks identified pursuant to point (a).
-  </node>
 </referenced_nodes>
 
 <target_policy_chunk>

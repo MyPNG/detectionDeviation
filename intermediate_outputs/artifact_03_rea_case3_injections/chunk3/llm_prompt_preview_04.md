@@ -61,17 +61,25 @@ Note: If deviation_found is false, output an empty array for "deviations": []
 
 ```text
 <main_entry_nodes>
-REG-015
+REG-046
 </main_entry_nodes>
 
 <main_nodes>
-  <node id="REG-015">
-    ### Article 10 Paragraph 3
-    Training, validation and testing data sets shall be relevant, sufficiently representative, and to the best extent possible, free of errors and complete in view of the intended purpose. They shall have the appropriate statistical properties, including, where applicable, as regards the persons or groups of persons in relation to whom the high-risk AI system is intended to be used. Those characteristics of the data sets may be met at the level of individual data sets or at the level of a combination thereof.
+  <node id="REG-046">
+    ### Article 26 Paragraph 4
+    Without prejudice to paragraphs 1 and 2, to the extent the deployer exercises control over the input data, that deployer shall ensure that input data is relevant and sufficiently representative in view of the intended purpose of the high-risk AI system.
   </node>
 </main_nodes>
 
 <referenced_nodes>
+  <node id="REG-043">
+    ### Article 26 Paragraph 1
+    Deployers of high-risk AI systems shall take appropriate technical and organisational measures to ensure they use such systems in accordance with the instructions for use accompanying the systems, pursuant to paragraphs 3 and 6.
+  </node>
+  <node id="REG-044">
+    ### Article 26 Paragraph 2
+    Deployers shall assign human oversight to natural persons who have the necessary competence, training and authority, as well as the necessary support.
+  </node>
 </referenced_nodes>
 
 <target_policy_chunk>

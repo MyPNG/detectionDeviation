@@ -61,24 +61,24 @@ Note: If deviation_found is false, output an empty array for "deviations": []
 
 ```text
 <main_entry_nodes>
-REG-010, REG-018, REG-091
+REG-011, REG-010, REG-091
 </main_entry_nodes>
 
 <main_nodes>
+  <node id="REG-011">
+    ### Article 9 Paragraph 9
+    When implementing the risk management system as provided for in paragraphs 1 to 7, providers shall give consideration to whether in view of its intended purpose the high-risk AI system is likely to have an adverse impact on persons under the age of 18 and, as appropriate, other vulnerable groups.
+  </node>
   <node id="REG-010">
     ### Article 9 Paragraph 8
     The testing of high-risk AI systems shall be performed, as appropriate, at any time throughout the development process, and, in any event, prior to their being placed on the market or put into service. Testing shall be carried out against prior defined metrics and probabilistic thresholds that are appropriate to the intended purpose of the high-risk AI system.
   </node>
-  <node id="REG-018">
-    ### Article 10 Paragraph 6
-    For the development of high-risk AI systems not using techniques involving the training of AI models, paragraphs 2 to 5 apply only to the testing data sets.
-  </node>
 </main_nodes>
 
 <referenced_nodes>
-  <node id="REG-014">
-    ### Article 10 Paragraph 2
-    Training, validation and testing data sets shall be subject to data governance and management practices appropriate for the intended purpose of the high-risk AI system. Those practices shall concern in particular: (a) the relevant design choices; (b) data collection processes and the origin of data, and in the case of personal data, the original purpose of the data collection; (c) relevant data-preparation processing operations, such as annotation, labelling, cleaning, updating, enrichment and aggregation; (d) the formulation of assumptions, in particular with respect to the information that the data are supposed to measure and represent; (e) an assessment of the availability, quantity and suitability of the data sets that are needed; (f) examination in view of possible biases that are likely to affect the health and safety of persons, have a negative impact on fundamental rights or lead to discrimination prohibited under Union law, especially where data outputs influence inputs for future operations; (g) appropriate measures to detect, prevent and mitigate possible biases identified according to point (f); (h) the identification of relevant data gaps or shortcomings that prevent compliance with this Regulation, and how those gaps and shortcomings can be addressed.
+  <node id="REG-003">
+    ### Article 9 Paragraph 1
+    A risk management system shall be established, implemented, documented and maintained in relation to high-risk AI systems.
   </node>
 </referenced_nodes>
 

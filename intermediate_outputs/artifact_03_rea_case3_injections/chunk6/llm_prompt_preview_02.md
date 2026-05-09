@@ -61,17 +61,17 @@ Note: If deviation_found is false, output an empty array for "deviations": []
 
 ```text
 <main_entry_nodes>
-REG-062, REG-073, REG-026
+REG-046, REG-027, REG-026
 </main_entry_nodes>
 
 <main_nodes>
-  <node id="REG-062">
-    ### Article 60 Paragraph 8
-    Providers or prospective providers shall notify the national market surveillance authority in the Member State where the testing in real world conditions is to be conducted of the suspension or termination of the testing in real world conditions and of the final outcomes.
+  <node id="REG-046">
+    ### Article 26 Paragraph 4
+    Without prejudice to paragraphs 1 and 2, to the extent the deployer exercises control over the input data, that deployer shall ensure that input data is relevant and sufficiently representative in view of the intended purpose of the high-risk AI system.
   </node>
-  <node id="REG-073">
-    ### Article 79 Paragraph 10
-    The market surveillance authorities shall ensure that appropriate restrictive measures are taken in respect of the product or the AI system concerned, such as withdrawal of the product or the AI system from their market, without undue delay.
+  <node id="REG-027">
+    ### Article 13 Paragraph 3
+    The instructions for use shall contain at least the following information: (a) the identity and the contact details of the provider and, where applicable, of its authorised representative; (b) the characteristics, capabilities and limitations of performance of the high-risk AI system, including: (i) its intended purpose;
   </node>
   <node id="REG-026">
     ### Article 13 Paragraph 2
@@ -80,6 +80,14 @@ REG-062, REG-073, REG-026
 </main_nodes>
 
 <referenced_nodes>
+  <node id="REG-043">
+    ### Article 26 Paragraph 1
+    Deployers of high-risk AI systems shall take appropriate technical and organisational measures to ensure they use such systems in accordance with the instructions for use accompanying the systems, pursuant to paragraphs 3 and 6.
+  </node>
+  <node id="REG-044">
+    ### Article 26 Paragraph 2
+    Deployers shall assign human oversight to natural persons who have the necessary competence, training and authority, as well as the necessary support.
+  </node>
 </referenced_nodes>
 
 <target_policy_chunk>
