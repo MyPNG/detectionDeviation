@@ -1,0 +1,2195 @@
+{
+  "nodes": [
+    {
+      "id": "REG-001",
+      "node_type": "Provision",
+      "article": "6",
+      "paragraph": "1",
+      "text": "Processing shall be lawful only if and to the extent that at least one of the following applies: (a) the data subject has given consent to the processing of his or her personal data for one or more specific purposes; (b) processing is necessary for the performance of a contract to which the data subject is party or in order to take steps at the request of the data subject prior to entering into a contract; (c) processing is necessary for compliance with a legal obligation to which the controller is subject; (d) processing is necessary in order to protect the vital interests of the data subject or of another natural person; (e) processing is necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller; (f) processing is necessary for the purposes of the legitimate interests pursued by the controller or by a third party, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection of personal data, in particular where the data subject is a child.",
+      "system_name": "Art6(1)"
+    },
+    {
+      "id": "Art6",
+      "node_type": "Article",
+      "article_number": "6"
+    },
+    {
+      "id": "REG-002",
+      "node_type": "Provision",
+      "article": "6",
+      "paragraph": "2",
+      "text": "Member States may maintain or introduce more specific provisions to adapt the application of the rules of this Regulation with regard to processing for compliance with points (c) and (e) of paragraph 1 by determining more precisely specific requirements for the processing and other measures to ensure lawful and fair processing including for other specific processing situations as provided for in Chapter IX.",
+      "system_name": "Art6(2)"
+    },
+    {
+      "id": "REG-003",
+      "node_type": "Provision",
+      "article": "6",
+      "paragraph": "3",
+      "text": "The basis for the processing referred to in point (c) and (e) of paragraph 1 shall be laid down by: (a) Union law; or (b) Member State law to which the controller is subject.",
+      "system_name": "Art6(3)"
+    },
+    {
+      "id": "REG-004",
+      "node_type": "Provision",
+      "article": "6",
+      "paragraph": "4",
+      "text": "Where the processing for a purpose other than that for which the personal data have been collected is not based on the data subject's consent or on a Union or Member State law which constitutes a necessary and proportionate measure in a democratic society to safeguard the objectives referred to in Article 23(1), the controller shall, in order to ascertain whether processing for another purpose is compatible with the purpose for which the personal data are initially collected, take into account, inter alia: (a) any link between the purposes for which the personal data have been collected and the purposes of the intended further processing; (b) the context in which the personal data have been collected, in particular regarding the relationship between data subjects and the controller; (c) the nature of the personal data, in particular whether special categories of personal data are processed, pursuant to Article 9, or whether personal data related to criminal convictions and offences are processed, pursuant to Article 10; (d) the possible consequences of the intended further processing for data subjects; (e) the existence of appropriate safeguards, which may include encryption or pseudonymisation.",
+      "system_name": "Art6(4)"
+    },
+    {
+      "id": "REG-005",
+      "node_type": "Provision",
+      "article": "9",
+      "paragraph": "1",
+      "text": "Processing of personal data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, or trade union membership, and the processing of genetic data, biometric data for the purpose of uniquely identifying a natural person, data concerning health or data concerning a natural person's sex life or sexual orientation shall be prohibited.",
+      "system_name": "Art9(1)"
+    },
+    {
+      "id": "Art9",
+      "node_type": "Article",
+      "article_number": "9"
+    },
+    {
+      "id": "REG-006",
+      "node_type": "Provision",
+      "article": "9",
+      "paragraph": "2",
+      "text": "Paragraph 1 shall not apply if one of the following applies: (a) the data subject has given explicit consent to the processing of those personal data for one or more specified purposes, except where Union or Member State law provide that the prohibition referred to in paragraph 1 may not be lifted by the data subject; (b) processing is necessary for the purposes of carrying out the obligations and exercising specific rights of the controller or of the data subject in the field of employment and social security and social protection law in so far as it is authorised by Union or Member State law or a collective agreement pursuant to Member State law providing for appropriate safeguards for the fundamental rights and the interests of the data subject; (c) processing is necessary to protect the vital interests of the data subject or of another natural person where the data subject is physically or legally incapable of giving consent; (d) processing is carried out in the course of its legitimate activities with appropriate safeguards by a foundation, association or any other not-for-profit body with a political, philosophical, religious or trade union aim and on condition that the processing relates solely to the members or to former members of the body or to persons who have regular contact with it in connection with its purposes and that the personal data are not disclosed outside that body without the consent of the data subjects; (e) processing relates to personal data which are manifestly made public by the data subject; (f) processing is necessary for the establishment, exercise or defence of legal claims or whenever courts are acting in their judicial capacity; (g) processing is necessary for reasons of substantial public interest, on the basis of Union or Member State law which shall be proportionate to the aim pursued, respect the essence of the right to data protection and provide for suitable and specific measures to safeguard the fundamental rights and the interests of the data subject; (h) processing is necessary for the purposes of preventive or occupational medicine, for the assessment of the working capacity of the employee, medical diagnosis, the provision of health or social care or treatment or the management of health or social care systems and services on the basis of Union or Member State law or pursuant to contract with a health professional and subject to the conditions and safeguards referred to in paragraph 3; (i) processing is necessary for reasons of public interest in the area of public health, such as protecting against serious cross-border threats to health or ensuring high standards of quality and safety of health care and of medicinal products or medical devices, on the basis of Union or Member State law which provides for suitable and specific measures to safeguard the rights and freedoms of the data subject, in particular professional secrecy; (j) processing is necessary for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes in accordance with Article 89(1) based on Union or Member State law which shall be propor­ tionate to the aim pursued, respect the essence of the right to data protection and provide for suitable and specific measures to safeguard the fundamental rights and the interests of the data subject.",
+      "system_name": "Art9(2)"
+    },
+    {
+      "id": "REG-007",
+      "node_type": "Provision",
+      "article": "9",
+      "paragraph": "3",
+      "text": "Personal data referred to in paragraph 1 may be processed for the purposes referred to in point (h) of paragraph 2 when those data are processed by or under the responsibility of a professional subject to the obligation of professional secrecy under Union or Member State law or rules established by national competent bodies or by another person also subject to an obligation of secrecy under Union or Member State law or rules established by national competent bodies.",
+      "system_name": "Art9(3)"
+    },
+    {
+      "id": "REG-008",
+      "node_type": "Provision",
+      "article": "9",
+      "paragraph": "4",
+      "text": "Member States may maintain or introduce further conditions, including limitations, with regard to the processing of genetic data, biometric data or data concerning health.",
+      "system_name": "Art9(4)"
+    },
+    {
+      "id": "REG-009",
+      "node_type": "Provision",
+      "article": "11",
+      "paragraph": "1",
+      "text": "If the purposes for which a controller processes personal data do not or do no longer require the identification of a data subject by the controller, the controller shall not be obliged to maintain, acquire or process additional information in order to identify the data subject for the sole purpose of complying with this Regulation.",
+      "system_name": "Art11(1)"
+    },
+    {
+      "id": "Art11",
+      "node_type": "Article",
+      "article_number": "11"
+    },
+    {
+      "id": "REG-010",
+      "node_type": "Provision",
+      "article": "11",
+      "paragraph": "2",
+      "text": "Where, in cases referred to in paragraph 1 of this Article, the controller is able to demonstrate that it is not in a position to identify the data subject, the controller shall inform the data subject accordingly, if possible. In such cases, Articles 15 to 20 shall not apply except where the data subject, for the purpose of exercising his or her rights under those articles, provides additional information enabling his or her identification.",
+      "system_name": "Art11(2)"
+    },
+    {
+      "id": "REG-011",
+      "node_type": "Provision",
+      "article": "12",
+      "paragraph": "1",
+      "text": "The controller shall take appropriate measures to provide any information referred to in Articles 13 and 14 and any communication under Articles 15 to 22 and 34 relating to processing to the data subject in a concise, transparent, intelligible and easily accessible form, using clear and plain language, in particular for any information addressed specifically to a child. The information shall be provided in writing, or by other means, including, where appropriate, by electronic means. When requested by the data subject, the information may be provided orally, provided that the identity of the data subject is proven by other means.",
+      "system_name": "Art12(1)"
+    },
+    {
+      "id": "Art12",
+      "node_type": "Article",
+      "article_number": "12"
+    },
+    {
+      "id": "REG-012",
+      "node_type": "Provision",
+      "article": "12",
+      "paragraph": "2",
+      "text": "The controller shall facilitate the exercise of data subject rights under Articles 15 to 22. In the cases referred to in Article 11(2), the controller shall not refuse to act on the request of the data subject for exercising his or her rights under Articles 15 to 22, unless the controller demonstrates that it is not in a position to identify the data subject.",
+      "system_name": "Art12(2)"
+    },
+    {
+      "id": "REG-013",
+      "node_type": "Provision",
+      "article": "12",
+      "paragraph": "3",
+      "text": "The controller shall provide information on action taken on a request under Articles 15 to 22 to the data subject without undue delay and in any event within one month of receipt of the request. That period may be extended by two further months where necessary, taking into account the complexity and number of the requests. The controller shall inform the data subject of any such extension within one month of receipt of the request, together with the reasons for the delay. Where the data subject makes the request by electronic form means, the information shall be provided by electronic means where possible, unless otherwise requested by the data subject.",
+      "system_name": "Art12(3)"
+    },
+    {
+      "id": "REG-014",
+      "node_type": "Provision",
+      "article": "12",
+      "paragraph": "4",
+      "text": "If the controller does not take action on the request of the data subject, the controller shall inform the data subject without delay and at the latest within one month of receipt of the request of the reasons for not taking action and on the possibility of lodging a complaint with a supervisory authority and seeking a judicial remedy.",
+      "system_name": "Art12(4)"
+    },
+    {
+      "id": "REG-015",
+      "node_type": "Provision",
+      "article": "12",
+      "paragraph": "5",
+      "text": "Information provided under Articles 13 and 14 and any communication and any actions taken under Articles 15 to 22 and 34 shall be provided free of charge. Where requests from a data subject are manifestly unfounded or excessive, in particular because of their repetitive character, the controller may either: (a) charge a reasonable fee taking into account the administrative costs of providing the information or communication or taking the action requested; or (b) refuse to act on the request.",
+      "system_name": "Art12(5)"
+    },
+    {
+      "id": "REG-016",
+      "node_type": "Provision",
+      "article": "12",
+      "paragraph": "6",
+      "text": "Without prejudice to Article 11, where the controller has reasonable doubts concerning the identity of the natural person making the request referred to in Articles 15 to 21, the controller may request the provision of additional information necessary to confirm the identity of the data subject.",
+      "system_name": "Art12(6)"
+    },
+    {
+      "id": "REG-017",
+      "node_type": "Provision",
+      "article": "12",
+      "paragraph": "7",
+      "text": "The information to be provided to data subjects pursuant to Articles 13 and 14 may be provided in combination with standardised icons in order to give in an easily visible, intelligible and clearly legible manner a meaningful overview of the intended processing. Where the icons are presented electronically they shall be machine-readable.",
+      "system_name": "Art12(7)"
+    },
+    {
+      "id": "REG-018",
+      "node_type": "Provision",
+      "article": "12",
+      "paragraph": "8",
+      "text": "The Commission shall be empowered to adopt delegated acts in accordance with Article 92 for the purpose of determining the information to be presented by the icons and the procedures for providing standardised icons.",
+      "system_name": "Art12(8)"
+    },
+    {
+      "id": "REG-019",
+      "node_type": "Provision",
+      "article": "13",
+      "paragraph": "1",
+      "text": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: (a) the identity and the contact details of the controller and, where applicable, of the controller's representative; (b) the contact details of the data protection officer, where applicable; (c) the purposes of the processing for which the personal data are intended as well as the legal basis for the processing; (d) where the processing is based on point (f) of Article 6(1), the legitimate interests pursued by the controller or by a third party; (e) the recipients or categories of recipients of the personal data, if any; (f) where applicable, the fact that the controller intends to transfer personal data to a third country or international organisation and the existence or absence of an adequacy decision by the Commission, or in the case of transfers referred to in Article 46 or 47, or the second subparagraph of Article 49(1), reference to the appropriate or suitable safeguards and the means by which to obtain a copy of them or where they have been made available.",
+      "system_name": "Art13(1)"
+    },
+    {
+      "id": "Art13",
+      "node_type": "Article",
+      "article_number": "13"
+    },
+    {
+      "id": "REG-020",
+      "node_type": "Provision",
+      "article": "13",
+      "paragraph": "2",
+      "text": "In addition to the information referred to in paragraph 1, the controller shall, at the time when personal data are obtained, provide the data subject with the following further information necessary to ensure fair and transparent processing: (a) the period for which the personal data will be stored, or if that is not possible, the criteria used to determine that period; (b) the existence of the right to request from the controller access to and rectification or erasure of personal data or restriction of processing concerning the data subject or to object to processing as well as the right to data portability; (c) where the processing is based on point (a) of Article 6(1) or point (a) of Article 9(2), the existence of the right to withdraw consent at any time, without affecting the lawfulness of processing based on consent before its withdrawal; (d) the right to lodge a complaint with a supervisory authority; (e) whether the provision of personal data is a statutory or contractual requirement, or a requirement necessary to enter into a contract, as well as whether the data subject is obliged to provide the personal data and of the possible consequences of failure to provide such data; (f) the existence of automated decision-making, including profiling, referred to in Article 22(1) and (4) and, at least in those cases, meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing for the data subject.",
+      "system_name": "Art13(2)"
+    },
+    {
+      "id": "REG-021",
+      "node_type": "Provision",
+      "article": "13",
+      "paragraph": "3",
+      "text": "Where the controller intends to further process the personal data for a purpose other than that for which the personal data were collected, the controller shall provide the data subject prior to that further processing with information on that other purpose and with any relevant further information as referred to in paragraph 2.",
+      "system_name": "Art13(3)"
+    },
+    {
+      "id": "REG-022",
+      "node_type": "Provision",
+      "article": "13",
+      "paragraph": "4",
+      "text": "Paragraphs 1, 2 and 3 shall not apply where and insofar as the data subject already has the information.",
+      "system_name": "Art13(4)"
+    },
+    {
+      "id": "REG-023",
+      "node_type": "Provision",
+      "article": "14",
+      "paragraph": "1",
+      "text": "Where personal data have not been obtained from the data subject, the controller shall provide the data subject with the following information: (a) the identity and the contact details of the controller and, where applicable, of the controller's representative; (b) the contact details of the data protection officer, where applicable; (c) the purposes of the processing for which the personal data are intended as well as the legal basis for the processing; (d) the categories of personal data concerned; (e) the recipients or categories of recipients of the personal data, if any; (f) where applicable, that the controller intends to transfer personal data to a recipient in a third country or internat­ ional organisation and the existence or absence of an adequacy decision by the Commission, or in the case of transfers referred to in Article 46 or 47, or the second subparagraph of Article 49(1), reference to the appropriate or suitable safeguards and the means to obtain a copy of them or where they have been made available.",
+      "system_name": "Art14(1)"
+    },
+    {
+      "id": "Art14",
+      "node_type": "Article",
+      "article_number": "14"
+    },
+    {
+      "id": "REG-024",
+      "node_type": "Provision",
+      "article": "14",
+      "paragraph": "2",
+      "text": "In addition to the information referred to in paragraph 1, the controller shall provide the data subject with the following information necessary to ensure fair and transparent processing in respect of the data subject: (a) the period for which the personal data will be stored, or if that is not possible, the criteria used to determine that period; (b) where the processing is based on point (f) of Article 6(1), the legitimate interests pursued by the controller or by a third party; (c) the existence of the right to request from the controller access to and rectification or erasure of personal data or restriction of processing concerning the data subject and to object to processing as well as the right to data portability; (d) where processing is based on point (a) of Article 6(1) or point (a) of Article 9(2), the existence of the right to withdraw consent at any time, without affecting the lawfulness of processing based on consent before its withdrawal; (e) the right to lodge a complaint with a supervisory authority; (f) from which source the personal data originate, and if applicable, whether it came from publicly accessible sources; (g) the existence of automated decision-making, including profiling, referred to in Article 22(1) and (4) and, at least in those cases, meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing for the data subject.",
+      "system_name": "Art14(2)"
+    },
+    {
+      "id": "REG-025",
+      "node_type": "Provision",
+      "article": "14",
+      "paragraph": "3",
+      "text": "The controller shall provide the information referred to in paragraphs 1 and 2: (a) within a reasonable period after obtaining the personal data, but at the latest within one month, having regard to the specific circumstances in which the personal data are processed; (b) if the personal data are to be used for communication with the data subject, at the latest at the time of the first communication to that data subject; or (c) if a disclosure to another recipient is envisaged, at the latest when the personal data are first disclosed.",
+      "system_name": "Art14(3)"
+    },
+    {
+      "id": "REG-026",
+      "node_type": "Provision",
+      "article": "14",
+      "paragraph": "4",
+      "text": "Where the controller intends to further process the personal data for a purpose other than that for which the personal data were obtained, the controller shall provide the data subject prior to that further processing with information on that other purpose and with any relevant further information as referred to in paragraph 2.",
+      "system_name": "Art14(4)"
+    },
+    {
+      "id": "REG-027",
+      "node_type": "Provision",
+      "article": "14",
+      "paragraph": "5",
+      "text": "Paragraphs 1 to 4 shall not apply where and insofar as: (a) the data subject already has the information; (b) the provision of such information proves impossible or would involve a disproportionate effort, in particular for processing for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes, subject to the conditions and safeguards referred to in Article 89(1) or in so far as the obligation referred to in paragraph 1 of this Article is likely to render impossible or seriously impair the achievement of the objectives of that processing. In such cases the controller shall take appropriate measures to protect the data subject's rights and freedoms and legitimate interests, including making the information publicly available; (c) obtaining or disclosure is expressly laid down by Union or Member State law to which the controller is subject and which provides appropriate measures to protect the data subject's legitimate interests; or (d) where the personal data must remain confidential subject to an obligation of professional secrecy regulated by Union or Member State law, including a statutory obligation of secrecy.",
+      "system_name": "Art14(5)"
+    },
+    {
+      "id": "REG-028",
+      "node_type": "Provision",
+      "article": "15",
+      "paragraph": "1",
+      "text": "The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (a) the purposes of the processing; (b) the categories of personal data concerned; (c) the recipients or categories of recipient to whom the personal data have been or will be disclosed, in particular recipients in third countries or international organisations; (d) where possible, the envisaged period for which the personal data will be stored, or, if not possible, the criteria used to determine that period; (e) the existence of the right to request from the controller rectification or erasure of personal data or restriction of processing of personal data concerning the data subject or to object to such processing; (f) the right to lodge a complaint with a supervisory authority; (g) where the personal data are not collected from the data subject, any available information as to their source; (h) the existence of automated decision-making, including profiling, referred to in Article 22(1) and (4) and, at least in those cases, meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing for the data subject.",
+      "system_name": "Art15(1)"
+    },
+    {
+      "id": "Art15",
+      "node_type": "Article",
+      "article_number": "15"
+    },
+    {
+      "id": "REG-029",
+      "node_type": "Provision",
+      "article": "15",
+      "paragraph": "2",
+      "text": "Where personal data are transferred to a third country or to an international organisation, the data subject shall have the right to be informed of the appropriate safeguards pursuant to Article 46 relating to the transfer.",
+      "system_name": "Art15(2)"
+    },
+    {
+      "id": "REG-030",
+      "node_type": "Provision",
+      "article": "15",
+      "paragraph": "3",
+      "text": "The controller shall provide a copy of the personal data undergoing processing. For any further copies requested by the data subject, the controller may charge a reasonable fee based on administrative costs. Where the data subject makes the request by electronic means, and unless otherwise requested by the data subject, the information shall be provided in a commonly used electronic form.",
+      "system_name": "Art15(3)"
+    },
+    {
+      "id": "REG-031",
+      "node_type": "Provision",
+      "article": "15",
+      "paragraph": "4",
+      "text": "The right to obtain a copy referred to in paragraph 3 shall not adversely affect the rights and freedoms of others.",
+      "system_name": "Art15(4)"
+    },
+    {
+      "id": "REG-032",
+      "node_type": "Provision",
+      "article": "17",
+      "paragraph": "1",
+      "text": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies: (a) the personal data are no longer necessary in relation to the purposes for which they were collected or otherwise processed; (b) the data subject withdraws consent on which the processing is based according to point (a) of Article 6(1), or point (a) of Article 9(2), and where there is no other legal ground for the processing; (c) the data subject objects to the processing pursuant to Article 21(1) and there are no overriding legitimate grounds for the processing, or the data subject objects to the processing pursuant to Article 21(2); (d) the personal data have been unlawfully processed; (e) the personal data have to be erased for compliance with a legal obligation in Union or Member State law to which the controller is subject; (f) the personal data have been collected in relation to the offer of information society services referred to in Article 8(1).",
+      "system_name": "Art17(1)"
+    },
+    {
+      "id": "Art17",
+      "node_type": "Article",
+      "article_number": "17"
+    },
+    {
+      "id": "REG-033",
+      "node_type": "Provision",
+      "article": "17",
+      "paragraph": "2",
+      "text": "Where the controller has made the personal data public and is obliged pursuant to paragraph 1 to erase the personal data, the controller, taking account of available technology and the cost of implementation, shall take reasonable steps, including technical measures, to inform controllers which are processing the personal data that the data subject has requested the erasure by such controllers of any links to, or copy or replication of, those personal data.",
+      "system_name": "Art17(2)"
+    },
+    {
+      "id": "REG-034",
+      "node_type": "Provision",
+      "article": "17",
+      "paragraph": "3",
+      "text": "Paragraphs 1 and 2 shall not apply to the extent that processing is necessary: (a) for exercising the right of freedom of expression and information; (b) for compliance with a legal obligation which requires processing by Union or Member State law to which the controller is subject or for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller; (c) for reasons of public interest in the area of public health in accordance with points (h) and (i) of Article 9(2) as well as Article 9(3); (d) for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes in accordance with Article 89(1) in so far as the right referred to in paragraph 1 is likely to render impossible or seriously impair the achievement of the objectives of that processing; or (e) for the establishment, exercise or defence of legal claims.",
+      "system_name": "Art17(3)"
+    },
+    {
+      "id": "REG-035",
+      "node_type": "Provision",
+      "article": "20",
+      "paragraph": "1",
+      "text": "The data subject shall have the right to receive the personal data concerning him or her, which he or she has provided to a controller, in a structured, commonly used and machine-readable format and have the right to transmit those data to another controller without hindrance from the controller to which the personal data have been provided, where: (a) the processing is based on consent pursuant to point (a) of Article 6(1) or point (a) of Article 9(2) or on a contract pursuant to point (b) of Article 6(1); and (b) the processing is carried out by automated means.",
+      "system_name": "Art20(1)"
+    },
+    {
+      "id": "Art20",
+      "node_type": "Article",
+      "article_number": "20"
+    },
+    {
+      "id": "REG-036",
+      "node_type": "Provision",
+      "article": "20",
+      "paragraph": "2",
+      "text": "In exercising his or her right to data portability pursuant to paragraph 1, the data subject shall have the right to have the personal data transmitted directly from one controller to another, where technically feasible.",
+      "system_name": "Art20(2)"
+    },
+    {
+      "id": "REG-037",
+      "node_type": "Provision",
+      "article": "20",
+      "paragraph": "3",
+      "text": "The exercise of the right referred to in paragraph 1 of this Article shall be without prejudice to Article 17. That right shall not apply to processing necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller.",
+      "system_name": "Art20(3)"
+    },
+    {
+      "id": "REG-038",
+      "node_type": "Provision",
+      "article": "20",
+      "paragraph": "4",
+      "text": "The right referred to in paragraph 1 shall not adversely affect the rights and freedoms of others.",
+      "system_name": "Art20(4)"
+    },
+    {
+      "id": "REG-039",
+      "node_type": "Provision",
+      "article": "21",
+      "paragraph": "1",
+      "text": "The data subject shall have the right to object, on grounds relating to his or her particular situation, at any time to processing of personal data concerning him or her which is based on point (e) or (f) of Article 6(1), including profiling based on those provisions. The controller shall no longer process the personal data unless the controller demonstrates compelling legitimate grounds for the processing which override the interests, rights and freedoms of the data subject or for the establishment, exercise or defence of legal claims.",
+      "system_name": "Art21(1)"
+    },
+    {
+      "id": "Art21",
+      "node_type": "Article",
+      "article_number": "21"
+    },
+    {
+      "id": "REG-040",
+      "node_type": "Provision",
+      "article": "21",
+      "paragraph": "2",
+      "text": "Where personal data are processed for direct marketing purposes, the data subject shall have the right to object at any time to processing of personal data concerning him or her for such marketing, which includes profiling to the extent that it is related to such direct marketing.",
+      "system_name": "Art21(2)"
+    },
+    {
+      "id": "REG-041",
+      "node_type": "Provision",
+      "article": "21",
+      "paragraph": "3",
+      "text": "Where the data subject objects to processing for direct marketing purposes, the personal data shall no longer be processed for such purposes.",
+      "system_name": "Art21(3)"
+    },
+    {
+      "id": "REG-042",
+      "node_type": "Provision",
+      "article": "21",
+      "paragraph": "4",
+      "text": "At the latest at the time of the first communication with the data subject, the right referred to in paragraphs 1 and 2 shall be explicitly brought to the attention of the data subject and shall be presented clearly and separately from any other information.",
+      "system_name": "Art21(4)"
+    },
+    {
+      "id": "REG-043",
+      "node_type": "Provision",
+      "article": "21",
+      "paragraph": "5",
+      "text": "In the context of the use of information society services, and notwithstanding Directive 2002/58/EC, the data subject may exercise his or her right to object by automated means using technical specifications.",
+      "system_name": "Art21(5)"
+    },
+    {
+      "id": "REG-044",
+      "node_type": "Provision",
+      "article": "21",
+      "paragraph": "6",
+      "text": "Where personal data are processed for scientific or historical research purposes or statistical purposes pursuant to Article 89(1), the data subject, on grounds relating to his or her particular situation, shall have the right to object to processing of personal data concerning him or her, unless the processing is necessary for the performance of a task carried out for reasons of public interest.",
+      "system_name": "Art21(6)"
+    },
+    {
+      "id": "REG-045",
+      "node_type": "Provision",
+      "article": "22",
+      "paragraph": "1",
+      "text": "The data subject shall have the right not to be subject to a decision based solely on automated processing, including profiling, which produces legal effects concerning him or her or similarly significantly affects him or her.",
+      "system_name": "Art22(1)"
+    },
+    {
+      "id": "Art22",
+      "node_type": "Article",
+      "article_number": "22"
+    },
+    {
+      "id": "REG-046",
+      "node_type": "Provision",
+      "article": "22",
+      "paragraph": "2",
+      "text": "Paragraph 1 shall not apply if the decision: (a) is necessary for entering into, or performance of, a contract between the data subject and a data controller; (b) is authorised by Union or Member State law to which the controller is subject and which also lays down suitable measures to safeguard the data subject's rights and freedoms and legitimate interests; or (c) is based on the data subject's explicit consent.",
+      "system_name": "Art22(2)"
+    },
+    {
+      "id": "REG-047",
+      "node_type": "Provision",
+      "article": "22",
+      "paragraph": "3",
+      "text": "In the cases referred to in points (a) and (c) of paragraph 2, the data controller shall implement suitable measures to safeguard the data subject's rights and freedoms and legitimate interests, at least the right to obtain human intervention on the part of the controller, to express his or her point of view and to contest the decision.",
+      "system_name": "Art22(3)"
+    },
+    {
+      "id": "REG-048",
+      "node_type": "Provision",
+      "article": "22",
+      "paragraph": "4",
+      "text": "Decisions referred to in paragraph 2 shall not be based on special categories of personal data referred to in Article 9(1), unless point (a) or (g) of Article 9(2) applies and suitable measures to safeguard the data subject's rights and freedoms and legitimate interests are in place.",
+      "system_name": "Art22(4)"
+    },
+    {
+      "id": "REG-049",
+      "node_type": "Provision",
+      "article": "30",
+      "paragraph": "1",
+      "text": "Each controller and, where applicable, the controller's representative, shall maintain a record of processing activities under its responsibility. That record shall contain all of the following information: (a) the name and contact details of the controller and, where applicable, the joint controller, the controller's representa­ tive and the data protection officer; (b) the purposes of the processing; (c) a description of the categories of data subjects and of the categories of personal data; (d) the categories of recipients to whom the personal data have been or will be disclosed including recipients in third countries or international organisations; (e) where applicable, transfers of personal data to a third country or an international organisation, including the identifi­ cation of that third country or international organisation and, in the case of transfers referred to in the second subparagraph of Article 49(1), the documentation of suitable safeguards; (f) where possible, the envisaged time limits for erasure of the different categories of data; (g) where possible, a general description of the technical and organisational security measures referred to in Article 32(1).",
+      "system_name": "Art30(1)"
+    },
+    {
+      "id": "Art30",
+      "node_type": "Article",
+      "article_number": "30"
+    },
+    {
+      "id": "REG-050",
+      "node_type": "Provision",
+      "article": "30",
+      "paragraph": "2",
+      "text": "Each processor and, where applicable, the processor's representative shall maintain a record of all categories of processing activities carried out on behalf of a controller, containing: (a) the name and contact details of the processor or processors and of each controller on behalf of which the processor is acting, and, where applicable, of the controller's or the processor's representative, and the data protection officer; (b) the categories of processing carried out on behalf of each controller; (c) where applicable, transfers of personal data to a third country or an international organisation, including the identifi­ cation of that third country or international organisation and, in the case of transfers referred to in the second subparagraph of Article 49(1), the documentation of suitable safeguards; (d) where possible, a general description of the technical and organisational security measures referred to in Article 32(1).",
+      "system_name": "Art30(2)"
+    },
+    {
+      "id": "REG-051",
+      "node_type": "Provision",
+      "article": "30",
+      "paragraph": "3",
+      "text": "The records referred to in paragraphs 1 and 2 shall be in writing, including in electronic form.",
+      "system_name": "Art30(3)"
+    },
+    {
+      "id": "REG-052",
+      "node_type": "Provision",
+      "article": "30",
+      "paragraph": "4",
+      "text": "The controller or the processor and, where applicable, the controller's or the processor's representative, shall make the record available to the supervisory authority on request.",
+      "system_name": "Art30(4)"
+    },
+    {
+      "id": "REG-053",
+      "node_type": "Provision",
+      "article": "30",
+      "paragraph": "5",
+      "text": "The obligations referred to in paragraphs 1 and 2 shall not apply to an enterprise or an organisation employing fewer than 250 persons unless the processing it carries out is likely to result in a risk to the rights and freedoms of data subjects, the processing is not occasional, or the processing includes special categories of data as referred to in Article 9(1) or personal data relating to criminal convictions and offences referred to in Article 10.",
+      "system_name": "Art30(5)"
+    },
+    {
+      "id": "REG-054",
+      "node_type": "Provision",
+      "article": "32",
+      "paragraph": "1",
+      "text": "Taking into account the state of the art, the costs of implementation and the nature, scope, context and purposes of processing as well as the risk of varying likelihood and severity for the rights and freedoms of natural persons, the controller and the processor shall implement appropriate technical and organisational measures to ensure a level of security appropriate to the risk, including inter alia as appropriate: (a) the pseudonymisation and encryption of personal data; (b) the ability to ensure the ongoing confidentiality, integrity, availability and resilience of processing systems and services; (c) the ability to restore the availability and access to personal data in a timely manner in the event of a physical or technical incident; (d) a process for regularly testing, assessing and evaluating the effectiveness of technical and organisational measures for ensuring the security of the processing.",
+      "system_name": "Art32(1)"
+    },
+    {
+      "id": "Art32",
+      "node_type": "Article",
+      "article_number": "32"
+    },
+    {
+      "id": "REG-055",
+      "node_type": "Provision",
+      "article": "32",
+      "paragraph": "2",
+      "text": "In assessing the appropriate level of security account shall be taken in particular of the risks that are presented by processing, in particular from accidental or unlawful destruction, loss, alteration, unauthorised disclosure of, or access to personal data transmitted, stored or otherwise processed.",
+      "system_name": "Art32(2)"
+    },
+    {
+      "id": "REG-056",
+      "node_type": "Provision",
+      "article": "32",
+      "paragraph": "3",
+      "text": "Adherence to an approved code of conduct as referred to in Article 40 or an approved certification mechanism as referred to in Article 42 may be used as an element by which to demonstrate compliance with the requirements set out in paragraph 1 of this Article.",
+      "system_name": "Art32(3)"
+    },
+    {
+      "id": "REG-057",
+      "node_type": "Provision",
+      "article": "32",
+      "paragraph": "4",
+      "text": "The controller and processor shall take steps to ensure that any natural person acting under the authority of the controller or the processor who has access to personal data does not process them except on instructions from the controller, unless he or she is required to do so by Union or Member State law.",
+      "system_name": "Art32(4)"
+    },
+    {
+      "id": "REG-058",
+      "node_type": "Provision",
+      "article": "33",
+      "paragraph": "1",
+      "text": "In the case of a personal data breach, the controller shall without undue delay and, where feasible, not later than 72 hours after having become aware of it, notify the personal data breach to the supervisory authority competent in accordance with Article 55, unless the personal data breach is unlikely to result in a risk to the rights and freedoms of natural persons. Where the notification to the supervisory authority is not made within 72 hours, it shall be accompanied by reasons for the delay.",
+      "system_name": "Art33(1)"
+    },
+    {
+      "id": "Art33",
+      "node_type": "Article",
+      "article_number": "33"
+    },
+    {
+      "id": "REG-059",
+      "node_type": "Provision",
+      "article": "33",
+      "paragraph": "2",
+      "text": "The processor shall notify the controller without undue delay after becoming aware of a personal data breach.",
+      "system_name": "Art33(2)"
+    },
+    {
+      "id": "REG-060",
+      "node_type": "Provision",
+      "article": "33",
+      "paragraph": "3",
+      "text": "The notification referred to in paragraph 1 shall at least: (a) describe the nature of the personal data breach including where possible, the categories and approximate number of data subjects concerned and the categories and approximate number of personal data records concerned; (b) communicate the name and contact details of the data protection officer or other contact point where more information can be obtained; (c) describe the likely consequences of the personal data breach; (d) describe the measures taken or proposed to be taken by the controller to address the personal data breach, including, where appropriate, measures to mitigate its possible adverse effects.",
+      "system_name": "Art33(3)"
+    },
+    {
+      "id": "REG-061",
+      "node_type": "Provision",
+      "article": "33",
+      "paragraph": "4",
+      "text": "Where, and in so far as, it is not possible to provide the information at the same time, the information may be provided in phases without undue further delay.",
+      "system_name": "Art33(4)"
+    },
+    {
+      "id": "REG-062",
+      "node_type": "Provision",
+      "article": "33",
+      "paragraph": "5",
+      "text": "The controller shall document any personal data breaches, comprising the facts relating to the personal data breach, its effects and the remedial action taken. That documentation shall enable the supervisory authority to verify compliance with this Article.",
+      "system_name": "Art33(5)"
+    },
+    {
+      "id": "REG-063",
+      "node_type": "Provision",
+      "article": "34",
+      "paragraph": "1",
+      "text": "When the personal data breach is likely to result in a high risk to the rights and freedoms of natural persons, the controller shall communicate the personal data breach to the data subject without undue delay.",
+      "system_name": "Art34(1)"
+    },
+    {
+      "id": "Art34",
+      "node_type": "Article",
+      "article_number": "34"
+    },
+    {
+      "id": "REG-064",
+      "node_type": "Provision",
+      "article": "34",
+      "paragraph": "2",
+      "text": "The communication to the data subject referred to in paragraph 1 of this Article shall describe in clear and plain language the nature of the personal data breach and contain at least the information and measures referred to in points (b), (c) and (d) of Article 33(3).",
+      "system_name": "Art34(2)"
+    },
+    {
+      "id": "REG-065",
+      "node_type": "Provision",
+      "article": "34",
+      "paragraph": "3",
+      "text": "The communication to the data subject referred to in paragraph 1 shall not be required if any of the following conditions are met: (a) the controller has implemented appropriate technical and organisational protection measures, and those measures were applied to the personal data affected by the personal data breach, in particular those that render the personal data unintelligible to any person who is not authorised to access it, such as encryption; (b) the controller has taken subsequent measures which ensure that the high risk to the rights and freedoms of data subjects referred to in paragraph 1 is no longer likely to materialise; (c) it would involve disproportionate effort. In such a case, there shall instead be a public communication or similar measure whereby the data subjects are informed in an equally effective manner.",
+      "system_name": "Art34(3)"
+    },
+    {
+      "id": "REG-066",
+      "node_type": "Provision",
+      "article": "34",
+      "paragraph": "4",
+      "text": "If the controller has not already communicated the personal data breach to the data subject, the supervisory authority, having considered the likelihood of the personal data breach resulting in a high risk, may require it to do so or may decide that any of the conditions referred to in paragraph 3 are met.",
+      "system_name": "Art34(4)"
+    },
+    {
+      "id": "REG-067",
+      "node_type": "Provision",
+      "article": "37",
+      "paragraph": "1",
+      "text": "The controller and the processor shall designate a data protection officer in any case where: (a) the processing is carried out by a public authority or body, except for courts acting in their judicial capacity; (b) the core activities of the controller or the processor consist of processing operations which, by virtue of their nature, their scope and/or their purposes, require regular and systematic monitoring of data subjects on a large scale; or (c) the core activities of the controller or the processor consist of processing on a large scale of special categories of data pursuant to Article 9 and personal data relating to criminal convictions and offences referred to in Article 10.",
+      "system_name": "Art37(1)"
+    },
+    {
+      "id": "Art37",
+      "node_type": "Article",
+      "article_number": "37"
+    },
+    {
+      "id": "REG-068",
+      "node_type": "Provision",
+      "article": "37",
+      "paragraph": "2",
+      "text": "A group of undertakings may appoint a single data protection officer provided that a data protection officer is easily accessible from each establishment.",
+      "system_name": "Art37(2)"
+    },
+    {
+      "id": "REG-069",
+      "node_type": "Provision",
+      "article": "37",
+      "paragraph": "3",
+      "text": "Where the controller or the processor is a public authority or body, a single data protection officer may be designated for several such authorities or bodies, taking account of their organisational structure and size.",
+      "system_name": "Art37(3)"
+    },
+    {
+      "id": "REG-070",
+      "node_type": "Provision",
+      "article": "37",
+      "paragraph": "4",
+      "text": "In cases other than those referred to in paragraph 1, the controller or processor or associations and other bodies representing categories of controllers or processors may or, where required by Union or Member State law shall, designate a data protection officer. The data protection officer may act for such associations and other bodies representing controllers or processors.",
+      "system_name": "Art37(4)"
+    },
+    {
+      "id": "REG-071",
+      "node_type": "Provision",
+      "article": "37",
+      "paragraph": "5",
+      "text": "The data protection officer shall be designated on the basis of professional qualities and, in particular, expert knowledge of data protection law and practices and the ability to fulfil the tasks referred to in Article 39.",
+      "system_name": "Art37(5)"
+    },
+    {
+      "id": "REG-072",
+      "node_type": "Provision",
+      "article": "37",
+      "paragraph": "6",
+      "text": "The data protection officer may be a staff member of the controller or processor, or fulfil the tasks on the basis of a service contract.",
+      "system_name": "Art37(6)"
+    },
+    {
+      "id": "REG-073",
+      "node_type": "Provision",
+      "article": "37",
+      "paragraph": "7",
+      "text": "The controller or the processor shall publish the contact details of the data protection officer and communicate them to the supervisory authority.",
+      "system_name": "Art37(7)"
+    },
+    {
+      "id": "REG-074",
+      "node_type": "Provision",
+      "article": "39",
+      "paragraph": "1",
+      "text": "The data protection officer shall have at least the following tasks: (a) to inform and advise the controller or the processor and the employees who carry out processing of their obligations pursuant to this Regulation and to other Union or Member State data protection provisions; (b) to monitor compliance with this Regulation, with other Union or Member State data protection provisions and with the policies of the controller or processor in relation to the protection of personal data, including the assignment of responsibilities, awareness-raising and training of staff involved in processing operations, and the related audits; (c) to provide advice where requested as regards the data protection impact assessment and monitor its performance pursuant to Article 35; (d) to cooperate with the supervisory authority; (e) to act as the contact point for the supervisory authority on issues relating to processing, including the prior consultation referred to in Article 36, and to consult, where appropriate, with regard to any other matter.",
+      "system_name": "Art39(1)"
+    },
+    {
+      "id": "Art39",
+      "node_type": "Article",
+      "article_number": "39"
+    },
+    {
+      "id": "REG-075",
+      "node_type": "Provision",
+      "article": "39",
+      "paragraph": "2",
+      "text": "The data protection officer shall in the performance of his or her tasks have due regard to the risk associated with processing operations, taking into account the nature, scope, context and purposes of processing.",
+      "system_name": "Art39(2)"
+    },
+    {
+      "id": "REG-076",
+      "node_type": "Provision",
+      "article": "46",
+      "paragraph": "1",
+      "text": "In the absence of a decision pursuant to Article 45(3), a controller or processor may transfer personal data to a third country or an international organisation only if the controller or processor has provided appropriate safeguards, and on condition that enforceable data subject rights and effective legal remedies for data subjects are available.",
+      "system_name": "Art46(1)"
+    },
+    {
+      "id": "Art46",
+      "node_type": "Article",
+      "article_number": "46"
+    },
+    {
+      "id": "REG-077",
+      "node_type": "Provision",
+      "article": "46",
+      "paragraph": "2",
+      "text": "The appropriate safeguards referred to in paragraph 1 may be provided for, without requiring any specific authoris­ ation from a supervisory authority, by: (a) a legally binding and enforceable instrument between public authorities or bodies; (b) binding corporate rules in accordance with Article 47; (c) standard data protection clauses adopted by the Commission in accordance with the examination procedure referred to in Article 93(2); (d) standard data protection clauses adopted by a supervisory authority and approved by the Commission pursuant to the examination procedure referred to in Article 93(2); (e) an approved code of conduct pursuant to Article 40 together with binding and enforceable commitments of the controller or processor in the third country to apply the appropriate safeguards, including as regards data subjects' rights; or (f) an approved certification mechanism pursuant to Article 42 together with binding and enforceable commitments of the controller or processor in the third country to apply the appropriate safeguards, including as regards data subjects' rights.",
+      "system_name": "Art46(2)"
+    },
+    {
+      "id": "REG-078",
+      "node_type": "Provision",
+      "article": "46",
+      "paragraph": "3",
+      "text": "Subject to the authorisation from the competent supervisory authority, the appropriate safeguards referred to in paragraph 1 may also be provided for, in particular, by: (a) contractual clauses between the controller or processor and the controller, processor or the recipient of the personal data in the third country or international organisation; or (b) provisions to be inserted into administrative arrangements between public authorities or bodies which include enforceable and effective data subject rights.",
+      "system_name": "Art46(3)"
+    },
+    {
+      "id": "REG-079",
+      "node_type": "Provision",
+      "article": "46",
+      "paragraph": "4",
+      "text": "The supervisory authority shall apply the consistency mechanism referred to in Article 63 in the cases referred to in paragraph 3 of this Article.",
+      "system_name": "Art46(4)"
+    },
+    {
+      "id": "REG-080",
+      "node_type": "Provision",
+      "article": "46",
+      "paragraph": "5",
+      "text": "Authorisations by a Member State or supervisory authority on the basis of Article 26(2) of Directive 95/46/EC shall remain valid until amended, replaced or repealed, if necessary, by that supervisory authority. Decisions adopted by the Commission on the basis of Article 26(4) of Directive 95/46/EC shall remain in force until amended, replaced or repealed, if necessary, by a Commission Decision adopted in accordance with paragraph 2 of this Article.",
+      "system_name": "Art46(5)"
+    },
+    {
+      "id": "REG-081",
+      "node_type": "Provision",
+      "article": "49",
+      "paragraph": "1",
+      "text": "In the absence of an adequacy decision pursuant to Article 45(3), or of appropriate safeguards pursuant to Article 46, including binding corporate rules, a transfer or a set of transfers of personal data to a third country or an in­ ternational organisation shall take place only on one of the following conditions: (a) the data subject has explicitly consented to the proposed transfer, after having been informed of the possible risks of such transfers for the data subject due to the absence of an adequacy decision and appropriate safeguards; (b) the transfer is necessary for the performance of a contract between the data subject and the controller or the implementation of pre-contractual measures taken at the data subject's request; (c) the transfer is necessary for the conclusion or performance of a contract concluded in the interest of the data subject between the controller and another natural or legal person; (d) the transfer is necessary for important reasons of public interest; (e) the transfer is necessary for the establishment, exercise or defence of legal claims; (f) the transfer is necessary in order to protect the vital interests of the data subject or of other persons, where the data subject is physically or legally incapable of giving consent; (g) the transfer is made from a register which according to Union or Member State law is intended to provide information to the public and which is open to consultation either by the public in general or by any person who can demonstrate a legitimate interest, but only to the extent that the conditions laid down by Union or Member State law for consultation are fulfilled in the particular case.",
+      "system_name": "Art49(1)"
+    },
+    {
+      "id": "Art49",
+      "node_type": "Article",
+      "article_number": "49"
+    },
+    {
+      "id": "REG-082",
+      "node_type": "Provision",
+      "article": "49",
+      "paragraph": "2",
+      "text": "A transfer pursuant to point (g) of the first subparagraph of paragraph 1 shall not involve the entirety of the personal data or entire categories of the personal data contained in the register. Where the register is intended for consultation by persons having a legitimate interest, the transfer shall be made only at the request of those persons or if they are to be the recipients.",
+      "system_name": "Art49(2)"
+    },
+    {
+      "id": "REG-083",
+      "node_type": "Provision",
+      "article": "49",
+      "paragraph": "3",
+      "text": "Points (a), (b) and (c) of the first subparagraph of paragraph 1 and the second subparagraph thereof shall not apply to activities carried out by public authorities in the exercise of their public powers.",
+      "system_name": "Art49(3)"
+    },
+    {
+      "id": "REG-084",
+      "node_type": "Provision",
+      "article": "49",
+      "paragraph": "4",
+      "text": "The public interest referred to in point (d) of the first subparagraph of paragraph 1 shall be recognised in Union law or in the law of the Member State to which the controller is subject.",
+      "system_name": "Art49(4)"
+    },
+    {
+      "id": "REG-085",
+      "node_type": "Provision",
+      "article": "49",
+      "paragraph": "5",
+      "text": "In the absence of an adequacy decision, Union or Member State law may, for important reasons of public interest, expressly set limits to the transfer of specific categories of personal data to a third country or an international organisation. Member States shall notify such provisions to the Commission.",
+      "system_name": "Art49(5)"
+    },
+    {
+      "id": "REG-086",
+      "node_type": "Provision",
+      "article": "49",
+      "paragraph": "6",
+      "text": "The controller or processor shall document the assessment as well as the suitable safeguards referred to in the second subparagraph of paragraph 1 of this Article in the records referred to in Article 30.",
+      "system_name": "Art49(6)"
+    },
+    {
+      "id": "REG-087",
+      "node_type": "Provision",
+      "article": "55",
+      "paragraph": "1",
+      "text": "Each supervisory authority shall be competent for the performance of the tasks assigned to and the exercise of the powers conferred on it in accordance with this Regulation on the territory of its own Member State.",
+      "system_name": "Art55(1)"
+    },
+    {
+      "id": "Art55",
+      "node_type": "Article",
+      "article_number": "55"
+    },
+    {
+      "id": "REG-088",
+      "node_type": "Provision",
+      "article": "55",
+      "paragraph": "2",
+      "text": "Where processing is carried out by public authorities or private bodies acting on the basis of point (c) or (e) of Article 6(1), the supervisory authority of the Member State concerned shall be competent. In such cases Article 56 does not apply.",
+      "system_name": "Art55(2)"
+    },
+    {
+      "id": "REG-089",
+      "node_type": "Provision",
+      "article": "55",
+      "paragraph": "3",
+      "text": "Supervisory authorities shall not be competent to supervise processing operations of courts acting in their judicial capacity.",
+      "system_name": "Art55(3)"
+    },
+    {
+      "id": "REG-090",
+      "node_type": "Provision",
+      "article": "89",
+      "paragraph": "1",
+      "text": "Processing for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes, shall be subject to appropriate safeguards, in accordance with this Regulation, for the rights and freedoms of the data subject. Those safeguards shall ensure that technical and organisational measures are in place in particular in",
+      "system_name": "Art89(1)"
+    },
+    {
+      "id": "Art89",
+      "node_type": "Article",
+      "article_number": "89"
+    },
+    {
+      "id": "REG-091",
+      "node_type": "Provision",
+      "article": "89",
+      "paragraph": "2",
+      "text": "Where personal data are processed for scientific or historical research purposes or statistical purposes, Union or Member State law may provide for derogations from the rights referred to in Articles 15, 16, 18 and 21 subject to the conditions and safeguards referred to in paragraph 1 of this Article in so far as such rights are likely to render impossible or seriously impair the achievement of the specific purposes, and such derogations are necessary for the fulfilment of those purposes.",
+      "system_name": "Art89(2)"
+    },
+    {
+      "id": "REG-092",
+      "node_type": "Provision",
+      "article": "89",
+      "paragraph": "3",
+      "text": "Where personal data are processed for archiving purposes in the public interest, Union or Member State law may provide for derogations from the rights referred to in Articles 15, 16, 18, 19, 20 and 21 subject to the conditions and safeguards referred to in paragraph 1 of this Article in so far as such rights are likely to render impossible or seriously impair the achievement of the specific purposes, and such derogations are necessary for the fulfilment of those purposes.",
+      "system_name": "Art89(3)"
+    },
+    {
+      "id": "REG-093",
+      "node_type": "Provision",
+      "article": "89",
+      "paragraph": "4",
+      "text": "Where processing referred to in paragraphs 2 and 3 serves at the same time another purpose, the derogations shall apply only to processing for the purposes referred to in those paragraphs.",
+      "system_name": "Art89(4)"
+    },
+    {
+      "id": "REG-094",
+      "node_type": "Provision",
+      "article": "92",
+      "paragraph": "1",
+      "text": "The power to adopt delegated acts is conferred on the Commission subject to the conditions laid down in this Article.",
+      "system_name": "Art92(1)"
+    },
+    {
+      "id": "Art92",
+      "node_type": "Article",
+      "article_number": "92"
+    },
+    {
+      "id": "REG-095",
+      "node_type": "Provision",
+      "article": "92",
+      "paragraph": "2",
+      "text": "The delegation of power referred to in Article 12(8) and Article 43(8) shall be conferred on the Commission for an indeterminate period of time from 24 May 2016.",
+      "system_name": "Art92(2)"
+    },
+    {
+      "id": "REG-096",
+      "node_type": "Provision",
+      "article": "92",
+      "paragraph": "3",
+      "text": "The delegation of power referred to in Article 12(8) and Article 43(8) may be revoked at any time by the European Parliament or by the Council. A decision of revocation shall put an end to the delegation of power specified in that decision. It shall take effect the day following that of its publication in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.",
+      "system_name": "Art92(3)"
+    },
+    {
+      "id": "REG-097",
+      "node_type": "Provision",
+      "article": "92",
+      "paragraph": "4",
+      "text": "As soon as it adopts a delegated act, the Commission shall notify it simultaneously to the European Parliament and to the Council.",
+      "system_name": "Art92(4)"
+    },
+    {
+      "id": "REG-098",
+      "node_type": "Provision",
+      "article": "92",
+      "paragraph": "5",
+      "text": "A delegated act adopted pursuant to Article 12(8) and Article 43(8) shall enter into force only if no objection has been expressed by either the European Parliament or the Council within a period of three months of notification of that act to the European Parliament and the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object. That period shall be extended by three months at the initiative of the European Parliament or of the Council.",
+      "system_name": "Art92(5)"
+    },
+    {
+      "id": "Art23",
+      "node_type": "Article",
+      "article_number": "23"
+    },
+    {
+      "id": "Art10",
+      "node_type": "Article",
+      "article_number": "10"
+    },
+    {
+      "id": "Art47",
+      "node_type": "Article",
+      "article_number": "47"
+    },
+    {
+      "id": "Art8",
+      "node_type": "Article",
+      "article_number": "8"
+    },
+    {
+      "id": "Art40",
+      "node_type": "Article",
+      "article_number": "40"
+    },
+    {
+      "id": "Art42",
+      "node_type": "Article",
+      "article_number": "42"
+    },
+    {
+      "id": "Art35",
+      "node_type": "Article",
+      "article_number": "35"
+    },
+    {
+      "id": "Art36",
+      "node_type": "Article",
+      "article_number": "36"
+    },
+    {
+      "id": "Art45",
+      "node_type": "Article",
+      "article_number": "45"
+    },
+    {
+      "id": "Art93",
+      "node_type": "Article",
+      "article_number": "93"
+    },
+    {
+      "id": "Art63",
+      "node_type": "Article",
+      "article_number": "63"
+    },
+    {
+      "id": "Art26",
+      "node_type": "Article",
+      "article_number": "26"
+    },
+    {
+      "id": "Art56",
+      "node_type": "Article",
+      "article_number": "56"
+    },
+    {
+      "id": "Art16",
+      "node_type": "Article",
+      "article_number": "16"
+    },
+    {
+      "id": "Art18",
+      "node_type": "Article",
+      "article_number": "18"
+    },
+    {
+      "id": "Art19",
+      "node_type": "Article",
+      "article_number": "19"
+    },
+    {
+      "id": "Art43",
+      "node_type": "Article",
+      "article_number": "43"
+    }
+  ],
+  "edges": [
+    {
+      "source": "REG-001",
+      "target": "Art6",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-002",
+      "target": "Art6",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-002",
+      "target": "REG-001",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-003",
+      "target": "Art6",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-003",
+      "target": "REG-001",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-004",
+      "target": "Art6",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-004",
+      "target": "Art23",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-004",
+      "target": "Art9",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-004",
+      "target": "Art10",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-005",
+      "target": "Art9",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-006",
+      "target": "Art9",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-006",
+      "target": "REG-090",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-006",
+      "target": "REG-005",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-006",
+      "target": "REG-007",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-007",
+      "target": "Art9",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-007",
+      "target": "REG-005",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-007",
+      "target": "REG-006",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-008",
+      "target": "Art9",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-009",
+      "target": "Art11",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-010",
+      "target": "Art11",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-010",
+      "target": "Art15",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-010",
+      "target": "REG-009",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-011",
+      "target": "Art12",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-011",
+      "target": "Art13",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-011",
+      "target": "Art14",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-011",
+      "target": "Art15",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-012",
+      "target": "Art12",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-012",
+      "target": "Art15",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-012",
+      "target": "REG-010",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-013",
+      "target": "Art12",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-013",
+      "target": "Art15",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-014",
+      "target": "Art12",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-015",
+      "target": "Art12",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-015",
+      "target": "Art13",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-015",
+      "target": "Art14",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-015",
+      "target": "Art15",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-016",
+      "target": "Art12",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-016",
+      "target": "Art11",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-016",
+      "target": "Art15",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-017",
+      "target": "Art12",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-017",
+      "target": "Art13",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-017",
+      "target": "Art14",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-018",
+      "target": "Art12",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-018",
+      "target": "Art92",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-019",
+      "target": "Art13",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-019",
+      "target": "REG-001",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-019",
+      "target": "Art46",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-019",
+      "target": "Art47",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-019",
+      "target": "REG-081",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-020",
+      "target": "Art13",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-020",
+      "target": "REG-001",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-020",
+      "target": "REG-006",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-020",
+      "target": "REG-045",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-020",
+      "target": "REG-019",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-021",
+      "target": "Art13",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-021",
+      "target": "REG-020",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-022",
+      "target": "Art13",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-022",
+      "target": "REG-019",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-022",
+      "target": "REG-020",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-022",
+      "target": "REG-021",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-023",
+      "target": "Art14",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-023",
+      "target": "Art46",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-023",
+      "target": "Art47",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-023",
+      "target": "REG-081",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-024",
+      "target": "Art14",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-024",
+      "target": "REG-001",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-024",
+      "target": "REG-006",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-024",
+      "target": "REG-045",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-024",
+      "target": "REG-023",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-025",
+      "target": "Art14",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-025",
+      "target": "REG-023",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-025",
+      "target": "REG-024",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-026",
+      "target": "Art14",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-026",
+      "target": "REG-024",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-027",
+      "target": "Art14",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-027",
+      "target": "REG-090",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-027",
+      "target": "REG-023",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-028",
+      "target": "Art15",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-028",
+      "target": "REG-045",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-029",
+      "target": "Art15",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-029",
+      "target": "Art46",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-030",
+      "target": "Art15",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-031",
+      "target": "Art15",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-031",
+      "target": "REG-030",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-032",
+      "target": "Art17",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-032",
+      "target": "REG-001",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-032",
+      "target": "REG-006",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-032",
+      "target": "REG-039",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-032",
+      "target": "REG-040",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-032",
+      "target": "Art8",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-033",
+      "target": "Art17",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-033",
+      "target": "REG-032",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-034",
+      "target": "Art17",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-034",
+      "target": "REG-006",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-034",
+      "target": "REG-007",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-034",
+      "target": "REG-090",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-034",
+      "target": "REG-032",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-034",
+      "target": "REG-033",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-035",
+      "target": "Art20",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-035",
+      "target": "REG-001",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-035",
+      "target": "REG-006",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-036",
+      "target": "Art20",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-036",
+      "target": "REG-035",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-037",
+      "target": "Art20",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-037",
+      "target": "Art17",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-037",
+      "target": "REG-035",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-038",
+      "target": "Art20",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-038",
+      "target": "REG-035",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-039",
+      "target": "Art21",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-039",
+      "target": "REG-001",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-040",
+      "target": "Art21",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-041",
+      "target": "Art21",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-042",
+      "target": "Art21",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-042",
+      "target": "REG-039",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-042",
+      "target": "REG-040",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-043",
+      "target": "Art21",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-044",
+      "target": "Art21",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-044",
+      "target": "REG-090",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-045",
+      "target": "Art22",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-046",
+      "target": "Art22",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-046",
+      "target": "REG-045",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-047",
+      "target": "Art22",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-047",
+      "target": "REG-046",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-048",
+      "target": "Art22",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-048",
+      "target": "REG-005",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-048",
+      "target": "REG-006",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-048",
+      "target": "REG-046",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-049",
+      "target": "Art30",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-049",
+      "target": "REG-081",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-049",
+      "target": "REG-054",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-050",
+      "target": "Art30",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-050",
+      "target": "REG-081",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-050",
+      "target": "REG-054",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-051",
+      "target": "Art30",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-051",
+      "target": "REG-049",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-051",
+      "target": "REG-050",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-052",
+      "target": "Art30",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-053",
+      "target": "Art30",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-053",
+      "target": "REG-005",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-053",
+      "target": "Art10",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-053",
+      "target": "REG-049",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-053",
+      "target": "REG-050",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-054",
+      "target": "Art32",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-055",
+      "target": "Art32",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-056",
+      "target": "Art32",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-056",
+      "target": "Art40",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-056",
+      "target": "Art42",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-056",
+      "target": "REG-054",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-057",
+      "target": "Art32",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-058",
+      "target": "Art33",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-058",
+      "target": "Art55",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-059",
+      "target": "Art33",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-060",
+      "target": "Art33",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-060",
+      "target": "REG-058",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-061",
+      "target": "Art33",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-062",
+      "target": "Art33",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-063",
+      "target": "Art34",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-064",
+      "target": "Art34",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-064",
+      "target": "REG-060",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-064",
+      "target": "REG-063",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-065",
+      "target": "Art34",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-065",
+      "target": "REG-063",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-066",
+      "target": "Art34",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-066",
+      "target": "REG-065",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-067",
+      "target": "Art37",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-067",
+      "target": "Art9",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-067",
+      "target": "Art10",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-068",
+      "target": "Art37",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-069",
+      "target": "Art37",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-070",
+      "target": "Art37",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-070",
+      "target": "REG-067",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-071",
+      "target": "Art37",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-071",
+      "target": "Art39",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-072",
+      "target": "Art37",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-073",
+      "target": "Art37",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-074",
+      "target": "Art39",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-074",
+      "target": "Art35",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-074",
+      "target": "Art36",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-075",
+      "target": "Art39",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-076",
+      "target": "Art46",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-076",
+      "target": "Art45",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-077",
+      "target": "Art46",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-077",
+      "target": "Art47",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-077",
+      "target": "Art93",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-077",
+      "target": "Art40",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-077",
+      "target": "Art42",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-077",
+      "target": "REG-076",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-078",
+      "target": "Art46",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-078",
+      "target": "REG-076",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-079",
+      "target": "Art46",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-079",
+      "target": "Art63",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-079",
+      "target": "REG-078",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-080",
+      "target": "Art46",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-080",
+      "target": "Art26",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-080",
+      "target": "REG-077",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-081",
+      "target": "Art49",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-081",
+      "target": "Art45",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-081",
+      "target": "Art46",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-082",
+      "target": "Art49",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-082",
+      "target": "REG-081",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-083",
+      "target": "Art49",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-083",
+      "target": "REG-081",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-084",
+      "target": "Art49",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-084",
+      "target": "REG-081",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-085",
+      "target": "Art49",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-086",
+      "target": "Art49",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-086",
+      "target": "Art30",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-086",
+      "target": "REG-081",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-087",
+      "target": "Art55",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-088",
+      "target": "Art55",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-088",
+      "target": "REG-001",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-088",
+      "target": "Art56",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-089",
+      "target": "Art55",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-090",
+      "target": "Art89",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-091",
+      "target": "Art89",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-091",
+      "target": "Art15",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-091",
+      "target": "Art16",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-091",
+      "target": "Art18",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-091",
+      "target": "Art21",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-091",
+      "target": "REG-090",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-092",
+      "target": "Art89",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-092",
+      "target": "Art15",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-092",
+      "target": "Art16",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-092",
+      "target": "Art18",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-092",
+      "target": "Art19",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-092",
+      "target": "Art20",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-092",
+      "target": "Art21",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-092",
+      "target": "REG-090",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-093",
+      "target": "Art89",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-093",
+      "target": "REG-091",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-093",
+      "target": "REG-092",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-094",
+      "target": "Art92",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-095",
+      "target": "Art92",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-095",
+      "target": "REG-018",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-095",
+      "target": "Art43",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-096",
+      "target": "Art92",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-096",
+      "target": "REG-018",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-096",
+      "target": "Art43",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-097",
+      "target": "Art92",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-098",
+      "target": "Art92",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "REG-098",
+      "target": "REG-018",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "REG-098",
+      "target": "Art43",
+      "relation": "REFERENCES"
+    }
+  ]
+}

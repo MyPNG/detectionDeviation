@@ -1,0 +1,135 @@
+{
+  "rea_sub_id": "REA-08#4",
+  "reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_rea_with_injections__reg_for_injectiontest_reranked/chunk7_deontic_stages/rea-08#4.json",
+  "top_k": 3,
+  "max_hop": 1,
+  "allowed_relations": [
+    "AND",
+    "PARENT_CHILD",
+    "REFERENCES",
+    "SEQUENCE"
+  ],
+  "main_constraints": [
+    {
+      "id": "REG-054",
+      "clause": "Art15(1(b))",
+      "text": "The Commission shall be empowered to adopt delegated acts in accordance with Article 92 for the purpose of determining the information to be presented by the icons and the procedures for providing standardised icons.",
+      "rerank_rank": 1,
+      "rerank_score": 0.34002619981765747,
+      "similarity_score": 0.693842,
+      "already_visited_before_expansion": false,
+      "graph_context": []
+    },
+    {
+      "id": "REG-053",
+      "clause": "Art15(1(a))",
+      "text": "Where the icons are presented electronically they shall be machine-readable.",
+      "rerank_rank": 2,
+      "rerank_score": 0.32420530915260315,
+      "similarity_score": 0.693768,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-052",
+          "main_reg_id": "REG-053",
+          "edge_type": "SEQUENCE",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-053 -> REG-052",
+          "text": "The information to be provided to data subjects pursuant to Articles 13 and 14 may be provided in combination with standardised icons in order to give in an easily visible, intelligible and clearly legible manner a meaningful overview of the intended processing.",
+          "article": "12",
+          "paragraph": "7"
+        }
+      ]
+    },
+    {
+      "id": "REG-055",
+      "clause": "Art15(1(c))",
+      "text": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information:",
+      "rerank_rank": 3,
+      "rerank_score": 0.32420530915260315,
+      "similarity_score": 0.688409,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-056",
+          "main_reg_id": "REG-055",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-055 -> REG-056",
+          "text": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: (a) the identity and the contact details of the controller and, where applicable, of the controller's representative;",
+          "article": "13",
+          "paragraph": "1(a)"
+        },
+        {
+          "id": "REG-057",
+          "main_reg_id": "REG-055",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-055 -> REG-057",
+          "text": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: (b) the contact details of the data protection officer, where applicable;",
+          "article": "13",
+          "paragraph": "1(b)"
+        },
+        {
+          "id": "REG-058",
+          "main_reg_id": "REG-055",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-055 -> REG-058",
+          "text": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: (c) the purposes of the processing for which the personal data are intended as well as the legal basis for the processing;",
+          "article": "13",
+          "paragraph": "1(c)"
+        },
+        {
+          "id": "REG-059",
+          "main_reg_id": "REG-055",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-055 -> REG-059",
+          "text": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: (d) where the processing is based on point (f) of Article 6(1), the legitimate interests pursued by the controller or by a third party;",
+          "article": "13",
+          "paragraph": "1(d)"
+        },
+        {
+          "id": "REG-060",
+          "main_reg_id": "REG-055",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-055 -> REG-060",
+          "text": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: (e) the recipients or categories of recipients of the personal data, if any;",
+          "article": "13",
+          "paragraph": "1(e)"
+        },
+        {
+          "id": "REG-061",
+          "main_reg_id": "REG-055",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-055 -> REG-061",
+          "text": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: (f) where applicable, the fact that the controller intends to transfer personal data to a third country or international organisation and the existence or absence of an adequacy decision by the Commission, or in the case of transfers referred to in Article 46 or 47, or the second subparagraph of Article 49(1), reference to the appropriate or suitable safeguards and the means by which to obtain a copy of them or where they have been made available.",
+          "article": "13",
+          "paragraph": "1(f)"
+        }
+      ]
+    }
+  ],
+  "visited_reg_ids": [
+    "REG-052",
+    "REG-053",
+    "REG-054",
+    "REG-055",
+    "REG-056",
+    "REG-057",
+    "REG-058",
+    "REG-059",
+    "REG-060",
+    "REG-061"
+  ]
+}

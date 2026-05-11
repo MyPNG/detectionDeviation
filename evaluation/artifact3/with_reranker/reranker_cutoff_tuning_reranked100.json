@@ -1,0 +1,666 @@
+{
+  "objective": "f1",
+  "range": {
+    "min_k": 1,
+    "max_k": 20
+  },
+  "best_top_k": 4,
+  "best_overall_metrics": {
+    "tp": 31,
+    "fn": 32,
+    "fp": 99,
+    "precision": 0.238462,
+    "recall": 0.492063,
+    "f1": 0.321244
+  },
+  "sweep":[
+    {
+      "top_k": 1,
+      "precision": 0.324324,
+      "recall": 0.190476,
+      "f1": 0.24,
+      "tp": 12,
+      "fn": 51,
+      "fp": 25
+    },
+    {
+      "top_k": 2,
+      "precision": 0.253731,
+      "recall": 0.269841,
+      "f1": 0.261538,
+      "tp": 17,
+      "fn": 46,
+      "fp": 50
+    },
+    {
+      "top_k": 3,
+      "precision": 0.254902,
+      "recall": 0.412698,
+      "f1": 0.315152,
+      "tp": 26,
+      "fn": 37,
+      "fp": 76
+    },
+    {
+      "top_k": 4,
+      "precision": 0.238462,
+      "recall": 0.492063,
+      "f1": 0.321244,
+      "tp": 31,
+      "fn": 32,
+      "fp": 99
+    },
+    {
+      "top_k": 5,
+      "precision": 0.220126,
+      "recall": 0.555556,
+      "f1": 0.315315,
+      "tp": 35,
+      "fn": 28,
+      "fp": 124
+    },
+    {
+      "top_k": 6,
+      "precision": 0.198895,
+      "recall": 0.571429,
+      "f1": 0.295082,
+      "tp": 36,
+      "fn": 27,
+      "fp": 145
+    },
+    {
+      "top_k": 7,
+      "precision": 0.184615,
+      "recall": 0.571429,
+      "f1": 0.27907,
+      "tp": 36,
+      "fn": 27,
+      "fp": 159
+    },
+    {
+      "top_k": 8,
+      "precision": 0.172093,
+      "recall": 0.587302,
+      "f1": 0.266187,
+      "tp": 37,
+      "fn": 26,
+      "fp": 178
+    },
+    {
+      "top_k": 9,
+      "precision": 0.160338,
+      "recall": 0.603175,
+      "f1": 0.253333,
+      "tp": 38,
+      "fn": 25,
+      "fp": 199
+    },
+    {
+      "top_k": 10,
+      "precision": 0.157088,
+      "recall": 0.650794,
+      "f1": 0.253086,
+      "tp": 41,
+      "fn": 22,
+      "fp": 220
+    },
+    {
+      "top_k": 11,
+      "precision": 0.157343,
+      "recall": 0.714286,
+      "f1": 0.25788,
+      "tp": 45,
+      "fn": 18,
+      "fp": 241
+    },
+    {
+      "top_k": 12,
+      "precision": 0.147059,
+      "recall": 0.714286,
+      "f1": 0.243902,
+      "tp": 45,
+      "fn": 18,
+      "fp": 261
+    },
+    {
+      "top_k": 13,
+      "precision": 0.140673,
+      "recall": 0.730159,
+      "f1": 0.235897,
+      "tp": 46,
+      "fn": 17,
+      "fp": 281
+    },
+    {
+      "top_k": 14,
+      "precision": 0.131429,
+      "recall": 0.730159,
+      "f1": 0.22276,
+      "tp": 46,
+      "fn": 17,
+      "fp": 304
+    },
+    {
+      "top_k": 15,
+      "precision": 0.125333,
+      "recall": 0.746032,
+      "f1": 0.214612,
+      "tp": 47,
+      "fn": 16,
+      "fp": 328
+    },
+    {
+      "top_k": 16,
+      "precision": 0.122137,
+      "recall": 0.761905,
+      "f1": 0.210526,
+      "tp": 48,
+      "fn": 15,
+      "fp": 345
+    },
+    {
+      "top_k": 17,
+      "precision": 0.116223,
+      "recall": 0.761905,
+      "f1": 0.201681,
+      "tp": 48,
+      "fn": 15,
+      "fp": 365
+    },
+    {
+      "top_k": 18,
+      "precision": 0.114943,
+      "recall": 0.793651,
+      "f1": 0.200803,
+      "tp": 50,
+      "fn": 13,
+      "fp": 385
+    },
+    {
+      "top_k": 19,
+      "precision": 0.111111,
+      "recall": 0.793651,
+      "f1": 0.194932,
+      "tp": 50,
+      "fn": 13,
+      "fp": 400
+    },
+    {
+      "top_k": 20,
+      "precision": 0.107296,
+      "recall": 0.793651,
+      "f1": 0.189036,
+      "tp": 50,
+      "fn": 13,
+      "fp": 416
+    }
+  ],
+  "best_report": {
+    "top_k": 4,
+    "gold_root": "/Users/my/Documents/projects/detectionDeviation/goldstandard",
+    "reranked_artifact_root": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100",
+    "evaluated_chunks": 12,
+    "skipped_chunks": 0,
+    "overall_metrics": {
+      "tp": 31,
+      "fn": 32,
+      "fp": 99,
+      "precision": 0.238462,
+      "recall": 0.492063,
+      "f1": 0.321244
+    },
+    "chunks": [
+      {
+        "chunk": "chunk1",
+        "gold_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/chunk1/output.json",
+        "reranked_chunk_dir": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk1",
+        "top_k": 4,
+        "metrics": {
+          "tp": 8,
+          "fn": 2,
+          "fp": 13,
+          "precision": 0.380952,
+          "recall": 0.8,
+          "f1": 0.516129
+        },
+        "missed_reg_ids": [
+          "REG-001",
+          "REG-005"
+        ],
+        "false_positive_reg_ids": [
+          "REG-009",
+          "REG-010",
+          "REG-012",
+          "REG-018",
+          "REG-020",
+          "REG-027",
+          "REG-029",
+          "REG-030",
+          "REG-032",
+          "REG-033",
+          "REG-036",
+          "REG-038",
+          "REG-049"
+        ]
+      },
+      {
+        "chunk": "chunk2",
+        "gold_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/chunk2/output.json",
+        "reranked_chunk_dir": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk2",
+        "top_k": 4,
+        "metrics": {
+          "tp": 1,
+          "fn": 2,
+          "fp": 3,
+          "precision": 0.25,
+          "recall": 0.333333,
+          "f1": 0.285714
+        },
+        "missed_reg_ids": [
+          "REG-013",
+          "REG-017"
+        ],
+        "false_positive_reg_ids": [
+          "REG-021",
+          "REG-093",
+          "REG-095"
+        ]
+      },
+      {
+        "chunk": "chunk3",
+        "gold_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/chunk3/output.json",
+        "reranked_chunk_dir": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk3",
+        "top_k": 4,
+        "metrics": {
+          "tp": 1,
+          "fn": 1,
+          "fp": 9,
+          "precision": 0.1,
+          "recall": 0.5,
+          "f1": 0.166667
+        },
+        "missed_reg_ids": [
+          "REG-013"
+        ],
+        "false_positive_reg_ids": [
+          "REG-010",
+          "REG-015",
+          "REG-016",
+          "REG-029",
+          "REG-042",
+          "REG-063",
+          "REG-087",
+          "REG-103",
+          "REG-104"
+        ]
+      },
+      {
+        "chunk": "chunk 4",
+        "gold_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/chunk 4/output.json",
+        "reranked_chunk_dir": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk4",
+        "top_k": 4,
+        "metrics": {
+          "tp": 1,
+          "fn": 4,
+          "fp": 10,
+          "precision": 0.090909,
+          "recall": 0.2,
+          "f1": 0.125
+        },
+        "missed_reg_ids": [
+          "REG-012",
+          "REG-013",
+          "REG-016",
+          "REG-017"
+        ],
+        "false_positive_reg_ids": [
+          "REG-003",
+          "REG-009",
+          "REG-015",
+          "REG-022",
+          "REG-069",
+          "REG-070",
+          "REG-075",
+          "REG-080",
+          "REG-085",
+          "REG-103"
+        ]
+      },
+      {
+        "chunk": "chunk5",
+        "gold_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/chunk5/ouput.json",
+        "reranked_chunk_dir": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk5",
+        "top_k": 4,
+        "metrics": {
+          "tp": 2,
+          "fn": 1,
+          "fp": 8,
+          "precision": 0.2,
+          "recall": 0.666667,
+          "f1": 0.307692
+        },
+        "missed_reg_ids": [
+          "REG-017"
+        ],
+        "false_positive_reg_ids": [
+          "REG-003",
+          "REG-018",
+          "REG-022",
+          "REG-031",
+          "REG-042",
+          "REG-075",
+          "REG-080",
+          "REG-086"
+        ]
+      },
+      {
+        "chunk": "chunk6",
+        "gold_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/chunk6/output.json",
+        "reranked_chunk_dir": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk6",
+        "top_k": 4,
+        "metrics": {
+          "tp": 0,
+          "fn": 5,
+          "fp": 7,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "missed_reg_ids": [
+          "REG-012",
+          "REG-016",
+          "REG-083",
+          "REG-084",
+          "REG-085"
+        ],
+        "false_positive_reg_ids": [
+          "REG-022",
+          "REG-052",
+          "REG-062",
+          "REG-069",
+          "REG-078",
+          "REG-079",
+          "REG-080"
+        ]
+      },
+      {
+        "chunk": "chunk7",
+        "gold_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/chunk7/output.json",
+        "reranked_chunk_dir": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk7",
+        "top_k": 4,
+        "metrics": {
+          "tp": 4,
+          "fn": 1,
+          "fp": 9,
+          "precision": 0.307692,
+          "recall": 0.8,
+          "f1": 0.444444
+        },
+        "missed_reg_ids": [
+          "REG-025"
+        ],
+        "false_positive_reg_ids": [
+          "REG-017",
+          "REG-022",
+          "REG-026",
+          "REG-029",
+          "REG-035",
+          "REG-037",
+          "REG-069",
+          "REG-090",
+          "REG-098"
+        ]
+      },
+      {
+        "chunk": "chunk8",
+        "gold_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/chunk8/output.json",
+        "reranked_chunk_dir": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk8",
+        "top_k": 4,
+        "metrics": {
+          "tp": 3,
+          "fn": 4,
+          "fp": 9,
+          "precision": 0.25,
+          "recall": 0.428571,
+          "f1": 0.315789
+        },
+        "missed_reg_ids": [
+          "REG-012",
+          "REG-013",
+          "REG-016",
+          "REG-018"
+        ],
+        "false_positive_reg_ids": [
+          "REG-003",
+          "REG-029",
+          "REG-031",
+          "REG-035",
+          "REG-063",
+          "REG-068",
+          "REG-092",
+          "REG-103",
+          "REG-104"
+        ]
+      },
+      {
+        "chunk": "chunk9",
+        "gold_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/chunk9/output.json",
+        "reranked_chunk_dir": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk9",
+        "top_k": 4,
+        "metrics": {
+          "tp": 1,
+          "fn": 3,
+          "fp": 6,
+          "precision": 0.142857,
+          "recall": 0.25,
+          "f1": 0.181818
+        },
+        "missed_reg_ids": [
+          "REG-001",
+          "REG-012",
+          "REG-013"
+        ],
+        "false_positive_reg_ids": [
+          "REG-003",
+          "REG-031",
+          "REG-036",
+          "REG-037",
+          "REG-091",
+          "REG-103"
+        ]
+      },
+      {
+        "chunk": "chunk10",
+        "gold_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/chunk10/output.json",
+        "reranked_chunk_dir": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk10",
+        "top_k": 4,
+        "metrics": {
+          "tp": 1,
+          "fn": 3,
+          "fp": 12,
+          "precision": 0.076923,
+          "recall": 0.25,
+          "f1": 0.117647
+        },
+        "missed_reg_ids": [
+          "REG-001",
+          "REG-012",
+          "REG-078"
+        ],
+        "false_positive_reg_ids": [
+          "REG-003",
+          "REG-008",
+          "REG-015",
+          "REG-017",
+          "REG-025",
+          "REG-029",
+          "REG-031",
+          "REG-035",
+          "REG-036",
+          "REG-037",
+          "REG-103",
+          "REG-104"
+        ]
+      },
+      {
+        "chunk": "chunk11",
+        "gold_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/chunk11/output.json",
+        "reranked_chunk_dir": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk11",
+        "top_k": 4,
+        "metrics": {
+          "tp": 4,
+          "fn": 3,
+          "fp": 7,
+          "precision": 0.363636,
+          "recall": 0.571429,
+          "f1": 0.444444
+        },
+        "missed_reg_ids": [
+          "REG-012",
+          "REG-013",
+          "REG-016"
+        ],
+        "false_positive_reg_ids": [
+          "REG-003",
+          "REG-008",
+          "REG-025",
+          "REG-026",
+          "REG-037",
+          "REG-075",
+          "REG-080"
+        ]
+      },
+      {
+        "chunk": "chunk12",
+        "gold_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/chunk12/output.json",
+        "reranked_chunk_dir": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk12",
+        "top_k": 4,
+        "metrics": {
+          "tp": 5,
+          "fn": 3,
+          "fp": 6,
+          "precision": 0.454545,
+          "recall": 0.625,
+          "f1": 0.526316
+        },
+        "missed_reg_ids": [
+          "REG-013",
+          "REG-016",
+          "REG-025"
+        ],
+        "false_positive_reg_ids": [
+          "REG-003",
+          "REG-014",
+          "REG-019",
+          "REG-028",
+          "REG-037",
+          "REG-089"
+        ]
+      }
+    ],
+    "skipped": []
+  },
+  "applied_best_top_k": {
+    "reranked_artifact_root": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100",
+    "chunk_count": 12,
+    "k": 4,
+    "chunks": [
+      {
+        "chunk_dir": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk1",
+        "k": 4,
+        "source_json_files": 7,
+        "selected_main_clauses": 21,
+        "output_csv": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk1/reg_main_clauses.csv",
+        "chunk": "chunk1"
+      },
+      {
+        "chunk_dir": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk10",
+        "k": 4,
+        "source_json_files": 5,
+        "selected_main_clauses": 13,
+        "output_csv": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk10/reg_main_clauses.csv",
+        "chunk": "chunk10"
+      },
+      {
+        "chunk_dir": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk11",
+        "k": 4,
+        "source_json_files": 4,
+        "selected_main_clauses": 11,
+        "output_csv": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk11/reg_main_clauses.csv",
+        "chunk": "chunk11"
+      },
+      {
+        "chunk_dir": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk12",
+        "k": 4,
+        "source_json_files": 4,
+        "selected_main_clauses": 11,
+        "output_csv": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk12/reg_main_clauses.csv",
+        "chunk": "chunk12"
+      },
+      {
+        "chunk_dir": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk2",
+        "k": 4,
+        "source_json_files": 1,
+        "selected_main_clauses": 4,
+        "output_csv": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk2/reg_main_clauses.csv",
+        "chunk": "chunk2"
+      },
+      {
+        "chunk_dir": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk3",
+        "k": 4,
+        "source_json_files": 3,
+        "selected_main_clauses": 10,
+        "output_csv": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk3/reg_main_clauses.csv",
+        "chunk": "chunk3"
+      },
+      {
+        "chunk_dir": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk4",
+        "k": 4,
+        "source_json_files": 4,
+        "selected_main_clauses": 11,
+        "output_csv": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk4/reg_main_clauses.csv",
+        "chunk": "chunk4"
+      },
+      {
+        "chunk_dir": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk5",
+        "k": 4,
+        "source_json_files": 3,
+        "selected_main_clauses": 10,
+        "output_csv": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk5/reg_main_clauses.csv",
+        "chunk": "chunk5"
+      },
+      {
+        "chunk_dir": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk6",
+        "k": 4,
+        "source_json_files": 3,
+        "selected_main_clauses": 7,
+        "output_csv": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk6/reg_main_clauses.csv",
+        "chunk": "chunk6"
+      },
+      {
+        "chunk_dir": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk7",
+        "k": 4,
+        "source_json_files": 4,
+        "selected_main_clauses": 13,
+        "output_csv": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk7/reg_main_clauses.csv",
+        "chunk": "chunk7"
+      },
+      {
+        "chunk_dir": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk8",
+        "k": 4,
+        "source_json_files": 4,
+        "selected_main_clauses": 12,
+        "output_csv": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk8/reg_main_clauses.csv",
+        "chunk": "chunk8"
+      },
+      {
+        "chunk_dir": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk9",
+        "k": 4,
+        "source_json_files": 2,
+        "selected_main_clauses": 7,
+        "output_csv": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_reranked_100/chunk9/reg_main_clauses.csv",
+        "chunk": "chunk9"
+      }
+    ]
+  }
+}

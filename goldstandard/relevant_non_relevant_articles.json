@@ -1,0 +1,128 @@
+{
+  "dataset": "rea_with_injections",
+  "source_policy": "input/rea_with_injections/rea_full_text",
+  "relevant_articles": [
+    {
+      "article": "Article 6",
+      "label": "Lawfulness of processing",
+      "relevant": true
+    },
+    {
+      "article": "Article 12",
+      "label": "Transparent information and modalities for rights",
+      "relevant": true
+    },
+    {
+      "article": "Article 13",
+      "label": "Information where data is collected from the data subject",
+      "relevant": true
+    },
+    {
+      "article": "Article 15",
+      "label": "Right of access",
+      "relevant": true
+    },
+    {
+      "article": "Article 16",
+      "label": "Right to rectification",
+      "relevant": true
+    },
+    {
+      "article": "Article 17",
+      "label": "Right to erasure",
+      "relevant": true
+    },
+    {
+      "article": "Article 20",
+      "label": "Right to data portability",
+      "relevant": true
+    },
+    {
+      "article": "Article 21",
+      "label": "Right to object",
+      "relevant": true
+    },
+    {
+      "article": "Article 33",
+      "label": "Notification of a personal data breach to the supervisory authority",
+      "relevant": true
+    },
+    {
+      "article": "Article 34",
+      "label": "Communication of a personal data breach to the data subject",
+      "relevant": true
+    },
+    {
+      "article": "Article 46",
+      "label": "Transfers subject to appropriate safeguards",
+      "relevant": true
+    },
+    {
+      "article": "Article 49",
+      "label": "Derogations for specific situations",
+      "relevant": true
+    }
+  ],
+  "non_relevant_articles": [
+    {
+      "article": "Article 9",
+      "label": "Special categories of data",
+      "relevant": false
+    },
+    {
+      "article": "Article 10",
+      "label": "Criminal convictions and offences",
+      "relevant": false
+    },
+    {
+      "article": "Article 11",
+      "label": "Processing not requiring identification",
+      "relevant": false
+    },
+    {
+      "article": "Article 14",
+      "label": "Information where data is not obtained from the data subject",
+      "relevant": false
+    },
+    {
+      "article": "Article 22",
+      "label": "Automated individual decision-making",
+      "relevant": false
+    },
+    {
+      "article": "Article 30",
+      "label": "Records of processing activities",
+      "relevant": false
+    },
+    {
+      "article": "Article 32",
+      "label": "Security of processing",
+      "relevant": false
+    },
+    {
+      "article": "Article 37",
+      "label": "Designation of the data protection officer",
+      "relevant": false
+    },
+    {
+      "article": "Article 39",
+      "label": "Tasks of the data protection officer",
+      "relevant": false
+    },
+    {
+      "article": "Article 55",
+      "label": "Competence",
+      "relevant": false
+    },
+    {
+      "article": "Article 89",
+      "label": "Archiving in the public interest",
+      "relevant": false
+    },
+    {
+      "article": "Article 92",
+      "label": "Exercise of the delegation",
+      "relevant": false
+    }
+  ]
+}

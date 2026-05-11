@@ -1,0 +1,8 @@
+policy_id,deviation_found,deviation_type,is_compliant,analysis
+REA-01,False,,True,"The statement broadly asserts the rights under data protection law, aligning with GDPR's provision of rights to data subjects."
+REA-02,True,Completeness deviation,True,"The policy mentions limitations on the right to access due to professional secrecy, which is not explicitly stated in GDPR Article 15. However, it is compliant as GDPR allows for exceptions under certain conditions."
+REA-03,False,,True,"The policy provides the right to rectification, which aligns with GDPR Article 16."
+REA-04,True,Completeness deviation,True,"The policy outlines the right to erasure but omits some grounds for erasure listed in GDPR Article 17, such as unlawful processing or compliance with a legal obligation."
+REA-05,True,Completeness deviation,True,"The policy states the right to restrict processing but does not specify the conditions under which this right can be exercised, as detailed in GDPR Article 18."
+REA-06,False,,True,The policy correctly outlines the right to data portability as per GDPR Article 20.
+REA-07,False,,True,"The policy provides the right to object to processing based on legitimate interests, aligning with GDPR Article 21."

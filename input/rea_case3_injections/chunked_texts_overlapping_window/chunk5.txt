@@ -1,0 +1,23 @@
+Define and document Responsible Release Criteria for this Goal. Include: 1) a concise definition of the problem being solved in the intended use,
+Define and document Responsible Release Criteria for this Goal. Include: 1) a concise definition of the problem being solved in the intended use,
+Define and document Responsible Release Criteria for this Goal. Include: 2) performance metrics and their Responsible Release Criteria,
+Define and document Responsible Release Criteria for this Goal. Include: 2) performance metrics and their Responsible Release Criteria,
+Define and document Responsible Release Criteria for this Goal. Include: 3) error types and their Responsible Release Criteria.
+Define and document Responsible Release Criteria for this Goal. Include: 3) error types and their Responsible Release Criteria.
+REA-11:Document an evaluation plan for each of the performance metrics and error types.
+
+Use the methods defined in requirement A3.4 to conduct evaluations.
+Document the pre-release results of the evaluations.
+Determine and document how often ongoing evaluation should be conducted to continue supporting this Goal.
+Determine and document how often ongoing evaluation should be conducted to continue supporting this Goal.
+REA-13: Provide documentation to customers which describes the system's: 1) intended uses,
+Provide documentation to customers which describes the system's: 2) evidence that the system is fit for purpose for each intended use.
+When the system is a platform service made available to external customers or partners, include this information in the required Transparency Note.
+
+If an intended use is not supported by evidence, or if evidence comes to light that refutes that the system is fit for purpose for the intended use at any point in the system's use: 1) remove the intended use from customer-facing materials and make current customers aware of the issue, take action to close the identified gap, or discontinue the system,
+If an intended use is not supported by evidence, or if evidence comes to light that refutes that the system is fit for purpose for the intended use at any point in the system's use: 1) remove the intended use from customer-facing materials and make current customers aware of the issue, take action to close the identified gap, or discontinue the system,
+2) revise documentation related to the intended use,
+3) publish the revised documentation to customers.
+When the system is a platform service made available to external customers or partners, include this information in the required Transparency Note.
+REA-13: Communicate with care about system benefits; follow any applicable guidance from your attorney.
+follow any applicable guidance from your attorney.

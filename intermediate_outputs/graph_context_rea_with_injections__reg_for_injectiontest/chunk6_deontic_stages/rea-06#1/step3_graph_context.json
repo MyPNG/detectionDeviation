@@ -1,0 +1,230 @@
+{
+  "rea_sub_id": "REA-06#1",
+  "reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_rea_with_injections__reg_for_injectiontest_reranked/chunk6_deontic_stages/rea-06#1.json",
+  "top_k": 5,
+  "max_hop": 1,
+  "allowed_relations": [
+    "AND",
+    "PARENT_CHILD",
+    "REFERENCES",
+    "SEQUENCE"
+  ],
+  "main_constraints": [
+    {
+      "id": "REG-052",
+      "clause": "Art12(7)",
+      "text": "The information to be provided to data subjects pursuant to Articles 13 and 14 may be provided in combination with standardised icons in order to give in an easily visible, intelligible and clearly legible manner a meaningful overview of the intended processing.",
+      "rerank_rank": 1,
+      "rerank_score": 0.013699370436370373,
+      "similarity_score": 0.740984,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-053",
+          "main_reg_id": "REG-052",
+          "edge_type": "SEQUENCE",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-053 -> REG-052",
+          "text": "Where the icons are presented electronically they shall be machine-readable.",
+          "article": "12",
+          "paragraph": "7"
+        }
+      ]
+    },
+    {
+      "id": "REG-053",
+      "clause": "Art12(7)",
+      "text": "Where the icons are presented electronically they shall be machine-readable.",
+      "rerank_rank": 2,
+      "rerank_score": 0.012114985845983028,
+      "similarity_score": 0.675612,
+      "already_visited_before_expansion": true,
+      "graph_context": []
+    },
+    {
+      "id": "REG-038",
+      "clause": "Art12(1)",
+      "text": "The information shall be provided in writing, or by other means, including, where appropriate, by electronic means.",
+      "rerank_rank": 3,
+      "rerank_score": 0.010071823373436928,
+      "similarity_score": 0.754483,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-037",
+          "main_reg_id": "REG-038",
+          "edge_type": "SEQUENCE",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-038 -> REG-037",
+          "text": "The controller shall take appropriate measures to provide any information referred to in Articles 13 and 14 and any communication under Articles 15 to 22 and 34 relating to processing to the data subject in a concise, transparent, intelligible and easily accessible form, using clear and plain language, in particular for any information addressed specifically to a child.",
+          "article": "12",
+          "paragraph": "1"
+        },
+        {
+          "id": "REG-039",
+          "main_reg_id": "REG-038",
+          "edge_type": "SEQUENCE",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-039 -> REG-038",
+          "text": "When requested by the data subject, the information may be provided orally, provided that the identity of the data subject is proven by other means.",
+          "article": "12",
+          "paragraph": "1"
+        }
+      ]
+    },
+    {
+      "id": "REG-047",
+      "clause": "Art12(5)",
+      "text": "Information provided under Articles 13 and 14 and any communication and any actions taken under Articles 15 to 22 and 34 shall be provided free of charge.",
+      "rerank_rank": 4,
+      "rerank_score": 0.008903191424906254,
+      "similarity_score": 0.709285,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-048",
+          "main_reg_id": "REG-047",
+          "edge_type": "SEQUENCE",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-048 -> REG-047",
+          "text": "Where requests from a data subject are manifestly unfounded or excessive, in particular because of their repetitive character, the controller may either:",
+          "article": "12",
+          "paragraph": "5"
+        }
+      ]
+    },
+    {
+      "id": "REG-101",
+      "clause": "Art15(1(c))",
+      "text": "or will be disclosed, in particular recipients in third countries or international organisations;",
+      "rerank_rank": 5,
+      "rerank_score": 0.00803275778889656,
+      "similarity_score": 0.715181,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-097",
+          "main_reg_id": "REG-101",
+          "edge_type": "PARENT_CHILD",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-097 -> REG-101",
+          "text": "The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information:",
+          "article": "15",
+          "paragraph": "1"
+        },
+        {
+          "id": "REG-098",
+          "main_reg_id": "REG-101",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-101 <- REG-097 -> REG-098",
+          "text": "The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (a) the purposes of the processing;",
+          "article": "15",
+          "paragraph": "1(a)"
+        },
+        {
+          "id": "REG-099",
+          "main_reg_id": "REG-101",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-101 <- REG-097 -> REG-099",
+          "text": "The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (b) the categories of personal data concerned;",
+          "article": "15",
+          "paragraph": "1(b)"
+        },
+        {
+          "id": "REG-100",
+          "main_reg_id": "REG-101",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-101 <- REG-097 -> REG-100",
+          "text": "The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (c) the recipients or categories of recipient to whom the personal data have been",
+          "article": "15",
+          "paragraph": "1(c)"
+        },
+        {
+          "id": "REG-102",
+          "main_reg_id": "REG-101",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-101 <- REG-097 -> REG-102",
+          "text": "The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (d) where possible, the envisaged period for which the personal data will be stored, or, if not possible, the criteria used to determine that period;",
+          "article": "15",
+          "paragraph": "1(d)"
+        },
+        {
+          "id": "REG-103",
+          "main_reg_id": "REG-101",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-101 <- REG-097 -> REG-103",
+          "text": "The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (e) the existence of the right to request from the controller rectification or erasure of personal data or restriction of processing of personal data concerning the data subject or to object to such processing;",
+          "article": "15",
+          "paragraph": "1(e)"
+        },
+        {
+          "id": "REG-104",
+          "main_reg_id": "REG-101",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-101 <- REG-097 -> REG-104",
+          "text": "The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (f) the right to lodge a complaint with a supervisory authority;",
+          "article": "15",
+          "paragraph": "1(f)"
+        },
+        {
+          "id": "REG-105",
+          "main_reg_id": "REG-101",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-101 <- REG-097 -> REG-105",
+          "text": "The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (g) where the personal data are not collected from the data subject, any available information as to their source;",
+          "article": "15",
+          "paragraph": "1(g)"
+        },
+        {
+          "id": "REG-106",
+          "main_reg_id": "REG-101",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-101 <- REG-097 -> REG-106",
+          "text": "The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (h) the existence of automated decision-making, including profiling, referred to in Article 22(1) and (4) and, at least in those cases, meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing for the data subject.",
+          "article": "15",
+          "paragraph": "1(h)"
+        }
+      ]
+    }
+  ],
+  "visited_reg_ids": [
+    "REG-037",
+    "REG-038",
+    "REG-039",
+    "REG-047",
+    "REG-048",
+    "REG-052",
+    "REG-053",
+    "REG-097",
+    "REG-098",
+    "REG-099",
+    "REG-100",
+    "REG-101",
+    "REG-102",
+    "REG-103",
+    "REG-104",
+    "REG-105",
+    "REG-106"
+  ]
+}

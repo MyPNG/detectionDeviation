@@ -1,0 +1,108 @@
+{
+  "rea_sub_id": "REA-08#6",
+  "reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_rea_with_injections__reg_for_injectiontest_reranked/chunk7_deontic_stages/rea-08#6.json",
+  "top_k": 3,
+  "max_hop": 1,
+  "allowed_relations": [
+    "AND",
+    "PARENT_CHILD",
+    "REFERENCES",
+    "SEQUENCE"
+  ],
+  "main_constraints": [
+    {
+      "id": "REG-015",
+      "clause": "Art6(4(c))",
+      "text": "Where the processing for a purpose other than that for which the personal data have been collected is not based on the data subject's consent or on a Union or Member State law which constitutes a necessary and proportionate measure in a democratic society to safeguard the objectives referred to in Article 23(1), the controller shall, in order to ascertain whether processing for another purpose is compatible with the purpose for which the personal data are initially collected, take into account, inter alia: (c) the nature of the personal data, in particular whether special categories of personal data are processed, pursuant to Article 9, or whether personal data related to criminal convictions and offences are processed, pursuant to Article 10;",
+      "rerank_rank": 1,
+      "rerank_score": 0.05030146613717079,
+      "similarity_score": 0.567146,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-012",
+          "main_reg_id": "REG-015",
+          "edge_type": "PARENT_CHILD",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-012 -> REG-015",
+          "text": "Where the processing for a purpose other than that for which the personal data have been collected is not based on the data subject's consent or on a Union or Member State law which constitutes a necessary and proportionate measure in a democratic society to safeguard the objectives referred to in Article 23(1), the controller shall, in order to ascertain whether processing for another purpose is compatible with the purpose for which the personal data are initially collected, take into account, inter alia:",
+          "article": "6",
+          "paragraph": "4"
+        },
+        {
+          "id": "REG-013",
+          "main_reg_id": "REG-015",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-015 <- REG-012 -> REG-013",
+          "text": "Where the processing for a purpose other than that for which the personal data have been collected is not based on the data subject's consent or on a Union or Member State law which constitutes a necessary and proportionate measure in a democratic society to safeguard the objectives referred to in Article 23(1), the controller shall, in order to ascertain whether processing for another purpose is compatible with the purpose for which the personal data are initially collected, take into account, inter alia: (a) any link between the purposes for which the personal data have been collected and the purposes of the intended further processing;",
+          "article": "6",
+          "paragraph": "4(a)"
+        },
+        {
+          "id": "REG-014",
+          "main_reg_id": "REG-015",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-015 <- REG-012 -> REG-014",
+          "text": "Where the processing for a purpose other than that for which the personal data have been collected is not based on the data subject's consent or on a Union or Member State law which constitutes a necessary and proportionate measure in a democratic society to safeguard the objectives referred to in Article 23(1), the controller shall, in order to ascertain whether processing for another purpose is compatible with the purpose for which the personal data are initially collected, take into account, inter alia: (b) the context in which the personal data have been collected, in particular regarding the relationship between data subjects and the controller;",
+          "article": "6",
+          "paragraph": "4(b)"
+        },
+        {
+          "id": "REG-016",
+          "main_reg_id": "REG-015",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-015 <- REG-012 -> REG-016",
+          "text": "Where the processing for a purpose other than that for which the personal data have been collected is not based on the data subject's consent or on a Union or Member State law which constitutes a necessary and proportionate measure in a democratic society to safeguard the objectives referred to in Article 23(1), the controller shall, in order to ascertain whether processing for another purpose is compatible with the purpose for which the personal data are initially collected, take into account, inter alia: (d) the possible consequences of the intended further processing for data subjects;",
+          "article": "6",
+          "paragraph": "4(d)"
+        },
+        {
+          "id": "REG-017",
+          "main_reg_id": "REG-015",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-015 <- REG-012 -> REG-017",
+          "text": "Where the processing for a purpose other than that for which the personal data have been collected is not based on the data subject's consent or on a Union or Member State law which constitutes a necessary and proportionate measure in a democratic society to safeguard the objectives referred to in Article 23(1), the controller shall, in order to ascertain whether processing for another purpose is compatible with the purpose for which the personal data are initially collected, take into account, inter alia: (e) the existence of appropriate safeguards, which may include encryption or pseudonymisation.",
+          "article": "6",
+          "paragraph": "4(e)"
+        }
+      ]
+    },
+    {
+      "id": "REG-013",
+      "clause": "Art6(4(a))",
+      "text": "Where the processing for a purpose other than that for which the personal data have been collected is not based on the data subject's consent or on a Union or Member State law which constitutes a necessary and proportionate measure in a democratic society to safeguard the objectives referred to in Article 23(1), the controller shall, in order to ascertain whether processing for another purpose is compatible with the purpose for which the personal data are initially collected, take into account, inter alia: (a) any link between the purposes for which the personal data have been collected and the purposes of the intended further processing;",
+      "rerank_rank": 2,
+      "rerank_score": 0.04167626053094864,
+      "similarity_score": 0.559694,
+      "already_visited_before_expansion": true,
+      "graph_context": []
+    },
+    {
+      "id": "REG-014",
+      "clause": "Art6(4(b))",
+      "text": "Where the processing for a purpose other than that for which the personal data have been collected is not based on the data subject's consent or on a Union or Member State law which constitutes a necessary and proportionate measure in a democratic society to safeguard the objectives referred to in Article 23(1), the controller shall, in order to ascertain whether processing for another purpose is compatible with the purpose for which the personal data are initially collected, take into account, inter alia: (b) the context in which the personal data have been collected, in particular regarding the relationship between data subjects and the controller;",
+      "rerank_rank": 3,
+      "rerank_score": 0.03697755187749863,
+      "similarity_score": 0.563,
+      "already_visited_before_expansion": true,
+      "graph_context": []
+    }
+  ],
+  "visited_reg_ids": [
+    "REG-012",
+    "REG-013",
+    "REG-014",
+    "REG-015",
+    "REG-016",
+    "REG-017"
+  ]
+}

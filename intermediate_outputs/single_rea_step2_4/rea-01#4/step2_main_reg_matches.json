@@ -1,0 +1,47 @@
+{
+  "rea_sub_id": "REA-01#4",
+  "rea_search_query": "shall not document the effort using the Impact Assessment template provided by the Office of Responsible AI.",
+  "top_k": 5,
+  "main_reg_matches": [
+    {
+      "reg_id": "REG-073",
+      "clause": "Art13(6)",
+      "text": "The Provider SHALL provide information that is relevant to explain the high-risk AI system's output where applicable, and describe the technical capabilities and characteristics of the high-risk AI system.",
+      "rerank_rank": 1,
+      "rerank_score": 0.0013858176534995437,
+      "similarity_score": 0.505999
+    },
+    {
+      "reg_id": "REG-075",
+      "clause": "Art13(7)",
+      "text": "The Developer SHALL take into account the intended purpose of the high-risk AI system when appropriate, specifying for the input data, or any other relevant information in terms of the training, validation and testing data sets used;",
+      "rerank_rank": 2,
+      "rerank_score": 0.0012237756745889783,
+      "similarity_score": 0.574258
+    },
+    {
+      "reg_id": "REG-066",
+      "clause": "Art13(2)",
+      "text": "The Deployer SHALL accompany high-risk AI systems with instructions for use in an appropriate digital format or otherwise that include concise, complete, correct and clear information that is relevant, accessible and comprehensible to deployers.",
+      "rerank_rank": 3,
+      "rerank_score": 0.0011740821646526456,
+      "similarity_score": 0.521819
+    },
+    {
+      "reg_id": "REG-005",
+      "clause": "Art9(1)",
+      "text": "The Organization SHALL establish, implement, document, and maintain a risk management system in relation to high-risk AI systems.",
+      "rerank_rank": 4,
+      "rerank_score": 0.0010806606151163578,
+      "similarity_score": 0.572816
+    },
+    {
+      "reg_id": "REG-022",
+      "clause": "Art9(8)",
+      "text": "Testing shall be carried out against prior defined metrics and probabilistic thresholds that are appropriate to the intended purpose of the high-risk AI system.",
+      "rerank_rank": 5,
+      "rerank_score": 0.0010806606151163578,
+      "similarity_score": 0.505266
+    }
+  ]
+}

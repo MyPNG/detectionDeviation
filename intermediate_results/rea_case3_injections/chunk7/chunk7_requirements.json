@@ -1,0 +1,27 @@
+[
+  {
+    "title": "",
+    "rea_id": "REA-14",
+    "text": "Microsoft AI systems are subject to appropriate data governance and management practices. Applies to: All AI systems. Define and document data requirements with respect to the system's intended uses, stakeholders, and the geographic areas where the system will be deployed. Define and document data requirements with respect to the system's intended uses, stakeholders, and the geographic areas where the system will be deployed. Document these requirements in the Impact Assessment."
+  },
+  {
+    "title": "",
+    "rea_id": "REA-15",
+    "text": "Define and document procedures for the collection and processing of data, to include annotation, labelling, cleaning, enrichment, and aggregation, where relevant. Define and document procedures for the collection and processing of data, to include annotation, labelling, cleaning, enrichment, and aggregation, where relevant."
+  },
+  {
+    "title": "",
+    "rea_id": "REA-16",
+    "text": "If you plan to use existing data sets to train the system, assess the quantity and suitability of available data sets that will be needed by the system in relation to the data requirements defined in A4.1. A4.3 Document this assessment in the Impact Assessment."
+  },
+  {
+    "title": "",
+    "rea_id": "REA-17",
+    "text": "Define and document methods for evaluating data to be used by the system against the requirements defined in A4.1. Define and document methods for evaluating data to be used by the system against the requirements defined in A4.1."
+  },
+  {
+    "title": "",
+    "rea_id": "REA-18",
+    "text": "Evaluate all data sets using the methods defined in requirement A4.4. Document the results of the evaluation."
+  }
+]

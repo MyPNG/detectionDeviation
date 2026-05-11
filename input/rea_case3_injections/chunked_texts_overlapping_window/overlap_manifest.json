@@ -1,0 +1,87 @@
+{
+  "input_dir": "/Users/my/Documents/projects/detectionDeviation/input/rea_case3_injections/chunked_texts",
+  "output_dir": "/Users/my/Documents/projects/detectionDeviation/input/rea_case3_injections/chunked_texts_overlapping_window",
+  "overlap_hops": 1,
+  "count": 9,
+  "chunks": [
+    {
+      "anchor_chunk": "chunk1",
+      "merged_from_chunks": [
+        "chunk1",
+        "chunk2"
+      ],
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/input/rea_case3_injections/chunked_texts_overlapping_window/chunk1.txt"
+    },
+    {
+      "anchor_chunk": "chunk2",
+      "merged_from_chunks": [
+        "chunk1",
+        "chunk2",
+        "chunk3"
+      ],
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/input/rea_case3_injections/chunked_texts_overlapping_window/chunk2.txt"
+    },
+    {
+      "anchor_chunk": "chunk3",
+      "merged_from_chunks": [
+        "chunk2",
+        "chunk3",
+        "chunk4"
+      ],
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/input/rea_case3_injections/chunked_texts_overlapping_window/chunk3.txt"
+    },
+    {
+      "anchor_chunk": "chunk4",
+      "merged_from_chunks": [
+        "chunk3",
+        "chunk4",
+        "chunk5"
+      ],
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/input/rea_case3_injections/chunked_texts_overlapping_window/chunk4.txt"
+    },
+    {
+      "anchor_chunk": "chunk5",
+      "merged_from_chunks": [
+        "chunk4",
+        "chunk5",
+        "chunk6"
+      ],
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/input/rea_case3_injections/chunked_texts_overlapping_window/chunk5.txt"
+    },
+    {
+      "anchor_chunk": "chunk6",
+      "merged_from_chunks": [
+        "chunk5",
+        "chunk6",
+        "chunk7"
+      ],
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/input/rea_case3_injections/chunked_texts_overlapping_window/chunk6.txt"
+    },
+    {
+      "anchor_chunk": "chunk7",
+      "merged_from_chunks": [
+        "chunk6",
+        "chunk7",
+        "chunk8"
+      ],
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/input/rea_case3_injections/chunked_texts_overlapping_window/chunk7.txt"
+    },
+    {
+      "anchor_chunk": "chunk8",
+      "merged_from_chunks": [
+        "chunk7",
+        "chunk8",
+        "chunk9"
+      ],
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/input/rea_case3_injections/chunked_texts_overlapping_window/chunk8.txt"
+    },
+    {
+      "anchor_chunk": "chunk9",
+      "merged_from_chunks": [
+        "chunk8",
+        "chunk9"
+      ],
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/input/rea_case3_injections/chunked_texts_overlapping_window/chunk9.txt"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "dataset": "rea_case3_injections",
+  "source_policy": "input/rea_case3_injections/rea_full_text.txt",
+  "relevant_articles": [
+    {
+      "article": "Article 8",
+      "label": "Compliance with the requirements",
+      "relevant": true
+    },
+    {
+      "article": "Article 9",
+      "label": "Risk management system",
+      "relevant": true
+    },
+    {
+      "article": "Article 10",
+      "label": "Data and data governance",
+      "relevant": true
+    },
+    {
+      "article": "Article 11",
+      "label": "Technical documentation",
+      "relevant": true
+    },
+    {
+      "article": "Article 13",
+      "label": "Transparency and provision of information to deployers",
+      "relevant": true
+    },
+    {
+      "article": "Article 14",
+      "label": "Human oversight",
+      "relevant": true
+    },
+    {
+      "article": "Article 15",
+      "label": "Accuracy, robustness and cybersecurity",
+      "relevant": true
+    }
+  ],
+  "non_relevant_articles": [
+    {
+      "article": "Article 12",
+      "label": "Record-keeping",
+      "relevant": false
+    },
+    {
+      "article": "Article 26",
+      "label": "Obligations of deployers",
+      "relevant": false
+    },
+    {
+      "article": "Article 60",
+      "label": "EU database",
+      "relevant": false
+    },
+    {
+      "article": "Article 72",
+      "label": "Incident reporting",
+      "relevant": false
+    },
+    {
+      "article": "Article 79",
+      "label": "Penalties",
+      "relevant": false
+    },
+    {
+      "article": "Article 97",
+      "label": "Delegation of power",
+      "relevant": false
+    }
+  ]
+}

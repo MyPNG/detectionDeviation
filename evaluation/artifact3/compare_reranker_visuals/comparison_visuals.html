@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Retrieval Confusion Matrix Multi-Compare</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 24px; color: #111; background: #fafafa; }
+    .meta { color: #444; margin-bottom: 16px; }
+    .card { border: 1px solid #ddd; border-radius: 10px; padding: 14px; margin-bottom: 18px; background: #fff; }
+    table { border-collapse: collapse; width: 100%; font-size: 14px; }
+    th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+    th { background: #f5f5f5; }
+    code { background: #f5f5f5; padding: 1px 4px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <h1>Retrieval Comparison (Multiple Experiments)</h1>
+  <div class="meta"><strong>Input folder:</strong> <code>/Users/my/Documents/projects/detectionDeviation/evaluation/artifact3</code></div>
+  <div class="card"><svg viewBox="0 0 1100 360" width="1100" height="360" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" width="100%" height="100%" fill="#ffffff"/>
+<text x="70" y="26" font-size="18" font-family="Arial" fill="#111">Retrieval Overall Scores by Experiment</text>
+<line x1="70" y1="270" x2="1080" y2="270" stroke="#444"/>
+<line x1="70" y1="45" x2="70" y2="270" stroke="#444"/>
+<line x1="70" y1="270.00" x2="1080" y2="270.00" stroke="#eee"/>
+<text x="62" y="274.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">0.00</text>
+<line x1="70" y1="225.00" x2="1080" y2="225.00" stroke="#eee"/>
+<text x="62" y="229.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">0.20</text>
+<line x1="70" y1="180.00" x2="1080" y2="180.00" stroke="#eee"/>
+<text x="62" y="184.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">0.40</text>
+<line x1="70" y1="135.00" x2="1080" y2="135.00" stroke="#eee"/>
+<text x="62" y="139.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">0.60</text>
+<line x1="70" y1="90.00" x2="1080" y2="90.00" stroke="#eee"/>
+<text x="62" y="94.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">0.80</text>
+<line x1="70" y1="45.00" x2="1080" y2="45.00" stroke="#eee"/>
+<text x="62" y="49.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">1.00</text>
+<rect x="97.78" y="216.35" width="65.65" height="53.65" fill="#c95f5f" opacity="0.9"/>
+<rect x="163.43" y="159.29" width="65.65" height="110.71" fill="#2f9d57" opacity="0.9"/>
+<rect x="229.08" y="197.72" width="65.65" height="72.28" fill="#4d7fcf" opacity="0.9"/>
+<text x="196.25" y="288" text-anchor="middle" font-size="10" font-family="Arial" fill="#333" transform="rotate(25 196.25,288)">100_20_4</text>
+<rect x="350.27" y="195.80" width="65.65" height="74.20" fill="#c95f5f" opacity="0.9"/>
+<rect x="415.92" y="159.29" width="65.65" height="110.71" fill="#2f9d57" opacity="0.9"/>
+<rect x="481.57" y="181.15" width="65.65" height="88.85" fill="#4d7fcf" opacity="0.9"/>
+<text x="448.75" y="288" text-anchor="middle" font-size="10" font-family="Arial" fill="#333" transform="rotate(25 448.75,288)">schema_v2_outputs</text>
+<rect x="602.77" y="195.80" width="65.65" height="74.20" fill="#c95f5f" opacity="0.9"/>
+<rect x="668.42" y="159.29" width="65.65" height="110.71" fill="#2f9d57" opacity="0.9"/>
+<rect x="734.08" y="181.15" width="65.65" height="88.85" fill="#4d7fcf" opacity="0.9"/>
+<text x="701.25" y="288" text-anchor="middle" font-size="10" font-family="Arial" fill="#333" transform="rotate(25 701.25,288)">with_reranker</text>
+<rect x="855.27" y="205.07" width="65.65" height="64.93" fill="#c95f5f" opacity="0.9"/>
+<rect x="920.92" y="116.43" width="65.65" height="153.57" fill="#2f9d57" opacity="0.9"/>
+<rect x="986.58" y="178.73" width="65.65" height="91.27" fill="#4d7fcf" opacity="0.9"/>
+<text x="953.75" y="288" text-anchor="middle" font-size="10" font-family="Arial" fill="#333" transform="rotate(25 953.75,288)">without_reranker</text>
+<rect x="70" y="325" width="14" height="14" fill="#c95f5f"/>
+<text x="90" y="336" font-size="12" font-family="Arial" fill="#222">Precision</text>
+<rect x="290" y="325" width="14" height="14" fill="#2f9d57"/>
+<text x="310" y="336" font-size="12" font-family="Arial" fill="#222">Recall</text>
+<rect x="510" y="325" width="14" height="14" fill="#4d7fcf"/>
+<text x="530" y="336" font-size="12" font-family="Arial" fill="#222">F1</text>
+</svg></div>
+  <div class="card"><svg viewBox="0 0 1100 360" width="1100" height="360" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" width="100%" height="100%" fill="#ffffff"/>
+<text x="70" y="26" font-size="18" font-family="Arial" fill="#111">Retrieval Confusion Counts by Experiment</text>
+<line x1="70" y1="270" x2="1080" y2="270" stroke="#444"/>
+<line x1="70" y1="45" x2="70" y2="270" stroke="#444"/>
+<line x1="70" y1="270.00" x2="1080" y2="270.00" stroke="#eee"/>
+<text x="62" y="274.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">0.00</text>
+<line x1="70" y1="225.00" x2="1080" y2="225.00" stroke="#eee"/>
+<text x="62" y="229.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">21.20</text>
+<line x1="70" y1="180.00" x2="1080" y2="180.00" stroke="#eee"/>
+<text x="62" y="184.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">42.40</text>
+<line x1="70" y1="135.00" x2="1080" y2="135.00" stroke="#eee"/>
+<text x="62" y="139.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">63.60</text>
+<line x1="70" y1="90.00" x2="1080" y2="90.00" stroke="#eee"/>
+<text x="62" y="94.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">84.80</text>
+<line x1="70" y1="45.00" x2="1080" y2="45.00" stroke="#eee"/>
+<text x="62" y="49.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">106.00</text>
+<rect x="97.78" y="204.20" width="65.65" height="65.80" fill="#2f9d57" opacity="0.9"/>
+<rect x="163.43" y="59.86" width="65.65" height="210.14" fill="#c95f5f" opacity="0.9"/>
+<rect x="229.08" y="202.08" width="65.65" height="67.92" fill="#d1a238" opacity="0.9"/>
+<text x="196.25" y="288" text-anchor="middle" font-size="10" font-family="Arial" fill="#333" transform="rotate(25 196.25,288)">100_20_4</text>
+<rect x="350.27" y="204.20" width="65.65" height="65.80" fill="#2f9d57" opacity="0.9"/>
+<rect x="415.92" y="136.27" width="65.65" height="133.73" fill="#c95f5f" opacity="0.9"/>
+<rect x="481.57" y="202.08" width="65.65" height="67.92" fill="#d1a238" opacity="0.9"/>
+<text x="448.75" y="288" text-anchor="middle" font-size="10" font-family="Arial" fill="#333" transform="rotate(25 448.75,288)">schema_v2_outputs</text>
+<rect x="602.77" y="204.20" width="65.65" height="65.80" fill="#2f9d57" opacity="0.9"/>
+<rect x="668.42" y="136.27" width="65.65" height="133.73" fill="#c95f5f" opacity="0.9"/>
+<rect x="734.08" y="202.08" width="65.65" height="67.92" fill="#d1a238" opacity="0.9"/>
+<text x="701.25" y="288" text-anchor="middle" font-size="10" font-family="Arial" fill="#333" transform="rotate(25 701.25,288)">with_reranker</text>
+<rect x="855.27" y="178.73" width="65.65" height="91.27" fill="#2f9d57" opacity="0.9"/>
+<rect x="920.92" y="45.00" width="65.65" height="225.00" fill="#c95f5f" opacity="0.9"/>
+<rect x="986.58" y="227.55" width="65.65" height="42.45" fill="#d1a238" opacity="0.9"/>
+<text x="953.75" y="288" text-anchor="middle" font-size="10" font-family="Arial" fill="#333" transform="rotate(25 953.75,288)">without_reranker</text>
+<rect x="70" y="325" width="14" height="14" fill="#2f9d57"/>
+<text x="90" y="336" font-size="12" font-family="Arial" fill="#222">TP</text>
+<rect x="290" y="325" width="14" height="14" fill="#c95f5f"/>
+<text x="310" y="336" font-size="12" font-family="Arial" fill="#222">FP</text>
+<rect x="510" y="325" width="14" height="14" fill="#d1a238"/>
+<text x="530" y="336" font-size="12" font-family="Arial" fill="#222">FN</text>
+</svg></div>
+  
+<div class="card">
+  <h3>Per-Chunk Precision Table (Exact Values)</h3>
+  <div style="overflow:auto;">
+    <table>
+      <thead>
+        <tr><th>Experiment</th><th>chunk1</th><th>chunk2</th><th>chunk3</th><th>chunk 4</th><th>chunk5</th><th>chunk6</th><th>chunk7</th><th>chunk8</th><th>chunk9</th><th>chunk10</th><th>chunk11</th><th>chunk12</th></tr>
+      </thead>
+      <tbody>
+        <tr><th>100_20_4</th><td style="background:rgb(255,239,204); text-align:center; font-variant-numeric: tabular-nums;">0.381</td><td style="background:rgb(255,232,210); text-align:center; font-variant-numeric: tabular-nums;">0.250</td><td style="background:rgb(255,225,216); text-align:center; font-variant-numeric: tabular-nums;">0.100</td><td style="background:rgb(255,224,216); text-align:center; font-variant-numeric: tabular-nums;">0.091</td><td style="background:rgb(255,230,212); text-align:center; font-variant-numeric: tabular-nums;">0.200</td><td style="background:rgb(255,220,220); text-align:center; font-variant-numeric: tabular-nums;">0.000</td><td style="background:rgb(255,235,207); text-align:center; font-variant-numeric: tabular-nums;">0.308</td><td style="background:rgb(255,232,210); text-align:center; font-variant-numeric: tabular-nums;">0.250</td><td style="background:rgb(255,227,214); text-align:center; font-variant-numeric: tabular-nums;">0.143</td><td style="background:rgb(255,223,216); text-align:center; font-variant-numeric: tabular-nums;">0.077</td><td style="background:rgb(255,238,205); text-align:center; font-variant-numeric: tabular-nums;">0.364</td><td style="background:rgb(255,242,201); text-align:center; font-variant-numeric: tabular-nums;">0.455</td></tr><tr><th>schema_v2_outputs</th><td style="background:rgb(252,245,200); text-align:center; font-variant-numeric: tabular-nums;">0.533</td><td style="background:rgb(255,236,206); text-align:center; font-variant-numeric: tabular-nums;">0.333</td><td style="background:rgb(255,226,215); text-align:center; font-variant-numeric: tabular-nums;">0.125</td><td style="background:rgb(255,228,213); text-align:center; font-variant-numeric: tabular-nums;">0.167</td><td style="background:rgb(255,234,208); text-align:center; font-variant-numeric: tabular-nums;">0.286</td><td style="background:rgb(255,220,220); text-align:center; font-variant-numeric: tabular-nums;">0.000</td><td style="background:rgb(255,238,205); text-align:center; font-variant-numeric: tabular-nums;">0.364</td><td style="background:rgb(255,232,210); text-align:center; font-variant-numeric: tabular-nums;">0.250</td><td style="background:rgb(255,236,206); text-align:center; font-variant-numeric: tabular-nums;">0.333</td><td style="background:rgb(255,236,206); text-align:center; font-variant-numeric: tabular-nums;">0.333</td><td style="background:rgb(255,241,202); text-align:center; font-variant-numeric: tabular-nums;">0.429</td><td style="background:rgb(255,245,200); text-align:center; font-variant-numeric: tabular-nums;">0.500</td></tr><tr><th>with_reranker</th><td style="background:rgb(252,245,200); text-align:center; font-variant-numeric: tabular-nums;">0.533</td><td style="background:rgb(255,236,206); text-align:center; font-variant-numeric: tabular-nums;">0.333</td><td style="background:rgb(255,226,215); text-align:center; font-variant-numeric: tabular-nums;">0.125</td><td style="background:rgb(255,228,213); text-align:center; font-variant-numeric: tabular-nums;">0.167</td><td style="background:rgb(255,234,208); text-align:center; font-variant-numeric: tabular-nums;">0.286</td><td style="background:rgb(255,220,220); text-align:center; font-variant-numeric: tabular-nums;">0.000</td><td style="background:rgb(255,238,205); text-align:center; font-variant-numeric: tabular-nums;">0.364</td><td style="background:rgb(255,232,210); text-align:center; font-variant-numeric: tabular-nums;">0.250</td><td style="background:rgb(255,236,206); text-align:center; font-variant-numeric: tabular-nums;">0.333</td><td style="background:rgb(255,236,206); text-align:center; font-variant-numeric: tabular-nums;">0.333</td><td style="background:rgb(255,241,202); text-align:center; font-variant-numeric: tabular-nums;">0.429</td><td style="background:rgb(255,245,200); text-align:center; font-variant-numeric: tabular-nums;">0.500</td></tr><tr><th>without_reranker</th><td style="background:rgb(249,245,201); text-align:center; font-variant-numeric: tabular-nums;">0.562</td><td style="background:rgb(255,240,204); text-align:center; font-variant-numeric: tabular-nums;">0.400</td><td style="background:rgb(255,224,216); text-align:center; font-variant-numeric: tabular-nums;">0.091</td><td style="background:rgb(255,223,217); text-align:center; font-variant-numeric: tabular-nums;">0.067</td><td style="background:rgb(255,230,212); text-align:center; font-variant-numeric: tabular-nums;">0.200</td><td style="background:rgb(255,230,212); text-align:center; font-variant-numeric: tabular-nums;">0.200</td><td style="background:rgb(255,234,208); text-align:center; font-variant-numeric: tabular-nums;">0.294</td><td style="background:rgb(255,241,202); text-align:center; font-variant-numeric: tabular-nums;">0.429</td><td style="background:rgb(255,236,206); text-align:center; font-variant-numeric: tabular-nums;">0.333</td><td style="background:rgb(255,229,212); text-align:center; font-variant-numeric: tabular-nums;">0.188</td><td style="background:rgb(255,235,207); text-align:center; font-variant-numeric: tabular-nums;">0.312</td><td style="background:rgb(255,240,204); text-align:center; font-variant-numeric: tabular-nums;">0.400</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+  
+<div class="card">
+  <h3>Per-Chunk Recall Table (Exact Values)</h3>
+  <div style="overflow:auto;">
+    <table>
+      <thead>
+        <tr><th>Experiment</th><th>chunk1</th><th>chunk2</th><th>chunk3</th><th>chunk 4</th><th>chunk5</th><th>chunk6</th><th>chunk7</th><th>chunk8</th><th>chunk9</th><th>chunk10</th><th>chunk11</th><th>chunk12</th></tr>
+      </thead>
+      <tbody>
+        <tr><th>100_20_4</th><td style="background:rgb(228,245,206); text-align:center; font-variant-numeric: tabular-nums;">0.800</td><td style="background:rgb(255,236,206); text-align:center; font-variant-numeric: tabular-nums;">0.333</td><td style="background:rgb(255,245,200); text-align:center; font-variant-numeric: tabular-nums;">0.500</td><td style="background:rgb(255,230,212); text-align:center; font-variant-numeric: tabular-nums;">0.200</td><td style="background:rgb(239,245,203); text-align:center; font-variant-numeric: tabular-nums;">0.667</td><td style="background:rgb(255,220,220); text-align:center; font-variant-numeric: tabular-nums;">0.000</td><td style="background:rgb(228,245,206); text-align:center; font-variant-numeric: tabular-nums;">0.800</td><td style="background:rgb(255,241,202); text-align:center; font-variant-numeric: tabular-nums;">0.429</td><td style="background:rgb(255,232,210); text-align:center; font-variant-numeric: tabular-nums;">0.250</td><td style="background:rgb(255,232,210); text-align:center; font-variant-numeric: tabular-nums;">0.250</td><td style="background:rgb(248,245,201); text-align:center; font-variant-numeric: tabular-nums;">0.571</td><td style="background:rgb(243,245,202); text-align:center; font-variant-numeric: tabular-nums;">0.625</td></tr><tr><th>schema_v2_outputs</th><td style="background:rgb(228,245,206); text-align:center; font-variant-numeric: tabular-nums;">0.800</td><td style="background:rgb(255,236,206); text-align:center; font-variant-numeric: tabular-nums;">0.333</td><td style="background:rgb(255,245,200); text-align:center; font-variant-numeric: tabular-nums;">0.500</td><td style="background:rgb(255,230,212); text-align:center; font-variant-numeric: tabular-nums;">0.200</td><td style="background:rgb(239,245,203); text-align:center; font-variant-numeric: tabular-nums;">0.667</td><td style="background:rgb(255,220,220); text-align:center; font-variant-numeric: tabular-nums;">0.000</td><td style="background:rgb(228,245,206); text-align:center; font-variant-numeric: tabular-nums;">0.800</td><td style="background:rgb(255,234,208); text-align:center; font-variant-numeric: tabular-nums;">0.286</td><td style="background:rgb(255,245,200); text-align:center; font-variant-numeric: tabular-nums;">0.500</td><td style="background:rgb(232,245,205); text-align:center; font-variant-numeric: tabular-nums;">0.750</td><td style="background:rgb(255,241,202); text-align:center; font-variant-numeric: tabular-nums;">0.429</td><td style="background:rgb(255,245,200); text-align:center; font-variant-numeric: tabular-nums;">0.500</td></tr><tr><th>with_reranker</th><td style="background:rgb(228,245,206); text-align:center; font-variant-numeric: tabular-nums;">0.800</td><td style="background:rgb(255,236,206); text-align:center; font-variant-numeric: tabular-nums;">0.333</td><td style="background:rgb(255,245,200); text-align:center; font-variant-numeric: tabular-nums;">0.500</td><td style="background:rgb(255,230,212); text-align:center; font-variant-numeric: tabular-nums;">0.200</td><td style="background:rgb(239,245,203); text-align:center; font-variant-numeric: tabular-nums;">0.667</td><td style="background:rgb(255,220,220); text-align:center; font-variant-numeric: tabular-nums;">0.000</td><td style="background:rgb(228,245,206); text-align:center; font-variant-numeric: tabular-nums;">0.800</td><td style="background:rgb(255,234,208); text-align:center; font-variant-numeric: tabular-nums;">0.286</td><td style="background:rgb(255,245,200); text-align:center; font-variant-numeric: tabular-nums;">0.500</td><td style="background:rgb(232,245,205); text-align:center; font-variant-numeric: tabular-nums;">0.750</td><td style="background:rgb(255,241,202); text-align:center; font-variant-numeric: tabular-nums;">0.429</td><td style="background:rgb(255,245,200); text-align:center; font-variant-numeric: tabular-nums;">0.500</td></tr><tr><th>without_reranker</th><td style="background:rgb(219,245,208); text-align:center; font-variant-numeric: tabular-nums;">0.900</td><td style="background:rgb(239,245,203); text-align:center; font-variant-numeric: tabular-nums;">0.667</td><td style="background:rgb(255,245,200); text-align:center; font-variant-numeric: tabular-nums;">0.500</td><td style="background:rgb(255,230,212); text-align:center; font-variant-numeric: tabular-nums;">0.200</td><td style="background:rgb(239,245,203); text-align:center; font-variant-numeric: tabular-nums;">0.667</td><td style="background:rgb(255,240,204); text-align:center; font-variant-numeric: tabular-nums;">0.400</td><td style="background:rgb(210,245,210); text-align:center; font-variant-numeric: tabular-nums;">1.000</td><td style="background:rgb(222,245,207); text-align:center; font-variant-numeric: tabular-nums;">0.857</td><td style="background:rgb(232,245,205); text-align:center; font-variant-numeric: tabular-nums;">0.750</td><td style="background:rgb(232,245,205); text-align:center; font-variant-numeric: tabular-nums;">0.750</td><td style="background:rgb(235,245,204); text-align:center; font-variant-numeric: tabular-nums;">0.714</td><td style="background:rgb(255,245,200); text-align:center; font-variant-numeric: tabular-nums;">0.500</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+  <div class="card"><svg viewBox="0 0 1100 360" width="1100" height="360" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" width="100%" height="100%" fill="#ffffff"/>
+<text x="70" y="26" font-size="18" font-family="Arial" fill="#111">Per-Chunk Precision by Experiment</text>
+<line x1="70" y1="270" x2="1080" y2="270" stroke="#444"/>
+<line x1="70" y1="45" x2="70" y2="270" stroke="#444"/>
+<line x1="70" y1="270.00" x2="1080" y2="270.00" stroke="#eee"/>
+<text x="62" y="274.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">0.00</text>
+<line x1="70" y1="225.00" x2="1080" y2="225.00" stroke="#eee"/>
+<text x="62" y="229.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">0.20</text>
+<line x1="70" y1="180.00" x2="1080" y2="180.00" stroke="#eee"/>
+<text x="62" y="184.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">0.40</text>
+<line x1="70" y1="135.00" x2="1080" y2="135.00" stroke="#eee"/>
+<text x="62" y="139.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">0.60</text>
+<line x1="70" y1="90.00" x2="1080" y2="90.00" stroke="#eee"/>
+<text x="62" y="94.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">0.80</text>
+<line x1="70" y1="45.00" x2="1080" y2="45.00" stroke="#eee"/>
+<text x="62" y="49.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">1.00</text>
+<text x="70.00" y="288" text-anchor="middle" font-size="10" font-family="Arial" fill="#333" transform="rotate(25 70.00,288)">chunk1</text>
+<text x="161.82" y="288" text-anchor="middle" font-size="10" font-family="Arial" fill="#333" transform="rotate(25 161.82,288)">chunk2</text>
+<text x="253.64" y="288" text-anchor="middle" font-size="10" font-family="Arial" fill="#333" transform="rotate(25 253.64,288)">chunk3</text>
+<text x="345.45" y="288" text-anchor="middle" font-size="10" font-family="Arial" fill="#333" transform="rotate(25 345.45,288)">chunk 4</text>
+<text x="437.27" y="288" text-anchor="middle" font-size="10" font-family="Arial" fill="#333" transform="rotate(25 437.27,288)">chunk5</text>
+<text x="529.09" y="288" text-anchor="middle" font-size="10" font-family="Arial" fill="#333" transform="rotate(25 529.09,288)">chunk6</text>
+<text x="620.91" y="288" text-anchor="middle" font-size="10" font-family="Arial" fill="#333" transform="rotate(25 620.91,288)">chunk7</text>
+<text x="712.73" y="288" text-anchor="middle" font-size="10" font-family="Arial" fill="#333" transform="rotate(25 712.73,288)">chunk8</text>
+<text x="804.55" y="288" text-anchor="middle" font-size="10" font-family="Arial" fill="#333" transform="rotate(25 804.55,288)">chunk9</text>
+<text x="896.36" y="288" text-anchor="middle" font-size="10" font-family="Arial" fill="#333" transform="rotate(25 896.36,288)">chunk10</text>
+<text x="988.18" y="288" text-anchor="middle" font-size="10" font-family="Arial" fill="#333" transform="rotate(25 988.18,288)">chunk11</text>
+<text x="1080.00" y="288" text-anchor="middle" font-size="10" font-family="Arial" fill="#333" transform="rotate(25 1080.00,288)">chunk12</text>
+<polyline fill="none" stroke="#4d7fcf" stroke-width="2.4" points="70.00,184.29 161.82,213.75 253.64,247.50 345.45,249.55 437.27,225.00 529.09,270.00 620.91,200.77 712.73,213.75 804.55,237.86 896.36,252.69 988.18,188.18 1080.00,167.73"/>
+<circle cx="70.00" cy="184.29" r="2.4" fill="#4d7fcf"/>
+<circle cx="161.82" cy="213.75" r="2.4" fill="#4d7fcf"/>
+<circle cx="253.64" cy="247.50" r="2.4" fill="#4d7fcf"/>
+<circle cx="345.45" cy="249.55" r="2.4" fill="#4d7fcf"/>
+<circle cx="437.27" cy="225.00" r="2.4" fill="#4d7fcf"/>
+<circle cx="529.09" cy="270.00" r="2.4" fill="#4d7fcf"/>
+<circle cx="620.91" cy="200.77" r="2.4" fill="#4d7fcf"/>
+<circle cx="712.73" cy="213.75" r="2.4" fill="#4d7fcf"/>
+<circle cx="804.55" cy="237.86" r="2.4" fill="#4d7fcf"/>
+<circle cx="896.36" cy="252.69" r="2.4" fill="#4d7fcf"/>
+<circle cx="988.18" cy="188.18" r="2.4" fill="#4d7fcf"/>
+<circle cx="1080.00" cy="167.73" r="2.4" fill="#4d7fcf"/>
+<polyline fill="none" stroke="#c95f5f" stroke-width="2.4" points="70.00,150.00 161.82,195.00 253.64,241.88 345.45,232.50 437.27,205.71 529.09,270.00 620.91,188.18 712.73,213.75 804.55,195.00 896.36,195.00 988.18,173.57 1080.00,157.50"/>
+<circle cx="70.00" cy="150.00" r="2.4" fill="#c95f5f"/>
+<circle cx="161.82" cy="195.00" r="2.4" fill="#c95f5f"/>
+<circle cx="253.64" cy="241.88" r="2.4" fill="#c95f5f"/>
+<circle cx="345.45" cy="232.50" r="2.4" fill="#c95f5f"/>
+<circle cx="437.27" cy="205.71" r="2.4" fill="#c95f5f"/>
+<circle cx="529.09" cy="270.00" r="2.4" fill="#c95f5f"/>
+<circle cx="620.91" cy="188.18" r="2.4" fill="#c95f5f"/>
+<circle cx="712.73" cy="213.75" r="2.4" fill="#c95f5f"/>
+<circle cx="804.55" cy="195.00" r="2.4" fill="#c95f5f"/>
+<circle cx="896.36" cy="195.00" r="2.4" fill="#c95f5f"/>
+<circle cx="988.18" cy="173.57" r="2.4" fill="#c95f5f"/>
+<circle cx="1080.00" cy="157.50" r="2.4" fill="#c95f5f"/>
+<polyline fill="none" stroke="#2f9d57" stroke-width="2.4" points="70.00,150.00 161.82,195.00 253.64,241.88 345.45,232.50 437.27,205.71 529.09,270.00 620.91,188.18 712.73,213.75 804.55,195.00 896.36,195.00 988.18,173.57 1080.00,157.50"/>
+<circle cx="70.00" cy="150.00" r="2.4" fill="#2f9d57"/>
+<circle cx="161.82" cy="195.00" r="2.4" fill="#2f9d57"/>
+<circle cx="253.64" cy="241.88" r="2.4" fill="#2f9d57"/>
+<circle cx="345.45" cy="232.50" r="2.4" fill="#2f9d57"/>
+<circle cx="437.27" cy="205.71" r="2.4" fill="#2f9d57"/>
+<circle cx="529.09" cy="270.00" r="2.4" fill="#2f9d57"/>
+<circle cx="620.91" cy="188.18" r="2.4" fill="#2f9d57"/>
+<circle cx="712.73" cy="213.75" r="2.4" fill="#2f9d57"/>
+<circle cx="804.55" cy="195.00" r="2.4" fill="#2f9d57"/>
+<circle cx="896.36" cy="195.00" r="2.4" fill="#2f9d57"/>
+<circle cx="988.18" cy="173.57" r="2.4" fill="#2f9d57"/>
+<circle cx="1080.00" cy="157.50" r="2.4" fill="#2f9d57"/>
+<polyline fill="none" stroke="#d1a238" stroke-width="2.4" points="70.00,143.44 161.82,180.00 253.64,249.55 345.45,255.00 437.27,225.00 529.09,225.00 620.91,203.82 712.73,173.57 804.55,195.00 896.36,227.81 988.18,199.69 1080.00,180.00"/>
+<circle cx="70.00" cy="143.44" r="2.4" fill="#d1a238"/>
+<circle cx="161.82" cy="180.00" r="2.4" fill="#d1a238"/>
+<circle cx="253.64" cy="249.55" r="2.4" fill="#d1a238"/>
+<circle cx="345.45" cy="255.00" r="2.4" fill="#d1a238"/>
+<circle cx="437.27" cy="225.00" r="2.4" fill="#d1a238"/>
+<circle cx="529.09" cy="225.00" r="2.4" fill="#d1a238"/>
+<circle cx="620.91" cy="203.82" r="2.4" fill="#d1a238"/>
+<circle cx="712.73" cy="173.57" r="2.4" fill="#d1a238"/>
+<circle cx="804.55" cy="195.00" r="2.4" fill="#d1a238"/>
+<circle cx="896.36" cy="227.81" r="2.4" fill="#d1a238"/>
+<circle cx="988.18" cy="199.69" r="2.4" fill="#d1a238"/>
+<circle cx="1080.00" cy="180.00" r="2.4" fill="#d1a238"/>
+<rect x="70" y="325" width="14" height="14" fill="#4d7fcf"/>
+<text x="90" y="336" font-size="12" font-family="Arial" fill="#222">100_20_4</text>
+<rect x="290" y="325" width="14" height="14" fill="#c95f5f"/>
+<text x="310" y="336" font-size="12" font-family="Arial" fill="#222">schema_v2_outputs</text>
+<rect x="510" y="325" width="14" height="14" fill="#2f9d57"/>
+<text x="530" y="336" font-size="12" font-family="Arial" fill="#222">with_reranker</text>
+<rect x="730" y="325" width="14" height="14" fill="#d1a238"/>
+<text x="750" y="336" font-size="12" font-family="Arial" fill="#222">without_reranker</text>
+</svg></div>
+  <div class="card"><svg viewBox="0 0 1100 360" width="1100" height="360" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" width="100%" height="100%" fill="#ffffff"/>
+<text x="70" y="26" font-size="18" font-family="Arial" fill="#111">Per-Chunk Recall by Experiment</text>
+<line x1="70" y1="270" x2="1080" y2="270" stroke="#444"/>
+<line x1="70" y1="45" x2="70" y2="270" stroke="#444"/>
+<line x1="70" y1="270.00" x2="1080" y2="270.00" stroke="#eee"/>
+<text x="62" y="274.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">0.00</text>
+<line x1="70" y1="225.00" x2="1080" y2="225.00" stroke="#eee"/>
+<text x="62" y="229.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">0.20</text>
+<line x1="70" y1="180.00" x2="1080" y2="180.00" stroke="#eee"/>
+<text x="62" y="184.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">0.40</text>
+<line x1="70" y1="135.00" x2="1080" y2="135.00" stroke="#eee"/>
+<text x="62" y="139.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">0.60</text>
+<line x1="70" y1="90.00" x2="1080" y2="90.00" stroke="#eee"/>
+<text x="62" y="94.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">0.80</text>
+<line x1="70" y1="45.00" x2="1080" y2="45.00" stroke="#eee"/>
+<text x="62" y="49.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">1.00</text>
+<text x="70.00" y="288" text-anchor="middle" font-size="10" font-family="Arial" fill="#333" transform="rotate(25 70.00,288)">chunk1</text>
+<text x="161.82" y="288" text-anchor="middle" font-size="10" font-family="Arial" fill="#333" transform="rotate(25 161.82,288)">chunk2</text>
+<text x="253.64" y="288" text-anchor="middle" font-size="10" font-family="Arial" fill="#333" transform="rotate(25 253.64,288)">chunk3</text>
+<text x="345.45" y="288" text-anchor="middle" font-size="10" font-family="Arial" fill="#333" transform="rotate(25 345.45,288)">chunk 4</text>
+<text x="437.27" y="288" text-anchor="middle" font-size="10" font-family="Arial" fill="#333" transform="rotate(25 437.27,288)">chunk5</text>
+<text x="529.09" y="288" text-anchor="middle" font-size="10" font-family="Arial" fill="#333" transform="rotate(25 529.09,288)">chunk6</text>
+<text x="620.91" y="288" text-anchor="middle" font-size="10" font-family="Arial" fill="#333" transform="rotate(25 620.91,288)">chunk7</text>
+<text x="712.73" y="288" text-anchor="middle" font-size="10" font-family="Arial" fill="#333" transform="rotate(25 712.73,288)">chunk8</text>
+<text x="804.55" y="288" text-anchor="middle" font-size="10" font-family="Arial" fill="#333" transform="rotate(25 804.55,288)">chunk9</text>
+<text x="896.36" y="288" text-anchor="middle" font-size="10" font-family="Arial" fill="#333" transform="rotate(25 896.36,288)">chunk10</text>
+<text x="988.18" y="288" text-anchor="middle" font-size="10" font-family="Arial" fill="#333" transform="rotate(25 988.18,288)">chunk11</text>
+<text x="1080.00" y="288" text-anchor="middle" font-size="10" font-family="Arial" fill="#333" transform="rotate(25 1080.00,288)">chunk12</text>
+<polyline fill="none" stroke="#4d7fcf" stroke-width="2.4" points="70.00,90.00 161.82,195.00 253.64,157.50 345.45,225.00 437.27,120.00 529.09,270.00 620.91,90.00 712.73,173.57 804.55,213.75 896.36,213.75 988.18,141.43 1080.00,129.38"/>
+<circle cx="70.00" cy="90.00" r="2.4" fill="#4d7fcf"/>
+<circle cx="161.82" cy="195.00" r="2.4" fill="#4d7fcf"/>
+<circle cx="253.64" cy="157.50" r="2.4" fill="#4d7fcf"/>
+<circle cx="345.45" cy="225.00" r="2.4" fill="#4d7fcf"/>
+<circle cx="437.27" cy="120.00" r="2.4" fill="#4d7fcf"/>
+<circle cx="529.09" cy="270.00" r="2.4" fill="#4d7fcf"/>
+<circle cx="620.91" cy="90.00" r="2.4" fill="#4d7fcf"/>
+<circle cx="712.73" cy="173.57" r="2.4" fill="#4d7fcf"/>
+<circle cx="804.55" cy="213.75" r="2.4" fill="#4d7fcf"/>
+<circle cx="896.36" cy="213.75" r="2.4" fill="#4d7fcf"/>
+<circle cx="988.18" cy="141.43" r="2.4" fill="#4d7fcf"/>
+<circle cx="1080.00" cy="129.38" r="2.4" fill="#4d7fcf"/>
+<polyline fill="none" stroke="#c95f5f" stroke-width="2.4" points="70.00,90.00 161.82,195.00 253.64,157.50 345.45,225.00 437.27,120.00 529.09,270.00 620.91,90.00 712.73,205.71 804.55,157.50 896.36,101.25 988.18,173.57 1080.00,157.50"/>
+<circle cx="70.00" cy="90.00" r="2.4" fill="#c95f5f"/>
+<circle cx="161.82" cy="195.00" r="2.4" fill="#c95f5f"/>
+<circle cx="253.64" cy="157.50" r="2.4" fill="#c95f5f"/>
+<circle cx="345.45" cy="225.00" r="2.4" fill="#c95f5f"/>
+<circle cx="437.27" cy="120.00" r="2.4" fill="#c95f5f"/>
+<circle cx="529.09" cy="270.00" r="2.4" fill="#c95f5f"/>
+<circle cx="620.91" cy="90.00" r="2.4" fill="#c95f5f"/>
+<circle cx="712.73" cy="205.71" r="2.4" fill="#c95f5f"/>
+<circle cx="804.55" cy="157.50" r="2.4" fill="#c95f5f"/>
+<circle cx="896.36" cy="101.25" r="2.4" fill="#c95f5f"/>
+<circle cx="988.18" cy="173.57" r="2.4" fill="#c95f5f"/>
+<circle cx="1080.00" cy="157.50" r="2.4" fill="#c95f5f"/>
+<polyline fill="none" stroke="#2f9d57" stroke-width="2.4" points="70.00,90.00 161.82,195.00 253.64,157.50 345.45,225.00 437.27,120.00 529.09,270.00 620.91,90.00 712.73,205.71 804.55,157.50 896.36,101.25 988.18,173.57 1080.00,157.50"/>
+<circle cx="70.00" cy="90.00" r="2.4" fill="#2f9d57"/>
+<circle cx="161.82" cy="195.00" r="2.4" fill="#2f9d57"/>
+<circle cx="253.64" cy="157.50" r="2.4" fill="#2f9d57"/>
+<circle cx="345.45" cy="225.00" r="2.4" fill="#2f9d57"/>
+<circle cx="437.27" cy="120.00" r="2.4" fill="#2f9d57"/>
+<circle cx="529.09" cy="270.00" r="2.4" fill="#2f9d57"/>
+<circle cx="620.91" cy="90.00" r="2.4" fill="#2f9d57"/>
+<circle cx="712.73" cy="205.71" r="2.4" fill="#2f9d57"/>
+<circle cx="804.55" cy="157.50" r="2.4" fill="#2f9d57"/>
+<circle cx="896.36" cy="101.25" r="2.4" fill="#2f9d57"/>
+<circle cx="988.18" cy="173.57" r="2.4" fill="#2f9d57"/>
+<circle cx="1080.00" cy="157.50" r="2.4" fill="#2f9d57"/>
+<polyline fill="none" stroke="#d1a238" stroke-width="2.4" points="70.00,67.50 161.82,120.00 253.64,157.50 345.45,225.00 437.27,120.00 529.09,180.00 620.91,45.00 712.73,77.14 804.55,101.25 896.36,101.25 988.18,109.29 1080.00,157.50"/>
+<circle cx="70.00" cy="67.50" r="2.4" fill="#d1a238"/>
+<circle cx="161.82" cy="120.00" r="2.4" fill="#d1a238"/>
+<circle cx="253.64" cy="157.50" r="2.4" fill="#d1a238"/>
+<circle cx="345.45" cy="225.00" r="2.4" fill="#d1a238"/>
+<circle cx="437.27" cy="120.00" r="2.4" fill="#d1a238"/>
+<circle cx="529.09" cy="180.00" r="2.4" fill="#d1a238"/>
+<circle cx="620.91" cy="45.00" r="2.4" fill="#d1a238"/>
+<circle cx="712.73" cy="77.14" r="2.4" fill="#d1a238"/>
+<circle cx="804.55" cy="101.25" r="2.4" fill="#d1a238"/>
+<circle cx="896.36" cy="101.25" r="2.4" fill="#d1a238"/>
+<circle cx="988.18" cy="109.29" r="2.4" fill="#d1a238"/>
+<circle cx="1080.00" cy="157.50" r="2.4" fill="#d1a238"/>
+<rect x="70" y="325" width="14" height="14" fill="#4d7fcf"/>
+<text x="90" y="336" font-size="12" font-family="Arial" fill="#222">100_20_4</text>
+<rect x="290" y="325" width="14" height="14" fill="#c95f5f"/>
+<text x="310" y="336" font-size="12" font-family="Arial" fill="#222">schema_v2_outputs</text>
+<rect x="510" y="325" width="14" height="14" fill="#2f9d57"/>
+<text x="530" y="336" font-size="12" font-family="Arial" fill="#222">with_reranker</text>
+<rect x="730" y="325" width="14" height="14" fill="#d1a238"/>
+<text x="750" y="336" font-size="12" font-family="Arial" fill="#222">without_reranker</text>
+</svg></div>
+  <div class="card">
+    <h3>Overall Metrics Table</h3>
+    <table>
+      <thead>
+        <tr><th>Experiment</th><th>Precision</th><th>Recall</th><th>F1</th><th>TP</th><th>FP</th><th>FN</th></tr>
+      </thead>
+      <tbody><tr><td>100_20_4</td><td>0.238462</td><td>0.492063</td><td>0.321244</td><td>31</td><td>99</td><td>32</td></tr>
+<tr><td>schema_v2_outputs</td><td>0.329787</td><td>0.492063</td><td>0.394904</td><td>31</td><td>63</td><td>32</td></tr>
+<tr><td>with_reranker</td><td>0.329787</td><td>0.492063</td><td>0.394904</td><td>31</td><td>63</td><td>32</td></tr>
+<tr><td>without_reranker</td><td>0.288591</td><td>0.682540</td><td>0.405660</td><td>43</td><td>106</td><td>20</td></tr></tbody>
+    </table>
+  </div>
+</body>
+</html>

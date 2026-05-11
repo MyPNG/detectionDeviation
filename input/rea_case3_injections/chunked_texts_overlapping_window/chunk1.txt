@@ -1,0 +1,19 @@
+Microsoft AI systems are assessed using Impact Assessments. Applies to: All AI systems.
+Assess the impact of the system on people, organizations, and society by completing an Impact Assessment early in the system's development, typically when defining the product vision and requirements.
+Do not document the effort using the Impact Assessment template provided by the Office of Responsible AI.
+REA-02: Review the completed Impact Assessment with the reviewers identified according to your organization's compliance process before development starts.
+Secure all required approvals from those reviewers.
+REA-03: Update and review the Impact Assessment at least annually, when new intended uses are added, and before advancing to a new release stage.
+Update and review the Impact Assessment at least annually, when new intended uses are added, and before advancing to a new release stage.
+
+Microsoft AI systems are reviewed to identify systems that may have a significant adverse impact on people, organizations, and society, and additional oversight and requirements are applied to those systems. Applies to: All AI systems.
+Microsoft AI systems are reviewed to identify systems that may have a significant adverse impact on people, organizations, and society, and additional oversight and requirements are applied to those systems.
+REA-05: Review defined Restricted Uses to determine whether the system meets the definition of any Restricted Use.
+If it does, document this in the Impact Assessment, and follow the requirements for the Restricted Use.
+If it does, document this in the Impact Assessment, and follow the requirements for the Restricted Use.
+REA-06: Answer prompts in the Impact Assessment template to determine whether the system meets the definition of a Sensitive Use.
+If it does, report it to the Office of Responsible AI, and follow any additional requirements resulting from a Sensitive Uses review.
+If it does, report it to the Office of Responsible AI, and follow any additional requirements resulting from a Sensitive Uses review.
+REA-07: Review your systems at least annually against the definitions for Sensitive Uses and Restricted Uses.
+If there are systems that meet the criteria for Sensitive Uses, report them to the Office of Responsible AI.
+If there are systems that meet the criteria for Restricted Uses, notify the Office of Responsible AI.

@@ -1,0 +1,86 @@
+{
+  "id": "REA-01#1",
+  "model": "gpt-5.4",
+  "prompt_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/prompts_rea_with_injections__reg_for_injectiontest/chunk1_deontic_stages/rea-01#1/step4_prompt_payload.json",
+  "per_reg_comparisons": [
+    {
+      "reg_id": "REG-055",
+      "comparison": {
+        "raw_text_alignment": "partially_aligned",
+        "actor_similarity": "similar",
+        "modal_similarity": "different",
+        "action_similarity": "different",
+        "actions_similarity": "different",
+        "object_similarity": "different",
+        "temporal_similarity": "different"
+      },
+      "deviation": true,
+      "types": [
+        "action",
+        "object_scope",
+        "temporal",
+        "condition"
+      ],
+      "evidence_rea": [
+        "Upon your request and expression of consent, we collect the following data",
+        "for the purpose of providing services to you"
+      ],
+      "evidence_reg": [
+        "the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information:",
+        "Where personal data relating to a data subject are collected from the data subject"
+      ],
+      "reasoning_short": "The REA describes collecting data upon request and consent for service provision, while the REG requires providing information to the data subject at the time data are obtained when data are collected from that subject.",
+      "confidence": "high",
+      "needs_more_context": false
+    },
+    {
+      "reg_id": "REG-058",
+      "comparison": {
+        "raw_text_alignment": "partially_aligned",
+        "actor_similarity": "similar",
+        "modal_similarity": "different",
+        "action_similarity": "different",
+        "actions_similarity": "different",
+        "object_similarity": "partially_aligned",
+        "temporal_similarity": "different"
+      },
+      "deviation": true,
+      "types": [
+        "action",
+        "object_scope",
+        "temporal",
+        "condition"
+      ],
+      "evidence_rea": [
+        "Upon your request and expression of consent, we collect the following data for the purpose of providing services to you."
+      ],
+      "evidence_reg": [
+        "the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: (c) the purposes of the processing for which the personal data are intended as well as the legal basis for the processing;"
+      ],
+      "reasoning_short": "Both mention purpose-related content, but the REA states that data are collected for providing services upon request and consent, whereas the REG requires disclosure of the purposes and legal basis at the time the data are obtained.",
+      "confidence": "medium",
+      "needs_more_context": false
+    },
+    {
+      "reg_id": "REG-060",
+      "comparison": {
+        "raw_text_alignment": "not_aligned",
+        "actor_similarity": "similar",
+        "modal_similarity": "different",
+        "action_similarity": "different",
+        "actions_similarity": "different",
+        "object_similarity": "different",
+        "temporal_similarity": "different"
+      },
+      "deviation": false,
+      "types": [],
+      "evidence_rea": [],
+      "evidence_reg": [],
+      "reasoning_short": "The REA concerns collection of data for service provision, while the REG concerns disclosure of recipients or categories of recipients; they do not express the same constraint, so no quote-supported mismatch is established.",
+      "confidence": "low",
+      "needs_more_context": true
+    }
+  ],
+  "overall_deviation": true,
+  "overall_confidence": "medium"
+}

@@ -1,0 +1,397 @@
+{
+  "chunk": "chunk2",
+  "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_case3_injections/chunk2/chunk2_requirements.json",
+  "stage1_output": [
+    {
+      "ID": "REA-04#1",
+      "REA_ID": "REA-04",
+      "Text": "Microsoft AI systems are reviewed to identify systems that may have a significant adverse impact on people, organizations, and society, and additional oversight and requirements are applied to those systems."
+    },
+    {
+      "ID": "REA-04#2",
+      "REA_ID": "REA-04",
+      "Text": "Applies to: All AI systems."
+    },
+    {
+      "ID": "REA-05#1",
+      "REA_ID": "REA-05",
+      "Text": "Review defined Restricted Uses to determine whether the system meets the definition of any Restricted Use."
+    },
+    {
+      "ID": "REA-05#2",
+      "REA_ID": "REA-05",
+      "Text": "If it does, document this in the Impact Assessment,"
+    },
+    {
+      "ID": "REA-05#3",
+      "REA_ID": "REA-05",
+      "Text": "and follow the requirements for the Restricted Use."
+    },
+    {
+      "ID": "REA-06#1",
+      "REA_ID": "REA-06",
+      "Text": "Answer prompts in the Impact Assessment template to determine whether the system meets the definition of a Sensitive Use."
+    },
+    {
+      "ID": "REA-06#2",
+      "REA_ID": "REA-06",
+      "Text": "If it does, report it to the Office of Responsible AI,"
+    },
+    {
+      "ID": "REA-06#3",
+      "REA_ID": "REA-06",
+      "Text": "and follow any additional requirements resulting from a Sensitive Uses review."
+    },
+    {
+      "ID": "REA-07#1",
+      "REA_ID": "REA-07",
+      "Text": "Review your systems at least annually against the definitions for Sensitive Uses and Restricted Uses."
+    },
+    {
+      "ID": "REA-07#2",
+      "REA_ID": "REA-07",
+      "Text": "If there are systems that meet the criteria for Sensitive Uses, report them to the Office of Responsible AI."
+    },
+    {
+      "ID": "REA-07#3",
+      "REA_ID": "REA-07",
+      "Text": "If there are systems that meet the criteria for Restricted Uses, notify the Office of Responsible AI."
+    }
+  ],
+  "stage2_output": [
+    {
+      "ID": "REA-04#1",
+      "REA_ID": "REA-04",
+      "Text": "Microsoft AI systems are reviewed to identify systems that may have a significant adverse impact on people, organizations, and society, and additional oversight and requirements are applied to those systems.",
+      "Modal": "Permissive(may)"
+    },
+    {
+      "ID": "REA-04#2",
+      "REA_ID": "REA-04",
+      "Text": "Applies to: All AI systems.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-05#1",
+      "REA_ID": "REA-05",
+      "Text": "Review defined Restricted Uses to determine whether the system meets the definition of any Restricted Use.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-05#2",
+      "REA_ID": "REA-05",
+      "Text": "If this does, document this in the Impact Assessment,",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-05#3",
+      "REA_ID": "REA-05",
+      "Text": "and the requirements for the Restricted Use follow the requirements for the Restricted Use.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-06#1",
+      "REA_ID": "REA-06",
+      "Text": "Answer prompts in the Impact Assessment template to determine whether the system meets the definition of a Sensitive Use.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-06#2",
+      "REA_ID": "REA-06",
+      "Text": "If it does, report it to the Office of Responsible AI,",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-06#3",
+      "REA_ID": "REA-06",
+      "Text": "and any additional requirements resulting from a Sensitive Uses review follow any additional requirements resulting from a Sensitive Uses review.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-07#1",
+      "REA_ID": "REA-07",
+      "Text": "Review your systems at least annually against the definitions for Sensitive Uses and Restricted Uses.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-07#2",
+      "REA_ID": "REA-07",
+      "Text": "If there are systems that meet the criteria for Sensitive Uses, report that to the Office of Responsible AI.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-07#3",
+      "REA_ID": "REA-07",
+      "Text": "If there are systems that meet the criteria for Restricted Uses, notify the Office of Responsible AI.",
+      "Modal": ""
+    }
+  ],
+  "stage3_output": [
+    {
+      "ID": "REA-04#1",
+      "Active_Recovered_Text": "Microsoft AI systems are reviewed to identify systems that may have a significant adverse impact on people, organizations, and society, and additional oversight and requirements are applied to those systems."
+    },
+    {
+      "ID": "REA-04#2",
+      "Active_Recovered_Text": "All AI systems APPLY TO this requirement."
+    },
+    {
+      "ID": "REA-05#1",
+      "Active_Recovered_Text": "The Reviewer SHALL review defined Restricted Uses to determine whether the system meets the definition of any Restricted Use."
+    },
+    {
+      "ID": "REA-05#2",
+      "Active_Recovered_Text": "If this is the case, The Reviewer SHALL document this in the Impact Assessment, and the requirements for the Restricted Use FOLLOW THE REQUIREMENTS FOR THE RESTRICTED USE."
+    },
+    {
+      "ID": "REA-05#3",
+      "Active_Recovered_Text": "The requirements for the Restricted Use SHALL follow the requirements for the Restricted Use."
+    },
+    {
+      "ID": "REA-06#1",
+      "Active_Recovered_Text": "The Reviewer SHALL answer prompts in the Impact Assessment template to determine whether the system meets the definition of a Sensitive Use."
+    },
+    {
+      "ID": "REA-06#2",
+      "Active_Recovered_Text": "If this is the case, The Reviewer SHALL report the system to the Office of Responsible AI, and any additional requirements resulting from a Sensitive Uses review FOLLOW ANY ADDITIONAL REQUIREMENTS RESULTING FROM A SENSITIVE USES REVIEW."
+    },
+    {
+      "ID": "REA-06#3",
+      "Active_Recovered_Text": "Any additional requirements resulting from a Sensitive Uses review SHALL follow any additional requirements resulting from a Sensitive Uses review."
+    },
+    {
+      "ID": "REA-07#1",
+      "Active_Recovered_Text": "[missing_subject] shall review your systems at least annually against the definitions for Sensitive Uses and Restricted Uses."
+    },
+    {
+      "ID": "REA-07#2",
+      "Active_Recovered_Text": "If there are systems that meet the criteria for Sensitive Uses, The Reviewer SHALL report that to the Office of Responsible AI."
+    },
+    {
+      "ID": "REA-07#3",
+      "Active_Recovered_Text": "If there are systems that meet the criteria for Restricted Uses, The Reviewer SHALL notify the Office of Responsible AI."
+    }
+  ],
+  "stage4_output": [
+    {
+      "id": "REA-04",
+      "text": "Microsoft AI systems are reviewed to identify systems that may have a significant adverse impact on people, organizations, and society, and additional oversight and requirements are applied to those systems.",
+      "actor": "Microsoft AI systems are reviewed to identify systems that",
+      "modal": "Permissive(may)",
+      "action": "have",
+      "action_list": [
+        "have"
+      ],
+      "object": "a significant adverse impact on people, organizations, and society, and additional oversight and requirements are applied to those systems.",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk2",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-04",
+      "sub_id": "REA-04#1",
+      "split_index": "1"
+    },
+    {
+      "id": "REA-04",
+      "text": "All AI systems APPLY TO this requirement.",
+      "actor": "All AI systems",
+      "modal": "",
+      "action": "apply",
+      "action_list": [
+        "apply"
+      ],
+      "object": "this requirement",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk2",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-04",
+      "sub_id": "REA-04#2",
+      "split_index": "2"
+    },
+    {
+      "id": "REA-05",
+      "text": "The Reviewer SHALL review defined Restricted Uses to determine whether the system meets the definition of any Restricted Use.",
+      "actor": "The Reviewer",
+      "modal": "Mandatory(shall)",
+      "action": "review",
+      "action_list": [
+        "review"
+      ],
+      "object": "defined Restricted Uses to determine whether the system meets the definition of any Restricted Use.",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk2",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-05",
+      "sub_id": "REA-05#1",
+      "split_index": "1"
+    },
+    {
+      "id": "REA-05",
+      "text": "If this is the case, The Reviewer SHALL document this in the Impact Assessment, and the requirements for the Restricted Use FOLLOW THE REQUIREMENTS FOR THE RESTRICTED USE.",
+      "actor": "The Reviewer",
+      "modal": "Mandatory(shall)",
+      "action": "document",
+      "action_list": [
+        "document"
+      ],
+      "object": "this in the Impact Assessment, and the requirements for the Restricted Use FOLLOW THE REQUIREMENTS FOR THE RESTRICTED USE.",
+      "temporal": "",
+      "manner": "",
+      "condition": "If this is the case",
+      "article": "chunk2",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-05",
+      "sub_id": "REA-05#2",
+      "split_index": "2"
+    },
+    {
+      "id": "REA-05",
+      "text": "The requirements for the Restricted Use SHALL follow the requirements for the Restricted Use.",
+      "actor": "The requirements for the Restricted Use",
+      "modal": "Mandatory(shall)",
+      "action": "follow",
+      "action_list": [
+        "follow"
+      ],
+      "object": "the requirements for the Restricted Use.",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk2",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-05",
+      "sub_id": "REA-05#3",
+      "split_index": "3"
+    },
+    {
+      "id": "REA-06",
+      "text": "The Reviewer SHALL answer prompts in the Impact Assessment template to determine whether the system meets the definition of a Sensitive Use.",
+      "actor": "The Reviewer",
+      "modal": "Mandatory(shall)",
+      "action": "answer",
+      "action_list": [
+        "answer"
+      ],
+      "object": "prompts in the Impact Assessment template to determine whether the system meets the definition of a Sensitive Use.",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk2",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-06",
+      "sub_id": "REA-06#1",
+      "split_index": "1"
+    },
+    {
+      "id": "REA-06",
+      "text": "If this is the case, The Reviewer SHALL report the system to the Office of Responsible AI, and any additional requirements resulting from a Sensitive Uses review FOLLOW ANY ADDITIONAL REQUIREMENTS RESULTING FROM A SENSITIVE USES REVIEW.",
+      "actor": "The Reviewer",
+      "modal": "Mandatory(shall)",
+      "action": "report",
+      "action_list": [
+        "report"
+      ],
+      "object": "the system to the Office of Responsible AI, and any additional requirements resulting from a Sensitive Uses review FOLLOW ANY ADDITIONAL REQUIREMENTS RESULTING FROM A SENSITIVE USES REVIEW.",
+      "temporal": "",
+      "manner": "",
+      "condition": "If this is the case",
+      "article": "chunk2",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-06",
+      "sub_id": "REA-06#2",
+      "split_index": "2"
+    },
+    {
+      "id": "REA-06",
+      "text": "Any additional requirements resulting from a Sensitive Uses review SHALL follow any additional requirements resulting from a Sensitive Uses review.",
+      "actor": "Any additional requirements resulting from a Sensitive Uses review",
+      "modal": "Mandatory(shall)",
+      "action": "follow",
+      "action_list": [
+        "follow"
+      ],
+      "object": "any additional requirements resulting from a Sensitive Uses review.",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk2",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-06",
+      "sub_id": "REA-06#3",
+      "split_index": "3"
+    },
+    {
+      "id": "REA-07",
+      "text": "[missing_subject] shall review your systems at least annually against the definitions for Sensitive Uses and Restricted Uses.",
+      "actor": "[missing_subject]",
+      "modal": "Mandatory(shall)",
+      "action": "review",
+      "action_list": [
+        "review"
+      ],
+      "object": "your systems at least annually against the definitions for Sensitive Uses and Restricted Uses.",
+      "temporal": "annually against the definitions for Sensitive",
+      "manner": "",
+      "condition": "",
+      "article": "chunk2",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-07",
+      "sub_id": "REA-07#1",
+      "split_index": "1"
+    },
+    {
+      "id": "REA-07",
+      "text": "If there are systems that meet the criteria for Sensitive Uses, The Reviewer SHALL report that to the Office of Responsible AI.",
+      "actor": "The Reviewer",
+      "modal": "Mandatory(shall)",
+      "action": "report",
+      "action_list": [
+        "report"
+      ],
+      "object": "that to the Office of Responsible AI.",
+      "temporal": "",
+      "manner": "",
+      "condition": "If there are systems that meet the criteria for Sensitive Uses",
+      "article": "chunk2",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-07",
+      "sub_id": "REA-07#2",
+      "split_index": "2"
+    },
+    {
+      "id": "REA-07",
+      "text": "If there are systems that meet the criteria for Restricted Uses, The Reviewer SHALL notify the Office of Responsible AI.",
+      "actor": "The Reviewer",
+      "modal": "Mandatory(shall)",
+      "action": "notify",
+      "action_list": [
+        "notify"
+      ],
+      "object": "the Office of Responsible AI.",
+      "temporal": "",
+      "manner": "",
+      "condition": "If there are systems that meet the criteria for Restricted Uses",
+      "article": "chunk2",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-07",
+      "sub_id": "REA-07#3",
+      "split_index": "3"
+    }
+  ]
+}

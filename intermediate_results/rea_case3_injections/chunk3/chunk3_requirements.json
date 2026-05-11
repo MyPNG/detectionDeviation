@@ -1,0 +1,12 @@
+[
+  {
+    "title": "",
+    "rea_id": "REA-08",
+    "text": "Microsoft AI systems are fit for purpose in the sense that they provide valid solutions for the problems they are designed to solve. Applies to: All AI systems. Document in the Impact Assessment how the system's use will solve the problem posed by each intended use and the specific anticipated benefits and positive outcomes for the user, recognizing that there may be multiple valid ways in which to solve the problem."
+  },
+  {
+    "title": "",
+    "rea_id": "REA-09",
+    "text": "Define and document for each model in the AI system: 1) the model's proposed inputs and how well they represent the concepts they are intended to represent; include analysis of the limitations of this representation, Define and document for each model in the AI system: 1) the model's proposed inputs and how well they represent the concepts they are intended to represent; include analysis of the limitations of this representation, Define and document for each model in the AI system: 2) the model's proposed output and how well it represents the concept it is intended to represent; include analysis of the limitations of this representation, Define and document for each model in the AI system: 2) the model's proposed output and how well it represents the concept it is intended to represent; include analysis of the limitations of this representation, Define and document for each model in the AI system: 3) limitations to the generalizability of the resulting model based on the training and testing data that will be used. Define and document for each model in the AI system: 3) limitations to the generalizability of the resulting model based on the training and testing data that will be used."
+  }
+]

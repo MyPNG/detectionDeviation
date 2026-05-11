@@ -1,0 +1,75 @@
+{
+  "dataset": "eu_ai_injections",
+  "source_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/eu_ai_injections.json",
+  "count": 17,
+  "relevant_clauses": [
+    {
+      "reg_id": "REG-003",
+      "clause": "Art9(1)"
+    },
+    {
+      "reg_id": "REG-004",
+      "clause": "Art9(2)"
+    },
+    {
+      "reg_id": "REG-007",
+      "clause": "Art9(5)"
+    },
+    {
+      "reg_id": "REG-008",
+      "clause": "Art9(6)"
+    },
+    {
+      "reg_id": "REG-010",
+      "clause": "Art9(8)"
+    },
+    {
+      "reg_id": "REG-014",
+      "clause": "Art10(2)"
+    },
+    {
+      "reg_id": "REG-015",
+      "clause": "Art10(3)"
+    },
+    {
+      "reg_id": "REG-016",
+      "clause": "Art10(4)"
+    },
+    {
+      "reg_id": "REG-019",
+      "clause": "Art11(1)"
+    },
+    {
+      "reg_id": "REG-026",
+      "clause": "Art13(2)"
+    },
+    {
+      "reg_id": "REG-027",
+      "clause": "Art13(3)"
+    },
+    {
+      "reg_id": "REG-028",
+      "clause": "Art13(4)"
+    },
+    {
+      "reg_id": "REG-032",
+      "clause": "Art13(8)"
+    },
+    {
+      "reg_id": "REG-033",
+      "clause": "Art14(1)"
+    },
+    {
+      "reg_id": "REG-035",
+      "clause": "Art14(3)"
+    },
+    {
+      "reg_id": "REG-036",
+      "clause": "Art14(4)"
+    },
+    {
+      "reg_id": "REG-040",
+      "clause": "Art15(3)"
+    }
+  ]
+}

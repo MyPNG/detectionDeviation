@@ -1,0 +1,424 @@
+{
+  "mode": "merged_injection_analysis",
+  "expected_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/eu_ai_injections.json",
+  "actual_file": "/Users/my/Documents/projects/detectionDeviation/evaluation/artifact3/rea_case3_injections/merged_llm_extracted_normalized.json",
+  "table": [
+    {
+      "ID": "art10(1)",
+      "Gold Standard": "Non-Deviation (False)",
+      "System Output": "Deviation (True)",
+      "Result": "False Positive (Alarm)"
+    },
+    {
+      "ID": "art10(2)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Deviation (True)",
+      "Result": "True Positive (Hit)"
+    },
+    {
+      "ID": "art10(3)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Deviation (True)",
+      "Result": "True Positive (Hit)"
+    },
+    {
+      "ID": "art10(4)",
+      "Gold Standard": "Non-Deviation (False)",
+      "System Output": "Deviation (True)",
+      "Result": "False Positive (Alarm)"
+    },
+    {
+      "ID": "art10(6)",
+      "Gold Standard": "Non-Deviation (False)",
+      "System Output": "Deviation (True)",
+      "Result": "False Positive (Alarm)"
+    },
+    {
+      "ID": "art11(1)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Non-Deviation (False)",
+      "Result": "False Negative (Miss)"
+    },
+    {
+      "ID": "art13(1)",
+      "Gold Standard": "Non-Deviation (False)",
+      "System Output": "Deviation (True)",
+      "Result": "False Positive (Alarm)"
+    },
+    {
+      "ID": "art13(2)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Non-Deviation (False)",
+      "Result": "False Negative (Miss)"
+    },
+    {
+      "ID": "art13(3)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Deviation (True)",
+      "Result": "True Positive (Hit)"
+    },
+    {
+      "ID": "art13(4)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Non-Deviation (False)",
+      "Result": "False Negative (Miss)"
+    },
+    {
+      "ID": "art13(7)(vi)",
+      "Gold Standard": "Non-Deviation (False)",
+      "System Output": "Deviation (True)",
+      "Result": "False Positive (Alarm)"
+    },
+    {
+      "ID": "art13(8)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Deviation (True)",
+      "Result": "True Positive (Hit)"
+    },
+    {
+      "ID": "art14(1)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Deviation (True)",
+      "Result": "True Positive (Hit)"
+    },
+    {
+      "ID": "art14(2)",
+      "Gold Standard": "Non-Deviation (False)",
+      "System Output": "Deviation (True)",
+      "Result": "False Positive (Alarm)"
+    },
+    {
+      "ID": "art14(3)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Deviation (True)",
+      "Result": "True Positive (Hit)"
+    },
+    {
+      "ID": "art14(4)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Deviation (True)",
+      "Result": "True Positive (Hit)"
+    },
+    {
+      "ID": "art15(1)",
+      "Gold Standard": "Non-Deviation (False)",
+      "System Output": "Deviation (True)",
+      "Result": "False Positive (Alarm)"
+    },
+    {
+      "ID": "art15(3)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Non-Deviation (False)",
+      "Result": "False Negative (Miss)"
+    },
+    {
+      "ID": "art26(4)",
+      "Gold Standard": "Non-Deviation (False)",
+      "System Output": "Deviation (True)",
+      "Result": "False Positive (Alarm)"
+    },
+    {
+      "ID": "art8(1)",
+      "Gold Standard": "Non-Deviation (False)",
+      "System Output": "Deviation (True)",
+      "Result": "False Positive (Alarm)"
+    },
+    {
+      "ID": "art9(1)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Non-Deviation (False)",
+      "Result": "False Negative (Miss)"
+    },
+    {
+      "ID": "art9(2)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Deviation (True)",
+      "Result": "True Positive (Hit)"
+    },
+    {
+      "ID": "art9(4)",
+      "Gold Standard": "Non-Deviation (False)",
+      "System Output": "Deviation (True)",
+      "Result": "False Positive (Alarm)"
+    },
+    {
+      "ID": "art9(5)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Non-Deviation (False)",
+      "Result": "False Negative (Miss)"
+    },
+    {
+      "ID": "art9(6)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Deviation (True)",
+      "Result": "True Positive (Hit)"
+    },
+    {
+      "ID": "art9(8)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Non-Deviation (False)",
+      "Result": "False Negative (Miss)"
+    },
+    {
+      "ID": "Others (24)",
+      "Gold Standard": "Non-Deviation (False)",
+      "System Output": "Non-Deviation (False)",
+      "Result": "True Negatives",
+      "tn_keys": [
+        "aiactart13(1)",
+        "aiactart26(9)",
+        "art11(3)",
+        "art13(4)(ii)",
+        "art13(6)",
+        "art13(6)(iv)(v)",
+        "art13(7)",
+        "art15(2)",
+        "art26(1)",
+        "art26(2)",
+        "art26(3)",
+        "art26(7)",
+        "art26(8)",
+        "art26(9)",
+        "art60(2)",
+        "art60(8)",
+        "art79(1)",
+        "art79(10)",
+        "art79(6)",
+        "art9(7)",
+        "art9(9)",
+        "unknown",
+        "unknown(notprovided)",
+        "unknown(textnotprovided)"
+      ]
+    }
+  ],
+  "calculation_matrix": {
+    "tp": 9,
+    "fp": 10,
+    "fn": 7,
+    "tn": 24,
+    "precision": 0.473684,
+    "recall": 0.5625,
+    "f1": 0.514286,
+    "accuracy": 0.66
+  },
+  "deviation_count_matrix": {
+    "hit": 9,
+    "miss": 20,
+    "alarm": 10,
+    "gold_total": 29,
+    "system_total": 19,
+    "count_recall": 0.310345,
+    "count_precision": 0.473684
+  },
+  "deviation_count_table": [
+    {
+      "ID": "art10(1)",
+      "Gold Deviations": 0,
+      "System Deviations": 1,
+      "Hit": 0,
+      "Miss": 0,
+      "Alarm": 1
+    },
+    {
+      "ID": "art10(2)",
+      "Gold Deviations": 1,
+      "System Deviations": 1,
+      "Hit": 1,
+      "Miss": 0,
+      "Alarm": 0
+    },
+    {
+      "ID": "art10(3)",
+      "Gold Deviations": 1,
+      "System Deviations": 1,
+      "Hit": 1,
+      "Miss": 0,
+      "Alarm": 0
+    },
+    {
+      "ID": "art10(4)",
+      "Gold Deviations": 0,
+      "System Deviations": 1,
+      "Hit": 0,
+      "Miss": 0,
+      "Alarm": 1
+    },
+    {
+      "ID": "art10(6)",
+      "Gold Deviations": 0,
+      "System Deviations": 1,
+      "Hit": 0,
+      "Miss": 0,
+      "Alarm": 1
+    },
+    {
+      "ID": "art11(1)",
+      "Gold Deviations": 3,
+      "System Deviations": 0,
+      "Hit": 0,
+      "Miss": 3,
+      "Alarm": 0
+    },
+    {
+      "ID": "art13(1)",
+      "Gold Deviations": 0,
+      "System Deviations": 1,
+      "Hit": 0,
+      "Miss": 0,
+      "Alarm": 1
+    },
+    {
+      "ID": "art13(2)",
+      "Gold Deviations": 1,
+      "System Deviations": 0,
+      "Hit": 0,
+      "Miss": 1,
+      "Alarm": 0
+    },
+    {
+      "ID": "art13(3)",
+      "Gold Deviations": 2,
+      "System Deviations": 1,
+      "Hit": 1,
+      "Miss": 1,
+      "Alarm": 0
+    },
+    {
+      "ID": "art13(4)",
+      "Gold Deviations": 1,
+      "System Deviations": 0,
+      "Hit": 0,
+      "Miss": 1,
+      "Alarm": 0
+    },
+    {
+      "ID": "art13(7)(vi)",
+      "Gold Deviations": 0,
+      "System Deviations": 1,
+      "Hit": 0,
+      "Miss": 0,
+      "Alarm": 1
+    },
+    {
+      "ID": "art13(8)",
+      "Gold Deviations": 1,
+      "System Deviations": 1,
+      "Hit": 1,
+      "Miss": 0,
+      "Alarm": 0
+    },
+    {
+      "ID": "art14(1)",
+      "Gold Deviations": 1,
+      "System Deviations": 1,
+      "Hit": 1,
+      "Miss": 0,
+      "Alarm": 0
+    },
+    {
+      "ID": "art14(2)",
+      "Gold Deviations": 0,
+      "System Deviations": 1,
+      "Hit": 0,
+      "Miss": 0,
+      "Alarm": 1
+    },
+    {
+      "ID": "art14(3)",
+      "Gold Deviations": 4,
+      "System Deviations": 1,
+      "Hit": 1,
+      "Miss": 3,
+      "Alarm": 0
+    },
+    {
+      "ID": "art14(4)",
+      "Gold Deviations": 2,
+      "System Deviations": 1,
+      "Hit": 1,
+      "Miss": 1,
+      "Alarm": 0
+    },
+    {
+      "ID": "art15(1)",
+      "Gold Deviations": 0,
+      "System Deviations": 1,
+      "Hit": 0,
+      "Miss": 0,
+      "Alarm": 1
+    },
+    {
+      "ID": "art15(3)",
+      "Gold Deviations": 1,
+      "System Deviations": 0,
+      "Hit": 0,
+      "Miss": 1,
+      "Alarm": 0
+    },
+    {
+      "ID": "art26(4)",
+      "Gold Deviations": 0,
+      "System Deviations": 1,
+      "Hit": 0,
+      "Miss": 0,
+      "Alarm": 1
+    },
+    {
+      "ID": "art8(1)",
+      "Gold Deviations": 0,
+      "System Deviations": 1,
+      "Hit": 0,
+      "Miss": 0,
+      "Alarm": 1
+    },
+    {
+      "ID": "art9(1)",
+      "Gold Deviations": 1,
+      "System Deviations": 0,
+      "Hit": 0,
+      "Miss": 1,
+      "Alarm": 0
+    },
+    {
+      "ID": "art9(2)",
+      "Gold Deviations": 3,
+      "System Deviations": 1,
+      "Hit": 1,
+      "Miss": 2,
+      "Alarm": 0
+    },
+    {
+      "ID": "art9(4)",
+      "Gold Deviations": 0,
+      "System Deviations": 1,
+      "Hit": 0,
+      "Miss": 0,
+      "Alarm": 1
+    },
+    {
+      "ID": "art9(5)",
+      "Gold Deviations": 2,
+      "System Deviations": 0,
+      "Hit": 0,
+      "Miss": 2,
+      "Alarm": 0
+    },
+    {
+      "ID": "art9(6)",
+      "Gold Deviations": 4,
+      "System Deviations": 1,
+      "Hit": 1,
+      "Miss": 3,
+      "Alarm": 0
+    },
+    {
+      "ID": "art9(8)",
+      "Gold Deviations": 1,
+      "System Deviations": 0,
+      "Hit": 0,
+      "Miss": 1,
+      "Alarm": 0
+    }
+  ]
+}

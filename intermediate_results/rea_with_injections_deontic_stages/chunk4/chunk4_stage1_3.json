@@ -1,0 +1,55 @@
+{
+  "chunk": "chunk4",
+  "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections/chunk4/chunk4_requirements.json",
+  "stage1_output": [
+    {
+      "ID": "REA-04#1",
+      "REA_ID": "REA-04",
+      "Text": "Based on our legitimate interests, we collect the following data for the purpose of running this website."
+    },
+    {
+      "ID": "REA-04#2",
+      "REA_ID": "REA-04",
+      "Text": "Your data is not used for any other purposes or shared with third parties."
+    },
+    {
+      "ID": "REA-04#3",
+      "REA_ID": "REA-04",
+      "Text": "It is removed upon your request."
+    }
+  ],
+  "stage2_output": [
+    {
+      "ID": "REA-04#1",
+      "REA_ID": "REA-04",
+      "Text": "Based on our legitimate interests, we collect the following data for the purpose of running this website.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-04#2",
+      "REA_ID": "REA-04",
+      "Text": "Your data is not used for any other purposes or shared with third parties.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-04#3",
+      "REA_ID": "REA-04",
+      "Text": "It is removed upon your request.",
+      "Modal": ""
+    }
+  ],
+  "stage3_output": [
+    {
+      "ID": "REA-04#1",
+      "Active_Recovered_Text": "Based on our legitimate interests, we collect the following data for the purpose of running this website."
+    },
+    {
+      "ID": "REA-04#2",
+      "Active_Recovered_Text": "Your data is not used by any other party or shared with third parties."
+    },
+    {
+      "ID": "REA-04#3",
+      "Active_Recovered_Text": "The Data Controller removes the data upon your request."
+    }
+  ]
+}

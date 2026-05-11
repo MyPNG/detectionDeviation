@@ -1,0 +1,360 @@
+{
+  "chunk": "chunk8",
+  "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_case3_injections/chunk8/chunk8_requirements.json",
+  "stage1_output": [
+    {
+      "ID": "REA-19#1",
+      "REA_ID": "REA-19",
+      "Text": "Microsoft AI systems include capabilities that support informed human oversight and control."
+    },
+    {
+      "ID": "REA-19#2",
+      "REA_ID": "REA-19",
+      "Text": "Applies to: All AI systems."
+    },
+    {
+      "ID": "REA-19#3",
+      "REA_ID": "REA-19",
+      "Text": "Identify the stakeholders who are responsible for troubleshooting, managing, operating, overseeing,"
+    },
+    {
+      "ID": "REA-19#4",
+      "REA_ID": "REA-19",
+      "Text": "and controlling the system during and after deployment."
+    },
+    {
+      "ID": "REA-19#5",
+      "REA_ID": "REA-19",
+      "Text": "Document these stakeholders and their oversight and control responsibilities using the Impact Assessment template."
+    },
+    {
+      "ID": "REA-20#1",
+      "REA_ID": "REA-20",
+      "Text": "Identify the system elements (including system UX, features, alerting"
+    },
+    {
+      "ID": "REA-20#2",
+      "REA_ID": "REA-20",
+      "Text": "and reporting functions, and educational materials) necessary for stakeholders identified in requirement A5.1 to effectively understand their oversight responsibilities"
+    },
+    {
+      "ID": "REA-20#3",
+      "REA_ID": "REA-20",
+      "Text": "and carry them out."
+    },
+    {
+      "ID": "REA-20#4",
+      "REA_ID": "REA-20",
+      "Text": "Stakeholders must be able to understand: 1) the system's intended uses, Stakeholders must be able to understand: 2) how to effectively execute interactions with the system, Stakeholders must be able to understand: 3) how to interpret system behavior and the specific logic of the internal processing steps that led to the output Stakeholders must be able to understand: 4) when and how to override, intervene, or interrupt the system, Stakeholders must be able to understand: 5) how to remain aware of the possible tendency of over-relying on outputs produced by the system (automation bias)."
+    },
+    {
+      "ID": "REA-20#5",
+      "REA_ID": "REA-20",
+      "Text": "Document the system design elements that will support relevant stakeholders for each oversight and control function."
+    }
+  ],
+  "stage2_output": [
+    {
+      "ID": "REA-19#1",
+      "REA_ID": "REA-19",
+      "Text": "Microsoft AI systems include capabilities that support informed human oversight and control.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-19#2",
+      "REA_ID": "REA-19",
+      "Text": "Applies to: All AI systems.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-19#3",
+      "REA_ID": "REA-19",
+      "Text": "Identify the stakeholders who are responsible for troubleshooting, managing, operating, overseeing,",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-19#4",
+      "REA_ID": "REA-19",
+      "Text": "and who controlling the system during and after deployment.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-19#5",
+      "REA_ID": "REA-19",
+      "Text": "Document these stakeholders and who's oversight and control responsibilities using the Impact Assessment template.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-20#1",
+      "REA_ID": "REA-20",
+      "Text": "Identify the system elements (including system UX, features, alerting",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-20#2",
+      "REA_ID": "REA-20",
+      "Text": "and stakeholders identified in requirement A5.1 reporting functions, and educational materials) necessary for stakeholders identified in requirement A5.1 to effectively understand stakeholders identified in requirement A5.1 reporting functions , and educational materials )'s oversight responsibilities",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-20#3",
+      "REA_ID": "REA-20",
+      "Text": "and stakeholders identified in requirement A5.1 carry stakeholders identified in requirement A5.1 out.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-20#4",
+      "REA_ID": "REA-20",
+      "Text": "Stakeholders must be able to understand: 1) the system's intended uses, Stakeholders must be able to understand: 2) how to effectively execute interactions with the system, Stakeholders must be able to understand: 3) how to interpret system behavior and the specific logic of the internal processing steps that led to the output Stakeholders must be able to understand: 4) when and how to override, intervene, or interrupt the system, Stakeholders must be able to understand: 5) how to remain aware of the possible tendency of over-relying on outputs produced by the system (automation bias).",
+      "Modal": "Mandatory(must)"
+    },
+    {
+      "ID": "REA-20#5",
+      "REA_ID": "REA-20",
+      "Text": "Document the system design elements that will support relevant stakeholders for each oversight and control function.",
+      "Modal": "Mandatory(will)"
+    }
+  ],
+  "stage3_output": [
+    {
+      "ID": "REA-19#1",
+      "Active_Recovered_Text": "Microsoft AI systems include capabilities that support informed human oversight and control."
+    },
+    {
+      "ID": "REA-19#2",
+      "Active_Recovered_Text": "Applies to: All AI systems."
+    },
+    {
+      "ID": "REA-19#3",
+      "Active_Recovered_Text": "The stakeholders responsible for troubleshooting, managing, operating, overseeing, and controlling the system during and after deployment must be identified."
+    },
+    {
+      "ID": "REA-19#4",
+      "Active_Recovered_Text": "The stakeholders responsible for troubleshooting, managing, operating, overseeing, and controlling the system during and after deployment must be documented using the Impact Assessment template."
+    },
+    {
+      "ID": "REA-19#5",
+      "Active_Recovered_Text": "The stakeholders responsible for troubleshooting, managing, operating, overseeing, and controlling the system during and after deployment Document these stakeholders and who's oversight and control responsibilities using the Impact Assessment template."
+    },
+    {
+      "ID": "REA-20#1",
+      "Active_Recovered_Text": "[missing_subject] shall identify the system elements (including system UX, features, alerting."
+    },
+    {
+      "ID": "REA-20#2",
+      "Active_Recovered_Text": "Stakeholders must be able to carry out Stakeholders' oversight responsibilities using the system's UX, features, alerting, reporting functions, and educational materials."
+    },
+    {
+      "ID": "REA-20#3",
+      "Active_Recovered_Text": "The stakeholders responsible for carrying out their oversight responsibilities' oversight responsibilities must be identified."
+    },
+    {
+      "ID": "REA-20#4",
+      "Active_Recovered_Text": "Stakeholders must be able to understand: 1) the system's intended uses, Stakeholders must be able to understand: 2) how to effectively execute interactions with the system, Stakeholders must be able to understand: 3) how to interpret system behavior and the specific logic of the internal processing steps that led to the output Stakeholders must be able to understand: 4) when and how to override, intervene, or interrupt the system, Stakeholders must be able to understand: 5) how to remain aware of the possible tendency of over-relying on outputs produced by the system (automation bias)."
+    },
+    {
+      "ID": "REA-20#5",
+      "Active_Recovered_Text": "Document the system design elements that will support relevant stakeholders for each oversight and control function."
+    }
+  ],
+  "stage4_output": [
+    {
+      "id": "REA-19",
+      "text": "Microsoft AI systems include capabilities that support informed human oversight and control.",
+      "actor": "Microsoft AI systems",
+      "modal": "",
+      "action": "include",
+      "action_list": [
+        "include"
+      ],
+      "object": "capabilities that support informed human oversight and control",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk8",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-19",
+      "sub_id": "REA-19#1",
+      "split_index": "1"
+    },
+    {
+      "id": "REA-19",
+      "text": "Applies to: All AI systems.",
+      "actor": "All AI systems",
+      "modal": "",
+      "action": "Applies to",
+      "action_list": [],
+      "object": "AI systems",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk8",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-19",
+      "sub_id": "REA-19#2",
+      "split_index": "2"
+    },
+    {
+      "id": "REA-19",
+      "text": "The stakeholders responsible for troubleshooting, managing, operating, overseeing, and controlling the system during and after deployment must be identified.",
+      "actor": "and controlling the system during and after deployment",
+      "modal": "Mandatory(must)",
+      "action": "identified",
+      "action_list": [
+        "identified"
+      ],
+      "object": ".",
+      "temporal": "during and after deployment must be",
+      "manner": "",
+      "condition": "",
+      "article": "chunk8",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-19",
+      "sub_id": "REA-19#3",
+      "split_index": "3"
+    },
+    {
+      "id": "REA-19",
+      "text": "The stakeholders responsible for troubleshooting, managing, operating, overseeing, and controlling the system during and after deployment must be documented using the Impact Assessment template.",
+      "actor": "and controlling the system during and after deployment",
+      "modal": "Mandatory(must)",
+      "action": "documented",
+      "action_list": [
+        "documented"
+      ],
+      "object": "using the Impact Assessment template.",
+      "temporal": "during and after deployment must be",
+      "manner": "",
+      "condition": "",
+      "article": "chunk8",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-19",
+      "sub_id": "REA-19#4",
+      "split_index": "4"
+    },
+    {
+      "id": "REA-19",
+      "text": "The stakeholders responsible for troubleshooting, managing, operating, overseeing, and controlling the system during and after deployment Document these stakeholders and who's oversight and control responsibilities using the Impact Assessment template.",
+      "actor": "The stakeholders responsible for troubleshooting, managing, operating, overseeing, and controlling the system during and after deployment",
+      "modal": "must be documented",
+      "action": "manage",
+      "action_list": [
+        "manage"
+      ],
+      "object": "troubleshooting , managing , operating , overseeing , and controlling the system during and after deployment Document these stakeholders and who 's oversight and control responsibilities using the Impact Assessment template",
+      "temporal": "during and after deployment Document these",
+      "manner": "",
+      "condition": "",
+      "article": "chunk8",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-19",
+      "sub_id": "REA-19#5",
+      "split_index": "5"
+    },
+    {
+      "id": "REA-20",
+      "text": "[missing_subject] shall identify the system elements (including system UX, features, alerting.",
+      "actor": "[missing_subject]",
+      "modal": "Mandatory(shall)",
+      "action": "identify",
+      "action_list": [
+        "identify"
+      ],
+      "object": "the system elements (including system UX, features, alerting.",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk8",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-20",
+      "sub_id": "REA-20#1",
+      "split_index": "1"
+    },
+    {
+      "id": "REA-20",
+      "text": "Stakeholders must be able to carry out Stakeholders' oversight responsibilities using the system's UX, features, alerting, reporting functions, and educational materials.",
+      "actor": "Stakeholders",
+      "modal": "Mandatory(must)",
+      "action": "be able",
+      "action_list": [
+        "be able"
+      ],
+      "object": "to carry out Stakeholders' oversight responsibilities using the system's UX, features, alerting, reporting functions, and educational materials.",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk8",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-20",
+      "sub_id": "REA-20#2",
+      "split_index": "2"
+    },
+    {
+      "id": "REA-20",
+      "text": "The stakeholders responsible for carrying out their oversight responsibilities' oversight responsibilities must be identified.",
+      "actor": "The stakeholders responsible for carrying out their oversight responsibilities' oversight responsibilities",
+      "modal": "Mandatory(must)",
+      "action": "identified",
+      "action_list": [
+        "identified"
+      ],
+      "object": ".",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk8",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-20",
+      "sub_id": "REA-20#3",
+      "split_index": "3"
+    },
+    {
+      "id": "REA-20",
+      "text": "Stakeholders must be able to understand: 1) the system's intended uses, Stakeholders must be able to understand: 2) how to effectively execute interactions with the system, Stakeholders must be able to understand: 3) how to interpret system behavior and the specific logic of the internal processing steps that led to the output Stakeholders must be able to understand: 4) when and how to override, intervene, or interrupt the system, Stakeholders must be able to understand: 5) how to remain aware of the possible tendency of over-relying on outputs produced by the system (automation bias).",
+      "actor": "Stakeholders",
+      "modal": "Mandatory(must)",
+      "action": "be able",
+      "action_list": [
+        "be able"
+      ],
+      "object": "to understand: 1) the system's intended uses, Stakeholders must be able to understand: 2) how to effectively execute interactions with the system, Stakeholders must be able to understand: 3) how to interpret system behavior and the specific logic of the internal processing steps that led to the output Stakeholders must be able to understand: 4) when and how to override, intervene, or interrupt the system, Stakeholders must be able to understand: 5) how to remain aware of the possible tendency of over-relying on outputs produced by the system (automation bias).",
+      "temporal": "by the system",
+      "manner": "by the system (automation bias)",
+      "condition": "when and how to override",
+      "article": "chunk8",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-20",
+      "sub_id": "REA-20#4",
+      "split_index": "4"
+    },
+    {
+      "id": "REA-20",
+      "text": "Document the system design elements that will support relevant stakeholders for each oversight and control function.",
+      "actor": "Document the system design elements that",
+      "modal": "Mandatory(will)",
+      "action": "support",
+      "action_list": [
+        "support"
+      ],
+      "object": "relevant stakeholders for each oversight and control function.",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk8",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-20",
+      "sub_id": "REA-20#5",
+      "split_index": "5"
+    }
+  ]
+}

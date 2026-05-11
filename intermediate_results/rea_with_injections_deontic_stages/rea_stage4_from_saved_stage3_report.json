@@ -1,0 +1,133 @@
+{
+  "input_root": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections",
+  "output_root": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages",
+  "chunk_count": 14,
+  "results": [
+    {
+      "chunk": "chunk1",
+      "status": "ok",
+      "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections/chunk1/chunk1_requirements.json",
+      "stage1_3_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk1/chunk1_stage1_3.json",
+      "stage4_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk1/chunk1_stage4_slots.json",
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk1/chunk1_deontic_stages.json",
+      "stage4_rows": 3
+    },
+    {
+      "chunk": "chunk2",
+      "status": "ok",
+      "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections/chunk2/chunk2_requirements.json",
+      "stage1_3_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk2/chunk2_stage1_3.json",
+      "stage4_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk2/chunk2_stage4_slots.json",
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk2/chunk2_deontic_stages.json",
+      "stage4_rows": 4
+    },
+    {
+      "chunk": "chunk3",
+      "status": "ok",
+      "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections/chunk3/chunk3_requirements.json",
+      "stage1_3_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk3/chunk3_stage1_3.json",
+      "stage4_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk3/chunk3_stage4_slots.json",
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk3/chunk3_deontic_stages.json",
+      "stage4_rows": 1
+    },
+    {
+      "chunk": "chunk4",
+      "status": "ok",
+      "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections/chunk4/chunk4_requirements.json",
+      "stage1_3_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk4/chunk4_stage1_3.json",
+      "stage4_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk4/chunk4_stage4_slots.json",
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk4/chunk4_deontic_stages.json",
+      "stage4_rows": 3
+    },
+    {
+      "chunk": "chunk5",
+      "status": "ok",
+      "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections/chunk5/chunk5_requirements.json",
+      "stage1_3_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk5/chunk5_stage1_3.json",
+      "stage4_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk5/chunk5_stage4_slots.json",
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk5/chunk5_deontic_stages.json",
+      "stage4_rows": 3
+    },
+    {
+      "chunk": "chunk6",
+      "status": "ok",
+      "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections/chunk6/chunk6_requirements.json",
+      "stage1_3_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk6/chunk6_stage1_3.json",
+      "stage4_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk6/chunk6_stage4_slots.json",
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk6/chunk6_deontic_stages.json",
+      "stage4_rows": 3
+    },
+    {
+      "chunk": "chunk7",
+      "status": "ok",
+      "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections/chunk7/chunk7_requirements.json",
+      "stage1_3_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk7/chunk7_stage1_3.json",
+      "stage4_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk7/chunk7_stage4_slots.json",
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk7/chunk7_deontic_stages.json",
+      "stage4_rows": 13
+    },
+    {
+      "chunk": "chunk8",
+      "status": "ok",
+      "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections/chunk8/chunk8_requirements.json",
+      "stage1_3_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk8/chunk8_stage1_3.json",
+      "stage4_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk8/chunk8_stage4_slots.json",
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk8/chunk8_deontic_stages.json",
+      "stage4_rows": 7
+    },
+    {
+      "chunk": "chunk9",
+      "status": "ok",
+      "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections/chunk9/chunk9_requirements.json",
+      "stage1_3_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk9/chunk9_stage1_3.json",
+      "stage4_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk9/chunk9_stage4_slots.json",
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk9/chunk9_deontic_stages.json",
+      "stage4_rows": 9
+    },
+    {
+      "chunk": "chunk10",
+      "status": "ok",
+      "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections/chunk10/chunk10_requirements.json",
+      "stage1_3_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk10/chunk10_stage1_3.json",
+      "stage4_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk10/chunk10_stage4_slots.json",
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk10/chunk10_deontic_stages.json",
+      "stage4_rows": 12
+    },
+    {
+      "chunk": "chunk11",
+      "status": "ok",
+      "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections/chunk11/chunk11_requirements.json",
+      "stage1_3_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk11/chunk11_stage1_3.json",
+      "stage4_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk11/chunk11_stage4_slots.json",
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk11/chunk11_deontic_stages.json",
+      "stage4_rows": 11
+    },
+    {
+      "chunk": "chunk12",
+      "status": "ok",
+      "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections/chunk12/chunk12_requirements.json",
+      "stage1_3_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk12/chunk12_stage1_3.json",
+      "stage4_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk12/chunk12_stage4_slots.json",
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk12/chunk12_deontic_stages.json",
+      "stage4_rows": 10
+    },
+    {
+      "chunk": "chunk13",
+      "status": "ok",
+      "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections/chunk13/chunk13_requirements.json",
+      "stage1_3_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk13/chunk13_stage1_3.json",
+      "stage4_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk13/chunk13_stage4_slots.json",
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk13/chunk13_deontic_stages.json",
+      "stage4_rows": 6
+    },
+    {
+      "chunk": "chunk14",
+      "status": "ok",
+      "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections/chunk14/chunk14_requirements.json",
+      "stage1_3_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk14/chunk14_stage1_3.json",
+      "stage4_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk14/chunk14_stage4_slots.json",
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk14/chunk14_deontic_stages.json",
+      "stage4_rows": 4
+    }
+  ]
+}

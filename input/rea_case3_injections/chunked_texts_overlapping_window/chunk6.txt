@@ -1,0 +1,28 @@
+Use the methods defined in requirement A3.4 to conduct evaluations.
+Document the pre-release results of the evaluations.
+Determine and document how often ongoing evaluation should be conducted to continue supporting this Goal.
+Determine and document how often ongoing evaluation should be conducted to continue supporting this Goal.
+REA-13: Provide documentation to customers which describes the system's: 1) intended uses,
+Provide documentation to customers which describes the system's: 2) evidence that the system is fit for purpose for each intended use.
+When the system is a platform service made available to external customers or partners, include this information in the required Transparency Note.
+
+If an intended use is not supported by evidence, or if evidence comes to light that refutes that the system is fit for purpose for the intended use at any point in the system's use: 1) remove the intended use from customer-facing materials and make current customers aware of the issue, take action to close the identified gap, or discontinue the system,
+If an intended use is not supported by evidence, or if evidence comes to light that refutes that the system is fit for purpose for the intended use at any point in the system's use: 1) remove the intended use from customer-facing materials and make current customers aware of the issue, take action to close the identified gap, or discontinue the system,
+2) revise documentation related to the intended use,
+3) publish the revised documentation to customers.
+When the system is a platform service made available to external customers or partners, include this information in the required Transparency Note.
+REA-13: Communicate with care about system benefits; follow any applicable guidance from your attorney.
+follow any applicable guidance from your attorney.
+
+Microsoft AI systems are subject to appropriate data governance and management practices. Applies to: All AI systems.
+Define and document data requirements with respect to the system's intended uses, stakeholders, and the geographic areas where the system will be deployed.
+Define and document data requirements with respect to the system's intended uses, stakeholders, and the geographic areas where the system will be deployed.
+Document these requirements in the Impact Assessment.
+REA-15: Define and document procedures for the collection and processing of data, to include annotation, labelling, cleaning, enrichment, and aggregation, where relevant.
+Define and document procedures for the collection and processing of data, to include annotation, labelling, cleaning, enrichment, and aggregation, where relevant.
+REA-16: If you plan to use existing data sets to train the system, assess the quantity and suitability of available data sets that will be needed by the system in relation to the data requirements defined in A4.1.
+A4.3 Document this assessment in the Impact Assessment.
+REA-17: Define and document methods for evaluating data to be used by the system against the requirements defined in A4.1.
+Define and document methods for evaluating data to be used by the system against the requirements defined in A4.1.
+REA-18: Evaluate all data sets using the methods defined in requirement A4.4.
+Document the results of the evaluation.

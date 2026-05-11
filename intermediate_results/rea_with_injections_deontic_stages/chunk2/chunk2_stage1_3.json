@@ -1,0 +1,70 @@
+{
+  "chunk": "chunk2",
+  "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections/chunk2/chunk2_requirements.json",
+  "stage1_output": [
+    {
+      "ID": "REA-02#1",
+      "REA_ID": "REA-02",
+      "Text": "Name, email address, content of the comment: this data is collected when you leave a comment and displayed on the Website. If you leave a comment on the Website, your name and email address will also be saved in cookies."
+    },
+    {
+      "ID": "REA-02#2",
+      "REA_ID": "REA-02",
+      "Text": "These are for your convenience so that you do not have to fill in your details again when you leave another comment."
+    },
+    {
+      "ID": "REA-02#3",
+      "REA_ID": "REA-02",
+      "Text": "These cookies will be saved on your computer until you delete them."
+    },
+    {
+      "ID": "REA-02#4",
+      "REA_ID": "REA-02",
+      "Text": "IP and browser user agent string: this data is collected when you leave a comment."
+    }
+  ],
+  "stage2_output": [
+    {
+      "ID": "REA-02#1",
+      "REA_ID": "REA-02",
+      "Text": "Name, email address, content of the comment: this data is collected when you leave a comment and displayed on the Website. If you leave a comment on the Website, your name and email address will also be saved in cookies.",
+      "Modal": "Mandatory(will)"
+    },
+    {
+      "ID": "REA-02#2",
+      "REA_ID": "REA-02",
+      "Text": "These are for your convenience so that you do not have to fill in your details again when you leave another comment.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-02#3",
+      "REA_ID": "REA-02",
+      "Text": "These cookies will be saved on your computer until you delete them.",
+      "Modal": "Mandatory(will)"
+    },
+    {
+      "ID": "REA-02#4",
+      "REA_ID": "REA-02",
+      "Text": "IP and browser user agent string: this data is collected when you leave a comment.",
+      "Modal": ""
+    }
+  ],
+  "stage3_output": [
+    {
+      "ID": "REA-02#1",
+      "Active_Recovered_Text": "Name, email address, content of the comment: this data is collected when you leave a comment and displayed on the Website. If you leave a comment on the Website, your name and email address will also be saved in cookies."
+    },
+    {
+      "ID": "REA-02#2",
+      "Active_Recovered_Text": "These are for your convenience so that you do not have to fill in your details again when you leave another comment."
+    },
+    {
+      "ID": "REA-02#3",
+      "Active_Recovered_Text": "These cookies will be saved on the User's computer until These cookies delete them."
+    },
+    {
+      "ID": "REA-02#4",
+      "Active_Recovered_Text": "The User SHALL collect IP and browser user agent string: this data when leaving a comment."
+    }
+  ]
+}

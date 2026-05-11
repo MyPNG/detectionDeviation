@@ -1,0 +1,116 @@
+{
+  "mode": "merged_injection_analysis",
+  "expected_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/rea_no_injections.json",
+  "actual_file": "/Users/my/Documents/projects/detectionDeviation/evaluation/artifact3/with_reranker/merged_llm_extracted_normalized.json",
+  "table": [
+    {
+      "ID": "art13(1)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Non-Deviation (False)",
+      "Result": "False Negative (Miss)"
+    },
+    {
+      "ID": "art13(2)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Non-Deviation (False)",
+      "Result": "False Negative (Miss)"
+    },
+    {
+      "ID": "art14(1)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Non-Deviation (False)",
+      "Result": "False Negative (Miss)"
+    },
+    {
+      "ID": "art14(2)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Non-Deviation (False)",
+      "Result": "False Negative (Miss)"
+    },
+    {
+      "ID": "art15(1)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Deviation (True)",
+      "Result": "True Positive (Hit)"
+    },
+    {
+      "ID": "art17(1)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Non-Deviation (False)",
+      "Result": "False Negative (Miss)"
+    },
+    {
+      "ID": "art21(1)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Deviation (True)",
+      "Result": "True Positive (Hit)"
+    },
+    {
+      "ID": "art21(2)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Deviation (True)",
+      "Result": "True Positive (Hit)"
+    },
+    {
+      "ID": "art6(1)",
+      "Gold Standard": "Deviation (True)",
+      "System Output": "Deviation (True)",
+      "Result": "True Positive (Hit)"
+    },
+    {
+      "ID": "art77(1)",
+      "Gold Standard": "Non-Deviation (False)",
+      "System Output": "Deviation (True)",
+      "Result": "False Positive (Alarm)"
+    },
+    {
+      "ID": "Others (31)",
+      "Gold Standard": "Non-Deviation (False)",
+      "System Output": "Non-Deviation (False)",
+      "Result": "True Negatives",
+      "tn_keys": [
+        "art14(3)",
+        "art14(4)",
+        "art14(5)",
+        "art15(2)",
+        "art15(3)",
+        "art17(1)righttoerasure(grounds)",
+        "art17(2)",
+        "art17(3)",
+        "art18(1)",
+        "art18(2)",
+        "art18(2)consequencesofrestrictionofprocessing",
+        "art20(1)",
+        "art20(1)righttodataportability",
+        "art20(2)",
+        "art21(2)righttoobjecttodirectmarketing(inclprofiling)",
+        "art21(3)",
+        "art21(3)effectofobjectiontodirectmarketing",
+        "art40(3)",
+        "art42(2)",
+        "art45(1)",
+        "art45(2)",
+        "art45(7)",
+        "art46(1)",
+        "art46(2)",
+        "art46(3)",
+        "art49(1)",
+        "art49(2)",
+        "art6(1)lawfulnessofprocessing(legalbases)",
+        "art77(2)",
+        "art78(2)",
+        "art9(3)"
+      ]
+    }
+  ],
+  "calculation_matrix": {
+    "tp": 4,
+    "fp": 1,
+    "fn": 5,
+    "tn": 31,
+    "precision": 0.8,
+    "recall": 0.444444,
+    "f1": 0.571429,
+    "accuracy": 0.853659
+  }
+}

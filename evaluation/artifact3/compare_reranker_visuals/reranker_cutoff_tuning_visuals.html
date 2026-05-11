@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Reranker Cutoff Tuning Visualizer</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 24px; color: #111; background: #fafafa; }
+    h1 { margin-bottom: 8px; }
+    .meta { margin-bottom: 18px; color: #444; }
+    .card { border: 1px solid #ddd; border-radius: 10px; padding: 14px; margin-bottom: 18px; background: #fff; }
+    code { background: #f5f5f5; padding: 1px 4px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <h1>Reranker Cutoff Tuning Report</h1>
+  <div class="meta">
+    <div><strong>Input JSON:</strong> <code>/Users/my/Documents/projects/detectionDeviation/evaluation/artifact3/with_reranker/reranker_cutoff_tuning_reranked100.json</code></div>
+    <div><strong>Objective:</strong> <code>f1</code></div>
+    <div><strong>Best k:</strong> <code>4</code></div>
+  </div>
+  <div class="card"><svg viewBox="0 0 1100 360" width="1100" height="360" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" width="100%" height="100%" fill="#fff"/>
+<text x="70" y="26" font-size="18" font-family="Arial" fill="#111">Cutoff Sweep: Precision / Recall / F1 vs k</text>
+<line x1="70" y1="275" x2="1080" y2="275" stroke="#444"/>
+<line x1="70" y1="45" x2="70" y2="275" stroke="#444"/>
+<line x1="70" y1="275.00" x2="1080" y2="275.00" stroke="#eee"/>
+<text x="62" y="279.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">0.00</text>
+<line x1="70" y1="229.00" x2="1080" y2="229.00" stroke="#eee"/>
+<text x="62" y="233.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">0.20</text>
+<line x1="70" y1="183.00" x2="1080" y2="183.00" stroke="#eee"/>
+<text x="62" y="187.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">0.40</text>
+<line x1="70" y1="137.00" x2="1080" y2="137.00" stroke="#eee"/>
+<text x="62" y="141.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">0.60</text>
+<line x1="70" y1="91.00" x2="1080" y2="91.00" stroke="#eee"/>
+<text x="62" y="95.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">0.80</text>
+<line x1="70" y1="45.00" x2="1080" y2="45.00" stroke="#eee"/>
+<text x="62" y="49.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">1.00</text>
+<text x="70.00" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=1</text>
+<text x="123.16" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=2</text>
+<text x="176.32" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=3</text>
+<text x="229.47" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=4</text>
+<text x="282.63" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=5</text>
+<text x="335.79" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=6</text>
+<text x="388.95" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=7</text>
+<text x="442.11" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=8</text>
+<text x="495.26" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=9</text>
+<text x="548.42" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=10</text>
+<text x="601.58" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=11</text>
+<text x="654.74" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=12</text>
+<text x="707.89" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=13</text>
+<text x="761.05" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=14</text>
+<text x="814.21" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=15</text>
+<text x="867.37" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=16</text>
+<text x="920.53" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=17</text>
+<text x="973.68" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=18</text>
+<text x="1026.84" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=19</text>
+<text x="1080.00" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=20</text>
+<polyline fill="none" stroke="#c95f5f" stroke-width="2.4" points="70.00,200.41 123.16,216.64 176.32,216.37 229.47,220.15 282.63,224.37 335.79,229.25 388.95,232.54 442.11,235.42 495.26,238.12 548.42,238.87 601.58,238.81 654.74,241.18 707.89,242.65 761.05,244.77 814.21,246.17 867.37,246.91 920.53,248.27 973.68,248.56 1026.84,249.44 1080.00,250.32"/>
+<circle cx="70.00" cy="200.41" r="2.2" fill="#c95f5f"/>
+<circle cx="123.16" cy="216.64" r="2.2" fill="#c95f5f"/>
+<circle cx="176.32" cy="216.37" r="2.2" fill="#c95f5f"/>
+<circle cx="229.47" cy="220.15" r="2.2" fill="#c95f5f"/>
+<circle cx="282.63" cy="224.37" r="2.2" fill="#c95f5f"/>
+<circle cx="335.79" cy="229.25" r="2.2" fill="#c95f5f"/>
+<circle cx="388.95" cy="232.54" r="2.2" fill="#c95f5f"/>
+<circle cx="442.11" cy="235.42" r="2.2" fill="#c95f5f"/>
+<circle cx="495.26" cy="238.12" r="2.2" fill="#c95f5f"/>
+<circle cx="548.42" cy="238.87" r="2.2" fill="#c95f5f"/>
+<circle cx="601.58" cy="238.81" r="2.2" fill="#c95f5f"/>
+<circle cx="654.74" cy="241.18" r="2.2" fill="#c95f5f"/>
+<circle cx="707.89" cy="242.65" r="2.2" fill="#c95f5f"/>
+<circle cx="761.05" cy="244.77" r="2.2" fill="#c95f5f"/>
+<circle cx="814.21" cy="246.17" r="2.2" fill="#c95f5f"/>
+<circle cx="867.37" cy="246.91" r="2.2" fill="#c95f5f"/>
+<circle cx="920.53" cy="248.27" r="2.2" fill="#c95f5f"/>
+<circle cx="973.68" cy="248.56" r="2.2" fill="#c95f5f"/>
+<circle cx="1026.84" cy="249.44" r="2.2" fill="#c95f5f"/>
+<circle cx="1080.00" cy="250.32" r="2.2" fill="#c95f5f"/>
+<polyline fill="none" stroke="#2f9d57" stroke-width="2.4" points="70.00,231.19 123.16,212.94 176.32,180.08 229.47,161.83 282.63,147.22 335.79,143.57 388.95,143.57 442.11,139.92 495.26,136.27 548.42,125.32 601.58,110.71 654.74,110.71 707.89,107.06 761.05,107.06 814.21,103.41 867.37,99.76 920.53,99.76 973.68,92.46 1026.84,92.46 1080.00,92.46"/>
+<circle cx="70.00" cy="231.19" r="2.2" fill="#2f9d57"/>
+<circle cx="123.16" cy="212.94" r="2.2" fill="#2f9d57"/>
+<circle cx="176.32" cy="180.08" r="2.2" fill="#2f9d57"/>
+<circle cx="229.47" cy="161.83" r="2.2" fill="#2f9d57"/>
+<circle cx="282.63" cy="147.22" r="2.2" fill="#2f9d57"/>
+<circle cx="335.79" cy="143.57" r="2.2" fill="#2f9d57"/>
+<circle cx="388.95" cy="143.57" r="2.2" fill="#2f9d57"/>
+<circle cx="442.11" cy="139.92" r="2.2" fill="#2f9d57"/>
+<circle cx="495.26" cy="136.27" r="2.2" fill="#2f9d57"/>
+<circle cx="548.42" cy="125.32" r="2.2" fill="#2f9d57"/>
+<circle cx="601.58" cy="110.71" r="2.2" fill="#2f9d57"/>
+<circle cx="654.74" cy="110.71" r="2.2" fill="#2f9d57"/>
+<circle cx="707.89" cy="107.06" r="2.2" fill="#2f9d57"/>
+<circle cx="761.05" cy="107.06" r="2.2" fill="#2f9d57"/>
+<circle cx="814.21" cy="103.41" r="2.2" fill="#2f9d57"/>
+<circle cx="867.37" cy="99.76" r="2.2" fill="#2f9d57"/>
+<circle cx="920.53" cy="99.76" r="2.2" fill="#2f9d57"/>
+<circle cx="973.68" cy="92.46" r="2.2" fill="#2f9d57"/>
+<circle cx="1026.84" cy="92.46" r="2.2" fill="#2f9d57"/>
+<circle cx="1080.00" cy="92.46" r="2.2" fill="#2f9d57"/>
+<polyline fill="none" stroke="#4d7fcf" stroke-width="2.4" points="70.00,219.80 123.16,214.85 176.32,202.52 229.47,201.11 282.63,202.48 335.79,207.13 388.95,210.81 442.11,213.78 495.26,216.73 548.42,216.79 601.58,215.69 654.74,218.90 707.89,220.74 761.05,223.77 814.21,225.64 867.37,226.58 920.53,228.61 973.68,228.82 1026.84,230.17 1080.00,231.52"/>
+<circle cx="70.00" cy="219.80" r="2.2" fill="#4d7fcf"/>
+<circle cx="123.16" cy="214.85" r="2.2" fill="#4d7fcf"/>
+<circle cx="176.32" cy="202.52" r="2.2" fill="#4d7fcf"/>
+<circle cx="229.47" cy="201.11" r="2.2" fill="#4d7fcf"/>
+<circle cx="282.63" cy="202.48" r="2.2" fill="#4d7fcf"/>
+<circle cx="335.79" cy="207.13" r="2.2" fill="#4d7fcf"/>
+<circle cx="388.95" cy="210.81" r="2.2" fill="#4d7fcf"/>
+<circle cx="442.11" cy="213.78" r="2.2" fill="#4d7fcf"/>
+<circle cx="495.26" cy="216.73" r="2.2" fill="#4d7fcf"/>
+<circle cx="548.42" cy="216.79" r="2.2" fill="#4d7fcf"/>
+<circle cx="601.58" cy="215.69" r="2.2" fill="#4d7fcf"/>
+<circle cx="654.74" cy="218.90" r="2.2" fill="#4d7fcf"/>
+<circle cx="707.89" cy="220.74" r="2.2" fill="#4d7fcf"/>
+<circle cx="761.05" cy="223.77" r="2.2" fill="#4d7fcf"/>
+<circle cx="814.21" cy="225.64" r="2.2" fill="#4d7fcf"/>
+<circle cx="867.37" cy="226.58" r="2.2" fill="#4d7fcf"/>
+<circle cx="920.53" cy="228.61" r="2.2" fill="#4d7fcf"/>
+<circle cx="973.68" cy="228.82" r="2.2" fill="#4d7fcf"/>
+<circle cx="1026.84" cy="230.17" r="2.2" fill="#4d7fcf"/>
+<circle cx="1080.00" cy="231.52" r="2.2" fill="#4d7fcf"/>
+<rect x="70" y="325" width="14" height="14" fill="#c95f5f"/>
+<text x="90" y="336" font-size="12" font-family="Arial" fill="#222">Precision</text>
+<rect x="260" y="325" width="14" height="14" fill="#2f9d57"/>
+<text x="280" y="336" font-size="12" font-family="Arial" fill="#222">Recall</text>
+<rect x="450" y="325" width="14" height="14" fill="#4d7fcf"/>
+<text x="470" y="336" font-size="12" font-family="Arial" fill="#222">F1</text>
+</svg></div>
+  <div class="card"><svg viewBox="0 0 1100 360" width="1100" height="360" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" width="100%" height="100%" fill="#fff"/>
+<text x="70" y="26" font-size="18" font-family="Arial" fill="#111">Cutoff Sweep: TP / FP / FN vs k</text>
+<line x1="70" y1="275" x2="1080" y2="275" stroke="#444"/>
+<line x1="70" y1="45" x2="70" y2="275" stroke="#444"/>
+<line x1="70" y1="275.00" x2="1080" y2="275.00" stroke="#eee"/>
+<text x="62" y="279.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">0.00</text>
+<line x1="70" y1="229.00" x2="1080" y2="229.00" stroke="#eee"/>
+<text x="62" y="233.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">83.20</text>
+<line x1="70" y1="183.00" x2="1080" y2="183.00" stroke="#eee"/>
+<text x="62" y="187.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">166.40</text>
+<line x1="70" y1="137.00" x2="1080" y2="137.00" stroke="#eee"/>
+<text x="62" y="141.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">249.60</text>
+<line x1="70" y1="91.00" x2="1080" y2="91.00" stroke="#eee"/>
+<text x="62" y="95.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">332.80</text>
+<line x1="70" y1="45.00" x2="1080" y2="45.00" stroke="#eee"/>
+<text x="62" y="49.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">416.00</text>
+<text x="70.00" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=1</text>
+<text x="123.16" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=2</text>
+<text x="176.32" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=3</text>
+<text x="229.47" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=4</text>
+<text x="282.63" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=5</text>
+<text x="335.79" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=6</text>
+<text x="388.95" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=7</text>
+<text x="442.11" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=8</text>
+<text x="495.26" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=9</text>
+<text x="548.42" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=10</text>
+<text x="601.58" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=11</text>
+<text x="654.74" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=12</text>
+<text x="707.89" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=13</text>
+<text x="761.05" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=14</text>
+<text x="814.21" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=15</text>
+<text x="867.37" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=16</text>
+<text x="920.53" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=17</text>
+<text x="973.68" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=18</text>
+<text x="1026.84" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=19</text>
+<text x="1080.00" y="293" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">k=20</text>
+<polyline fill="none" stroke="#2f9d57" stroke-width="2.4" points="70.00,268.37 123.16,265.60 176.32,260.62 229.47,257.86 282.63,255.65 335.79,255.10 388.95,255.10 442.11,254.54 495.26,253.99 548.42,252.33 601.58,250.12 654.74,250.12 707.89,249.57 761.05,249.57 814.21,249.01 867.37,248.46 920.53,248.46 973.68,247.36 1026.84,247.36 1080.00,247.36"/>
+<circle cx="70.00" cy="268.37" r="2.2" fill="#2f9d57"/>
+<circle cx="123.16" cy="265.60" r="2.2" fill="#2f9d57"/>
+<circle cx="176.32" cy="260.62" r="2.2" fill="#2f9d57"/>
+<circle cx="229.47" cy="257.86" r="2.2" fill="#2f9d57"/>
+<circle cx="282.63" cy="255.65" r="2.2" fill="#2f9d57"/>
+<circle cx="335.79" cy="255.10" r="2.2" fill="#2f9d57"/>
+<circle cx="388.95" cy="255.10" r="2.2" fill="#2f9d57"/>
+<circle cx="442.11" cy="254.54" r="2.2" fill="#2f9d57"/>
+<circle cx="495.26" cy="253.99" r="2.2" fill="#2f9d57"/>
+<circle cx="548.42" cy="252.33" r="2.2" fill="#2f9d57"/>
+<circle cx="601.58" cy="250.12" r="2.2" fill="#2f9d57"/>
+<circle cx="654.74" cy="250.12" r="2.2" fill="#2f9d57"/>
+<circle cx="707.89" cy="249.57" r="2.2" fill="#2f9d57"/>
+<circle cx="761.05" cy="249.57" r="2.2" fill="#2f9d57"/>
+<circle cx="814.21" cy="249.01" r="2.2" fill="#2f9d57"/>
+<circle cx="867.37" cy="248.46" r="2.2" fill="#2f9d57"/>
+<circle cx="920.53" cy="248.46" r="2.2" fill="#2f9d57"/>
+<circle cx="973.68" cy="247.36" r="2.2" fill="#2f9d57"/>
+<circle cx="1026.84" cy="247.36" r="2.2" fill="#2f9d57"/>
+<circle cx="1080.00" cy="247.36" r="2.2" fill="#2f9d57"/>
+<polyline fill="none" stroke="#c95f5f" stroke-width="2.4" points="70.00,261.18 123.16,247.36 176.32,232.98 229.47,220.26 282.63,206.44 335.79,194.83 388.95,187.09 442.11,176.59 495.26,164.98 548.42,153.37 601.58,141.75 654.74,130.70 707.89,119.64 761.05,106.92 814.21,93.65 867.37,84.25 920.53,73.20 973.68,62.14 1026.84,53.85 1080.00,45.00"/>
+<circle cx="70.00" cy="261.18" r="2.2" fill="#c95f5f"/>
+<circle cx="123.16" cy="247.36" r="2.2" fill="#c95f5f"/>
+<circle cx="176.32" cy="232.98" r="2.2" fill="#c95f5f"/>
+<circle cx="229.47" cy="220.26" r="2.2" fill="#c95f5f"/>
+<circle cx="282.63" cy="206.44" r="2.2" fill="#c95f5f"/>
+<circle cx="335.79" cy="194.83" r="2.2" fill="#c95f5f"/>
+<circle cx="388.95" cy="187.09" r="2.2" fill="#c95f5f"/>
+<circle cx="442.11" cy="176.59" r="2.2" fill="#c95f5f"/>
+<circle cx="495.26" cy="164.98" r="2.2" fill="#c95f5f"/>
+<circle cx="548.42" cy="153.37" r="2.2" fill="#c95f5f"/>
+<circle cx="601.58" cy="141.75" r="2.2" fill="#c95f5f"/>
+<circle cx="654.74" cy="130.70" r="2.2" fill="#c95f5f"/>
+<circle cx="707.89" cy="119.64" r="2.2" fill="#c95f5f"/>
+<circle cx="761.05" cy="106.92" r="2.2" fill="#c95f5f"/>
+<circle cx="814.21" cy="93.65" r="2.2" fill="#c95f5f"/>
+<circle cx="867.37" cy="84.25" r="2.2" fill="#c95f5f"/>
+<circle cx="920.53" cy="73.20" r="2.2" fill="#c95f5f"/>
+<circle cx="973.68" cy="62.14" r="2.2" fill="#c95f5f"/>
+<circle cx="1026.84" cy="53.85" r="2.2" fill="#c95f5f"/>
+<circle cx="1080.00" cy="45.00" r="2.2" fill="#c95f5f"/>
+<polyline fill="none" stroke="#d1a238" stroke-width="2.4" points="70.00,246.80 123.16,249.57 176.32,254.54 229.47,257.31 282.63,259.52 335.79,260.07 388.95,260.07 442.11,260.62 495.26,261.18 548.42,262.84 601.58,265.05 654.74,265.05 707.89,265.60 761.05,265.60 814.21,266.15 867.37,266.71 920.53,266.71 973.68,267.81 1026.84,267.81 1080.00,267.81"/>
+<circle cx="70.00" cy="246.80" r="2.2" fill="#d1a238"/>
+<circle cx="123.16" cy="249.57" r="2.2" fill="#d1a238"/>
+<circle cx="176.32" cy="254.54" r="2.2" fill="#d1a238"/>
+<circle cx="229.47" cy="257.31" r="2.2" fill="#d1a238"/>
+<circle cx="282.63" cy="259.52" r="2.2" fill="#d1a238"/>
+<circle cx="335.79" cy="260.07" r="2.2" fill="#d1a238"/>
+<circle cx="388.95" cy="260.07" r="2.2" fill="#d1a238"/>
+<circle cx="442.11" cy="260.62" r="2.2" fill="#d1a238"/>
+<circle cx="495.26" cy="261.18" r="2.2" fill="#d1a238"/>
+<circle cx="548.42" cy="262.84" r="2.2" fill="#d1a238"/>
+<circle cx="601.58" cy="265.05" r="2.2" fill="#d1a238"/>
+<circle cx="654.74" cy="265.05" r="2.2" fill="#d1a238"/>
+<circle cx="707.89" cy="265.60" r="2.2" fill="#d1a238"/>
+<circle cx="761.05" cy="265.60" r="2.2" fill="#d1a238"/>
+<circle cx="814.21" cy="266.15" r="2.2" fill="#d1a238"/>
+<circle cx="867.37" cy="266.71" r="2.2" fill="#d1a238"/>
+<circle cx="920.53" cy="266.71" r="2.2" fill="#d1a238"/>
+<circle cx="973.68" cy="267.81" r="2.2" fill="#d1a238"/>
+<circle cx="1026.84" cy="267.81" r="2.2" fill="#d1a238"/>
+<circle cx="1080.00" cy="267.81" r="2.2" fill="#d1a238"/>
+<rect x="70" y="325" width="14" height="14" fill="#2f9d57"/>
+<text x="90" y="336" font-size="12" font-family="Arial" fill="#222">TP</text>
+<rect x="260" y="325" width="14" height="14" fill="#c95f5f"/>
+<text x="280" y="336" font-size="12" font-family="Arial" fill="#222">FP</text>
+<rect x="450" y="325" width="14" height="14" fill="#d1a238"/>
+<text x="470" y="336" font-size="12" font-family="Arial" fill="#222">FN</text>
+</svg></div>
+  <div class="card"><svg viewBox="0 0 1100 330" width="1100" height="330" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" width="100%" height="100%" fill="#fff"/>
+<text x="70" y="26" font-size="18" font-family="Arial" fill="#111">Best k=4 Metrics</text>
+<line x1="70" y1="245" x2="1080" y2="245" stroke="#444"/>
+<line x1="70" y1="45" x2="70" y2="245" stroke="#444"/>
+<line x1="70" y1="245.00" x2="1080" y2="245.00" stroke="#eee"/>
+<text x="62" y="249.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">0</text>
+<line x1="70" y1="205.00" x2="1080" y2="205.00" stroke="#eee"/>
+<text x="62" y="209.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">10</text>
+<line x1="70" y1="165.00" x2="1080" y2="165.00" stroke="#eee"/>
+<text x="62" y="169.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">20</text>
+<line x1="70" y1="125.00" x2="1080" y2="125.00" stroke="#eee"/>
+<text x="62" y="129.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">30</text>
+<line x1="70" y1="85.00" x2="1080" y2="85.00" stroke="#eee"/>
+<text x="62" y="89.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">39</text>
+<line x1="70" y1="45.00" x2="1080" y2="45.00" stroke="#eee"/>
+<text x="62" y="49.00" text-anchor="end" font-size="11" font-family="Arial" fill="#666">49</text>
+<rect x="133.97" y="148.08" width="208.73" height="96.92" fill="#4d7fcf" opacity="0.9"/>
+<text x="238.33" y="263" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">Precision</text>
+<text x="238.33" y="142.08" text-anchor="middle" font-size="10" font-family="Arial" fill="#222">23</text>
+<rect x="470.63" y="45.00" width="208.73" height="200.00" fill="#4d7fcf" opacity="0.9"/>
+<text x="575.00" y="263" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">Recall</text>
+<text x="575.00" y="39.00" text-anchor="middle" font-size="10" font-family="Arial" fill="#222">49</text>
+<rect x="807.30" y="114.43" width="208.73" height="130.57" fill="#4d7fcf" opacity="0.9"/>
+<text x="911.67" y="263" text-anchor="middle" font-size="10" font-family="Arial" fill="#333">F1</text>
+<text x="911.67" y="108.43" text-anchor="middle" font-size="10" font-family="Arial" fill="#222">32</text>
+</svg></div>
+</body>
+</html>

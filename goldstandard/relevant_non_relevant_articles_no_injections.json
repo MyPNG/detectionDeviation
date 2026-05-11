@@ -1,0 +1,123 @@
+{
+  "dataset": "rea_no_injections",
+  "source_policy": "input/rea",
+  "relevant_articles": [
+    {
+      "article": "Article 6",
+      "label": "Lawfulness of processing",
+      "relevant": true
+    },
+    {
+      "article": "Article 13",
+      "label": "Information to be provided where data is collected from the data subject",
+      "relevant": true
+    },
+    {
+      "article": "Article 14",
+      "label": "Information to be provided where personal data have not been obtained from the data subject",
+      "relevant": true
+    },
+    {
+      "article": "Article 15",
+      "label": "Right of access by the data subject",
+      "relevant": true
+    },
+    {
+      "article": "Article 17",
+      "label": "Right to erasure ('right to be forgotten')",
+      "relevant": true
+    },
+    {
+      "article": "Article 18",
+      "label": "Right to restriction of processing",
+      "relevant": true
+    },
+    {
+      "article": "Article 20",
+      "label": "Right to data portability",
+      "relevant": true
+    },
+    {
+      "article": "Article 21",
+      "label": "Right to object",
+      "relevant": true
+    },
+    {
+      "article": "Article 46",
+      "label": "Transfers subject to appropriate safeguards",
+      "relevant": true
+    },
+    {
+      "article": "Article 77",
+      "label": "Right to lodge a complaint with a supervisory authority",
+      "relevant": true
+    }
+  ],
+  "non_relevant_articles": [
+    {
+      "article": "Article 8",
+      "label": "Conditions applicable to child's consent in relation to information society services",
+      "relevant": false
+    },
+    {
+      "article": "Article 9",
+      "label": "Processing of special categories of personal data",
+      "relevant": false
+    },
+    {
+      "article": "Article 22",
+      "label": "Automated individual decision-making, including profiling",
+      "relevant": false
+    },
+    {
+      "article": "Article 23",
+      "label": "Restrictions",
+      "relevant": false
+    },
+    {
+      "article": "Article 26",
+      "label": "Joint controllers",
+      "relevant": false
+    },
+    {
+      "article": "Article 40",
+      "label": "Codes of conduct",
+      "relevant": false
+    },
+    {
+      "article": "Article 42",
+      "label": "Certification",
+      "relevant": false
+    },
+    {
+      "article": "Article 45",
+      "label": "Transfers on the basis of an adequacy decision",
+      "relevant": false
+    },
+    {
+      "article": "Article 47",
+      "label": "Binding corporate rules",
+      "relevant": false
+    },
+    {
+      "article": "Article 49",
+      "label": "Derogations for specific situations",
+      "relevant": false
+    },
+    {
+      "article": "Article 78",
+      "label": "Right to an effective judicial remedy against a supervisory authority",
+      "relevant": false
+    },
+    {
+      "article": "Article 89",
+      "label": "Safeguards and derogations for archiving, research, and statistics",
+      "relevant": false
+    },
+    {
+      "article": "Article 93",
+      "label": "Committee procedure",
+      "relevant": false
+    }
+  ]
+}

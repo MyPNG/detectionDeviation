@@ -1,0 +1,287 @@
+{
+  "id": "REA-10#10",
+  "search query": "[missing_subject] their Responsible Release Criteria, Define.",
+  "embedding query": "text: [missing_subject] their Responsible Release Criteria, Define.",
+  "top matches": [
+    {
+      "ID": "REG-085",
+      "article": "Art14(3)",
+      "text": "[missing_subject] The oversight measures shall be ensured through either one or both of the following types of measures:.",
+      "embedding text": "action: ensured object: through either one or both of the following types of measures:. actor: [missing_subject] The oversight measures modal: Mandatory(shall) temporal: following types of measures manner: through either one or both of the following types of measures: text: [missing_subject] The oversight measures shall be ensured through either one or both of the following types of measures:.",
+      "similarity score": 0.35068
+    },
+    {
+      "ID": "REG-026",
+      "article": "Art10(2)",
+      "text": "Training, validation and testing data sets shall be subject to data governance and management practices appropriate for the intended purpose of the high-risk AI system.",
+      "embedding text": "action: be subject object: to data governance and management practices appropriate for the intended purpose of the high-risk AI system. actor: validation and testing data sets modal: Mandatory(shall) text: Training, validation and testing data sets shall be subject to data governance and management practices appropriate for the intended purpose of the high-risk AI system.",
+      "similarity score": 0.320579
+    },
+    {
+      "ID": "REG-035",
+      "article": "Art10(2(h))",
+      "text": "Those practices shall concern in particular: (h) the identification of relevant data gaps or shortcomings that prevent compliance with this Regulation, and how those gaps",
+      "embedding text": "action: concern object: in particular: (h) the identification of relevant data gaps or shortcomings that prevent compliance with this Regulation, and how those gaps actor: Those practices modal: Mandatory(shall) text: Those practices shall concern in particular: (h) the identification of relevant data gaps or shortcomings that prevent compliance with this Regulation, and how those gaps",
+      "similarity score": 0.318676
+    },
+    {
+      "ID": "REG-091",
+      "article": "Art14(4(a))",
+      "text": "The Deployer SHALL be provided with the high-risk AI system in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (a) to properly understand the relevant capacities and limitations of the high-risk AI system and be able to duly monitor the high-risk ai system's operation, including in view of detecting and addressing anomalies, dysfunctions and unexpected performance;",
+      "embedding text": "action: provide object: with the high-risk AI system in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (a) to properly understand the relevant capacities and limitations of the high-risk AI system and be able to duly monitor the high-risk ai system's operation, including in view of detecting and addressing anomalies, dysfunctions and unexpected performance; actor: The Deployer modal: Mandatory(shall) manner: such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate text: The Deployer SHALL be provided with the high-risk AI system in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (a) to properly understand the relevant capacities and limitations of the high-risk AI system and be able to duly monitor the high-risk ai system's operation, including in view of detecting and addressing anomalies, dysfunctions and unexpected performance;",
+      "similarity score": 0.303708
+    },
+    {
+      "ID": "REG-032",
+      "article": "Art10(2(e))",
+      "text": "Those practices shall concern in particular: (e) an assessment of the availability, quantity and suitability of the data sets that are needed;",
+      "embedding text": "action: concern object: in particular: (e) an assessment of the availability, quantity and suitability of the data sets that are needed; actor: Those practices modal: Mandatory(shall) text: Those practices shall concern in particular: (e) an assessment of the availability, quantity and suitability of the data sets that are needed;",
+      "similarity score": 0.298337
+    },
+    {
+      "ID": "REG-003",
+      "article": "Art8(2)",
+      "text": "Where a product contains an AI system, to which the requirements of this Regulation as well as requirements of the Union harmonisation legislation listed in Section A of Annex I apply, providers shall be responsible for ensuring that a product's product is fully compliant with all applicable requirements under applicable Union harmonisation legislation.",
+      "embedding text": "action: be responsible object: for ensuring that a product's product is fully compliant with all applicable requirements under applicable Union harmonisation legislation. actor: providers modal: Mandatory(shall) condition: Where a product contains an AI system text: Where a product contains an AI system, to which the requirements of this Regulation as well as requirements of the Union harmonisation legislation listed in Section A of Annex I apply, providers shall be responsible for ensuring that a product's product is fully compliant with all applicable requirements under applicable Union harmonisation legislation.",
+      "similarity score": 0.296273
+    },
+    {
+      "ID": "REG-167",
+      "article": "Art79(7(b))",
+      "text": "In particular, the market surveillance authorities shall indicate whether the non-compliance is due to one or more of the following: (b) a failure of a high-risk AI system to meet requirements set out in Chapter III, Section 2;",
+      "embedding text": "",
+      "similarity score": 0.290952
+    },
+    {
+      "ID": "REG-093",
+      "article": "Art14(4(c))",
+      "text": "The Deployer SHALL be provided with the high-risk AI system in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (c) to correctly interpret the high-risk AI system's output, taking into account, for example, the interpretation tools and methods available;",
+      "embedding text": "action: provide object: with the high-risk AI system in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (c) to correctly interpret the high-risk AI system's output, taking into account, for example, the interpretation tools and methods available; actor: The Deployer modal: Mandatory(shall) condition: to correctly interpret the high-risk AI system's output manner: such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate text: The Deployer SHALL be provided with the high-risk AI system in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (c) to correctly interpret the high-risk AI system's output, taking into account, for example, the interpretation tools and methods available;",
+      "similarity score": 0.278456
+    },
+    {
+      "ID": "REG-027",
+      "article": "Art10(2)",
+      "text": "Those practices shall concern in particular:",
+      "embedding text": "action: concern object: in particular: actor: Those practices modal: Mandatory(shall) text: Those practices shall concern in particular:",
+      "similarity score": 0.277708
+    },
+    {
+      "ID": "REG-156",
+      "article": "Art79(2)",
+      "text": "Particular attention shall be given to AI systems presenting a risk to vulnerable groups.",
+      "embedding text": "",
+      "similarity score": 0.277201
+    },
+    {
+      "ID": "REG-034",
+      "article": "Art10(2(g))",
+      "text": "Those practices shall concern in particular: (g) appropriate measures to detect, prevent and mitigate possible biases identified according to point (f);",
+      "embedding text": "action: concern object: in particular: (g) appropriate measures to detect, prevent and mitigate possible biases identified according to point (f); actor: Those practices modal: Mandatory(shall) text: Those practices shall concern in particular: (g) appropriate measures to detect, prevent and mitigate possible biases identified according to point (f);",
+      "similarity score": 0.274492
+    },
+    {
+      "ID": "REG-047",
+      "article": "Art10(5(e))",
+      "text": "In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur: (e) the special categories of personal data are deleted once the bias has been corrected or the personal data has reached the end of addition to the provisions set out in Regulations ( EU ) 2016/679 and ( EU ) 2018/1725 and Directive ( EU ) 2016/680 ,'s retention period, whichever comes first;",
+      "embedding text": "action: be met object: in order for such processing to occur: (e) the special categories of personal data are deleted once the bias has been corrected or the personal data has reached the end of addition to the provisions set out in Regulations ( EU ) 2016/679 and ( EU ) 2018/1725 and Directive ( EU ) 2016/680 ,'s retention period, whichever comes first; actor: all the following conditions modal: Mandatory(must) temporal: following conditions must be met in condition: the special categories of personal data are deleted once the bias has been corrected or the personal data has reached the end of addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, whichever comes first text: In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur: (e) the special categories of personal data are deleted once the bias has been corrected or the personal data has reached the end of addition to the provisions set out in Regulations ( EU ) 2016/679 and ( EU ) 2018/1725 and Directive ( EU ) 2016/680 ,'s retention period, whichever comes first;",
+      "similarity score": 0.274084
+    },
+    {
+      "ID": "REG-102",
+      "article": "Art15(4)",
+      "text": "The Provider SHALL take technical and organisational measures in this regard.",
+      "embedding text": "action: take object: technical and organisational measures in this regard. actor: The Provider modal: Mandatory(shall) text: The Provider SHALL take technical and organisational measures in this regard.",
+      "similarity score": 0.272338
+    },
+    {
+      "ID": "REG-029",
+      "article": "Art10(2(b))",
+      "text": "Those practices shall concern in particular: (b) data collection processes and the origin of data, and in the case of personal data, the original purpose of the data collection;",
+      "embedding text": "action: concern object: in particular: (b) data collection processes and the origin of data, and in the case of personal data, the original purpose of the data collection; actor: Those practices modal: Mandatory(shall) text: Those practices shall concern in particular: (b) data collection processes and the origin of data, and in the case of personal data, the original purpose of the data collection;",
+      "similarity score": 0.272147
+    },
+    {
+      "ID": "REG-028",
+      "article": "Art10(2(a))",
+      "text": "Those practices shall concern in particular: (a) the relevant design choices;",
+      "embedding text": "action: concern object: in particular: (a) the relevant design choices; actor: Those practices modal: Mandatory(shall) text: Those practices shall concern in particular: (a) the relevant design choices;",
+      "similarity score": 0.271678
+    },
+    {
+      "ID": "REG-119",
+      "article": "Art26(8)",
+      "text": "and shall inform the provider or the distributor.",
+      "embedding text": "",
+      "similarity score": 0.271128
+    },
+    {
+      "ID": "REG-094",
+      "article": "Art14(4(d))",
+      "text": "The Deployer SHALL be provided with the high-risk AI system in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (d) to decide, in any particular situation, not to use the high-risk AI system or to otherwise disregard, override or reverse the output of the high-risk AI system;",
+      "embedding text": "action: provide object: with the high-risk AI system in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (d) to decide, in any particular situation, not to use the high-risk AI system or to otherwise disregard, override or reverse the output of the high-risk AI system; actor: The Deployer modal: Mandatory(shall) condition: to decide, in any particular situation, not to use the high-risk AI system or to otherwise disregard, override or reverse the output of the high-risk AI system manner: in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate text: The Deployer SHALL be provided with the high-risk AI system in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (d) to decide, in any particular situation, not to use the high-risk AI system or to otherwise disregard, override or reverse the output of the high-risk AI system;",
+      "similarity score": 0.269869
+    },
+    {
+      "ID": "REG-125",
+      "article": "Art26(12)",
+      "text": "Deployers shall cooperate with the relevant competent authorities in any action those authorities take in relation to the high-risk AI system in order to implement this Regulation.",
+      "embedding text": "",
+      "similarity score": 0.267278
+    },
+    {
+      "ID": "REG-016",
+      "article": "Art9(5(b))",
+      "text": "The risk management measures referred to in paragraph 2, point (d), shall be such that the relevant residual risk associated with each hazard, as well as the overall residual risk of the high-risk AI systems is judged to be acceptable. (b) where appropriate, implementation of adequate mitigation and control measures addressing risks that cannot be eliminated;",
+      "embedding text": "action: be such object: that the relevant residual risk associated with each hazard, as well as the overall residual risk of the high-risk AI systems is judged to be acceptable. (b) where appropriate, implementation of adequate mitigation and control measures addressing risks that cannot be eliminated; actor: point (d) modal: Mandatory(shall) condition: where appropriate text: The risk management measures referred to in paragraph 2, point (d), shall be such that the relevant residual risk associated with each hazard, as well as the overall residual risk of the high-risk AI systems is judged to be acceptable. (b) where appropriate, implementation of adequate mitigation and control measures addressing risks that cannot be eliminated;",
+      "similarity score": 0.267148
+    },
+    {
+      "ID": "REG-068",
+      "article": "Art13(3(a))",
+      "text": "The instructions for use shall contain least the following information: (a) the identity and the contact details of the provider and, where applicable, of use's authorised representative;",
+      "embedding text": "action: contain object: least the following information: (a) the identity and the contact details of the provider and, where applicable, of use's authorised representative; actor: The instructions for use modal: Mandatory(shall) temporal: following information condition: where applicable text: The instructions for use shall contain least the following information: (a) the identity and the contact details of the provider and, where applicable, of use's authorised representative;",
+      "similarity score": 0.265843
+    },
+    {
+      "ID": "REG-165",
+      "article": "Art79(7)",
+      "text": "In particular, the market surveillance authorities shall indicate whether the non-compliance is due to one or more of the following:",
+      "embedding text": "",
+      "similarity score": 0.265185
+    },
+    {
+      "ID": "REG-030",
+      "article": "Art10(2(c))",
+      "text": "Those practices shall concern in particular: (c) relevant data-preparation processing operations, such as annotation, labelling, cleaning, updating, enrichment and aggregation;",
+      "embedding text": "action: concern object: in particular: (c) relevant data-preparation processing operations, such as annotation, labelling, cleaning, updating, enrichment and aggregation; actor: Those practices modal: Mandatory(shall) text: Those practices shall concern in particular: (c) relevant data-preparation processing operations, such as annotation, labelling, cleaning, updating, enrichment and aggregation;",
+      "similarity score": 0.264675
+    },
+    {
+      "ID": "REG-090",
+      "article": "Art14(4)",
+      "text": "The Deployer SHALL be provided with the high-risk AI system in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate:",
+      "embedding text": "action: provide object: with the high-risk AI system in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: actor: The Deployer modal: Mandatory(shall) text: The Deployer SHALL be provided with the high-risk AI system in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate:",
+      "similarity score": 0.263315
+    },
+    {
+      "ID": "REG-160",
+      "article": "Art79(4)",
+      "text": "Where the market surveillance authority considers that the non-compliance is not restricted to its national territory, it shall inform the Commission and the other Member States without undue delay of the results of the evaluation and of the actions which it has required the operator to take.",
+      "embedding text": "",
+      "similarity score": 0.26262
+    },
+    {
+      "ID": "REG-074",
+      "article": "Art13(6(v))",
+      "text": "(iv) where applicable, The Provider shall provide information that is relevant to explain the high-risk AI system's output; (v) when appropriate, The Provider shall ensure the high-risk AI system's performance regarding specific persons or groups of persons on which the system is intended to be used;",
+      "embedding text": "action: provide object: information that is relevant to explain the high-risk AI system's output; (v) when appropriate, The Provider shall ensure the high-risk AI system's performance regarding specific persons or groups of persons on which the system is intended to be used; actor: The Provider modal: Mandatory temporal: when appropriate condition: where applicable text: (iv) where applicable, The Provider shall provide information that is relevant to explain the high-risk AI system's output; (v) when appropriate, The Provider shall ensure the high-risk AI system's performance regarding specific persons or groups of persons on which the system is intended to be used;",
+      "similarity score": 0.262103
+    },
+    {
+      "ID": "REG-092",
+      "article": "Art14(4(b))",
+      "text": "The Deployer SHALL provide the high-risk AI system to the deployer in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (b) to remain aware of the possible tendency of automatically relying or over-relying on the output produced by a high-risk AI system (automation bias), in particular for high-risk AI systems used to provide information or recommendations for decisions to be taken by natural persons;",
+      "embedding text": "action: provide object: the high-risk AI system to the deployer in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (b) to remain aware of the possible tendency of automatically relying or over-relying on the output produced by a high-risk AI system (automation bias), in particular for high-risk AI systems used to provide information or recommendations for decisions to be taken by natural persons; actor: The Deployer modal: Mandatory(shall) temporal: by a high-risk AI system condition: to remain aware of the possible tendency of automatically relying or over-relying on the output produced by a high-risk AI system (automation bias), in particular for high-risk AI systems used to provide information or recommendations for decisions to be taken by natural persons manner: by a high-risk AI system (automation bias) text: The Deployer SHALL provide the high-risk AI system to the deployer in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (b) to remain aware of the possible tendency of automatically relying or over-relying on the output produced by a high-risk AI system (automation bias), in particular for high-risk AI systems used to provide information or recommendations for decisions to be taken by natural persons;",
+      "similarity score": 0.257142
+    },
+    {
+      "ID": "REG-132",
+      "article": "Art60(4(b))",
+      "text": "where the market surveillance authority has not provided an answer within 30 days, the testing in real world conditions and the real-world testing plan shall be understood to have been approved",
+      "embedding text": "",
+      "similarity score": 0.256599
+    },
+    {
+      "ID": "REG-140",
+      "article": "Art60(4(h))",
+      "text": "the provider or prospective provider and the deployer or prospective deployer shall conclude an agreement specifying their roles and responsibilities with a view to ensuring compliance with the provisions for testing in real world conditions under this Regulation and under other applicable Union and national law;",
+      "embedding text": "",
+      "similarity score": 0.255099
+    },
+    {
+      "ID": "REG-168",
+      "article": "Art79(7(c))",
+      "text": "In particular, the market surveillance authorities shall indicate whether the non-compliance is due to one or more of the following: (c) shortcomings in the harmonised standards or common specifications referred to in Articles 40 and 41 conferring a presumption of conformity;",
+      "embedding text": "",
+      "similarity score": 0.252848
+    },
+    {
+      "ID": "REG-023",
+      "article": "Art9(9)",
+      "text": "When implementing the risk management system as provided for in paragraphs 1 to 7, providers shall give consideration to whether in view of the risk management system's intended purpose the high-risk AI system is likely to have an adverse impact on persons under the age of 18 and, as appropriate, other vulnerable groups.",
+      "embedding text": "action: give object: consideration to whether in view of the risk management system's intended purpose the high-risk AI system is likely to have an adverse impact on persons under the age of 18 and, as appropriate, other vulnerable groups. actor: providers modal: Mandatory(shall) condition: When implementing the risk management system as provided for in paragraphs 1 to 7 manner: as provided for in paragraphs 1 to 7 text: When implementing the risk management system as provided for in paragraphs 1 to 7, providers shall give consideration to whether in view of the risk management system's intended purpose the high-risk AI system is likely to have an adverse impact on persons under the age of 18 and, as appropriate, other vulnerable groups.",
+      "similarity score": 0.25278
+    },
+    {
+      "ID": "REG-069",
+      "article": "Art13(3(b))",
+      "text": "The instructions for use shall contain least the following information: (b) the characteristics, capabilities and limitations of performance of the high-risk AI system, including:",
+      "embedding text": "action: contain object: least the following information: (b) the characteristics, capabilities and limitations of performance of the high-risk AI system, including: actor: The instructions for use modal: Mandatory(shall) temporal: following information condition: least the following text: The instructions for use shall contain least the following information: (b) the characteristics, capabilities and limitations of performance of the high-risk AI system, including:",
+      "similarity score": 0.252655
+    },
+    {
+      "ID": "REG-107",
+      "article": "Art26(4)",
+      "text": "Without prejudice to paragraphs 1 and 2, to the extent the deployer exercises control over the input data, that deployer shall ensure that input data is relevant and sufficiently representative in view of the intended purpose of the high-risk AI system.",
+      "embedding text": "",
+      "similarity score": 0.252451
+    },
+    {
+      "ID": "REG-002",
+      "article": "Art8(1)",
+      "text": "When ensuring compliance with those requirements, The Provider SHALL take into account the risk management system referred to in Article 9.",
+      "embedding text": "action: take object: into account the risk management system referred to in Article 9. actor: The Provider modal: Mandatory(shall) condition: When ensuring compliance with those requirements text: When ensuring compliance with those requirements, The Provider SHALL take into account the risk management system referred to in Article 9.",
+      "similarity score": 0.252145
+    },
+    {
+      "ID": "REG-041",
+      "article": "Art10(5)",
+      "text": "To the extent that the extent that it is strictly necessary for the purpose of ensuring bias detection and correction in relation to the high - risk AI systems in accordance with paragraph ( 2 ) is strictly necessary for the purpose of ensuring bias detection and correction in relation to the high-risk AI systems in accordance with paragraph (2), points (f) and (g) of this Article, the providers of such systems may exceptionally process special categories of personal data, subject to appropriate safeguards for the fundamental rights and freedoms of natural persons.",
+      "embedding text": "action: exceptionally object: process special categories of personal data, subject to appropriate safeguards for the fundamental rights and freedoms of natural persons. actor: the providers of such systems modal: Permissive(may) condition: for the purpose of ensuring bias detection and correction manner: in accordance with paragraph ( 2 ) is strictly necessary for the purpose of ensuring bias detection and correction in relation to the high-risk AI systems in accordance with paragraph (2) text: To the extent that the extent that it is strictly necessary for the purpose of ensuring bias detection and correction in relation to the high - risk AI systems in accordance with paragraph ( 2 ) is strictly necessary for the purpose of ensuring bias detection and correction in relation to the high-risk AI systems in accordance with paragraph (2), points (f) and (g) of this Article, the providers of such systems may exceptionally process special categories of personal data, subject to appropriate safeguards for the fundamental rights and freedoms of natural persons.",
+      "similarity score": 0.24853
+    },
+    {
+      "ID": "REG-046",
+      "article": "Art10(5(d))",
+      "text": "In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur: (d) the special categories of personal data are not to be transmitted, transferred or otherwise accessed by other parties;",
+      "embedding text": "action: be met object: in order for such processing to occur: (d) the special categories of personal data are not to be transmitted, transferred or otherwise accessed by other parties; actor: all the following conditions modal: Mandatory(must) temporal: following conditions must be met in manner: by other parties text: In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur: (d) the special categories of personal data are not to be transmitted, transferred or otherwise accessed by other parties;",
+      "similarity score": 0.248466
+    },
+    {
+      "ID": "REG-070",
+      "article": "Art13(3(i))",
+      "text": "The instructions for use shall contain least the following information: (i) use's intended purpose;",
+      "embedding text": "action: contain object: least the following information: (i) use's intended purpose; actor: The instructions for use modal: Mandatory(shall) temporal: following information text: The instructions for use shall contain least the following information: (i) use's intended purpose;",
+      "similarity score": 0.246238
+    },
+    {
+      "ID": "REG-112",
+      "article": "Art26(5)",
+      "text": "If the deployer is not able to reach the provider, Article 73 shall apply mutatis mutandis .",
+      "embedding text": "",
+      "similarity score": 0.245685
+    },
+    {
+      "ID": "REG-031",
+      "article": "Art10(2(d))",
+      "text": "Those practices shall concern in particular: (d) the formulation of assumptions, in particular with respect to the information that the data are supposed to measure and represent;",
+      "embedding text": "action: concern object: in particular: (d) the formulation of assumptions, in particular with respect to the information that the data are supposed to measure and represent; actor: Those practices modal: Mandatory(shall) text: Those practices shall concern in particular: (d) the formulation of assumptions, in particular with respect to the information that the data are supposed to measure and represent;",
+      "similarity score": 0.24458
+    },
+    {
+      "ID": "REG-010",
+      "article": "Art9(2(c))",
+      "text": "The risk management system shall comprise the following steps: (c) the evaluation of other risks possibly arising, based on the analysis of data gathered from the post-market monitoring system referred to in Article 72;",
+      "embedding text": "action: comprise object: the following steps: (c) the evaluation of other risks possibly arising, based on the analysis of data gathered from the post-market monitoring system referred to in Article 72; actor: The risk management system modal: Mandatory(shall) temporal: following steps text: The risk management system shall comprise the following steps: (c) the evaluation of other risks possibly arising, based on the analysis of data gathered from the post-market monitoring system referred to in Article 72;",
+      "similarity score": 0.243558
+    },
+    {
+      "ID": "REG-106",
+      "article": "Art26(3)",
+      "text": "The obligations set out in paragraphs 1 and 2, are without prejudice to other deployer obligations under Union or national law and to the deployer's freedom to organise its own resources and activities for the purpose of implementing the human oversight measures indicated by the provider.",
+      "embedding text": "",
+      "similarity score": 0.243375
+    }
+  ]
+}

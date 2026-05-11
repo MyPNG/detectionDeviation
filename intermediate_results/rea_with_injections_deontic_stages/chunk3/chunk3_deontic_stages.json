@@ -1,0 +1,49 @@
+{
+  "chunk": "chunk3",
+  "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections/chunk3/chunk3_requirements.json",
+  "stage1_3_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk3/chunk3_stage1_3.json",
+  "stage1_output": [
+    {
+      "ID": "REA-03#1",
+      "REA_ID": "REA-03",
+      "Text": "Retention period: the aforementioned data is retained indefinitely so we can recognize and approve any follow-up comments automatically instead of holding them in a moderation queue."
+    }
+  ],
+  "stage2_output": [
+    {
+      "ID": "REA-03#1",
+      "REA_ID": "REA-03",
+      "Text": "Retention period: the aforementioned data is retained indefinitely so we can recognize and approve any follow-up comments automatically instead of holding them in a moderation queue.",
+      "Modal": "Permissive(can)"
+    }
+  ],
+  "stage3_output": [
+    {
+      "ID": "REA-03#1",
+      "Active_Recovered_Text": "Retention period: the aforementioned data is retained indefinitely so we can recognize and approve any follow-up comments automatically instead of holding them in a moderation queue."
+    }
+  ],
+  "stage4_output": [
+    {
+      "id": "REA-03",
+      "text": "Retention period: the aforementioned data is retained indefinitely so we can recognize and approve any follow-up comments automatically instead of holding them in a moderation queue.",
+      "actor": "the aforementioned data is retained indefinitely so we",
+      "modal": "Permissive(can)",
+      "action": "recognize",
+      "action_list": [
+        "recognize",
+        "approve"
+      ],
+      "object": "and approve any follow-up comments automatically instead of holding them in a moderation queue.",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk3",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-03",
+      "sub_id": "REA-03#1",
+      "split_index": "1"
+    }
+  ]
+}

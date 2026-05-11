@@ -1,0 +1,383 @@
+[
+  {
+    "reg_id": "REG-021",
+    "clause": "Art15(1)",
+    "deviation_found": true,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk1/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-031",
+    "clause": "Art20(1)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk1/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk4/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk5/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk8/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-035",
+    "clause": "Art21(1)",
+    "deviation_found": true,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk1/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk7/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk8/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk10/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-020",
+    "clause": "Art14(5)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk1/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-010",
+    "clause": "Art9(3)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk1/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk3/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-018",
+    "clause": "Art14(3)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk1/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk5/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-092",
+    "clause": "Art77(1)",
+    "deviation_found": true,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk1/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk2/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-028",
+    "clause": "Art18(1)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk1/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk12/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-025",
+    "clause": "Art17(1)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk1/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk8/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk10/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk11/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-027",
+    "clause": "Art17(3)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk1/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-029",
+    "clause": "Art18(2)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk1/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk3/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk7/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk8/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk10/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk11/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk12/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-032",
+    "clause": "Art20(2)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk1/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-013",
+    "clause": "Art13(2)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk1/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk7/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk10/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-036",
+    "clause": "Art21(2)",
+    "deviation_found": true,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk1/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk10/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk11/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk12/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-017",
+    "clause": "Art14(2)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk1/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk10/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk11/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk12/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-093",
+    "clause": "Art77(2)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk2/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk8/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-095",
+    "clause": "Art78(2)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk2/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-087",
+    "clause": "Art49(2)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk3/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-037",
+    "clause": "Art21(3)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk3/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk7/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk10/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk11/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk12/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-016",
+    "clause": "Art14(1)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk3/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-012",
+    "clause": "Art13(1)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk3/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk5/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk7/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk10/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk12/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-001",
+    "clause": "Art6(1)",
+    "deviation_found": true,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk3/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk4/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk5/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk7/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk8/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk10/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk11/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk12/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-086",
+    "clause": "Art49(1)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk3/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk5/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-022",
+    "clause": "Art15(2)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk4/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk5/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk6/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk7/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk8/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-069",
+    "clause": "Art45(1)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk4/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk5/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk6/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk7/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-080",
+    "clause": "Art46(3)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk4/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk6/llm_extracted_normalized.json",
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk11/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-070",
+    "clause": "Art45(2)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk4/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-062",
+    "clause": "Art42(2)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk6/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-052",
+    "clause": "Art40(3)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk6/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-079",
+    "clause": "Art46(2)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk6/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-026",
+    "clause": "Art17(2)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk7/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-075",
+    "clause": "Art45(7)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk7/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-078",
+    "clause": "Art46(1)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk7/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-023",
+    "clause": "Art15(3)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk8/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-036",
+    "clause": "Art21(2) Right to object to direct marketing (incl. profiling)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk9/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-037",
+    "clause": "Art21(3) Effect of objection to direct marketing",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk9/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-031",
+    "clause": "Art20(1) Right to data portability",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk9/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-025",
+    "clause": "Art17(1) Right to erasure (grounds)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk9/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-029",
+    "clause": "Art18(2) Consequences of restriction of processing",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk9/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-001",
+    "clause": "Art6(1) Lawfulness of processing (legal bases)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk9/llm_extracted_normalized.json"
+    ]
+  },
+  {
+    "reg_id": "REG-019",
+    "clause": "Art14(4)",
+    "deviation_found": false,
+    "sources": [
+      "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_03_reranked/chunk12/llm_extracted_normalized.json"
+    ]
+  }
+]

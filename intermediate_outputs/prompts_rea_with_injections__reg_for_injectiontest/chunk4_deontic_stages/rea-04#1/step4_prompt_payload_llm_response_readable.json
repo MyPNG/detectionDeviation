@@ -1,0 +1,86 @@
+{
+  "id": "REA-04#1",
+  "model": "gpt-4",
+  "prompt_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/prompts_rea_with_injections__reg_for_injectiontest/chunk4_deontic_stages/rea-04#1/step4_prompt_payload.json",
+  "per_reg_comparisons": [
+    {
+      "reg_id": "REG-059",
+      "comparison": {
+        "raw_text_alignment": "partially_aligned",
+        "actor_similarity": "similar",
+        "modal_similarity": "unclear",
+        "action_similarity": "different",
+        "actions_similarity": "different",
+        "object_similarity": "different",
+        "temporal_similarity": "different"
+      },
+      "deviation": true,
+      "types": [
+        "action",
+        "object_scope",
+        "temporal"
+      ],
+      "evidence_rea": [
+        "Based on our legitimate interests, we collect the following data"
+      ],
+      "evidence_reg": [
+        "provide the data subject with all of the following information: (d) where the processing is based on point (f) of Article 6(1)"
+      ],
+      "reasoning_short": "While the REA states that data is being collected based on the actor's legitimate interests, the REG mandates the controller to provide specific information to the data subject when processing is based on a certain cause. The actions and purposes involved are clearly different, and the timeline presented in the REA is not clear.",
+      "confidence": "medium",
+      "needs_more_context": false
+    },
+    {
+      "reg_id": "REG-080",
+      "comparison": {
+        "raw_text_alignment": "not_aligned",
+        "actor_similarity": "similar",
+        "modal_similarity": "unclear",
+        "action_similarity": "different",
+        "actions_similarity": "different",
+        "object_similarity": "different",
+        "temporal_similarity": "different"
+      },
+      "deviation": false,
+      "types": [],
+      "evidence_rea": [
+        "Based on our legitimate interests, we collect the following data"
+      ],
+      "evidence_reg": [
+        "the controller shall provide the data subject with the following information necessary to ensure fair and transparent processing"
+      ],
+      "reasoning_short": "The REA and REG are not aligned as the former is about data collection based on legitimate interests and the latter is about provision of information to ensure fair and transparent processing. The actions, objects, and timing of the actions differ significantly.",
+      "confidence": "medium",
+      "needs_more_context": true
+    },
+    {
+      "reg_id": "REG-055",
+      "comparison": {
+        "raw_text_alignment": "partially_aligned",
+        "actor_similarity": "similar",
+        "modal_similarity": "unclear",
+        "action_similarity": "different",
+        "actions_similarity": "different",
+        "object_similarity": "different",
+        "temporal_similarity": "different"
+      },
+      "deviation": true,
+      "types": [
+        "action",
+        "object_scope",
+        "temporal"
+      ],
+      "evidence_rea": [
+        "Based on our legitimate interests, we collect the following data"
+      ],
+      "evidence_reg": [
+        "provide the data subject with all of the following information"
+      ],
+      "reasoning_short": "The action in the REA text ('collect') differs significantly from the REG text ('provide') and the objects being referred to in both are also distinct. Further, the timings of the action as implied are not aligned.",
+      "confidence": "medium",
+      "needs_more_context": false
+    }
+  ],
+  "overall_deviation": true,
+  "overall_confidence": "medium"
+}

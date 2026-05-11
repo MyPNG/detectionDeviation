@@ -1,0 +1,58 @@
+[
+  {
+    "reg_id": "REG-001",
+    "clause": "Article 6 Paragraph 1",
+    "considered_references": [],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Negation deviation",
+        "analysis": "GDPR: you need a legal \"permission slip\" for every single thing you do with someone's data. Whether you are storing it, looking at it, or sending it to another company, you must have a valid legal reason. Policy: The Policy: The company's policy explicitly says they \"do not require\" a permission slip when they send your data to their service providers."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-012",
+    "clause": "Article 13 Paragraph 1",
+    "considered_references": [
+      "Art6(1)"
+    ],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Negation deviation",
+        "analysis": "GDPR: The GDPR is very strict—every single thing a company does with your data must have a valid legal reason (called a \"legal basis\"). This includes \"processing\" acts like sending your information to an IT company or a cloud provider. Policy: The company's policy explicitly says they \"do not require\" a separate legal reason to pass your data to their service providers."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-013",
+    "clause": "Article 13 Paragraph 2",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": [],
+    "analysis": "The policy chunk accurately fulfill the requirements of Article 13(2)(e) by informing the subject about the necessity of data for contract conclusion and the consequences of withholding data."
+  },
+  {
+    "reg_id": "REG-016",
+    "clause": "Article 14 Paragraph 1",
+    "considered_references": [
+      "Art6(1)"
+    ],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Negation deviation",
+        "analysis": "The GDPR is very strict: every single thing a company does with your data (including sending it to a third-party \"processor\" like a cloud provider or an IT firm) must have a valid legal reason (called a \"legal basis\"). The Policy: The company's policy explicitly states that they \"do not require\" a legal reason to pass your data to their service providers."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-017",
+    "clause": "Article 14 Paragraph 2",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": [],
+    "analysis": ""
+  }
+]

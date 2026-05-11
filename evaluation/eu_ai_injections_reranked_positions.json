@@ -1,0 +1,2080 @@
+{
+  "input_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/eu_ai_injections.json",
+  "reranked_root": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked",
+  "summary": {
+    "unit_count": 36,
+    "matched_realization_count": 70,
+    "expected_reg_hit_count": 128
+  },
+  "results": [
+    {
+      "reg_id": "REG-005",
+      "clause": "Art9(1)",
+      "regulatory_text": "A risk management system shall be established, implemented, documented and maintained in relation to high-risk AI systems.",
+      "deviation_found": true,
+      "realization_checks": [
+        {
+          "realization_text": "A1.1 Do not document the effort using the Impact Assessment template provided by the Office of Responsible AI.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-01",
+              "sub_id": "REA-01#4",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk1_deontic_stages/rea-01#4.json",
+              "search_query": "shall not document the effort using the Impact Assessment template provided by the Office of Responsible AI.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-005",
+                  "rank": 4
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        }
+      ]
+    },
+    {
+      "reg_id": "REG-005",
+      "clause": "Art9(1)",
+      "regulatory_text": "A risk management system shall be established, implemented, documented and maintained in relation to high-risk AI systems.",
+      "deviation_found": false,
+      "realization_checks": [
+        {
+          "realization_text": "Microsoft AI systems are assessed using Impact Assessments. Applies to: All AI systems.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-01",
+              "sub_id": "REA-01#1",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk1_deontic_stages/rea-01#1.json",
+              "search_query": "Microsoft AI systems SHALL be assessed using Impact Assessments.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-005",
+                  "rank": 12
+                }
+              ]
+            },
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-01",
+              "sub_id": "REA-01#2",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk1_deontic_stages/rea-01#2.json",
+              "search_query": "Applies to: All AI systems.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-005",
+                  "rank": 12
+                }
+              ]
+            },
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-04",
+              "sub_id": "REA-04#2",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk2_deontic_stages/rea-04#2.json",
+              "search_query": "All AI systems APPLY TO this requirement.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-005",
+                  "rank": 27
+                }
+              ]
+            },
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-08",
+              "sub_id": "REA-08#2",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk3_deontic_stages/rea-08#2.json",
+              "search_query": "Applies to: All AI systems.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-005",
+                  "rank": 12
+                }
+              ]
+            },
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-14",
+              "sub_id": "REA-14#2",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk7_deontic_stages/rea-14#2.json",
+              "search_query": "Microsoft AI systems Applies to: All AI systems.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-005",
+                  "rank": 39
+                }
+              ]
+            },
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-19",
+              "sub_id": "REA-19#2",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk8_deontic_stages/rea-19#2.json",
+              "search_query": "Applies to: All AI systems.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-005",
+                  "rank": 10
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        },
+        {
+          "realization_text": "A1.1 Assess the impact of the system on people, organizations, and society by completing an Impact Assessment early in the system's development, typically when defining the product vision and requirements.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-01",
+              "sub_id": "REA-01#3",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk1_deontic_stages/rea-01#3.json",
+              "search_query": "shall assess the impact of the system on people, organizations, and society by completing an Impact Assessment early in the system's development, typically when defining the product vision and requirements.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-005",
+                  "rank": 36
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        }
+      ]
+    },
+    {
+      "reg_id": "REG-005",
+      "clause": "Art9(1)",
+      "regulatory_text": "A risk management system shall be established, implemented, documented and maintained in relation to high-risk AI systems.",
+      "deviation_found": false,
+      "realization_checks": [
+        {
+          "realization_text": "A1.3 Update and review the Impact Assessment at least annually, when new intended uses are added, and before advancing to a new release stage.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-03",
+              "sub_id": "REA-03#1",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk1_deontic_stages/rea-03#1.json",
+              "search_query": "The organization SHALL update and review the Impact Assessment at least annually, when new intended uses are added, and before advancing to a new release stage.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-005",
+                  "rank": 1
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        },
+        {
+          "realization_text": "A1.3 Update and review the Impact Assessment at least annually, when new intended uses are added, and before advancing to a new release stage.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-03",
+              "sub_id": "REA-03#1",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk1_deontic_stages/rea-03#1.json",
+              "search_query": "The organization SHALL update and review the Impact Assessment at least annually, when new intended uses are added, and before advancing to a new release stage.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-005",
+                  "rank": 1
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        }
+      ]
+    },
+    {
+      "reg_id": "REG-006",
+      "clause": "Art9(2)",
+      "regulatory_text": "The risk management system shall be understood as a continuous iterative process planned and run throughout the entire lifecycle of a high-risk AI system, requiring regular systematic review and updating. It shall comprise the following steps: a. the identification and analysis of the known and the reasonably foreseeable risks that the high-risk AI system can pose to health, safety or fundamental rights when the high-risk AI system is used in accordance with its intended purpose",
+      "deviation_found": true,
+      "realization_checks": [
+        {
+          "realization_text": "A1.1 Assess the impact of the system on people, organizations, and society by completing an Impact Assessment early in the system's development, typically when defining the product vision and requirements.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-01",
+              "sub_id": "REA-01#3",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk1_deontic_stages/rea-01#3.json",
+              "search_query": "shall assess the impact of the system on people, organizations, and society by completing an Impact Assessment early in the system's development, typically when defining the product vision and requirements.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-006",
+                  "rank": 39
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        }
+      ]
+    },
+    {
+      "reg_id": "REG-006",
+      "clause": "Art9(2)",
+      "regulatory_text": "The risk management system shall be understood as a continuous iterative process planned and run throughout the entire lifecycle of a high-risk AI system, requiring regular systematic review and updating. It shall comprise the following steps: b. the estimation and evaluation of the risks that may emerge when the high-risk AI system is used in accordance with its intended purpose, and under conditions of reasonably foreseeable misuse",
+      "deviation_found": true,
+      "realization_checks": [
+        {
+          "realization_text": "A1.1 Assess the impact of the system on people, organizations, and society by completing an Impact Assessment early in the system's development, typically when defining the product vision and requirements.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-01",
+              "sub_id": "REA-01#3",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk1_deontic_stages/rea-01#3.json",
+              "search_query": "shall assess the impact of the system on people, organizations, and society by completing an Impact Assessment early in the system's development, typically when defining the product vision and requirements.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-006",
+                  "rank": 39
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        },
+        {
+          "realization_text": "A2.2 Answer prompts in the Impact Assessment template to determine whether the system meets the definition of a Sensitive Use.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-06",
+              "sub_id": "REA-06#1",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk2_deontic_stages/rea-06#1.json",
+              "search_query": "The Reviewer SHALL answer prompts in the Impact Assessment template to determine whether the system meets the definition of a Sensitive Use.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-006",
+                  "rank": 47
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        }
+      ]
+    },
+    {
+      "reg_id": "REG-006",
+      "clause": "Art9(2)",
+      "regulatory_text": "The risk management system shall be understood as a continuous iterative process planned and run throughout the entire lifecycle of a high-risk AI system, requiring regular systematic review and updating. It shall comprise the following steps: d. the adoption of appropriate and targeted risk management measures designed to address the risks identified pursuant to point (a)",
+      "deviation_found": true,
+      "realization_checks": [
+        {
+          "realization_text": "Microsoft AI systems are reviewed to identify systems that may have a significant adverse impact on people, organizations, and society, and additional oversight and requirements are applied to those systems.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-04",
+              "sub_id": "REA-04#1",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk2_deontic_stages/rea-04#1.json",
+              "search_query": "Microsoft AI systems are reviewed to identify systems that may have a significant adverse impact on people, organizations, and society, and additional oversight and requirements are applied to those systems.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-006",
+                  "rank": 11
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        },
+        {
+          "realization_text": "A2.1 ... If it does, document this in the Impact Assessment, and follow the requirements for the Restricted Use.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-05",
+              "sub_id": "REA-05#2",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk2_deontic_stages/rea-05#2.json",
+              "search_query": "If this is the case, The Reviewer SHALL document this in the Impact Assessment, and the requirements for the Restricted Use FOLLOW THE REQUIREMENTS FOR THE RESTRICTED USE.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-006",
+                  "rank": 100
+                }
+              ]
+            },
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-05",
+              "sub_id": "REA-05#3",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk2_deontic_stages/rea-05#3.json",
+              "search_query": "The requirements for the Restricted Use SHALL follow the requirements for the Restricted Use.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-006",
+                  "rank": 92
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        },
+        {
+          "realization_text": "A2.2 ... If it does, report it to the Office of Responsible AI, and follow any additional requirements resulting from a Sensitive Uses review.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-06",
+              "sub_id": "REA-06#2",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk2_deontic_stages/rea-06#2.json",
+              "search_query": "If this is the case, The Reviewer SHALL report the system to the Office of Responsible AI, and any additional requirements resulting from a Sensitive Uses review FOLLOW ANY ADDITIONAL REQUIREMENTS RESULTING FROM A SENSITIVE USES REVIEW.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-006",
+                  "rank": 75
+                }
+              ]
+            },
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-06",
+              "sub_id": "REA-06#3",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk2_deontic_stages/rea-06#3.json",
+              "search_query": "Any additional requirements resulting from a Sensitive Uses review SHALL follow any additional requirements resulting from a Sensitive Uses review.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-006",
+                  "rank": 97
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        }
+      ]
+    },
+    {
+      "reg_id": "",
+      "clause": "",
+      "regulatory_text": "In identifying the most appropriate risk management measures, the following shall be ensured: b. where appropriate, implementation of adequate mitigation and control measures addressing risks that cannot be eliminated",
+      "deviation_found": true,
+      "realization_checks": [
+        {
+          "realization_text": "Microsoft AI systems are reviewed to identify systems that may have a significant adverse impact on people, organizations, and society, and additional oversight and requirements are applied to those systems.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-04",
+              "sub_id": "REA-04#1",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk2_deontic_stages/rea-04#1.json",
+              "search_query": "Microsoft AI systems are reviewed to identify systems that may have a significant adverse impact on people, organizations, and society, and additional oversight and requirements are applied to those systems.",
+              "expected_reg_hits": []
+            }
+          ],
+          "expected_reg_found": false
+        },
+        {
+          "realization_text": "A2.1 ... If it does, document this in the Impact Assessment, and follow the requirements for the Restricted Use.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-05",
+              "sub_id": "REA-05#2",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk2_deontic_stages/rea-05#2.json",
+              "search_query": "If this is the case, The Reviewer SHALL document this in the Impact Assessment, and the requirements for the Restricted Use FOLLOW THE REQUIREMENTS FOR THE RESTRICTED USE.",
+              "expected_reg_hits": []
+            },
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-05",
+              "sub_id": "REA-05#3",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk2_deontic_stages/rea-05#3.json",
+              "search_query": "The requirements for the Restricted Use SHALL follow the requirements for the Restricted Use.",
+              "expected_reg_hits": []
+            }
+          ],
+          "expected_reg_found": false
+        },
+        {
+          "realization_text": "A2.2 ... If it does, report it to the Office of Responsible AI, and follow any additional requirements resulting from a Sensitive Uses review.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-06",
+              "sub_id": "REA-06#2",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk2_deontic_stages/rea-06#2.json",
+              "search_query": "If this is the case, The Reviewer SHALL report the system to the Office of Responsible AI, and any additional requirements resulting from a Sensitive Uses review FOLLOW ANY ADDITIONAL REQUIREMENTS RESULTING FROM A SENSITIVE USES REVIEW.",
+              "expected_reg_hits": []
+            },
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-06",
+              "sub_id": "REA-06#3",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk2_deontic_stages/rea-06#3.json",
+              "search_query": "Any additional requirements resulting from a Sensitive Uses review SHALL follow any additional requirements resulting from a Sensitive Uses review.",
+              "expected_reg_hits": []
+            }
+          ],
+          "expected_reg_found": false
+        }
+      ]
+    },
+    {
+      "reg_id": "",
+      "clause": "",
+      "regulatory_text": "In identifying the most appropriate risk management measures, the following shall be ensured: c. provision of information required pursuant to Article 13 and, where appropriate, training to deployers. With a view to eliminating or reducing risks related to the use of the high-risk AI system, due consideration shall be given to the technical knowledge, experience, education, the training to be expected by the deployer, and the presumable context in which the system is intended to be used.",
+      "deviation_found": true,
+      "realization_checks": [
+        {
+          "realization_text": "A3.6 Provide documentation to customers which describes the system's: 1) intended uses,",
+          "matched_reranked_entries": [
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-13",
+              "sub_id": "REA-13#1",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk6_deontic_stages/rea-13#1.json",
+              "search_query": "shall communicate with care about system benefits.",
+              "expected_reg_hits": []
+            }
+          ],
+          "expected_reg_found": false
+        },
+        {
+          "realization_text": "A3.6 Provide documentation to customers which describes the system's: 2) evidence that the system is fit for purpose for each intended use.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-13",
+              "sub_id": "REA-13#1",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk6_deontic_stages/rea-13#1.json",
+              "search_query": "shall communicate with care about system benefits.",
+              "expected_reg_hits": []
+            }
+          ],
+          "expected_reg_found": false
+        },
+        {
+          "realization_text": "A5.3 ... When this is not possible (for example, when Microsoft is not responsible for the system UX), provide guidance on human oversight considerations to the third party responsible for implementing the system elements identified in A5.2.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-21",
+              "sub_id": "REA-21#2",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk9_deontic_stages/rea-21#2.json",
+              "search_query": "When this is not possible, The Third Party responsible for implementing the system elements identified in A5.2 SHALL provide guidance on human oversight considerations to When this is not possible, The Third Party responsible for implementing the system elements identified in A5.2.",
+              "expected_reg_hits": []
+            }
+          ],
+          "expected_reg_found": false
+        },
+        {
+          "realization_text": "A5.4 ... When this is not possible (for example, when Microsoft is not responsible for oversight and control functions), provide guidance on evaluating oversight and control functions to the third party responsible for evaluating oversight or control functions.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-22",
+              "sub_id": "REA-22#3",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk9_deontic_stages/rea-22#3.json",
+              "search_query": "When this is not possible, The Third Party responsible for evaluating oversight or control functions SHALL provide guidance on evaluating oversight and control functions to When this is not possible, The Third Party responsible for evaluating oversight or control functions.",
+              "expected_reg_hits": []
+            }
+          ],
+          "expected_reg_found": false
+        }
+      ]
+    },
+    {
+      "reg_id": "REG-014 | REG-015 | REG-016 | REG-017",
+      "clause": "Art9(5) | Art9(5(a)) | Art9(5(b)) | Art9(5(c))",
+      "regulatory_text": "The risk management measures referred to in paragraph 2, point (d), shall be such that the relevant residual risk associated with each hazard, as well as the overall residual risk of the high-risk AI systems is judged to be acceptable.",
+      "deviation_found": false,
+      "realization_checks": [
+        {
+          "realization_text": "A3.3 Define and document Responsible Release Criteria for this Goal. Include: 1) a concise definition of the problem being solved in the intended use,",
+          "matched_reranked_entries": [
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-10",
+              "sub_id": "REA-10#1",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk4_deontic_stages/rea-10#1.json",
+              "search_query": "The Provider SHALL define and document Responsible Release Criteria for this Goal.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-014",
+                  "rank": 81
+                },
+                {
+                  "reg_id": "REG-015",
+                  "rank": 78
+                },
+                {
+                  "reg_id": "REG-016",
+                  "rank": 74
+                },
+                {
+                  "reg_id": "REG-017",
+                  "rank": 84
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        },
+        {
+          "realization_text": "A5.5 Define and document Responsible Release Criteria to achieve this Goal.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-23",
+              "sub_id": "REA-23#1",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk9_deontic_stages/rea-23#1.json",
+              "search_query": "The Responsible Entity SHALL define and document Responsible Release Criteria to achieve this Goal.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-014",
+                  "rank": 72
+                },
+                {
+                  "reg_id": "REG-015",
+                  "rank": 70
+                },
+                {
+                  "reg_id": "REG-016",
+                  "rank": 64
+                },
+                {
+                  "reg_id": "REG-017",
+                  "rank": 85
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        }
+      ]
+    },
+    {
+      "reg_id": "REG-018",
+      "clause": "Art9(6)",
+      "regulatory_text": "High-risk AI systems shall be tested for the purpose of identifying the most appropriate and targeted risk management measures.",
+      "deviation_found": true,
+      "realization_checks": [
+        {
+          "realization_text": "A5.6 Users shall conduct evaluations defined by requirement A5.4 using a near-release version of the system.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-26",
+              "sub_id": "REA-26#1",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk9_deontic_stages/rea-26#1.json",
+              "search_query": "Users shall conduct evaluations defined by requirement A5.4 using a near-release version of the system.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-018",
+                  "rank": 6
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        }
+      ]
+    },
+    {
+      "reg_id": "REG-019",
+      "clause": "Art9(6)",
+      "regulatory_text": "Testing shall ensure that high-risk AI systems perform consistently for their intended purpose and that they are in compliance with the requirements set out in this Section.",
+      "deviation_found": true,
+      "realization_checks": [
+        {
+          "realization_text": "A5.6 Users shall conduct evaluations defined by requirement A5.4 using a near-release version of the system.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-26",
+              "sub_id": "REA-26#1",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk9_deontic_stages/rea-26#1.json",
+              "search_query": "Users shall conduct evaluations defined by requirement A5.4 using a near-release version of the system.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-019",
+                  "rank": 3
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        },
+        {
+          "realization_text": "A5.6 ... Document the results.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-26",
+              "sub_id": "REA-26#2",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk9_deontic_stages/rea-26#2.json",
+              "search_query": "shall document the results.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-019",
+                  "rank": 9
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        }
+      ]
+    },
+    {
+      "reg_id": "REG-022",
+      "clause": "Art9(8)",
+      "regulatory_text": "Testing shall be carried out against prior defined metrics and probabilistic thresholds that are appropriate to the intended purpose of the high-risk AI system.",
+      "deviation_found": true,
+      "realization_checks": [
+        {
+          "realization_text": "A3.5 Use the methods defined in requirement A3.4 to conduct evaluations.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-12",
+              "sub_id": "REA-12#1",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk6_deontic_stages/rea-12#1.json",
+              "search_query": "The Provider SHALL remove the intended use from customer-facing materials if an intended use is not supported by evidence, or if evidence comes to light that refutes that the system is fit for purpose for the intended use at any point in the system's use.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-022",
+                  "rank": 35
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        },
+        {
+          "realization_text": "A3.5 ... Document the pre-release results of the evaluations.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-12",
+              "sub_id": "REA-12#2",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk6_deontic_stages/rea-12#2.json",
+              "search_query": "The Provider SHALL take action to close the identified gap and make current customers aware of the issue, or discontinue the system.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-022",
+                  "rank": 48
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        },
+        {
+          "realization_text": "A5.6 Users shall conduct evaluations defined by requirement A5.4 using a near-release version of the system.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-26",
+              "sub_id": "REA-26#1",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk9_deontic_stages/rea-26#1.json",
+              "search_query": "Users shall conduct evaluations defined by requirement A5.4 using a near-release version of the system.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-022",
+                  "rank": 1
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        }
+      ]
+    },
+    {
+      "reg_id": "REG-026 | REG-027",
+      "clause": "Art10(2) | Art10(2)",
+      "regulatory_text": "Training, validation and testing data sets shall be subject to data governance and management practices appropriate for the intended purpose of the high-risk AI system. Those practices shall concern in particular: d. the formulation of assumptions, in particular with respect to the information that the data are supposed to measure and represent",
+      "deviation_found": true,
+      "realization_checks": [
+        {
+          "realization_text": "A4.1 Define and document data requirements with respect to the system's intended uses, stakeholders, and the geographic areas where the system will be deployed.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-14",
+              "sub_id": "REA-14#3",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk7_deontic_stages/rea-14#3.json",
+              "search_query": "Define and document data requirements with respect to the system's intended uses, stakeholders, and the geographic areas where the system Define and document data requirements with respect to the system's intended uses, stakeholders, and the geographic areas where the system will be deployed.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-026",
+                  "rank": 21
+                },
+                {
+                  "reg_id": "REG-027",
+                  "rank": 2
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        },
+        {
+          "realization_text": "A4.4 Define and document methods for evaluating data to be used by the system against the requirements defined in A4.1.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-17",
+              "sub_id": "REA-17#1",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk7_deontic_stages/rea-17#1.json",
+              "search_query": "The Provider SHALL define and document methods for evaluating data to be used by the system against the requirements defined in A4.1.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-026",
+                  "rank": 16
+                },
+                {
+                  "reg_id": "REG-027",
+                  "rank": 44
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        }
+      ]
+    },
+    {
+      "reg_id": "REG-026 | REG-027",
+      "clause": "Art10(2) | Art10(2)",
+      "regulatory_text": "Training, validation and testing data sets shall be subject to data governance and management practices appropriate for the intended purpose of the high-risk AI system. Those practices shall concern in particular: a. the relevant design choices",
+      "deviation_found": false,
+      "realization_checks": [
+        {
+          "realization_text": "A4.1 Define and document data requirements with respect to the system's intended uses, stakeholders, and the geographic areas where the system will be deployed.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-14",
+              "sub_id": "REA-14#3",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk7_deontic_stages/rea-14#3.json",
+              "search_query": "Define and document data requirements with respect to the system's intended uses, stakeholders, and the geographic areas where the system Define and document data requirements with respect to the system's intended uses, stakeholders, and the geographic areas where the system will be deployed.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-026",
+                  "rank": 21
+                },
+                {
+                  "reg_id": "REG-027",
+                  "rank": 2
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        }
+      ]
+    },
+    {
+      "reg_id": "REG-026 | REG-027",
+      "clause": "Art10(2) | Art10(2)",
+      "regulatory_text": "Training, validation and testing data sets shall be subject to data governance and management practices appropriate for the intended purpose of the high-risk AI system. Those practices shall concern in particular: b. data collection processes and the origin of data, and in the case of personal data, the original purpose of the data collection",
+      "deviation_found": false,
+      "realization_checks": [
+        {
+          "realization_text": "A4.2 Define and document procedures for the collection and processing of data, to include annotation, labelling, cleaning, enrichment, and aggregation, where relevant.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-15",
+              "sub_id": "REA-15#1",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk7_deontic_stages/rea-15#1.json",
+              "search_query": "The Provider SHALL define and document procedures for the collection and processing of data, to include annotation, labelling, cleaning, enrichment, and aggregation, where relevant.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-026",
+                  "rank": 18
+                },
+                {
+                  "reg_id": "REG-027",
+                  "rank": 21
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        }
+      ]
+    },
+    {
+      "reg_id": "REG-026 | REG-027",
+      "clause": "Art10(2) | Art10(2)",
+      "regulatory_text": "Training, validation and testing data sets shall be subject to data governance and management practices appropriate for the intended purpose of the high-risk AI system. Those practices shall concern in particular: c. relevant data-preparation processing operations, such as annotation, labelling, cleaning, updating, enrichment and aggregation",
+      "deviation_found": false,
+      "realization_checks": [
+        {
+          "realization_text": "A4.2 Define and document procedures for the collection and processing of data, to include annotation, labelling, cleaning, enrichment, and aggregation, where relevant.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-15",
+              "sub_id": "REA-15#1",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk7_deontic_stages/rea-15#1.json",
+              "search_query": "The Provider SHALL define and document procedures for the collection and processing of data, to include annotation, labelling, cleaning, enrichment, and aggregation, where relevant.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-026",
+                  "rank": 18
+                },
+                {
+                  "reg_id": "REG-027",
+                  "rank": 21
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        }
+      ]
+    },
+    {
+      "reg_id": "REG-026 | REG-027",
+      "clause": "Art10(2) | Art10(2)",
+      "regulatory_text": "Training, validation and testing data sets shall be subject to data governance and management practices appropriate for the intended purpose of the high-risk AI system. Those practices shall concern in particular: e. an assessment of the availability, quantity and suitability of the data sets that are needed",
+      "deviation_found": false,
+      "realization_checks": [
+        {
+          "realization_text": "A4.3 If you plan to use existing data sets to train the system, assess the quantity and suitability of available data sets that will be needed by the system in relation to the data requirements defined in A4.1.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-16",
+              "sub_id": "REA-16#1",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk7_deontic_stages/rea-16#1.json",
+              "search_query": "The Deployer SHALL assess the quantity and suitability of available data sets that will be needed by the system in relation to the data requirements defined in A4.1 if you plan to use existing data sets to train the system.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-026",
+                  "rank": 6
+                },
+                {
+                  "reg_id": "REG-027",
+                  "rank": 50
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        },
+        {
+          "realization_text": "A4.5 Evaluate all data sets using the methods defined in requirement A4.4.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-18",
+              "sub_id": "REA-18#1",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk7_deontic_stages/rea-18#1.json",
+              "search_query": "shall evaluate all data sets using the methods defined in requirement A4.4.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-026",
+                  "rank": 5
+                },
+                {
+                  "reg_id": "REG-027",
+                  "rank": 25
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        }
+      ]
+    },
+    {
+      "reg_id": "REG-037",
+      "clause": "Art10(3)",
+      "regulatory_text": "Training, validation and testing data sets shall be relevant, sufficiently representative, and to the best extent possible, free of errors and complete in view of the intended purpose.",
+      "deviation_found": true,
+      "realization_checks": [
+        {
+          "realization_text": "A4.3 If you plan to use existing data sets to train the system, assess the quantity and suitability of available data sets that will be needed by the system in relation to the data requirements defined in A4.1.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-16",
+              "sub_id": "REA-16#1",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk7_deontic_stages/rea-16#1.json",
+              "search_query": "The Deployer SHALL assess the quantity and suitability of available data sets that will be needed by the system in relation to the data requirements defined in A4.1 if you plan to use existing data sets to train the system.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-037",
+                  "rank": 2
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        },
+        {
+          "realization_text": "A4.5 Evaluate all data sets using the methods defined in requirement A4.4.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-18",
+              "sub_id": "REA-18#1",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk7_deontic_stages/rea-18#1.json",
+              "search_query": "shall evaluate all data sets using the methods defined in requirement A4.4.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-037",
+                  "rank": 2
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        }
+      ]
+    },
+    {
+      "reg_id": "REG-040",
+      "clause": "Art10(4)",
+      "regulatory_text": "Data sets shall take into account, to the extent required by the intended purpose, the characteristics or elements that are particular to the specific geographical, contextual, behavioural or functional setting within which the high-risk AI system is intended to be used.",
+      "deviation_found": false,
+      "realization_checks": [
+        {
+          "realization_text": "A4.1 Define and document data requirements with respect to the system's intended uses, stakeholders, and the geographic areas where the system will be deployed.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-14",
+              "sub_id": "REA-14#3",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk7_deontic_stages/rea-14#3.json",
+              "search_query": "Define and document data requirements with respect to the system's intended uses, stakeholders, and the geographic areas where the system Define and document data requirements with respect to the system's intended uses, stakeholders, and the geographic areas where the system will be deployed.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-040",
+                  "rank": 5
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        }
+      ]
+    },
+    {
+      "reg_id": "REG-051",
+      "clause": "Art11(1)",
+      "regulatory_text": "The technical documentation of a high-risk AI system shall be drawn up before that system is placed on the market or put into service and shall be kept up-to date.",
+      "deviation_found": true,
+      "realization_checks": [
+        {
+          "realization_text": "A1.1 Do not document the effort using the Impact Assessment template provided by the Office of Responsible AI.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-01",
+              "sub_id": "REA-01#4",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk1_deontic_stages/rea-01#4.json",
+              "search_query": "shall not document the effort using the Impact Assessment template provided by the Office of Responsible AI.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-051",
+                  "rank": 79
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        },
+        {
+          "realization_text": "A3.4 Document an evaluation plan for each of the performance metrics and error types.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-11",
+              "sub_id": "REA-11#1",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk4_deontic_stages/rea-11#1.json",
+              "search_query": "The Provider SHALL document an evaluation plan for each of the performance metrics and error types.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-051",
+                  "rank": 53
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        },
+        {
+          "realization_text": "A3.5 ... Document the pre-release results of the evaluations.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-12",
+              "sub_id": "REA-12#2",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk6_deontic_stages/rea-12#2.json",
+              "search_query": "The Provider SHALL take action to close the identified gap and make current customers aware of the issue, or discontinue the system.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-051",
+                  "rank": 18
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        }
+      ]
+    },
+    {
+      "reg_id": "REG-051",
+      "clause": "Art11(1)",
+      "regulatory_text": "The technical documentation of a high-risk AI system shall be drawn up before that system is placed on the market or put into service and shall be kept up-to date.",
+      "deviation_found": false,
+      "realization_checks": [
+        {
+          "realization_text": "A1.3 Update and review the Impact Assessment at least annually, when new intended uses are added, and before advancing to a new release stage.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-03",
+              "sub_id": "REA-03#1",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk1_deontic_stages/rea-03#1.json",
+              "search_query": "The organization SHALL update and review the Impact Assessment at least annually, when new intended uses are added, and before advancing to a new release stage.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-051",
+                  "rank": 37
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        },
+        {
+          "realization_text": "A3.7 ... 2) revise documentation related to the intended use,",
+          "matched_reranked_entries": [
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-12",
+              "sub_id": "REA-12#4",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk6_deontic_stages/rea-12#4.json",
+              "search_query": "The Provider SHALL revise documentation related to the intended use and discontinue the system, or publish the revised documentation to customers.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-051",
+                  "rank": 29
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        },
+        {
+          "realization_text": "A3.7 ... 3) publish the revised documentation to customers.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-12",
+              "sub_id": "REA-12#4",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk6_deontic_stages/rea-12#4.json",
+              "search_query": "The Provider SHALL revise documentation related to the intended use and discontinue the system, or publish the revised documentation to customers.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-051",
+                  "rank": 29
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        }
+      ]
+    },
+    {
+      "reg_id": "REG-050",
+      "clause": "Art11(1)",
+      "regulatory_text": "The technical documentation shall be drawn up in such a way as to demonstrate that the high-risk AI system complies with the requirements set out in this Section and to provide national competent authorities and notified bodies with the necessary information in a clear and comprehensive form to assess the compliance of the AI system with those requirements.",
+      "deviation_found": true,
+      "realization_checks": [
+        {
+          "realization_text": "A1.1 ... Document the effort using the Impact Assessment template provided by the Office of Responsible AI.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-01",
+              "sub_id": "REA-01#4",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk1_deontic_stages/rea-01#4.json",
+              "search_query": "shall not document the effort using the Impact Assessment template provided by the Office of Responsible AI.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-050",
+                  "rank": 23
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        },
+        {
+          "realization_text": "A3.4 Document an evaluation plan for each of the performance metrics and error types.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-11",
+              "sub_id": "REA-11#1",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk4_deontic_stages/rea-11#1.json",
+              "search_query": "The Provider SHALL document an evaluation plan for each of the performance metrics and error types.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-050",
+                  "rank": 5
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        },
+        {
+          "realization_text": "A3.5 ... Document the pre-release results of the evaluations.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-12",
+              "sub_id": "REA-12#2",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk6_deontic_stages/rea-12#2.json",
+              "search_query": "The Provider SHALL take action to close the identified gap and make current customers aware of the issue, or discontinue the system.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-050",
+                  "rank": null
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": false
+        }
+      ]
+    },
+    {
+      "reg_id": "REG-066",
+      "clause": "Art13(2)",
+      "regulatory_text": "High-risk AI systems shall be accompanied by instructions for use in an appropriate digital format or otherwise that include concise, complete, correct and clear information that is relevant, accessible and comprehensible to deployers.",
+      "deviation_found": true,
+      "realization_checks": [
+        {
+          "realization_text": "A3.6 Provide documentation to customers which describes the system's: 1) intended uses,",
+          "matched_reranked_entries": [
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-13",
+              "sub_id": "REA-13#1",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk6_deontic_stages/rea-13#1.json",
+              "search_query": "shall communicate with care about system benefits.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-066",
+                  "rank": 1
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        },
+        {
+          "realization_text": "A3.6 Provide documentation to customers which describes the system's: 2) evidence that the system is fit for purpose for each intended use.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-13",
+              "sub_id": "REA-13#1",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk6_deontic_stages/rea-13#1.json",
+              "search_query": "shall communicate with care about system benefits.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-066",
+                  "rank": 1
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        }
+      ]
+    },
+    {
+      "reg_id": "REG-067",
+      "clause": "Art13(3)",
+      "regulatory_text": "The instructions for use shall contain at least the following information: b. the characteristics, capabilities and limitations of performance of the high-risk AI system, including: i. its intended purpose",
+      "deviation_found": true,
+      "realization_checks": [
+        {
+          "realization_text": "A3.6 Provide documentation to customers which describes the system's: 1) intended uses,",
+          "matched_reranked_entries": [
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-13",
+              "sub_id": "REA-13#1",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk6_deontic_stages/rea-13#1.json",
+              "search_query": "shall communicate with care about system benefits.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-067",
+                  "rank": 11
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        },
+        {
+          "realization_text": "A3.6 Provide documentation to customers which describes the system's: 2) evidence that the system is fit for purpose for each intended use.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-13",
+              "sub_id": "REA-13#1",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk6_deontic_stages/rea-13#1.json",
+              "search_query": "shall communicate with care about system benefits.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-067",
+                  "rank": 11
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        },
+        {
+          "realization_text": "A3.1 Document in the Impact Assessment how the system's use will solve the problem posed by each intended use and the specific anticipated benefits and positive outcomes for the user, recognizing that there may be multiple valid ways in which to solve the problem.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-08",
+              "sub_id": "REA-08#3",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk3_deontic_stages/rea-08#3.json",
+              "search_query": "Document in the Impact Assessment how the system's use will solve the problem posed by each intended use and the specific anticipated benefits and positive outcomes for the user, recognizing that there may be multiple valid ways in which to solve the problem.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-067",
+                  "rank": 3
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        }
+      ]
+    },
+    {
+      "reg_id": "REG-067",
+      "clause": "Art13(3)",
+      "regulatory_text": "The instructions for use shall contain at least the following information: b. the characteristics, capabilities and limitations of performance of the high-risk AI system, including: vii. where applicable, information to enable deployers to interpret the output of the high-risk AI system and use it appropriately",
+      "deviation_found": true,
+      "realization_checks": [
+        {
+          "realization_text": "A5.3 ... When this is not possible (for example, when Microsoft is not responsible for the system UX), provide guidance on human oversight considerations to the third party responsible for implementing the system elements identified in A5.2.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-21",
+              "sub_id": "REA-21#2",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk9_deontic_stages/rea-21#2.json",
+              "search_query": "When this is not possible, The Third Party responsible for implementing the system elements identified in A5.2 SHALL provide guidance on human oversight considerations to When this is not possible, The Third Party responsible for implementing the system elements identified in A5.2.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-067",
+                  "rank": 38
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        },
+        {
+          "realization_text": "A5.4 ... When this is not possible (for example, when Microsoft is not responsible for oversight and control functions), provide guidance on evaluating oversight and control functions to the third party responsible for evaluating oversight or control functions.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-22",
+              "sub_id": "REA-22#3",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk9_deontic_stages/rea-22#3.json",
+              "search_query": "When this is not possible, The Third Party responsible for evaluating oversight or control functions SHALL provide guidance on evaluating oversight and control functions to When this is not possible, The Third Party responsible for evaluating oversight or control functions.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-067",
+                  "rank": 23
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        }
+      ]
+    },
+    {
+      "reg_id": "REG-067",
+      "clause": "Art13(3)",
+      "regulatory_text": "The instructions for use shall contain at least the following information: b. the characteristics, capabilities and limitations of performance of the high-risk AI system, including: ii. the level of accuracy, including its metrics, robustness and cybersecurity referred to in Article 15 against which the high-risk AI system has been tested and validated and which can be expected, and any known and foreseeable circumstances that may have an impact on that expected level of accuracy, robustness and cybersecurity",
+      "deviation_found": true,
+      "realization_checks": [
+        {
+          "realization_text": "A3.6 Provide documentation to customers which describes the system's: 2) evidence that the system is fit for purpose for each intended use.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-13",
+              "sub_id": "REA-13#1",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk6_deontic_stages/rea-13#1.json",
+              "search_query": "shall communicate with care about system benefits.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-067",
+                  "rank": 11
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        }
+      ]
+    },
+    {
+      "reg_id": "REG-067",
+      "clause": "Art13(3)",
+      "regulatory_text": "The instructions for use shall contain at least the following information: d. the human oversight measures referred to in Article 14, including the technical measures put in place to facilitate the interpretation of the outputs of the high-risk AI systems by the deployers",
+      "deviation_found": true,
+      "realization_checks": [
+        {
+          "realization_text": "A5.3 ... When this is not possible (for example, when Microsoft is not responsible for the system UX), provide guidance on human oversight considerations to the third party responsible for implementing the system elements identified in A5.2.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-21",
+              "sub_id": "REA-21#2",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk9_deontic_stages/rea-21#2.json",
+              "search_query": "When this is not possible, The Third Party responsible for implementing the system elements identified in A5.2 SHALL provide guidance on human oversight considerations to When this is not possible, The Third Party responsible for implementing the system elements identified in A5.2.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-067",
+                  "rank": 38
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        },
+        {
+          "realization_text": "A5.4 ... When this is not possible (for example, when Microsoft is not responsible for oversight and control functions), provide guidance on evaluating oversight and control functions to the third party responsible for evaluating oversight or control functions.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-22",
+              "sub_id": "REA-22#3",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk9_deontic_stages/rea-22#3.json",
+              "search_query": "When this is not possible, The Third Party responsible for evaluating oversight or control functions SHALL provide guidance on evaluating oversight and control functions to When this is not possible, The Third Party responsible for evaluating oversight or control functions.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-067",
+                  "rank": 23
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        }
+      ]
+    },
+    {
+      "reg_id": "REG-081",
+      "clause": "Art14(1)",
+      "regulatory_text": "High-risk AI systems shall be designed and developed in such a way, including with appropriate human-machine interface tools, that they can be effectively overseen by natural persons during the period in which they are in use.",
+      "deviation_found": true,
+      "realization_checks": [
+        {
+          "realization_text": "Microsoft AI systems include capabilities that support informed human oversight and control. Applies to: All AI systems.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-01",
+              "sub_id": "REA-01#2",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk1_deontic_stages/rea-01#2.json",
+              "search_query": "Applies to: All AI systems.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-081",
+                  "rank": 41
+                }
+              ]
+            },
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-04",
+              "sub_id": "REA-04#2",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk2_deontic_stages/rea-04#2.json",
+              "search_query": "All AI systems APPLY TO this requirement.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-081",
+                  "rank": 8
+                }
+              ]
+            },
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-08",
+              "sub_id": "REA-08#2",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk3_deontic_stages/rea-08#2.json",
+              "search_query": "Applies to: All AI systems.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-081",
+                  "rank": 39
+                }
+              ]
+            },
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-14",
+              "sub_id": "REA-14#2",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk7_deontic_stages/rea-14#2.json",
+              "search_query": "Microsoft AI systems Applies to: All AI systems.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-081",
+                  "rank": 43
+                }
+              ]
+            },
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-19",
+              "sub_id": "REA-19#1",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk8_deontic_stages/rea-19#1.json",
+              "search_query": "Microsoft AI systems include capabilities that support informed human oversight and control.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-081",
+                  "rank": 5
+                }
+              ]
+            },
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-19",
+              "sub_id": "REA-19#2",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk8_deontic_stages/rea-19#2.json",
+              "search_query": "Applies to: All AI systems.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-081",
+                  "rank": 33
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        },
+        {
+          "realization_text": "A5.3 When possible, design the system elements identified in A5.2.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-21",
+              "sub_id": "REA-21#1",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk9_deontic_stages/rea-21#1.json",
+              "search_query": "The Designer SHALL design system elements identified in A5.2 when possible.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-081",
+                  "rank": 2
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        }
+      ]
+    },
+    {
+      "reg_id": "REG-084 | REG-085 | REG-086 | REG-088",
+      "clause": "Art14(3) | Art14(3) | Art14(3(a)) | Art14(3(b))",
+      "regulatory_text": "The oversight measures shall be commensurate with the risks, level of autonomy and context of use of the high-risk AI system, and shall be ensured through either one or both of the following types of measures: a. measures identified and built, when technically feasible, into the high-risk AI system by the provider before it is placed on the market or put into service",
+      "deviation_found": true,
+      "realization_checks": [
+        {
+          "realization_text": "Microsoft AI systems include capabilities that support informed human oversight and control. Applies to: All AI systems.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-01",
+              "sub_id": "REA-01#2",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk1_deontic_stages/rea-01#2.json",
+              "search_query": "Applies to: All AI systems.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-084",
+                  "rank": 37
+                },
+                {
+                  "reg_id": "REG-085",
+                  "rank": null
+                },
+                {
+                  "reg_id": "REG-086",
+                  "rank": 38
+                },
+                {
+                  "reg_id": "REG-088",
+                  "rank": 42
+                }
+              ]
+            },
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-04",
+              "sub_id": "REA-04#2",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk2_deontic_stages/rea-04#2.json",
+              "search_query": "All AI systems APPLY TO this requirement.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-084",
+                  "rank": 45
+                },
+                {
+                  "reg_id": "REG-085",
+                  "rank": 88
+                },
+                {
+                  "reg_id": "REG-086",
+                  "rank": 46
+                },
+                {
+                  "reg_id": "REG-088",
+                  "rank": 47
+                }
+              ]
+            },
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-08",
+              "sub_id": "REA-08#2",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk3_deontic_stages/rea-08#2.json",
+              "search_query": "Applies to: All AI systems.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-084",
+                  "rank": 42
+                },
+                {
+                  "reg_id": "REG-085",
+                  "rank": null
+                },
+                {
+                  "reg_id": "REG-086",
+                  "rank": 43
+                },
+                {
+                  "reg_id": "REG-088",
+                  "rank": 44
+                }
+              ]
+            },
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-14",
+              "sub_id": "REA-14#2",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk7_deontic_stages/rea-14#2.json",
+              "search_query": "Microsoft AI systems Applies to: All AI systems.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-084",
+                  "rank": 13
+                },
+                {
+                  "reg_id": "REG-085",
+                  "rank": 88
+                },
+                {
+                  "reg_id": "REG-086",
+                  "rank": 14
+                },
+                {
+                  "reg_id": "REG-088",
+                  "rank": 15
+                }
+              ]
+            },
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-19",
+              "sub_id": "REA-19#1",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk8_deontic_stages/rea-19#1.json",
+              "search_query": "Microsoft AI systems include capabilities that support informed human oversight and control.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-084",
+                  "rank": 13
+                },
+                {
+                  "reg_id": "REG-085",
+                  "rank": 28
+                },
+                {
+                  "reg_id": "REG-086",
+                  "rank": 14
+                },
+                {
+                  "reg_id": "REG-088",
+                  "rank": 15
+                }
+              ]
+            },
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-19",
+              "sub_id": "REA-19#2",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk8_deontic_stages/rea-19#2.json",
+              "search_query": "Applies to: All AI systems.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-084",
+                  "rank": 34
+                },
+                {
+                  "reg_id": "REG-085",
+                  "rank": 83
+                },
+                {
+                  "reg_id": "REG-086",
+                  "rank": 35
+                },
+                {
+                  "reg_id": "REG-088",
+                  "rank": 36
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        },
+        {
+          "realization_text": "A5.3 When possible, design the system elements identified in A5.2.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-21",
+              "sub_id": "REA-21#1",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk9_deontic_stages/rea-21#1.json",
+              "search_query": "The Designer SHALL design system elements identified in A5.2 when possible.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-084",
+                  "rank": 58
+                },
+                {
+                  "reg_id": "REG-085",
+                  "rank": 91
+                },
+                {
+                  "reg_id": "REG-086",
+                  "rank": 59
+                },
+                {
+                  "reg_id": "REG-088",
+                  "rank": 60
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        }
+      ]
+    },
+    {
+      "reg_id": "REG-084 | REG-085 | REG-086 | REG-088",
+      "clause": "Art14(3) | Art14(3) | Art14(3(a)) | Art14(3(b))",
+      "regulatory_text": "The oversight measures shall be commensurate with the risks, level of autonomy and context of use of the high-risk AI system, and shall be ensured through either one or both of the following types of measures: b. measures identified by the provider before placing the high-risk AI system on the market or putting it into service and that are appropriate to be implemented by the deployer",
+      "deviation_found": true,
+      "realization_checks": [
+        {
+          "realization_text": "A5.4 Define and document the method to be used to evaluate whether each oversight or control function can be accomplished by stakeholders in realistic conditions of system use.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-22",
+              "sub_id": "REA-22#1",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk9_deontic_stages/rea-22#1.json",
+              "search_query": "The Stakeholders SHALL define and document the method to be used to evaluate whether each oversight or control function can be accomplished by The Stakeholders in realistic conditions of system use.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-084",
+                  "rank": 3
+                },
+                {
+                  "reg_id": "REG-085",
+                  "rank": 1
+                },
+                {
+                  "reg_id": "REG-086",
+                  "rank": 4
+                },
+                {
+                  "reg_id": "REG-088",
+                  "rank": 5
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        },
+        {
+          "realization_text": "A5.4 ... Include the metrics or rubrics that will be used in the evaluations.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-22",
+              "sub_id": "REA-22#2",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk9_deontic_stages/rea-22#2.json",
+              "search_query": "The Evaluators SHALL include the metrics or rubrics that will be used in the evaluations.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-084",
+                  "rank": 32
+                },
+                {
+                  "reg_id": "REG-085",
+                  "rank": 23
+                },
+                {
+                  "reg_id": "REG-086",
+                  "rank": 33
+                },
+                {
+                  "reg_id": "REG-088",
+                  "rank": 34
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        },
+        {
+          "realization_text": "A5.5 Define and document Responsible Release Criteria to achieve this Goal.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-23",
+              "sub_id": "REA-23#1",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk9_deontic_stages/rea-23#1.json",
+              "search_query": "The Responsible Entity SHALL define and document Responsible Release Criteria to achieve this Goal.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-084",
+                  "rank": 29
+                },
+                {
+                  "reg_id": "REG-085",
+                  "rank": 50
+                },
+                {
+                  "reg_id": "REG-086",
+                  "rank": 30
+                },
+                {
+                  "reg_id": "REG-088",
+                  "rank": 31
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        },
+        {
+          "realization_text": "A5.6 Users shall conduct evaluations defined by requirement A5.4 using a near-release version of the system.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "exact",
+              "rea_id": "REA-26",
+              "sub_id": "REA-26#1",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk9_deontic_stages/rea-26#1.json",
+              "search_query": "Users shall conduct evaluations defined by requirement A5.4 using a near-release version of the system.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-084",
+                  "rank": 11
+                },
+                {
+                  "reg_id": "REG-085",
+                  "rank": 35
+                },
+                {
+                  "reg_id": "REG-086",
+                  "rank": 12
+                },
+                {
+                  "reg_id": "REG-088",
+                  "rank": 13
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        }
+      ]
+    },
+    {
+      "reg_id": "REG-090",
+      "clause": "Art14(4)",
+      "regulatory_text": "For the purpose of implementing paragraphs 1, 2 and 3, the high-risk AI system shall be provided to the deployer in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: a. to properly understand the relevant capacities and limitations of the high-risk AI system and be able to duly monitor its operation, including in view of detecting and addressing anomalies, dysfunctions and unexpected performance",
+      "deviation_found": true,
+      "realization_checks": [
+        {
+          "realization_text": "Microsoft AI systems include capabilities that support informed human oversight and control. Applies to: All AI systems.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-01",
+              "sub_id": "REA-01#2",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk1_deontic_stages/rea-01#2.json",
+              "search_query": "Applies to: All AI systems.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-090",
+                  "rank": 84
+                }
+              ]
+            },
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-04",
+              "sub_id": "REA-04#2",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk2_deontic_stages/rea-04#2.json",
+              "search_query": "All AI systems APPLY TO this requirement.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-090",
+                  "rank": 11
+                }
+              ]
+            },
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-08",
+              "sub_id": "REA-08#2",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk3_deontic_stages/rea-08#2.json",
+              "search_query": "Applies to: All AI systems.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-090",
+                  "rank": 79
+                }
+              ]
+            },
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-14",
+              "sub_id": "REA-14#2",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk7_deontic_stages/rea-14#2.json",
+              "search_query": "Microsoft AI systems Applies to: All AI systems.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-090",
+                  "rank": 41
+                }
+              ]
+            },
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-19",
+              "sub_id": "REA-19#1",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk8_deontic_stages/rea-19#1.json",
+              "search_query": "Microsoft AI systems include capabilities that support informed human oversight and control.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-090",
+                  "rank": 3
+                }
+              ]
+            },
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-19",
+              "sub_id": "REA-19#2",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk8_deontic_stages/rea-19#2.json",
+              "search_query": "Applies to: All AI systems.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-090",
+                  "rank": 67
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        }
+      ]
+    },
+    {
+      "reg_id": "REG-090",
+      "clause": "Art14(4)",
+      "regulatory_text": "For the purpose of implementing paragraphs 1, 2 and 3, the high-risk AI system shall be provided to the deployer in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: c. to correctly interpret the high-risk AI system's output, taking into account, for example, the interpretation tools and methods available",
+      "deviation_found": true,
+      "realization_checks": [
+        {
+          "realization_text": "A5.2 ... Stakeholders must be able to understand: 3) how to interpret system behavior and the specific logic of the internal processing steps that led to the output",
+          "matched_reranked_entries": [
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-20",
+              "sub_id": "REA-20#4",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk8_deontic_stages/rea-20#4.json",
+              "search_query": "Stakeholders must be able to understand: 1) the system's intended uses, Stakeholders must be able to understand: 2) how to effectively execute interactions with the system, Stakeholders must be able to understand: 3) how to interpret system behavior and the specific logic of the internal processing steps that led to the output Stakeholders must be able to understand: 4) when and how to override, intervene, or interrupt the system, Stakeholders must be able to understand: 5) how to remain aware of the possible tendency of over-relying on outputs produced by the system (automation bias).",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-090",
+                  "rank": 25
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        }
+      ]
+    },
+    {
+      "reg_id": "REG-090",
+      "clause": "Art14(4)",
+      "regulatory_text": "For the purpose of implementing paragraphs 1, 2 and 3, the high-risk AI system shall be provided to the deployer in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: b. to remain aware of the possible tendency of automatically relying or over-relying on the output produced by a high-risk AI system (automation bias), in particular for high-risk AI systems used to provide information or recommendations for decisions to be taken by natural persons",
+      "deviation_found": false,
+      "realization_checks": [
+        {
+          "realization_text": "A5.2 ... Stakeholders must be able to understand: 5) how to remain aware of the possible tendency of over-relying on outputs produced by the system (automation bias).",
+          "matched_reranked_entries": [
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-20",
+              "sub_id": "REA-20#4",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk8_deontic_stages/rea-20#4.json",
+              "search_query": "Stakeholders must be able to understand: 1) the system's intended uses, Stakeholders must be able to understand: 2) how to effectively execute interactions with the system, Stakeholders must be able to understand: 3) how to interpret system behavior and the specific logic of the internal processing steps that led to the output Stakeholders must be able to understand: 4) when and how to override, intervene, or interrupt the system, Stakeholders must be able to understand: 5) how to remain aware of the possible tendency of over-relying on outputs produced by the system (automation bias).",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-090",
+                  "rank": 25
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        }
+      ]
+    },
+    {
+      "reg_id": "REG-090",
+      "clause": "Art14(4)",
+      "regulatory_text": "For the purpose of implementing paragraphs 1, 2 and 3, the high-risk AI system shall be provided to the deployer in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: d. to decide, in any particular situation, not to use the high-risk AI system or to otherwise disregard, override or reverse the output of the high-risk AI system",
+      "deviation_found": false,
+      "realization_checks": [
+        {
+          "realization_text": "A5.2 ... Stakeholders must be able to understand: 4) when and how to override, intervene, or interrupt the system,",
+          "matched_reranked_entries": [
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-20",
+              "sub_id": "REA-20#4",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk8_deontic_stages/rea-20#4.json",
+              "search_query": "Stakeholders must be able to understand: 1) the system's intended uses, Stakeholders must be able to understand: 2) how to effectively execute interactions with the system, Stakeholders must be able to understand: 3) how to interpret system behavior and the specific logic of the internal processing steps that led to the output Stakeholders must be able to understand: 4) when and how to override, intervene, or interrupt the system, Stakeholders must be able to understand: 5) how to remain aware of the possible tendency of over-relying on outputs produced by the system (automation bias).",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-090",
+                  "rank": 25
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        }
+      ]
+    },
+    {
+      "reg_id": "REG-090",
+      "clause": "Art14(4)",
+      "regulatory_text": "For the purpose of implementing paragraphs 1, 2 and 3, the high-risk AI system shall be provided to the deployer in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: e. to intervene in the operation of the high-risk AI system or interrupt the system through a 'stop' button or a similar procedure that allows the system to come to a halt in a safe state",
+      "deviation_found": false,
+      "realization_checks": [
+        {
+          "realization_text": "A5.2 ... Stakeholders must be able to understand: 2) how to effectively execute interactions with the system,",
+          "matched_reranked_entries": [
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-20",
+              "sub_id": "REA-20#4",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk8_deontic_stages/rea-20#4.json",
+              "search_query": "Stakeholders must be able to understand: 1) the system's intended uses, Stakeholders must be able to understand: 2) how to effectively execute interactions with the system, Stakeholders must be able to understand: 3) how to interpret system behavior and the specific logic of the internal processing steps that led to the output Stakeholders must be able to understand: 4) when and how to override, intervene, or interrupt the system, Stakeholders must be able to understand: 5) how to remain aware of the possible tendency of over-relying on outputs produced by the system (automation bias).",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-090",
+                  "rank": 25
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        },
+        {
+          "realization_text": "A5.2 ... Stakeholders must be able to understand: 4) when and how to override, intervene, or interrupt the system,",
+          "matched_reranked_entries": [
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-20",
+              "sub_id": "REA-20#4",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk8_deontic_stages/rea-20#4.json",
+              "search_query": "Stakeholders must be able to understand: 1) the system's intended uses, Stakeholders must be able to understand: 2) how to effectively execute interactions with the system, Stakeholders must be able to understand: 3) how to interpret system behavior and the specific logic of the internal processing steps that led to the output Stakeholders must be able to understand: 4) when and how to override, intervene, or interrupt the system, Stakeholders must be able to understand: 5) how to remain aware of the possible tendency of over-relying on outputs produced by the system (automation bias).",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-090",
+                  "rank": 25
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        }
+      ]
+    },
+    {
+      "reg_id": "REG-099",
+      "clause": "Art15(3)",
+      "regulatory_text": "The levels of accuracy and the relevant accuracy metrics of high-risk AI systems shall be declared in the accompanying instructions of use.",
+      "deviation_found": true,
+      "realization_checks": [
+        {
+          "realization_text": "A3.6 Provide documentation to customers which describes the system's: 2) evidence that the system is fit for purpose for each intended use.",
+          "matched_reranked_entries": [
+            {
+              "match_type": "fuzzy",
+              "rea_id": "REA-13",
+              "sub_id": "REA-13#1",
+              "reranked_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_case3_v3_reranked/chunk6_deontic_stages/rea-13#1.json",
+              "search_query": "shall communicate with care about system benefits.",
+              "expected_reg_hits": [
+                {
+                  "reg_id": "REG-099",
+                  "rank": 14
+                }
+              ]
+            }
+          ],
+          "expected_reg_found": true
+        }
+      ]
+    }
+  ]
+}

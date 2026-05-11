@@ -1,0 +1,154 @@
+{
+  "chunk": "chunk1",
+  "max_hop": 1,
+  "visited_nodes_count": 21,
+  "nodes": [
+    {
+      "ID": "REG-003",
+      "Article": "9",
+      "Paragraph": "1",
+      "Text": "A risk management system shall be established, implemented, documented and maintained in relation to high-risk AI systems.",
+      "system_name": "Art9(1)"
+    },
+    {
+      "ID": "REG-004",
+      "Article": "9",
+      "Paragraph": "2",
+      "Text": "The risk management system shall be understood as a continuous iterative process planned and run throughout the entire lifecycle of a high-risk AI system, requiring regular systematic review and updating. It shall comprise the following steps: (a) the identification and analysis of the known and the reasonably foreseeable risks that the high-risk AI system can pose to health, safety or fundamental rights when the high-risk AI system is used in accordance with its intended purpose; (b) the estimation and evaluation of the risks that may emerge when the high-risk AI system is used in accordance with its intended purpose, and under conditions of reasonably foreseeable misuse; (c) the evaluation of other risks possibly arising, based on the analysis of data gathered from the post-market monitoring system referred to in Article 72; (d) the adoption of appropriate and targeted risk management measures designed to address the risks identified pursuant to point (a).",
+      "system_name": "Art9(2)"
+    },
+    {
+      "ID": "REG-006",
+      "Article": "9",
+      "Paragraph": "4",
+      "Text": "The risk management measures referred to in paragraph 2, point (d), shall give due consideration to the effects and possible interaction resulting from the combined application of the requirements set out in this Section, with a view to minimising risks more effectively while achieving an appropriate balance in implementing the measures to fulfil those requirements.",
+      "system_name": "Art9(4)"
+    },
+    {
+      "ID": "REG-010",
+      "Article": "9",
+      "Paragraph": "8",
+      "Text": "The testing of high-risk AI systems shall be performed, as appropriate, at any time throughout the development process, and, in any event, prior to their being placed on the market or put into service. Testing shall be carried out against prior defined metrics and probabilistic thresholds that are appropriate to the intended purpose of the high-risk AI system.",
+      "system_name": "Art9(8)"
+    },
+    {
+      "ID": "REG-011",
+      "Article": "9",
+      "Paragraph": "9",
+      "Text": "When implementing the risk management system as provided for in paragraphs 1 to 7, providers shall give consideration to whether in view of its intended purpose the high-risk AI system is likely to have an adverse impact on persons under the age of 18 and, as appropriate, other vulnerable groups.",
+      "system_name": "Art9(9)"
+    },
+    {
+      "ID": "REG-025",
+      "Article": "13",
+      "Paragraph": "1",
+      "Text": "High-risk AI systems shall be designed and developed in such a way as to ensure that their operation is sufficiently transparent to enable deployers to interpret a system's output and use it appropriately. An appropriate type and degree of transparency shall be ensured with a view to achieving compliance with the relevant obligations of the provider and deployer set out in Section 3.",
+      "system_name": "Art13(1)"
+    },
+    {
+      "ID": "REG-026",
+      "Article": "13",
+      "Paragraph": "2",
+      "Text": "High-risk AI systems shall be accompanied by instructions for use in an appropriate digital format or otherwise that include concise, complete, correct and clear information that is relevant, accessible and comprehensible to deployers.",
+      "system_name": "Art13(2)"
+    },
+    {
+      "ID": "REG-027",
+      "Article": "13",
+      "Paragraph": "3",
+      "Text": "The instructions for use shall contain at least the following information: (a) the identity and the contact details of the provider and, where applicable, of its authorised representative; (b) the characteristics, capabilities and limitations of performance of the high-risk AI system, including: (i) its intended purpose;",
+      "system_name": "Art13(3)"
+    },
+    {
+      "ID": "REG-028",
+      "Article": "13",
+      "Paragraph": "4",
+      "Text": "(ii) the level of accuracy, including its metrics, robustness and cybersecurity referred to in Article 15 against which the high-risk AI system has been tested and validated and which can be expected, and any known and foreseeable circumstances that may have an impact on that expected level of accuracy, robustness and cybersecurity;",
+      "system_name": "Art13(4)"
+    },
+    {
+      "ID": "REG-029",
+      "Article": "13",
+      "Paragraph": "5",
+      "Text": "(iii) any known or foreseeable circumstance, related to the use of the high-risk AI system in accordance with its intended purpose or under conditions of reasonably foreseeable misuse, which may lead to risks to the health and safety or fundamental rights referred to in Article 9(2);",
+      "system_name": "Art13(5)"
+    },
+    {
+      "ID": "REG-030",
+      "Article": "13",
+      "Paragraph": "6",
+      "Text": "(iv) where applicable, the technical capabilities and characteristics of the high-risk AI system to provide information that is relevant to explain its output; (v) when appropriate, its performance regarding specific persons or groups of persons on which the system is intended to be used;",
+      "system_name": "Art13(6)"
+    },
+    {
+      "ID": "REG-031",
+      "Article": "13",
+      "Paragraph": "7",
+      "Text": "(vi) when appropriate, specifications for the input data, or any other relevant information in terms of the training, validation and testing data sets used, taking into account the intended purpose of the high-risk AI system;",
+      "system_name": "Art13(7)"
+    },
+    {
+      "ID": "REG-032",
+      "Article": "13",
+      "Paragraph": "8",
+      "Text": "(vii) where applicable, information to enable deployers to interpret the output of the high-risk AI system and use it appropriately; (c) the changes to the high-risk AI system and its performance which have been pre-determined by the provider at the moment of the initial conformity assessment, if any; (d) the human oversight measures referred to in Article 14, including the technical measures put in place to facilitate the interpretation of the outputs of the high-risk AI systems by the deployers; (e) the computational and hardware resources needed, the expected lifetime of the high-risk AI system and any necessary maintenance and care measures, including their frequency, to ensure the proper functioning of that AI system, including as regards software updates; (f) where relevant, a description of the mechanisms included within the high-risk AI system that allows deployers to properly collect, store and interpret the logs in accordance with Article 12.",
+      "system_name": "Art13(8)"
+    },
+    {
+      "ID": "REG-038",
+      "Article": "15",
+      "Paragraph": "1",
+      "Text": "High-risk AI systems shall be designed and developed in such a way that they achieve an appropriate level of accuracy, robustness, and cybersecurity, and that they perform consistently in those respects throughout their lifecycle.",
+      "system_name": "Art15(1)"
+    },
+    {
+      "ID": "REG-039",
+      "Article": "15",
+      "Paragraph": "2",
+      "Text": "To address the technical aspects of how to measure the appropriate levels of accuracy and robustness set out in paragraph 1 and any other relevant performance metrics, the Commission shall, in cooperation with relevant stakeholders and organisations such as metrology and benchmarking authorities, encourage, as appropriate, the development of benchmarks and measurement methodologies.",
+      "system_name": "Art15(2)"
+    },
+    {
+      "ID": "REG-040",
+      "Article": "15",
+      "Paragraph": "3",
+      "Text": "The levels of accuracy and the relevant accuracy metrics of high-risk AI systems shall be declared in the accompanying instructions of use.",
+      "system_name": "Art15(3)"
+    },
+    {
+      "ID": "REG-041",
+      "Article": "15",
+      "Paragraph": "4",
+      "Text": "High-risk AI systems shall be as resilient as possible regarding errors, faults or inconsistencies that may occur within the system or the environment in which the system operates, in particular due to their interaction with natural persons or other systems. Technical and organisational measures shall be taken in this regard. The robustness of high-risk AI systems may be achieved through technical redundancy solutions, which may include backup or fail-safe plans. High-risk AI systems that continue to learn after being placed on the market or put into service shall be developed in such a way as to eliminate or reduce as far as possible the risk of possibly biased outputs influencing input for future operations (feedback loops), and as to ensure that any such feedback loops are duly addressed with appropriate mitigation measures.",
+      "system_name": "Art15(4)"
+    },
+    {
+      "ID": "REG-042",
+      "Article": "15",
+      "Paragraph": "5",
+      "Text": "High-risk AI systems shall be resilient against attempts by unauthorised third parties to alter their use, outputs or performance by exploiting system vulnerabilities. The technical solutions aiming to ensure the cybersecurity of high-risk AI systems shall be appropriate to the relevant circumstances and the risks. The technical solutions to address AI specific vulnerabilities shall include, where appropriate, measures to prevent, detect, respond to, resolve and control for attacks trying to manipulate the training data set (data poisoning), or pre-trained components used in training (model poisoning), inputs designed to cause the AI model to make a mistake (adversarial examples or model evasion), confidentiality attacks or model flaws.",
+      "system_name": "Art15(5)"
+    },
+    {
+      "ID": "REG-044",
+      "Article": "26",
+      "Paragraph": "2",
+      "Text": "Deployers shall assign human oversight to natural persons who have the necessary competence, training and authority, as well as the necessary support.",
+      "system_name": "Art26(2)"
+    },
+    {
+      "ID": "REG-051",
+      "Article": "26",
+      "Paragraph": "9",
+      "Text": "Where applicable, deployers of high-risk AI systems shall use the information provided under Article 13 of this Regulation to comply with their obligation to carry out a data protection impact assessment under Article 35 of Regulation (EU) 2016/679 or Article 27 of Directive (EU) 2016/680.",
+      "system_name": "Art26(9)"
+    },
+    {
+      "ID": "REG-064",
+      "Article": "79",
+      "Paragraph": "1",
+      "Text": "AI systems presenting a risk shall be understood as a 'product presenting a risk' as defined in Article 3, point 19 of Regulation (EU) 2019/1020, in so far as they present risks to the health or safety, or to fundamental rights, of persons.",
+      "system_name": "Art79(1)"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "title": "",
+    "rea_id": "REA-01",
+    "text": "Microsoft AI systems are assessed using Impact Assessments. Applies to: All AI systems. Assess the impact of the system on people, organizations, and society by completing an Impact Assessment early in the system's development, typically when defining the product vision and requirements. Do not document the effort using the Impact Assessment template provided by the Office of Responsible AI."
+  },
+  {
+    "title": "",
+    "rea_id": "REA-02",
+    "text": "Review the completed Impact Assessment with the reviewers identified according to your organization's compliance process before development starts. Secure all required approvals from those reviewers."
+  },
+  {
+    "title": "",
+    "rea_id": "REA-03",
+    "text": "Update and review the Impact Assessment at least annually, when new intended uses are added, and before advancing to a new release stage. Update and review the Impact Assessment at least annually, when new intended uses are added, and before advancing to a new release stage."
+  }
+]

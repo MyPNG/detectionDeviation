@@ -1,0 +1,28 @@
+Microsoft AI systems are reviewed to identify systems that may have a significant adverse impact on people, organizations, and society, and additional oversight and requirements are applied to those systems. Applies to: All AI systems.
+Microsoft AI systems are reviewed to identify systems that may have a significant adverse impact on people, organizations, and society, and additional oversight and requirements are applied to those systems.
+REA-05: Review defined Restricted Uses to determine whether the system meets the definition of any Restricted Use.
+If it does, document this in the Impact Assessment, and follow the requirements for the Restricted Use.
+If it does, document this in the Impact Assessment, and follow the requirements for the Restricted Use.
+REA-06: Answer prompts in the Impact Assessment template to determine whether the system meets the definition of a Sensitive Use.
+If it does, report it to the Office of Responsible AI, and follow any additional requirements resulting from a Sensitive Uses review.
+If it does, report it to the Office of Responsible AI, and follow any additional requirements resulting from a Sensitive Uses review.
+REA-07: Review your systems at least annually against the definitions for Sensitive Uses and Restricted Uses.
+If there are systems that meet the criteria for Sensitive Uses, report them to the Office of Responsible AI.
+If there are systems that meet the criteria for Restricted Uses, notify the Office of Responsible AI.
+
+Microsoft AI systems are fit for purpose in the sense that they provide valid solutions for the problems they are designed to solve. Applies to: All AI systems.
+Document in the Impact Assessment how the system's use will solve the problem posed by each intended use and the specific anticipated benefits and positive outcomes for the user, recognizing that there may be multiple valid ways in which to solve the problem.
+REA-09: Define and document for each model in the AI system: 1) the model's proposed inputs and how well they represent the concepts they are intended to represent; include analysis of the limitations of this representation,
+Define and document for each model in the AI system: 1) the model's proposed inputs and how well they represent the concepts they are intended to represent; include analysis of the limitations of this representation,
+Define and document for each model in the AI system: 2) the model's proposed output and how well it represents the concept it is intended to represent; include analysis of the limitations of this representation,
+Define and document for each model in the AI system: 2) the model's proposed output and how well it represents the concept it is intended to represent; include analysis of the limitations of this representation,
+Define and document for each model in the AI system: 3) limitations to the generalizability of the resulting model based on the training and testing data that will be used.
+Define and document for each model in the AI system: 3) limitations to the generalizability of the resulting model based on the training and testing data that will be used.
+
+Define and document Responsible Release Criteria for this Goal. Include: 1) a concise definition of the problem being solved in the intended use,
+Define and document Responsible Release Criteria for this Goal. Include: 1) a concise definition of the problem being solved in the intended use,
+Define and document Responsible Release Criteria for this Goal. Include: 2) performance metrics and their Responsible Release Criteria,
+Define and document Responsible Release Criteria for this Goal. Include: 2) performance metrics and their Responsible Release Criteria,
+Define and document Responsible Release Criteria for this Goal. Include: 3) error types and their Responsible Release Criteria.
+Define and document Responsible Release Criteria for this Goal. Include: 3) error types and their Responsible Release Criteria.
+REA-11:Document an evaluation plan for each of the performance metrics and error types.

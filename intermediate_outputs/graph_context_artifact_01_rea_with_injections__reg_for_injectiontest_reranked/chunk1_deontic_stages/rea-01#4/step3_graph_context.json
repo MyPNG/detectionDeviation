@@ -1,0 +1,267 @@
+{
+  "rea_sub_id": "REA-01#4",
+  "reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_rea_with_injections__reg_for_injectiontest_reranked/chunk1_deontic_stages/rea-01#4.json",
+  "top_k": 3,
+  "max_hop": 1,
+  "allowed_relations": [
+    "AND",
+    "PARENT_CHILD",
+    "REFERENCES",
+    "SEQUENCE"
+  ],
+  "main_constraints": [
+    {
+      "id": "REG-072",
+      "clause": "Art17(1(b))",
+      "text": "Where personal data have not been obtained from the data subject, the controller shall provide the data subject with the following information: (a) the identity and the contact details of the controller and, where applicable, of the controller's representative;",
+      "rerank_rank": 1,
+      "rerank_score": 0.0655001550912857,
+      "similarity_score": 0.62496,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-071",
+          "main_reg_id": "REG-072",
+          "edge_type": "PARENT_CHILD",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-071 -> REG-072",
+          "text": "Where personal data have not been obtained from the data subject, the controller shall provide the data subject with the following information:",
+          "article": "14",
+          "paragraph": "1"
+        },
+        {
+          "id": "REG-073",
+          "main_reg_id": "REG-072",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-072 <- REG-071 -> REG-073",
+          "text": "Where personal data have not been obtained from the data subject, the controller shall provide the data subject with the following information: (b) the contact details of the data protection officer, where applicable;",
+          "article": "14",
+          "paragraph": "1(b)"
+        },
+        {
+          "id": "REG-074",
+          "main_reg_id": "REG-072",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-072 <- REG-071 -> REG-074",
+          "text": "Where personal data have not been obtained from the data subject, the controller shall provide the data subject with the following information: (c) the purposes of the processing for which the personal data are intended as well as the legal basis for the processing;",
+          "article": "14",
+          "paragraph": "1(c)"
+        },
+        {
+          "id": "REG-075",
+          "main_reg_id": "REG-072",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-072 <- REG-071 -> REG-075",
+          "text": "Where personal data have not been obtained from the data subject, the controller shall provide the data subject with the following information: (d) the categories of personal data concerned;",
+          "article": "14",
+          "paragraph": "1(d)"
+        },
+        {
+          "id": "REG-076",
+          "main_reg_id": "REG-072",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-072 <- REG-071 -> REG-076",
+          "text": "Where personal data have not been obtained from the data subject, the controller shall provide the data subject with the following information: (e) the recipients or categories of recipients of the personal data, if any;",
+          "article": "14",
+          "paragraph": "1(e)"
+        },
+        {
+          "id": "REG-077",
+          "main_reg_id": "REG-072",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-072 <- REG-071 -> REG-077",
+          "text": "Where personal data have not been obtained from the data subject, the controller shall provide the data subject with the following information: (f) where applicable, that the controller intends to transfer personal data to a recipient in a third country or internat­ ional organisation and the existence or absence of an adequacy decision by the Commission, or in the case of transfers referred to in Article 46 or 47, or the second subparagraph of Article 49(1), reference to the appropriate or suitable safeguards and the means to obtain a copy of them or where they have been made available.",
+          "article": "14",
+          "paragraph": "1(f)"
+        }
+      ]
+    },
+    {
+      "id": "REG-121",
+      "clause": "Art34(4)",
+      "text": "and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies: (d) the personal data have been unlawfully processed;",
+      "rerank_rank": 2,
+      "rerank_score": 0.049319326877593994,
+      "similarity_score": 0.562224,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-120",
+          "main_reg_id": "REG-121",
+          "edge_type": "AND",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-121 -> REG-120",
+          "text": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay",
+          "article": "17",
+          "paragraph": "1(d)"
+        },
+        {
+          "id": "REG-113",
+          "main_reg_id": "REG-121",
+          "edge_type": "PARENT_CHILD",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-113 -> REG-121",
+          "text": "and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies:",
+          "article": "17",
+          "paragraph": "1"
+        },
+        {
+          "id": "REG-114",
+          "main_reg_id": "REG-121",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-121 <- REG-113 -> REG-114",
+          "text": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay",
+          "article": "17",
+          "paragraph": "1(a)"
+        },
+        {
+          "id": "REG-115",
+          "main_reg_id": "REG-121",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-121 <- REG-113 -> REG-115",
+          "text": "and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies: (a) the personal data are no longer necessary in relation to the purposes for which they were collected or otherwise processed;",
+          "article": "17",
+          "paragraph": "1(a)"
+        },
+        {
+          "id": "REG-116",
+          "main_reg_id": "REG-121",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-121 <- REG-113 -> REG-116",
+          "text": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay",
+          "article": "17",
+          "paragraph": "1(b)"
+        },
+        {
+          "id": "REG-117",
+          "main_reg_id": "REG-121",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-121 <- REG-113 -> REG-117",
+          "text": "and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies: (b) the data subject withdraws consent on which the processing is based according to point (a) of Article 6(1), or point (a) of Article 9(2), and where there is no other legal ground for the processing;",
+          "article": "17",
+          "paragraph": "1(b)"
+        },
+        {
+          "id": "REG-118",
+          "main_reg_id": "REG-121",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-121 <- REG-113 -> REG-118",
+          "text": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay",
+          "article": "17",
+          "paragraph": "1(c)"
+        },
+        {
+          "id": "REG-119",
+          "main_reg_id": "REG-121",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-121 <- REG-113 -> REG-119",
+          "text": "and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies: (c) the data subject objects to the processing pursuant to Article 21(1) and there are no overriding legitimate grounds for the processing, or the data subject objects to the processing pursuant to Article 21(2);",
+          "article": "17",
+          "paragraph": "1(c)"
+        },
+        {
+          "id": "REG-122",
+          "main_reg_id": "REG-121",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-121 <- REG-113 -> REG-122",
+          "text": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay",
+          "article": "17",
+          "paragraph": "1(e)"
+        },
+        {
+          "id": "REG-123",
+          "main_reg_id": "REG-121",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-121 <- REG-113 -> REG-123",
+          "text": "and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies: (e) the personal data have to be erased for compliance with a legal obligation in Union or Member State law to which the controller is subject;",
+          "article": "17",
+          "paragraph": "1(e)"
+        },
+        {
+          "id": "REG-124",
+          "main_reg_id": "REG-121",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-121 <- REG-113 -> REG-124",
+          "text": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay",
+          "article": "17",
+          "paragraph": "1(f)"
+        },
+        {
+          "id": "REG-125",
+          "main_reg_id": "REG-121",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-121 <- REG-113 -> REG-125",
+          "text": "and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies: (f) the personal data have been collected in relation to the offer of information society services referred to in Article 8(1).",
+          "article": "17",
+          "paragraph": "1(f)"
+        }
+      ]
+    },
+    {
+      "id": "REG-046",
+      "clause": "Art13(2(c))",
+      "text": "If the controller does not take action on the request of the data subject, the controller shall inform the data subject without delay and at the latest within one month of receipt of the request of the reasons for not taking action and on the possibility of lodging a complaint with a supervisory authority and seeking a judicial remedy.",
+      "rerank_rank": 3,
+      "rerank_score": 0.0408552810549736,
+      "similarity_score": 0.590269,
+      "already_visited_before_expansion": false,
+      "graph_context": []
+    }
+  ],
+  "visited_reg_ids": [
+    "REG-046",
+    "REG-071",
+    "REG-072",
+    "REG-073",
+    "REG-074",
+    "REG-075",
+    "REG-076",
+    "REG-077",
+    "REG-113",
+    "REG-114",
+    "REG-115",
+    "REG-116",
+    "REG-117",
+    "REG-118",
+    "REG-119",
+    "REG-120",
+    "REG-121",
+    "REG-122",
+    "REG-123",
+    "REG-124",
+    "REG-125"
+  ]
+}

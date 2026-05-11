@@ -1,0 +1,221 @@
+{
+  "chunk": "chunk13",
+  "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections/chunk13/chunk13_requirements.json",
+  "stage1_3_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk13/chunk13_stage1_3.json",
+  "stage1_output": [
+    {
+      "ID": "REA-13#1",
+      "REA_ID": "REA-13",
+      "Text": "•"
+    },
+    {
+      "ID": "REA-13#2",
+      "REA_ID": "REA-13",
+      "Text": "The right to object."
+    },
+    {
+      "ID": "REA-13#3",
+      "REA_ID": "REA-13",
+      "Text": "The right to object is strictly limited to our use of your email for direct marketing campaigns."
+    },
+    {
+      "ID": "REA-13#4",
+      "REA_ID": "REA-13",
+      "Text": "Notification of data breaches: In the event of a data breach, we will first issue a press release to the public media, and subsequently notify the supervisory authority."
+    },
+    {
+      "ID": "REA-13#5",
+      "REA_ID": "REA-13",
+      "Text": "We will ensure the supervisory authority is notified within 12 hours of our team becoming aware of the breach."
+    },
+    {
+      "ID": "REA-13#6",
+      "REA_ID": "REA-13",
+      "Text": "The right to lodge a complaint with a supervisory authority"
+    }
+  ],
+  "stage2_output": [
+    {
+      "ID": "REA-13#1",
+      "REA_ID": "REA-13",
+      "Text": "•",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-13#2",
+      "REA_ID": "REA-13",
+      "Text": "The right to object.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-13#3",
+      "REA_ID": "REA-13",
+      "Text": "The right to object is strictly limited to our use of your email for direct marketing campaigns.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-13#4",
+      "REA_ID": "REA-13",
+      "Text": "Notification of data breaches: In the event of a data breach, we will first issue a press release to the public media, and subsequently notify the supervisory authority.",
+      "Modal": "Mandatory(will)"
+    },
+    {
+      "ID": "REA-13#5",
+      "REA_ID": "REA-13",
+      "Text": "We will ensure the supervisory authority is notified within 12 hours of our team becoming aware of the breach.",
+      "Modal": "Mandatory(will)"
+    },
+    {
+      "ID": "REA-13#6",
+      "REA_ID": "REA-13",
+      "Text": "The right to lodge a complaint with a supervisory authority",
+      "Modal": ""
+    }
+  ],
+  "stage3_output": [
+    {
+      "ID": "REA-13#1",
+      "Active_Recovered_Text": "•"
+    },
+    {
+      "ID": "REA-13#2",
+      "Active_Recovered_Text": "The right to object."
+    },
+    {
+      "ID": "REA-13#3",
+      "Active_Recovered_Text": "[missing_subject] The right to object is strictly limited to our use of your email for direct marketing campaigns."
+    },
+    {
+      "ID": "REA-13#4",
+      "Active_Recovered_Text": "Notification of data breaches: In the event of a data breach, we will first issue a press release to the public media, and subsequently notify the supervisory authority."
+    },
+    {
+      "ID": "REA-13#5",
+      "Active_Recovered_Text": "We will ensure the supervisory authority is notified within 12 hours of our team becoming aware of the breach."
+    },
+    {
+      "ID": "REA-13#6",
+      "Active_Recovered_Text": "The right to lodge a complaint with a supervisory authority"
+    }
+  ],
+  "stage4_output": [
+    {
+      "id": "REA-13",
+      "text": "•",
+      "actor": "",
+      "modal": "",
+      "action": "",
+      "action_list": [],
+      "object": "",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk13",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-13",
+      "sub_id": "REA-13#1",
+      "split_index": "1"
+    },
+    {
+      "id": "REA-13",
+      "text": "The right to object.",
+      "actor": "",
+      "modal": "",
+      "action": "object",
+      "action_list": [
+        "object"
+      ],
+      "object": "",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk13",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-13",
+      "sub_id": "REA-13#2",
+      "split_index": "2"
+    },
+    {
+      "id": "REA-13",
+      "text": "[missing_subject] The right to object is strictly limited to our use of your email for direct marketing campaigns.",
+      "actor": "The right to object",
+      "modal": "Mandatory",
+      "action": "limit",
+      "action_list": [
+        "limit"
+      ],
+      "object": "our use of your email for direct marketing campaigns",
+      "temporal": "",
+      "manner": "strictly limited",
+      "condition": "",
+      "article": "chunk13",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-13",
+      "sub_id": "REA-13#3",
+      "split_index": "3"
+    },
+    {
+      "id": "REA-13",
+      "text": "Notification of data breaches: In the event of a data breach, we will first issue a press release to the public media, and subsequently notify the supervisory authority.",
+      "actor": "we",
+      "modal": "Mandatory(will)",
+      "action": "first",
+      "action_list": [
+        "first"
+      ],
+      "object": "issue a press release to the public media, and subsequently notify the supervisory authority.",
+      "temporal": "subsequently notify the supervisory authority",
+      "manner": "first",
+      "condition": "In the event of a data breach",
+      "article": "chunk13",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-13",
+      "sub_id": "REA-13#4",
+      "split_index": "4"
+    },
+    {
+      "id": "REA-13",
+      "text": "We will ensure the supervisory authority is notified within 12 hours of our team becoming aware of the breach.",
+      "actor": "We",
+      "modal": "Mandatory(will)",
+      "action": "ensure",
+      "action_list": [
+        "ensure"
+      ],
+      "object": "the supervisory authority is notified within 12 hours of our team becoming aware of the breach.",
+      "temporal": "within 12 hours of our team",
+      "manner": "",
+      "condition": "",
+      "article": "chunk13",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-13",
+      "sub_id": "REA-13#5",
+      "split_index": "5"
+    },
+    {
+      "id": "REA-13",
+      "text": "The right to lodge a complaint with a supervisory authority",
+      "actor": "authorities",
+      "modal": "Mandatory",
+      "action": "lodge",
+      "action_list": [
+        "lodge"
+      ],
+      "object": "a complaint",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk13",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-13",
+      "sub_id": "REA-13#6",
+      "split_index": "6"
+    }
+  ]
+}

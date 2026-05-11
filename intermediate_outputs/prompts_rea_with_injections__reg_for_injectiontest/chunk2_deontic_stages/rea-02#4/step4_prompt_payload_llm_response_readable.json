@@ -1,0 +1,91 @@
+{
+  "id": "REA-02#4",
+  "model": "gpt-4",
+  "prompt_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/prompts_rea_with_injections__reg_for_injectiontest/chunk2_deontic_stages/rea-02#4/step4_prompt_payload.json",
+  "per_reg_comparisons": [
+    {
+      "reg_id": "REG-047",
+      "comparison": {
+        "raw_text_alignment": "not_aligned",
+        "actor_similarity": "different",
+        "modal_similarity": "missing",
+        "action_similarity": "different",
+        "actions_similarity": "different",
+        "object_similarity": "different",
+        "temporal_similarity": "missing"
+      },
+      "deviation": true,
+      "types": [
+        "responsibility",
+        "modal_force",
+        "action",
+        "object_scope"
+      ],
+      "evidence_rea": [
+        "The User SHALL collect IP and browser user agent string: this data when leaving a comment."
+      ],
+      "evidence_reg": [
+        "Information provided under Articles 13 and 14 and any communication and any actions taken under Articles 15 to 22 and 34 shall be provided free of charge."
+      ],
+      "reasoning_short": "In the REA, the user is responsible for collecting IP data when leaving a comment. In the REG, the actors providing information are certain articles, not users. In addition, the actions and objects are completely different with no corresponding obligation in REG.",
+      "confidence": "high",
+      "needs_more_context": false
+    },
+    {
+      "reg_id": "REG-086",
+      "comparison": {
+        "raw_text_alignment": "not_aligned",
+        "actor_similarity": "different",
+        "modal_similarity": "missing",
+        "action_similarity": "different",
+        "actions_similarity": "different",
+        "object_similarity": "different",
+        "temporal_similarity": "missing"
+      },
+      "deviation": true,
+      "types": [
+        "responsibility",
+        "action",
+        "object_scope"
+      ],
+      "evidence_rea": [
+        "The User SHALL collect IP and browser user agent string: this data when leaving a comment."
+      ],
+      "evidence_reg": [
+        "The controller shall provide the information referred to in paragraphs 1 and 2:"
+      ],
+      "reasoning_short": "The actors, actions and objects in REA and REG are completely different with no commonality.",
+      "confidence": "high",
+      "needs_more_context": false
+    },
+    {
+      "reg_id": "REG-024",
+      "comparison": {
+        "raw_text_alignment": "not_aligned",
+        "actor_similarity": "different",
+        "modal_similarity": "missing",
+        "action_similarity": "different",
+        "actions_similarity": "different",
+        "object_similarity": "different",
+        "temporal_similarity": "missing"
+      },
+      "deviation": true,
+      "types": [
+        "responsibility",
+        "action",
+        "object_scope"
+      ],
+      "evidence_rea": [
+        "The User SHALL collect IP and browser user agent string: this data when leaving a comment."
+      ],
+      "evidence_reg": [
+        "Paragraph 1 shall not apply if one of the following applies: (e) processing relates to personal data which are manifestly made public by the data subject;"
+      ],
+      "reasoning_short": "The actors, actions, and objects of REA and REG are not similar and don't share any commonality.",
+      "confidence": "high",
+      "needs_more_context": false
+    }
+  ],
+  "overall_deviation": true,
+  "overall_confidence": "high"
+}

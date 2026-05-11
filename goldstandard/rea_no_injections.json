@@ -1,0 +1,203 @@
+[
+  {
+    "reg_id": "REG-001",
+    "clause": "Art6(1)",
+    "considered_references": [],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Negation deviation",
+        "analysis": "GDPR: you need a legal \"permission slip\" for every single thing you do with someone's data. Whether you are storing it, looking at it, or sending it to another company, you must have a valid legal reason. Policy: The Policy: The company's policy explicitly says they \"do not require\" a permission slip when they send your data to their service providers.",
+        "policy quote": "If we pass on data to service providers bound by instructions, we do not require a separate legal basis for this.\n"
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-012",
+    "clause": "Art13(1)",
+    "considered_references": [
+      "Art6(1)"
+    ],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Negation deviation",
+        "analysis": "GDPR: The GDPR is very strict—every single thing a company does with your data must have a valid legal reason (called a \"legal basis\"). This includes \"processing\" acts like sending your information to an IT company or a cloud provider. Policy: The company's policy explicitly says they \"do not require\" a separate legal reason to pass your data to their service providers.",
+        "policy quote": "If we pass on data to service providers bound by instructions, we do not require a separate legal basis for this.\n"
+
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-016",
+    "clause": "Art14(1)",
+    "considered_references": [
+      "Art6(1)"
+    ],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Negation deviation",
+        "analysis": "The GDPR is very strict: every single thing a company does with your data (including sending it to a third-party \"processor\" like a cloud provider or an IT firm) must have a valid legal reason (called a \"legal basis\"). The Policy: The company's policy explicitly states that they \"do not require\" a legal reason to pass your data to their service providers.",
+        "policy quote": "If we pass on data to service providers bound by instructions, we do not require a separate legal basis for this.\n"
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-013",
+    "clause": "Art13(2)",
+    "considered_references": [
+      "Art6(1)",
+      "Art9(2)",
+      "Art22(1)",
+      "Art22(4)"
+    ],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Data deviation",
+        "analysis": "GDPR: You have the right to ask if the company is \"processing\" your data. \"Processing\" is a very broad word that covers everything—whether they are keeping it, moving it, or just using it for a split second. Policy: The company’s text says you can only ask about data they \"store.\" --> By using the word \"store,\" the company leaves out a lot of activity. For example, if they are sending your data to another company  or using it briefly without saving it",
+        "policy quote": "If your personal data stored by us is inaccurate or incomplete, you have the right to obtain rectification of this data from us at any time.\n"
+      },
+      {
+        "deviation_type": "Data deviation",
+        "analysis": "Article 13(2)(b) requires informing the data subject about the existence of the right to object. According to the regulatory definition in Article 21, this right specifically includes the right to object to profiling. The policy chunk mentions the right to object to the 'use' of data for direct marketing but omits the mention of profiling, which narrows the category of processing the data subject is informed they can object to."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-017",
+    "clause": "Art14(2)",
+    "considered_references": [
+      "Art6(1)",
+      "Art22(1)",
+      "Art22(4)",
+      "Art9(2)"
+    ],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Data deviation",
+        "analysis": "GDPR: You have the right to ask if the company is \"processing\" your data. \"Processing\" is a very broad word that covers everything—whether they are keeping it, moving it, or just using it for a split second. Policy: The company’s text says you can only ask about data they \"store.\" --> By using the word \"store,\" the company leaves out a lot of activity. For example, if they are sending your data to another company  or using it briefly without saving it",
+        "policy quote": "If your personal data stored by us is inaccurate or incomplete, you have the right to obtain rectification of this data from us at any time.\n"
+
+      },
+      {
+        "deviation_type": "Data deviation",
+        "analysis": "GDPR: States that your right to object to marketing includes profiling. The Policy: Mentions the right to object to marketing but leaves out the word \"profiling\".",
+        "policy quote": "If the processing of your data is based on Art 6 para 1 lit f) GDPR, you may object to the processing at any time.\n"
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-021",
+    "clause": "Art15(1)",
+    "considered_references": [
+      "Art22(1)",
+      "Art22(4)"
+    ],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Data deviation",
+        "analysis": "GDPR: You have the right to ask if the company is \"processing\" your data. \"Processing\" is a very broad word that covers everything—whether they are keeping it, moving it, or just using it for a split second. Policy: The company’s text says you can only ask about data they \"store.\" --> By using the word \"store,\" the company leaves out a lot of activity. For example, if they are sending your data to another company  or using it briefly without saving it",
+        "policy quote": "If your personal data stored by us is inaccurate or incomplete, you have the right to obtain rectification of this data from us at any time.\n"
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-025",
+    "clause": "Art17(1)",
+    "considered_references": [
+      "Art6(1)",
+      "Art8(1)",
+      "Art9(2)",
+      "Art21(2)"
+    ],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Data deviation",
+        "analysis": "(GDPR): If you ask a company to delete your data (the \"Right to Erasure\"), they must delete everything. This includes digital files, but also paper files in a cabinet or physical records in a warehouse. Policy: The company says they will only delete data from their \"IT systems and databases\"."
+
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-028",
+    "clause": "Art18(1)",
+    "considered_references": [
+      "Art21(1)"
+    ],
+    "deviation_found": false,
+    "deviations": [],
+    "analysis": "The active statement in the policy does not narrow the scope of the right or contradict the regulatory constraints."
+  },
+  {
+    "reg_id": "REG-031",
+    "clause": "Art20(1)",
+    "considered_references": [
+      "Art6(1)",
+      "Art9(2)"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-035",
+    "clause": "Art21(1)",
+    "considered_references": [
+      "Art6(1)",
+      "Art21(2)"
+    ],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Data deviation",
+        "analysis": "GDPR: You have the right to object to your data being used for two main legal reasons:\n\nPublic Interest: Tasks carried out by official authorities.\n\nLegitimate Interests: A company's own business needs. Policy: The company's text only mentions the right to object to \"Legitimate Interests\"."
+      },
+      {
+        "deviation_type": "Data deviation",
+        "analysis": "GDPR: The official rules state that you have the right to object to how your data is used, and they specifically highlight that this includes profiling. Policy: The company mentions your right to object to general \"processing\" but leaves out the specific word \"profiling\""
+      },
+      {
+        "deviation_type": "Data deviation",
+        "analysis": "(GDPR): Article 21(1) states that if a company uses \"legitimate interests\" as their reason for processing your data, you have the right to object to that processing—and the law specifically points out that this includes profiling.\n\nThe Policy: The company admits they are using \"legitimate interests\" for marketing, but when they describe your right to object, they leave out the word profiling."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-036",
+    "clause": "Art21(2)",
+    "considered_references": [],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Data deviation",
+        "analysis": "similar argument as in REG-035 and REG-017"
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-092",
+    "clause": "Art77(1)",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": [],
+    "analysis": "The policy chunk explicitly acknowledges the right to lodge a complaint with a supervisory authority as established by Article 77(1). While the policy omits specific details regarding the location of the authority (habitual residence, place of work, or place of infringement) and the 'without prejudice' clause, these are considered completeness deviations and are skipped per Rule 4. The phrasing 'data protection law' is interpreted as functionally equivalent to 'this Regulation' in this context, presenting no scope deviation."
+  },
+  {
+    "reg_id": "REG-078",
+    "clause": "Art46(1)",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-018",
+    "clause": "Art14(3)",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": []
+  }
+]

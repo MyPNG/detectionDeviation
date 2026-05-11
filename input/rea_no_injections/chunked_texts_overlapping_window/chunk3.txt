@@ -1,0 +1,9 @@
+The right to information does not exist or is subject to limitations if and to the extent that confidential information, such as information that is subject to professional secrecy, would be disclosed.
+
+Right to rectification: If your personal data stored by us is inaccurate or incomplete, you have the right to obtain rectification of this data from us at any time.
+
+Right to erasure: You have the right to request that we erase your personal data if and to the extent that the data is no longer needed for the purposes for which it was collected or, if the processing is based on your consent, you have withdrawn your consent. In this case, we must stop processing your personal data and remove it from our IT systems and databases.
+
+A right to erasure does not exist insofar as •	the data may not be deleted due to a legal obligation or must be processed due to a legal obligation; •	the data processing is necessary for the assertion, exercise or defence of legal claims.
+
+Right to restrict processing: You have the right to request that we restrict the processing of your personal data.

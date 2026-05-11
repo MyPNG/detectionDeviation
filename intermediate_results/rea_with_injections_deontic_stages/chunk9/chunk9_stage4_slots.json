@@ -1,0 +1,186 @@
+{
+  "chunk": "chunk9",
+  "stage1_3_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk9/chunk9_stage1_3.json",
+  "stage4_output": [
+    {
+      "id": "REA-09",
+      "text": "Embedded content from other websites: Articles on the Website may include embedded content (e.g. videos, charts, etc.).",
+      "actor": "Articles on the Website",
+      "modal": "Permissive(may)",
+      "action": "include",
+      "action_list": [
+        "include"
+      ],
+      "object": "embedded content (e.g. videos, charts, etc.).",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk9",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-09",
+      "sub_id": "REA-09#1",
+      "split_index": "1"
+    },
+    {
+      "id": "REA-09",
+      "text": "Embedded content from other websites behaves in the exact same way as if the visitor had visited the other website.",
+      "actor": "Embedded content from other websites",
+      "modal": "",
+      "action": "embed",
+      "action_list": [
+        "embed"
+      ],
+      "object": "other websites",
+      "temporal": "",
+      "manner": "",
+      "condition": "if the visitor had visited the other website",
+      "article": "chunk9",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-09",
+      "sub_id": "REA-09#2",
+      "split_index": "2"
+    },
+    {
+      "id": "REA-09",
+      "text": "These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracing your interaction with the embedded content if you have an account and are logged in to that website.",
+      "actor": "These websites",
+      "modal": "Permissive(may)",
+      "action": "collect",
+      "action_list": [
+        "collect"
+      ],
+      "object": "data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracing your interaction with the embedded content if you have an account and are logged in to that website.",
+      "temporal": "",
+      "manner": "",
+      "condition": "if you have an account and are logged in to that website",
+      "article": "chunk9",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-09",
+      "sub_id": "REA-09#3",
+      "split_index": "3"
+    },
+    {
+      "id": "REA-09",
+      "text": "Regarding your rights pertaining your data, if you have left comments on the Website, you can request to receive an exported file of the personal data we hold about you.",
+      "actor": "you",
+      "modal": "Permissive(can)",
+      "action": "request",
+      "action_list": [
+        "request"
+      ],
+      "object": "to receive an exported file of the personal data we hold about you.",
+      "temporal": "",
+      "manner": "",
+      "condition": "if you have left comments on the Website",
+      "article": "chunk9",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-09",
+      "sub_id": "REA-09#4",
+      "split_index": "4"
+    },
+    {
+      "id": "REA-09",
+      "text": "We will respond to all data access requests within a standard period of 90 days.",
+      "actor": "We",
+      "modal": "Mandatory(will)",
+      "action": "respond",
+      "action_list": [
+        "respond"
+      ],
+      "object": "to all data access requests within a standard period of 90 days.",
+      "temporal": "within a standard period of 90",
+      "manner": "",
+      "condition": "",
+      "article": "chunk9",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-09",
+      "sub_id": "REA-09#5",
+      "split_index": "5"
+    },
+    {
+      "id": "REA-09",
+      "text": "Data portability requests will be fulfilled exclusively by printing your data on physical paper and mailing it to your address.",
+      "actor": "Data portability requests",
+      "modal": "Mandatory(will)",
+      "action": "fulfilled",
+      "action_list": [
+        "fulfilled"
+      ],
+      "object": "exclusively by printing your data on physical paper and mailing it to your address.",
+      "temporal": "by printing your data on physical",
+      "manner": "by printing your data on physical paper and mailing it to your address",
+      "condition": "",
+      "article": "chunk9",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-09",
+      "sub_id": "REA-09#6",
+      "split_index": "6"
+    },
+    {
+      "id": "REA-09",
+      "text": "You can also request that we rectify or erase any personal data we hold about you.",
+      "actor": "You",
+      "modal": "Permissive(can)",
+      "action": "also",
+      "action_list": [
+        "also"
+      ],
+      "object": "request that we rectify or erase any personal data we hold about you.",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk9",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-09",
+      "sub_id": "REA-09#7",
+      "split_index": "7"
+    },
+    {
+      "id": "REA-09",
+      "text": "All requests for rectification must be handled directly by our third-party server host, and you must contact them directly rather than us.",
+      "actor": "All requests for rectification",
+      "modal": "Mandatory(must)",
+      "action": "handled",
+      "action_list": [
+        "handled"
+      ],
+      "object": "directly by our third-party server host, and you must contact them directly rather than us.",
+      "temporal": "by our third-party server host",
+      "manner": "by our third-party server host",
+      "condition": "",
+      "article": "chunk9",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-09",
+      "sub_id": "REA-09#8",
+      "split_index": "8"
+    },
+    {
+      "id": "REA-09",
+      "text": "The right to withdraw consent",
+      "actor": "",
+      "modal": "",
+      "action": "withdraw",
+      "action_list": [
+        "withdraw"
+      ],
+      "object": "consent",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk9",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-09",
+      "sub_id": "REA-09#9",
+      "split_index": "9"
+    }
+  ]
+}

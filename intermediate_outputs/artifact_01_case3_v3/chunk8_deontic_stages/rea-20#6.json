@@ -1,0 +1,287 @@
+{
+  "id": "REA-20#6",
+  "search query": "Document the system design elements that will support relevant stakeholders for each oversight",
+  "embedding query": "action: support\nobject: relevant stakeholders for each oversight\nactor: Document the system design elements that\nmodal: Mandatory(will)\ntext: Document the system design elements that will support relevant stakeholders for each oversight",
+  "top matches": [
+    {
+      "ID": "REG-028",
+      "article": "Art10(2(a))",
+      "text": "Those practices shall concern in particular: (a) the relevant design choices;",
+      "embedding text": "action: concern object: in particular: (a) the relevant design choices; actor: Those practices modal: Mandatory(shall) text: Those practices shall concern in particular: (a) the relevant design choices;",
+      "similarity score": 0.734924
+    },
+    {
+      "ID": "REG-034",
+      "article": "Art10(2(g))",
+      "text": "Those practices shall concern in particular: (g) appropriate measures to detect, prevent and mitigate possible biases identified according to point (f);",
+      "embedding text": "action: concern object: in particular: (g) appropriate measures to detect, prevent and mitigate possible biases identified according to point (f); actor: Those practices modal: Mandatory(shall) text: Those practices shall concern in particular: (g) appropriate measures to detect, prevent and mitigate possible biases identified according to point (f);",
+      "similarity score": 0.670353
+    },
+    {
+      "ID": "REG-027",
+      "article": "Art10(2)",
+      "text": "Those practices shall concern in particular:",
+      "embedding text": "action: concern object: in particular: actor: Those practices modal: Mandatory(shall) text: Those practices shall concern in particular:",
+      "similarity score": 0.666383
+    },
+    {
+      "ID": "REG-035",
+      "article": "Art10(2(h))",
+      "text": "Those practices shall concern in particular: (h) the identification of relevant data gaps or shortcomings that prevent compliance with this Regulation, and how those gaps",
+      "embedding text": "action: concern object: in particular: (h) the identification of relevant data gaps or shortcomings that prevent compliance with this Regulation, and how those gaps actor: Those practices modal: Mandatory(shall) text: Those practices shall concern in particular: (h) the identification of relevant data gaps or shortcomings that prevent compliance with this Regulation, and how those gaps",
+      "similarity score": 0.656268
+    },
+    {
+      "ID": "REG-030",
+      "article": "Art10(2(c))",
+      "text": "Those practices shall concern in particular: (c) relevant data-preparation processing operations, such as annotation, labelling, cleaning, updating, enrichment and aggregation;",
+      "embedding text": "action: concern object: in particular: (c) relevant data-preparation processing operations, such as annotation, labelling, cleaning, updating, enrichment and aggregation; actor: Those practices modal: Mandatory(shall) text: Those practices shall concern in particular: (c) relevant data-preparation processing operations, such as annotation, labelling, cleaning, updating, enrichment and aggregation;",
+      "similarity score": 0.648705
+    },
+    {
+      "ID": "REG-032",
+      "article": "Art10(2(e))",
+      "text": "Those practices shall concern in particular: (e) an assessment of the availability, quantity and suitability of the data sets that are needed;",
+      "embedding text": "action: concern object: in particular: (e) an assessment of the availability, quantity and suitability of the data sets that are needed; actor: Those practices modal: Mandatory(shall) text: Those practices shall concern in particular: (e) an assessment of the availability, quantity and suitability of the data sets that are needed;",
+      "similarity score": 0.640939
+    },
+    {
+      "ID": "REG-037",
+      "article": "Art10(3)",
+      "text": "Training, validation and testing data sets shall be relevant, sufficiently representative, and to the best extent possible, free of errors and complete in view of the intended purpose.",
+      "embedding text": "action: be relevant object: sufficiently representative, and to the best extent possible, free of errors and complete in view of the intended purpose. actor: validation and testing data sets modal: Mandatory(shall) text: Training, validation and testing data sets shall be relevant, sufficiently representative, and to the best extent possible, free of errors and complete in view of the intended purpose.",
+      "similarity score": 0.638291
+    },
+    {
+      "ID": "REG-102",
+      "article": "Art15(4)",
+      "text": "The Provider SHALL take technical and organisational measures in this regard.",
+      "embedding text": "action: take object: technical and organisational measures in this regard. actor: The Provider modal: Mandatory(shall) text: The Provider SHALL take technical and organisational measures in this regard.",
+      "similarity score": 0.631014
+    },
+    {
+      "ID": "REG-073",
+      "article": "Art13(6)",
+      "text": "The Provider SHALL provide information that is relevant to explain the high-risk AI system's output, where applicable.",
+      "embedding text": "action: provide object: information that is relevant to explain the high-risk AI system's output, where applicable. actor: The Provider modal: Mandatory condition: where applicable manner: relevant text: The Provider SHALL provide information that is relevant to explain the high-risk AI system's output, where applicable.",
+      "similarity score": 0.627162
+    },
+    {
+      "ID": "REG-064",
+      "article": "Art13(1)",
+      "text": "deployer High-risk AI systems shall be designed and developed in such a way as to ensure that High - risk AI systems' operation is sufficiently transparent to enable deployers to interpret a system's output and use such a way appropriately.",
+      "embedding text": "action: designed object: and developed in such a way as to ensure that High - risk AI systems' operation is sufficiently transparent to enable deployers to interpret a system's output and use such a way appropriately. actor: deployer High-risk AI systems modal: Mandatory(shall) text: deployer High-risk AI systems shall be designed and developed in such a way as to ensure that High - risk AI systems' operation is sufficiently transparent to enable deployers to interpret a system's output and use such a way appropriately.",
+      "similarity score": 0.620547
+    },
+    {
+      "ID": "REG-082",
+      "article": "Art14(2)",
+      "text": "Human oversight shall aim to prevent or minimise the risks to health, safety",
+      "embedding text": "action: aim object: to prevent or minimise the risks to health, safety actor: Human oversight modal: Mandatory(shall) text: Human oversight shall aim to prevent or minimise the risks to health, safety",
+      "similarity score": 0.618051
+    },
+    {
+      "ID": "REG-062",
+      "article": "Art12(3(c))",
+      "text": "For high-risk AI systems referred to in point 1 (a), of Annex III, the logging capabilities shall provide, at a minimum: (c) the input data for which the search has led to a match;",
+      "embedding text": "action: provide object: at a minimum: (c) the input data for which the search has led to a match; actor: the logging capabilities modal: Mandatory(shall) text: For high-risk AI systems referred to in point 1 (a), of Annex III, the logging capabilities shall provide, at a minimum: (c) the input data for which the search has led to a match;",
+      "similarity score": 0.607879
+    },
+    {
+      "ID": "REG-031",
+      "article": "Art10(2(d))",
+      "text": "Those practices shall concern in particular: (d) the formulation of assumptions, in particular with respect to the information that the data are supposed to measure and represent;",
+      "embedding text": "action: concern object: in particular: (d) the formulation of assumptions, in particular with respect to the information that the data are supposed to measure and represent; actor: Those practices modal: Mandatory(shall) text: Those practices shall concern in particular: (d) the formulation of assumptions, in particular with respect to the information that the data are supposed to measure and represent;",
+      "similarity score": 0.607295
+    },
+    {
+      "ID": "REG-067",
+      "article": "Art13(3)",
+      "text": "The instructions for use shall contain least the following information:",
+      "embedding text": "action: contain object: least the following information: actor: The instructions for use modal: Mandatory(shall) temporal: following information text: The instructions for use shall contain least the following information:",
+      "similarity score": 0.606652
+    },
+    {
+      "ID": "REG-055",
+      "article": "Art12(2)",
+      "text": "In order to ensure a level of traceability of the functioning of a high-risk AI system that is appropriate to the intended purpose of the system, logging capabilities shall enable the recording of events relevant for:",
+      "embedding text": "action: enable object: the recording of events relevant for: actor: logging capabilities modal: Mandatory(shall) text: In order to ensure a level of traceability of the functioning of a high-risk AI system that is appropriate to the intended purpose of the system, logging capabilities shall enable the recording of events relevant for:",
+      "similarity score": 0.606144
+    },
+    {
+      "ID": "REG-054",
+      "article": "Art12(1)",
+      "text": "High-risk AI systems shall technically allow for the automatic recording of events (logs) over the lifetime of the system.",
+      "embedding text": "action: technically object: allow for the automatic recording of events (logs) over the lifetime of the system. actor: High-risk AI systems modal: Mandatory(shall) text: High-risk AI systems shall technically allow for the automatic recording of events (logs) over the lifetime of the system.",
+      "similarity score": 0.605448
+    },
+    {
+      "ID": "REG-090",
+      "article": "Art14(4)",
+      "text": "The Deployer SHALL be provided with the high-risk AI system in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate:",
+      "embedding text": "action: provide object: with the high-risk AI system in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: actor: The Deployer modal: Mandatory(shall) text: The Deployer SHALL be provided with the high-risk AI system in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate:",
+      "similarity score": 0.604865
+    },
+    {
+      "ID": "REG-085",
+      "article": "Art14(3)",
+      "text": "[missing_subject] The oversight measures shall be ensured through either one or both of the following types of measures:.",
+      "embedding text": "action: ensured object: through either one or both of the following types of measures:. actor: [missing_subject] The oversight measures modal: Mandatory(shall) temporal: following types of measures manner: through either one or both of the following types of measures: text: [missing_subject] The oversight measures shall be ensured through either one or both of the following types of measures:.",
+      "similarity score": 0.603123
+    },
+    {
+      "ID": "REG-074",
+      "article": "Art13(6(v))",
+      "text": "(iv) where applicable, The Provider shall provide information that is relevant to explain the high-risk AI system's output; (v) when appropriate, The Provider shall ensure the high-risk AI system's performance regarding specific persons or groups of persons on which the system is intended to be used;",
+      "embedding text": "action: provide object: information that is relevant to explain the high-risk AI system's output; (v) when appropriate, The Provider shall ensure the high-risk AI system's performance regarding specific persons or groups of persons on which the system is intended to be used; actor: The Provider modal: Mandatory temporal: when appropriate condition: where applicable text: (iv) where applicable, The Provider shall provide information that is relevant to explain the high-risk AI system's output; (v) when appropriate, The Provider shall ensure the high-risk AI system's performance regarding specific persons or groups of persons on which the system is intended to be used;",
+      "similarity score": 0.598551
+    },
+    {
+      "ID": "REG-007",
+      "article": "Art9(2)",
+      "text": "The risk management system shall comprise the following steps:",
+      "embedding text": "action: comprise object: the following steps: actor: The risk management system modal: Mandatory(shall) temporal: following steps text: The risk management system shall comprise the following steps:",
+      "similarity score": 0.597547
+    },
+    {
+      "ID": "REG-098",
+      "article": "Art15(2)",
+      "text": "The Commission SHALL, in cooperation with relevant stakeholders and organisations such as metrology and benchmarking authorities, encourage, as appropriate, the development of benchmarks and measurement methodologies.",
+      "embedding text": "action: encourage object: cooperation with relevant stakeholders and organisations such as metrology and benchmarking authorities actor: The Commission modal: Mandatory(shall) manner: as appropriate text: The Commission SHALL, in cooperation with relevant stakeholders and organisations such as metrology and benchmarking authorities, encourage, as appropriate, the development of benchmarks and measurement methodologies.",
+      "similarity score": 0.593349
+    },
+    {
+      "ID": "REG-057",
+      "article": "Art12(2(b))",
+      "text": "In order to ensure a level of traceability of the functioning of a high-risk AI system that is appropriate to the intended purpose of the system, logging capabilities shall enable the recording of events relevant for: (b) facilitating the post-market monitoring referred to in Article 72; and",
+      "embedding text": "action: enable object: the recording of events relevant for: (b) facilitating the post-market monitoring referred to in Article 72; and actor: logging capabilities modal: Mandatory(shall) text: In order to ensure a level of traceability of the functioning of a high-risk AI system that is appropriate to the intended purpose of the system, logging capabilities shall enable the recording of events relevant for: (b) facilitating the post-market monitoring referred to in Article 72; and",
+      "similarity score": 0.590535
+    },
+    {
+      "ID": "REG-097",
+      "article": "Art15(1)",
+      "text": "The Provider SHALL design develop High-risk AI systems in such a way that The Provider achieve an appropriate level of accuracy, robustness, and cybersecurity, and perform consistently throughout The Provider's lifecycle.",
+      "embedding text": "action: design object: develop High-risk AI systems in such a way that The Provider achieve an appropriate level of accuracy, robustness, and cybersecurity, and perform consistently throughout The Provider's lifecycle. actor: The Provider modal: Mandatory(shall) temporal: throughout The Provider manner: in such a way that text: The Provider SHALL design develop High-risk AI systems in such a way that The Provider achieve an appropriate level of accuracy, robustness, and cybersecurity, and perform consistently throughout The Provider's lifecycle.",
+      "similarity score": 0.588447
+    },
+    {
+      "ID": "REG-084",
+      "article": "Art14(3)",
+      "text": "The oversight measures shall be commensurate with the risks, level of autonomy and context of use of the high-risk AI system,",
+      "embedding text": "action: be commensurate object: with the risks, level of autonomy and context of use of the high-risk AI system, actor: The oversight measures modal: Mandatory(shall) text: The oversight measures shall be commensurate with the risks, level of autonomy and context of use of the high-risk AI system,",
+      "similarity score": 0.58829
+    },
+    {
+      "ID": "REG-086",
+      "article": "Art14(3(a))",
+      "text": "The oversight measures shall be commensurate with the risks, level of autonomy and context of use of the high-risk AI system,",
+      "embedding text": "action: be commensurate object: with the risks, level of autonomy and context of use of the high-risk AI system, actor: The oversight measures modal: Mandatory(shall) text: The oversight measures shall be commensurate with the risks, level of autonomy and context of use of the high-risk AI system,",
+      "similarity score": 0.58829
+    },
+    {
+      "ID": "REG-088",
+      "article": "Art14(3(b))",
+      "text": "The oversight measures shall be commensurate with the risks, level of autonomy and context of use of the high-risk AI system,",
+      "embedding text": "action: be commensurate object: with the risks, level of autonomy and context of use of the high-risk AI system, actor: The oversight measures modal: Mandatory(shall) text: The oversight measures shall be commensurate with the risks, level of autonomy and context of use of the high-risk AI system,",
+      "similarity score": 0.58829
+    },
+    {
+      "ID": "REG-076",
+      "article": "Art13(8)",
+      "text": "Deployers SHALL interpret the output of the high-risk AI system and use the output of the high-risk ai system appropriately where applicable;",
+      "embedding text": "action: interpret object: the output of the high-risk AI system and use the output of the high-risk ai system appropriately where applicable; actor: Deployers modal: Mandatory condition: where applicable manner: appropriately where applicable text: Deployers SHALL interpret the output of the high-risk AI system and use the output of the high-risk ai system appropriately where applicable;",
+      "similarity score": 0.588241
+    },
+    {
+      "ID": "REG-070",
+      "article": "Art13(3(i))",
+      "text": "The instructions for use shall contain least the following information: (i) use's intended purpose;",
+      "embedding text": "action: contain object: least the following information: (i) use's intended purpose; actor: The instructions for use modal: Mandatory(shall) temporal: following information text: The instructions for use shall contain least the following information: (i) use's intended purpose;",
+      "similarity score": 0.587322
+    },
+    {
+      "ID": "REG-002",
+      "article": "Art8(1)",
+      "text": "When ensuring compliance with those requirements, The Provider SHALL take into account the risk management system referred to in Article 9.",
+      "embedding text": "action: take object: into account the risk management system referred to in Article 9. actor: The Provider modal: Mandatory(shall) condition: When ensuring compliance with those requirements text: When ensuring compliance with those requirements, The Provider SHALL take into account the risk management system referred to in Article 9.",
+      "similarity score": 0.584878
+    },
+    {
+      "ID": "REG-091",
+      "article": "Art14(4(a))",
+      "text": "The Deployer SHALL be provided with the high-risk AI system in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (a) to properly understand the relevant capacities and limitations of the high-risk AI system and be able to duly monitor the high-risk ai system's operation, including in view of detecting and addressing anomalies, dysfunctions and unexpected performance;",
+      "embedding text": "action: provide object: with the high-risk AI system in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (a) to properly understand the relevant capacities and limitations of the high-risk AI system and be able to duly monitor the high-risk ai system's operation, including in view of detecting and addressing anomalies, dysfunctions and unexpected performance; actor: The Deployer modal: Mandatory(shall) manner: such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate text: The Deployer SHALL be provided with the high-risk AI system in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (a) to properly understand the relevant capacities and limitations of the high-risk AI system and be able to duly monitor the high-risk ai system's operation, including in view of detecting and addressing anomalies, dysfunctions and unexpected performance;",
+      "similarity score": 0.581185
+    },
+    {
+      "ID": "REG-093",
+      "article": "Art14(4(c))",
+      "text": "The Deployer SHALL be provided with the high-risk AI system in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (c) to correctly interpret the high-risk AI system's output, taking into account, for example, the interpretation tools and methods available;",
+      "embedding text": "action: provide object: with the high-risk AI system in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (c) to correctly interpret the high-risk AI system's output, taking into account, for example, the interpretation tools and methods available; actor: The Deployer modal: Mandatory(shall) condition: to correctly interpret the high-risk AI system's output manner: such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate text: The Deployer SHALL be provided with the high-risk AI system in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (c) to correctly interpret the high-risk AI system's output, taking into account, for example, the interpretation tools and methods available;",
+      "similarity score": 0.580185
+    },
+    {
+      "ID": "REG-059",
+      "article": "Art12(3)",
+      "text": "For high-risk AI systems referred to in point 1 (a), of Annex III, the logging capabilities shall provide, at a minimum:",
+      "embedding text": "action: provide object: at a minimum: actor: the logging capabilities modal: Mandatory(shall) condition: For high-risk AI systems referred to in point 1 (a), of Annex III text: For high-risk AI systems referred to in point 1 (a), of Annex III, the logging capabilities shall provide, at a minimum:",
+      "similarity score": 0.578457
+    },
+    {
+      "ID": "REG-026",
+      "article": "Art10(2)",
+      "text": "Training, validation and testing data sets shall be subject to data governance and management practices appropriate for the intended purpose of the high-risk AI system.",
+      "embedding text": "action: be subject object: to data governance and management practices appropriate for the intended purpose of the high-risk AI system. actor: validation and testing data sets modal: Mandatory(shall) text: Training, validation and testing data sets shall be subject to data governance and management practices appropriate for the intended purpose of the high-risk AI system.",
+      "similarity score": 0.57576
+    },
+    {
+      "ID": "REG-058",
+      "article": "Art12(2(c))",
+      "text": "In order to ensure a level of traceability of the functioning of a high-risk AI system that is appropriate to the intended purpose of the system, logging capabilities shall enable the recording of events relevant for: (c) monitoring the operation of high-risk AI systems referred to in Article 26(5).",
+      "embedding text": "action: enable object: the recording of events relevant for: (c) monitoring the operation of high-risk AI systems referred to in Article 26(5). actor: logging capabilities modal: Mandatory(shall) text: In order to ensure a level of traceability of the functioning of a high-risk AI system that is appropriate to the intended purpose of the system, logging capabilities shall enable the recording of events relevant for: (c) monitoring the operation of high-risk AI systems referred to in Article 26(5).",
+      "similarity score": 0.574676
+    },
+    {
+      "ID": "REG-061",
+      "article": "Art12(3(b))",
+      "text": "For high-risk AI systems referred to in point 1 (a), of Annex III, the logging capabilities shall provide, at a minimum: (b) the reference database against which input data has been checked by the system;",
+      "embedding text": "action: provide object: at a minimum: (b) the reference database against which input data has been checked by the system; actor: the logging capabilities modal: Mandatory(shall) temporal: by the system manner: by the system text: For high-risk AI systems referred to in point 1 (a), of Annex III, the logging capabilities shall provide, at a minimum: (b) the reference database against which input data has been checked by the system;",
+      "similarity score": 0.571405
+    },
+    {
+      "ID": "REG-065",
+      "article": "Art13(1)",
+      "text": "deployer An appropriate type and degree of transparency shall be ensured with a view to achieving compliance with the relevant obligations of the provider and deployer set out in Section 3.",
+      "embedding text": "action: ensured object: with a view to achieving compliance with the relevant obligations of the provider and deployer set out in Section 3. actor: deployer An appropriate type and degree of transparency modal: Mandatory(shall) manner: with a view to achieving compliance with the relevant obligations of the provider and deployer set out in Section 3 text: deployer An appropriate type and degree of transparency shall be ensured with a view to achieving compliance with the relevant obligations of the provider and deployer set out in Section 3.",
+      "similarity score": 0.570716
+    },
+    {
+      "ID": "REG-038",
+      "article": "Art10(3)",
+      "text": "They shall have the appropriate statistical properties, including, where applicable, as regards the persons or groups of persons in relation to whom the high-risk AI system is intended to be used.",
+      "embedding text": "action: have object: the appropriate statistical properties, including, where applicable, as regards the persons or groups of persons in relation to whom the high-risk AI system is intended to be used. actor: They modal: Mandatory(shall) condition: where applicable text: They shall have the appropriate statistical properties, including, where applicable, as regards the persons or groups of persons in relation to whom the high-risk AI system is intended to be used.",
+      "similarity score": 0.562021
+    },
+    {
+      "ID": "REG-081",
+      "article": "Art14(1)",
+      "text": "The Provider SHALL design develop High-risk AI systems, including with appropriate human-machine interface tools, that can be effectively overseen by natural persons during the period in which High-risk AI systems are in use.",
+      "embedding text": "action: design object: develop High-risk AI systems, including with appropriate human-machine interface tools, that can be effectively overseen by natural persons during the period in which High-risk AI systems are in use. actor: The Provider modal: Mandatory(shall) temporal: during the period in which High-risk manner: by natural persons during the period in which High-risk AI systems are in use text: The Provider SHALL design develop High-risk AI systems, including with appropriate human-machine interface tools, that can be effectively overseen by natural persons during the period in which High-risk AI systems are in use.",
+      "similarity score": 0.560603
+    },
+    {
+      "ID": "REG-022",
+      "article": "Art9(8)",
+      "text": "Testing shall be carried out against prior defined metrics and probabilistic thresholds that are appropriate to the intended purpose of the high-risk AI system.",
+      "embedding text": "action: carried object: out against prior defined metrics and probabilistic thresholds that are appropriate to the intended purpose of the high-risk AI system. actor: Testing modal: Mandatory(shall) text: Testing shall be carried out against prior defined metrics and probabilistic thresholds that are appropriate to the intended purpose of the high-risk AI system.",
+      "similarity score": 0.560566
+    },
+    {
+      "ID": "REG-005",
+      "article": "Art9(1)",
+      "text": "The Organization SHALL establish, implement, document and maintain a risk management system in relation to high-risk AI systems.",
+      "embedding text": "action: establish object: implement, document and maintain a risk management system in relation to high-risk AI systems. actor: The Organization modal: Mandatory(shall) text: The Organization SHALL establish, implement, document and maintain a risk management system in relation to high-risk AI systems.",
+      "similarity score": 0.559908
+    }
+  ]
+}

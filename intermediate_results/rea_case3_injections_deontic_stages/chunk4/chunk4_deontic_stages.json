@@ -1,0 +1,188 @@
+{
+  "chunk": "chunk4",
+  "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_case3_injections/chunk4/chunk4_requirements.json",
+  "stage1_output": [
+    {
+      "ID": "REA-10#1",
+      "REA_ID": "REA-10",
+      "Text": "Define and document Responsible Release Criteria for this Goal."
+    },
+    {
+      "ID": "REA-10#2",
+      "REA_ID": "REA-10",
+      "Text": "Include: 1) a concise definition of the problem being solved in the intended use, Define and document Responsible Release Criteria for this Goal."
+    },
+    {
+      "ID": "REA-10#3",
+      "REA_ID": "REA-10",
+      "Text": "Include: 2) performance metrics and their Responsible Release Criteria, Define and document Responsible Release Criteria for this Goal."
+    },
+    {
+      "ID": "REA-10#4",
+      "REA_ID": "REA-10",
+      "Text": "Include: 3) error types and their Responsible Release Criteria."
+    },
+    {
+      "ID": "REA-11#1",
+      "REA_ID": "REA-11",
+      "Text": "Document an evaluation plan for each of the performance metrics and error types."
+    }
+  ],
+  "stage2_output": [
+    {
+      "ID": "REA-10#1",
+      "REA_ID": "REA-10",
+      "Text": "Define and document Responsible Release Criteria for this Goal.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-10#2",
+      "REA_ID": "REA-10",
+      "Text": "Include: 1) a concise definition of the problem being solved in the intended use, Define and document Responsible Release Criteria for this Goal.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-10#3",
+      "REA_ID": "REA-10",
+      "Text": "Include: 2) performance metrics and their Responsible Release Criteria, Define and document Responsible Release Criteria for this Goal.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-10#4",
+      "REA_ID": "REA-10",
+      "Text": "Include: 3) error types and their Responsible Release Criteria.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-11#1",
+      "REA_ID": "REA-11",
+      "Text": "Document an evaluation plan for each of the performance metrics and error types.",
+      "Modal": ""
+    }
+  ],
+  "stage3_output": [
+    {
+      "ID": "REA-10#1",
+      "Active_Recovered_Text": "The Provider SHALL define and document Responsible Release Criteria for this Goal."
+    },
+    {
+      "ID": "REA-10#2",
+      "Active_Recovered_Text": "[missing_subject] shall include : 1) a concise definition of the problem being solved in the intended use, Define and document Responsible Release Criteria for this Goal."
+    },
+    {
+      "ID": "REA-10#3",
+      "Active_Recovered_Text": "[missing_subject] shall include : 2) performance metrics and The Provider's Responsible Release Criteria, Define and document Responsible Release Criteria for this Goal."
+    },
+    {
+      "ID": "REA-10#4",
+      "Active_Recovered_Text": "[missing_subject] shall include : 3) error types and The Provider's Responsible Release Criteria."
+    },
+    {
+      "ID": "REA-11#1",
+      "Active_Recovered_Text": "The Provider SHALL document an evaluation plan for each of the performance metrics and error types."
+    }
+  ],
+  "stage4_output": [
+    {
+      "id": "REA-10",
+      "text": "The Provider SHALL define and document Responsible Release Criteria for this Goal.",
+      "actor": "The Provider",
+      "modal": "Mandatory(shall)",
+      "action": "define",
+      "action_list": [
+        "define",
+        "document"
+      ],
+      "object": "and document Responsible Release Criteria for this Goal.",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk4",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-10",
+      "sub_id": "REA-10#1",
+      "split_index": "1"
+    },
+    {
+      "id": "REA-10",
+      "text": "[missing_subject] shall include : 1) a concise definition of the problem being solved in the intended use, Define and document Responsible Release Criteria for this Goal.",
+      "actor": "[missing_subject]",
+      "modal": "Mandatory(shall)",
+      "action": "include",
+      "action_list": [
+        "include"
+      ],
+      "object": ": 1) a concise definition of the problem being solved in the intended use, Define and document Responsible Release Criteria for this Goal.",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk4",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-10",
+      "sub_id": "REA-10#2",
+      "split_index": "2"
+    },
+    {
+      "id": "REA-10",
+      "text": "[missing_subject] shall include : 2) performance metrics and The Provider's Responsible Release Criteria, Define and document Responsible Release Criteria for this Goal.",
+      "actor": "[missing_subject]",
+      "modal": "Mandatory(shall)",
+      "action": "include",
+      "action_list": [
+        "include"
+      ],
+      "object": ": 2) performance metrics and The Provider's Responsible Release Criteria, Define and document Responsible Release Criteria for this Goal.",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk4",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-10",
+      "sub_id": "REA-10#3",
+      "split_index": "3"
+    },
+    {
+      "id": "REA-10",
+      "text": "[missing_subject] shall include : 3) error types and The Provider's Responsible Release Criteria.",
+      "actor": "[missing_subject]",
+      "modal": "Mandatory(shall)",
+      "action": "include",
+      "action_list": [
+        "include"
+      ],
+      "object": ": 3) error types and The Provider's Responsible Release Criteria.",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk4",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-10",
+      "sub_id": "REA-10#4",
+      "split_index": "4"
+    },
+    {
+      "id": "REA-11",
+      "text": "The Provider SHALL document an evaluation plan for each of the performance metrics and error types.",
+      "actor": "The Provider",
+      "modal": "Mandatory(shall)",
+      "action": "document",
+      "action_list": [
+        "document"
+      ],
+      "object": "an evaluation plan for each of the performance metrics and error types.",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk4",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-11",
+      "sub_id": "REA-11#1",
+      "split_index": "1"
+    }
+  ]
+}

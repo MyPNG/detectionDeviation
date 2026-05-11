@@ -1,0 +1,362 @@
+{
+  "rea_sub_id": "REA-06#3",
+  "reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_rea_with_injections__reg_for_injectiontest_reranked/chunk6_deontic_stages/rea-06#3.json",
+  "top_k": 5,
+  "max_hop": 1,
+  "allowed_relations": [
+    "AND",
+    "PARENT_CHILD",
+    "REFERENCES",
+    "SEQUENCE"
+  ],
+  "main_constraints": [
+    {
+      "id": "REG-004",
+      "clause": "Art6(1(c))",
+      "text": "Processing shall be lawful only if and to the extent that at least one of the following applies: (c) processing is necessary for compliance with a legal obligation to which the controller is subject;",
+      "rerank_rank": 1,
+      "rerank_score": 0.005658368114382029,
+      "similarity_score": 0.721448,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-001",
+          "main_reg_id": "REG-004",
+          "edge_type": "PARENT_CHILD",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-001 -> REG-004",
+          "text": "Processing shall be lawful only if and to the extent that at least one of the following applies:",
+          "article": "6",
+          "paragraph": "1"
+        },
+        {
+          "id": "REG-002",
+          "main_reg_id": "REG-004",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-004 <- REG-001 -> REG-002",
+          "text": "Processing shall be lawful only if and to the extent that at least one of the following applies: (a) the data subject has given consent to the processing of his or her personal data for one or more specific purposes;",
+          "article": "6",
+          "paragraph": "1(a)"
+        },
+        {
+          "id": "REG-003",
+          "main_reg_id": "REG-004",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-004 <- REG-001 -> REG-003",
+          "text": "Processing shall be lawful only if and to the extent that at least one of the following applies: (b) processing is necessary for the performance of a contract to which the data subject is party or in order to take steps at the request of the data subject prior to entering into a contract;",
+          "article": "6",
+          "paragraph": "1(b)"
+        },
+        {
+          "id": "REG-005",
+          "main_reg_id": "REG-004",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-004 <- REG-001 -> REG-005",
+          "text": "Processing shall be lawful only if and to the extent that at least one of the following applies: (d) processing is necessary in order to protect the vital interests of the data subject or of another natural person;",
+          "article": "6",
+          "paragraph": "1(d)"
+        },
+        {
+          "id": "REG-006",
+          "main_reg_id": "REG-004",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-004 <- REG-001 -> REG-006",
+          "text": "Processing shall be lawful only if and to the extent that at least one of the following applies: (e) processing is necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller;",
+          "article": "6",
+          "paragraph": "1(e)"
+        },
+        {
+          "id": "REG-007",
+          "main_reg_id": "REG-004",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-004 <- REG-001 -> REG-007",
+          "text": "Processing shall be lawful only if and to the extent that at least one of the following applies: (f) processing is necessary for the purposes of the legitimate interests pursued by the controller or by a third party, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection of personal data, in particular where the data subject is a child. Point (f) of the first subparagraph shall not apply to processing carried out by public authorities in the performance of their tasks.",
+          "article": "6",
+          "paragraph": "1(f)"
+        }
+      ]
+    },
+    {
+      "id": "REG-031",
+      "clause": "Art9(2(j))",
+      "text": "or Member State law which shall be propor­ tionate to the aim pursued, respect the essence of the right to data protection and provide for suitable and specific measures to safeguard the fundamental rights and the interests of the data subject.",
+      "rerank_rank": 2,
+      "rerank_score": 0.0055427998304367065,
+      "similarity_score": 0.708722,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-019",
+          "main_reg_id": "REG-031",
+          "edge_type": "PARENT_CHILD",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-019 -> REG-031",
+          "text": "Paragraph 1 shall not apply if one of the following applies:",
+          "article": "9",
+          "paragraph": "2"
+        },
+        {
+          "id": "REG-020",
+          "main_reg_id": "REG-031",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-031 <- REG-019 -> REG-020",
+          "text": "Paragraph 1 shall not apply if one of the following applies: (a) the data subject has given explicit consent to the processing of those personal data for one or more specified purposes, except where Union or Member State law provide that the prohibition referred to in paragraph 1 may not be lifted by the data subject;",
+          "article": "9",
+          "paragraph": "2(a)"
+        },
+        {
+          "id": "REG-021",
+          "main_reg_id": "REG-031",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-031 <- REG-019 -> REG-021",
+          "text": "Paragraph 1 shall not apply if one of the following applies: (b) processing is necessary for the purposes of carrying out the obligations and exercising specific rights of the controller or of the data subject in the field of employment and social security and social protection law in so far as it is authorised by Union or Member State law or a collective agreement pursuant to Member State law providing for appropriate safeguards for the fundamental rights and the interests of the data subject;",
+          "article": "9",
+          "paragraph": "2(b)"
+        },
+        {
+          "id": "REG-022",
+          "main_reg_id": "REG-031",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-031 <- REG-019 -> REG-022",
+          "text": "Paragraph 1 shall not apply if one of the following applies: (c) processing is necessary to protect the vital interests of the data subject or of another natural person where the data subject is physically or legally incapable of giving consent;",
+          "article": "9",
+          "paragraph": "2(c)"
+        },
+        {
+          "id": "REG-023",
+          "main_reg_id": "REG-031",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-031 <- REG-019 -> REG-023",
+          "text": "Paragraph 1 shall not apply if one of the following applies: (d) processing is carried out in the course of its legitimate activities with appropriate safeguards by a foundation, association or any other not-for-profit body with a political, philosophical, religious or trade union aim and on condition that the processing relates solely to the members or to former members of the body or to persons who have regular contact with it in connection with its purposes and that the personal data are not disclosed outside that body without the consent of the data subjects;",
+          "article": "9",
+          "paragraph": "2(d)"
+        },
+        {
+          "id": "REG-024",
+          "main_reg_id": "REG-031",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-031 <- REG-019 -> REG-024",
+          "text": "Paragraph 1 shall not apply if one of the following applies: (e) processing relates to personal data which are manifestly made public by the data subject;",
+          "article": "9",
+          "paragraph": "2(e)"
+        },
+        {
+          "id": "REG-025",
+          "main_reg_id": "REG-031",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-031 <- REG-019 -> REG-025",
+          "text": "Paragraph 1 shall not apply if one of the following applies: (f) processing is necessary for the establishment, exercise or defence of legal claims or whenever courts are acting in their judicial capacity;",
+          "article": "9",
+          "paragraph": "2(f)"
+        },
+        {
+          "id": "REG-026",
+          "main_reg_id": "REG-031",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-031 <- REG-019 -> REG-026",
+          "text": "Paragraph 1 shall not apply if one of the following applies: (g) processing is necessary for reasons of substantial public interest, on the basis of Union",
+          "article": "9",
+          "paragraph": "2(g)"
+        },
+        {
+          "id": "REG-027",
+          "main_reg_id": "REG-031",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-031 <- REG-019 -> REG-027",
+          "text": "or Member State law which shall be proportionate to the aim pursued, respect the essence of the right to data protection and provide for suitable and specific measures to safeguard the fundamental rights and the interests of the data subject;",
+          "article": "9",
+          "paragraph": "2(g)"
+        },
+        {
+          "id": "REG-028",
+          "main_reg_id": "REG-031",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-031 <- REG-019 -> REG-028",
+          "text": "Paragraph 1 shall not apply if one of the following applies: (h) processing is necessary for the purposes of preventive or occupational medicine, for the assessment of the working capacity of the employee, medical diagnosis, the provision of health or social care or treatment or the management of health or social care systems and services on the basis of Union or Member State law or pursuant to contract with a health professional and subject to the conditions and safeguards referred to in paragraph 3;",
+          "article": "9",
+          "paragraph": "2(h)"
+        },
+        {
+          "id": "REG-029",
+          "main_reg_id": "REG-031",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-031 <- REG-019 -> REG-029",
+          "text": "Paragraph 1 shall not apply if one of the following applies: (i) processing is necessary for reasons of public interest in the area of public health, such as protecting against serious cross-border threats to health or ensuring high standards of quality and safety of health care and of medicinal products or medical devices, on the basis of Union or Member State law which provides for suitable and specific measures to safeguard the rights and freedoms of the data subject, in particular professional secrecy;",
+          "article": "9",
+          "paragraph": "2(i)"
+        },
+        {
+          "id": "REG-030",
+          "main_reg_id": "REG-031",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-031 <- REG-019 -> REG-030",
+          "text": "Paragraph 1 shall not apply if one of the following applies: (j) processing is necessary for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes in accordance with Article 89(1) based on Union",
+          "article": "9",
+          "paragraph": "2(j)"
+        }
+      ]
+    },
+    {
+      "id": "REG-094",
+      "clause": "Art14(5(b))",
+      "text": "In such cases the controller shall take appropriate measures to protect the data subject's rights and freedoms and legitimate interests, including making the information publicly available;",
+      "rerank_rank": 3,
+      "rerank_score": 0.00542957941070199,
+      "similarity_score": 0.765537,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-093",
+          "main_reg_id": "REG-094",
+          "edge_type": "SEQUENCE",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-094 -> REG-093",
+          "text": "Paragraphs 1 to 4 shall not apply where and insofar as: (b) the provision of such information proves impossible or would involve a disproportionate effort, in particular for processing for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes, subject to the conditions and safeguards referred to in Article 89(1) or in so far as the obligation referred to in paragraph 1 of this Article is likely to render impossible or seriously impair the achievement of the objectives of that processing.",
+          "article": "14",
+          "paragraph": "5(b)"
+        },
+        {
+          "id": "REG-091",
+          "main_reg_id": "REG-094",
+          "edge_type": "PARENT_CHILD",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-091 -> REG-094",
+          "text": "Paragraphs 1 to 4 shall not apply where and insofar as:",
+          "article": "14",
+          "paragraph": "5"
+        },
+        {
+          "id": "REG-092",
+          "main_reg_id": "REG-094",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-094 <- REG-091 -> REG-092",
+          "text": "Paragraphs 1 to 4 shall not apply where and insofar as: (a) the data subject already has the information;",
+          "article": "14",
+          "paragraph": "5(a)"
+        },
+        {
+          "id": "REG-095",
+          "main_reg_id": "REG-094",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-094 <- REG-091 -> REG-095",
+          "text": "Paragraphs 1 to 4 shall not apply where and insofar as: (c) obtaining or disclosure is expressly laid down by Union or Member State law to which the controller is subject and which provides appropriate measures to protect the data subject's legitimate interests or",
+          "article": "14",
+          "paragraph": "5(c)"
+        },
+        {
+          "id": "REG-096",
+          "main_reg_id": "REG-094",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-094 <- REG-091 -> REG-096",
+          "text": "Paragraphs 1 to 4 shall not apply where and insofar as: (d) where the personal data must remain confidential subject to an obligation of professional secrecy regulated by Union or Member State law, including a statutory obligation of secrecy.",
+          "article": "14",
+          "paragraph": "5(d)"
+        }
+      ]
+    },
+    {
+      "id": "REG-108",
+      "clause": "Art15(3)",
+      "text": "The controller shall provide a copy of the personal data undergoing processing.",
+      "rerank_rank": 4,
+      "rerank_score": 0.005318659357726574,
+      "similarity_score": 0.728163,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-109",
+          "main_reg_id": "REG-108",
+          "edge_type": "SEQUENCE",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-109 -> REG-108",
+          "text": "For any further copies requested by the data subject, the controller may charge a reasonable fee based on administrative costs.",
+          "article": "15",
+          "paragraph": "3"
+        }
+      ]
+    },
+    {
+      "id": "REG-002",
+      "clause": "Art6(1(a))",
+      "text": "Processing shall be lawful only if and to the extent that at least one of the following applies: (a) the data subject has given consent to the processing of his or her personal data for one or more specific purposes;",
+      "rerank_rank": 5,
+      "rerank_score": 0.00520999263972044,
+      "similarity_score": 0.75598,
+      "already_visited_before_expansion": true,
+      "graph_context": []
+    }
+  ],
+  "visited_reg_ids": [
+    "REG-001",
+    "REG-002",
+    "REG-003",
+    "REG-004",
+    "REG-005",
+    "REG-006",
+    "REG-007",
+    "REG-019",
+    "REG-020",
+    "REG-021",
+    "REG-022",
+    "REG-023",
+    "REG-024",
+    "REG-025",
+    "REG-026",
+    "REG-027",
+    "REG-028",
+    "REG-029",
+    "REG-030",
+    "REG-031",
+    "REG-091",
+    "REG-092",
+    "REG-093",
+    "REG-094",
+    "REG-095",
+    "REG-096",
+    "REG-108",
+    "REG-109"
+  ]
+}

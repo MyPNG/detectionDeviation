@@ -1,0 +1,151 @@
+[
+  {
+    "reg_id": "REG-ART-06",
+    "clause": "Art6",
+    "considered_references": [
+      "Art6"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-ART-12",
+    "clause": "Art12(3)",
+    "considered_references": [
+      "Art12(3)"
+    ],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Time deviation",
+        "analysis": "Policy statement: \"We will respond to all data access requests within a standard period of 90 days.\" GDPR Art12(3) requires response within one month, so the policy allows a longer timeline than permitted."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-ART-13",
+    "clause": "Art13",
+    "considered_references": [
+      "Art13"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-ART-15",
+    "clause": "Art15(1)",
+    "considered_references": [
+      "Art15(1)"
+    ],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Negation deviation",
+        "analysis": "Policy statement: \"we will not provide confirmation to you as to whether or not personal data concerning you is being processed.\" This directly negates GDPR Art15(1), which requires confirmation access rights."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-ART-16",
+    "clause": "Art16",
+    "considered_references": [
+      "Art16"
+    ],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Responsibility deviation",
+        "analysis": "Policy statement: \"all requests for rectification must be handled directly by our third-party server host, and you must contact them directly rather than us.\" GDPR Art16 places rectification responsibility on the controller, not shifted to a third-party processor as primary responsible party."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-ART-17",
+    "clause": "Art17",
+    "considered_references": [
+      "Art17"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-ART-20",
+    "clause": "Art20(1)",
+    "considered_references": [
+      "Art20(1)"
+    ],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Execution style deviation",
+        "analysis": "Policy statement: \"Data portability requests will be fulfilled exclusively by printing your data on physical paper...\" GDPR Art20(1) requires a structured, commonly used, machine-readable format; paper-only fulfillment changes execution method and fails machine-readability."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-ART-21",
+    "clause": "Art21",
+    "considered_references": [
+      "Art21"
+    ],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Data deviation",
+        "analysis": "Policy statement: \"The right to object is strictly limited to our use of your email for direct marketing campaigns.\" GDPR Art21 provides a broader right to object to certain processing (including legitimate-interest based processing), so the policy narrows data/processing scope."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-ART-33",
+    "clause": "Art33",
+    "considered_references": [
+      "Art33",
+      "Art34"
+    ],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Task execution order deviation",
+        "analysis": "Policy statement: \"we will first issue a press release to the public media, and subsequently notify the supervisory authority.\" GDPR Art33/34 establish notification sequence centered on supervisory authority first (and data subjects under risk conditions), so the policy changes required order."
+      },
+      {
+        "deviation_type": "Severity deviation",
+        "analysis": "Policy statement: \"We will ensure the supervisory authority is notified within 12 hours...\" GDPR Art33 allows up to 72 hours; 12 hours is stricter than required and therefore over-compliant."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-ART-34",
+    "clause": "Art34",
+    "considered_references": [
+      "Art33",
+      "Art34"
+    ],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Task execution order deviation",
+        "analysis": "Policy statement: \"we will first issue a press release to the public media, and subsequently notify the supervisory authority.\" GDPR Art33/34 establish notification sequence centered on supervisory authority first (and data subjects under risk conditions), so the policy changes required order."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-ART-46",
+    "clause": "Art46",
+    "considered_references": [
+      "Art46"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-ART-49",
+    "clause": "Art49",
+    "considered_references": [
+      "Art49"
+    ],
+    "deviation_found": false,
+    "deviations": []
+  }
+]

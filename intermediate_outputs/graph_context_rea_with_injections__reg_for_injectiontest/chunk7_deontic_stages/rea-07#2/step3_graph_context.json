@@ -1,0 +1,107 @@
+{
+  "rea_sub_id": "REA-07#2",
+  "reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/artifact_01_rea_with_injections__reg_for_injectiontest_reranked/chunk7_deontic_stages/rea-07#2.json",
+  "top_k": 5,
+  "max_hop": 1,
+  "allowed_relations": [
+    "AND",
+    "PARENT_CHILD",
+    "REFERENCES",
+    "SEQUENCE"
+  ],
+  "main_constraints": [
+    {
+      "id": "REG-043",
+      "clause": "Art12(3)",
+      "text": "That period may be extended by two further months where necessary, taking into account the complexity and number of the requests.",
+      "rerank_rank": 1,
+      "rerank_score": 0.09686585515737534,
+      "similarity_score": 0.797763,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-042",
+          "main_reg_id": "REG-043",
+          "edge_type": "SEQUENCE",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-043 -> REG-042",
+          "text": "The controller shall provide information on action taken on a request under Articles 15 to 22 to the data subject without undue delay and in any event within one month of receipt of the request.",
+          "article": "12",
+          "paragraph": "3"
+        },
+        {
+          "id": "REG-044",
+          "main_reg_id": "REG-043",
+          "edge_type": "SEQUENCE",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-044 -> REG-043",
+          "text": "The controller shall inform the data subject of any such extension within one month of receipt of the request, together with the reasons for the delay.",
+          "article": "12",
+          "paragraph": "3"
+        }
+      ]
+    },
+    {
+      "id": "REG-042",
+      "clause": "Art12(3)",
+      "text": "The controller shall provide information on action taken on a request under Articles 15 to 22 to the data subject without undue delay and in any event within one month of receipt of the request.",
+      "rerank_rank": 2,
+      "rerank_score": 0.018608884885907173,
+      "similarity_score": 0.840034,
+      "already_visited_before_expansion": true,
+      "graph_context": []
+    },
+    {
+      "id": "REG-046",
+      "clause": "Art12(4)",
+      "text": "If the controller does not take action on the request of the data subject, the controller shall inform the data subject without delay and at the latest within one month of receipt of the request of the reasons for not taking action and on the possibility of lodging a complaint with a supervisory authority and seeking a judicial remedy.",
+      "rerank_rank": 3,
+      "rerank_score": 0.01580733433365822,
+      "similarity_score": 0.793794,
+      "already_visited_before_expansion": false,
+      "graph_context": []
+    },
+    {
+      "id": "REG-044",
+      "clause": "Art12(3)",
+      "text": "The controller shall inform the data subject of any such extension within one month of receipt of the request, together with the reasons for the delay.",
+      "rerank_rank": 4,
+      "rerank_score": 0.013699370436370373,
+      "similarity_score": 0.802003,
+      "already_visited_before_expansion": true,
+      "graph_context": []
+    },
+    {
+      "id": "REG-040",
+      "clause": "Art12(2)",
+      "text": "The controller shall facilitate the exercise of data subject rights under Articles 15 to 22.",
+      "rerank_rank": 5,
+      "rerank_score": 0.012114985845983028,
+      "similarity_score": 0.727124,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-041",
+          "main_reg_id": "REG-040",
+          "edge_type": "SEQUENCE",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-041 -> REG-040",
+          "text": "In the cases referred to in Article 11(2), the controller shall not refuse to act on the request of the data subject for exercising his or her rights under Articles 15 to 22, unless the controller demonstrates that it is not in a position to identify the data subject.",
+          "article": "12",
+          "paragraph": "2"
+        }
+      ]
+    }
+  ],
+  "visited_reg_ids": [
+    "REG-040",
+    "REG-041",
+    "REG-042",
+    "REG-043",
+    "REG-044",
+    "REG-046"
+  ]
+}

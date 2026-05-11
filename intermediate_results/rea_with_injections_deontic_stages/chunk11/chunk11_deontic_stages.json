@@ -1,0 +1,390 @@
+{
+  "chunk": "chunk11",
+  "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections/chunk11/chunk11_requirements.json",
+  "stage1_3_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_with_injections_deontic_stages/chunk11/chunk11_stage1_3.json",
+  "stage1_output": [
+    {
+      "ID": "REA-11#1",
+      "REA_ID": "REA-11",
+      "Text": "You can also request that we rectify or erase any personal data we hold about you."
+    },
+    {
+      "ID": "REA-11#2",
+      "REA_ID": "REA-11",
+      "Text": "However, all requests for rectification must be handled directly by our third-party server host, and you must contact them directly rather than us. •"
+    },
+    {
+      "ID": "REA-11#3",
+      "REA_ID": "REA-11",
+      "Text": "The right to withdraw consent •"
+    },
+    {
+      "ID": "REA-11#4",
+      "REA_ID": "REA-11",
+      "Text": "The right of access."
+    },
+    {
+      "ID": "REA-11#5",
+      "REA_ID": "REA-11",
+      "Text": "However, please note we will not provide confirmation to you as to whether or not personal data concerning you is being processed."
+    },
+    {
+      "ID": "REA-11#6",
+      "REA_ID": "REA-11",
+      "Text": "•"
+    },
+    {
+      "ID": "REA-11#7",
+      "REA_ID": "REA-11",
+      "Text": "The right to erasure •"
+    },
+    {
+      "ID": "REA-11#8",
+      "REA_ID": "REA-11",
+      "Text": "The right to rectification •"
+    },
+    {
+      "ID": "REA-11#9",
+      "REA_ID": "REA-11",
+      "Text": "The right to data portability •"
+    },
+    {
+      "ID": "REA-11#10",
+      "REA_ID": "REA-11",
+      "Text": "The right to object."
+    },
+    {
+      "ID": "REA-11#11",
+      "REA_ID": "REA-11",
+      "Text": "The right to object is strictly limited to our use of your email for direct marketing campaigns."
+    }
+  ],
+  "stage2_output": [
+    {
+      "ID": "REA-11#1",
+      "REA_ID": "REA-11",
+      "Text": "You can also request that we rectify or erase any personal data we hold about you.",
+      "Modal": "Permissive(can)"
+    },
+    {
+      "ID": "REA-11#2",
+      "REA_ID": "REA-11",
+      "Text": "However, all requests for rectification must be handled directly by our third-party server host, and you must contact them directly rather than us. •",
+      "Modal": "Mandatory(must)"
+    },
+    {
+      "ID": "REA-11#3",
+      "REA_ID": "REA-11",
+      "Text": "The right to withdraw consent •",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-11#4",
+      "REA_ID": "REA-11",
+      "Text": "The right of access.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-11#5",
+      "REA_ID": "REA-11",
+      "Text": "However, please note we will not provide confirmation to you as to whether or not personal data concerning you is being processed.",
+      "Modal": "Mandatory(will)"
+    },
+    {
+      "ID": "REA-11#6",
+      "REA_ID": "REA-11",
+      "Text": "•",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-11#7",
+      "REA_ID": "REA-11",
+      "Text": "The right to erasure •",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-11#8",
+      "REA_ID": "REA-11",
+      "Text": "The right to rectification •",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-11#9",
+      "REA_ID": "REA-11",
+      "Text": "The right to data portability •",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-11#10",
+      "REA_ID": "REA-11",
+      "Text": "The right to object.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-11#11",
+      "REA_ID": "REA-11",
+      "Text": "The right to object is strictly limited to our use of your email for direct marketing campaigns.",
+      "Modal": ""
+    }
+  ],
+  "stage3_output": [
+    {
+      "ID": "REA-11#1",
+      "Active_Recovered_Text": "You can also request that we rectify or erase any personal data we hold about you."
+    },
+    {
+      "ID": "REA-11#2",
+      "Active_Recovered_Text": "Our third-party server host must handle all requests for rectification directly, and you must contact them rather than us."
+    },
+    {
+      "ID": "REA-11#3",
+      "Active_Recovered_Text": "The right to withdraw consent •"
+    },
+    {
+      "ID": "REA-11#4",
+      "Active_Recovered_Text": "The right of access."
+    },
+    {
+      "ID": "REA-11#5",
+      "Active_Recovered_Text": "However, please note we will not provide confirmation to you as to whether or not personal data concerning you is being processed."
+    },
+    {
+      "ID": "REA-11#6",
+      "Active_Recovered_Text": "•"
+    },
+    {
+      "ID": "REA-11#7",
+      "Active_Recovered_Text": "The right to erasure •"
+    },
+    {
+      "ID": "REA-11#8",
+      "Active_Recovered_Text": "The right to rectification •"
+    },
+    {
+      "ID": "REA-11#9",
+      "Active_Recovered_Text": "The right to data portability •"
+    },
+    {
+      "ID": "REA-11#10",
+      "Active_Recovered_Text": "The right to object."
+    },
+    {
+      "ID": "REA-11#11",
+      "Active_Recovered_Text": "The right to object is strictly limited to our use of your email for direct marketing campaigns."
+    }
+  ],
+  "stage4_output": [
+    {
+      "id": "REA-11",
+      "text": "You can also request that we rectify or erase any personal data we hold about you.",
+      "actor": "You",
+      "modal": "Permissive(can)",
+      "action": "also",
+      "action_list": [
+        "also"
+      ],
+      "object": "request that we rectify or erase any personal data we hold about you.",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk11",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-11",
+      "sub_id": "REA-11#1",
+      "split_index": "1"
+    },
+    {
+      "id": "REA-11",
+      "text": "Our third-party server host must handle all requests for rectification directly, and you must contact them rather than us.",
+      "actor": "Our third-party server host",
+      "modal": "Mandatory(must)",
+      "action": "handle",
+      "action_list": [
+        "handle"
+      ],
+      "object": "all requests for rectification directly, and you must contact them rather than us.",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk11",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-11",
+      "sub_id": "REA-11#2",
+      "split_index": "2"
+    },
+    {
+      "id": "REA-11",
+      "text": "The right to withdraw consent •",
+      "actor": "",
+      "modal": "",
+      "action": "withdraw",
+      "action_list": [
+        "withdraw"
+      ],
+      "object": "consent",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk11",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-11",
+      "sub_id": "REA-11#3",
+      "split_index": "3"
+    },
+    {
+      "id": "REA-11",
+      "text": "The right of access.",
+      "actor": "",
+      "modal": "",
+      "action": "",
+      "action_list": [],
+      "object": "access",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk11",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-11",
+      "sub_id": "REA-11#4",
+      "split_index": "4"
+    },
+    {
+      "id": "REA-11",
+      "text": "However, please note we will not provide confirmation to you as to whether or not personal data concerning you is being processed.",
+      "actor": "please note we",
+      "modal": "Mandatory(will)",
+      "action": "provide",
+      "action_list": [
+        "provide"
+      ],
+      "object": "confirmation to you as to whether or not personal data concerning you is being processed.",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk11",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-11",
+      "sub_id": "REA-11#5",
+      "split_index": "5"
+    },
+    {
+      "id": "REA-11",
+      "text": "•",
+      "actor": "",
+      "modal": "",
+      "action": "",
+      "action_list": [],
+      "object": "",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk11",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-11",
+      "sub_id": "REA-11#6",
+      "split_index": "6"
+    },
+    {
+      "id": "REA-11",
+      "text": "The right to erasure •",
+      "actor": "",
+      "modal": "",
+      "action": "erasure",
+      "action_list": [
+        "erasure"
+      ],
+      "object": "•",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk11",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-11",
+      "sub_id": "REA-11#7",
+      "split_index": "7"
+    },
+    {
+      "id": "REA-11",
+      "text": "The right to rectification •",
+      "actor": "",
+      "modal": "",
+      "action": "",
+      "action_list": [],
+      "object": "",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk11",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-11",
+      "sub_id": "REA-11#8",
+      "split_index": "8"
+    },
+    {
+      "id": "REA-11",
+      "text": "The right to data portability •",
+      "actor": "",
+      "modal": "",
+      "action": "",
+      "action_list": [],
+      "object": "data portability",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk11",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-11",
+      "sub_id": "REA-11#9",
+      "split_index": "9"
+    },
+    {
+      "id": "REA-11",
+      "text": "The right to object.",
+      "actor": "",
+      "modal": "",
+      "action": "object",
+      "action_list": [
+        "object"
+      ],
+      "object": "",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk11",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-11",
+      "sub_id": "REA-11#10",
+      "split_index": "10"
+    },
+    {
+      "id": "REA-11",
+      "text": "The right to object is strictly limited to our use of your email for direct marketing campaigns.",
+      "actor": "The right to object",
+      "modal": "",
+      "action": "limit",
+      "action_list": [
+        "limit"
+      ],
+      "object": "our use of your email for direct marketing campaigns",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk11",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-11",
+      "sub_id": "REA-11#11",
+      "split_index": "11"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+A right to erasure does not exist insofar as •	the data may not be deleted due to a legal obligation or must be processed due to a legal obligation; •	the data processing is necessary for the assertion, exercise or defence of legal claims.
+
+Right to restrict processing: You have the right to request that we restrict the processing of your personal data.
+
+Right to data portability: You have the right to receive from us the data you have provided in a structured, common and machine-readable format, as well as the right to have this data transferred to another controller. This right only exists if •	you have provided us with the data on the basis of consent or on the basis of a contract concluded with you; •	the processing is carried out by automated means.
+
+Right to object to processing: If the processing of your data is based on Art 6 para 1 lit f) GDPR, you may object to the processing at any time.

@@ -1,0 +1,914 @@
+{
+  "id": "REA-08#5",
+  "search query": "Regarding your rights pertaining your data, if you have left comments on the Website, you can request to receive an exported file of the personal data we hold about you.",
+  "embedding query": "actions: request action: request object: to receive an exported file of the personal data we hold about you. actor: you modal: Permissive(can) condition: if you have left comments on the Website text: Regarding your rights pertaining your data, if you have left comments on the Website, you can request to receive an exported file of the personal data we hold about you.",
+  "top matches": [
+    {
+      "ID": "REG-133",
+      "article": "Art20(1)",
+      "text": "The data subject shall have the right to receive the personal data concerning him or her, which he or she has provided to a controller, in a structured, commonly used and machine-readable format and have the right to transmit those data to another controller without hindrance from the controller to which the personal data have been provided, where:",
+      "embedding text": "actions: have action: have object: the right to receive the personal data concerning him or her, which he or she has provided to a controller, in a structured, commonly used and machine-readable format and have the right to transmit those data to another controller without hindrance from the controller to which the personal data have been provided, where: actor: The data subject condition: where text: The data subject shall have the right to receive the personal data concerning him or her, which he or she has provided to a controller, in a structured, commonly used and machine-readable format and have the right to transmit those data to another controller without hindrance from the controller to which the personal data have been provided, where:",
+      "similarity score": 0.834002,
+      "rerank score": 0.02965453267097473,
+      "rerank rank": 1
+    },
+    {
+      "ID": "REG-108",
+      "article": "Art15(3)",
+      "text": "The controller shall provide a copy of the personal data undergoing processing.",
+      "embedding text": "actions: provide action: provide object: a copy of the personal data undergoing processing. actor: The controller text: The controller shall provide a copy of the personal data undergoing processing.",
+      "similarity score": 0.788912,
+      "rerank score": 0.028483284637331963,
+      "rerank rank": 2
+    },
+    {
+      "ID": "REG-134",
+      "article": "Art20(1(a))",
+      "text": "The data subject shall have the right to receive the personal data concerning him or her, which he or she has provided to a controller, in a structured, commonly used and machine-readable format and have the right to transmit those data to another controller without hindrance from the controller to which the personal data have been provided, where: (a) the processing is based on consent pursuant to point (a) of Article 6(1) or point (a) of Article 9(2) or on a contract pursuant to point (b) of Article 6(1); and",
+      "embedding text": "actions: have action: have object: the right to receive the personal data concerning him or her, which he or she has provided to a controller, in a structured, commonly used and machine-readable format and have the right to transmit those data to another controller without hindrance from the controller to which the personal data have been provided, where: (a) the processing is based on consent pursuant to point (a) of Article 6(1) or point (a) of Article 9(2) or on a contract pursuant to point (b) of Article 6(1); and actor: The data subject condition: where text: The data subject shall have the right to receive the personal data concerning him or her, which he or she has provided to a controller, in a structured, commonly used and machine-readable format and have the right to transmit those data to another controller without hindrance from the controller to which the personal data have been provided, where: (a) the processing is based on consent pursuant to point (a) of Article 6(1) or point (a) of Article 9(2) or on a contract pursuant to point (b) of Article 6(1); and",
+      "similarity score": 0.828133,
+      "rerank score": 0.024727409705519676,
+      "rerank rank": 3
+    },
+    {
+      "ID": "REG-135",
+      "article": "Art20(1(b))",
+      "text": "The data subject shall have the right to receive the personal data concerning him or her, which he or she has provided to a controller, in a structured, commonly used and machine-readable format and have the right to transmit those data to another controller without hindrance from the controller to which the personal data have been provided, where: (b) the processing is carried out by automated means.",
+      "embedding text": "actions: have action: have object: the right to receive the personal data concerning him or her, which he or she has provided to a controller, in a structured, commonly used and machine-readable format and have the right to transmit those data to another controller without hindrance from the controller to which the personal data have been provided, where: (b) the processing is carried out by automated means. actor: The data subject temporal: by automated means condition: where manner: by automated means text: The data subject shall have the right to receive the personal data concerning him or her, which he or she has provided to a controller, in a structured, commonly used and machine-readable format and have the right to transmit those data to another controller without hindrance from the controller to which the personal data have been provided, where: (b) the processing is carried out by automated means.",
+      "similarity score": 0.816435,
+      "rerank score": 0.02189590595662594,
+      "rerank rank": 4
+    },
+    {
+      "ID": "REG-097",
+      "article": "Art15(1)",
+      "text": "The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information:",
+      "embedding text": "actions: have action: have object: the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: actor: The data subject temporal: following information condition: where that is the case text: The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information:",
+      "similarity score": 0.835894,
+      "rerank score": 0.011869121342897415,
+      "rerank rank": 5
+    },
+    {
+      "ID": "REG-099",
+      "article": "Art15(1(b))",
+      "text": "The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (b) the categories of personal data concerned;",
+      "embedding text": "actions: have action: have object: the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (b) the categories of personal data concerned; actor: The data subject temporal: following information condition: where that is the case text: The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (b) the categories of personal data concerned;",
+      "similarity score": 0.832989,
+      "rerank score": 0.011392085812985897,
+      "rerank rank": 6
+    },
+    {
+      "ID": "REG-105",
+      "article": "Art15(1(g))",
+      "text": "The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (g) where the personal data are not collected from the data subject, any available information as to their source;",
+      "embedding text": "actions: have action: have object: the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (g) where the personal data are not collected from the data subject, any available information as to their source; actor: The data subject temporal: following information condition: where that is the case text: The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (g) where the personal data are not collected from the data subject, any available information as to their source;",
+      "similarity score": 0.833593,
+      "rerank score": 0.011160725727677345,
+      "rerank rank": 7
+    },
+    {
+      "ID": "REG-100",
+      "article": "Art15(1(c))",
+      "text": "The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (c) the recipients or categories of recipient to whom the personal data have been",
+      "embedding text": "actions: have action: have object: the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (c) the recipients or categories of recipient to whom the personal data have been actor: The data subject temporal: following information condition: where that is the case text: The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (c) the recipients or categories of recipient to whom the personal data have been",
+      "similarity score": 0.823597,
+      "rerank score": 0.011160725727677345,
+      "rerank rank": 8
+    },
+    {
+      "ID": "REG-104",
+      "article": "Art15(1(f))",
+      "text": "The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (f) the right to lodge a complaint with a supervisory authority;",
+      "embedding text": "actions: have action: have object: the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (f) the right to lodge a complaint with a supervisory authority; actor: The data subject temporal: following information condition: where that is the case text: The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (f) the right to lodge a complaint with a supervisory authority;",
+      "similarity score": 0.821446,
+      "rerank score": 0.0107118533924222,
+      "rerank rank": 9
+    },
+    {
+      "ID": "REG-103",
+      "article": "Art15(1(e))",
+      "text": "The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (e) the existence of the right to request from the controller rectification or erasure of personal data or restriction of processing of personal data concerning the data subject or to object to such processing;",
+      "embedding text": "actions: have action: have object: the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (e) the existence of the right to request from the controller rectification or erasure of personal data or restriction of processing of personal data concerning the data subject or to object to such processing; actor: The data subject temporal: following information condition: where that is the case text: The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (e) the existence of the right to request from the controller rectification or erasure of personal data or restriction of processing of personal data concerning the data subject or to object to such processing;",
+      "similarity score": 0.830475,
+      "rerank score": 0.01049416046589613,
+      "rerank rank": 10
+    },
+    {
+      "ID": "REG-102",
+      "article": "Art15(1(d))",
+      "text": "The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (d) where possible, the envisaged period for which the personal data will be stored, or, if not possible, the criteria used to determine that period;",
+      "embedding text": "actions: have action: have object: the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (d) where possible, the envisaged period for which the personal data will be stored, or, if not possible, the criteria used to determine that period; actor: The data subject temporal: following information condition: where that is the case text: The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (d) where possible, the envisaged period for which the personal data will be stored, or, if not possible, the criteria used to determine that period;",
+      "similarity score": 0.825318,
+      "rerank score": 0.01049416046589613,
+      "rerank rank": 11
+    },
+    {
+      "ID": "REG-098",
+      "article": "Art15(1(a))",
+      "text": "The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (a) the purposes of the processing;",
+      "embedding text": "actions: have action: have object: the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (a) the purposes of the processing; actor: The data subject temporal: following information condition: where that is the case text: The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (a) the purposes of the processing;",
+      "similarity score": 0.833701,
+      "rerank score": 0.010071823373436928,
+      "rerank rank": 12
+    },
+    {
+      "ID": "REG-136",
+      "article": "Art20(2)",
+      "text": "In exercising his or her right to data portability pursuant to paragraph 1, the data subject shall have the right to have the personal data transmitted directly from one controller to another, where technically feasible.",
+      "embedding text": "actions: have action: have object: the right to have the personal data transmitted directly from one controller to another, where technically feasible. actor: the data subject condition: where technically feasible text: In exercising his or her right to data portability pursuant to paragraph 1, the data subject shall have the right to have the personal data transmitted directly from one controller to another, where technically feasible.",
+      "similarity score": 0.824635,
+      "rerank score": 0.009867008775472641,
+      "rerank rank": 13
+    },
+    {
+      "ID": "REG-055",
+      "article": "Art13(1)",
+      "text": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information:",
+      "embedding text": "actions: relate action: relate object: a data subject actor: the controller temporal: following information condition: Where personal data relating to a data subject are collected from the data subject text: Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information:",
+      "similarity score": 0.785771,
+      "rerank score": 0.008903191424906254,
+      "rerank rank": 14
+    },
+    {
+      "ID": "REG-064",
+      "article": "Art13(2(b))",
+      "text": "In addition to the information referred to in paragraph 1, the controller shall, at the time when personal data are obtained, provide the data subject with the following further information necessary to ensure fair and transparent processing: (b) the existence of the right to request from the controller access to and rectification or erasure of personal data or restriction of processing concerning the data subject or to object to processing as well as the right to data portability;",
+      "embedding text": "actions: refer action: refer object: addition to the information referred to in paragraph 1 actor: the controller temporal: following further information necessary to ensure condition: when personal data are obtained text: In addition to the information referred to in paragraph 1, the controller shall, at the time when personal data are obtained, provide the data subject with the following further information necessary to ensure fair and transparent processing: (b) the existence of the right to request from the controller access to and rectification or erasure of personal data or restriction of processing concerning the data subject or to object to processing as well as the right to data portability;",
+      "similarity score": 0.774343,
+      "rerank score": 0.00854433048516512,
+      "rerank rank": 15
+    },
+    {
+      "ID": "REG-094",
+      "article": "Art14(5(b))",
+      "text": "In such cases the controller shall take appropriate measures to protect the data subject's rights and freedoms and legitimate interests, including making the information publicly available;",
+      "embedding text": "actions: take action: take object: appropriate measures to protect the data subject's rights and freedoms and legitimate interests, including making the information publicly available; actor: In such cases the controller text: In such cases the controller shall take appropriate measures to protect the data subject's rights and freedoms and legitimate interests, including making the information publicly available;",
+      "similarity score": 0.761413,
+      "rerank score": 0.00854433048516512,
+      "rerank rank": 16
+    },
+    {
+      "ID": "REG-081",
+      "article": "Art14(2(c))",
+      "text": "In addition to the information referred to in paragraph 1, the controller shall provide the data subject with the following information necessary to ensure fair and transparent processing in respect of the data subject: (c) the existence of the right to request from the controller access to and rectification or erasure of personal data or restriction of processing concerning the data subject and to object to processing as well as the right to data portability;",
+      "embedding text": "actions: provide action: provide object: the data subject with the following information necessary to ensure fair and transparent processing in respect of the data subject: (c) the existence of the right to request from the controller access to and rectification or erasure of personal data or restriction of processing concerning the data subject and to object to processing as well as the right to data portability; actor: the controller temporal: following information necessary to ensure fair text: In addition to the information referred to in paragraph 1, the controller shall provide the data subject with the following information necessary to ensure fair and transparent processing in respect of the data subject: (c) the existence of the right to request from the controller access to and rectification or erasure of personal data or restriction of processing concerning the data subject and to object to processing as well as the right to data portability;",
+      "similarity score": 0.794409,
+      "rerank score": 0.008199813775718212,
+      "rerank rank": 17
+    },
+    {
+      "ID": "REG-024",
+      "article": "Art9(2(e))",
+      "text": "Paragraph 1 shall not apply if one of the following applies: (e) processing relates to personal data which are manifestly made public by the data subject;",
+      "embedding text": "actions: apply action: apply object: if one of the following applies: (e) processing relates to personal data which are manifestly made public by the data subject; actor: Paragraph 1 temporal: following applies condition: if one of the following applies manner: by the data subject text: Paragraph 1 shall not apply if one of the following applies: (e) processing relates to personal data which are manifestly made public by the data subject;",
+      "similarity score": 0.777923,
+      "rerank score": 0.008199813775718212,
+      "rerank rank": 18
+    },
+    {
+      "ID": "REG-112",
+      "article": "Art17(1)",
+      "text": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay",
+      "embedding text": "actions: have action: have object: the right to obtain from the controller the erasure of personal data concerning him or her without undue delay actor: The data subject temporal: without undue delay text: The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay",
+      "similarity score": 0.755594,
+      "rerank score": 0.008199813775718212,
+      "rerank rank": 19
+    },
+    {
+      "ID": "REG-114",
+      "article": "Art17(1(a))",
+      "text": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay",
+      "embedding text": "actions: have action: have object: the right to obtain from the controller the erasure of personal data concerning him or her without undue delay actor: The data subject temporal: without undue delay text: The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay",
+      "similarity score": 0.755594,
+      "rerank score": 0.008199813775718212,
+      "rerank rank": 20
+    },
+    {
+      "ID": "REG-116",
+      "article": "Art17(1(b))",
+      "text": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay",
+      "embedding text": "actions: have action: have object: the right to obtain from the controller the erasure of personal data concerning him or her without undue delay actor: The data subject temporal: without undue delay text: The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay",
+      "similarity score": 0.755594,
+      "rerank score": 0.008199813775718212,
+      "rerank rank": 21
+    },
+    {
+      "ID": "REG-118",
+      "article": "Art17(1(c))",
+      "text": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay",
+      "embedding text": "actions: have action: have object: the right to obtain from the controller the erasure of personal data concerning him or her without undue delay actor: The data subject temporal: without undue delay text: The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay",
+      "similarity score": 0.755594,
+      "rerank score": 0.008199813775718212,
+      "rerank rank": 22
+    },
+    {
+      "ID": "REG-120",
+      "article": "Art17(1(d))",
+      "text": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay",
+      "embedding text": "actions: have action: have object: the right to obtain from the controller the erasure of personal data concerning him or her without undue delay actor: The data subject temporal: without undue delay text: The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay",
+      "similarity score": 0.755594,
+      "rerank score": 0.008199813775718212,
+      "rerank rank": 23
+    },
+    {
+      "ID": "REG-122",
+      "article": "Art17(1(e))",
+      "text": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay",
+      "embedding text": "actions: have action: have object: the right to obtain from the controller the erasure of personal data concerning him or her without undue delay actor: The data subject temporal: without undue delay text: The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay",
+      "similarity score": 0.755594,
+      "rerank score": 0.008199813775718212,
+      "rerank rank": 24
+    },
+    {
+      "ID": "REG-124",
+      "article": "Art17(1(f))",
+      "text": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay",
+      "embedding text": "actions: have action: have object: the right to obtain from the controller the erasure of personal data concerning him or her without undue delay actor: The data subject temporal: without undue delay text: The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay",
+      "similarity score": 0.755594,
+      "rerank score": 0.008199813775718212,
+      "rerank rank": 25
+    },
+    {
+      "ID": "REG-075",
+      "article": "Art14(1(d))",
+      "text": "Where personal data have not been obtained from the data subject, the controller shall provide the data subject with the following information: (d) the categories of personal data concerned;",
+      "embedding text": "actions: provide action: provide object: the data subject with the following information: (d) the categories of personal data concerned; actor: the controller temporal: following information condition: Where personal data have not been obtained from the data subject text: Where personal data have not been obtained from the data subject, the controller shall provide the data subject with the following information: (d) the categories of personal data concerned;",
+      "similarity score": 0.82115,
+      "rerank score": 0.007869078777730465,
+      "rerank rank": 26
+    },
+    {
+      "ID": "REG-106",
+      "article": "Art15(1(h))",
+      "text": "The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (h) the existence of automated decision-making, including profiling, referred to in Article 22(1) and (4) and, at least in those cases, meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing for the data subject.",
+      "embedding text": "actions: have action: have object: the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (h) the existence of automated decision-making, including profiling, referred to in Article 22(1) and (4) and, at least in those cases, meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing for the data subject. actor: The data subject temporal: following information condition: where that is the case text: The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (h) the existence of automated decision-making, including profiling, referred to in Article 22(1) and (4) and, at least in those cases, meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing for the data subject.",
+      "similarity score": 0.816147,
+      "rerank score": 0.007708708290010691,
+      "rerank rank": 27
+    },
+    {
+      "ID": "REG-060",
+      "article": "Art13(1(e))",
+      "text": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: (e) the recipients or categories of recipients of the personal data, if any;",
+      "embedding text": "actions: relate action: relate object: a data subject actor: the controller temporal: following information condition: Where personal data relating to a data subject are collected from the data subject text: Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: (e) the recipients or categories of recipients of the personal data, if any;",
+      "similarity score": 0.791016,
+      "rerank score": 0.007246801629662514,
+      "rerank rank": 28
+    },
+    {
+      "ID": "REG-087",
+      "article": "Art14(3(a))",
+      "text": "The controller shall provide the information referred to in paragraphs 1 and 2: (a) within a reasonable period after obtaining the personal data, but at the latest within one month, having regard to the specific circumstances in which the personal data are processed;",
+      "embedding text": "actions: provide action: provide object: the information referred to in paragraphs 1 and 2: (a) within a reasonable period after obtaining the personal data, but at the latest within one month, having regard to the specific circumstances in which the personal data are processed; actor: The controller temporal: at the latest within one month text: The controller shall provide the information referred to in paragraphs 1 and 2: (a) within a reasonable period after obtaining the personal data, but at the latest within one month, having regard to the specific circumstances in which the personal data are processed;",
+      "similarity score": 0.778091,
+      "rerank score": 0.006954236421734095,
+      "rerank rank": 29
+    },
+    {
+      "ID": "REG-039",
+      "article": "Art12(1)",
+      "text": "When requested by the data subject, the information may be provided orally, provided that the identity of the data subject is proven by other means.",
+      "embedding text": "actions: provide action: provide object: orally, provided that the identity of the data subject is proven by other means. actor: the information temporal: by the data subject condition: When requested by the data subject manner: by the data subject text: When requested by the data subject, the information may be provided orally, provided that the identity of the data subject is proven by other means.",
+      "similarity score": 0.76984,
+      "rerank score": 0.006954236421734095,
+      "rerank rank": 30
+    },
+    {
+      "ID": "REG-076",
+      "article": "Art14(1(e))",
+      "text": "Where personal data have not been obtained from the data subject, the controller shall provide the data subject with the following information: (e) the recipients or categories of recipients of the personal data, if any;",
+      "embedding text": "actions: provide action: provide object: the data subject with the following information: (e) the recipients or categories of recipients of the personal data, if any; actor: the controller temporal: following information condition: Where personal data have not been obtained from the data subject text: Where personal data have not been obtained from the data subject, the controller shall provide the data subject with the following information: (e) the recipients or categories of recipients of the personal data, if any;",
+      "similarity score": 0.819497,
+      "rerank score": 0.006812382023781538,
+      "rerank rank": 31
+    },
+    {
+      "ID": "REG-071",
+      "article": "Art14(1)",
+      "text": "Where personal data have not been obtained from the data subject, the controller shall provide the data subject with the following information:",
+      "embedding text": "actions: provide action: provide object: the data subject with the following information: actor: the controller temporal: following information condition: Where personal data have not been obtained from the data subject text: Where personal data have not been obtained from the data subject, the controller shall provide the data subject with the following information:",
+      "similarity score": 0.810083,
+      "rerank score": 0.006812382023781538,
+      "rerank rank": 32
+    },
+    {
+      "ID": "REG-059",
+      "article": "Art13(1(d))",
+      "text": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: (d) where the processing is based on point (f) of Article 6(1), the legitimate interests pursued by the controller or by a third party;",
+      "embedding text": "actions: relate action: relate object: a data subject actor: the controller temporal: following information condition: Where personal data relating to a data subject are collected from the data subject manner: by the controller or by a third party text: Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: (d) where the processing is based on point (f) of Article 6(1), the legitimate interests pursued by the controller or by a third party;",
+      "similarity score": 0.792411,
+      "rerank score": 0.006812382023781538,
+      "rerank rank": 33
+    },
+    {
+      "ID": "REG-042",
+      "article": "Art12(3)",
+      "text": "The controller shall provide information on action taken on a request under Articles 15 to 22 to the data subject without undue delay and in any event within one month of receipt of the request.",
+      "embedding text": "actions: provide action: provide object: information on action taken on a request under Articles 15 to 22 to the data subject without undue delay and in any event within one month of receipt of the request. actor: The controller temporal: within one month of receipt of text: The controller shall provide information on action taken on a request under Articles 15 to 22 to the data subject without undue delay and in any event within one month of receipt of the request.",
+      "similarity score": 0.742323,
+      "rerank score": 0.006812382023781538,
+      "rerank rank": 34
+    },
+    {
+      "ID": "REG-089",
+      "article": "Art14(3(c))",
+      "text": "The controller shall provide the information referred to in paragraphs 1 and 2: (c) if a disclosure to another recipient is envisaged, at the latest when the personal data are first disclosed.",
+      "embedding text": "actions: provide action: provide object: the information referred to in paragraphs 1 and 2: (c) if a disclosure to another recipient is envisaged, at the latest when the personal data are first disclosed. actor: The controller temporal: at the latest when the personal data are condition: if a disclosure to another recipient is envisaged text: The controller shall provide the information referred to in paragraphs 1 and 2: (c) if a disclosure to another recipient is envisaged, at the latest when the personal data are first disclosed.",
+      "similarity score": 0.792411,
+      "rerank score": 0.006537239067256451,
+      "rerank rank": 35
+    },
+    {
+      "ID": "REG-107",
+      "article": "Art15(2)",
+      "text": "Where personal data are transferred to a third country or to an international organisation, the data subject shall have the right to be informed of the appropriate safeguards pursuant to Article 46 relating to the transfer.",
+      "embedding text": "actions: have action: have object: the right to be informed of the appropriate safeguards pursuant to Article 46 relating to the transfer. actor: the data subject condition: Where personal data are transferred to a third country or to an international organisation text: Where personal data are transferred to a third country or to an international organisation, the data subject shall have the right to be informed of the appropriate safeguards pursuant to Article 46 relating to the transfer.",
+      "similarity score": 0.81505,
+      "rerank score": 0.006403835956007242,
+      "rerank rank": 36
+    },
+    {
+      "ID": "REG-057",
+      "article": "Art13(1(b))",
+      "text": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: (b) the contact details of the data protection officer, where applicable;",
+      "embedding text": "actions: relate action: relate object: a data subject actor: the controller temporal: following information condition: Where personal data relating to a data subject are collected from the data subject text: Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: (b) the contact details of the data protection officer, where applicable;",
+      "similarity score": 0.791759,
+      "rerank score": 0.006403835956007242,
+      "rerank rank": 37
+    },
+    {
+      "ID": "REG-058",
+      "article": "Art13(1(c))",
+      "text": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: (c) the purposes of the processing for which the personal data are intended as well as the legal basis for the processing;",
+      "embedding text": "actions: relate action: relate object: a data subject actor: the controller temporal: following information condition: Where personal data relating to a data subject are collected from the data subject text: Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: (c) the purposes of the processing for which the personal data are intended as well as the legal basis for the processing;",
+      "similarity score": 0.791667,
+      "rerank score": 0.006403835956007242,
+      "rerank rank": 38
+    },
+    {
+      "ID": "REG-066",
+      "article": "Art13(2(d))",
+      "text": "In addition to the information referred to in paragraph 1, the controller shall, at the time when personal data are obtained, provide the data subject with the following further information necessary to ensure fair and transparent processing: (d) the right to lodge a complaint with a supervisory authority;",
+      "embedding text": "actions: refer action: refer object: addition to the information referred to in paragraph 1 actor: the controller temporal: following further information necessary to ensure condition: when personal data are obtained text: In addition to the information referred to in paragraph 1, the controller shall, at the time when personal data are obtained, provide the data subject with the following further information necessary to ensure fair and transparent processing: (d) the right to lodge a complaint with a supervisory authority;",
+      "similarity score": 0.758148,
+      "rerank score": 0.006403835956007242,
+      "rerank rank": 39
+    },
+    {
+      "ID": "REG-110",
+      "article": "Art15(3)",
+      "text": "Where the data subject makes the request by electronic means, and unless otherwise requested by the data subject, the information shall be provided in a commonly used electronic form.",
+      "embedding text": "actions: provide action: provide object: in a commonly used electronic form. actor: the information temporal: by electronic means condition: Where the data subject makes the request by electronic means manner: by electronic means text: Where the data subject makes the request by electronic means, and unless otherwise requested by the data subject, the information shall be provided in a commonly used electronic form.",
+      "similarity score": 0.761332,
+      "rerank score": 0.006273138802498579,
+      "rerank rank": 40
+    },
+    {
+      "ID": "REG-073",
+      "article": "Art14(1(b))",
+      "text": "Where personal data have not been obtained from the data subject, the controller shall provide the data subject with the following information: (b) the contact details of the data protection officer, where applicable;",
+      "embedding text": "actions: provide action: provide object: the data subject with the following information: (b) the contact details of the data protection officer, where applicable; actor: the controller temporal: following information condition: Where personal data have not been obtained from the data subject text: Where personal data have not been obtained from the data subject, the controller shall provide the data subject with the following information: (b) the contact details of the data protection officer, where applicable;",
+      "similarity score": 0.816205,
+      "rerank score": 0.0061450921930372715,
+      "rerank rank": 41
+    },
+    {
+      "ID": "REG-088",
+      "article": "Art14(3(b))",
+      "text": "The controller shall provide the information referred to in paragraphs 1 and 2: (b) if the personal data are to be used for communication with the data subject, at the latest at the time of the first communication to that data subject; or",
+      "embedding text": "actions: provide action: provide object: the information referred to in paragraphs 1 and 2: (b) if the personal data are to be used for communication with the data subject, at the latest at the time of the first communication to that data subject; or actor: The controller temporal: at the time of the first communication to that condition: if the personal data are to be used for communication with the data subject text: The controller shall provide the information referred to in paragraphs 1 and 2: (b) if the personal data are to be used for communication with the data subject, at the latest at the time of the first communication to that data subject; or",
+      "similarity score": 0.79176,
+      "rerank score": 0.0060196430422365665,
+      "rerank rank": 42
+    },
+    {
+      "ID": "REG-113",
+      "article": "Art17(1)",
+      "text": "and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies:",
+      "embedding text": "actions: have action: have object: the obligation to erase personal data without undue delay where one of the following grounds applies: actor: and the controller temporal: following grounds applies condition: where one of the following grounds applies text: and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies:",
+      "similarity score": 0.759739,
+      "rerank score": 0.0060196430422365665,
+      "rerank rank": 43
+    },
+    {
+      "ID": "REG-125",
+      "article": "Art17(1(f))",
+      "text": "and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies: (f) the personal data have been collected in relation to the offer of information society services referred to in Article 8(1).",
+      "embedding text": "actions: have action: have object: the obligation to erase personal data without undue delay where one of the following grounds applies: (f) the personal data have been collected in relation to the offer of information society services referred to in Article 8(1). actor: and the controller temporal: following grounds applies condition: where one of the following grounds applies text: and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies: (f) the personal data have been collected in relation to the offer of information society services referred to in Article 8(1).",
+      "similarity score": 0.749876,
+      "rerank score": 0.0060196430422365665,
+      "rerank rank": 44
+    },
+    {
+      "ID": "REG-074",
+      "article": "Art14(1(c))",
+      "text": "Where personal data have not been obtained from the data subject, the controller shall provide the data subject with the following information: (c) the purposes of the processing for which the personal data are intended as well as the legal basis for the processing;",
+      "embedding text": "actions: provide action: provide object: the data subject with the following information: (c) the purposes of the processing for which the personal data are intended as well as the legal basis for the processing; actor: the controller temporal: following information condition: Where personal data have not been obtained from the data subject text: Where personal data have not been obtained from the data subject, the controller shall provide the data subject with the following information: (c) the purposes of the processing for which the personal data are intended as well as the legal basis for the processing;",
+      "similarity score": 0.817036,
+      "rerank score": 0.005776332225650549,
+      "rerank rank": 45
+    },
+    {
+      "ID": "REG-062",
+      "article": "Art13(2)",
+      "text": "In addition to the information referred to in paragraph 1, the controller shall, at the time when personal data are obtained, provide the data subject with the following further information necessary to ensure fair and transparent processing:",
+      "embedding text": "actions: refer action: refer object: addition to the information referred to in paragraph 1 actor: the controller temporal: following further information necessary to ensure condition: when personal data are obtained text: In addition to the information referred to in paragraph 1, the controller shall, at the time when personal data are obtained, provide the data subject with the following further information necessary to ensure fair and transparent processing:",
+      "similarity score": 0.763018,
+      "rerank score": 0.005776332225650549,
+      "rerank rank": 46
+    },
+    {
+      "ID": "REG-041",
+      "article": "Art12(2)",
+      "text": "In the cases referred to in Article 11(2), the controller shall not refuse to act on the request of the data subject for exercising his or her rights under Articles 15 to 22, unless the controller demonstrates that it is not in a position to identify the data subject.",
+      "embedding text": "actions: refuse action: refuse object: to act on the request of the data subject for exercising his or her rights under Articles 15 to 22, unless the controller demonstrates that it is not in a position to identify the data subject. actor: the controller condition: unless the controller demonstrates that it is not in a position to identify the data subject text: In the cases referred to in Article 11(2), the controller shall not refuse to act on the request of the data subject for exercising his or her rights under Articles 15 to 22, unless the controller demonstrates that it is not in a position to identify the data subject.",
+      "similarity score": 0.766843,
+      "rerank score": 0.005658368114382029,
+      "rerank rank": 47
+    },
+    {
+      "ID": "REG-045",
+      "article": "Art12(3)",
+      "text": "Where the data subject makes the request by electronic form means, the information shall be provided by electronic means where possible, unless otherwise requested by the data subject.",
+      "embedding text": "actions: provide action: provide object: by electronic means where possible, unless otherwise requested by the data subject. actor: the information temporal: by electronic form means condition: Where the data subject makes the request by electronic form means manner: by electronic form means text: Where the data subject makes the request by electronic form means, the information shall be provided by electronic means where possible, unless otherwise requested by the data subject.",
+      "similarity score": 0.766547,
+      "rerank score": 0.005658368114382029,
+      "rerank rank": 48
+    },
+    {
+      "ID": "REG-056",
+      "article": "Art13(1(a))",
+      "text": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: (a) the identity and the contact details of the controller and, where applicable, of the controller's representative;",
+      "embedding text": "actions: relate action: relate object: a data subject actor: the controller temporal: following information condition: Where personal data relating to a data subject are collected from the data subject text: Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: (a) the identity and the contact details of the controller and, where applicable, of the controller's representative;",
+      "similarity score": 0.787452,
+      "rerank score": 0.0055427998304367065,
+      "rerank rank": 49
+    },
+    {
+      "ID": "REG-084",
+      "article": "Art14(2(f))",
+      "text": "In addition to the information referred to in paragraph 1, the controller shall provide the data subject with the following information necessary to ensure fair and transparent processing in respect of the data subject: (f) from which source the personal data originate, and if applicable, whether it came from publicly accessible sources;",
+      "embedding text": "actions: provide action: provide object: the data subject with the following information necessary to ensure fair and transparent processing in respect of the data subject: (f) from which source the personal data originate, and if applicable, whether it came from publicly accessible sources; actor: the controller temporal: following information necessary to ensure fair condition: if applicable text: In addition to the information referred to in paragraph 1, the controller shall provide the data subject with the following information necessary to ensure fair and transparent processing in respect of the data subject: (f) from which source the personal data originate, and if applicable, whether it came from publicly accessible sources;",
+      "similarity score": 0.783453,
+      "rerank score": 0.0055427998304367065,
+      "rerank rank": 50
+    },
+    {
+      "ID": "REG-121",
+      "article": "Art17(1(d))",
+      "text": "and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies: (d) the personal data have been unlawfully processed;",
+      "embedding text": "actions: have action: have object: the obligation to erase personal data without undue delay where one of the following grounds applies: (d) the personal data have been unlawfully processed; actor: and the controller temporal: following grounds applies condition: where one of the following grounds applies text: and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies: (d) the personal data have been unlawfully processed;",
+      "similarity score": 0.759555,
+      "rerank score": 0.0055427998304367065,
+      "rerank rank": 51
+    },
+    {
+      "ID": "REG-046",
+      "article": "Art12(4)",
+      "text": "If the controller does not take action on the request of the data subject, the controller shall inform the data subject without delay and at the latest within one month of receipt of the request of the reasons for not taking action and on the possibility of lodging a complaint with a supervisory authority and seeking a judicial remedy.",
+      "embedding text": "actions: inform action: inform object: the data subject without delay and at the latest within one month of receipt of the request of the reasons for not taking action and on the possibility of lodging a complaint with a supervisory authority and seeking a judicial remedy. actor: the controller temporal: at the latest within one month of receipt condition: If the controller does not take action on the request of the data subject text: If the controller does not take action on the request of the data subject, the controller shall inform the data subject without delay and at the latest within one month of receipt of the request of the reasons for not taking action and on the possibility of lodging a complaint with a supervisory authority and seeking a judicial remedy.",
+      "similarity score": 0.751176,
+      "rerank score": 0.0055427998304367065,
+      "rerank rank": 52
+    },
+    {
+      "ID": "REG-083",
+      "article": "Art14(2(e))",
+      "text": "In addition to the information referred to in paragraph 1, the controller shall provide the data subject with the following information necessary to ensure fair and transparent processing in respect of the data subject: (e) the right to lodge a complaint with a supervisory authority;",
+      "embedding text": "actions: provide action: provide object: the data subject with the following information necessary to ensure fair and transparent processing in respect of the data subject: (e) the right to lodge a complaint with a supervisory authority; actor: the controller temporal: following information necessary to ensure fair text: In addition to the information referred to in paragraph 1, the controller shall provide the data subject with the following information necessary to ensure fair and transparent processing in respect of the data subject: (e) the right to lodge a complaint with a supervisory authority;",
+      "similarity score": 0.741549,
+      "rerank score": 0.0055427998304367065,
+      "rerank rank": 53
+    },
+    {
+      "ID": "REG-096",
+      "article": "Art14(5(d))",
+      "text": "Paragraphs 1 to 4 shall not apply where and insofar as: (d) where the personal data must remain confidential subject to an obligation of professional secrecy regulated by Union or Member State law, including a statutory obligation of secrecy.",
+      "embedding text": "actions: apply action: apply object: where and insofar as: (d) where the personal data must remain confidential subject to an obligation of professional secrecy regulated by Union or Member State law, including a statutory obligation of secrecy. actor: Paragraphs 1 to 4 temporal: by Union or Member State law condition: where and insofar as manner: by Union or Member State law text: Paragraphs 1 to 4 shall not apply where and insofar as: (d) where the personal data must remain confidential subject to an obligation of professional secrecy regulated by Union or Member State law, including a statutory obligation of secrecy.",
+      "similarity score": 0.743104,
+      "rerank score": 0.00542957941070199,
+      "rerank rank": 54
+    },
+    {
+      "ID": "REG-078",
+      "article": "Art14(2)",
+      "text": "In addition to the information referred to in paragraph 1, the controller shall provide the data subject with the following information necessary to ensure fair and transparent processing in respect of the data subject:",
+      "embedding text": "actions: provide action: provide object: the data subject with the following information necessary to ensure fair and transparent processing in respect of the data subject: actor: the controller temporal: following information necessary to ensure fair text: In addition to the information referred to in paragraph 1, the controller shall provide the data subject with the following information necessary to ensure fair and transparent processing in respect of the data subject:",
+      "similarity score": 0.737874,
+      "rerank score": 0.00542957941070199,
+      "rerank rank": 55
+    },
+    {
+      "ID": "REG-036",
+      "article": "Art11(2)",
+      "text": "In such cases, Articles 15 to 20 shall not apply except where the data subject, for the purpose of exercising his or her rights under those articles, provides additional information enabling his or her identification.",
+      "embedding text": "actions: apply action: apply object: except where the data subject, for the purpose of exercising his or her rights under those articles, provides additional information enabling his or her identification. actor: Articles 15 to 20 condition: where the data subject text: In such cases, Articles 15 to 20 shall not apply except where the data subject, for the purpose of exercising his or her rights under those articles, provides additional information enabling his or her identification.",
+      "similarity score": 0.750584,
+      "rerank score": 0.005318659357726574,
+      "rerank rank": 56
+    },
+    {
+      "ID": "REG-141",
+      "article": "Art21(1)",
+      "text": "The controller shall no longer process the personal data unless the controller demonstrates compelling legitimate grounds for the processing which override the interests, rights and freedoms of the data subject or for the establishment, exercise or defence of legal claims.",
+      "embedding text": "actions: no action: no object: longer process the personal data unless the controller demonstrates compelling legitimate grounds for the processing which override the interests, rights and freedoms of the data subject or for the establishment, exercise or defence of legal claims. actor: The controller condition: unless the controller demonstrates compelling legitimate grounds for the processing which override the interests text: The controller shall no longer process the personal data unless the controller demonstrates compelling legitimate grounds for the processing which override the interests, rights and freedoms of the data subject or for the establishment, exercise or defence of legal claims.",
+      "similarity score": 0.777878,
+      "rerank score": 0.00520999263972044,
+      "rerank rank": 57
+    },
+    {
+      "ID": "REG-069",
+      "article": "Art13(3)",
+      "text": "Where the controller intends to further process the personal data for a purpose other than that for which the personal data were collected, the controller shall provide the data subject prior to that further processing with information on that other purpose and with any relevant further information as referred to in paragraph 2.",
+      "embedding text": "actions: provide action: provide object: the data subject prior to that further processing with information on that other purpose and with any relevant further information as referred to in paragraph 2. actor: the controller temporal: prior to that further processing with information condition: Where the controller intends to further process the personal data for a purpose other than that for which the personal data were collected text: Where the controller intends to further process the personal data for a purpose other than that for which the personal data were collected, the controller shall provide the data subject prior to that further processing with information on that other purpose and with any relevant further information as referred to in paragraph 2.",
+      "similarity score": 0.80802,
+      "rerank score": 0.005103535484522581,
+      "rerank rank": 58
+    },
+    {
+      "ID": "REG-072",
+      "article": "Art14(1(a))",
+      "text": "Where personal data have not been obtained from the data subject, the controller shall provide the data subject with the following information: (a) the identity and the contact details of the controller and, where applicable, of the controller's representative;",
+      "embedding text": "actions: provide action: provide object: the data subject with the following information: (a) the identity and the contact details of the controller and, where applicable, of the controller's representative; actor: the controller temporal: following information condition: Where personal data have not been obtained from the data subject text: Where personal data have not been obtained from the data subject, the controller shall provide the data subject with the following information: (a) the identity and the contact details of the controller and, where applicable, of the controller's representative;",
+      "similarity score": 0.807246,
+      "rerank score": 0.005103535484522581,
+      "rerank rank": 59
+    },
+    {
+      "ID": "REG-031",
+      "article": "Art9(2(j))",
+      "text": "or Member State law which shall be propor­ tionate to the aim pursued, respect the essence of the right to data protection and provide for suitable and specific measures to safeguard the fundamental rights and the interests of the data subject.",
+      "embedding text": "actions: be propor action: be propor object: ­ tionate to the aim pursued, respect the essence of the right to data protection and provide for suitable and specific measures to safeguard the fundamental rights and the interests of the data subject. actor: or Member State law which text: or Member State law which shall be propor­ tionate to the aim pursued, respect the essence of the right to data protection and provide for suitable and specific measures to safeguard the fundamental rights and the interests of the data subject.",
+      "similarity score": 0.742046,
+      "rerank score": 0.005103535484522581,
+      "rerank rank": 60
+    },
+    {
+      "ID": "REG-090",
+      "article": "Art14(4)",
+      "text": "Where the controller intends to further process the personal data for a purpose other than that for which the personal data were obtained, the controller shall provide the data subject prior to that further processing with information on that other purpose and with any relevant further information as referred to in paragraph 2.",
+      "embedding text": "actions: provide action: provide object: the data subject prior to that further processing with information on that other purpose and with any relevant further information as referred to in paragraph 2. actor: the controller temporal: prior to that further processing with information condition: Where the controller intends to further process the personal data for a purpose other than that for which the personal data were obtained text: Where the controller intends to further process the personal data for a purpose other than that for which the personal data were obtained, the controller shall provide the data subject prior to that further processing with information on that other purpose and with any relevant further information as referred to in paragraph 2.",
+      "similarity score": 0.807828,
+      "rerank score": 0.004999242722988129,
+      "rerank rank": 61
+    },
+    {
+      "ID": "REG-079",
+      "article": "Art14(2(a))",
+      "text": "In addition to the information referred to in paragraph 1, the controller shall provide the data subject with the following information necessary to ensure fair and transparent processing in respect of the data subject: (a) the period for which the personal data will be stored, or if that is not possible, the criteria used to determine that period;",
+      "embedding text": "actions: provide action: provide object: the data subject with the following information necessary to ensure fair and transparent processing in respect of the data subject: (a) the period for which the personal data will be stored, or if that is not possible, the criteria used to determine that period; actor: the controller temporal: following information necessary to ensure fair condition: if that is not possible text: In addition to the information referred to in paragraph 1, the controller shall provide the data subject with the following information necessary to ensure fair and transparent processing in respect of the data subject: (a) the period for which the personal data will be stored, or if that is not possible, the criteria used to determine that period;",
+      "similarity score": 0.784859,
+      "rerank score": 0.004999242722988129,
+      "rerank rank": 62
+    },
+    {
+      "ID": "REG-002",
+      "article": "Art6(1(a))",
+      "text": "Processing shall be lawful only if and to the extent that at least one of the following applies: (a) the data subject has given consent to the processing of his or her personal data for one or more specific purposes;",
+      "embedding text": "actions: be lawful action: be lawful object: only if and to the extent that at least one of the following applies: (a) the data subject has given consent to the processing of his or her personal data for one or more specific purposes; actor: Processing temporal: following applies condition: if and to the extent that at least one of the following applies text: Processing shall be lawful only if and to the extent that at least one of the following applies: (a) the data subject has given consent to the processing of his or her personal data for one or more specific purposes;",
+      "similarity score": 0.771081,
+      "rerank score": 0.004999242722988129,
+      "rerank rank": 63
+    },
+    {
+      "ID": "REG-063",
+      "article": "Art13(2(a))",
+      "text": "In addition to the information referred to in paragraph 1, the controller shall, at the time when personal data are obtained, provide the data subject with the following further information necessary to ensure fair and transparent processing: (a) the period for which the personal data will be stored, or if that is not possible, the criteria used to determine that period;",
+      "embedding text": "actions: refer action: refer object: addition to the information referred to in paragraph 1 actor: the controller temporal: following further information necessary to ensure condition: when personal data are obtained text: In addition to the information referred to in paragraph 1, the controller shall, at the time when personal data are obtained, provide the data subject with the following further information necessary to ensure fair and transparent processing: (a) the period for which the personal data will be stored, or if that is not possible, the criteria used to determine that period;",
+      "similarity score": 0.766036,
+      "rerank score": 0.004999242722988129,
+      "rerank rank": 64
+    },
+    {
+      "ID": "REG-038",
+      "article": "Art12(1)",
+      "text": "The information shall be provided in writing, or by other means, including, where appropriate, by electronic means.",
+      "embedding text": "actions: provide action: provide object: in writing, or by other means, including, where appropriate, by electronic means. actor: The information temporal: by other means condition: where appropriate manner: by other means text: The information shall be provided in writing, or by other means, including, where appropriate, by electronic means.",
+      "similarity score": 0.734306,
+      "rerank score": 0.004897070582956076,
+      "rerank rank": 65
+    },
+    {
+      "ID": "REG-123",
+      "article": "Art17(1(e))",
+      "text": "and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies: (e) the personal data have to be erased for compliance with a legal obligation in Union or Member State law to which the controller is subject;",
+      "embedding text": "actions: have action: have object: the obligation to erase personal data without undue delay where one of the following grounds applies: (e) the personal data have to be erased for compliance with a legal obligation in Union or Member State law to which the controller is subject; actor: and the controller temporal: following grounds applies condition: where one of the following grounds applies text: and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies: (e) the personal data have to be erased for compliance with a legal obligation in Union or Member State law to which the controller is subject;",
+      "similarity score": 0.757673,
+      "rerank score": 0.004796976689249277,
+      "rerank rank": 66
+    },
+    {
+      "ID": "REG-119",
+      "article": "Art17(1(c))",
+      "text": "and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies: (c) the data subject objects to the processing pursuant to Article 21(1) and there are no overriding legitimate grounds for the processing, or the data subject objects to the processing pursuant to Article 21(2);",
+      "embedding text": "actions: have action: have object: the obligation to erase personal data without undue delay where one of the following grounds applies: (c) the data subject objects to the processing pursuant to Article 21(1) and there are no overriding legitimate grounds for the processing, or the data subject objects to the processing pursuant to Article 21(2); actor: and the controller temporal: following grounds applies condition: where one of the following grounds applies text: and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies: (c) the data subject objects to the processing pursuant to Article 21(1) and there are no overriding legitimate grounds for the processing, or the data subject objects to the processing pursuant to Article 21(2);",
+      "similarity score": 0.746758,
+      "rerank score": 0.004796976689249277,
+      "rerank rank": 67
+    },
+    {
+      "ID": "REG-151",
+      "article": "Art22(2(c))",
+      "text": "Paragraph 1 shall not apply if the decision: (c) is based on the data subject's explicit consent.",
+      "embedding text": "actions: apply action: apply object: if the decision: (c) is based on the data subject's explicit consent. actor: Paragraph 1 condition: if the decision text: Paragraph 1 shall not apply if the decision: (c) is based on the data subject's explicit consent.",
+      "similarity score": 0.734278,
+      "rerank score": 0.004796976689249277,
+      "rerank rank": 68
+    },
+    {
+      "ID": "REG-051",
+      "article": "Art12(6)",
+      "text": "Without prejudice to Article 11, where the controller has reasonable doubts concerning the identity of the natural person making the request referred to in Articles 15 to 21, the controller may request the provision of additional information necessary to confirm the identity of the data subject.",
+      "embedding text": "actions: request action: request object: the provision of additional information necessary to confirm the identity of the data subject. actor: the controller condition: where the controller has reasonable doubts concerning the identity of the natural person making the request referred to in Articles 15 to 21 text: Without prejudice to Article 11, where the controller has reasonable doubts concerning the identity of the natural person making the request referred to in Articles 15 to 21, the controller may request the provision of additional information necessary to confirm the identity of the data subject.",
+      "similarity score": 0.816721,
+      "rerank score": 0.004698918666690588,
+      "rerank rank": 69
+    },
+    {
+      "ID": "REG-117",
+      "article": "Art17(1(b))",
+      "text": "and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies: (b) the data subject withdraws consent on which the processing is based according to point (a) of Article 6(1), or point (a) of Article 9(2), and where there is no other legal ground for the processing;",
+      "embedding text": "actions: have action: have object: the obligation to erase personal data without undue delay where one of the following grounds applies: (b) the data subject withdraws consent on which the processing is based according to point (a) of Article 6(1), or point (a) of Article 9(2), and where there is no other legal ground for the processing; actor: and the controller temporal: following grounds applies condition: where one of the following grounds applies text: and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies: (b) the data subject withdraws consent on which the processing is based according to point (a) of Article 6(1), or point (a) of Article 9(2), and where there is no other legal ground for the processing;",
+      "similarity score": 0.746496,
+      "rerank score": 0.004698918666690588,
+      "rerank rank": 70
+    },
+    {
+      "ID": "REG-142",
+      "article": "Art21(2)",
+      "text": "Where personal data are processed for direct marketing purposes, the data subject shall have the right to object at any time to processing of personal data concerning him or her for such marketing, which includes profiling to the extent that it is related to such direct marketing.",
+      "embedding text": "actions: have action: have object: the right to object at any time to processing of personal data concerning him or her for such marketing, which includes profiling to the extent that it is related to such direct marketing. actor: the data subject condition: Where personal data are processed for direct marketing purposes text: Where personal data are processed for direct marketing purposes, the data subject shall have the right to object at any time to processing of personal data concerning him or her for such marketing, which includes profiling to the extent that it is related to such direct marketing.",
+      "similarity score": 0.786057,
+      "rerank score": 0.0046028560027480125,
+      "rerank rank": 71
+    },
+    {
+      "ID": "REG-143",
+      "article": "Art21(3)",
+      "text": "Where the data subject objects to processing for direct marketing purposes, the personal data shall no longer be processed for such purposes.",
+      "embedding text": "actions: no action: no object: longer be processed for such purposes. actor: the personal data condition: Where the data subject objects to processing for direct marketing purposes text: Where the data subject objects to processing for direct marketing purposes, the personal data shall no longer be processed for such purposes.",
+      "similarity score": 0.775743,
+      "rerank score": 0.0046028560027480125,
+      "rerank rank": 72
+    },
+    {
+      "ID": "REG-080",
+      "article": "Art14(2(b))",
+      "text": "In addition to the information referred to in paragraph 1, the controller shall provide the data subject with the following information necessary to ensure fair and transparent processing in respect of the data subject: (b) where the processing is based on point (f) of Article 6(1), the legitimate interests pursued by the controller or by a third party;",
+      "embedding text": "actions: provide action: provide object: the data subject with the following information necessary to ensure fair and transparent processing in respect of the data subject: (b) where the processing is based on point (f) of Article 6(1), the legitimate interests pursued by the controller or by a third party; actor: the controller temporal: following information necessary to ensure fair condition: where the processing is based on point (f) of Article 6(1) manner: by the controller or by a third party text: In addition to the information referred to in paragraph 1, the controller shall provide the data subject with the following information necessary to ensure fair and transparent processing in respect of the data subject: (b) where the processing is based on point (f) of Article 6(1), the legitimate interests pursued by the controller or by a third party;",
+      "similarity score": 0.76254,
+      "rerank score": 0.0046028560027480125,
+      "rerank rank": 73
+    },
+    {
+      "ID": "REG-126",
+      "article": "Art17(2)",
+      "text": "Where the controller has made the personal data public and is obliged pursuant to paragraph 1 to erase the personal data, the controller, taking account of available technology and the cost of implementation, shall take reasonable steps, including technical measures, to inform controllers which are processing the personal data that the data subject has requested the erasure by such controllers of any links to, or copy or replication of, those personal data.",
+      "embedding text": "actions: take action: take object: reasonable steps, including technical measures, to inform controllers which are processing the personal data that the data subject has requested the erasure by such controllers of any links to, or copy or replication of, those personal data. actor: taking account of available technology and the cost of implementation temporal: by such controllers of any links condition: Where the controller has made the personal data public and is obliged pursuant to paragraph 1 to erase the personal data manner: by such controllers of any links to text: Where the controller has made the personal data public and is obliged pursuant to paragraph 1 to erase the personal data, the controller, taking account of available technology and the cost of implementation, shall take reasonable steps, including technical measures, to inform controllers which are processing the personal data that the data subject has requested the erasure by such controllers of any links to, or copy or replication of, those personal data.",
+      "similarity score": 0.79027,
+      "rerank score": 0.004508748184889555,
+      "rerank rank": 74
+    },
+    {
+      "ID": "REG-140",
+      "article": "Art21(1)",
+      "text": "The data subject shall have the right to object, on grounds relating to his or her particular situation, at any time to processing of personal data concerning him or her which is based on point (e) or (f) of Article 6(1), including profiling based on those provisions.",
+      "embedding text": "actions: have action: have object: the right to object, on grounds relating to his or her particular situation, at any time to processing of personal data concerning him or her which is based on point (e) or (f) of Article 6(1), including profiling based on those provisions. actor: The data subject text: The data subject shall have the right to object, on grounds relating to his or her particular situation, at any time to processing of personal data concerning him or her which is based on point (e) or (f) of Article 6(1), including profiling based on those provisions.",
+      "similarity score": 0.768488,
+      "rerank score": 0.004508748184889555,
+      "rerank rank": 75
+    },
+    {
+      "ID": "REG-065",
+      "article": "Art13(2(c))",
+      "text": "In addition to the information referred to in paragraph 1, the controller shall, at the time when personal data are obtained, provide the data subject with the following further information necessary to ensure fair and transparent processing: (c) where the processing is based on point (a) of Article 6(1) or point (a) of Article 9(2), the existence of the right to withdraw consent at any time, without affecting the lawfulness of processing based on consent before its withdrawal;",
+      "embedding text": "actions: refer action: refer object: addition to the information referred to in paragraph 1 actor: the controller temporal: following further information necessary to ensure condition: when personal data are obtained text: In addition to the information referred to in paragraph 1, the controller shall, at the time when personal data are obtained, provide the data subject with the following further information necessary to ensure fair and transparent processing: (c) where the processing is based on point (a) of Article 6(1) or point (a) of Article 9(2), the existence of the right to withdraw consent at any time, without affecting the lawfulness of processing based on consent before its withdrawal;",
+      "similarity score": 0.768334,
+      "rerank score": 0.004508748184889555,
+      "rerank rank": 76
+    },
+    {
+      "ID": "REG-061",
+      "article": "Art13(1(f))",
+      "text": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: (f) where applicable, the fact that the controller intends to transfer personal data to a third country or international organisation and the existence or absence of an adequacy decision by the Commission, or in the case of transfers referred to in Article 46 or 47, or the second subparagraph of Article 49(1), reference to the appropriate or suitable safeguards and the means by which to obtain a copy of them or where they have been made available.",
+      "embedding text": "actions: relate action: relate object: a data subject actor: the controller temporal: following information condition: Where personal data relating to a data subject are collected from the data subject manner: by the Commission text: Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: (f) where applicable, the fact that the controller intends to transfer personal data to a third country or international organisation and the existence or absence of an adequacy decision by the Commission, or in the case of transfers referred to in Article 46 or 47, or the second subparagraph of Article 49(1), reference to the appropriate or suitable safeguards and the means by which to obtain a copy of them or where they have been made available.",
+      "similarity score": 0.800695,
+      "rerank score": 0.0044165560975670815,
+      "rerank rank": 77
+    },
+    {
+      "ID": "REG-034",
+      "article": "Art11(1)",
+      "text": "If the purposes for which a controller processes personal data do not or do no longer require the identification of a data subject by the controller, the controller shall not be obliged to maintain, acquire or process additional information in order to identify the data subject for the sole purpose of complying with this Regulation.",
+      "embedding text": "actions: obliged action: obliged object: to maintain, acquire or process additional information in order to identify the data subject for the sole purpose of complying with this Regulation. actor: the controller temporal: by the controller condition: If the purposes for which a controller processes personal data do not or do no longer require the identification of a data subject by the controller manner: by the controller text: If the purposes for which a controller processes personal data do not or do no longer require the identification of a data subject by the controller, the controller shall not be obliged to maintain, acquire or process additional information in order to identify the data subject for the sole purpose of complying with this Regulation.",
+      "similarity score": 0.785488,
+      "rerank score": 0.0044165560975670815,
+      "rerank rank": 78
+    },
+    {
+      "ID": "REG-030",
+      "article": "Art9(2(j))",
+      "text": "Paragraph 1 shall not apply if one of the following applies: (j) processing is necessary for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes in accordance with Article 89(1) based on Union",
+      "embedding text": "actions: apply action: apply object: if one of the following applies: (j) processing is necessary for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes in accordance with Article 89(1) based on Union actor: Paragraph 1 temporal: following applies condition: if one of the following applies manner: in accordance with Article 89(1) based on Union text: Paragraph 1 shall not apply if one of the following applies: (j) processing is necessary for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes in accordance with Article 89(1) based on Union",
+      "similarity score": 0.736496,
+      "rerank score": 0.0044165560975670815,
+      "rerank rank": 79
+    },
+    {
+      "ID": "REG-146",
+      "article": "Art21(6)",
+      "text": "Where personal data are processed for scientific or historical research purposes or statistical purposes pursuant to Article 89(1), the data subject, on grounds relating to his or her particular situation, shall have the right to object to processing of personal data concerning him or her, unless the processing is necessary for the performance of a task carried out for reasons of public interest.",
+      "embedding text": "actions: have action: have object: the right to object to processing of personal data concerning him or her, unless the processing is necessary for the performance of a task carried out for reasons of public interest. actor: on grounds relating to his or her particular situation condition: Where personal data are processed for scientific or historical research purposes or statistical purposes pursuant to Article 89(1) text: Where personal data are processed for scientific or historical research purposes or statistical purposes pursuant to Article 89(1), the data subject, on grounds relating to his or her particular situation, shall have the right to object to processing of personal data concerning him or her, unless the processing is necessary for the performance of a task carried out for reasons of public interest.",
+      "similarity score": 0.806139,
+      "rerank score": 0.004326240159571171,
+      "rerank rank": 80
+    },
+    {
+      "ID": "REG-082",
+      "article": "Art14(2(d))",
+      "text": "In addition to the information referred to in paragraph 1, the controller shall provide the data subject with the following information necessary to ensure fair and transparent processing in respect of the data subject: (d) where processing is based on point (a) of Article 6(1) or point (a) of Article 9(2), the existence of the right to withdraw consent at any time, without affecting the lawfulness of processing based on consent before its withdrawal;",
+      "embedding text": "actions: provide action: provide object: the data subject with the following information necessary to ensure fair and transparent processing in respect of the data subject: (d) where processing is based on point (a) of Article 6(1) or point (a) of Article 9(2), the existence of the right to withdraw consent at any time, without affecting the lawfulness of processing based on consent before its withdrawal; actor: the controller temporal: following information necessary to ensure fair condition: where processing is based on point (a) of Article 6(1) or point (a) of Article 9(2) text: In addition to the information referred to in paragraph 1, the controller shall provide the data subject with the following information necessary to ensure fair and transparent processing in respect of the data subject: (d) where processing is based on point (a) of Article 6(1) or point (a) of Article 9(2), the existence of the right to withdraw consent at any time, without affecting the lawfulness of processing based on consent before its withdrawal;",
+      "similarity score": 0.772475,
+      "rerank score": 0.004326240159571171,
+      "rerank rank": 81
+    },
+    {
+      "ID": "REG-007",
+      "article": "Art6(1(f))",
+      "text": "Processing shall be lawful only if and to the extent that at least one of the following applies: (f) processing is necessary for the purposes of the legitimate interests pursued by the controller or by a third party, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection of personal data, in particular where the data subject is a child. Point (f) of the first subparagraph shall not apply to processing carried out by public authorities in the performance of their tasks.",
+      "embedding text": "actions: apply action: apply object: to processing carried out by public authorities in the performance of their tasks. actor: in particular where the data subject is a child. Point (f) of the first subparagraph temporal: following applies condition: if and to the extent that at least one of the following applies manner: by the controller or by a third party text: Processing shall be lawful only if and to the extent that at least one of the following applies: (f) processing is necessary for the purposes of the legitimate interests pursued by the controller or by a third party, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection of personal data, in particular where the data subject is a child. Point (f) of the first subparagraph shall not apply to processing carried out by public authorities in the performance of their tasks.",
+      "similarity score": 0.744664,
+      "rerank score": 0.004326240159571171,
+      "rerank rank": 82
+    },
+    {
+      "ID": "REG-067",
+      "article": "Art13(2(e))",
+      "text": "In addition to the information referred to in paragraph 1, the controller shall, at the time when personal data are obtained, provide the data subject with the following further information necessary to ensure fair and transparent processing: (e) whether the provision of personal data is a statutory or contractual requirement, or a requirement necessary to enter into a contract, as well as whether the data subject is obliged to provide the personal data and of the possible consequences of failure to provide such data;",
+      "embedding text": "actions: refer action: refer object: addition to the information referred to in paragraph 1 actor: the controller temporal: following further information necessary to ensure condition: when personal data are obtained text: In addition to the information referred to in paragraph 1, the controller shall, at the time when personal data are obtained, provide the data subject with the following further information necessary to ensure fair and transparent processing: (e) whether the provision of personal data is a statutory or contractual requirement, or a requirement necessary to enter into a contract, as well as whether the data subject is obliged to provide the personal data and of the possible consequences of failure to provide such data;",
+      "similarity score": 0.771737,
+      "rerank score": 0.0042377645149827,
+      "rerank rank": 83
+    },
+    {
+      "ID": "REG-020",
+      "article": "Art9(2(a))",
+      "text": "Paragraph 1 shall not apply if one of the following applies: (a) the data subject has given explicit consent to the processing of those personal data for one or more specified purposes, except where Union or Member State law provide that the prohibition referred to in paragraph 1 may not be lifted by the data subject;",
+      "embedding text": "actions: apply action: apply object: if one of the following applies: (a) the data subject has given explicit consent to the processing of those personal data for one or more specified purposes, except where Union or Member State law provide that the prohibition referred to in paragraph 1 may not be lifted by the data subject; actor: Paragraph 1 temporal: following applies condition: if one of the following applies manner: by the data subject text: Paragraph 1 shall not apply if one of the following applies: (a) the data subject has given explicit consent to the processing of those personal data for one or more specified purposes, except where Union or Member State law provide that the prohibition referred to in paragraph 1 may not be lifted by the data subject;",
+      "similarity score": 0.779326,
+      "rerank score": 0.004066180903464556,
+      "rerank rank": 84
+    },
+    {
+      "ID": "REG-147",
+      "article": "Art22(1)",
+      "text": "The data subject shall have the right not to be subject to a decision based solely on automated processing, including profiling, which produces legal effects concerning him or her or similarly significantly affects him or her.",
+      "embedding text": "actions: have action: have object: the right not to be subject to a decision based solely on automated processing, including profiling, which produces legal effects concerning him or her or similarly significantly affects him or her. actor: The data subject text: The data subject shall have the right not to be subject to a decision based solely on automated processing, including profiling, which produces legal effects concerning him or her or similarly significantly affects him or her.",
+      "similarity score": 0.73489,
+      "rerank score": 0.004066180903464556,
+      "rerank rank": 85
+    },
+    {
+      "ID": "REG-095",
+      "article": "Art14(5(c))",
+      "text": "Paragraphs 1 to 4 shall not apply where and insofar as: (c) obtaining or disclosure is expressly laid down by Union or Member State law to which the controller is subject and which provides appropriate measures to protect the data subject's legitimate interests or",
+      "embedding text": "actions: apply action: apply object: where and insofar as: (c) obtaining or disclosure is expressly laid down by Union or Member State law to which the controller is subject and which provides appropriate measures to protect the data subject's legitimate interests or actor: Paragraphs 1 to 4 temporal: by Union or Member State law condition: where and insofar as manner: by Union or Member State law to which the controller is subject and which provides appropriate measures to protect the data subject's legitimate interests or text: Paragraphs 1 to 4 shall not apply where and insofar as: (c) obtaining or disclosure is expressly laid down by Union or Member State law to which the controller is subject and which provides appropriate measures to protect the data subject's legitimate interests or",
+      "similarity score": 0.751451,
+      "rerank score": 0.003983002156019211,
+      "rerank rank": 86
+    },
+    {
+      "ID": "REG-077",
+      "article": "Art14(1(f))",
+      "text": "Where personal data have not been obtained from the data subject, the controller shall provide the data subject with the following information: (f) where applicable, that the controller intends to transfer personal data to a recipient in a third country or internat­ ional organisation and the existence or absence of an adequacy decision by the Commission, or in the case of transfers referred to in Article 46 or 47, or the second subparagraph of Article 49(1), reference to the appropriate or suitable safeguards and the means to obtain a copy of them or where they have been made available.",
+      "embedding text": "actions: provide action: provide object: the data subject with the following information: (f) where applicable, that the controller intends to transfer personal data to a recipient in a third country or internat­ ional organisation and the existence or absence of an adequacy decision by the Commission, or in the case of transfers referred to in Article 46 or 47, or the second subparagraph of Article 49(1), reference to the appropriate or suitable safeguards and the means to obtain a copy of them or where they have been made available. actor: the controller temporal: following information condition: Where personal data have not been obtained from the data subject manner: by the Commission text: Where personal data have not been obtained from the data subject, the controller shall provide the data subject with the following information: (f) where applicable, that the controller intends to transfer personal data to a recipient in a third country or internat­ ional organisation and the existence or absence of an adequacy decision by the Commission, or in the case of transfers referred to in Article 46 or 47, or the second subparagraph of Article 49(1), reference to the appropriate or suitable safeguards and the means to obtain a copy of them or where they have been made available.",
+      "similarity score": 0.816963,
+      "rerank score": 0.003901517717167735,
+      "rerank rank": 87
+    },
+    {
+      "ID": "REG-068",
+      "article": "Art13(2(f))",
+      "text": "In addition to the information referred to in paragraph 1, the controller shall, at the time when personal data are obtained, provide the data subject with the following further information necessary to ensure fair and transparent processing: (f) the existence of automated decision-making, including profiling, referred to in Article 22(1) and (4) and, at least in those cases, meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing for the data subject.",
+      "embedding text": "actions: refer action: refer object: addition to the information referred to in paragraph 1 actor: the controller temporal: following further information necessary to ensure condition: when personal data are obtained text: In addition to the information referred to in paragraph 1, the controller shall, at the time when personal data are obtained, provide the data subject with the following further information necessary to ensure fair and transparent processing: (f) the existence of automated decision-making, including profiling, referred to in Article 22(1) and (4) and, at least in those cases, meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing for the data subject.",
+      "similarity score": 0.748486,
+      "rerank score": 0.003666895441710949,
+      "rerank rank": 88
+    },
+    {
+      "ID": "REG-016",
+      "article": "Art6(4(d))",
+      "text": "Where the processing for a purpose other than that for which the personal data have been collected is not based on the data subject's consent or on a Union or Member State law which constitutes a necessary and proportionate measure in a democratic society to safeguard the objectives referred to in Article 23(1), the controller shall, in order to ascertain whether processing for another purpose is compatible with the purpose for which the personal data are initially collected, take into account, inter alia: (d) the possible consequences of the intended further processing for data subjects;",
+      "embedding text": "actions: collect action: collect object: a purpose other than that for which the personal data have been collected actor: the controller condition: Where the processing for a purpose other than that for which the personal data have been collected is not based on the data subject's consent or on a Union or Member State law which constitutes a necessary and proportionate measure in a democratic society to safeguard the objectives referred to in Article 23(1) text: Where the processing for a purpose other than that for which the personal data have been collected is not based on the data subject's consent or on a Union or Member State law which constitutes a necessary and proportionate measure in a democratic society to safeguard the objectives referred to in Article 23(1), the controller shall, in order to ascertain whether processing for another purpose is compatible with the purpose for which the personal data are initially collected, take into account, inter alia: (d) the possible consequences of the intended further processing for data subjects;",
+      "similarity score": 0.795694,
+      "rerank score": 0.003591854590922594,
+      "rerank rank": 89
+    },
+    {
+      "ID": "REG-032",
+      "article": "Art9(3)",
+      "text": "Personal data referred to in paragraph 1 may be processed for the purposes referred to in point (h) of paragraph 2 when those data are processed by or under the responsibility of a professional subject to the obligation of professional secrecy under Union or Member State law or rules established by national competent bodies or by another person also subject to an obligation of secrecy under Union or Member State law or rules established by national competent bodies.",
+      "embedding text": "actions: process action: process object: for the purposes referred to in point (h) of paragraph 2 when those data are processed by or under the responsibility of a professional subject to the obligation of professional secrecy under Union or Member State law or rules established by national competent bodies or by another person also subject to an obligation of secrecy under Union or Member State law or rules established by national competent bodies. actor: Personal data referred to in paragraph 1 temporal: by or under the responsibility of condition: when those data are processed by or under the responsibility of a professional subject to the obligation of professional secrecy under Union or Member State law or rules established by national competent bodies or by another person also subject to an obligation of secrecy under Union or Member State law or rules established by national competent bodies manner: by or under the responsibility of a professional subject to the obligation of professional secrecy under Union or Member State law or rules established by national competent bodies or by another person also subject to an obligation of secrecy under Union or Member State law or rules established by national competent bodies text: Personal data referred to in paragraph 1 may be processed for the purposes referred to in point (h) of paragraph 2 when those data are processed by or under the responsibility of a professional subject to the obligation of professional secrecy under Union or Member State law or rules established by national competent bodies or by another person also subject to an obligation of secrecy under Union or Member State law or rules established by national competent bodies.",
+      "similarity score": 0.754661,
+      "rerank score": 0.003591854590922594,
+      "rerank rank": 90
+    },
+    {
+      "ID": "REG-150",
+      "article": "Art22(2(b))",
+      "text": "Paragraph 1 shall not apply if the decision: (b) is authorised by Union or Member State law to which the controller is subject and which also lays down suitable measures to safeguard the data subject's rights and freedoms and legitimate interests or",
+      "embedding text": "actions: apply action: apply object: if the decision: (b) is authorised by Union or Member State law to which the controller is subject and which also lays down suitable measures to safeguard the data subject's rights and freedoms and legitimate interests or actor: Paragraph 1 temporal: by Union or Member State law condition: if the decision manner: by Union or Member State law to which the controller is subject and which also lays down suitable measures to safeguard the data subject's rights and freedoms and legitimate interests or text: Paragraph 1 shall not apply if the decision: (b) is authorised by Union or Member State law to which the controller is subject and which also lays down suitable measures to safeguard the data subject's rights and freedoms and legitimate interests or",
+      "similarity score": 0.75396,
+      "rerank score": 0.003591854590922594,
+      "rerank rank": 91
+    },
+    {
+      "ID": "REG-037",
+      "article": "Art12(1)",
+      "text": "The controller shall take appropriate measures to provide any information referred to in Articles 13 and 14 and any communication under Articles 15 to 22 and 34 relating to processing to the data subject in a concise, transparent, intelligible and easily accessible form, using clear and plain language, in particular for any information addressed specifically to a child.",
+      "embedding text": "actions: take action: take object: appropriate measures to provide any information referred to in Articles 13 and 14 and any communication under Articles 15 to 22 and 34 relating to processing to the data subject in a concise, transparent, intelligible and easily accessible form, using clear and plain language, in particular for any information addressed specifically to a child. actor: The controller text: The controller shall take appropriate measures to provide any information referred to in Articles 13 and 14 and any communication under Articles 15 to 22 and 34 relating to processing to the data subject in a concise, transparent, intelligible and easily accessible form, using clear and plain language, in particular for any information addressed specifically to a child.",
+      "similarity score": 0.732708,
+      "rerank score": 0.003591854590922594,
+      "rerank rank": 92
+    },
+    {
+      "ID": "REG-012",
+      "article": "Art6(4)",
+      "text": "Where the processing for a purpose other than that for which the personal data have been collected is not based on the data subject's consent or on a Union or Member State law which constitutes a necessary and proportionate measure in a democratic society to safeguard the objectives referred to in Article 23(1), the controller shall, in order to ascertain whether processing for another purpose is compatible with the purpose for which the personal data are initially collected, take into account, inter alia:",
+      "embedding text": "actions: collect action: collect object: a purpose other than that for which the personal data have been collected actor: the controller condition: Where the processing for a purpose other than that for which the personal data have been collected is not based on the data subject's consent or on a Union or Member State law which constitutes a necessary and proportionate measure in a democratic society to safeguard the objectives referred to in Article 23(1) text: Where the processing for a purpose other than that for which the personal data have been collected is not based on the data subject's consent or on a Union or Member State law which constitutes a necessary and proportionate measure in a democratic society to safeguard the objectives referred to in Article 23(1), the controller shall, in order to ascertain whether processing for another purpose is compatible with the purpose for which the personal data are initially collected, take into account, inter alia:",
+      "similarity score": 0.795909,
+      "rerank score": 0.003518344135954976,
+      "rerank rank": 93
+    },
+    {
+      "ID": "REG-014",
+      "article": "Art6(4(b))",
+      "text": "Where the processing for a purpose other than that for which the personal data have been collected is not based on the data subject's consent or on a Union or Member State law which constitutes a necessary and proportionate measure in a democratic society to safeguard the objectives referred to in Article 23(1), the controller shall, in order to ascertain whether processing for another purpose is compatible with the purpose for which the personal data are initially collected, take into account, inter alia: (b) the context in which the personal data have been collected, in particular regarding the relationship between data subjects and the controller;",
+      "embedding text": "actions: collect action: collect object: a purpose other than that for which the personal data have been collected actor: the controller condition: Where the processing for a purpose other than that for which the personal data have been collected is not based on the data subject's consent or on a Union or Member State law which constitutes a necessary and proportionate measure in a democratic society to safeguard the objectives referred to in Article 23(1) text: Where the processing for a purpose other than that for which the personal data have been collected is not based on the data subject's consent or on a Union or Member State law which constitutes a necessary and proportionate measure in a democratic society to safeguard the objectives referred to in Article 23(1), the controller shall, in order to ascertain whether processing for another purpose is compatible with the purpose for which the personal data are initially collected, take into account, inter alia: (b) the context in which the personal data have been collected, in particular regarding the relationship between data subjects and the controller;",
+      "similarity score": 0.796011,
+      "rerank score": 0.0034463333431631327,
+      "rerank rank": 94
+    },
+    {
+      "ID": "REG-085",
+      "article": "Art14(2(g))",
+      "text": "In addition to the information referred to in paragraph 1, the controller shall provide the data subject with the following information necessary to ensure fair and transparent processing in respect of the data subject: (g) the existence of automated decision-making, including profiling, referred to in Article 22(1) and (4) and, at least in those cases, meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing for the data subject.",
+      "embedding text": "actions: provide action: provide object: the data subject with the following information necessary to ensure fair and transparent processing in respect of the data subject: (g) the existence of automated decision-making, including profiling, referred to in Article 22(1) and (4) and, at least in those cases, meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing for the data subject. actor: the controller temporal: following information necessary to ensure fair text: In addition to the information referred to in paragraph 1, the controller shall provide the data subject with the following information necessary to ensure fair and transparent processing in respect of the data subject: (g) the existence of automated decision-making, including profiling, referred to in Article 22(1) and (4) and, at least in those cases, meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing for the data subject.",
+      "similarity score": 0.736526,
+      "rerank score": 0.0034463333431631327,
+      "rerank rank": 95
+    },
+    {
+      "ID": "REG-013",
+      "article": "Art6(4(a))",
+      "text": "Where the processing for a purpose other than that for which the personal data have been collected is not based on the data subject's consent or on a Union or Member State law which constitutes a necessary and proportionate measure in a democratic society to safeguard the objectives referred to in Article 23(1), the controller shall, in order to ascertain whether processing for another purpose is compatible with the purpose for which the personal data are initially collected, take into account, inter alia: (a) any link between the purposes for which the personal data have been collected and the purposes of the intended further processing;",
+      "embedding text": "actions: collect action: collect object: a purpose other than that for which the personal data have been collected actor: the controller condition: Where the processing for a purpose other than that for which the personal data have been collected is not based on the data subject's consent or on a Union or Member State law which constitutes a necessary and proportionate measure in a democratic society to safeguard the objectives referred to in Article 23(1) text: Where the processing for a purpose other than that for which the personal data have been collected is not based on the data subject's consent or on a Union or Member State law which constitutes a necessary and proportionate measure in a democratic society to safeguard the objectives referred to in Article 23(1), the controller shall, in order to ascertain whether processing for another purpose is compatible with the purpose for which the personal data are initially collected, take into account, inter alia: (a) any link between the purposes for which the personal data have been collected and the purposes of the intended further processing;",
+      "similarity score": 0.796481,
+      "rerank score": 0.0033066878095269203,
+      "rerank rank": 96
+    },
+    {
+      "ID": "REG-017",
+      "article": "Art6(4(e))",
+      "text": "Where the processing for a purpose other than that for which the personal data have been collected is not based on the data subject's consent or on a Union or Member State law which constitutes a necessary and proportionate measure in a democratic society to safeguard the objectives referred to in Article 23(1), the controller shall, in order to ascertain whether processing for another purpose is compatible with the purpose for which the personal data are initially collected, take into account, inter alia: (e) the existence of appropriate safeguards, which may include encryption or pseudonymisation.",
+      "embedding text": "actions: collect action: collect object: a purpose other than that for which the personal data have been collected actor: the controller condition: Where the processing for a purpose other than that for which the personal data have been collected is not based on the data subject's consent or on a Union or Member State law which constitutes a necessary and proportionate measure in a democratic society to safeguard the objectives referred to in Article 23(1) text: Where the processing for a purpose other than that for which the personal data have been collected is not based on the data subject's consent or on a Union or Member State law which constitutes a necessary and proportionate measure in a democratic society to safeguard the objectives referred to in Article 23(1), the controller shall, in order to ascertain whether processing for another purpose is compatible with the purpose for which the personal data are initially collected, take into account, inter alia: (e) the existence of appropriate safeguards, which may include encryption or pseudonymisation.",
+      "similarity score": 0.798847,
+      "rerank score": 0.0032389943953603506,
+      "rerank rank": 97
+    },
+    {
+      "ID": "REG-022",
+      "article": "Art9(2(c))",
+      "text": "Paragraph 1 shall not apply if one of the following applies: (c) processing is necessary to protect the vital interests of the data subject or of another natural person where the data subject is physically or legally incapable of giving consent;",
+      "embedding text": "actions: apply action: apply object: if one of the following applies: (c) processing is necessary to protect the vital interests of the data subject or of another natural person where the data subject is physically or legally incapable of giving consent; actor: Paragraph 1 temporal: following applies condition: if one of the following applies text: Paragraph 1 shall not apply if one of the following applies: (c) processing is necessary to protect the vital interests of the data subject or of another natural person where the data subject is physically or legally incapable of giving consent;",
+      "similarity score": 0.755453,
+      "rerank score": 0.0032389943953603506,
+      "rerank rank": 98
+    },
+    {
+      "ID": "REG-015",
+      "article": "Art6(4(c))",
+      "text": "Where the processing for a purpose other than that for which the personal data have been collected is not based on the data subject's consent or on a Union or Member State law which constitutes a necessary and proportionate measure in a democratic society to safeguard the objectives referred to in Article 23(1), the controller shall, in order to ascertain whether processing for another purpose is compatible with the purpose for which the personal data are initially collected, take into account, inter alia: (c) the nature of the personal data, in particular whether special categories of personal data are processed, pursuant to Article 9, or whether personal data related to criminal convictions and offences are processed, pursuant to Article 10;",
+      "embedding text": "actions: collect action: collect object: a purpose other than that for which the personal data have been collected actor: the controller condition: Where the processing for a purpose other than that for which the personal data have been collected is not based on the data subject's consent or on a Union or Member State law which constitutes a necessary and proportionate measure in a democratic society to safeguard the objectives referred to in Article 23(1) text: Where the processing for a purpose other than that for which the personal data have been collected is not based on the data subject's consent or on a Union or Member State law which constitutes a necessary and proportionate measure in a democratic society to safeguard the objectives referred to in Article 23(1), the controller shall, in order to ascertain whether processing for another purpose is compatible with the purpose for which the personal data are initially collected, take into account, inter alia: (c) the nature of the personal data, in particular whether special categories of personal data are processed, pursuant to Article 9, or whether personal data related to criminal convictions and offences are processed, pursuant to Article 10;",
+      "similarity score": 0.794055,
+      "rerank score": 0.003172682598233223,
+      "rerank rank": 99
+    },
+    {
+      "ID": "REG-029",
+      "article": "Art9(2(i))",
+      "text": "Paragraph 1 shall not apply if one of the following applies: (i) processing is necessary for reasons of public interest in the area of public health, such as protecting against serious cross-border threats to health or ensuring high standards of quality and safety of health care and of medicinal products or medical devices, on the basis of Union or Member State law which provides for suitable and specific measures to safeguard the rights and freedoms of the data subject, in particular professional secrecy;",
+      "embedding text": "actions: apply action: apply object: if one of the following applies: (i) processing is necessary for reasons of public interest in the area of public health, such as protecting against serious cross-border threats to health or ensuring high standards of quality and safety of health care and of medicinal products or medical devices, on the basis of Union or Member State law which provides for suitable and specific measures to safeguard the rights and freedoms of the data subject, in particular professional secrecy; actor: Paragraph 1 temporal: following applies condition: if one of the following applies text: Paragraph 1 shall not apply if one of the following applies: (i) processing is necessary for reasons of public interest in the area of public health, such as protecting against serious cross-border threats to health or ensuring high standards of quality and safety of health care and of medicinal products or medical devices, on the basis of Union or Member State law which provides for suitable and specific measures to safeguard the rights and freedoms of the data subject, in particular professional secrecy;",
+      "similarity score": 0.737889,
+      "rerank score": 0.002579647582024336,
+      "rerank rank": 100
+    }
+  ],
+  "rerank query": "Regarding your rights pertaining your data, if you have left comments on the Website, you can request to receive an exported file of the personal data we hold about you.",
+  "reranker": {
+    "provider": "isaacus",
+    "model": "kanon-2-reranker",
+    "top_n": 100,
+    "llm_max_items": null
+  }
+}

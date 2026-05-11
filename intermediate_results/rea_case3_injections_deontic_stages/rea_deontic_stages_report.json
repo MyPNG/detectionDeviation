@@ -1,0 +1,79 @@
+{
+  "input_root": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_case3_injections",
+  "output_root": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_case3_injections_deontic_stages",
+  "chunk_count": 9,
+  "results": [
+    {
+      "chunk": "chunk1",
+      "status": "ok",
+      "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_case3_injections/chunk1/chunk1_requirements.json",
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_case3_injections_deontic_stages/chunk1/chunk1_deontic_stages.json",
+      "input_nodes": 3,
+      "stage4_rows": 7
+    },
+    {
+      "chunk": "chunk2",
+      "status": "ok",
+      "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_case3_injections/chunk2/chunk2_requirements.json",
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_case3_injections_deontic_stages/chunk2/chunk2_deontic_stages.json",
+      "input_nodes": 4,
+      "stage4_rows": 11
+    },
+    {
+      "chunk": "chunk3",
+      "status": "ok",
+      "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_case3_injections/chunk3/chunk3_requirements.json",
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_case3_injections_deontic_stages/chunk3/chunk3_deontic_stages.json",
+      "input_nodes": 2,
+      "stage4_rows": 9
+    },
+    {
+      "chunk": "chunk4",
+      "status": "ok",
+      "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_case3_injections/chunk4/chunk4_requirements.json",
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_case3_injections_deontic_stages/chunk4/chunk4_deontic_stages.json",
+      "input_nodes": 2,
+      "stage4_rows": 5
+    },
+    {
+      "chunk": "chunk5",
+      "status": "ok",
+      "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_case3_injections/chunk5/chunk5_requirements.json",
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_case3_injections_deontic_stages/chunk5/chunk5_deontic_stages.json",
+      "input_nodes": 2,
+      "stage4_rows": 5
+    },
+    {
+      "chunk": "chunk6",
+      "status": "ok",
+      "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_case3_injections/chunk6/chunk6_requirements.json",
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_case3_injections_deontic_stages/chunk6/chunk6_deontic_stages.json",
+      "input_nodes": 2,
+      "stage4_rows": 7
+    },
+    {
+      "chunk": "chunk7",
+      "status": "ok",
+      "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_case3_injections/chunk7/chunk7_requirements.json",
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_case3_injections_deontic_stages/chunk7/chunk7_deontic_stages.json",
+      "input_nodes": 5,
+      "stage4_rows": 10
+    },
+    {
+      "chunk": "chunk8",
+      "status": "ok",
+      "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_case3_injections/chunk8/chunk8_requirements.json",
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_case3_injections_deontic_stages/chunk8/chunk8_deontic_stages.json",
+      "input_nodes": 2,
+      "stage4_rows": 10
+    },
+    {
+      "chunk": "chunk9",
+      "status": "ok",
+      "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_case3_injections/chunk9/chunk9_requirements.json",
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/rea_case3_injections_deontic_stages/chunk9/chunk9_deontic_stages.json",
+      "input_nodes": 5,
+      "stage4_rows": 10
+    }
+  ]
+}

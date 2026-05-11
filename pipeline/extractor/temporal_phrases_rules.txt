@@ -1,0 +1,9 @@
+# Temporal phrase rules for DeonticSlotExtractorLlama.py
+# Format:
+# CATEGORY: comma-separated values
+
+FREQUENCY: annually, monthly, continuous, iterative, regular, periodically
+DEADLINE: within, no later than, by, at the latest, before the end of
+ANCHOR: upon, after, following, from the moment, at the time of
+DURATION: throughout, for a period of, until, during
+SEQUENCE: prior to, subsequently, then, first, finally

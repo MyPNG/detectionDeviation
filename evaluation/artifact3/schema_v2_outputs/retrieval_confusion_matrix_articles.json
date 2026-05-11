@@ -1,0 +1,106 @@
+{
+  "mode": "article_relevance",
+  "expected_file": "/Users/my/Documents/projects/detectionDeviation/goldstandard/relevant_non_relevant_articles_no_injections.json",
+  "actual_file": "/Users/my/Documents/projects/detectionDeviation/evaluation/artifact3/schema_v2_outputs/merged_main_clauses_deduplicated.csv",
+  "relevant_articles": [
+    "Article 13",
+    "Article 14",
+    "Article 15",
+    "Article 17",
+    "Article 18",
+    "Article 20",
+    "Article 21",
+    "Article 46",
+    "Article 6",
+    "Article 77"
+  ],
+  "non_relevant_articles": [
+    "Article 22",
+    "Article 23",
+    "Article 26",
+    "Article 40",
+    "Article 42",
+    "Article 45",
+    "Article 47",
+    "Article 49",
+    "Article 78",
+    "Article 8",
+    "Article 89",
+    "Article 9",
+    "Article 93"
+  ],
+  "retrieved_articles": [
+    "Article 13",
+    "Article 14",
+    "Article 15",
+    "Article 17",
+    "Article 18",
+    "Article 20",
+    "Article 21",
+    "Article 40",
+    "Article 42",
+    "Article 45",
+    "Article 46",
+    "Article 49",
+    "Article 6",
+    "Article 77",
+    "Article 78",
+    "Article 9"
+  ],
+  "true_positive_articles": [
+    "Article 13",
+    "Article 14",
+    "Article 15",
+    "Article 17",
+    "Article 18",
+    "Article 20",
+    "Article 21",
+    "Article 46",
+    "Article 6",
+    "Article 77"
+  ],
+  "false_negative_articles": [],
+  "false_positive_articles": [
+    "Article 40",
+    "Article 42",
+    "Article 45",
+    "Article 49",
+    "Article 78",
+    "Article 9"
+  ],
+  "true_negative_articles": [
+    "Article 22",
+    "Article 23",
+    "Article 26",
+    "Article 47",
+    "Article 8",
+    "Article 89",
+    "Article 93"
+  ],
+  "unknown_retrieved_articles": [],
+  "confusion_table": [
+    {
+      "row_label": "Relevant (Gold Standard)",
+      "retrieved": 10,
+      "not_retrieved": 0,
+      "retrieved_label": "True Positives",
+      "not_retrieved_label": "False Negatives"
+    },
+    {
+      "row_label": "Irrelevant (Gold Standard)",
+      "retrieved": 6,
+      "not_retrieved": 7,
+      "retrieved_label": "False Positives",
+      "not_retrieved_label": "True Negatives"
+    }
+  ],
+  "metrics": {
+    "tp": 10,
+    "fn": 0,
+    "fp": 6,
+    "tn": 7,
+    "precision": 0.625,
+    "recall": 1.0,
+    "f1": 0.769231
+  }
+}

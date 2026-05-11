@@ -1,0 +1,99 @@
+{
+  "graph_context_root": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/graph_context_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages",
+  "output_root": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/prompts_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages",
+  "top_k": 3,
+  "file_count": 13,
+  "results": [
+    {
+      "status": "ok",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/graph_context_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages/rea-07#1/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/prompts_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages/rea-07#1/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/prompts_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages/rea-07#1/step4_prompt_payload.md",
+      "relative_path": "rea-07#1/step3_graph_context.json"
+    },
+    {
+      "status": "ok",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/graph_context_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages/rea-07#2/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/prompts_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages/rea-07#2/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/prompts_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages/rea-07#2/step4_prompt_payload.md",
+      "relative_path": "rea-07#2/step3_graph_context.json"
+    },
+    {
+      "status": "ok",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/graph_context_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages/rea-07#3/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/prompts_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages/rea-07#3/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/prompts_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages/rea-07#3/step4_prompt_payload.md",
+      "relative_path": "rea-07#3/step3_graph_context.json"
+    },
+    {
+      "status": "ok",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/graph_context_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages/rea-08#1/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/prompts_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages/rea-08#1/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/prompts_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages/rea-08#1/step4_prompt_payload.md",
+      "relative_path": "rea-08#1/step3_graph_context.json"
+    },
+    {
+      "status": "ok",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/graph_context_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages/rea-08#10/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/prompts_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages/rea-08#10/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/prompts_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages/rea-08#10/step4_prompt_payload.md",
+      "relative_path": "rea-08#10/step3_graph_context.json"
+    },
+    {
+      "status": "ok",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/graph_context_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages/rea-08#2/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/prompts_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages/rea-08#2/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/prompts_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages/rea-08#2/step4_prompt_payload.md",
+      "relative_path": "rea-08#2/step3_graph_context.json"
+    },
+    {
+      "status": "ok",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/graph_context_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages/rea-08#3/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/prompts_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages/rea-08#3/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/prompts_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages/rea-08#3/step4_prompt_payload.md",
+      "relative_path": "rea-08#3/step3_graph_context.json"
+    },
+    {
+      "status": "ok",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/graph_context_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages/rea-08#4/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/prompts_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages/rea-08#4/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/prompts_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages/rea-08#4/step4_prompt_payload.md",
+      "relative_path": "rea-08#4/step3_graph_context.json"
+    },
+    {
+      "status": "ok",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/graph_context_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages/rea-08#5/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/prompts_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages/rea-08#5/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/prompts_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages/rea-08#5/step4_prompt_payload.md",
+      "relative_path": "rea-08#5/step3_graph_context.json"
+    },
+    {
+      "status": "ok",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/graph_context_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages/rea-08#6/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/prompts_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages/rea-08#6/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/prompts_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages/rea-08#6/step4_prompt_payload.md",
+      "relative_path": "rea-08#6/step3_graph_context.json"
+    },
+    {
+      "status": "ok",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/graph_context_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages/rea-08#7/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/prompts_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages/rea-08#7/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/prompts_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages/rea-08#7/step4_prompt_payload.md",
+      "relative_path": "rea-08#7/step3_graph_context.json"
+    },
+    {
+      "status": "ok",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/graph_context_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages/rea-08#8/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/prompts_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages/rea-08#8/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/prompts_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages/rea-08#8/step4_prompt_payload.md",
+      "relative_path": "rea-08#8/step3_graph_context.json"
+    },
+    {
+      "status": "ok",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/graph_context_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages/rea-08#9/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/prompts_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages/rea-08#9/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_outputs/prompts_rea_with_injections__reg_for_injectiontest/chunk7_deontic_stages/rea-08#9/step4_prompt_payload.md",
+      "relative_path": "rea-08#9/step3_graph_context.json"
+    }
+  ]
+}

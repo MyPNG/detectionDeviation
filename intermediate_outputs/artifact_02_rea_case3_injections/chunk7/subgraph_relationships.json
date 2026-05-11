@@ -1,0 +1,100 @@
+{
+  "chunk": "chunk7",
+  "entry_source": "reg_main_clauses.csv",
+  "max_hop": 1,
+  "entry_points_count": 11,
+  "visited_nodes_count": 21,
+  "relationships": [
+    {
+      "source": "REG-009",
+      "relation": "REFERENCES",
+      "target": "REG-055",
+      "hop_from_source": 1,
+      "reference": "Art60"
+    },
+    {
+      "source": "REG-009",
+      "relation": "REFERENCES",
+      "target": "REG-056",
+      "hop_from_source": 1,
+      "reference": "Art60"
+    },
+    {
+      "source": "REG-009",
+      "relation": "REFERENCES",
+      "target": "REG-057",
+      "hop_from_source": 1,
+      "reference": "Art60"
+    },
+    {
+      "source": "REG-009",
+      "relation": "REFERENCES",
+      "target": "REG-058",
+      "hop_from_source": 1,
+      "reference": "Art60"
+    },
+    {
+      "source": "REG-009",
+      "relation": "REFERENCES",
+      "target": "REG-059",
+      "hop_from_source": 1,
+      "reference": "Art60"
+    },
+    {
+      "source": "REG-009",
+      "relation": "REFERENCES",
+      "target": "REG-060",
+      "hop_from_source": 1,
+      "reference": "Art60"
+    },
+    {
+      "source": "REG-009",
+      "relation": "REFERENCES",
+      "target": "REG-061",
+      "hop_from_source": 1,
+      "reference": "Art60"
+    },
+    {
+      "source": "REG-009",
+      "relation": "REFERENCES",
+      "target": "REG-062",
+      "hop_from_source": 1,
+      "reference": "Art60"
+    },
+    {
+      "source": "REG-009",
+      "relation": "REFERENCES",
+      "target": "REG-063",
+      "hop_from_source": 1,
+      "reference": "Art60"
+    },
+    {
+      "source": "REG-013",
+      "relation": "REFERENCES",
+      "target": "REG-014",
+      "hop_from_source": 1,
+      "reference": "Art10(2)"
+    },
+    {
+      "source": "REG-039",
+      "relation": "REFERENCES",
+      "target": "REG-038",
+      "hop_from_source": 1,
+      "reference": "Art15(1)"
+    },
+    {
+      "source": "REG-046",
+      "relation": "REFERENCES",
+      "target": "REG-043",
+      "hop_from_source": 1,
+      "reference": "Art26(1)"
+    },
+    {
+      "source": "REG-046",
+      "relation": "REFERENCES",
+      "target": "REG-044",
+      "hop_from_source": 1,
+      "reference": "Art26(2)"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+If an intended use is not supported by evidence, or if evidence comes to light that refutes that the system is fit for purpose for the intended use at any point in the system's use: 1) remove the intended use from customer-facing materials and make current customers aware of the issue, take action to close the identified gap, or discontinue the system,
+If an intended use is not supported by evidence, or if evidence comes to light that refutes that the system is fit for purpose for the intended use at any point in the system's use: 1) remove the intended use from customer-facing materials and make current customers aware of the issue, take action to close the identified gap, or discontinue the system,
+2) revise documentation related to the intended use,
+3) publish the revised documentation to customers.
+When the system is a platform service made available to external customers or partners, include this information in the required Transparency Note.
+REA-13: Communicate with care about system benefits; follow any applicable guidance from your attorney.
+follow any applicable guidance from your attorney.
+
+Microsoft AI systems are subject to appropriate data governance and management practices. Applies to: All AI systems.
+Define and document data requirements with respect to the system's intended uses, stakeholders, and the geographic areas where the system will be deployed.
+Define and document data requirements with respect to the system's intended uses, stakeholders, and the geographic areas where the system will be deployed.
+Document these requirements in the Impact Assessment.
+REA-15: Define and document procedures for the collection and processing of data, to include annotation, labelling, cleaning, enrichment, and aggregation, where relevant.
+Define and document procedures for the collection and processing of data, to include annotation, labelling, cleaning, enrichment, and aggregation, where relevant.
+REA-16: If you plan to use existing data sets to train the system, assess the quantity and suitability of available data sets that will be needed by the system in relation to the data requirements defined in A4.1.
+A4.3 Document this assessment in the Impact Assessment.
+REA-17: Define and document methods for evaluating data to be used by the system against the requirements defined in A4.1.
+Define and document methods for evaluating data to be used by the system against the requirements defined in A4.1.
+REA-18: Evaluate all data sets using the methods defined in requirement A4.4.
+Document the results of the evaluation.
+
+Microsoft AI systems include capabilities that support informed human oversight and control. Applies to: All AI systems.
+Identify the stakeholders who are responsible for troubleshooting, managing, operating, overseeing, and controlling the system during and after deployment.
+Document these stakeholders and their oversight and control responsibilities using the Impact Assessment template.
+REA-20: Identify the system elements (including system UX, features, alerting and reporting functions, and educational materials) necessary for stakeholders identified in requirement A5.1 to effectively understand their oversight responsibilities and carry them out.
+Stakeholders must be able to understand: 1) the system's intended uses,
+Stakeholders must be able to understand: 2) how to effectively execute interactions with the system,
+Stakeholders must be able to understand: 3) how to interpret system behavior and the specific logic of the internal processing steps that led to the output
+Stakeholders must be able to understand: 4) when and how to override, intervene, or interrupt the system,
+Stakeholders must be able to understand: 5) how to remain aware of the possible tendency of over-relying on outputs produced by the system (automation bias).
+Document the system design elements that will support relevant stakeholders for each oversight and control function.
