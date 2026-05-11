@@ -1,0 +1,3 @@
+REA-02: Name, email address, content of the comment: this data is collected when you leave a comment and displayed on the Website.
+If you leave a comment on the Website, your name and email address will also be saved in cookies. These are for your convenience so that you do not have to fill in your details again when you leave another comment. These cookies will be saved on your computer until you delete them.
+IP and browser user agent string: this data is collected when you leave a comment.

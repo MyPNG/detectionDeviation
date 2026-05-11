@@ -303,6 +303,18 @@ class RequirementsExtractor:
                 return force
         return ""
 
+    @classmethod
+    def _detect_modal_force_with_signal(cls, text: str) -> str:
+        """
+        Return modal in `Force(signal)` format, e.g. `Mandatory(shall)`.
+        """
+        matches = cls._collect_modal_matches(text)
+        if not matches:
+            return ""
+        _, force, signal = matches[0]
+        normalized_signal = cls._normalize_text(str(signal)).lower()
+        return f"{force}({normalized_signal})"
+
     @staticmethod
     def _collect_modal_matches(text: str) -> list[tuple[int, str, str]]:
         """
@@ -490,7 +502,7 @@ class RequirementsExtractor:
                 outputs.append(
                     {
                         "text": sentence_clean,
-                        "modal": self._detect_modal_force(sentence_clean),
+                        "modal": self._detect_modal_force_with_signal(sentence_clean),
                         "relation_to_previous": "SEQUENCE" if (sent_index > 0 and outputs) else "",
                     }
                 )
@@ -508,7 +520,7 @@ class RequirementsExtractor:
                     outputs.append(
                         {
                             "text": part,
-                            "modal": self._detect_modal_force(part),
+                            "modal": self._detect_modal_force_with_signal(part),
                             "relation_to_previous": relation,
                         }
                     )
@@ -525,7 +537,7 @@ class RequirementsExtractor:
                         outputs.append(
                             {
                                 "text": left,
-                                "modal": self._detect_modal_force(left),
+                                "modal": self._detect_modal_force_with_signal(left),
                                 "relation_to_previous": relation_left,
                             }
                         )
@@ -533,7 +545,7 @@ class RequirementsExtractor:
                         outputs.append(
                             {
                                 "text": right,
-                                "modal": self._detect_modal_force(right),
+                                "modal": self._detect_modal_force_with_signal(right),
                                 "relation_to_previous": relation_type,
                             }
                         )
@@ -542,7 +554,7 @@ class RequirementsExtractor:
                     outputs.append(
                         {
                             "text": part,
-                            "modal": self._detect_modal_force(part),
+                            "modal": self._detect_modal_force_with_signal(part),
                             "relation_to_previous": relation,
                         }
                     )
