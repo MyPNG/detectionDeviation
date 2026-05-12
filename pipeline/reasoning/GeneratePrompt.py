@@ -102,6 +102,16 @@ Return JSON only using this exact schema:
     def _normalize_spaces(value: Any) -> str:
         return " ".join(str(value).split()).strip()
 
+    @staticmethod
+    def _build_clause(article: Any, paragraph: Any) -> str:
+        article_str = " ".join(str(article or "").split()).strip()
+        paragraph_str = " ".join(str(paragraph or "").split()).strip()
+        if not article_str:
+            return ""
+        if paragraph_str:
+            return f"Art{article_str}({paragraph_str})"
+        return f"Art{article_str}"
+
     @classmethod
     def _clean_placeholder(cls, value: Any) -> str:
         text = cls._normalize_spaces(value)
@@ -214,11 +224,12 @@ Return JSON only using this exact schema:
             raw_text = self._normalize_spaces(reg_row.get("text", reg_row.get("Text", match.get("text", ""))))
             article = self._normalize_spaces(reg_row.get("article", reg_row.get("Article", match.get("article", ""))))
             paragraph = self._normalize_spaces(reg_row.get("paragraph", reg_row.get("Paragraph", "")))
-            clause = match.get("article", "")
+            clause = self._normalize_spaces(match.get("article", ""))
+            fallback_clause = self._build_clause(article, paragraph)
             slot_block = self._format_slot_block(reg_row if reg_row else {})
             lines = [
                 f"{idx}. {reg_id}",
-                f"clause: {clause or (f'Art{article}({paragraph})' if article and paragraph else '')}",
+                f"clause: {clause or fallback_clause}",
                 f"text: \"{self._clean_placeholder(raw_text)}\"",
                 "slots:",
                 slot_block,
@@ -236,12 +247,16 @@ Return JSON only using this exact schema:
             direction = self._normalize_spaces(row.get("direction", ""))
             hop_count = self._normalize_spaces(row.get("hop_count", ""))
             relation_path = self._normalize_spaces(row.get("relation_path", ""))
+            article = self._normalize_spaces(row.get("article", ""))
+            paragraph = self._normalize_spaces(row.get("paragraph", ""))
+            clause = self._normalize_spaces(row.get("clause", "")) or self._build_clause(article, paragraph)
             text = self._clean_placeholder(row.get("text", ""))
             if not reg_id:
                 continue
             lines.extend(
                 [
                     f"- id: {reg_id}",
+                    f"  clause: {clause}",
                     f"  edge_type: {edge_type}",
                     f"  direction: {direction}",
                     f"  hop_count: {hop_count}",
@@ -270,10 +285,11 @@ Return JSON only using this exact schema:
             article = self._normalize_spaces(reg_row.get("article", reg_row.get("Article", "")))
             paragraph = self._normalize_spaces(reg_row.get("paragraph", reg_row.get("Paragraph", "")))
             clause = self._normalize_spaces(main.get("clause", ""))
+            fallback_clause = self._build_clause(article, paragraph)
             slot_block = self._format_slot_block(reg_row if reg_row else {})
             lines = [
                 f"{idx}. {reg_id}",
-                f"clause: {clause or (f'Art{article}({paragraph})' if article and paragraph else '')}",
+                f"clause: {clause or fallback_clause}",
                 f'text: "{self._clean_placeholder(raw_text)}"',
                 "slots:",
                 slot_block,

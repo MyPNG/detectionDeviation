@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import re
+import shutil
 import sys
 from pathlib import Path
 from typing import Any
@@ -29,6 +30,7 @@ class InjectionAutoPipeline:
         retrieve_k: int = 5,
         send_prompts: bool = False,
         prompt_model_name: str = "gpt-4o",
+        overwrite_output_folders_if_exist: bool = True,
     ) -> None:
         self.project_root = Path(project_root).expanduser().resolve()
         if str(self.project_root) not in sys.path:
@@ -38,6 +40,7 @@ class InjectionAutoPipeline:
         self.reg_input_name = reg_input_name.strip()
         self.send_prompts = bool(send_prompts)
         self.prompt_model_name = str(prompt_model_name or "gpt-4o").strip()
+        self.overwrite_output_folders_if_exist = bool(overwrite_output_folders_if_exist)
         self.main_articles = main_articles if main_articles is not None else [8, 9, 10, 11, 12, 13, 14, 15]
         self.context_articles = context_articles if context_articles is not None else [72, 79, 60, 97, 26]
         self.vector_k = max(1, int(vector_k))
@@ -89,6 +92,19 @@ class InjectionAutoPipeline:
     def _safe_name(value: str) -> str:
         return re.sub(r"[^a-zA-Z0-9_\\-]+", "_", value).strip("_").lower()
 
+    @staticmethod
+    def _dir_has_content(path: Path) -> bool:
+        if not path.exists() or not path.is_dir():
+            return False
+        return any(path.iterdir())
+
+    def _clean_output_dir(self, path: Path) -> None:
+        if not self.overwrite_output_folders_if_exist:
+            return
+        if path.exists() and path.is_dir():
+            shutil.rmtree(path)
+        path.mkdir(parents=True, exist_ok=True)
+
     def _resolve_reg_artifacts(self, reg_pipeline: Any | None = None) -> tuple[Path, Path]:
         """
         Resolve REG artifacts needed by downstream REA stages.
@@ -122,6 +138,7 @@ class InjectionAutoPipeline:
         return reg_summary
 
     def run_rea_requirements_extractor(self) -> dict[str, Any]:
+        self._clean_output_dir(self.rea_requirements_root)
         saved_paths = self.ReaRequirementsExtractor.process_folder(
             input_folder=self.rea_chunked_dir,
             output_root_folder=self.rea_requirements_root,
@@ -147,6 +164,7 @@ class InjectionAutoPipeline:
         return {"report": str(stage_report)}
 
     def run_rea_deontic_stage1_3(self) -> dict[str, Any]:
+        self._clean_output_dir(self.rea_deontic_root)
         stage_runner = self.ReaDeonticStagePipeline(
             endpoint_url="http://localhost:11434/api/chat",
             model_name="llama3",
@@ -175,6 +193,7 @@ class InjectionAutoPipeline:
         return {"report": str(stage_report)}
 
     def run_vector_embedding_and_search(self, reg_main_slots: str | Path) -> dict[str, Any]:
+        self._clean_output_dir(self.artifact_01_root)
         reg_main_slots_path = Path(reg_main_slots).expanduser().resolve()
         embedding_input_path = reg_main_slots_path
         fallback_reason = ""
@@ -224,6 +243,7 @@ class InjectionAutoPipeline:
         }
 
     def run_reranker(self) -> dict[str, Any]:
+        self._clean_output_dir(self.artifact_01_reranked_root)
         load_dotenv(self.env_path)
         reranker = self.Reranker(
             model_name="kanon-2-reranker",
@@ -241,16 +261,20 @@ class InjectionAutoPipeline:
         }
 
     def run_graph_traversal_v2(self, reg_graph_json: str | Path) -> dict[str, Any]:
+        self._clean_output_dir(self.graph_context_root)
+        reranked_input_root = self.artifact_01_reranked_root
         traversal = self.GraphTraversal(Path(reg_graph_json).expanduser().resolve())
         result = traversal.process_reranked_root(
-            reranked_root=self.artifact_01_reranked_root,
+            reranked_root=reranked_input_root,
             output_root=self.graph_context_root,
             top_k=max(1, self.prompt_top_k),
             max_hop=1,
         )
+        result["reranked_input_root_resolved"] = str(reranked_input_root)
         return result
 
     def run_prompt_generation(self, reg_graph_json: str | Path, reg_main_slots: str | Path) -> dict[str, Any]:
+        self._clean_output_dir(self.prompts_root)
         prompt_pipeline = self.SingleReaStep2To4Pipeline(
             project_root=self.project_root,
             reg_graph_json=Path(reg_graph_json).expanduser().resolve(),
@@ -259,7 +283,7 @@ class InjectionAutoPipeline:
         )
         # Prefer precomputed graph context artifacts from Block 3 so prompt
         # generation uses exactly those edges (no graph-context rebuild here).
-        if self.graph_context_root.exists():
+        if self._dir_has_content(self.graph_context_root):
             prompt_report = prompt_pipeline.run_folder_from_graph_context_root(
                 graph_context_root=self.graph_context_root,
                 output_root=self.prompts_root,
@@ -454,6 +478,7 @@ class InjectionAutoPipeline:
             "runtime": {
                 "send_prompts": self.send_prompts,
                 "prompt_model_name": self.prompt_model_name,
+                "overwrite_output_folders_if_exist": self.overwrite_output_folders_if_exist,
                 "main_articles": self.main_articles,
                 "context_articles": self.context_articles,
                 "vector_k": self.vector_k,

@@ -50,6 +50,16 @@ class GraphTraversal:
         return [part.strip().upper() for part in relation.split("|") if part.strip()]
 
     @staticmethod
+    def _build_clause(article: Any, paragraph: Any) -> str:
+        article_str = " ".join(str(article or "").split()).strip()
+        paragraph_str = " ".join(str(paragraph or "").split()).strip()
+        if not article_str:
+            return ""
+        if paragraph_str:
+            return f"Art{article_str}({paragraph_str})"
+        return f"Art{article_str}"
+
+    @staticmethod
     def _sort_top_matches(matches: list[dict[str, Any]]) -> list[dict[str, Any]]:
         def _key(row: dict[str, Any]) -> tuple[int, float]:
             rank_raw = row.get("rerank rank", "")
@@ -113,6 +123,8 @@ class GraphTraversal:
         relation_path: str,
     ) -> dict[str, Any]:
         row = self.node_by_id.get(neighbor_id, {})
+        article = self._normalize_spaces(row.get("article", row.get("article_number", "")))
+        paragraph = self._normalize_spaces(row.get("paragraph", ""))
         return {
             "id": neighbor_id,
             "main_reg_id": main_id,
@@ -121,8 +133,9 @@ class GraphTraversal:
             "hop_count": hop_count,
             "relation_path": relation_path,
             "text": self._normalize_spaces(row.get("text", "")),
-            "article": self._normalize_spaces(row.get("article", row.get("article_number", ""))),
-            "paragraph": self._normalize_spaces(row.get("paragraph", "")),
+            "article": article,
+            "paragraph": paragraph,
+            "clause": self._build_clause(article, paragraph),
         }
 
     def _extract_main_constraints(self, reranked_payload: dict[str, Any], top_k: int) -> list[dict[str, Any]]:
