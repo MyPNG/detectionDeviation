@@ -1,4 +1,4 @@
-# Modal force rules for RequirementsExtractor_v2.py
+# Modal force rules for RequirementsExtractor.py
 # Format:
 # KEY: comma-separated values
 

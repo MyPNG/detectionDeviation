@@ -53,9 +53,9 @@ class InjectionAutoPipeline:
         from pipeline.reasoning.ReadableLlmResponse import ReadableLlmResponse
         from pipeline.reasoning.SendPrompt import SendPrompt
         from pipeline.reasoning.SingleReaStep2To4Pipeline import SingleReaStep2To4Pipeline
-        from pipeline.retrieval.GraphTraversal_v2 import GraphTraversal
+        from pipeline.retrieval.GraphTraversal import GraphTraversal
         from pipeline.retrieval.Reranker import Reranker
-        from pipeline.retrieval.VectorEmbedding_v2 import VectorSearch
+        from pipeline.retrieval.VectorEmbedding import VectorSearch
 
         self.RegPrepPipeline = RegPrepPipeline
         self.ReaRequirementsExtractor = ReaRequirementsExtractor
@@ -260,7 +260,7 @@ class InjectionAutoPipeline:
             "chunk_count": rerank_result.get("chunk_count"),
         }
 
-    def run_graph_traversal_v2(self, reg_graph_json: str | Path) -> dict[str, Any]:
+    def run_graph_traversal(self, reg_graph_json: str | Path) -> dict[str, Any]:
         self._clean_output_dir(self.graph_context_root)
         reranked_input_root = self.artifact_01_reranked_root
         traversal = self.GraphTraversal(Path(reg_graph_json).expanduser().resolve())
@@ -348,17 +348,17 @@ class InjectionAutoPipeline:
         """
         return {
             "rea_deontic_stage4": self.run_rea_deontic_stage4_from_saved_stage3(),
-            "vector_embedding_v2": self.run_vector_embedding_and_search(reg_main_slots=reg_main_slots),
+            "vector_embedding": self.run_vector_embedding_and_search(reg_main_slots=reg_main_slots),
             "reranker": self.run_reranker(),
         }
 
     def run_block_graph_traversal(self, reg_graph_json: str | Path) -> dict[str, Any]:
         """
         Block 3:
-        - run_graph_traversal_v2(...)
+        - run_graph_traversal(...)
         """
         return {
-            "graph_traversal_v2": self.run_graph_traversal_v2(reg_graph_json=reg_graph_json),
+            "graph_traversal": self.run_graph_traversal(reg_graph_json=reg_graph_json),
         }
 
     def run_block_reasoning(self, reg_graph_json: str | Path, reg_main_slots: str | Path) -> dict[str, Any]:
@@ -386,7 +386,7 @@ class InjectionAutoPipeline:
         summary["steps"]["rea_requirements_extractor"] = self.run_rea_requirements_extractor()
         summary["steps"]["rea_deontic_stage1_3"] = self.run_rea_deontic_stage1_3()
         summary["steps"]["rea_deontic_stage4"] = self.run_rea_deontic_stage4_from_saved_stage3()
-        summary["steps"]["vector_embedding_v2"] = self.run_vector_embedding_and_search(reg_main_slots=reg_main_slots)
+        summary["steps"]["vector_embedding"] = self.run_vector_embedding_and_search(reg_main_slots=reg_main_slots)
         summary["steps"]["reranker"] = self.run_reranker()
         summary["steps"]["generate_prompt"] = self.run_prompt_generation(
             reg_graph_json=reg_graph_json,
@@ -442,9 +442,9 @@ class InjectionAutoPipeline:
             rea_summary["steps"]["rea_deontic_stage4"] = {"status": "skipped"}
 
         if run_vector_embedding:
-            rea_summary["steps"]["vector_embedding_v2"] = self.run_vector_embedding_and_search(reg_main_slots=reg_main_slots)
+            rea_summary["steps"]["vector_embedding"] = self.run_vector_embedding_and_search(reg_main_slots=reg_main_slots)
         else:
-            rea_summary["steps"]["vector_embedding_v2"] = {"status": "skipped"}
+            rea_summary["steps"]["vector_embedding"] = {"status": "skipped"}
 
         if run_reranker:
             rea_summary["steps"]["reranker"] = self.run_reranker()

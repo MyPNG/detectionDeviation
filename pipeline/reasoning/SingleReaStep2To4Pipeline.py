@@ -8,17 +8,17 @@ from typing import Any
 
 try:
     from .GeneratePrompt import DeviationPromptBuilder
-    from ..retrieval.GraphTraversal_v2 import GraphTraversal
+    from ..retrieval.GraphTraversal import GraphTraversal
 except ImportError:  # pragma: no cover - fallback for direct script execution
     from GeneratePrompt import DeviationPromptBuilder
-    from pipeline.retrieval.GraphTraversal_v2 import GraphTraversal
+    from pipeline.retrieval.GraphTraversal import GraphTraversal
 
 
 class SingleReaStep2To4Pipeline:
     """
     Pipeline for one reranked REA unit JSON (e.g., rea-01#4.json):
     - Step 2: extract top-k main REG matches
-    - Step 3: collect graph context for those REGs via GraphTraversal_v2
+    - Step 3: collect graph context for those REGs via GraphTraversal
     - Step 4: generate LLM prompt payload
     """
 
@@ -258,7 +258,7 @@ class SingleReaStep2To4Pipeline:
         """
         Generate prompts from precomputed step3 graph context artifacts.
         This avoids rebuilding graph context and preserves exactly the edge
-        set already decided by GraphTraversal_v2 output.
+        set already decided by GraphTraversal output.
         """
         gc_root = Path(graph_context_root).expanduser().resolve()
         out_root = Path(output_root).expanduser().resolve()

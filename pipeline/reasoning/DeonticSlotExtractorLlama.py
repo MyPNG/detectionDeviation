@@ -2320,7 +2320,7 @@ def main() -> None:
                 "Missing both stage 1-3 report and base requirements file:\n"
                 f"- {input_json}\n"
                 f"- {stage13_input}\n"
-                "Run RequirementsExtractor_v2 first or provide the expected inputs."
+                "Run RequirementsExtractor first or provide the expected inputs."
             )
         saved_stage13 = extractor.run_passive_active_pipeline_on_file(
             input_json=stage13_input,
