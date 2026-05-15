@@ -1,4 +1,0 @@
-reg_id,clause,considered_references,policy_id,deviation_index,deviation_found,article,gdpr_requirement,policy_realization,deviation_type,analysis
-REG-062,Art60(8),[],,,False,,,,,
-REG-073,Art79(10),[],,,False,,,,,
-REG-026,Art13(2),[],,,False,,,,,

@@ -9,6 +9,19 @@
     "deviations": []
   },
   {
+    "reg_id": "REG-ART-012",
+    "clause": "Art12(2)",
+    "considered_references": [
+    ],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation type": "responsibilty deviation",
+        "analysis": "Policy statement: \"all requests for rectification must be handled directly by our third-party server host, and you must contact them directly rather than us.\" GDPR Art16 places rectification responsibility on the controller, not shifted to a third-party processor as primary responsible party."
+      }
+    ]
+  },
+  {
     "reg_id": "REG-ART-12",
     "clause": "Art12(3)",
     "considered_references": [
@@ -20,7 +33,7 @@
         "deviation_type": "Time deviation",
         "analysis": "Policy statement: \"We will respond to all data access requests within a standard period of 90 days.\" GDPR Art12(3) requires response within one month, so the policy allows a longer timeline than permitted."
       }
-    ]
+      ]
   },
   {
     "reg_id": "REG-ART-13",
@@ -42,6 +55,10 @@
       {
         "deviation_type": "Negation deviation",
         "analysis": "Policy statement: \"we will not provide confirmation to you as to whether or not personal data concerning you is being processed.\" This directly negates GDPR Art15(1), which requires confirmation access rights."
+      },
+      {
+        "deviation_type": "Responsibility deviation",
+        "analysis": "Policy statement: \"all requests for rectification must be handled directly by our third-party server host, and you must contact them directly rather than us.\" GDPR Art16 places rectification responsibility on the controller, not shifted to a third-party processor as primary responsible party."
       }
     ]
   },

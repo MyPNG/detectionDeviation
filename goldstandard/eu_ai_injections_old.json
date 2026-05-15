@@ -1,0 +1,497 @@
+[
+  {
+    "reg_id": "REG-005",
+    "clause": "Art9(1)",
+    "considered_references": [],
+    "deviation_found": false,
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-006",
+    "clause": "Art9(2)",
+    "considered_references": [
+      "Art72"
+    ],
+    "deviation_found": true,
+    "regulatory_text": "The risk management system shall be understood as a continuous iterative process planned and run throughout the entire lifecycle of a high-risk AI system, requiring regular systematic review and updating. It shall comprise the following steps: a. the identification and analysis of the known and the reasonably foreseeable risks that the high-risk AI system can pose to health, safety or fundamental rights when the high-risk AI system is used in accordance with its intended purpose",
+    "realization_texts": [
+      "A1.1 Assess the impact of the system on people, organizations, and society by completing an Impact Assessment early in the system's development, typically when defining the product vision and requirements."
+    ],
+    "deviations": [
+      {
+        "type": "time",
+        "deviation": "Regulation requires a continuous process run throughout the entire lifecycle, but the realization only describes a single assessment early in development."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-014 | REG-015 | REG-016 | REG-017",
+    "clause": "Art9(5) | Art9(5(a)) | Art9(5(b)) | Art9(5(c))",
+    "considered_references": [
+      "Art13",
+      "Art9(2)"
+    ],
+    "deviation_found": false,
+    "regulatory_text": "The risk management measures referred to in paragraph 2, point (d), shall be such that the relevant residual risk associated with each hazard, as well as the overall residual risk of the high-risk AI systems is judged to be acceptable.",
+    "realization_texts": [
+      "A3.3 Define and document Responsible Release Criteria for this Goal. Include: 1) a concise definition of the problem being solved in the intended use,",
+      "A5.5 Define and document Responsible Release Criteria to achieve this Goal."
+    ],
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-018",
+    "clause": "Art9(6)",
+    "considered_references": [],
+    "deviation_found": true,
+    "regulatory_text": "High-risk AI systems shall be tested for the purpose of identifying the most appropriate and targeted risk management measures.",
+    "realization_texts": [
+      "Microsoft AI systems shall be assessed using Impact Assessments."
+    ],
+    "deviations": [
+      {
+        "type": "execution_style",
+        "deviation": "The regulation requires testing, but realization describes evaluations, which are different."
+      },
+      {
+        "type": "responsibility",
+        "deviation": "The regulation implies that the provider of the high-risk AI system is responsible for testing, but the realization states that users shall conduct the evaluations."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-019",
+    "clause": "Art9(6)",
+    "considered_references": [],
+    "deviation_found": true,
+    "regulatory_text": "Testing shall ensure that high-risk AI systems perform consistently for their intended purpose and that they are in compliance with the requirements set out in this Section.",
+    "realization_texts": [
+      "A5.6 Users shall conduct evaluations defined by requirement A5.4 using a near-release version of the system.",
+      "A5.6 ... Document the results."
+    ],
+    "deviations": [
+      {
+        "type": "execution_style",
+        "deviation": "The regulation requires testing, but realization describes evaluations, which are different."
+      },
+      {
+        "type": "responsibility",
+        "deviation": "The regulation implies that the provider of the high-risk AI system is responsible for testing, but the realization states that users shall conduct the evaluations."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-022",
+    "clause": "Art9(8)",
+    "considered_references": [],
+    "deviation_found": true,
+    "regulatory_text": "Testing shall be carried out against prior defined metrics and probabilistic thresholds that are appropriate to the intended purpose of the high-risk AI system.",
+    "realization_texts": [
+      "A3.5 Use the methods defined in requirement A3.4 to conduct evaluations.",
+      "A3.5 ... Document the pre-release results of the evaluations.",
+      "A5.6 Users shall conduct evaluations defined by requirement A5.4 using a near-release version of the system."
+    ],
+    "deviations": [
+      {
+        "type": "responsibility",
+        "deviation": "The regulation implies that the provider of the high-risk AI system is responsible for testing, but the realization states that users shall conduct the evaluations."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-026 | REG-027",
+    "clause": "Art10(2) | Art10(2)",
+    "considered_references": [],
+    "deviation_found": true,
+    "regulatory_text": "Training, validation and testing data sets shall be subject to data governance and management practices appropriate for the intended purpose of the high-risk AI system. Those practices shall concern in particular: d. the formulation of assumptions, in particular with respect to the information that the data are supposed to measure and represent",
+    "realization_texts": [
+      "A4.1 Define and document data requirements with respect to the system's intended uses, stakeholders, and the geographic areas where the system will be deployed.",
+      "A4.4 Define and document methods for evaluating data to be used by the system against the requirements defined in A4.1."
+    ],
+    "deviations": [
+      {
+        "type": "data",
+        "deviation": "Regulation requires formulation of assumptions, but realization describes requirements."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-026 | REG-027",
+    "clause": "Art10(2) | Art10(2)",
+    "considered_references": [],
+    "deviation_found": false,
+    "regulatory_text": "Training, validation and testing data sets shall be subject to data governance and management practices appropriate for the intended purpose of the high-risk AI system. Those practices shall concern in particular: a. the relevant design choices",
+    "realization_texts": [
+      "A4.1 Define and document data requirements with respect to the system's intended uses, stakeholders, and the geographic areas where the system will be deployed."
+    ],
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-026 | REG-027",
+    "clause": "Art10(2) | Art10(2)",
+    "considered_references": [],
+    "deviation_found": false,
+    "regulatory_text": "Training, validation and testing data sets shall be subject to data governance and management practices appropriate for the intended purpose of the high-risk AI system. Those practices shall concern in particular: b. data collection processes and the origin of data, and in the case of personal data, the original purpose of the data collection",
+    "realization_texts": [
+      "A4.2 Define and document procedures for the collection and processing of data, to include annotation, labelling, cleaning, enrichment, and aggregation, where relevant."
+    ],
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-026 | REG-027",
+    "clause": "Art10(2) | Art10(2)",
+    "considered_references": [],
+    "deviation_found": false,
+    "regulatory_text": "Training, validation and testing data sets shall be subject to data governance and management practices appropriate for the intended purpose of the high-risk AI system. Those practices shall concern in particular: c. relevant data-preparation processing operations, such as annotation, labelling, cleaning, updating, enrichment and aggregation",
+    "realization_texts": [
+      "A4.2 Define and document procedures for the collection and processing of data, to include annotation, labelling, cleaning, enrichment, and aggregation, where relevant."
+    ],
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-026 | REG-027",
+    "clause": "Art10(2) | Art10(2)",
+    "considered_references": [],
+    "deviation_found": false,
+    "regulatory_text": "Training, validation and testing data sets shall be subject to data governance and management practices appropriate for the intended purpose of the high-risk AI system. Those practices shall concern in particular: e. an assessment of the availability, quantity and suitability of the data sets that are needed",
+    "realization_texts": [
+      "A4.3 If you plan to use existing data sets to train the system, assess the quantity and suitability of available data sets that will be needed by the system in relation to the data requirements defined in A4.1.",
+      "A4.5 Evaluate all data sets using the methods defined in requirement A4.4."
+    ],
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-037",
+    "clause": "Art10(3)",
+    "considered_references": [],
+    "deviation_found": true,
+    "regulatory_text": "Training, validation and testing data sets shall be relevant, sufficiently representative, and to the best extent possible, free of errors and complete in view of the intended purpose.",
+    "realization_texts": [
+      "A4.3 If you plan to use existing data sets to train the system, assess the quantity and suitability of available data sets that will be needed by the system in relation to the data requirements defined in A4.1.",
+      "A4.5 Evaluate all data sets using the methods defined in requirement A4.4."
+    ],
+    "deviations": [
+      {
+        "type": "data",
+        "deviation": "The regulation requires that data sets are free of errors and complete, but the realization does not have that specification."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-040",
+    "clause": "Art10(4)",
+    "considered_references": [],
+    "deviation_found": false,
+    "regulatory_text": "Data sets shall take into account, to the extent required by the intended purpose, the characteristics or elements that are particular to the specific geographical, contextual, behavioural or functional setting within which the high-risk AI system is intended to be used.",
+    "realization_texts": [
+      "A4.1 Define and document data requirements with respect to the system's intended uses, stakeholders, and the geographic areas where the system will be deployed."
+    ],
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-051",
+    "clause": "Art11(1)",
+    "considered_references": [],
+    "deviation_found": true,
+    "regulatory_text": "The technical documentation of a high-risk AI system shall be drawn up before that system is placed on the market or put into service and shall be kept up-to date.",
+    "realization_texts": [
+      "A1.1 Do not document the effort using the Impact Assessment template provided by the Office of Responsible AI.",
+      "A3.4 Document an evaluation plan for each of the performance metrics and error types.",
+      "A3.5 ... Document the pre-release results of the evaluations."
+    ],
+    "deviations": [
+      {
+        "type": "time",
+        "deviation": "Regulation requires drawing up before placing on the market or putting into service, but the realization does not specify a time frame for documentation."
+      },
+      {
+        "type": "negation",
+        "deviation": "The regulation requires documentation, but the realization states that documentation should not be done."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-051",
+    "clause": "Art11(1)",
+    "considered_references": [],
+    "deviation_found": false,
+    "regulatory_text": "The technical documentation of a high-risk AI system shall be drawn up before that system is placed on the market or put into service and shall be kept up-to date.",
+    "realization_texts": [
+      "A1.3 Update and review the Impact Assessment at least annually, when new intended uses are added, and before advancing to a new release stage.",
+      "A3.7 ... 2) revise documentation related to the intended use,",
+      "A3.7 ... 3) publish the revised documentation to customers."
+    ],
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-050",
+    "clause": "Art11(1)",
+    "considered_references": [],
+    "deviation_found": true,
+    "regulatory_text": "The technical documentation shall be drawn up in such a way as to demonstrate that the high-risk AI system complies with the requirements set out in this Section and to provide national competent authorities and notified bodies with the necessary information in a clear and comprehensive form to assess the compliance of the AI system with those requirements.",
+    "realization_texts": [
+      "A1.1 ... Document the effort using the Impact Assessment template provided by the Office of Responsible AI.",
+      "A3.4 Document an evaluation plan for each of the performance metrics and error types.",
+      "A3.5 ... Document the pre-release results of the evaluations."
+    ],
+    "deviations": [
+      {
+        "type": "execution_style",
+        "deviation": "The regulation requires the documentation in such a way as to demonstrate compliance and provision of information in a clear and comprehensive form, which both are not explcitly mentioned in the realization."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-066",
+    "clause": "Art13(2)",
+    "considered_references": [],
+    "deviation_found": true,
+    "regulatory_text": "High-risk AI systems shall be accompanied by instructions for use in an appropriate digital format or otherwise that include concise, complete, correct and clear information that is relevant, accessible and comprehensible to deployers.",
+    "realization_texts": [
+      "A3.6 Provide documentation to customers which describes the system's: 1) intended uses,",
+      "A3.6 Provide documentation to customers which describes the system's: 2) evidence that the system is fit for purpose for each intended use."
+    ],
+    "deviations": [
+      {
+        "type": "execution_style",
+        "deviation": "The realization does not explicitly mention that the instructions for use are in an appropriate digital format or otherwise and that the information is concise, complete, correct and clear, and relevant, accessible and comprehensible to deployers."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-067",
+    "clause": "Art13(3)",
+    "considered_references": [],
+    "deviation_found": true,
+    "regulatory_text": "The instructions for use shall contain at least the following information: b. the characteristics, capabilities and limitations of performance of the high-risk AI system, including: i. its intended purpose",
+    "realization_texts": [
+      "A3.6 Provide documentation to customers which describes the system's: 1) intended uses,",
+      "A3.6 Provide documentation to customers which describes the system's: 2) evidence that the system is fit for purpose for each intended use.",
+      "A3.1 Document in the Impact Assessment how the system's use will solve the problem posed by each intended use and the specific anticipated benefits and positive outcomes for the user, recognizing that there may be multiple valid ways in which to solve the problem."
+    ],
+    "deviations": [
+      {
+        "type": "severity",
+        "deviation": "The regulation required stating the inteded purpose, but the relization also describes the anticipated benefits and positive outcomes for the user."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-067",
+    "clause": "Art13(3)",
+    "considered_references": [],
+    "deviation_found": true,
+    "regulatory_text": "The instructions for use shall contain at least the following information: b. the characteristics, capabilities and limitations of performance of the high-risk AI system, including: vii. where applicable, information to enable deployers to interpret the output of the high-risk AI system and use it appropriately",
+    "realization_texts": [
+      "A5.3 ... When this is not possible (for example, when Microsoft is not responsible for the system UX), provide guidance on human oversight considerations to the third party responsible for implementing the system elements identified in A5.2.",
+      "A5.4 ... When this is not possible (for example, when Microsoft is not responsible for oversight and control functions), provide guidance on evaluating oversight and control functions to the third party responsible for evaluating oversight or control functions."
+    ],
+    "deviations": [
+      {
+        "type": "execution_style",
+        "deviation": "The instructions shall contain the information where applicable according to the regulation, but the realization states to provide guidance and only when defining and documenting methods for evaluation were not possible."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-067",
+    "clause": "Art13(3)",
+    "considered_references": [
+      "Art15"
+    ],
+    "deviation_found": true,
+    "regulatory_text": "The instructions for use shall contain at least the following information: b. the characteristics, capabilities and limitations of performance of the high-risk AI system, including: ii. the level of accuracy, including its metrics, robustness and cybersecurity referred to in Article 15 against which the high-risk AI system has been tested and validated and which can be expected, and any known and foreseeable circumstances that may have an impact on that expected level of accuracy, robustness and cybersecurity",
+    "realization_texts": [
+      "A3.6 Provide documentation to customers which describes the system's: 2) evidence that the system is fit for purpose for each intended use."
+    ],
+    "deviations": [
+      {
+        "type": "data",
+        "deviation": "The regulation requires that the instructions for use contain information about the level of accuracy, including its metrics, robustness and cybersecurity and any known and foreseeable circumstances that may have an impact on that expected level of accuracy, robustness and cybersecurity. The realization mentions evidence that the system is fit for purpose for each intended use, which differs."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-067",
+    "clause": "Art13(3)",
+    "considered_references": [
+      "Art14",
+      "Art12"
+    ],
+    "deviation_found": true,
+    "regulatory_text": "The instructions for use shall contain at least the following information: d. the human oversight measures referred to in Article 14, including the technical measures put in place to facilitate the interpretation of the outputs of the high-risk AI systems by the deployers",
+    "realization_texts": [
+      "A5.3 ... When this is not possible (for example, when Microsoft is not responsible for the system UX), provide guidance on human oversight considerations to the third party responsible for implementing the system elements identified in A5.2.",
+      "A5.4 ... When this is not possible (for example, when Microsoft is not responsible for oversight and control functions), provide guidance on evaluating oversight and control functions to the third party responsible for evaluating oversight or control functions."
+    ],
+    "deviations": [
+      {
+        "type": "execution_style",
+        "deviation": "The instructions shall contain the information according to the regulation, but the realization states to provide guidance and only when defining and documenting methods for evaluation were not possible."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-081",
+    "clause": "Art14(1)",
+    "considered_references": [],
+    "deviation_found": true,
+    "regulatory_text": "High-risk AI systems shall be designed and developed in such a way, including with appropriate human-machine interface tools, that they can be effectively overseen by natural persons during the period in which they are in use.",
+    "realization_texts": [
+      "Microsoft AI systems include capabilities that support informed human oversight and control. Applies to: All AI systems.",
+      "A5.3 When possible, design the system elements identified in A5.2."
+    ],
+    "deviations": [
+      {
+        "type": "execution_style",
+        "deviation": "The regulation requires designing systems in such a way that they can be effectively overseen by natural persons, but the realization does not mention the design to be effective."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-084 | REG-085 | REG-086 | REG-088",
+    "clause": "Art14(3) | Art14(3) | Art14(3(a)) | Art14(3(b))",
+    "considered_references": [],
+    "deviation_found": true,
+    "regulatory_text": "The oversight measures shall be commensurate with the risks, level of autonomy and context of use of the high-risk AI system, and shall be ensured through either one or both of the following types of measures: a. measures identified and built, when technically feasible, into the high-risk AI system by the provider before it is placed on the market or put into service",
+    "realization_texts": [
+      "Microsoft AI systems include capabilities that support informed human oversight and control. Applies to: All AI systems.",
+      "A5.3 When possible, design the system elements identified in A5.2."
+    ],
+    "deviations": [
+      {
+        "type": "time",
+        "deviation": "The realization does not mention any time constraint, but the regulation does: before placing on the market or putting into service."
+      },
+      {
+        "type": "execution_style",
+        "deviation": "The regulation requires the measures to be commensurate with the risks, level of autonomy and context of use, but the realization does not mention that requirement."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-084 | REG-085 | REG-086 | REG-088",
+    "clause": "Art14(3) | Art14(3) | Art14(3(a)) | Art14(3(b))",
+    "considered_references": [],
+    "deviation_found": true,
+    "regulatory_text": "The oversight measures shall be commensurate with the risks, level of autonomy and context of use of the high-risk AI system, and shall be ensured through either one or both of the following types of measures: b. measures identified by the provider before placing the high-risk AI system on the market or putting it into service and that are appropriate to be implemented by the deployer",
+    "realization_texts": [
+      "A5.4 Define and document the method to be used to evaluate whether each oversight or control function can be accomplished by stakeholders in realistic conditions of system use.",
+      "A5.4 ... Include the metrics or rubrics that will be used in the evaluations.",
+      "A5.5 Define and document Responsible Release Criteria to achieve this Goal.",
+      "A5.6 Users shall conduct evaluations defined by requirement A5.4 using a near-release version of the system."
+    ],
+    "deviations": [
+      {
+        "type": "time",
+        "deviation": "The realization does not mention any time constraint, but the regulation does: before placing on the market or putting into service."
+      },
+      {
+        "type": "responsibility",
+        "deviation": "The regulation implies that the provider of the high-risk AI system is responsible for testing, but the realization states that users shall conduct the evaluations."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-090",
+    "clause": "Art14(4)",
+    "considered_references": [
+      "Art14(1)",
+      "Art14(2)",
+      "Art14(3)"
+    ],
+    "deviation_found": true,
+    "regulatory_text": "For the purpose of implementing paragraphs 1, 2 and 3, the high-risk AI system shall be provided to the deployer in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: a. to properly understand the relevant capacities and limitations of the high-risk AI system and be able to duly monitor its operation, including in view of detecting and addressing anomalies, dysfunctions and unexpected performance",
+    "realization_texts": [
+      "Microsoft AI systems include capabilities that support informed human oversight and control. Applies to: All AI systems."
+    ],
+    "deviations": [
+      {
+        "type": "data",
+        "deviation": "The regulation mentions that the system should be provided in such a way that natural persons understand the relevant capacities and limitations of the system, which is not reflected in the realization."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-090",
+    "clause": "Art14(4)",
+    "considered_references": [
+      "Art14(1)",
+      "Art14(2)",
+      "Art14(3)"
+    ],
+    "deviation_found": true,
+    "regulatory_text": "For the purpose of implementing paragraphs 1, 2 and 3, the high-risk AI system shall be provided to the deployer in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: c. to correctly interpret the high-risk AI system's output, taking into account, for example, the interpretation tools and methods available",
+    "realization_texts": [
+      "A5.2 ... Stakeholders must be able to understand: 3) how to interpret system behavior and the specific logic of the internal processing steps that led to the output"
+    ],
+    "deviations": [
+      {
+        "type": "severity",
+        "deviation": "The regulation covers the interpretation of the system's output, but the realization also covers the interpretation of the system's behavior and the specific logic of the internal processing steps that led to the output."
+      }
+    ]
+  },
+  {
+    "reg_id": "REG-090",
+    "clause": "Art14(4)",
+    "considered_references": [
+      "Art14(1)",
+      "Art14(2)",
+      "Art14(3)"
+    ],
+    "deviation_found": false,
+    "regulatory_text": "For the purpose of implementing paragraphs 1, 2 and 3, the high-risk AI system shall be provided to the deployer in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: b. to remain aware of the possible tendency of automatically relying or over-relying on the output produced by a high-risk AI system (automation bias), in particular for high-risk AI systems used to provide information or recommendations for decisions to be taken by natural persons",
+    "realization_texts": [
+      "A5.2 ... Stakeholders must be able to understand: 5) how to remain aware of the possible tendency of over-relying on outputs produced by the system (automation bias)."
+    ],
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-090",
+    "clause": "Art14(4)",
+    "considered_references": [
+      "Art14(1)",
+      "Art14(2)",
+      "Art14(3)"
+    ],
+    "deviation_found": false,
+    "regulatory_text": "For the purpose of implementing paragraphs 1, 2 and 3, the high-risk AI system shall be provided to the deployer in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: d. to decide, in any particular situation, not to use the high-risk AI system or to otherwise disregard, override or reverse the output of the high-risk AI system",
+    "realization_texts": [
+      "A5.2 ... Stakeholders must be able to understand: 4) when and how to override, intervene, or interrupt the system,"
+    ],
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-090",
+    "clause": "Art14(4)",
+    "considered_references": [
+      "Art14(1)",
+      "Art14(2)",
+      "Art14(3)"
+    ],
+    "deviation_found": false,
+    "regulatory_text": "For the purpose of implementing paragraphs 1, 2 and 3, the high-risk AI system shall be provided to the deployer in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: e. to intervene in the operation of the high-risk AI system or interrupt the system through a 'stop' button or a similar procedure that allows the system to come to a halt in a safe state",
+    "realization_texts": [
+      "A5.2 ... Stakeholders must be able to understand: 2) how to effectively execute interactions with the system,",
+      "A5.2 ... Stakeholders must be able to understand: 4) when and how to override, intervene, or interrupt the system,"
+    ],
+    "deviations": []
+  },
+  {
+    "reg_id": "REG-099",
+    "clause": "Art15(3)",
+    "considered_references": [],
+    "deviation_found": true,
+    "regulatory_text": "The levels of accuracy and the relevant accuracy metrics of high-risk AI systems shall be declared in the accompanying instructions of use.",
+    "realization_texts": [
+      "A3.6 Provide documentation to customers which describes the system's: 2) evidence that the system is fit for purpose for each intended use."
+    ],
+    "deviations": [
+      {
+        "type": "data",
+        "deviation": "Regulation requires level of accucary and relevant accuracy metrics and realization mentions evicence that the system is fit for purpose, not specifically addressing these measures and being to vague."
+      }
+    ]
+  }
+]

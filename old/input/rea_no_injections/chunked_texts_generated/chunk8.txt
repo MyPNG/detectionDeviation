@@ -1,0 +1,2 @@
+REA-22: The processing of this personal data is based on Art 6 para 1 lit f) GDPR.
+REA-23: The aforementioned data will be stored for 7 days and then deleted.

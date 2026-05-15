@@ -44,6 +44,21 @@
     ]
   },
   {
+    "reg_id": "REG-016",
+    "clause": "Art14(5)",
+    "considered_references": [
+      "Art6(1)"
+    ],
+    "deviation_found": true,
+    "deviations": [
+      {
+        "deviation_type": "Data deviation",
+        "analysis": "The law is very narrow; it only allows secrets required by legal statutes. Look at the list in article 14. The policy uses the term \"confidential information,\" which is an \"unspecific subject\" that could mean almost anything the company wants to keep private.",
+        "policy quote" : "The individual does not have the right to information or it is subject to limitations if and to the extent that confidential information, such as information that is subject to professional secrecy, would be disclosed."
+      }
+    ]
+  },
+  {
     "reg_id": "REG-013",
     "clause": "Art13(2)",
     "considered_references": [
@@ -58,10 +73,6 @@
         "deviation_type": "Data deviation",
         "analysis": "GDPR: You have the right to ask if the company is \"processing\" your data. \"Processing\" is a very broad word that covers everything—whether they are keeping it, moving it, or just using it for a split second. Policy: The company’s text says you can only ask about data they \"store.\" --> By using the word \"store,\" the company leaves out a lot of activity. For example, if they are sending your data to another company  or using it briefly without saving it",
         "policy quote": "If your personal data stored by us is inaccurate or incomplete, you have the right to obtain rectification of this data from us at any time.\n"
-      },
-      {
-        "deviation_type": "Data deviation",
-        "analysis": "Article 13(2)(b) requires informing the data subject about the existence of the right to object. According to the regulatory definition in Article 21, this right specifically includes the right to object to profiling. The policy chunk mentions the right to object to the 'use' of data for direct marketing but omits the mention of profiling, which narrows the category of processing the data subject is informed they can object to."
       }
     ]
   },
@@ -107,7 +118,7 @@
   },
   {
     "reg_id": "REG-025",
-    "clause": "Art17(1)",
+    "clause": "Art17",
     "considered_references": [
       "Art6(1)",
       "Art8(1)",
@@ -118,8 +129,18 @@
     "deviations": [
       {
         "deviation_type": "Data deviation",
-        "analysis": "(GDPR): If you ask a company to delete your data (the \"Right to Erasure\"), they must delete everything. This includes digital files, but also paper files in a cabinet or physical records in a warehouse. Policy: The company says they will only delete data from their \"IT systems and databases\"."
-
+        "analysis": "(GDPR): For erasure to be mandatory after consent is withdrawn, 2 things must be true: Withdrawal AND no other legal basis exists. The REA suggests that withdrawing consent is the only thing needed to trigger the right to erasure.",
+        "policy quote" : "You have the right to request that we erase your personal data if and to the extent that the data is no longer needed for the purposes for which it was collected or, if the processing is based on your consent, you have withdrawn your consent."
+      },
+      {
+        "deviation_type": "Negation deviation",
+        "analysis" : "It is a negation deviation because the REA uses a \"legal obligation\" as a justification to prevent erasure, which directly contradicts the REG where that same obligation is a mandatory reason to require erasure.",
+        "policy quote": "You have the right to request that we erase your personal data if and to the extent that the data is no longer needed for the purposes for which it was collected or, if the processing is based on your consent, you have withdrawn your consent."
+      },
+      {
+        "deviation_type": "Data deviation",
+        "analysis" : "GDPR: (17(3))processing is necessary: (e) for the establishment, exercise or defence of legal claims.",
+        "policy quote": "the data processing is necessary for the assertion, exercise or defence of legal claims."
       }
     ]
   },

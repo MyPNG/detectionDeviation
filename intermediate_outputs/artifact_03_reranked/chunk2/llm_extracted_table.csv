@@ -1,4 +1,0 @@
-reg_id,clause,considered_references,policy_id,deviation_index,deviation_found,article,gdpr_requirement,policy_realization,deviation_type,analysis
-REG-092,Art77(1),[],,1,True,,,,Data deviation,"Art77(1) grants a right to lodge a complaint if processing infringes ""this Regulation"" (GDPR). The policy states the right applies if processing infringes ""data protection law,"" which broadens the trigger from GDPR to any data protection law. While not necessarily non-compliant, this is a scope difference. Location specifics (habitual residence, place of work, or alleged infringement) and the ""without prejudice"" qualifier are omitted, which per instructions are treated as omissions, not deviations."
-REG-093,Art77(2),"[""Art78(1)"", ""Art78(2)"", ""Art78(3)"", ""Art78(4)""]",,,False,,,,,
-REG-095,Art78(2),"[""Art77(1)"", ""Art77(2)""]",,,False,,,,,

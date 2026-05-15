@@ -1,0 +1,7 @@
+REA-12: Use the methods defined in requirement A3.4 to conduct evaluations.
+Document the pre-release results of the evaluations.
+Determine and document how often ongoing evaluation should be conducted to continue supporting this Goal.
+Determine and document how often ongoing evaluation should be conducted to continue supporting this Goal.
+REA-13: Provide documentation to customers which describes the system's: 1) intended uses,
+Provide documentation to customers which describes the system's: 2) evidence that the system is fit for purpose for each intended use.
+When the system is a platform service made available to external customers or partners, include this information in the required Transparency Note.

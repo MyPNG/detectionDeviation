@@ -1,8 +1,0 @@
-# Modal force rules for RequirementsExtractor.py
-# Format:
-# KEY: comma-separated values
-
-PROHIBITED: shall not, must not, may not
-MANDATORY: shall, must, will, requires
-PERMISSIVE: may, can, entitled to
-ADVISORY: should, is encouraged to

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import importlib
 import sys
 import tempfile
 from pathlib import Path
@@ -14,8 +15,9 @@ class RegPrepPipeline:
     1) Requirements extractor (main + extended) via RequirementsExtractor
     2) Deontic slot extractor (stage1-4 on extended)
     3) Main requirements slot filter
-    4) Graph building (from extended requirements)
-    5) Graph visualization
+    4) Embedding index build for main requirement slots
+    5) Graph building (from extended requirements)
+    6) Graph visualization
     """
 
     def __init__(
@@ -36,16 +38,32 @@ class RegPrepPipeline:
         if str(self.project_root) not in sys.path:
             sys.path.insert(0, str(self.project_root))
 
-        from pipeline.extractor.RequirementsExtractor import RequirementsExtractor
-        from pipeline.graphBuilder.RequirementsGraphBuilder import RequirementsGraphBuilder
-        from pipeline.graphBuilder.graphVisualizer import GraphVisualizer
-        from pipeline.handlePdfInput.DoclingProcessor import DoclingProcessor
-        from pipeline.reasoning.DeonticSlotExtractorLlama import DeonticSlotExtractorLlama
-        from pipeline.reasoning.MainRequirementsSlotFilter import MainRequirementsSlotFilter
+        RequirementsExtractor = importlib.import_module(
+            "pipeline.01_preprocessing.reg_prep.01_extracting.RequirementsExtractor"
+        ).RequirementsExtractor
+        RequirementsGraphBuilder = importlib.import_module(
+            "pipeline.01_preprocessing.reg_prep.03_graphbuilder.RequirementsGraphBuilder"
+        ).RequirementsGraphBuilder
+        GraphVisualizer = importlib.import_module(
+            "pipeline.01_preprocessing.reg_prep.03_graphbuilder.graphVisualizer"
+        ).GraphVisualizer
+        DoclingProcessor = importlib.import_module(
+            "pipeline.01_preprocessing.reg_prep.01_extracting.DoclingProcessor"
+        ).DoclingProcessor
+        DeonticSlotExtractor = importlib.import_module(
+            "pipeline.01_preprocessing.reg_prep.01_extracting.DeonticSlotExtractor"
+        ).DeonticSlotExtractor
+        MainRequirementsSlotFilter = importlib.import_module(
+            "pipeline.01_preprocessing.reg_prep.01_extracting.MainRequirementsSlotFilter"
+        ).MainRequirementsSlotFilter
+        EmbeddingIndexBuilder = importlib.import_module(
+            "pipeline.01_preprocessing.reg_prep.02_vector_embedding.EmbeddingIndexBuilder"
+        ).EmbeddingIndexBuilder
 
         self.RequirementsExtractorClass = RequirementsExtractor
-        self.DeonticSlotExtractorLlama = DeonticSlotExtractorLlama
+        self.DeonticSlotExtractorClass = DeonticSlotExtractor
         self.MainRequirementsSlotFilter = MainRequirementsSlotFilter
+        self.EmbeddingIndexBuilderClass = EmbeddingIndexBuilder
         self.RequirementsGraphBuilder = RequirementsGraphBuilder
         self.GraphVisualizer = GraphVisualizer
         self.DoclingProcessor = DoclingProcessor
@@ -57,27 +75,51 @@ class RegPrepPipeline:
         default_depth_one = [72, 79, 60, 97, 26] if self.reg_input_name == "reg_eu_ai_act" else []
         self.main_articles = main_articles if main_articles is not None else default_main
         self.depth_one_articles = depth_one_articles if depth_one_articles is not None else default_depth_one
+        # Extended set is the graph/deontic context set:
+        # - with context articles: main + context
+        # - without context articles: main only
         self.extended_articles = list(dict.fromkeys(self.main_articles + self.depth_one_articles))
 
         reg_input_root = self.project_root / "input" / self.reg_input_name
-        reg_output_root = self.project_root / "intermediate_results" / self.reg_input_name
+        pre_root = self.project_root / "intermediate_results" / "01_preprocessing" / "reg_prep"
+        extract_root = pre_root / "01_extracting"
+        graph_root = pre_root / "03_graphbuilder"
+        reg_output_root = pre_root / self.reg_input_name
 
         self.reg_input_root = reg_input_root
         self.reg_output_root = reg_output_root
 
-        self.input_reg_json = reg_input_root / f"{self.reg_input_name}_docling_from_pdf.json"
-        self.output_docling_markdown = reg_output_root / f"{self.reg_input_name}_docling_from_pdf.md"
+        docling_dir = extract_root / "doclingprocessor" / self.reg_input_name
+        req_dir = extract_root / "requirementsextractor" / self.reg_input_name
+        deontic_dir = extract_root / "deonticextractor" / self.reg_input_name
+        slot_filter_dir = extract_root / "mainrequirementsslotfilter" / self.reg_input_name
+        graph_builder_dir = graph_root / "requirementsgraphbuilder" / self.reg_input_name
+        graph_viz_dir = graph_root / "graphvisualizer" / self.reg_input_name
 
-        self.output_main_requirements = reg_output_root / f"{self.reg_input_name}_requirements.json"
-        self.output_extended_requirements = reg_output_root / f"{self.reg_input_name}_requirements_extended.json"
+        self.input_reg_json = docling_dir / f"{self.reg_input_name}_docling_from_pdf.json"
+        self.output_docling_markdown = docling_dir / f"{self.reg_input_name}_docling_from_pdf.md"
 
-        self.output_stage13_report = reg_output_root / f"{self.reg_input_name}_requirements_extended_passive_active_report_llama3.json"
-        self.output_extended_slots = reg_output_root / f"{self.reg_input_name}_requirements_extended_slots_llama3.json"
-        self.output_main_slots = reg_output_root / f"{self.reg_input_name}_requirements_slots_main.json"
+        self.output_main_requirements = req_dir / f"{self.reg_input_name}_requirements.json"
+        self.output_extended_requirements = req_dir / f"{self.reg_input_name}_requirements_extended.json"
 
-        self.output_graph_graphml = reg_output_root / f"{self.reg_input_name}_requirements_graph.graphml"
-        self.output_graph_json = reg_output_root / f"{self.reg_input_name}_requirements_graph.json"
-        self.output_graph_html = reg_output_root / f"{self.reg_input_name}_requirements_graph_viz.html"
+        self.output_stage13_report = deontic_dir / f"{self.reg_input_name}_requirements_extended_passive_active_report_llama3.json"
+        self.output_extended_slots = deontic_dir / f"{self.reg_input_name}_requirements_extended_slots_llama3.json"
+        self.output_main_slots = slot_filter_dir / f"{self.reg_input_name}_requirements_slots_main.json"
+
+        self.output_graph_graphml = graph_builder_dir / f"{self.reg_input_name}_requirements_graph.graphml"
+        self.output_graph_json = graph_builder_dir / f"{self.reg_input_name}_requirements_graph.json"
+        self.output_graph_html = graph_viz_dir / f"{self.reg_input_name}_requirements_graph_viz.html"
+        self.embedding_persist_dir = (
+            self.project_root
+            / "intermediate_results"
+            / "01_preprocessing"
+            / "reg_prep"
+            / "02_vector_embedding"
+            / "embeddingindexbuilder"
+            / self.reg_input_name
+            / "chromadb_store"
+        )
+        self.embedding_collection_name = f"requirements_{self.reg_input_name}"
 
         self.endpoint_url = endpoint_url
         self.model_name = model_name
@@ -86,7 +128,28 @@ class RegPrepPipeline:
         self.temperature = temperature
         self._docling_prepared = False
 
+    @staticmethod
+    def _maybe_run(enabled: bool, fn: Any) -> Any:
+        """Run function when enabled, otherwise return standardized skipped marker."""
+        return fn() if enabled else {"status": "skipped"}
+
+    @staticmethod
+    def _log(message: str) -> None:
+        """Print a consistent REG pipeline progress message."""
+        print(f"[REG] {message}")
+
+    def _run_step(self, step_name: str, enabled: bool, fn: Any) -> Any:
+        """Run one REG pipeline step with terminal progress logs."""
+        if not enabled:
+            self._log(f"{step_name}: skipped")
+            return {"status": "skipped"}
+        self._log(f"{step_name}: started")
+        result = fn()
+        self._log(f"{step_name}: done")
+        return result
+
     def _resolve_pdf_input_path(self) -> Path:
+        """Resolve and validate PDF input path for optional Docling stage."""
         if self.reg_input_path is not None:
             if self.reg_input_path.suffix.lower() != ".pdf":
                 raise ValueError(
@@ -105,6 +168,7 @@ class RegPrepPipeline:
         return candidates[0]
 
     def _resolve_json_input_path(self) -> Path:
+        """Resolve and validate JSON input path for requirements extraction stage."""
         if self.reg_input_path is not None:
             if self.reg_input_path.suffix.lower() != ".json":
                 raise ValueError(
@@ -122,7 +186,15 @@ class RegPrepPipeline:
             )
         return existing_json[0]
 
+    @staticmethod
+    def _ensure_exists(path: Path, label: str) -> Path:
+        """Fail fast with a readable message when a required artifact is missing."""
+        if not path.exists():
+            raise FileNotFoundError(f"Missing {label}: {path}")
+        return path
+
     def run_docling_pdf_to_json(self) -> dict[str, str]:
+        """Convert PDF to markdown+JSON and persist them as pipeline input artifacts."""
         pdf_path = self._resolve_pdf_input_path()
         processor = self.DoclingProcessor()
         markdown_output = processor.pdf_to_markdown_for_articles(
@@ -154,13 +226,57 @@ class RegPrepPipeline:
         }
 
     def run_requirements_extractor(self) -> dict[str, str]:
+        """Extract main and extended requirement rows from REG input JSON."""
         if self.pdf_to_json:
-            if not self._docling_prepared:
-                self.run_docling_pdf_to_json()
+            if self._docling_prepared:
+                pass
+            elif self.input_reg_json.exists():
+                # Reuse previously generated Docling JSON when stage-0 is skipped in this run.
+                self._log(f"extracting requirements: reusing existing docling json at {self.input_reg_json}")
+            else:
+                raise RuntimeError(
+                    "Docling stage output is missing while pdf_to_json=True. "
+                    "Either run docling now (run_pdf_to_json=True) or ensure this file exists:\n"
+                    f"- {self.input_reg_json}"
+                )
         else:
-            self.input_reg_json = self._resolve_json_input_path()
+            try:
+                self.input_reg_json = self._resolve_json_input_path()
+            except (FileNotFoundError, ValueError):
+                # Independence mode:
+                # if user supplied a PDF reg_input_path but wants to skip PDF->JSON,
+                # reuse the expected docling JSON when it already exists.
+                if self.input_reg_json.exists():
+                    self._log(f"extracting requirements: reusing existing docling json at {self.input_reg_json}")
+                else:
+                    raise
 
         extractor = self.RequirementsExtractorClass(self.input_reg_json)
+        # If extended article selection is identical to main selection (e.g. context=[]),
+        # write once and mirror the same payload to extended output.
+        same_selection = (
+            bool(self.main_articles)
+            and bool(self.extended_articles)
+            and [int(x) for x in self.main_articles] == [int(x) for x in self.extended_articles]
+        )
+
+        if same_selection:
+            saved_main = extractor.save_requirements(
+                self.output_main_requirements,
+                include_articles=self.main_articles,
+            )
+            self.output_extended_requirements.parent.mkdir(parents=True, exist_ok=True)
+            self.output_extended_requirements.write_text(
+                Path(saved_main).read_text(encoding="utf-8"),
+                encoding="utf-8",
+            )
+            saved_extended = self.output_extended_requirements
+            return {
+                "main_requirements": str(saved_main),
+                "extended_requirements": str(saved_extended),
+                "same_article_selection": "true",
+            }
+
         if self.main_articles and self.extended_articles:
             saved_main, saved_extended = extractor.save_requirements_dual(
                 main_output_path=self.output_main_requirements,
@@ -174,10 +290,16 @@ class RegPrepPipeline:
         return {
             "main_requirements": str(saved_main),
             "extended_requirements": str(saved_extended),
+            "same_article_selection": "false",
         }
 
     def run_deontic_slot_extractor(self) -> dict[str, str]:
-        extractor = self.DeonticSlotExtractorLlama(
+        """Run stage1-4 deontic extraction over extended requirements."""
+        self._ensure_exists(
+            self.output_extended_requirements,
+            "extended requirements input for deontic extraction",
+        )
+        extractor = self.DeonticSlotExtractorClass(
             endpoint_url=self.endpoint_url,
             model_name=self.model_name,
             timeout_seconds=self.timeout_seconds,
@@ -227,6 +349,9 @@ class RegPrepPipeline:
         }
 
     def run_main_slot_filter(self) -> str:
+        """Keep slot rows that correspond to main requirement IDs only."""
+        self._ensure_exists(self.output_main_requirements, "main requirements input for main slot filter")
+        self._ensure_exists(self.output_extended_slots, "extended slots input for main slot filter")
         slot_filter = self.MainRequirementsSlotFilter()
         saved = slot_filter.build_main_slots(
             main_requirements_json=self.output_main_requirements,
@@ -235,7 +360,28 @@ class RegPrepPipeline:
         )
         return str(saved)
 
+    def run_embedding(self) -> dict[str, Any]:
+        """Build and persist dense embeddings for main requirement slot rows."""
+        if not self.output_main_slots.exists():
+            raise FileNotFoundError(
+                "Main slots file not found for embedding. "
+                f"Expected: {self.output_main_slots}. "
+                "Run main slot filter first (or point output_main_slots to an existing file)."
+            )
+        embedder = self.EmbeddingIndexBuilderClass(
+            model_name="BAAI/bge-large-en-v1.5",
+            collection_name=self.embedding_collection_name,
+        )
+        saved = embedder.embed_and_store(
+            input_json_path=self.output_main_slots,
+            chroma_persist_dir=self.embedding_persist_dir,
+            batch_size=32,
+        )
+        return saved
+
     def run_graph_builder(self) -> dict[str, Any]:
+        """Build graph artifacts (JSON/GraphML) from extended requirements."""
+        self._ensure_exists(self.output_extended_requirements, "extended requirements input for graph builder")
         builder = self.RequirementsGraphBuilder(self.output_extended_requirements)
         graph = builder.build_graph()
         saved_graphml = builder.save_graph_graphml(self.output_graph_graphml)
@@ -248,6 +394,9 @@ class RegPrepPipeline:
         }
 
     def run_graph_visualization(self) -> str:
+        """Render HTML visualization from previously built graph artifacts."""
+        self._ensure_exists(self.output_graph_graphml, "graphml input for graph visualization")
+        self._ensure_exists(self.output_graph_json, "graph json input for graph visualization")
         visualizer = self.GraphVisualizer(
             graphml_path=self.output_graph_graphml,
             graph_json_path=self.output_graph_json,
@@ -262,53 +411,65 @@ class RegPrepPipeline:
         run_requirements_extractor: bool = True,
         run_deontic_slot_extractor: bool = True,
         run_main_slot_filter: bool = True,
+        run_embedding: bool = True,
         run_graph_builder: bool = True,
         run_graph_visualization: bool = True,
     ) -> dict[str, Any]:
+        """Run configurable REG preparation steps and return consolidated summary."""
+        self._log("pipeline run started")
         run_pdf_enabled = self.pdf_to_json if run_pdf_to_json is None else bool(run_pdf_to_json)
         self.pdf_to_json = run_pdf_enabled
         self._docling_prepared = False
-        if not self.pdf_to_json:
-            self.input_reg_json = self._resolve_json_input_path()
 
         result: dict[str, Any] = {
             "project_root": str(self.project_root),
             "reg_input_path": str(self.reg_input_path) if self.reg_input_path else "",
             "pdf_to_json": self.pdf_to_json,
             "reg_input_json": str(self.input_reg_json),
+            "article_selection": {
+                "main_articles": [int(x) for x in self.main_articles] if self.main_articles else [],
+                "context_articles": [int(x) for x in self.depth_one_articles] if self.depth_one_articles else [],
+                "extended_articles": [int(x) for x in self.extended_articles] if self.extended_articles else [],
+            },
             "steps": {},
         }
+        result["steps"]["docling_pdf_to_json"] = self._run_step(
+            "docling pdf->json",
+            self.pdf_to_json,
+            self.run_docling_pdf_to_json,
+        )
+        result["steps"]["requirements_extractor"] = self._run_step(
+            "extracting requirements",
+            run_requirements_extractor,
+            self.run_requirements_extractor,
+        )
+        result["steps"]["deontic_slot_extractor"] = self._run_step(
+            "deontic stage1-4 (slot extraction)",
+            run_deontic_slot_extractor,
+            self.run_deontic_slot_extractor,
+        )
+        result["steps"]["main_requirements_slot_filter"] = self._run_step(
+            "filtering main requirement slots",
+            run_main_slot_filter,
+            self.run_main_slot_filter,
+        )
+        result["steps"]["embedding"] = self._run_step(
+            "building embedding index",
+            run_embedding,
+            self.run_embedding,
+        )
+        result["steps"]["graph_builder"] = self._run_step(
+            "building requirement graph",
+            run_graph_builder,
+            self.run_graph_builder,
+        )
+        result["steps"]["graph_visualization"] = self._run_step(
+            "rendering graph visualization",
+            run_graph_visualization,
+            self.run_graph_visualization,
+        )
 
-        if self.pdf_to_json:
-            result["steps"]["docling_pdf_to_json"] = self.run_docling_pdf_to_json()
-        else:
-            result["steps"]["docling_pdf_to_json"] = {"status": "skipped"}
-
-        if run_requirements_extractor:
-            result["steps"]["requirements_extractor"] = self.run_requirements_extractor()
-        else:
-            result["steps"]["requirements_extractor"] = {"status": "skipped"}
-
-        if run_deontic_slot_extractor:
-            result["steps"]["deontic_slot_extractor"] = self.run_deontic_slot_extractor()
-        else:
-            result["steps"]["deontic_slot_extractor"] = {"status": "skipped"}
-
-        if run_main_slot_filter:
-            result["steps"]["main_requirements_slot_filter"] = self.run_main_slot_filter()
-        else:
-            result["steps"]["main_requirements_slot_filter"] = {"status": "skipped"}
-
-        if run_graph_builder:
-            result["steps"]["graph_builder"] = self.run_graph_builder()
-        else:
-            result["steps"]["graph_builder"] = {"status": "skipped"}
-
-        if run_graph_visualization:
-            result["steps"]["graph_visualization"] = self.run_graph_visualization()
-        else:
-            result["steps"]["graph_visualization"] = {"status": "skipped"}
-
+        self._log("pipeline run finished")
         return result
 
 
@@ -339,6 +500,7 @@ def main() -> None:
         run_requirements_extractor=True,
         run_deontic_slot_extractor=True,
         run_main_slot_filter=True,
+        run_embedding=True,
         run_graph_builder=True,
         run_graph_visualization=True,
     )

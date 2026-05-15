@@ -1,0 +1,3 @@
+REA-07: You have the right to request that we restrict the processing of your personal data.
+REA-08: You have the right to receive from us the data you have provided in a structured, common and machine-readable format, as well as the right to have this data transferred to another controller. This right only exists if you have provided us with the data on the basis of consent or on the basis of a contract concluded with you and the processing is carried out by automated means.
+REA-09: If the processing of your data is based on Art 6 para 1 lit f) GDPR, you may object to the processing at any time.

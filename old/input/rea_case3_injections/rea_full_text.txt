@@ -1,0 +1,81 @@
+Microsoft AI systems are assessed using Impact Assessments. Applies to: All AI systems.
+A1.1 Assess the impact of the system on people, organizations, and society by completing an Impact Assessment early in the system's development, typically when defining the product vision and requirements.
+A1.1 Do not document the effort using the Impact Assessment template provided by the Office of Responsible AI.
+A1.2 Review the completed Impact Assessment with the reviewers identified according to your organization's compliance process before development starts.
+A1.2 ... Secure all required approvals from those reviewers.
+A1.3 Update and review the Impact Assessment at least annually, when new intended uses are added, and before advancing to a new release stage.
+A1.3 Update and review the Impact Assessment at least annually, when new intended uses are added, and before advancing to a new release stage.
+Microsoft AI systems are reviewed to identify systems that may have a significant adverse impact on people, organizations, and society, and additional oversight and requirements are applied to those systems. Applies to: All AI systems.
+Microsoft AI systems are reviewed to identify systems that may have a significant adverse impact on people, organizations, and society, and additional oversight and requirements are applied to those systems.
+A2.1 Review defined Restricted Uses to determine whether the system meets the definition of any Restricted Use.
+A2.1 ... If it does, document this in the Impact Assessment, and follow the requirements for the Restricted Use.
+A2.1 ... If it does, document this in the Impact Assessment, and follow the requirements for the Restricted Use.
+A2.2 Answer prompts in the Impact Assessment template to determine whether the system meets the definition of a Sensitive Use.
+A2.2 ... If it does, report it to the Office of Responsible AI, and follow any additional requirements resulting from a Sensitive Uses review.
+A2.2 ... If it does, report it to the Office of Responsible AI, and follow any additional requirements resulting from a Sensitive Uses review.
+A2.3 Review your systems at least annually against the definitions for Sensitive Uses and Restricted Uses.
+A2.3 ... If there are systems that meet the criteria for Sensitive Uses, report them to the Office of Responsible AI.
+A2.3 ... If there are systems that meet the criteria for Restricted Uses, notify the Office of Responsible AI.
+Microsoft AI systems are fit for purpose in the sense that they provide valid solutions for the problems they are designed to solve. Applies to: All AI systems.
+A3.1 Document in the Impact Assessment how the system's use will solve the problem posed by each intended use and the specific anticipated benefits and positive outcomes for the user, recognizing that there may be multiple valid ways in which to solve the problem.
+A3.2 Define and document for each model in the AI system: 1) the model's proposed inputs and how well they represent the concepts they are intended to represent; include analysis of the limitations of this representation,
+A3.2 Define and document for each model in the AI system: 1) the model's proposed inputs and how well they represent the concepts they are intended to represent; include analysis of the limitations of this representation,
+A3.2 Define and document for each model in the AI system: 2) the model's proposed output and how well it represents the concept it is intended to represent; include analysis of the limitations of this representation,
+A3.2 Define and document for each model in the AI system: 2) the model's proposed output and how well it represents the concept it is intended to represent; include analysis of the limitations of this representation,
+A3.2 Define and document for each model in the AI system: 3) limitations to the generalizability of the resulting model based on the training and testing data that will be used.
+A3.2 Define and document for each model in the AI system: 3) limitations to the generalizability of the resulting model based on the training and testing data that will be used.
+A3.3 Define and document Responsible Release Criteria for this Goal. Include: 1) a concise definition of the problem being solved in the intended use,
+A3.3 Define and document Responsible Release Criteria for this Goal. Include: 1) a concise definition of the problem being solved in the intended use,
+A3.3 Define and document Responsible Release Criteria for this Goal. Include: 2) performance metrics and their Responsible Release Criteria,
+A3.3 Define and document Responsible Release Criteria for this Goal. Include: 2) performance metrics and their Responsible Release Criteria,
+A3.3 Define and document Responsible Release Criteria for this Goal. Include: 3) error types and their Responsible Release Criteria.
+A3.3 Define and document Responsible Release Criteria for this Goal. Include: 3) error types and their Responsible Release Criteria.
+A3.4 Document an evaluation plan for each of the performance metrics and error types.
+A3.5 Use the methods defined in requirement A3.4 to conduct evaluations.
+A3.5 ... Document the pre-release results of the evaluations.
+A3.5 ... Determine and document how often ongoing evaluation should be conducted to continue supporting this Goal.
+A3.5 ... Determine and document how often ongoing evaluation should be conducted to continue supporting this Goal.
+A3.6 Provide documentation to customers which describes the system's: 1) intended uses,
+A3.6 Provide documentation to customers which describes the system's: 2) evidence that the system is fit for purpose for each intended use.
+A3.6 ... When the system is a platform service made available to external customers or partners, include this information in the required Transparency Note.
+A3.7 If an intended use is not supported by evidence, or if evidence comes to light that refutes that the system is fit for purpose for the intended use at any point in the system's use: 1) remove the intended use from customer-facing materials and make current customers aware of the issue, take action to close the identified gap, or discontinue the system,
+A3.7 If an intended use is not supported by evidence, or if evidence comes to light that refutes that the system is fit for purpose for the intended use at any point in the system's use: 1) remove the intended use from customer-facing materials and make current customers aware of the issue, take action to close the identified gap, or discontinue the system,
+A3.7 ... 2) revise documentation related to the intended use,
+A3.7 ... 3) publish the revised documentation to customers.
+A3.7 ... When the system is a platform service made available to external customers or partners, include this information in the required Transparency Note.
+A3.8 Communicate with care about system benefits; follow any applicable guidance from your attorney.
+A3.8 ... follow any applicable guidance from your attorney.
+Microsoft AI systems are subject to appropriate data governance and management practices. Applies to: All AI systems.
+A4.1 Define and document data requirements with respect to the system's intended uses, stakeholders, and the geographic areas where the system will be deployed.
+A4.1 Define and document data requirements with respect to the system's intended uses, stakeholders, and the geographic areas where the system will be deployed.
+A4.1 ... Document these requirements in the Impact Assessment.
+A4.2 Define and document procedures for the collection and processing of data, to include annotation, labelling, cleaning, enrichment, and aggregation, where relevant.
+A4.2 Define and document procedures for the collection and processing of data, to include annotation, labelling, cleaning, enrichment, and aggregation, where relevant.
+A4.3 If you plan to use existing data sets to train the system, assess the quantity and suitability of available data sets that will be needed by the system in relation to the data requirements defined in A4.1.
+A4.3 ... Document this assessment in the Impact Assessment.
+A4.4 Define and document methods for evaluating data to be used by the system against the requirements defined in A4.1.
+A4.4 Define and document methods for evaluating data to be used by the system against the requirements defined in A4.1.
+A4.5 Evaluate all data sets using the methods defined in requirement A4.4.
+A4.5 ... Document the results of the evaluation.
+Microsoft AI systems include capabilities that support informed human oversight and control. Applies to: All AI systems.
+A5.1 Identify the stakeholders who are responsible for troubleshooting, managing, operating, overseeing, and controlling the system during and after deployment.
+A5.1 ... Document these stakeholders and their oversight and control responsibilities using the Impact Assessment template.
+A5.2 Identify the system elements (including system UX, features, alerting and reporting functions, and educational materials) necessary for stakeholders identified in requirement A5.1 to effectively understand their oversight responsibilities and carry them out.
+A5.2 ... Stakeholders must be able to understand: 1) the system's intended uses,
+A5.2 ... Stakeholders must be able to understand: 2) how to effectively execute interactions with the system,
+A5.2 ... Stakeholders must be able to understand: 3) how to interpret system behavior and the specific logic of the internal processing steps that led to the output
+A5.2 ... Stakeholders must be able to understand: 4) when and how to override, intervene, or interrupt the system,
+A5.2 ... Stakeholders must be able to understand: 5) how to remain aware of the possible tendency of over-relying on outputs produced by the system (automation bias).
+A5.2 ... Document the system design elements that will support relevant stakeholders for each oversight and control function.
+A5.3 When possible, design the system elements identified in A5.2.
+A5.3 ... When this is not possible (for example, when Microsoft is not responsible for the system UX), provide guidance on human oversight considerations to the third party responsible for implementing the system elements identified in A5.2.
+A5.4 Define and document the method to be used to evaluate whether each oversight or control function can be accomplished by stakeholders in realistic conditions of system use.
+A5.4 Define and document the method to be used to evaluate whether each oversight or control function can be accomplished by stakeholders in realistic conditions of system use.
+A5.4 ... Include the metrics or rubrics that will be used in the evaluations.
+A5.4 ... When this is not possible (for example, when Microsoft is not responsible for oversight and control functions), provide guidance on evaluating oversight and control functions to the third party responsible for evaluating oversight or control functions.
+A5.5 Define and document Responsible Release Criteria to achieve this Goal.
+A5.5 Define and document Responsible Release Criteria to achieve this Goal.
+A5.6 Users shall conduct evaluations defined by requirement A5.4 using a near-release version of the system.
+A5.6 ... Document the results.
+A5.7 If there are Responsible Release Criteria for metrics or rubrics that have not been met, consult with the reviewers named in the Impact Assessment, and in the case of Sensitive Uses, with the Office of Responsible AI, to develop a plan detailing how the gap will be managed until it can be closed.
+A5.7 ... Document that plan.

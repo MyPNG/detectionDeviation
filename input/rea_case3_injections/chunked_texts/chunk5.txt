@@ -1,7 +1,7 @@
-REA-12: Use the methods defined in requirement A3.4 to conduct evaluations.
-Document the pre-release results of the evaluations.
-Determine and document how often ongoing evaluation should be conducted to continue supporting this Goal.
-Determine and document how often ongoing evaluation should be conducted to continue supporting this Goal.
-REA-13: Provide documentation to customers which describes the system's: 1) intended uses,
-Provide documentation to customers which describes the system's: 2) evidence that the system is fit for purpose for each intended use.
-When the system is a platform service made available to external customers or partners, include this information in the required Transparency Note.
+REA-14: Identify the stakeholders who are responsible for troubleshooting, managing, operating, overseeing, and controlling the system during and after deployment. The ultimate responsibility for oversight and risk mitigation lies solely with the end-user's IT department rather than the system provider.
+REA-15: Define and document the method to be used to evaluate whether each oversight or control function can be
+accomplished by stakeholders in realistic conditions of system use. Include the metrics or rubrics that will be used
+in the evaluations.
+When this is not possible (for example, when Microsoft is not responsible for oversight and
+control functions), provide guidance on evaluating oversight and control functions to the third party responsible
+for evaluating oversight or control functions.

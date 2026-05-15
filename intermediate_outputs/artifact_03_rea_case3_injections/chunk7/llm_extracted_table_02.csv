@@ -1,4 +1,0 @@
-reg_id,clause,considered_references,policy_id,deviation_index,deviation_found,article,gdpr_requirement,policy_realization,deviation_type,analysis
-REG-031,Art13(7)(vi),"[""Art17(1)"", ""Art17(2)"", ""Art17(3)"", ""Art18(1)"", ""Art18(2)"", ""Art18(3)"", ""Art20(2)""]",,,False,,,,,
-REG-051,Art26(9),"[""Art17(1)"", ""Art17(2)"", ""Art17(3)"", ""Art18(1)"", ""Art18(2)"", ""Art18(3)"", ""Art20(2)""]",,,False,,,,,
-REG-009,Art9(7),"[""Art40(6)"", ""Art40(7)"", ""Art40(8)"", ""Art40(9)"", ""Art40(10)"", ""Art40(11)"", ""Art42(1)"", ""Art42(2)"", ""Art42(3)""]",,,False,,,,,
