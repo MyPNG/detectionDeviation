@@ -1,0 +1,91 @@
+{
+  "rea_sub_id": "REA-15#2",
+  "reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea_case3_injections__reg_eu_ai_act_reranked/chunk5_deontic_stages/rea-15#2.json",
+  "top_k": 3,
+  "max_hop": 1,
+  "allowed_relations": [
+    "AND",
+    "PARENT_CHILD",
+    "REFERENCES",
+    "SEQUENCE"
+  ],
+  "main_constraints": [
+    {
+      "id": "REG-088",
+      "clause": "Art15(4)",
+      "text": "Technical and organisational measures shall be taken in this regard.",
+      "rerank_rank": 1,
+      "rerank_score": 0.02681019715964794,
+      "similarity_score": 0.800173,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-087",
+          "main_reg_id": "REG-088",
+          "edge_type": "SEQUENCE",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-088 -> REG-087",
+          "text": "or inconsistencies that may occur within the system or the environment in which the system operates, in particular due to their interaction with natural persons or other systems.",
+          "article": "15",
+          "paragraph": "4",
+          "clause": "Art15(4)"
+        }
+      ]
+    },
+    {
+      "id": "REG-060",
+      "clause": "Art13(6(v))",
+      "text": "(iv) where applicable, the technical capabilities and characteristics of the high-risk AI system to provide information that is relevant to explain its output; (v) when appropriate, its performance regarding specific persons or groups of persons on which the system is intended to be used;",
+      "rerank_rank": 2,
+      "rerank_score": 0.0252328310161829,
+      "similarity_score": 0.810182,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-059",
+          "main_reg_id": "REG-060",
+          "edge_type": "PARENT_CHILD",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-059 -> REG-060",
+          "text": "(iv) where applicable, the technical capabilities and characteristics of the high-risk AI system to provide information that is relevant to explain its output;",
+          "article": "13",
+          "paragraph": "6",
+          "clause": "Art13(6)"
+        }
+      ]
+    },
+    {
+      "id": "REG-018",
+      "clause": "Art9(8)",
+      "text": "Testing shall be carried out against prior defined metrics and probabilistic thresholds that are appropriate to the intended purpose of the high-risk AI system.",
+      "rerank_rank": 3,
+      "rerank_score": 0.0206015482544899,
+      "similarity_score": 0.775158,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-017",
+          "main_reg_id": "REG-018",
+          "edge_type": "SEQUENCE",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-018 -> REG-017",
+          "text": "The testing of high-risk AI systems shall be performed, as appropriate, at any time throughout the development process, and, in any event, prior to their being placed on the market or put into service.",
+          "article": "9",
+          "paragraph": "8",
+          "clause": "Art9(8)"
+        }
+      ]
+    }
+  ],
+  "visited_reg_ids": [
+    "REG-017",
+    "REG-018",
+    "REG-059",
+    "REG-060",
+    "REG-087",
+    "REG-088"
+  ]
+}

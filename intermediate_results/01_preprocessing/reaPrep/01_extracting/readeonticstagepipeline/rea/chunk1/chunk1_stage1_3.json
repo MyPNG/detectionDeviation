@@ -1,0 +1,70 @@
+{
+  "chunk": "chunk1",
+  "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/rearequirementsextractor/rea/chunk1/chunk1_requirements.json",
+  "stage1_output": [
+    {
+      "ID": "REA-01#1",
+      "REA_ID": "REA-01",
+      "Text": "You have the following rights under applicable data protection law with respect to personal data concerning you."
+    },
+    {
+      "ID": "REA-01#2",
+      "REA_ID": "REA-01",
+      "Text": "You can request information from us at any time about whether and which personal data we store about you."
+    },
+    {
+      "ID": "REA-01#3",
+      "REA_ID": "REA-01",
+      "Text": "The provision of information is free of charge for you."
+    },
+    {
+      "ID": "REA-01#4",
+      "REA_ID": "REA-01",
+      "Text": "The right to information does not exist or is subject to limitations if and to the extent that confidential information, such as information that is subject to professional secrecy, would be disclosed."
+    }
+  ],
+  "stage2_output": [
+    {
+      "ID": "REA-01#1",
+      "REA_ID": "REA-01",
+      "Text": "You have the following rights under applicable data protection law with respect to personal data concerning you.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-01#2",
+      "REA_ID": "REA-01",
+      "Text": "You can request information from us at any time about whether and which personal data we store about you.",
+      "Modal": "Permissive(can)"
+    },
+    {
+      "ID": "REA-01#3",
+      "REA_ID": "REA-01",
+      "Text": "The provision of information is free of charge for you.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-01#4",
+      "REA_ID": "REA-01",
+      "Text": "The right to information does not exist or is subject to limitations if and to the extent that confidential information, such as information that is subject to professional secrecy, would be disclosed.",
+      "Modal": ""
+    }
+  ],
+  "stage3_output": [
+    {
+      "ID": "REA-01#1",
+      "Active_Recovered_Text": "You have the following rights under applicable data protection law with respect to personal data concerning you."
+    },
+    {
+      "ID": "REA-01#2",
+      "Active_Recovered_Text": "You can request information from us at any time about whether and which personal data we store about you."
+    },
+    {
+      "ID": "REA-01#3",
+      "Active_Recovered_Text": "The provision of information is free of charge for you."
+    },
+    {
+      "ID": "REA-01#4",
+      "Active_Recovered_Text": "The right to information does not exist or is subject to limitations if and to the extent that confidential information, such as information that is subject to professional secrecy, would be disclosed."
+    }
+  ]
+}

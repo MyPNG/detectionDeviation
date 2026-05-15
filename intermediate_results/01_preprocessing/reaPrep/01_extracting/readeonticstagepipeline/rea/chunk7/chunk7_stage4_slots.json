@@ -1,0 +1,66 @@
+{
+  "chunk": "chunk7",
+  "stage1_3_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/readeonticstagepipeline/rea/chunk7/chunk7_stage1_3.json",
+  "stage4_output": [
+    {
+      "id": "REA-09",
+      "text": "For data transfers within the PwC network, the PwC network companies have, among other things, concluded an internal data protection agreement which provides for compliance with the EU standard contractual clauses of the EU Commission within the meaning of Art 46 para 2 lit c)",
+      "actor": "the PwC network companies",
+      "modal": "Mandatory",
+      "action": "have",
+      "action_list": [
+        "have"
+      ],
+      "object": "data transfers within the PwC network",
+      "temporal": "within the PwC network",
+      "manner": "",
+      "condition": "",
+      "article": "chunk7",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-09",
+      "sub_id": "REA-09#1",
+      "split_index": "1"
+    },
+    {
+      "id": "REA-09",
+      "text": "GDPR for the transfer of personal data from EU/EEA countries to PwC network companies outside the EU/EEA. If you have any questions about such data protection contracts based on the EU standard contractual clauses or if you would like more information about further security mechanisms and security measures for the transfer of data to third countries, please feel free to contact our data protection officer, e.g. at DE_Datenschutz@pwc.com. When you visit our website, we collect the data that is technically necessary to display this website to you.",
+      "actor": "you",
+      "modal": "Permissive",
+      "action": "gdpr",
+      "action_list": [
+        "gdpr"
+      ],
+      "object": "the transfer of personal data from EU / EEA countries",
+      "temporal": "",
+      "manner": "e.g. at DE_Datenschutz@pwc.com",
+      "condition": "If you have any questions about such data protection contracts based on the EU standard contractual clauses or if you would like more information about further security mechanisms and security measures for the transfer of data to third countries",
+      "article": "chunk7",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-09",
+      "sub_id": "REA-09#2",
+      "split_index": "2"
+    },
+    {
+      "id": "REA-09",
+      "text": "This involves the following personal data which is automatically transmitted to our server by your browser IP address.",
+      "actor": "your browser",
+      "modal": "Mandatory",
+      "action": "involve",
+      "action_list": [
+        "involve"
+      ],
+      "object": "the following personal data which is automatically transmitted to our server by your browser IP address",
+      "temporal": "following personal data which is automatically",
+      "manner": "by your browser IP address",
+      "condition": "",
+      "article": "chunk7",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-09",
+      "sub_id": "REA-09#3",
+      "split_index": "3"
+    }
+  ]
+}

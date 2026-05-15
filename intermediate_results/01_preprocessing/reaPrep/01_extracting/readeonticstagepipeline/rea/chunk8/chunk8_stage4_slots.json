@@ -1,0 +1,46 @@
+{
+  "chunk": "chunk8",
+  "stage1_3_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/readeonticstagepipeline/rea/chunk8/chunk8_stage1_3.json",
+  "stage4_output": [
+    {
+      "id": "REA-10",
+      "text": "The Controller is based on Art 6 para 1 lit f) GDPR for processing this personal data.",
+      "actor": "The Controller",
+      "modal": "Mandatory",
+      "action": "base",
+      "action_list": [
+        "base"
+      ],
+      "object": "Art 6 para 1 lit f )",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk8",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-10",
+      "sub_id": "REA-10#1",
+      "split_index": "1"
+    },
+    {
+      "id": "REA-10",
+      "text": "The Data Processor will store the aforementioned data for 7 days and then delete it.",
+      "actor": "The Data Processor",
+      "modal": "Mandatory(will)",
+      "action": "store",
+      "action_list": [
+        "store"
+      ],
+      "object": "the aforementioned data for 7 days and then delete it.",
+      "temporal": "then delete it",
+      "manner": "",
+      "condition": "",
+      "article": "chunk8",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-10",
+      "sub_id": "REA-10#2",
+      "split_index": "2"
+    }
+  ]
+}

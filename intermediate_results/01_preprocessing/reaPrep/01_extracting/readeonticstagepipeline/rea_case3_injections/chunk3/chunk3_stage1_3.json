@@ -1,0 +1,117 @@
+{
+  "chunk": "chunk3",
+  "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/rearequirementsextractor/rea_case3_injections/chunk3/chunk3_requirements.json",
+  "stage1_output": [
+    {
+      "ID": "REA-06#1",
+      "REA_ID": "REA-06",
+      "Text": "Document in the Impact Assessment how the system’s use will solve the problem posed by each intended use, recognizing that there may be multiple valid ways in which to solve the problem."
+    },
+    {
+      "ID": "REA-07#1",
+      "REA_ID": "REA-07",
+      "Text": "Document an evaluation plan for each of the performance metrics and error types."
+    },
+    {
+      "ID": "REA-08#1",
+      "REA_ID": "REA-08",
+      "Text": "Document the pre-release results of the evaluations."
+    },
+    {
+      "ID": "REA-08#2",
+      "REA_ID": "REA-08",
+      "Text": "Evaluations are conducted primarily via informal peer-review discussions rather than documented metric-based testing."
+    },
+    {
+      "ID": "REA-09#1",
+      "REA_ID": "REA-09",
+      "Text": "Provide documentation to customers which describes the system's: 1) intended uses,"
+    },
+    {
+      "ID": "REA-10#1",
+      "REA_ID": "REA-10",
+      "Text": "Provide documentation to customers which describes the system's: 2) evidence that the system is fit for purpose for each intended use."
+    },
+    {
+      "ID": "REA-10#2",
+      "REA_ID": "REA-10",
+      "Text": "Instead of providing a detailed Transparency Note for platform services, provide only a verbal summary to the customer's procurement lead."
+    }
+  ],
+  "stage2_output": [
+    {
+      "ID": "REA-06#1",
+      "REA_ID": "REA-06",
+      "Text": "Document in the Impact Assessment how the system’s use will solve the problem posed by each intended use, recognizing that there may be multiple valid ways in which to solve the problem.",
+      "Modal": "Mandatory(will)"
+    },
+    {
+      "ID": "REA-07#1",
+      "REA_ID": "REA-07",
+      "Text": "Document an evaluation plan for each of the performance metrics and error types.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-08#1",
+      "REA_ID": "REA-08",
+      "Text": "Document the pre-release results of the evaluations.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-08#2",
+      "REA_ID": "REA-08",
+      "Text": "Evaluations are conducted primarily via informal peer-review discussions rather than documented metric-based testing.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-09#1",
+      "REA_ID": "REA-09",
+      "Text": "Provide documentation to customers which describes the system's: 1) intended uses,",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-10#1",
+      "REA_ID": "REA-10",
+      "Text": "Provide documentation to customers which describes the system's: 2) evidence that the system is fit for purpose for each intended use.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-10#2",
+      "REA_ID": "REA-10",
+      "Text": "Instead of providing a detailed Transparency Note for platform services, provide only a verbal summary to the customer's procurement lead.",
+      "Modal": ""
+    }
+  ],
+  "stage3_output": [
+    {
+      "ID": "REA-06#1",
+      "Active_Recovered_Text": "Document in the Impact Assessment how the system’s use will solve the problem posed by each intended use, recognizing that there may be multiple valid ways in which to solve the problem."
+    },
+    {
+      "ID": "REA-07#1",
+      "Active_Recovered_Text": "Document an evaluation plan for each of the performance metrics and error types."
+    },
+    {
+      "ID": "REA-08#1",
+      "Active_Recovered_Text": "Document the pre-release results of the evaluations."
+    },
+    {
+      "ID": "REA-08#2",
+      "Active_Recovered_Text": "Evaluations are conducted primarily via informal peer-review discussions rather than documented metric-based testing. (No change needed)"
+    },
+    {
+      "ID": "REA-09#1",
+      "Active_Recovered_Text": "Provide documentation to customers which describes the system's: 1) intended uses,"
+    },
+    {
+      "ID": "REA-10#1",
+      "Active_Recovered_Text": "Provide documentation to customers which describes the system's: 2) evidence that the system is fit for purpose for each intended use."
+    },
+    {
+      "ID": "REA-10#2",
+      "Active_Recovered_Text": "Instead of providing a detailed Transparency Note for platform services, provide only a verbal summary to the customer's procurement lead."
+    }
+  ],
+  "stage3_fallback_used": false,
+  "stage3_fallback_error": ""
+}

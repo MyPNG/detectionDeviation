@@ -1,0 +1,2842 @@
+{
+  "test_type": "passive_active_file_pipeline",
+  "model": "llama3",
+  "endpoint": "http://localhost:11434/api/chat",
+  "input_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reg_prep/01_extracting/requirementsextractor/reg_eu_ai_act/reg_eu_ai_act_requirements_extended.json",
+  "scenario_count": 73,
+  "results": [
+    {
+      "scenario": "article_9_paragraph_1",
+      "article": "9",
+      "paragraph": "1",
+      "input_nodes": [
+        {
+          "ID": "REG-001",
+          "Text": "A risk management system shall be established, implemented, documented and maintained in relation to high-risk AI systems.",
+          "parent": "None"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-001",
+          "Text": "A risk management system shall be established, implemented, documented and maintained in relation to high-risk AI systems.",
+          "parent": "None"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-001",
+          "Active_Recovered_Text": "The Organization SHALL establish, implement, document, and maintain a risk management system in relation to high-risk AI systems."
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_9_paragraph_10",
+      "article": "9",
+      "paragraph": "10",
+      "input_nodes": [
+        {
+          "ID": "REG-020",
+          "Text": "For providers of high-risk AI systems that are subject to requirements regarding internal risk management processes under other relevant provisions of Union law, the aspects provided in paragraphs 1 to 9 may be part of, or combined with, the risk management procedures established pursuant to that law.",
+          "parent": "None"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-020",
+          "Text": "For providers of high-risk AI systems that are subject to requirements regarding internal risk management processes under other relevant provisions of Union law, the aspects provided in paragraphs 1 to 9 may be part of, or combined with, the risk management procedures established pursuant to that law.",
+          "parent": "None"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-020",
+          "Active_Recovered_Text": "For providers of high-risk AI systems that are subject to requirements regarding internal risk management processes under other relevant provisions of Union law, the aspects provided in paragraphs 1 to 9 may be part of, or combined with, the risk management procedures established pursuant to that law."
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_9_paragraph_2",
+      "article": "9",
+      "paragraph": "2",
+      "input_nodes": [
+        {
+          "ID": "REG-002",
+          "Text": "The risk management system shall be understood as a continuous iterative process planned and run throughout the entire lifecycle of a high-risk AI system, requiring regular systematic review and updating.",
+          "parent": "None"
+        },
+        {
+          "ID": "REG-003",
+          "Text": "The risk management system shall comprise the following steps:",
+          "logic_relations": [
+            {
+              "type": "SEQUENCE",
+              "target": "REG-002"
+            }
+          ],
+          "parent": "None"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-002",
+          "Text": "The risk management system shall be understood as a continuous iterative process planned and run throughout the entire lifecycle of a high-risk AI system, requiring regular systematic review and updating.",
+          "parent": "None"
+        },
+        {
+          "ID": "REG-003",
+          "Text": "The risk management system shall comprise the following steps:",
+          "logic_relations": [
+            {
+              "type": "SEQUENCE",
+              "target": "REG-002"
+            }
+          ],
+          "parent": "None"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-002",
+          "Active_Recovered_Text": "The risk management system shall be understood as a continuous iterative process planned and run throughout the entire lifecycle of a high-risk AI system, requiring regular systematic review and updating."
+        },
+        {
+          "ID": "REG-003",
+          "Active_Recovered_Text": "The risk management system shall comprise the following steps:"
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_9_paragraph_2(a)",
+      "article": "9",
+      "paragraph": "2(a)",
+      "input_nodes": [
+        {
+          "ID": "REG-004",
+          "Text": "The risk management system shall comprise the following steps: (a) the identification and analysis of the known and the reasonably foreseeable risks that the high-risk AI system can pose to health, safety or fundamental rights when the high-risk AI system is used in accordance with its intended purpose;",
+          "parent": "REG-003"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-004",
+          "Text": "The risk management system shall comprise the following steps: (a) the identification and analysis of the known and the reasonably foreseeable risks that the high-risk AI system can pose to health, safety or fundamental rights when the high-risk AI system is used in accordance with its intended purpose;",
+          "parent": "REG-003"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-004",
+          "Active_Recovered_Text": "The risk management system shall comprise the following steps: (a) the identification and analysis of the known and the reasonably foreseeable risks that the high-risk AI system can pose to health, safety or fundamental rights when the high-risk AI system is used in accordance with its intended purpose;"
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_9_paragraph_2(b)",
+      "article": "9",
+      "paragraph": "2(b)",
+      "input_nodes": [
+        {
+          "ID": "REG-005",
+          "Text": "The risk management system shall comprise the following steps: (b) the estimation and evaluation of the risks that may emerge when the high-risk AI system is used in accordance with its intended purpose, and under conditions of reasonably foreseeable misuse;",
+          "parent": "REG-003"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-005",
+          "Text": "The risk management system shall comprise the following steps: (b) the estimation and evaluation of the risks that may emerge when the high-risk AI system is used in accordance with its intended purpose, and under conditions of reasonably foreseeable misuse;",
+          "parent": "REG-003"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-005",
+          "Active_Recovered_Text": "The risk management system shall comprise the following steps: (b) the estimation and evaluation of the risks that may emerge when the high-risk AI system is used in accordance with its intended purpose, and under conditions of reasonably foreseeable misuse;"
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_9_paragraph_2(c)",
+      "article": "9",
+      "paragraph": "2(c)",
+      "input_nodes": [
+        {
+          "ID": "REG-006",
+          "Text": "The risk management system shall comprise the following steps: (c) the evaluation of other risks possibly arising, based on the analysis of data gathered from the post-market monitoring system referred to in Article 72;",
+          "parent": "REG-003"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-006",
+          "Text": "The risk management system shall comprise the following steps: (c) the evaluation of other risks possibly arising, based on the analysis of data gathered from the post-market monitoring system referred to in Article 72;",
+          "parent": "REG-003"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-006",
+          "Active_Recovered_Text": "The risk management system shall comprise the following steps: (c) the evaluation of other risks possibly arising, based on the analysis of data gathered from the post-market monitoring system referred to in Article 72;"
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_9_paragraph_2(d)",
+      "article": "9",
+      "paragraph": "2(d)",
+      "input_nodes": [
+        {
+          "ID": "REG-007",
+          "Text": "The risk management system shall comprise the following steps: (d) the adoption of appropriate and targeted risk management measures designed to address the risks identified pursuant to point (a).",
+          "parent": "REG-003"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-007",
+          "Text": "The risk management system shall comprise the following steps: (d) the adoption of appropriate and targeted risk management measures designed to address the risks identified pursuant to point (a).",
+          "parent": "REG-003"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-007",
+          "Active_Recovered_Text": "The risk management system shall comprise the following steps: (d) the adoption of appropriate and targeted risk management measures designed to address the risks identified pursuant to point (a)."
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_9_paragraph_3",
+      "article": "9",
+      "paragraph": "3",
+      "input_nodes": [
+        {
+          "ID": "REG-008",
+          "Text": "The risks referred to in this Article shall concern only those which may be reasonably mitigated or eliminated through the development or design of the high-risk AI system, or the provision of adequate technical information.",
+          "parent": "None"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-008",
+          "Text": "The risks referred to in this Article shall concern only those which may be reasonably mitigated or eliminated through the development or design of the high-risk AI system, or the provision of adequate technical information.",
+          "parent": "None"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-008",
+          "Active_Recovered_Text": "The risks referred to in this Article shall concern those which may be reasonably mitigated or eliminated through the development or design of the high-risk AI system, or the provision of adequate technical information."
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_9_paragraph_4",
+      "article": "9",
+      "paragraph": "4",
+      "input_nodes": [
+        {
+          "ID": "REG-009",
+          "Text": "The risk management measures referred to in paragraph 2, point (d), shall give due consideration to the effects and possible interaction resulting from the combined application of the requirements set out in this Section, with a view to minimising risks more effectively while achieving an appropriate balance in implementing the measures to fulfil those requirements.",
+          "parent": "None"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-009",
+          "Text": "The risk management measures referred to in paragraph 2, point (d), shall give due consideration to the effects and possible interaction resulting from the combined application of the requirements set out in this Section, with a view to minimising risks more effectively while achieving an appropriate balance in implementing the measures to fulfil those requirements.",
+          "parent": "None"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-009",
+          "Active_Recovered_Text": "The risk management measures referred to in paragraph 2, point (d), shall give due consideration to the effects and possible interaction resulting from the combined application of the requirements set out in this Section, with a view to minimising risks more effectively while achieving an appropriate balance in implementing the measures to fulfil those requirements."
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_9_paragraph_5",
+      "article": "9",
+      "paragraph": "5",
+      "input_nodes": [
+        {
+          "ID": "REG-010",
+          "Text": "The risk management measures referred to in paragraph 2, point (d), shall be such that the relevant residual risk associated with each hazard, as well as the overall residual risk of the high-risk AI systems is judged to be acceptable. In identifying the most appropriate risk management measures, the following shall be ensured:",
+          "parent": "None"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-010",
+          "Text": "The risk management measures referred to in paragraph 2, point (d), shall be such that the relevant residual risk associated with each hazard, as well as the overall residual risk of the high-risk AI systems is judged to be acceptable. In identifying the most appropriate risk management measures, the following shall be ensured:",
+          "parent": "None"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-010",
+          "Active_Recovered_Text": "The risk management measures referred to in paragraph 2, point (d), shall be such that the relevant residual risk associated with each hazard, as well as the overall residual risk of the high-risk AI systems is judged to be acceptable. In identifying the most appropriate risk management measures, the following shall be ensured:"
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_9_paragraph_5(a)",
+      "article": "9",
+      "paragraph": "5(a)",
+      "input_nodes": [
+        {
+          "ID": "REG-011",
+          "Text": "The risk management measures referred to in paragraph 2, point (d), shall be such that the relevant residual risk associated with each hazard, as well as the overall residual risk of the high-risk AI systems is judged to be acceptable. (a) elimination or reduction of risks identified and evaluated pursuant to paragraph 2 in as far as technically feasible through adequate design and development of the high-risk AI system;",
+          "parent": "REG-010"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-011",
+          "Text": "The risk management measures referred to in paragraph 2, point (d), shall be such that the relevant residual risk associated with each hazard, as well as the overall residual risk of the high-risk AI systems is judged to be acceptable. (a) elimination or reduction of risks identified and evaluated pursuant to paragraph 2 in as far as technically feasible through adequate design and development of the high-risk AI system;",
+          "parent": "REG-010"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-011",
+          "Active_Recovered_Text": "The risk management measures referred to in paragraph 2, point (d), shall be such that the relevant residual risk associated with each hazard, as well as the overall residual risk of the high-risk AI systems is judged to be acceptable. (a) elimination or reduction of risks identified and evaluated pursuant to paragraph 2 in as far as technically feasible through adequate design and development of the high-risk AI system;"
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_9_paragraph_5(b)",
+      "article": "9",
+      "paragraph": "5(b)",
+      "input_nodes": [
+        {
+          "ID": "REG-012",
+          "Text": "The risk management measures referred to in paragraph 2, point (d), shall be such that the relevant residual risk associated with each hazard, as well as the overall residual risk of the high-risk AI systems is judged to be acceptable. (b) where appropriate, implementation of adequate mitigation and control measures addressing risks that cannot be eliminated;",
+          "parent": "REG-010"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-012",
+          "Text": "The risk management measures referred to in paragraph 2, point (d), shall be such that the relevant residual risk associated with each hazard, as well as the overall residual risk of the high-risk AI systems is judged to be acceptable. (b) where appropriate, implementation of adequate mitigation and control measures addressing risks that cannot be eliminated;",
+          "parent": "REG-010"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-012",
+          "Active_Recovered_Text": "The risk management measures referred to in paragraph 2, point (d), shall be such that the relevant residual risk associated with each hazard, as well as the overall residual risk of the high-risk AI systems is judged to be acceptable. (b) where appropriate, implementation of adequate mitigation and control measures addressing risks that cannot be eliminated;"
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_9_paragraph_5(c)",
+      "article": "9",
+      "paragraph": "5(c)",
+      "input_nodes": [
+        {
+          "ID": "REG-013",
+          "Text": "The risk management measures referred to in paragraph 2, point (d), shall be such that the relevant residual risk associated with each hazard, as well as the overall residual risk of the high-risk AI systems is judged to be acceptable. (c) provision of information required pursuant to Article 13 and, where appropriate, training to deployers. With a view to eliminating or reducing risks related to the use of the high-risk AI system, due consideration shall be given to the technical knowledge, experience, education, the training to be expected by the deployer, and the presumable context in which the system is intended to be used.",
+          "parent": "REG-010"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-013",
+          "Text": "The risk management measures referred to in paragraph 2, point (d), shall be such that the relevant residual risk associated with each hazard, as well as the overall residual risk of the high-risk AI systems is judged to be acceptable. (c) provision of information required pursuant to Article 13 and, where appropriate, training to deployers. With a view to eliminating or reducing risks related to the use of the high-risk AI system, due consideration shall be given to the technical knowledge, experience, education, the training to be expected by the deployer, and the presumable context in which the system is intended to be used.",
+          "parent": "REG-010"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-013",
+          "Active_Recovered_Text": "The risk management measures referred to in paragraph 2, point (d), shall be such that the relevant residual risk associated with each hazard, as well as the overall residual risk of the high-risk AI systems is judged to be acceptable. (c) provision of information required pursuant to Article 13 and, where appropriate, training to deployers. With a view to eliminating or reducing risks related to the use of the high-risk AI system, due consideration shall be given to the technical knowledge, experience, education, the training to be expected by the deployer, and the presumable context in which the system is intended to be used."
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_9_paragraph_6",
+      "article": "9",
+      "paragraph": "6",
+      "input_nodes": [
+        {
+          "ID": "REG-014",
+          "Text": "High-risk AI systems shall be tested for the purpose of identifying the most appropriate and targeted risk management measures.",
+          "parent": "None"
+        },
+        {
+          "ID": "REG-015",
+          "Text": "Testing shall ensure that high-risk AI systems perform consistently for their intended purpose and that they are in compliance with the requirements set out in this Section.",
+          "logic_relations": [
+            {
+              "type": "SEQUENCE",
+              "target": "REG-014"
+            }
+          ],
+          "parent": "None"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-014",
+          "Text": "High-risk AI systems shall be tested for the purpose of identifying the most appropriate and targeted risk management measures.",
+          "parent": "None"
+        },
+        {
+          "ID": "REG-015",
+          "Text": "Testing shall ensure that high-risk AI systems perform consistently for their intended purpose and that they are in compliance with the requirements set out in this Section.",
+          "logic_relations": [
+            {
+              "type": "SEQUENCE",
+              "target": "REG-014"
+            }
+          ],
+          "parent": "None"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-014",
+          "Active_Recovered_Text": "The Regulator SHALL test high-risk AI systems for the purpose of identifying the most appropriate and targeted risk management measures."
+        },
+        {
+          "ID": "REG-015",
+          "Active_Recovered_Text": "Testing shall ensure that high-risk AI systems perform consistently for their intended purpose and that they are in compliance with the requirements set out in this Section."
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [
+          "REG-015"
+        ],
+        "passed": false
+      },
+      "status": "warning"
+    },
+    {
+      "scenario": "article_9_paragraph_7",
+      "article": "9",
+      "paragraph": "7",
+      "input_nodes": [
+        {
+          "ID": "REG-016",
+          "Text": "Testing procedures may include testing in real-world conditions in accordance with Article 60.",
+          "parent": "None"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-016",
+          "Text": "Testing procedures may include testing in real-world conditions in accordance with Article 60.",
+          "parent": "None"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-016",
+          "Active_Recovered_Text": "Testing procedures may include testing in real-world conditions in accordance with Article 60."
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_9_paragraph_8",
+      "article": "9",
+      "paragraph": "8",
+      "input_nodes": [
+        {
+          "ID": "REG-017",
+          "Text": "The testing of high-risk AI systems shall be performed, as appropriate, at any time throughout the development process, and, in any event, prior to their being placed on the market or put into service.",
+          "parent": "None"
+        },
+        {
+          "ID": "REG-018",
+          "Text": "Testing shall be carried out against prior defined metrics and probabilistic thresholds that are appropriate to the intended purpose of the high-risk AI system.",
+          "logic_relations": [
+            {
+              "type": "SEQUENCE",
+              "target": "REG-017"
+            }
+          ],
+          "parent": "None"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-017",
+          "Text": "The testing of high-risk AI systems shall be performed, as appropriate, at any time throughout the development process, and, in any event, prior to their being placed on the market or put into service.",
+          "parent": "None"
+        },
+        {
+          "ID": "REG-018",
+          "Text": "Testing shall be carried out against prior defined metrics and probabilistic thresholds that are appropriate to the intended purpose of the high-risk AI system.",
+          "logic_relations": [
+            {
+              "type": "SEQUENCE",
+              "target": "REG-017"
+            }
+          ],
+          "parent": "None"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-017",
+          "Active_Recovered_Text": "The Provider SHALL perform testing of high-risk AI systems, as appropriate, at any time throughout the development process, and, in any event, prior to their being placed on the market or put into service."
+        },
+        {
+          "ID": "REG-018",
+          "Active_Recovered_Text": "The Provider SHALL carry out testing against prior defined metrics and probabilistic thresholds that are appropriate to the intended purpose of the high-risk AI system."
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_9_paragraph_9",
+      "article": "9",
+      "paragraph": "9",
+      "input_nodes": [
+        {
+          "ID": "REG-019",
+          "Text": "When implementing the risk management system as provided for in paragraphs 1 to 7, providers shall give consideration to whether in view of its intended purpose the high-risk AI system is likely to have an adverse impact on persons under the age of 18 and, as appropriate, other vulnerable groups.",
+          "parent": "None"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-019",
+          "Text": "When implementing the risk management system as provided for in paragraphs 1 to 7, providers shall give consideration to whether in view of its intended purpose the high-risk AI system is likely to have an adverse impact on persons under the age of 18 and, as appropriate, other vulnerable groups.",
+          "parent": "None"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-019",
+          "Active_Recovered_Text": "When implementing the risk management system as provided for in paragraphs 1 to 7, providers shall give consideration to whether in view of its intended purpose the high-risk AI system is likely to have an adverse impact on persons under the age of 18 and, as appropriate, other vulnerable groups."
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_10_paragraph_1",
+      "article": "10",
+      "paragraph": "1",
+      "input_nodes": [
+        {
+          "ID": "REG-021",
+          "Text": "High-risk AI systems which make use of techniques involving the training of AI models with data shall be developed on the basis of training, validation and testing data sets that meet the quality criteria referred to in paragraphs 2 to 5 whenever such data sets are used.",
+          "parent": "None"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-021",
+          "Text": "High-risk AI systems which make use of techniques involving the training of AI models with data shall be developed on the basis of training, validation and testing data sets that meet the quality criteria referred to in paragraphs 2 to 5 whenever such data sets are used.",
+          "parent": "None"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-021",
+          "Active_Recovered_Text": "The Developer SHALL develop high-risk AI systems which make use of techniques involving the training of AI models with data on the basis of training, validation and testing data sets that meet the quality criteria referred to in paragraphs 2 to 5 whenever such data sets are used."
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_10_paragraph_2",
+      "article": "10",
+      "paragraph": "2",
+      "input_nodes": [
+        {
+          "ID": "REG-022",
+          "Text": "Training, validation and testing data sets shall be subject to data governance and management practices appropriate for the intended purpose of the high-risk AI system.",
+          "parent": "None"
+        },
+        {
+          "ID": "REG-023",
+          "Text": "Those practices shall concern in particular:",
+          "logic_relations": [
+            {
+              "type": "SEQUENCE",
+              "target": "REG-022"
+            }
+          ],
+          "parent": "None"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-022",
+          "Text": "Training, validation and testing data sets shall be subject to data governance and management practices appropriate for the intended purpose of the high-risk AI system.",
+          "parent": "None"
+        },
+        {
+          "ID": "REG-023",
+          "Text": "Those practices shall concern in particular:",
+          "logic_relations": [
+            {
+              "type": "SEQUENCE",
+              "target": "REG-022"
+            }
+          ],
+          "parent": "None"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-022",
+          "Active_Recovered_Text": "Training, validation and testing data sets shall be subject to data governance and management practices appropriate for the intended purpose of the high-risk AI system."
+        },
+        {
+          "ID": "REG-023",
+          "Active_Recovered_Text": "Those practices shall concern in particular:"
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_10_paragraph_2(a)",
+      "article": "10",
+      "paragraph": "2(a)",
+      "input_nodes": [
+        {
+          "ID": "REG-024",
+          "Text": "Those practices shall concern in particular: (a) the relevant design choices;",
+          "parent": "REG-023"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-024",
+          "Text": "Those practices shall concern in particular: (a) the relevant design choices;",
+          "parent": "REG-023"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-024",
+          "Active_Recovered_Text": "Those practices shall concern in particular: (a) the relevant design choices;"
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_10_paragraph_2(b)",
+      "article": "10",
+      "paragraph": "2(b)",
+      "input_nodes": [
+        {
+          "ID": "REG-025",
+          "Text": "Those practices shall concern in particular: (b) data collection processes and the origin of data, and in the case of personal data, the original purpose of the data collection;",
+          "parent": "REG-023"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-025",
+          "Text": "Those practices shall concern in particular: (b) data collection processes and the origin of data, and in the case of personal data, the original purpose of the data collection;",
+          "parent": "REG-023"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-025",
+          "Active_Recovered_Text": "Those practices shall concern in particular: (b) data collection processes and the origin of data, and in the case of personal data, the original purpose of the data collection;"
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_10_paragraph_2(c)",
+      "article": "10",
+      "paragraph": "2(c)",
+      "input_nodes": [
+        {
+          "ID": "REG-026",
+          "Text": "Those practices shall concern in particular: (c) relevant data-preparation processing operations, such as annotation, labelling, cleaning, updating, enrichment and aggregation;",
+          "parent": "REG-023"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-026",
+          "Text": "Those practices shall concern in particular: (c) relevant data-preparation processing operations, such as annotation, labelling, cleaning, updating, enrichment and aggregation;",
+          "parent": "REG-023"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-026",
+          "Active_Recovered_Text": "Those practices shall concern in particular: (c) relevant data-preparation processing operations, such as annotation, labelling, cleaning, updating, enrichment and aggregation;"
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_10_paragraph_2(d)",
+      "article": "10",
+      "paragraph": "2(d)",
+      "input_nodes": [
+        {
+          "ID": "REG-027",
+          "Text": "Those practices shall concern in particular: (d) the formulation of assumptions, in particular with respect to the information that the data are supposed to measure and represent;",
+          "parent": "REG-023"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-027",
+          "Text": "Those practices shall concern in particular: (d) the formulation of assumptions, in particular with respect to the information that the data are supposed to measure and represent;",
+          "parent": "REG-023"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-027",
+          "Active_Recovered_Text": "Those practices shall concern in particular: (d) the formulation of assumptions, in particular with respect to the information that the data are supposed to measure and represent;"
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_10_paragraph_2(e)",
+      "article": "10",
+      "paragraph": "2(e)",
+      "input_nodes": [
+        {
+          "ID": "REG-028",
+          "Text": "Those practices shall concern in particular: (e) an assessment of the availability, quantity and suitability of the data sets that are needed;",
+          "parent": "REG-023"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-028",
+          "Text": "Those practices shall concern in particular: (e) an assessment of the availability, quantity and suitability of the data sets that are needed;",
+          "parent": "REG-023"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-028",
+          "Active_Recovered_Text": "Those practices shall concern in particular: (e) an assessment of the availability, quantity and suitability of the data sets that are needed;"
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_10_paragraph_2(f)",
+      "article": "10",
+      "paragraph": "2(f)",
+      "input_nodes": [
+        {
+          "ID": "REG-029",
+          "Text": "Those practices shall concern in particular: (f) examination in view of possible biases that are likely to affect the health and safety of persons, have a negative impact on fundamental rights or lead to discrimination prohibited under Union law, especially where data outputs influence inputs for future operations;",
+          "parent": "REG-023"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-029",
+          "Text": "Those practices shall concern in particular: (f) examination in view of possible biases that are likely to affect the health and safety of persons, have a negative impact on fundamental rights or lead to discrimination prohibited under Union law, especially where data outputs influence inputs for future operations;",
+          "parent": "REG-023"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-029",
+          "Active_Recovered_Text": "Those practices shall concern in particular: (f) examination in view of possible biases that are likely to affect the health and safety of persons, have a negative impact on fundamental rights or lead to discrimination prohibited under Union law, especially where data outputs influence inputs for future operations;"
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_10_paragraph_2(g)",
+      "article": "10",
+      "paragraph": "2(g)",
+      "input_nodes": [
+        {
+          "ID": "REG-030",
+          "Text": "Those practices shall concern in particular: (g) appropriate measures to detect, prevent and mitigate possible biases identified according to point (f);",
+          "parent": "REG-023"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-030",
+          "Text": "Those practices shall concern in particular: (g) appropriate measures to detect, prevent and mitigate possible biases identified according to point (f);",
+          "parent": "REG-023"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-030",
+          "Active_Recovered_Text": "Those practices shall concern in particular: (g) appropriate measures to detect, prevent and mitigate possible biases identified according to point (f);"
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_10_paragraph_2(h)",
+      "article": "10",
+      "paragraph": "2(h)",
+      "input_nodes": [
+        {
+          "ID": "REG-031",
+          "Text": "Those practices shall concern in particular: (h) the identification of relevant data gaps or shortcomings that prevent compliance with this Regulation, and how those gaps",
+          "parent": "REG-023"
+        },
+        {
+          "ID": "REG-032",
+          "Text": "and shortcomings can be addressed.",
+          "logic_relations": [
+            {
+              "type": "AND",
+              "target": "REG-031"
+            }
+          ],
+          "parent": "REG-023"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-031",
+          "Text": "Those practices shall concern in particular: (h) the identification of relevant data gaps or shortcomings that prevent compliance with this Regulation, and how those gaps",
+          "parent": "REG-023"
+        },
+        {
+          "ID": "REG-032",
+          "Text": "and shortcomings can be addressed.",
+          "logic_relations": [
+            {
+              "type": "AND",
+              "target": "REG-031"
+            }
+          ],
+          "parent": "REG-023"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-031",
+          "Active_Recovered_Text": "Those practices shall concern in particular: (h) the identification of relevant data gaps or shortcomings that prevent compliance with this Regulation, and how those gaps"
+        },
+        {
+          "ID": "REG-032",
+          "Active_Recovered_Text": "and shortcomings can be addressed."
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_10_paragraph_3",
+      "article": "10",
+      "paragraph": "3",
+      "input_nodes": [
+        {
+          "ID": "REG-033",
+          "Text": "Training, validation and testing data sets shall be relevant, sufficiently representative, and to the best extent possible, free of errors and complete in view of the intended purpose.",
+          "parent": "None"
+        },
+        {
+          "ID": "REG-034",
+          "Text": "They shall have the appropriate statistical properties, including, where applicable, as regards the persons or groups of persons in relation to whom the high-risk AI system is intended to be used.",
+          "logic_relations": [
+            {
+              "type": "SEQUENCE",
+              "target": "REG-033"
+            }
+          ],
+          "parent": "None"
+        },
+        {
+          "ID": "REG-035",
+          "Text": "Those characteristics of the data sets may be met at the level of individual data sets or at the level of a combination thereof.",
+          "logic_relations": [
+            {
+              "type": "SEQUENCE",
+              "target": "REG-034"
+            }
+          ],
+          "parent": "None"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-033",
+          "Text": "Training, validation and testing data sets shall be relevant, sufficiently representative, and to the best extent possible, free of errors and complete in view of the intended purpose.",
+          "parent": "None"
+        },
+        {
+          "ID": "REG-034",
+          "Text": "They shall have the appropriate statistical properties, including, where applicable, as regards the persons or groups of persons in relation to whom the high-risk AI system is intended to be used.",
+          "logic_relations": [
+            {
+              "type": "SEQUENCE",
+              "target": "REG-033"
+            }
+          ],
+          "parent": "None"
+        },
+        {
+          "ID": "REG-035",
+          "Text": "Those characteristics of the data sets may be met at the level of individual data sets or at the level of a combination thereof.",
+          "logic_relations": [
+            {
+              "type": "SEQUENCE",
+              "target": "REG-034"
+            }
+          ],
+          "parent": "None"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-033",
+          "Active_Recovered_Text": "Training, validation and testing data sets shall be relevant, sufficiently representative, and to the best extent possible, free of errors and complete in view of the intended purpose."
+        },
+        {
+          "ID": "REG-034",
+          "Active_Recovered_Text": "They shall have the appropriate statistical properties, including, where applicable, as regards the persons or groups of persons in relation to whom the high-risk AI system is intended to be used."
+        },
+        {
+          "ID": "REG-035",
+          "Active_Recovered_Text": "Those characteristics of the data sets may be met at the level of individual data sets or at the level of a combination thereof."
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [
+          "REG-034"
+        ],
+        "passed": false
+      },
+      "status": "warning"
+    },
+    {
+      "scenario": "article_10_paragraph_4",
+      "article": "10",
+      "paragraph": "4",
+      "input_nodes": [
+        {
+          "ID": "REG-036",
+          "Text": "Data sets shall take into account, to the extent required by the intended purpose, the characteristics or elements that are particular to the specific geographical, contextual, behavioural or functional setting within which the high-risk AI system is intended to be used.",
+          "parent": "None"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-036",
+          "Text": "Data sets shall take into account, to the extent required by the intended purpose, the characteristics or elements that are particular to the specific geographical, contextual, behavioural or functional setting within which the high-risk AI system is intended to be used.",
+          "parent": "None"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-036",
+          "Active_Recovered_Text": "Data sets shall take into account, to the extent required by the intended purpose, the characteristics or elements that are particular to the specific geographical, contextual, behavioural or functional setting within which the high-risk AI system is intended to be used."
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_10_paragraph_5",
+      "article": "10",
+      "paragraph": "5",
+      "input_nodes": [
+        {
+          "ID": "REG-037",
+          "Text": "To the extent that it is strictly necessary for the purpose of ensuring bias detection and correction in relation to the high-risk AI systems in accordance with paragraph (2), points (f) and (g) of this Article, the providers of such systems may exceptionally process special categories of personal data, subject to appropriate safeguards for the fundamental rights and freedoms of natural persons.",
+          "parent": "None"
+        },
+        {
+          "ID": "REG-038",
+          "Text": "In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur:",
+          "logic_relations": [
+            {
+              "type": "SEQUENCE",
+              "target": "REG-037"
+            }
+          ],
+          "parent": "None"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-037",
+          "Text": "To the extent that it is strictly necessary for the purpose of ensuring bias detection and correction in relation to the high-risk AI systems in accordance with paragraph (2), points (f) and (g) of this Article, the providers of such systems may exceptionally process special categories of personal data, subject to appropriate safeguards for the fundamental rights and freedoms of natural persons.",
+          "parent": "None"
+        },
+        {
+          "ID": "REG-038",
+          "Text": "In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur:",
+          "logic_relations": [
+            {
+              "type": "SEQUENCE",
+              "target": "REG-037"
+            }
+          ],
+          "parent": "None"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-037",
+          "Active_Recovered_Text": "To the extent that it is strictly necessary for the purpose of ensuring bias detection and correction in relation to the high-risk AI systems in accordance with paragraph (2), points (f) and (g) of this Article, the providers of such systems may exceptionally process special categories of personal data, subject to appropriate safeguards for the fundamental rights and freedoms of natural persons."
+        },
+        {
+          "ID": "REG-038",
+          "Active_Recovered_Text": "In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur:"
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_10_paragraph_5(a)",
+      "article": "10",
+      "paragraph": "5(a)",
+      "input_nodes": [
+        {
+          "ID": "REG-039",
+          "Text": "In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur: (a) the bias detection and correction cannot be effectively fulfilled by processing other data, including synthetic or anonymised data;",
+          "parent": "REG-038"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-039",
+          "Text": "In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur: (a) the bias detection and correction cannot be effectively fulfilled by processing other data, including synthetic or anonymised data;",
+          "parent": "REG-038"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-039",
+          "Active_Recovered_Text": "In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur: (a) the bias detection and correction cannot be effectively fulfilled by processing other data, including synthetic or anonymised data;"
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_10_paragraph_5(b)",
+      "article": "10",
+      "paragraph": "5(b)",
+      "input_nodes": [
+        {
+          "ID": "REG-040",
+          "Text": "In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur: (b) the special categories of personal data are subject to technical limitations on the re-use of the personal data, and state-of-the-art security and privacy-preserving measures, including pseudonymisation;",
+          "parent": "REG-038"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-040",
+          "Text": "In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur: (b) the special categories of personal data are subject to technical limitations on the re-use of the personal data, and state-of-the-art security and privacy-preserving measures, including pseudonymisation;",
+          "parent": "REG-038"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-040",
+          "Active_Recovered_Text": "In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur: (b) the special categories of personal data are subject to technical limitations on the re-use of the personal data, and state-of-the-art security and privacy-preserving measures, including pseudonymisation;"
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_10_paragraph_5(c)",
+      "article": "10",
+      "paragraph": "5(c)",
+      "input_nodes": [
+        {
+          "ID": "REG-041",
+          "Text": "In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur: (c) the special categories of personal data are subject to measures to ensure that the personal data processed are secured, protected, subject to suitable safeguards, including strict controls and documentation of the access, to avoid misuse and ensure that only authorised persons have access to those personal data with appropriate confidentiality obligations;",
+          "parent": "REG-038"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-041",
+          "Text": "In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur: (c) the special categories of personal data are subject to measures to ensure that the personal data processed are secured, protected, subject to suitable safeguards, including strict controls and documentation of the access, to avoid misuse and ensure that only authorised persons have access to those personal data with appropriate confidentiality obligations;",
+          "parent": "REG-038"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-041",
+          "Active_Recovered_Text": "In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur: (c) the special categories of personal data are subject to measures to ensure that the personal data processed are secured, protected, subject to suitable safeguards, including strict controls and documentation of the access, to avoid misuse and ensure that only authorised persons have access to those personal data with appropriate confidentiality obligations;"
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_10_paragraph_5(d)",
+      "article": "10",
+      "paragraph": "5(d)",
+      "input_nodes": [
+        {
+          "ID": "REG-042",
+          "Text": "In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur: (d) the special categories of personal data are not to be transmitted, transferred or otherwise accessed by other parties;",
+          "parent": "REG-038"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-042",
+          "Text": "In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur: (d) the special categories of personal data are not to be transmitted, transferred or otherwise accessed by other parties;",
+          "parent": "REG-038"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-042",
+          "Active_Recovered_Text": "In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur: (d) the special categories of personal data are not to be transmitted, transferred or otherwise accessed by other parties;"
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_10_paragraph_5(e)",
+      "article": "10",
+      "paragraph": "5(e)",
+      "input_nodes": [
+        {
+          "ID": "REG-043",
+          "Text": "In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur: (e) the special categories of personal data are deleted once the bias has been corrected or the personal data has reached the end of its retention period, whichever comes first;",
+          "parent": "REG-038"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-043",
+          "Text": "In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur: (e) the special categories of personal data are deleted once the bias has been corrected or the personal data has reached the end of its retention period, whichever comes first;",
+          "parent": "REG-038"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-043",
+          "Active_Recovered_Text": "In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur: (e) the special categories of personal data are deleted once the bias has been corrected or the personal data has reached the end of its retention period, whichever comes first;"
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_10_paragraph_5(f)",
+      "article": "10",
+      "paragraph": "5(f)",
+      "input_nodes": [
+        {
+          "ID": "REG-044",
+          "Text": "In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur: (f) the records of processing activities pursuant to Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680 include the reasons why the processing of special categories of personal data was strictly necessary to detect and correct biases, and why that objective could not be achieved by processing other data.",
+          "parent": "REG-038"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-044",
+          "Text": "In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur: (f) the records of processing activities pursuant to Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680 include the reasons why the processing of special categories of personal data was strictly necessary to detect and correct biases, and why that objective could not be achieved by processing other data.",
+          "parent": "REG-038"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-044",
+          "Active_Recovered_Text": "In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur: (f) the records of processing activities pursuant to Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680 include the reasons why the processing of special categories of personal data was strictly necessary to detect and correct biases, and why that objective could not be achieved by processing other data."
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_10_paragraph_6",
+      "article": "10",
+      "paragraph": "6",
+      "input_nodes": [
+        {
+          "ID": "REG-045",
+          "Text": "For the development of high-risk AI systems not using techniques involving the training of AI models, paragraphs 2 to 5 apply only to the testing data sets.",
+          "parent": "None"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-045",
+          "Text": "For the development of high-risk AI systems not using techniques involving the training of AI models, paragraphs 2 to 5 apply only to the testing data sets.",
+          "parent": "None"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-045",
+          "Active_Recovered_Text": "For the development of high-risk AI systems not using techniques involving the training of AI models, paragraphs 2 to 5 apply only to the testing data sets."
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_11_paragraph_1",
+      "article": "11",
+      "paragraph": "1",
+      "input_nodes": [
+        {
+          "ID": "REG-046",
+          "Text": "The technical documentation of a high-risk AI system shall be drawn up before that system is placed on the market The technical documentation shall be drawn up in such a way as to demonstrate that the high-risk AI system complies with the requirements set out in this Section and to provide national competent authorities and notified bodies with the necessary information in a clear and comprehensive form to assess the compliance of the AI system with those requirements. It shall contain, at a minimum, the elements set out in Annex IV. SMEs, including start-ups, may provide the elements of the technical documentation specified in Annex IV in a simplified manner. To that end, the Commission shall establish a simplified technical documentation form targeted at the needs of small and microenterprises. Where an SME, including a start-up, opts to provide the information required in Annex IV in a simplified manner, it shall use the form referred to in this paragraph. Notified bodies shall accept the form for the purposes of the conformity assessment.",
+          "parent": "None"
+        },
+        {
+          "ID": "REG-047",
+          "Text": "or put into service and shall be kept up-to date.",
+          "logic_relations": [
+            {
+              "type": "OR",
+              "target": "REG-046"
+            }
+          ],
+          "parent": "None"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-046",
+          "Text": "The technical documentation of a high-risk AI system shall be drawn up before that system is placed on the market The technical documentation shall be drawn up in such a way as to demonstrate that the high-risk AI system complies with the requirements set out in this Section and to provide national competent authorities and notified bodies with the necessary information in a clear and comprehensive form to assess the compliance of the AI system with those requirements. It shall contain, at a minimum, the elements set out in Annex IV. SMEs, including start-ups, may provide the elements of the technical documentation specified in Annex IV in a simplified manner. To that end, the Commission shall establish a simplified technical documentation form targeted at the needs of small and microenterprises. Where an SME, including a start-up, opts to provide the information required in Annex IV in a simplified manner, it shall use the form referred to in this paragraph. Notified bodies shall accept the form for the purposes of the conformity assessment.",
+          "parent": "None"
+        },
+        {
+          "ID": "REG-047",
+          "Text": "or put into service and shall be kept up-to date.",
+          "logic_relations": [
+            {
+              "type": "OR",
+              "target": "REG-046"
+            }
+          ],
+          "parent": "None"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-046",
+          "Active_Recovered_Text": "The Provider SHALL draw up the technical documentation of a high-risk AI system before that system is placed on the market The Provider SHALL draw up the technical documentation in such a way as to demonstrate that the high-risk AI system complies with the requirements set out in this Section and to provide national competent authorities and notified bodies with the necessary information in a clear and comprehensive form to assess the compliance of the AI system with those requirements. It SHALL contain, at a minimum, the elements set out in Annex IV. SMEs, including start-ups, MAY provide the elements of the technical documentation specified in Annex IV in a simplified manner. To that end, the Commission SHALL establish a simplified technical documentation form targeted at the needs of small and microenterprises. Where an SME, including a start-up, opts to provide the information required in Annex IV in a simplified manner, it MAY use the form referred to in this paragraph. Notified bodies SHALL accept the form for the purposes of the conformity assessment."
+        },
+        {
+          "ID": "REG-047",
+          "Active_Recovered_Text": "or The Authorities put into service and shall be kept up-to date."
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_11_paragraph_2",
+      "article": "11",
+      "paragraph": "2",
+      "input_nodes": [
+        {
+          "ID": "REG-048",
+          "Text": "Where a high-risk AI system related to a product covered by the Union harmonisation legislation listed in Section A of Annex I is placed on the market or put into service, a single set of technical documentation shall be drawn up containing all the information set out in paragraph 1, as well as the information required under those legal acts.",
+          "parent": "None"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-048",
+          "Text": "Where a high-risk AI system related to a product covered by the Union harmonisation legislation listed in Section A of Annex I is placed on the market or put into service, a single set of technical documentation shall be drawn up containing all the information set out in paragraph 1, as well as the information required under those legal acts.",
+          "parent": "None"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-048",
+          "Active_Recovered_Text": "The Provider SHALL draw up a single set of technical documentation containing all the information set out in paragraph 1, as well as the information required under those legal acts where a high-risk ai system related to a product covered by the union harmonisation legislation listed in section a of annex i is placed on the market or put into service."
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_11_paragraph_3",
+      "article": "11",
+      "paragraph": "3",
+      "input_nodes": [
+        {
+          "ID": "REG-049",
+          "Text": "The Commission is empowered to adopt delegated acts in accordance with Article 97 in order to amend Annex IV, where necessary, to ensure that, in light of technical progress, the technical documentation provides all the information necessary to assess the compliance of the system with the requirements set out in this Section.",
+          "parent": "None"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-049",
+          "Text": "The Commission is empowered to adopt delegated acts in accordance with Article 97 in order to amend Annex IV, where necessary, to ensure that, in light of technical progress, the technical documentation provides all the information necessary to assess the compliance of the system with the requirements set out in this Section.",
+          "parent": "None"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-049",
+          "Active_Recovered_Text": "The Commission IS empowered to adopt delegated acts in accordance with Article 97 in order to amend Annex IV, where necessary, to ensure that, in light of technical progress, the documentation PROVIDES all the information necessary to assess the compliance of the system with the requirements set out in this Section."
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_13_paragraph_1",
+      "article": "13",
+      "paragraph": "1",
+      "input_nodes": [
+        {
+          "ID": "REG-050",
+          "Text": "High-risk AI systems shall be designed and developed in such a way as to ensure that their operation is sufficiently transparent to enable deployers to interpret a system's output and use it appropriately.",
+          "parent": "None"
+        },
+        {
+          "ID": "REG-051",
+          "Text": "An appropriate type and degree of transparency shall be ensured with a view to achieving compliance with the relevant obligations of the provider and deployer set out in Section 3.",
+          "logic_relations": [
+            {
+              "type": "SEQUENCE",
+              "target": "REG-050"
+            }
+          ],
+          "parent": "None"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-050",
+          "Text": "High-risk AI systems shall be designed and developed in such a way as to ensure that their operation is sufficiently transparent to enable deployers to interpret a system's output and use it appropriately.",
+          "parent": "None"
+        },
+        {
+          "ID": "REG-051",
+          "Text": "An appropriate type and degree of transparency shall be ensured with a view to achieving compliance with the relevant obligations of the provider and deployer set out in Section 3.",
+          "logic_relations": [
+            {
+              "type": "SEQUENCE",
+              "target": "REG-050"
+            }
+          ],
+          "parent": "None"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-050",
+          "Active_Recovered_Text": "deployer High-risk AI systems shall be designed and developed in such a way as to ensure that their operation is sufficiently transparent to enable deployers to interpret a system's output and use it appropriately."
+        },
+        {
+          "ID": "REG-051",
+          "Active_Recovered_Text": "deployer An appropriate type and degree of transparency shall be ensured with a view to achieving compliance with the relevant obligations of the provider and deployer set out in Section 3."
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_13_paragraph_2",
+      "article": "13",
+      "paragraph": "2",
+      "input_nodes": [
+        {
+          "ID": "REG-052",
+          "Text": "High-risk AI systems shall be accompanied by instructions for use in an appropriate digital format or otherwise that include concise, complete, correct and clear information that is relevant, accessible and comprehensible to deployers.",
+          "parent": "None"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-052",
+          "Text": "High-risk AI systems shall be accompanied by instructions for use in an appropriate digital format or otherwise that include concise, complete, correct and clear information that is relevant, accessible and comprehensible to deployers.",
+          "parent": "None"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-052",
+          "Active_Recovered_Text": "The Deployer SHALL accompany high-risk AI systems with instructions for use in an appropriate digital format or otherwise that include concise, complete, correct and clear information that is relevant, accessible and comprehensible to deployers."
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_13_paragraph_3",
+      "article": "13",
+      "paragraph": "3",
+      "input_nodes": [
+        {
+          "ID": "REG-053",
+          "Text": "The instructions for use shall contain at least the following information:",
+          "parent": "None"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-053",
+          "Text": "The instructions for use shall contain at least the following information:",
+          "parent": "None"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-053",
+          "Active_Recovered_Text": "The instructions for use shall contain least the following information:"
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_13_paragraph_3(a)",
+      "article": "13",
+      "paragraph": "3(a)",
+      "input_nodes": [
+        {
+          "ID": "REG-054",
+          "Text": "The instructions for use shall contain at least the following information: (a) the identity and the contact details of the provider and, where applicable, of its authorised representative;",
+          "parent": "REG-053"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-054",
+          "Text": "The instructions for use shall contain at least the following information: (a) the identity and the contact details of the provider and, where applicable, of its authorised representative;",
+          "parent": "REG-053"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-054",
+          "Active_Recovered_Text": "The instructions for use shall contain least the following information: (a) the identity and the contact details of the provider and, where applicable, of its authorised representative;"
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_13_paragraph_3(b)",
+      "article": "13",
+      "paragraph": "3(b)",
+      "input_nodes": [
+        {
+          "ID": "REG-055",
+          "Text": "The instructions for use shall contain at least the following information: (b) the characteristics, capabilities and limitations of performance of the high-risk AI system, including:",
+          "parent": "REG-053"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-055",
+          "Text": "The instructions for use shall contain at least the following information: (b) the characteristics, capabilities and limitations of performance of the high-risk AI system, including:",
+          "parent": "REG-053"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-055",
+          "Active_Recovered_Text": "The instructions for use shall contain least the following information: (b) the characteristics, capabilities and limitations of performance of the high-risk AI system, including:"
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_13_paragraph_3(i)",
+      "article": "13",
+      "paragraph": "3(i)",
+      "input_nodes": [
+        {
+          "ID": "REG-056",
+          "Text": "The instructions for use shall contain at least the following information: (i) its intended purpose;",
+          "parent": "REG-053"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-056",
+          "Text": "The instructions for use shall contain at least the following information: (i) its intended purpose;",
+          "parent": "REG-053"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-056",
+          "Active_Recovered_Text": "The instructions for use shall contain least the following information: (i) its intended purpose;"
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_13_paragraph_4",
+      "article": "13",
+      "paragraph": "4",
+      "input_nodes": [
+        {
+          "ID": "REG-057",
+          "Text": "(ii) the level of accuracy, including its metrics, robustness and cybersecurity referred to in Article 15 against which the high-risk AI system has been tested and validated and which can be expected, and any known and foreseeable circumstances that may have an impact on that expected level of accuracy, robustness and cybersecurity;",
+          "parent": "None"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-057",
+          "Text": "(ii) the level of accuracy, including its metrics, robustness and cybersecurity referred to in Article 15 against which the high-risk AI system has been tested and validated and which can be expected, and any known and foreseeable circumstances that may have an impact on that expected level of accuracy, robustness and cybersecurity;",
+          "parent": "None"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-057",
+          "Active_Recovered_Text": "(ii) The Provider can expect the level of accuracy, including its metrics, robustness and cybersecurity referred to in Article 15 against which the high-risk AI system has been tested and validated, and any known and foreseeable circumstances that may have an impact on that expected level of accuracy, robustness and cybersecurity;"
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_13_paragraph_5",
+      "article": "13",
+      "paragraph": "5",
+      "input_nodes": [
+        {
+          "ID": "REG-058",
+          "Text": "(iii) any known or foreseeable circumstance, related to the use of the high-risk AI system in accordance with its intended purpose or under conditions of reasonably foreseeable misuse, which may lead to risks to the health and safety or fundamental rights referred to in Article 9(2);",
+          "parent": "None"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-058",
+          "Text": "(iii) any known or foreseeable circumstance, related to the use of the high-risk AI system in accordance with its intended purpose or under conditions of reasonably foreseeable misuse, which may lead to risks to the health and safety or fundamental rights referred to in Article 9(2);",
+          "parent": "None"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-058",
+          "Active_Recovered_Text": "(iii) any known or foreseeable circumstance, related to the use of the high-risk AI system in accordance with its intended purpose or under conditions of reasonably foreseeable misuse, which may lead to risks to the health and safety or fundamental rights referred to in Article 9(2);"
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_13_paragraph_6",
+      "article": "13",
+      "paragraph": "6",
+      "input_nodes": [
+        {
+          "ID": "REG-059",
+          "Text": "(iv) where applicable, the technical capabilities and characteristics of the high-risk AI system to provide information that is relevant to explain its output;",
+          "parent": "None"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-059",
+          "Text": "(iv) where applicable, the technical capabilities and characteristics of the high-risk AI system to provide information that is relevant to explain its output;",
+          "parent": "None"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-059",
+          "Active_Recovered_Text": "(iv) where applicable, the technical capabilities and characteristics of the high-risk AI system to provide information that is relevant to explain its output;"
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_13_paragraph_6(v)",
+      "article": "13",
+      "paragraph": "6(v)",
+      "input_nodes": [
+        {
+          "ID": "REG-060",
+          "Text": "(iv) where applicable, the technical capabilities and characteristics of the high-risk AI system to provide information that is relevant to explain its output; (v) when appropriate, its performance regarding specific persons or groups of persons on which the system is intended to be used;",
+          "parent": "REG-059"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-060",
+          "Text": "(iv) where applicable, the technical capabilities and characteristics of the high-risk AI system to provide information that is relevant to explain its output; (v) when appropriate, its performance regarding specific persons or groups of persons on which the system is intended to be used;",
+          "parent": "REG-059"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-060",
+          "Active_Recovered_Text": "(iv) where applicable, The Provider shall provide information that is relevant to explain its output; (v) when appropriate, The Provider shall perform regarding specific persons or groups of persons on which the system is intended to be used;"
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_13_paragraph_7",
+      "article": "13",
+      "paragraph": "7",
+      "input_nodes": [
+        {
+          "ID": "REG-061",
+          "Text": "(vi) when appropriate, specifications for the input data, or any other relevant information in terms of the training, validation and testing data sets used, taking into account the intended purpose of the high-risk AI system;",
+          "parent": "None"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-061",
+          "Text": "(vi) when appropriate, specifications for the input data, or any other relevant information in terms of the training, validation and testing data sets used, taking into account the intended purpose of the high-risk AI system;",
+          "parent": "None"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-061",
+          "Active_Recovered_Text": "(vi) when appropriate, specifications for the input data, or any other relevant information in terms of the training, validation and testing data sets used, taking into account the intended purpose of the high-risk AI system;"
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_13_paragraph_8",
+      "article": "13",
+      "paragraph": "8",
+      "input_nodes": [
+        {
+          "ID": "REG-062",
+          "Text": "(vii) where applicable, information to enable deployers to interpret the output of the high-risk AI system and use it appropriately;",
+          "parent": "None"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-062",
+          "Text": "(vii) where applicable, information to enable deployers to interpret the output of the high-risk AI system and use it appropriately;",
+          "parent": "None"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-062",
+          "Active_Recovered_Text": "(vii) where applicable, information to enable deployers to interpret the output of the high-risk AI system and use it appropriately;"
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_13_paragraph_8(c)",
+      "article": "13",
+      "paragraph": "8(c)",
+      "input_nodes": [
+        {
+          "ID": "REG-063",
+          "Text": "(vii) where applicable, information to enable deployers to interpret the output of the high-risk AI system and use it appropriately; (c) the changes to the high-risk AI system and its performance which have been pre-determined by the provider at the moment of the initial conformity assessment, if any;",
+          "parent": "REG-062"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-063",
+          "Text": "(vii) where applicable, information to enable deployers to interpret the output of the high-risk AI system and use it appropriately; (c) the changes to the high-risk AI system and its performance which have been pre-determined by the provider at the moment of the initial conformity assessment, if any;",
+          "parent": "REG-062"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-063",
+          "Active_Recovered_Text": "(vii) where applicable, The Provider shall enable deployers to interpret the output of the high-risk AI system and use it appropriately; (c) The changes to the high-risk AI system and its performance which have been pre-determined by The Provider at the moment of the initial conformity assessment, if any;"
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_13_paragraph_8(d)",
+      "article": "13",
+      "paragraph": "8(d)",
+      "input_nodes": [
+        {
+          "ID": "REG-064",
+          "Text": "(vii) where applicable, information to enable deployers to interpret the output of the high-risk AI system and use it appropriately; (d) the human oversight measures referred to in Article 14, including the technical measures put in place to facilitate the interpretation of the outputs of the high-risk AI systems by the deployers;",
+          "parent": "REG-062"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-064",
+          "Text": "(vii) where applicable, information to enable deployers to interpret the output of the high-risk AI system and use it appropriately; (d) the human oversight measures referred to in Article 14, including the technical measures put in place to facilitate the interpretation of the outputs of the high-risk AI systems by the deployers;",
+          "parent": "REG-062"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-064",
+          "Active_Recovered_Text": "(vii) where applicable, information to enable deployers to interpret the output of the high-risk AI system and use it appropriately; (d) the human oversight measures referred to in Article 14, including the technical measures put in place to facilitate the interpretation of the outputs of the high-risk AI systems by the deployers;"
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_13_paragraph_8(e)",
+      "article": "13",
+      "paragraph": "8(e)",
+      "input_nodes": [
+        {
+          "ID": "REG-065",
+          "Text": "(vii) where applicable, information to enable deployers to interpret the output of the high-risk AI system and use it appropriately; (e) the computational and hardware resources needed, the expected lifetime of the high-risk AI system and any necessary maintenance and care measures, including their frequency, to ensure the proper functioning of that AI system, including as regards software updates;",
+          "parent": "REG-062"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-065",
+          "Text": "(vii) where applicable, information to enable deployers to interpret the output of the high-risk AI system and use it appropriately; (e) the computational and hardware resources needed, the expected lifetime of the high-risk AI system and any necessary maintenance and care measures, including their frequency, to ensure the proper functioning of that AI system, including as regards software updates;",
+          "parent": "REG-062"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-065",
+          "Active_Recovered_Text": "(vii) where applicable, information to enable deployers to interpret the output of the high-risk AI system and use it appropriately; (e) the computational and hardware resources needed, the expected lifetime of the high-risk AI system and any necessary maintenance and care measures, including their frequency, to ensure the proper functioning of that AI system, including as regards software updates;"
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_13_paragraph_8(f)",
+      "article": "13",
+      "paragraph": "8(f)",
+      "input_nodes": [
+        {
+          "ID": "REG-066",
+          "Text": "(vii) where applicable, information to enable deployers to interpret the output of the high-risk AI system and use it appropriately; (f) where relevant, a description of the mechanisms included within the high-risk AI system that allows deployers to properly collect, store and interpret the logs in accordance with Article 12.",
+          "parent": "REG-062"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-066",
+          "Text": "(vii) where applicable, information to enable deployers to interpret the output of the high-risk AI system and use it appropriately; (f) where relevant, a description of the mechanisms included within the high-risk AI system that allows deployers to properly collect, store and interpret the logs in accordance with Article 12.",
+          "parent": "REG-062"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-066",
+          "Active_Recovered_Text": "(vii) where applicable, information to enable deployers to interpret the output of the high-risk AI system and use it appropriately; (f) where relevant, a description of the mechanisms included within the high-risk AI system that allows deployers to properly collect, store and interpret the logs in accordance with Article 12."
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_14_paragraph_1",
+      "article": "14",
+      "paragraph": "1",
+      "input_nodes": [
+        {
+          "ID": "REG-067",
+          "Text": "High-risk AI systems shall be designed and developed in such a way, including with appropriate human-machine interface tools, that they can be effectively overseen by natural persons during the period in which they are in use.",
+          "parent": "None"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-067",
+          "Text": "High-risk AI systems shall be designed and developed in such a way, including with appropriate human-machine interface tools, that they can be effectively overseen by natural persons during the period in which they are in use.",
+          "parent": "None"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-067",
+          "Active_Recovered_Text": "The Provider SHALL design develop high-risk AI systems in such a way, including with appropriate human-machine interface tools, that they can be effectively overseen by natural persons during the period in which they are in use."
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [
+          "REG-067"
+        ],
+        "passed": false
+      },
+      "status": "warning"
+    },
+    {
+      "scenario": "article_14_paragraph_2",
+      "article": "14",
+      "paragraph": "2",
+      "input_nodes": [
+        {
+          "ID": "REG-068",
+          "Text": "Human oversight shall aim to prevent or minimise the risks to health, safety",
+          "parent": "None"
+        },
+        {
+          "ID": "REG-069",
+          "Text": "or fundamental rights that may emerge when a high-risk AI system is used in accordance with its intended purpose or under conditions of reasonably foreseeable misuse, in particular where such risks persist despite the application of other requirements set out in this Section.",
+          "logic_relations": [
+            {
+              "type": "OR",
+              "target": "REG-068"
+            }
+          ],
+          "parent": "None"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-068",
+          "Text": "Human oversight shall aim to prevent or minimise the risks to health, safety",
+          "parent": "None"
+        },
+        {
+          "ID": "REG-069",
+          "Text": "or fundamental rights that may emerge when a high-risk AI system is used in accordance with its intended purpose or under conditions of reasonably foreseeable misuse, in particular where such risks persist despite the application of other requirements set out in this Section.",
+          "logic_relations": [
+            {
+              "type": "OR",
+              "target": "REG-068"
+            }
+          ],
+          "parent": "None"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-068",
+          "Active_Recovered_Text": "Human oversight shall aim to prevent or minimise the risks to health, safety"
+        },
+        {
+          "ID": "REG-069",
+          "Active_Recovered_Text": "[missing_subject] fundamental rights that may emerge when a high-risk AI system is used in accordance with its intended purpose or under conditions of reasonably foreseeable misuse, in particular where such risks persist despite the application of other requirements set out in this Section."
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_14_paragraph_3",
+      "article": "14",
+      "paragraph": "3",
+      "input_nodes": [
+        {
+          "ID": "REG-070",
+          "Text": "The oversight measures shall be commensurate with the risks, level of autonomy and context of use of the high-risk AI system,",
+          "parent": "None"
+        },
+        {
+          "ID": "REG-071",
+          "Text": "and shall be ensured through either one or both of the following types of measures:",
+          "logic_relations": [
+            {
+              "type": "AND",
+              "target": "REG-070"
+            }
+          ],
+          "parent": "None"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-070",
+          "Text": "The oversight measures shall be commensurate with the risks, level of autonomy and context of use of the high-risk AI system,",
+          "parent": "None"
+        },
+        {
+          "ID": "REG-071",
+          "Text": "and The oversight measures shall be ensured through either one or both of the following types of measures:",
+          "logic_relations": [
+            {
+              "type": "AND",
+              "target": "REG-070"
+            }
+          ],
+          "parent": "None"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-070",
+          "Active_Recovered_Text": "The oversight measures shall be commensurate with the risks, level of autonomy and context of use of the high-risk AI system,"
+        },
+        {
+          "ID": "REG-071",
+          "Active_Recovered_Text": "[missing_subject] The oversight measures shall be ensured through either one or both of the following types of measures:."
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_14_paragraph_3(a)",
+      "article": "14",
+      "paragraph": "3(a)",
+      "input_nodes": [
+        {
+          "ID": "REG-072",
+          "Text": "The oversight measures shall be commensurate with the risks, level of autonomy and context of use of the high-risk AI system,",
+          "parent": "REG-071"
+        },
+        {
+          "ID": "REG-073",
+          "Text": "and shall be ensured through either one or both of the following types of measures: (a) measures identified and built, when technically feasible, into the high-risk AI system by the provider before it is placed on the market or put into service;",
+          "logic_relations": [
+            {
+              "type": "AND",
+              "target": "REG-072"
+            }
+          ],
+          "parent": "REG-071"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-072",
+          "Text": "The oversight measures shall be commensurate with the risks, level of autonomy and context of use of the high-risk AI system,",
+          "parent": "REG-071"
+        },
+        {
+          "ID": "REG-073",
+          "Text": "and it shall be ensured through either one or both of the following types of measures: (a) measures identified and built, when technically feasible, into the high-risk AI system by the provider before it is placed on the market or put into service;",
+          "logic_relations": [
+            {
+              "type": "AND",
+              "target": "REG-072"
+            }
+          ],
+          "parent": "REG-071"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-072",
+          "Active_Recovered_Text": "The oversight measures shall be commensurate with the risks, level of autonomy and context of use of the high-risk AI system,"
+        },
+        {
+          "ID": "REG-073",
+          "Active_Recovered_Text": "[missing_subject] it shall be ensured through either one or both of the following types of measures: (a) measures identified and built, when technically feasible, into the high-risk AI system by the provider before it is placed on the market or put into service;."
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_14_paragraph_3(b)",
+      "article": "14",
+      "paragraph": "3(b)",
+      "input_nodes": [
+        {
+          "ID": "REG-074",
+          "Text": "The oversight measures shall be commensurate with the risks, level of autonomy and context of use of the high-risk AI system,",
+          "parent": "REG-071"
+        },
+        {
+          "ID": "REG-075",
+          "Text": "and shall be ensured through either one or both of the following types of measures: (b) measures identified by the provider before placing the high-risk AI system on the market or putting it into service and that are appropriate to be implemented by the deployer.",
+          "logic_relations": [
+            {
+              "type": "AND",
+              "target": "REG-074"
+            }
+          ],
+          "parent": "REG-071"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-074",
+          "Text": "The oversight measures shall be commensurate with the risks, level of autonomy and context of use of the high-risk AI system,",
+          "parent": "REG-071"
+        },
+        {
+          "ID": "REG-075",
+          "Text": "and that shall be ensured through either one or both of the following types of measures: (b) measures identified by the provider before placing the high-risk AI system on the market or putting it into service and that are appropriate to be implemented by the deployer.",
+          "logic_relations": [
+            {
+              "type": "AND",
+              "target": "REG-074"
+            }
+          ],
+          "parent": "REG-071"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-074",
+          "Active_Recovered_Text": "The oversight measures shall be commensurate with the risks, level of autonomy and context of use of the high-risk AI system,"
+        },
+        {
+          "ID": "REG-075",
+          "Active_Recovered_Text": "and it SHALL be ensured through either one or both of the following types of measures: (b) measures identified by The Provider before placing the high-risk AI system on the market or putting it into service and that are appropriate to be implemented by The Deployer."
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_14_paragraph_4",
+      "article": "14",
+      "paragraph": "4",
+      "input_nodes": [
+        {
+          "ID": "REG-076",
+          "Text": "For the purpose of implementing paragraphs 1, 2 and 3, the high-risk AI system shall be provided to the deployer in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate:",
+          "parent": "None"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-076",
+          "Text": "For the purpose of implementing paragraphs 1, 2 and 3, the high-risk AI system shall be provided to the deployer in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate:",
+          "parent": "None"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-076",
+          "Active_Recovered_Text": "The Deployer SHALL be provided with the high-risk AI system in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate:"
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_14_paragraph_4(a)",
+      "article": "14",
+      "paragraph": "4(a)",
+      "input_nodes": [
+        {
+          "ID": "REG-077",
+          "Text": "For the purpose of implementing paragraphs 1, 2 and 3, the high-risk AI system shall be provided to the deployer in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (a) to properly understand the relevant capacities and limitations of the high-risk AI system and be able to duly monitor its operation, including in view of detecting and addressing anomalies, dysfunctions and unexpected performance;",
+          "parent": "REG-076"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-077",
+          "Text": "For the purpose of implementing paragraphs 1, 2 and 3, the high-risk AI system shall be provided to the deployer in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (a) to properly understand the relevant capacities and limitations of the high-risk AI system and be able to duly monitor its operation, including in view of detecting and addressing anomalies, dysfunctions and unexpected performance;",
+          "parent": "REG-076"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-077",
+          "Active_Recovered_Text": "The Deployer SHALL be provided with the high-risk AI system in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (a) to properly understand the relevant capacities and limitations of the high-risk AI system and be able to duly monitor its operation, including in view of detecting and addressing anomalies, dysfunctions and unexpected performance;"
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_14_paragraph_4(b)",
+      "article": "14",
+      "paragraph": "4(b)",
+      "input_nodes": [
+        {
+          "ID": "REG-078",
+          "Text": "For the purpose of implementing paragraphs 1, 2 and 3, the high-risk AI system shall be provided to the deployer in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (b) to remain aware of the possible tendency of automatically relying or over-relying on the output produced by a high-risk AI system (automation bias), in particular for high-risk AI systems used to provide information or recommendations for decisions to be taken by natural persons;",
+          "parent": "REG-076"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-078",
+          "Text": "For the purpose of implementing paragraphs 1, 2 and 3, the high-risk AI system shall be provided to the deployer in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (b) to remain aware of the possible tendency of automatically relying or over-relying on the output produced by a high-risk AI system (automation bias), in particular for high-risk AI systems used to provide information or recommendations for decisions to be taken by natural persons;",
+          "parent": "REG-076"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-078",
+          "Active_Recovered_Text": "The Deployer SHALL provide the high-risk AI system to the deployer in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (b) to remain aware of the possible tendency of automatically relying or over-relying on the output produced by a high-risk AI system (automation bias), in particular for high-risk AI systems used to provide information or recommendations for decisions to be taken by natural persons;"
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_14_paragraph_4(c)",
+      "article": "14",
+      "paragraph": "4(c)",
+      "input_nodes": [
+        {
+          "ID": "REG-079",
+          "Text": "For the purpose of implementing paragraphs 1, 2 and 3, the high-risk AI system shall be provided to the deployer in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (c) to correctly interpret the high-risk AI system's output, taking into account, for example, the interpretation tools and methods available;",
+          "parent": "REG-076"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-079",
+          "Text": "For the purpose of implementing paragraphs 1, 2 and 3, the high-risk AI system shall be provided to the deployer in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (c) to correctly interpret the high-risk AI system's output, taking into account, for example, the interpretation tools and methods available;",
+          "parent": "REG-076"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-079",
+          "Active_Recovered_Text": "The Deployer SHALL be provided with the high-risk AI system in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (c) to correctly interpret the high-risk AI system's output, taking into account, for example, the interpretation tools and methods available;"
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_14_paragraph_4(d)",
+      "article": "14",
+      "paragraph": "4(d)",
+      "input_nodes": [
+        {
+          "ID": "REG-080",
+          "Text": "For the purpose of implementing paragraphs 1, 2 and 3, the high-risk AI system shall be provided to the deployer in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (d) to decide, in any particular situation, not to use the high-risk AI system or to otherwise disregard, override or reverse the output of the high-risk AI system;",
+          "parent": "REG-076"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-080",
+          "Text": "For the purpose of implementing paragraphs 1, 2 and 3, the high-risk AI system shall be provided to the deployer in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (d) to decide, in any particular situation, not to use the high-risk AI system or to otherwise disregard, override or reverse the output of the high-risk AI system;",
+          "parent": "REG-076"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-080",
+          "Active_Recovered_Text": "The Deployer SHALL be provided with the high-risk AI system in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (d) to decide, in any particular situation, not to use the high-risk AI system or to otherwise disregard, override or reverse the output of the high-risk AI system;"
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_14_paragraph_4(e)",
+      "article": "14",
+      "paragraph": "4(e)",
+      "input_nodes": [
+        {
+          "ID": "REG-081",
+          "Text": "For the purpose of implementing paragraphs 1, 2 and 3, the high-risk AI system shall be provided to the deployer in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (e) to intervene in the operation of the high-risk AI system or interrupt the system through a 'stop' button or a similar procedure that allows the system to come to a halt in a safe state.",
+          "parent": "REG-076"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-081",
+          "Text": "For the purpose of implementing paragraphs 1, 2 and 3, the high-risk AI system shall be provided to the deployer in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (e) to intervene in the operation of the high-risk AI system or interrupt the system through a 'stop' button or a similar procedure that allows the system to come to a halt in a safe state.",
+          "parent": "REG-076"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-081",
+          "Active_Recovered_Text": "The Deployer SHALL be provided with the high-risk AI system in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (e) to intervene in the operation of the high-risk AI system or interrupt the system through a 'stop' button or a similar procedure that allows the system to come to a halt in a safe state."
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_14_paragraph_5",
+      "article": "14",
+      "paragraph": "5",
+      "input_nodes": [
+        {
+          "ID": "REG-082",
+          "Text": "For high-risk AI systems referred to in point 1(a) of Annex III, the measures referred to in paragraph 3 of this Article shall be such as to ensure that, in addition, no action or decision is taken by the deployer on the basis of the identification resulting from the system unless that identification has been separately verified and confirmed by at least two natural persons with the necessary competence, training and authority. The requirement for a separate verification by at least two natural persons shall not apply to high-risk AI systems used for the purposes of law enforcement, migration, border control or asylum, where Union or national law considers the application of this requirement to be disproportionate.",
+          "parent": "None"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-082",
+          "Text": "For high-risk AI systems referred to in point 1(a) of Annex III, the measures referred to in paragraph 3 of this Article shall be such as to ensure that, in addition, no action or decision is taken by the deployer on the basis of the identification resulting from the system unless that identification has been separately verified and confirmed by at least two natural persons with the necessary competence, training and authority. The requirement for a separate verification by at least two natural persons shall not apply to high-risk AI systems used for the purposes of law enforcement, migration, border control or asylum, where Union or national law considers the application of this requirement to be disproportionate.",
+          "parent": "None"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-082",
+          "Active_Recovered_Text": "For high-risk AI systems referred to in point 1(a) of Annex III, the measures referred to in paragraph 3 of this Article shall be such as to ensure that, in addition, no action or decision is taken by the deployer on the basis of the identification resulting from the system unless that identification has been separately verified and confirmed by at least two natural persons with the necessary competence, training and authority. The requirement for a separate verification by at least two natural persons shall not apply to high-risk AI systems used for the purposes of law enforcement, migration, border control or asylum, where Union or national law considers the application of this requirement to be disproportionate."
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_15_paragraph_1",
+      "article": "15",
+      "paragraph": "1",
+      "input_nodes": [
+        {
+          "ID": "REG-083",
+          "Text": "High-risk AI systems shall be designed and developed in such a way that they achieve an appropriate level of accuracy, robustness, and cybersecurity, and that they perform consistently in those respects throughout their lifecycle.",
+          "parent": "None"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-083",
+          "Text": "High-risk AI systems shall be designed and developed in such a way that they achieve an appropriate level of accuracy, robustness, and cybersecurity, and that they perform consistently in those respects throughout their lifecycle.",
+          "parent": "None"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-083",
+          "Active_Recovered_Text": "The Provider SHALL design develop high-risk AI systems in such a way that they achieve an appropriate level of accuracy, robustness, and cybersecurity, and that they perform consistently in those respects throughout their lifecycle."
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [
+          "REG-083"
+        ],
+        "passed": false
+      },
+      "status": "warning"
+    },
+    {
+      "scenario": "article_15_paragraph_2",
+      "article": "15",
+      "paragraph": "2",
+      "input_nodes": [
+        {
+          "ID": "REG-084",
+          "Text": "To address the technical aspects of how to measure the appropriate levels of accuracy and robustness set out in paragraph 1 and any other relevant performance metrics, the Commission shall, in cooperation with relevant stakeholders and organisations such as metrology and benchmarking authorities, encourage, as appropriate, the development of benchmarks and measurement methodologies.",
+          "parent": "None"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-084",
+          "Text": "To address the technical aspects of how to measure the appropriate levels of accuracy and robustness set out in paragraph 1 and any other relevant performance metrics, the Commission shall, in cooperation with relevant stakeholders and organisations such as metrology and benchmarking authorities, encourage, as appropriate, the development of benchmarks and measurement methodologies.",
+          "parent": "None"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-084",
+          "Active_Recovered_Text": "To address the technical aspects of how to measure the appropriate levels of accuracy and robustness set out in paragraph 1 and any other relevant performance metrics, the Commission shall, in cooperation with relevant stakeholders and organisations such as metrology and benchmarking authorities, encourage, as appropriate, the development of benchmarks and measurement methodologies."
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_15_paragraph_3",
+      "article": "15",
+      "paragraph": "3",
+      "input_nodes": [
+        {
+          "ID": "REG-085",
+          "Text": "The levels of accuracy and the relevant accuracy metrics of high-risk AI systems shall be declared in the accompanying instructions of use.",
+          "parent": "None"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-085",
+          "Text": "The levels of accuracy and the relevant accuracy metrics of high-risk AI systems shall be declared in the accompanying instructions of use.",
+          "parent": "None"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-085",
+          "Active_Recovered_Text": "The Regulator SHALL declare the levels of accuracy and the relevant accuracy metrics of high-risk AI systems in the accompanying instructions of use."
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_15_paragraph_4",
+      "article": "15",
+      "paragraph": "4",
+      "input_nodes": [
+        {
+          "ID": "REG-086",
+          "Text": "High-risk AI systems shall be as resilient as possible regarding errors, faults The robustness of high-risk AI systems may be achieved through technical redundancy solutions, which may include backup or fail-safe plans. High-risk AI systems that continue to learn after being placed on the market or put into service shall be developed in such a way as to eliminate or reduce as far as possible the risk of possibly biased outputs influencing input for future operations (feedback loops), and as to ensure that any such feedback loops are duly addressed with appropriate mitigation measures.",
+          "parent": "None"
+        },
+        {
+          "ID": "REG-087",
+          "Text": "or inconsistencies that may occur within the system or the environment in which the system operates, in particular due to their interaction with natural persons or other systems.",
+          "logic_relations": [
+            {
+              "type": "OR",
+              "target": "REG-086"
+            }
+          ],
+          "parent": "None"
+        },
+        {
+          "ID": "REG-088",
+          "Text": "Technical and organisational measures shall be taken in this regard.",
+          "logic_relations": [
+            {
+              "type": "SEQUENCE",
+              "target": "REG-087"
+            }
+          ],
+          "parent": "None"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-086",
+          "Text": "High-risk AI systems shall be as resilient as possible regarding errors, faults The robustness of high-risk AI systems may be achieved through technical redundancy solutions, which may include backup or fail-safe plans. High-risk AI systems that continue to learn after being placed on the market or put into service shall be developed in such a way as to eliminate or reduce as far as possible the risk of possibly biased outputs influencing input for future operations (feedback loops), and as to ensure that any such feedback loops are duly addressed with appropriate mitigation measures.",
+          "parent": "None"
+        },
+        {
+          "ID": "REG-087",
+          "Text": "or inconsistencies that may occur within the system or the environment in which the system operates, in particular due to their interaction with natural persons or other systems.",
+          "logic_relations": [
+            {
+              "type": "OR",
+              "target": "REG-086"
+            }
+          ],
+          "parent": "None"
+        },
+        {
+          "ID": "REG-088",
+          "Text": "Technical and organisational measures shall be taken in this regard.",
+          "logic_relations": [
+            {
+              "type": "SEQUENCE",
+              "target": "REG-087"
+            }
+          ],
+          "parent": "None"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-086",
+          "Active_Recovered_Text": "High-risk AI systems shall be as resilient as possible regarding errors, faults The robustness of high-risk AI systems may be achieved through technical redundancy solutions, which may include backup or fail-safe plans. High-risk AI systems that continue to learn after being placed on the market or put into service shall be developed in such a way as to eliminate or reduce as far as possible the risk of possibly biased outputs influencing input for future operations (feedback loops), and as to ensure that any such feedback loops are duly addressed with appropriate mitigation measures."
+        },
+        {
+          "ID": "REG-087",
+          "Active_Recovered_Text": "or inconsistencies that may occur within the system or the environment in which the system operates, in particular due to their interaction with natural persons or other systems."
+        },
+        {
+          "ID": "REG-088",
+          "Active_Recovered_Text": "The Provider SHALL take technical and organisational measures in this regard."
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    },
+    {
+      "scenario": "article_15_paragraph_5",
+      "article": "15",
+      "paragraph": "5",
+      "input_nodes": [
+        {
+          "ID": "REG-089",
+          "Text": "High-risk AI systems shall be resilient against attempts by unauthorised third parties to alter their use, outputs or performance by exploiting system vulnerabilities. The technical solutions aiming to ensure the cybersecurity of high-risk AI systems shall be appropriate to the relevant circumstances and the risks. The technical solutions to address AI specific vulnerabilities shall include, where appropriate, measures to prevent, detect, respond to, resolve and control for attacks trying to manipulate the training data set (data poisoning), or pre-trained components used in training (model poisoning), inputs designed to cause the AI model to make a mistake (adversarial examples or model evasion), confidentiality attacks or model flaws.",
+          "parent": "None"
+        }
+      ],
+      "stage1_output": [
+        {
+          "ID": "REG-089",
+          "Text": "High-risk AI systems shall be resilient against attempts by unauthorised third parties to alter their use, outputs or performance by exploiting system vulnerabilities. The technical solutions aiming to ensure the cybersecurity of high-risk AI systems shall be appropriate to the relevant circumstances and the risks. The technical solutions to address AI specific vulnerabilities shall include, where appropriate, measures to prevent, detect, respond to, resolve and control for attacks trying to manipulate the training data set (data poisoning), or pre-trained components used in training (model poisoning), inputs designed to cause the AI model to make a mistake (adversarial examples or model evasion), confidentiality attacks or model flaws.",
+          "parent": "None"
+        }
+      ],
+      "output": [
+        {
+          "ID": "REG-089",
+          "Active_Recovered_Text": "High-risk AI systems shall be resilient against attempts by unauthorised third parties to alter their use, outputs or performance by exploiting system vulnerabilities. The technical solutions aiming to ensure the cybersecurity of high-risk AI systems shall be appropriate to the relevant circumstances and the risks. The technical solutions to address AI specific vulnerabilities shall include, where appropriate, measures to prevent, detect, respond to, resolve and control for attacks trying to manipulate the training data set (data poisoning), or pre-trained components used in training (model poisoning), inputs designed to cause the AI model to make a mistake (adversarial examples or model evasion), confidentiality attacks or model flaws."
+        }
+      ],
+      "checks": {
+        "empty_outputs": [],
+        "has_shall_reported_error": [],
+        "has_shall_withdrawn_error": [],
+        "has_unresolved_they": [],
+        "passed": true
+      },
+      "status": "ok"
+    }
+  ]
+}

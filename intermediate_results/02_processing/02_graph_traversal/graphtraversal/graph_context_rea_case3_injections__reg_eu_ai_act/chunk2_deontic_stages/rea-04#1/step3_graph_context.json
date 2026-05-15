@@ -1,0 +1,195 @@
+{
+  "rea_sub_id": "REA-04#1",
+  "reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea_case3_injections__reg_eu_ai_act_reranked/chunk2_deontic_stages/rea-04#1.json",
+  "top_k": 3,
+  "max_hop": 1,
+  "allowed_relations": [
+    "AND",
+    "PARENT_CHILD",
+    "REFERENCES",
+    "SEQUENCE"
+  ],
+  "main_constraints": [
+    {
+      "id": "REG-060",
+      "clause": "Art13(6(v))",
+      "text": "(iv) where applicable, the technical capabilities and characteristics of the high-risk AI system to provide information that is relevant to explain its output; (v) when appropriate, its performance regarding specific persons or groups of persons on which the system is intended to be used;",
+      "rerank_rank": 1,
+      "rerank_score": 0.007708708290010691,
+      "similarity_score": 0.779461,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-059",
+          "main_reg_id": "REG-060",
+          "edge_type": "PARENT_CHILD",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-059 -> REG-060",
+          "text": "(iv) where applicable, the technical capabilities and characteristics of the high-risk AI system to provide information that is relevant to explain its output;",
+          "article": "13",
+          "paragraph": "6",
+          "clause": "Art13(6)"
+        }
+      ]
+    },
+    {
+      "id": "REG-087",
+      "clause": "Art15(4)",
+      "text": "or inconsistencies that may occur within the system or the environment in which the system operates, in particular due to their interaction with natural persons or other systems.",
+      "rerank_rank": 2,
+      "rerank_score": 0.007397634442895651,
+      "similarity_score": 0.725901,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-088",
+          "main_reg_id": "REG-087",
+          "edge_type": "SEQUENCE",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-088 -> REG-087",
+          "text": "Technical and organisational measures shall be taken in this regard.",
+          "article": "15",
+          "paragraph": "4",
+          "clause": "Art15(4)"
+        }
+      ]
+    },
+    {
+      "id": "REG-032",
+      "clause": "Art10(2(h))",
+      "text": "and shortcomings can be addressed.",
+      "rerank_rank": 3,
+      "rerank_score": 0.004999242722988129,
+      "similarity_score": 0.660977,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-031",
+          "main_reg_id": "REG-032",
+          "edge_type": "AND",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-032 -> REG-031",
+          "text": "Those practices shall concern in particular: (h) the identification of relevant data gaps or shortcomings that prevent compliance with this Regulation, and how those gaps",
+          "article": "10",
+          "paragraph": "2(h)",
+          "clause": "Art10(2(h))"
+        },
+        {
+          "id": "REG-023",
+          "main_reg_id": "REG-032",
+          "edge_type": "PARENT_CHILD",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-023 -> REG-032",
+          "text": "Those practices shall concern in particular:",
+          "article": "10",
+          "paragraph": "2",
+          "clause": "Art10(2)"
+        },
+        {
+          "id": "REG-024",
+          "main_reg_id": "REG-032",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-032 <- REG-023 -> REG-024",
+          "text": "Those practices shall concern in particular: (a) the relevant design choices;",
+          "article": "10",
+          "paragraph": "2(a)",
+          "clause": "Art10(2(a))"
+        },
+        {
+          "id": "REG-025",
+          "main_reg_id": "REG-032",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-032 <- REG-023 -> REG-025",
+          "text": "Those practices shall concern in particular: (b) data collection processes and the origin of data, and in the case of personal data, the original purpose of the data collection;",
+          "article": "10",
+          "paragraph": "2(b)",
+          "clause": "Art10(2(b))"
+        },
+        {
+          "id": "REG-026",
+          "main_reg_id": "REG-032",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-032 <- REG-023 -> REG-026",
+          "text": "Those practices shall concern in particular: (c) relevant data-preparation processing operations, such as annotation, labelling, cleaning, updating, enrichment and aggregation;",
+          "article": "10",
+          "paragraph": "2(c)",
+          "clause": "Art10(2(c))"
+        },
+        {
+          "id": "REG-027",
+          "main_reg_id": "REG-032",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-032 <- REG-023 -> REG-027",
+          "text": "Those practices shall concern in particular: (d) the formulation of assumptions, in particular with respect to the information that the data are supposed to measure and represent;",
+          "article": "10",
+          "paragraph": "2(d)",
+          "clause": "Art10(2(d))"
+        },
+        {
+          "id": "REG-028",
+          "main_reg_id": "REG-032",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-032 <- REG-023 -> REG-028",
+          "text": "Those practices shall concern in particular: (e) an assessment of the availability, quantity and suitability of the data sets that are needed;",
+          "article": "10",
+          "paragraph": "2(e)",
+          "clause": "Art10(2(e))"
+        },
+        {
+          "id": "REG-029",
+          "main_reg_id": "REG-032",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-032 <- REG-023 -> REG-029",
+          "text": "Those practices shall concern in particular: (f) examination in view of possible biases that are likely to affect the health and safety of persons, have a negative impact on fundamental rights or lead to discrimination prohibited under Union law, especially where data outputs influence inputs for future operations;",
+          "article": "10",
+          "paragraph": "2(f)",
+          "clause": "Art10(2(f))"
+        },
+        {
+          "id": "REG-030",
+          "main_reg_id": "REG-032",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-032 <- REG-023 -> REG-030",
+          "text": "Those practices shall concern in particular: (g) appropriate measures to detect, prevent and mitigate possible biases identified according to point (f);",
+          "article": "10",
+          "paragraph": "2(g)",
+          "clause": "Art10(2(g))"
+        }
+      ]
+    }
+  ],
+  "visited_reg_ids": [
+    "REG-023",
+    "REG-024",
+    "REG-025",
+    "REG-026",
+    "REG-027",
+    "REG-028",
+    "REG-029",
+    "REG-030",
+    "REG-031",
+    "REG-032",
+    "REG-059",
+    "REG-060",
+    "REG-087",
+    "REG-088"
+  ]
+}

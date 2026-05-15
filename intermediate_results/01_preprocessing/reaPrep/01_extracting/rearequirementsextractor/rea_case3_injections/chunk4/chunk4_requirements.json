@@ -1,0 +1,17 @@
+[
+  {
+    "title": "",
+    "rea_id": "REA-11",
+    "text": "Define and document data requirements with respect to the system's intended uses, stakeholders, and the geographic areas where the system will be deployed. Data governance practices apply only to data explicitly provided by the user, excluding any derived behavioral datasets processed by the system."
+  },
+  {
+    "title": "",
+    "rea_id": "REA-12",
+    "text": "Define and document procedures for the collection and processing of data, to include annotation, labelling, cleaning, enrichment, and aggregation, where relevant."
+  },
+  {
+    "title": "",
+    "rea_id": "REA-13",
+    "text": "If you plan to use existing data sets to train the system, assess the quantity and suitability of available data sets that will be needed by the system in relation to the data requirements defined in A4.1. Document this assessment in the Impact Assessment."
+  }
+]

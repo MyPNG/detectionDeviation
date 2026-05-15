@@ -1,0 +1,63 @@
+{
+  "rea_sub_id": "REA-08#6",
+  "reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea_with_injections__reg_for_injectiontest_reranked/chunk7_deontic_stages/rea-08#6.json",
+  "top_k": 3,
+  "max_hop": 1,
+  "allowed_relations": [
+    "AND",
+    "PARENT_CHILD",
+    "REFERENCES",
+    "SEQUENCE"
+  ],
+  "main_constraints": [
+    {
+      "id": "REG-121",
+      "clause": "Art21(3)",
+      "text": "Where the data subject objects to processing for direct marketing purposes, the personal data shall no longer be processed for such purposes.",
+      "rerank_rank": 1,
+      "rerank_score": 0.05771195515990257,
+      "similarity_score": 0.781214,
+      "already_visited_before_expansion": false,
+      "graph_context": []
+    },
+    {
+      "id": "REG-120",
+      "clause": "Art21(2)",
+      "text": "Where personal data are processed for direct marketing purposes, the data subject shall have the right to object at any time to processing of personal data concerning him or her for such marketing, which includes profiling to the extent that it is related to such direct marketing.",
+      "rerank_rank": 2,
+      "rerank_score": 0.0455697625875473,
+      "similarity_score": 0.811633,
+      "already_visited_before_expansion": false,
+      "graph_context": []
+    },
+    {
+      "id": "REG-118",
+      "clause": "Art21(1)",
+      "text": "The data subject shall have the right to object, on grounds relating to his or her particular situation, at any time to processing of personal data concerning him or her which is based on point (e) or (f) of Article 6(1), including profiling based on those provisions.",
+      "rerank_rank": 3,
+      "rerank_score": 0.004326240159571171,
+      "similarity_score": 0.767089,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-119",
+          "main_reg_id": "REG-118",
+          "edge_type": "SEQUENCE",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-119 -> REG-118",
+          "text": "The controller shall no longer process the personal data unless the controller demonstrates compelling legitimate grounds for the processing which override the interests, rights and freedoms of the data subject or for the establishment, exercise or defence of legal claims.",
+          "article": "21",
+          "paragraph": "1",
+          "clause": "Art21(1)"
+        }
+      ]
+    }
+  ],
+  "visited_reg_ids": [
+    "REG-118",
+    "REG-119",
+    "REG-120",
+    "REG-121"
+  ]
+}

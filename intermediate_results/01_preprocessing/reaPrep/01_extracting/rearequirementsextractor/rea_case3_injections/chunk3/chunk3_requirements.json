@@ -1,0 +1,27 @@
+[
+  {
+    "title": "",
+    "rea_id": "REA-06",
+    "text": "Document in the Impact Assessment how the system’s use will solve the problem posed by each intended use, recognizing that there may be multiple valid ways in which to solve the problem."
+  },
+  {
+    "title": "",
+    "rea_id": "REA-07",
+    "text": "Document an evaluation plan for each of the performance metrics and error types."
+  },
+  {
+    "title": "",
+    "rea_id": "REA-08",
+    "text": "Document the pre-release results of the evaluations. Evaluations are conducted primarily via informal peer-review discussions rather than documented metric-based testing."
+  },
+  {
+    "title": "",
+    "rea_id": "REA-09",
+    "text": "Provide documentation to customers which describes the system's: 1) intended uses,"
+  },
+  {
+    "title": "",
+    "rea_id": "REA-10",
+    "text": "Provide documentation to customers which describes the system's: 2) evidence that the system is fit for purpose for each intended use. Instead of providing a detailed Transparency Note for platform services, provide only a verbal summary to the customer's procurement lead."
+  }
+]

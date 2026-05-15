@@ -1,0 +1,84 @@
+{
+  "chunk": "chunk1",
+  "stage1_3_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/readeonticstagepipeline/rea/chunk1/chunk1_stage1_3.json",
+  "stage4_output": [
+    {
+      "id": "REA-01",
+      "text": "You have the following rights under applicable data protection law with respect to personal data concerning you.",
+      "actor": "You",
+      "modal": "Permissive",
+      "action": "have",
+      "action_list": [
+        "have"
+      ],
+      "object": "the following rights under applicable data protection law with respect to personal data concerning you",
+      "temporal": "following rights under applicable data protection",
+      "manner": "",
+      "condition": "",
+      "article": "chunk1",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-01",
+      "sub_id": "REA-01#1",
+      "split_index": "1"
+    },
+    {
+      "id": "REA-01",
+      "text": "You can request information from us at any time about whether and which personal data we store about you.",
+      "actor": "You",
+      "modal": "Permissive(can)",
+      "action": "request",
+      "action_list": [
+        "request"
+      ],
+      "object": "information from us at any time about whether and which personal data we store about you.",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk1",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-01",
+      "sub_id": "REA-01#2",
+      "split_index": "2"
+    },
+    {
+      "id": "REA-01",
+      "text": "The provision of information is free of charge for you.",
+      "actor": "The provision of information",
+      "modal": "Permissive",
+      "action": "receive",
+      "action_list": [],
+      "object": "information",
+      "temporal": "",
+      "manner": "free of charge",
+      "condition": "",
+      "article": "chunk1",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-01",
+      "sub_id": "REA-01#3",
+      "split_index": "3"
+    },
+    {
+      "id": "REA-01",
+      "text": "The right to information does not exist or is subject to limitations if and to the extent that confidential information, such as information that is subject to professional secrecy, would be disclosed.",
+      "actor": "The right to information",
+      "modal": "Prohibited",
+      "action": "exist",
+      "action_list": [
+        "exist"
+      ],
+      "object": "information",
+      "temporal": "",
+      "manner": "",
+      "condition": "if and to the extent that confidential information",
+      "article": "chunk1",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-01",
+      "sub_id": "REA-01#4",
+      "split_index": "4"
+    }
+  ]
+}

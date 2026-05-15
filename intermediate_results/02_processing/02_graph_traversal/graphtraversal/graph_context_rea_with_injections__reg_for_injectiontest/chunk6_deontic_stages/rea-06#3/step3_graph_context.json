@@ -1,0 +1,165 @@
+{
+  "rea_sub_id": "REA-06#3",
+  "reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea_with_injections__reg_for_injectiontest_reranked/chunk6_deontic_stages/rea-06#3.json",
+  "top_k": 3,
+  "max_hop": 1,
+  "allowed_relations": [
+    "AND",
+    "PARENT_CHILD",
+    "REFERENCES",
+    "SEQUENCE"
+  ],
+  "main_constraints": [
+    {
+      "id": "REG-143",
+      "clause": "Art23(2)",
+      "text": "In particular, any legislative measure referred to in paragraph 1 shall contain specific provisions at least, where relevant, as to:",
+      "rerank_rank": 1,
+      "rerank_score": 0.006273138802498579,
+      "similarity_score": 0.73878,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-132",
+          "main_reg_id": "REG-143",
+          "edge_type": "REFERENCES",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-143 -> REG-132",
+          "text": "Union or Member State law to which the data controller or processor is subject may restrict by way of a legislative measure the scope of the obligations and rights provided for in Articles 12 to 22 and Article 34, as well as Article 5 in so far as its provisions correspond to the rights and obligations provided for in Articles 12 to 22, when such a restriction respects the essence of the fundamental rights and freedoms and is a necessary and proportionate measure in a democratic society to safeguard:",
+          "article": "23",
+          "paragraph": "1",
+          "clause": "Art23(1)"
+        },
+        {
+          "id": "REG-144",
+          "main_reg_id": "REG-143",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-143 -> REG-144",
+          "text": "In particular, any legislative measure referred to in paragraph 1 shall contain specific provisions at least, where relevant, as to: (a) the purposes of the processing or categories of processing;",
+          "article": "23",
+          "paragraph": "2(a)",
+          "clause": "Art23(2(a))"
+        },
+        {
+          "id": "REG-145",
+          "main_reg_id": "REG-143",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-143 -> REG-145",
+          "text": "In particular, any legislative measure referred to in paragraph 1 shall contain specific provisions at least, where relevant, as to: (b) the categories of personal data;",
+          "article": "23",
+          "paragraph": "2(b)",
+          "clause": "Art23(2(b))"
+        },
+        {
+          "id": "REG-146",
+          "main_reg_id": "REG-143",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-143 -> REG-146",
+          "text": "In particular, any legislative measure referred to in paragraph 1 shall contain specific provisions at least, where relevant, as to: (c) the scope of the restrictions introduced;",
+          "article": "23",
+          "paragraph": "2(c)",
+          "clause": "Art23(2(c))"
+        },
+        {
+          "id": "REG-147",
+          "main_reg_id": "REG-143",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-143 -> REG-147",
+          "text": "In particular, any legislative measure referred to in paragraph 1 shall contain specific provisions at least, where relevant, as to: (d) the safeguards to prevent abuse or unlawful access or transfer;",
+          "article": "23",
+          "paragraph": "2(d)",
+          "clause": "Art23(2(d))"
+        },
+        {
+          "id": "REG-148",
+          "main_reg_id": "REG-143",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-143 -> REG-148",
+          "text": "In particular, any legislative measure referred to in paragraph 1 shall contain specific provisions at least, where relevant, as to: (e) the specification of the controller or categories of controllers;",
+          "article": "23",
+          "paragraph": "2(e)",
+          "clause": "Art23(2(e))"
+        },
+        {
+          "id": "REG-149",
+          "main_reg_id": "REG-143",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-143 -> REG-149",
+          "text": "In particular, any legislative measure referred to in paragraph 1 shall contain specific provisions at least, where relevant, as to: (f) the storage periods and the applicable safeguards taking into account the nature, scope and purposes of the processing or categories of processing;",
+          "article": "23",
+          "paragraph": "2(f)",
+          "clause": "Art23(2(f))"
+        },
+        {
+          "id": "REG-150",
+          "main_reg_id": "REG-143",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-143 -> REG-150",
+          "text": "In particular, any legislative measure referred to in paragraph 1 shall contain specific provisions at least, where relevant, as to: (g) the risks to the rights and freedoms of data subjects; and",
+          "article": "23",
+          "paragraph": "2(g)",
+          "clause": "Art23(2(g))"
+        },
+        {
+          "id": "REG-151",
+          "main_reg_id": "REG-143",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-143 -> REG-151",
+          "text": "In particular, any legislative measure referred to in paragraph 1 shall contain specific provisions at least, where relevant, as to: (h) the right of data subjects to be informed about the restriction, unless that may be prejudicial to the purpose of the restriction.",
+          "article": "23",
+          "paragraph": "2(h)",
+          "clause": "Art23(2(h))"
+        }
+      ]
+    },
+    {
+      "id": "REG-145",
+      "clause": "Art23(2(b))",
+      "text": "In particular, any legislative measure referred to in paragraph 1 shall contain specific provisions at least, where relevant, as to: (b) the categories of personal data;",
+      "rerank_rank": 2,
+      "rerank_score": 0.0061450921930372715,
+      "similarity_score": 0.772184,
+      "already_visited_before_expansion": true,
+      "graph_context": []
+    },
+    {
+      "id": "REG-150",
+      "clause": "Art23(2(g))",
+      "text": "In particular, any legislative measure referred to in paragraph 1 shall contain specific provisions at least, where relevant, as to: (g) the risks to the rights and freedoms of data subjects; and",
+      "rerank_rank": 3,
+      "rerank_score": 0.0060196430422365665,
+      "similarity_score": 0.758205,
+      "already_visited_before_expansion": true,
+      "graph_context": []
+    }
+  ],
+  "visited_reg_ids": [
+    "REG-132",
+    "REG-143",
+    "REG-144",
+    "REG-145",
+    "REG-146",
+    "REG-147",
+    "REG-148",
+    "REG-149",
+    "REG-150",
+    "REG-151"
+  ]
+}

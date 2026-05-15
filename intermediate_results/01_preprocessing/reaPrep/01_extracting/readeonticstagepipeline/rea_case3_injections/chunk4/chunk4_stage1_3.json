@@ -1,0 +1,87 @@
+{
+  "chunk": "chunk4",
+  "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/rearequirementsextractor/rea_case3_injections/chunk4/chunk4_requirements.json",
+  "stage1_output": [
+    {
+      "ID": "REA-11#1",
+      "REA_ID": "REA-11",
+      "Text": "Define and document data requirements with respect to the system's intended uses, stakeholders, and the geographic areas where the system will be deployed."
+    },
+    {
+      "ID": "REA-11#2",
+      "REA_ID": "REA-11",
+      "Text": "Data governance practices apply only to data explicitly provided by the user, excluding any derived behavioral datasets processed by the system."
+    },
+    {
+      "ID": "REA-12#1",
+      "REA_ID": "REA-12",
+      "Text": "Define and document procedures for the collection and processing of data, to include annotation, labelling, cleaning, enrichment, and aggregation, where relevant."
+    },
+    {
+      "ID": "REA-13#1",
+      "REA_ID": "REA-13",
+      "Text": "If you plan to use existing data sets to train the system, assess the quantity and suitability of available data sets that will be needed by the system in relation to the data requirements defined in A4.1."
+    },
+    {
+      "ID": "REA-13#2",
+      "REA_ID": "REA-13",
+      "Text": "Document this assessment in the Impact Assessment."
+    }
+  ],
+  "stage2_output": [
+    {
+      "ID": "REA-11#1",
+      "REA_ID": "REA-11",
+      "Text": "Define and document data requirements with respect to the system's intended uses, stakeholders, and the geographic areas where the system will be deployed.",
+      "Modal": "Mandatory(will)"
+    },
+    {
+      "ID": "REA-11#2",
+      "REA_ID": "REA-11",
+      "Text": "Data governance practices apply only to data explicitly provided by the user, excluding any derived behavioral datasets processed by the system.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-12#1",
+      "REA_ID": "REA-12",
+      "Text": "Define and document procedures for the collection and processing of data, to include annotation, labelling, cleaning, enrichment, and aggregation, where relevant.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-13#1",
+      "REA_ID": "REA-13",
+      "Text": "If you plan to use existing data sets to train the system, assess the quantity and suitability of available data sets that will be needed by the system in relation to the data requirements defined in A4.1.",
+      "Modal": "Mandatory(will)"
+    },
+    {
+      "ID": "REA-13#2",
+      "REA_ID": "REA-13",
+      "Text": "Document this assessment in the Impact Assessment.",
+      "Modal": ""
+    }
+  ],
+  "stage3_output": [
+    {
+      "ID": "REA-11#1",
+      "Active_Recovered_Text": "The Stakeholders SHALL define and document data requirements with respect to the system's intended uses, stakeholders, and the geographic areas where the system will be deployed."
+    },
+    {
+      "ID": "REA-11#2",
+      "Active_Recovered_Text": "Data governance practices apply only to data explicitly provided by the user, excluding any derived behavioral datasets processed by the system."
+    },
+    {
+      "ID": "REA-12#1",
+      "Active_Recovered_Text": "Define and document procedures for the collection and processing of data, to include annotation, labelling, cleaning, enrichment, and aggregation, where relevant."
+    },
+    {
+      "ID": "REA-13#1",
+      "Active_Recovered_Text": "The User SHALL assess the quantity and suitability of available data sets that will be needed by the system in relation to the data requirements defined in A4.1, if planning to use existing data sets to train the system."
+    },
+    {
+      "ID": "REA-13#2",
+      "Active_Recovered_Text": "Document this assessment in the Impact Assessment."
+    }
+  ],
+  "stage3_fallback_used": false,
+  "stage3_fallback_error": ""
+}

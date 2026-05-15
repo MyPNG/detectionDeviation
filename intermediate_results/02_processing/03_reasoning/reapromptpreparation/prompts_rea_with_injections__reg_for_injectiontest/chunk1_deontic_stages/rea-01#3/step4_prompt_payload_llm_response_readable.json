@@ -1,0 +1,51 @@
+{
+  "id": "REA-01#3",
+  "model": "gpt-5.4",
+  "prompt_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea_with_injections__reg_for_injectiontest/chunk1_deontic_stages/rea-01#3/step4_prompt_payload.json",
+  "per_reg_comparisons": [
+    {
+      "reg_id": "REG-095",
+      "deviation": true,
+      "types": [
+        "Data deviation"
+      ],
+      "evidence_rea": [
+        "It is removed upon your withdrawal of consent"
+      ],
+      "evidence_reg": [
+        "erase personal data without undue delay",
+        "The Data Subject withdraws consent on which the processing is based",
+        "and where there is no other legal ground for the processing"
+      ],
+      "reasoning_short": "The REA ties removal to withdrawal of consent but omits the REG's limiting condition that erasure is required only where the withdrawn consent is the basis for processing and there is no other legal ground, changing the scope of when removal occurs.",
+      "confidence": "medium",
+      "needs_more_context": false
+    },
+    {
+      "reg_id": "REG-121",
+      "deviation": false,
+      "types": [
+        "Execution style deviation"
+      ],
+      "evidence_rea": [],
+      "evidence_reg": [],
+      "reasoning_short": "The REA mentions removal upon withdrawal of consent or termination request, while the REG concerns objection to processing for direct marketing purposes; no clear same-or-conflicting constraint is stated.",
+      "confidence": "low",
+      "needs_more_context": true
+    },
+    {
+      "reg_id": "REG-097",
+      "deviation": false,
+      "types": [
+        "Execution style deviation"
+      ],
+      "evidence_rea": [],
+      "evidence_reg": [],
+      "reasoning_short": "The REA does not clearly address objection to processing under Article 21, so there is no quote-supported mismatch with the REG's erasure obligation triggered by such objection.",
+      "confidence": "low",
+      "needs_more_context": true
+    }
+  ],
+  "overall_deviation": true,
+  "overall_confidence": "medium"
+}

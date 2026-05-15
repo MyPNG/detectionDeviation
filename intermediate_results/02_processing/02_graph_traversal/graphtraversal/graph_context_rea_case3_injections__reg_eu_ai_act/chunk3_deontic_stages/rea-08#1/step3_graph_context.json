@@ -1,0 +1,77 @@
+{
+  "rea_sub_id": "REA-08#1",
+  "reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea_case3_injections__reg_eu_ai_act_reranked/chunk3_deontic_stages/rea-08#1.json",
+  "top_k": 3,
+  "max_hop": 1,
+  "allowed_relations": [
+    "AND",
+    "PARENT_CHILD",
+    "REFERENCES",
+    "SEQUENCE"
+  ],
+  "main_constraints": [
+    {
+      "id": "REG-017",
+      "clause": "Art9(8)",
+      "text": "The testing of high-risk AI systems shall be performed, as appropriate, at any time throughout the development process, and, in any event, prior to their being placed on the market or put into service.",
+      "rerank_rank": 1,
+      "rerank_score": 0.009666317142546177,
+      "similarity_score": 0.729777,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-018",
+          "main_reg_id": "REG-017",
+          "edge_type": "SEQUENCE",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-018 -> REG-017",
+          "text": "Testing shall be carried out against prior defined metrics and probabilistic thresholds that are appropriate to the intended purpose of the high-risk AI system.",
+          "article": "9",
+          "paragraph": "8",
+          "clause": "Art9(8)"
+        }
+      ]
+    },
+    {
+      "id": "REG-085",
+      "clause": "Art15(3)",
+      "text": "The levels of accuracy and the relevant accuracy metrics of high-risk AI systems shall be declared in the accompanying instructions of use.",
+      "rerank_rank": 2,
+      "rerank_score": 0.008721931837499142,
+      "similarity_score": 0.741284,
+      "already_visited_before_expansion": false,
+      "graph_context": []
+    },
+    {
+      "id": "REG-015",
+      "clause": "Art9(6)",
+      "text": "Testing shall ensure that high-risk AI systems perform consistently for their intended purpose and that they are in compliance with the requirements set out in this Section.",
+      "rerank_rank": 3,
+      "rerank_score": 0.00803275778889656,
+      "similarity_score": 0.705231,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-014",
+          "main_reg_id": "REG-015",
+          "edge_type": "SEQUENCE",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-015 -> REG-014",
+          "text": "High-risk AI systems shall be tested for the purpose of identifying the most appropriate and targeted risk management measures.",
+          "article": "9",
+          "paragraph": "6",
+          "clause": "Art9(6)"
+        }
+      ]
+    }
+  ],
+  "visited_reg_ids": [
+    "REG-014",
+    "REG-015",
+    "REG-017",
+    "REG-018",
+    "REG-085"
+  ]
+}

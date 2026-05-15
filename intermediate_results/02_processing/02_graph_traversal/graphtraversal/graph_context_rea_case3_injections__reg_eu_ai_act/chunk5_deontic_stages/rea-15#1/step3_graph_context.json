@@ -1,0 +1,113 @@
+{
+  "rea_sub_id": "REA-15#1",
+  "reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea_case3_injections__reg_eu_ai_act_reranked/chunk5_deontic_stages/rea-15#1.json",
+  "top_k": 3,
+  "max_hop": 1,
+  "allowed_relations": [
+    "AND",
+    "PARENT_CHILD",
+    "REFERENCES",
+    "SEQUENCE"
+  ],
+  "main_constraints": [
+    {
+      "id": "REG-071",
+      "clause": "Art14(3)",
+      "text": "and shall be ensured through either one or both of the following types of measures:",
+      "rerank_rank": 1,
+      "rerank_score": 0.0028022911865264177,
+      "similarity_score": 0.805783,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-072",
+          "main_reg_id": "REG-071",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-071 -> REG-072",
+          "text": "The oversight measures shall be commensurate with the risks, level of autonomy and context of use of the high-risk AI system,",
+          "article": "14",
+          "paragraph": "3(a)",
+          "clause": "Art14(3(a))"
+        },
+        {
+          "id": "REG-073",
+          "main_reg_id": "REG-071",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-071 -> REG-073",
+          "text": "and shall be ensured through either one or both of the following types of measures: (a) measures identified and built, when technically feasible, into the high-risk AI system by the provider before it is placed on the market or put into service;",
+          "article": "14",
+          "paragraph": "3(a)",
+          "clause": "Art14(3(a))"
+        },
+        {
+          "id": "REG-074",
+          "main_reg_id": "REG-071",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-071 -> REG-074",
+          "text": "The oversight measures shall be commensurate with the risks, level of autonomy and context of use of the high-risk AI system,",
+          "article": "14",
+          "paragraph": "3(b)",
+          "clause": "Art14(3(b))"
+        },
+        {
+          "id": "REG-075",
+          "main_reg_id": "REG-071",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-071 -> REG-075",
+          "text": "and shall be ensured through either one or both of the following types of measures: (b) measures identified by the provider before placing the high-risk AI system on the market or putting it into service and that are appropriate to be implemented by the deployer.",
+          "article": "14",
+          "paragraph": "3(b)",
+          "clause": "Art14(3(b))"
+        },
+        {
+          "id": "REG-070",
+          "main_reg_id": "REG-071",
+          "edge_type": "AND",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-071 -> REG-070",
+          "text": "The oversight measures shall be commensurate with the risks, level of autonomy and context of use of the high-risk AI system,",
+          "article": "14",
+          "paragraph": "3",
+          "clause": "Art14(3)"
+        }
+      ]
+    },
+    {
+      "id": "REG-074",
+      "clause": "Art14(3(b))",
+      "text": "The oversight measures shall be commensurate with the risks, level of autonomy and context of use of the high-risk AI system,",
+      "rerank_rank": 2,
+      "rerank_score": 0.0026886719278991222,
+      "similarity_score": 0.747109,
+      "already_visited_before_expansion": true,
+      "graph_context": []
+    },
+    {
+      "id": "REG-072",
+      "clause": "Art14(3(a))",
+      "text": "The oversight measures shall be commensurate with the risks, level of autonomy and context of use of the high-risk AI system,",
+      "rerank_rank": 3,
+      "rerank_score": 0.002579647582024336,
+      "similarity_score": 0.747109,
+      "already_visited_before_expansion": true,
+      "graph_context": []
+    }
+  ],
+  "visited_reg_ids": [
+    "REG-070",
+    "REG-071",
+    "REG-072",
+    "REG-073",
+    "REG-074",
+    "REG-075"
+  ]
+}

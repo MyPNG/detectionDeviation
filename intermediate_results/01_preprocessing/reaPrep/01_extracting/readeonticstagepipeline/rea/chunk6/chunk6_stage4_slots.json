@@ -1,0 +1,164 @@
+{
+  "chunk": "chunk6",
+  "stage1_3_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/readeonticstagepipeline/rea/chunk6/chunk6_stage1_3.json",
+  "stage4_output": [
+    {
+      "id": "REA-08",
+      "text": "We shall pass on your data to other third parties, such as public authorities, courts or other bodies, if we are required by law or by official or court order of an EU member state to disclose personal data to these bodies.",
+      "actor": "We",
+      "modal": "Mandatory(shall)",
+      "action": "pass",
+      "action_list": [
+        "pass"
+      ],
+      "object": "on your data to other third parties, such as public authorities, courts or other bodies, if we are required by law or by official or court order of an EU member state to disclose personal data to these bodies.",
+      "temporal": "by law or by official or",
+      "manner": "by law or by official or court order of an EU member state to disclose personal data to these bodies",
+      "condition": "if we are required by law or by official or court order of an EU member state to disclose personal data to these bodies",
+      "article": "chunk6",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-08",
+      "sub_id": "REA-08#1",
+      "split_index": "1"
+    },
+    {
+      "id": "REA-08",
+      "text": "These bodies also use the data on their own responsibility.",
+      "actor": "These bodies",
+      "modal": "",
+      "action": "use",
+      "action_list": [
+        "use"
+      ],
+      "object": "the data",
+      "temporal": "",
+      "manner": "on their own responsibility",
+      "condition": "",
+      "article": "chunk6",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-08",
+      "sub_id": "REA-08#2",
+      "split_index": "2"
+    },
+    {
+      "id": "REA-08",
+      "text": "Insofar as you have explicitly consented, Art 6 para 1 lit a)",
+      "actor": "you",
+      "modal": "have explicitly consented",
+      "action": "consent",
+      "action_list": [
+        "consent"
+      ],
+      "object": "a",
+      "temporal": "",
+      "manner": "",
+      "condition": "Insofar as",
+      "article": "chunk6",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-08",
+      "sub_id": "REA-08#3",
+      "split_index": "3"
+    },
+    {
+      "id": "REA-08",
+      "text": "GDPR is the legal basis for the data transfer. If there is a legal obligation to disclose the data, the legal basis for the data transfer is Art 6 para 1 lit c) GDPR. If, on the other hand, the disclosure is necessary for the fulfilment of a contractual or pre-contractual measure with you as a natural person, Art 6 para 1 lit b)",
+      "actor": "GDPR",
+      "modal": "is",
+      "action": "be",
+      "action_list": [
+        "be"
+      ],
+      "object": "the data transfer",
+      "temporal": "",
+      "manner": "",
+      "condition": "If there is a legal obligation to disclose the data",
+      "article": "chunk6",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-08",
+      "sub_id": "REA-08#4",
+      "split_index": "4"
+    },
+    {
+      "id": "REA-08",
+      "text": "GDPR is the legal basis.",
+      "actor": "GDPR",
+      "modal": "is",
+      "action": "the legal basis",
+      "action_list": [],
+      "object": "GDPR",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk6",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-08",
+      "sub_id": "REA-08#5",
+      "split_index": "5"
+    },
+    {
+      "id": "REA-08",
+      "text": "Otherwise, the transfer is based on our legitimate interests and the legal basis is Art 6 para 1 lit f) GDPR.",
+      "actor": "the transfer",
+      "modal": "transfer is based on",
+      "action": "base",
+      "action_list": [
+        "base"
+      ],
+      "object": "our legitimate interests and the legal basis",
+      "temporal": "",
+      "manner": "",
+      "condition": "Otherwise",
+      "article": "chunk6",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-08",
+      "sub_id": "REA-08#6",
+      "split_index": "6"
+    },
+    {
+      "id": "REA-08",
+      "text": "We and the other companies in the PwC network have an interest in making our work processes efficient and in sharing business processes within the PwC network for this purpose.",
+      "actor": "We and the other companies in the PwC network",
+      "modal": "have an interest in",
+      "action": "have",
+      "action_list": [
+        "have"
+      ],
+      "object": "the PwC network",
+      "temporal": "within the PwC network for this",
+      "manner": "",
+      "condition": "",
+      "article": "chunk6",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-08",
+      "sub_id": "REA-08#7",
+      "split_index": "7"
+    },
+    {
+      "id": "REA-08",
+      "text": "Insofar as any of the above-mentioned data transfers are made to a recipient outside the EEA (to so-called “third countries”), an appropriate level of data protection for the foreign transfer is ensured by means of suitable security measures.",
+      "actor": "any of the above - mentioned data transfers",
+      "modal": "ensure an appropriate level of data protection for the foreign transfer by means of suitable security measures",
+      "action": "mention",
+      "action_list": [
+        "mention"
+      ],
+      "object": "the above - mentioned data transfers",
+      "temporal": "by means of suitable security measures",
+      "manner": "by means of suitable security measures",
+      "condition": "",
+      "article": "chunk6",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-08",
+      "sub_id": "REA-08#8",
+      "split_index": "8"
+    }
+  ]
+}

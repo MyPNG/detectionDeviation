@@ -1,0 +1,260 @@
+{
+  "rea_sub_id": "REA-07#1",
+  "reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk5_deontic_stages/rea-07#1.json",
+  "top_k": 3,
+  "max_hop": 1,
+  "allowed_relations": [
+    "AND",
+    "PARENT_CHILD",
+    "REFERENCES",
+    "SEQUENCE"
+  ],
+  "main_constraints": [
+    {
+      "id": "REG-064",
+      "clause": "Art15(1(c))",
+      "text": "or will be disclosed, in particular recipients in third countries or international organisations;",
+      "rerank_rank": 1,
+      "rerank_score": 0.012114985845983028,
+      "similarity_score": 0.75874,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-060",
+          "main_reg_id": "REG-064",
+          "edge_type": "PARENT_CHILD",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-060 -> REG-064",
+          "text": "The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information:",
+          "article": "15",
+          "paragraph": "1",
+          "clause": "Art15(1)"
+        },
+        {
+          "id": "REG-061",
+          "main_reg_id": "REG-064",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-064 <- REG-060 -> REG-061",
+          "text": "The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (a) the purposes of the processing;",
+          "article": "15",
+          "paragraph": "1(a)",
+          "clause": "Art15(1(a))"
+        },
+        {
+          "id": "REG-062",
+          "main_reg_id": "REG-064",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-064 <- REG-060 -> REG-062",
+          "text": "The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (b) the categories of personal data concerned;",
+          "article": "15",
+          "paragraph": "1(b)",
+          "clause": "Art15(1(b))"
+        },
+        {
+          "id": "REG-063",
+          "main_reg_id": "REG-064",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-064 <- REG-060 -> REG-063",
+          "text": "The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (c) the recipients or categories of recipient to whom the personal data have been",
+          "article": "15",
+          "paragraph": "1(c)",
+          "clause": "Art15(1(c))"
+        },
+        {
+          "id": "REG-065",
+          "main_reg_id": "REG-064",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-064 <- REG-060 -> REG-065",
+          "text": "The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (d) where possible, the envisaged period for which the personal data will be stored, or, if not possible, the criteria used to determine that period;",
+          "article": "15",
+          "paragraph": "1(d)",
+          "clause": "Art15(1(d))"
+        },
+        {
+          "id": "REG-066",
+          "main_reg_id": "REG-064",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-064 <- REG-060 -> REG-066",
+          "text": "The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (e) the existence of the right to request from the controller rectification or erasure of personal data or restriction of processing of personal data concerning the data subject or to object to such processing;",
+          "article": "15",
+          "paragraph": "1(e)",
+          "clause": "Art15(1(e))"
+        },
+        {
+          "id": "REG-067",
+          "main_reg_id": "REG-064",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-064 <- REG-060 -> REG-067",
+          "text": "The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (f) the right to lodge a complaint with a supervisory authority;",
+          "article": "15",
+          "paragraph": "1(f)",
+          "clause": "Art15(1(f))"
+        },
+        {
+          "id": "REG-068",
+          "main_reg_id": "REG-064",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-064 <- REG-060 -> REG-068",
+          "text": "The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (g) where the personal data are not collected from the data subject, any available information as to their source;",
+          "article": "15",
+          "paragraph": "1(g)",
+          "clause": "Art15(1(g))"
+        },
+        {
+          "id": "REG-069",
+          "main_reg_id": "REG-064",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-064 <- REG-060 -> REG-069",
+          "text": "The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (h) the existence of automated decision-making, including profiling, referred to in Article 22(1) and (4) and, at least in those cases, meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing for the data subject.",
+          "article": "15",
+          "paragraph": "1(h)",
+          "clause": "Art15(1(h))"
+        }
+      ]
+    },
+    {
+      "id": "REG-023",
+      "clause": "Art13(1(e))",
+      "text": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: (e) the recipients or categories of recipients of the personal data, if any;",
+      "rerank_rank": 2,
+      "rerank_score": 0.006273138802498579,
+      "similarity_score": 0.765588,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-018",
+          "main_reg_id": "REG-023",
+          "edge_type": "PARENT_CHILD",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-018 -> REG-023",
+          "text": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information:",
+          "article": "13",
+          "paragraph": "1",
+          "clause": "Art13(1)"
+        },
+        {
+          "id": "REG-019",
+          "main_reg_id": "REG-023",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-023 <- REG-018 -> REG-019",
+          "text": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: (a) the identity and the contact details of the controller and, where applicable, of the controller's representative;",
+          "article": "13",
+          "paragraph": "1(a)",
+          "clause": "Art13(1(a))"
+        },
+        {
+          "id": "REG-020",
+          "main_reg_id": "REG-023",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-023 <- REG-018 -> REG-020",
+          "text": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: (b) the contact details of the data protection officer, where applicable;",
+          "article": "13",
+          "paragraph": "1(b)",
+          "clause": "Art13(1(b))"
+        },
+        {
+          "id": "REG-021",
+          "main_reg_id": "REG-023",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-023 <- REG-018 -> REG-021",
+          "text": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: (c) the purposes of the processing for which the personal data are intended as well as the legal basis for the processing;",
+          "article": "13",
+          "paragraph": "1(c)",
+          "clause": "Art13(1(c))"
+        },
+        {
+          "id": "REG-022",
+          "main_reg_id": "REG-023",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-023 <- REG-018 -> REG-022",
+          "text": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: (d) where the processing is based on point (f) of Article 6(1), the legitimate interests pursued by the controller or by a third party;",
+          "article": "13",
+          "paragraph": "1(d)",
+          "clause": "Art13(1(d))"
+        },
+        {
+          "id": "REG-024",
+          "main_reg_id": "REG-023",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-023 <- REG-018 -> REG-024",
+          "text": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: (f) where applicable, the fact that the controller intends to transfer personal data to a third country or international organisation and the existence or absence of an adequacy decision by the Commission, or in the case of transfers referred to in Article 46 or 47, or the second subparagraph of Article 49(1), reference to the appropriate or suitable safeguards and the means by which to obtain a copy of them or where they have been made available.",
+          "article": "13",
+          "paragraph": "1(f)",
+          "clause": "Art13(1(f))"
+        }
+      ]
+    },
+    {
+      "id": "REG-132",
+      "clause": "Art71(1)",
+      "text": "The report shall be made public and be transmitted to the European Parliament, to the Council and to the Commission.",
+      "rerank_rank": 3,
+      "rerank_score": 0.005658368114382029,
+      "similarity_score": 0.700222,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-131",
+          "main_reg_id": "REG-132",
+          "edge_type": "SEQUENCE",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-132 -> REG-131",
+          "text": "The Board shall draw up an annual report regarding the protection of natural persons with regard to processing in the Union and, where relevant, in third countries and international organisations.",
+          "article": "71",
+          "paragraph": "1",
+          "clause": "Art71(1)"
+        }
+      ]
+    }
+  ],
+  "visited_reg_ids": [
+    "REG-018",
+    "REG-019",
+    "REG-020",
+    "REG-021",
+    "REG-022",
+    "REG-023",
+    "REG-024",
+    "REG-060",
+    "REG-061",
+    "REG-062",
+    "REG-063",
+    "REG-064",
+    "REG-065",
+    "REG-066",
+    "REG-067",
+    "REG-068",
+    "REG-069",
+    "REG-131",
+    "REG-132"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "REA-11#2",
+  "model": "gpt-5.4",
+  "prompt_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea_case3_injections__reg_eu_ai_act/chunk4_deontic_stages/rea-11#2/step4_prompt_payload.json",
+  "per_reg_comparisons": [
+    {
+      "reg_id": "REG-025",
+      "deviation": false,
+      "types": [],
+      "evidence_rea": [],
+      "evidence_reg": [],
+      "reasoning_short": "The REA limits the scope of data governance practices to user-provided data and excludes derived behavioral datasets, while the REG says the practices shall concern data collection processes and origin of data. These are related but not clearly the same direct constraint, so no quote-supported mismatch is established.",
+      "confidence": "low",
+      "needs_more_context": true
+    },
+    {
+      "reg_id": "REG-023",
+      "deviation": false,
+      "types": [],
+      "evidence_rea": [],
+      "evidence_reg": [],
+      "reasoning_short": "REG-023 is only an introductory fragment ('Those practices shall concern in particular:') and does not by itself express a concrete comparable constraint against the REA's limitation.",
+      "confidence": "low",
+      "needs_more_context": true
+    },
+    {
+      "reg_id": "REG-022",
+      "deviation": true,
+      "types": [
+        "Data deviation"
+      ],
+      "evidence_rea": [
+        "apply only to data explicitly provided by the user, excluding any derived behavioral datasets processed by the system"
+      ],
+      "evidence_reg": [
+        "Training, validation and testing data sets shall be subject to data governance and management practices"
+      ],
+      "reasoning_short": "The REG requires data governance practices for training, validation and testing data sets generally, while the REA narrows the governed data to only user-provided data and excludes derived behavioral datasets, changing the covered data scope.",
+      "confidence": "high",
+      "needs_more_context": false
+    }
+  ],
+  "overall_deviation": true,
+  "overall_confidence": "medium"
+}

@@ -1,0 +1,104 @@
+{
+  "chunk": "chunk2",
+  "stage1_3_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/readeonticstagepipeline/rea/chunk2/chunk2_stage1_3.json",
+  "stage4_output": [
+    {
+      "id": "REA-02",
+      "text": "If your personal data stored by us is inaccurate or incomplete, you have the right to obtain rectification of this data from us at any time.",
+      "actor": "your personal data stored by us",
+      "modal": "Mandatory",
+      "action": "store",
+      "action_list": [
+        "store"
+      ],
+      "object": "us",
+      "temporal": "by us is inaccurate or incomplete",
+      "manner": "by us is inaccurate or incomplete",
+      "condition": "If your personal data stored by us is inaccurate or incomplete",
+      "article": "chunk2",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-02",
+      "sub_id": "REA-02#1",
+      "split_index": "1"
+    },
+    {
+      "id": "REA-03",
+      "text": "You have the right to request that we erase your personal data if and to the extent that the data is no longer needed for the purposes for which it was collected or, if the processing is based on your consent, you have withdrawn your consent.",
+      "actor": "You",
+      "modal": "Mandatory",
+      "action": "have",
+      "action_list": [
+        "have"
+      ],
+      "object": "the right to request that we erase your personal data if and to the extent that the data is no longer needed for the purposes for which it was collected or , if the processing is based on your consent , you have withdrawn your consent",
+      "temporal": "",
+      "manner": "",
+      "condition": "if and to the extent that the data is no longer needed for the purposes for which it was collected or",
+      "article": "chunk2",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-03",
+      "sub_id": "REA-03#1",
+      "split_index": "1"
+    },
+    {
+      "id": "REA-03",
+      "text": "In this case, we must stop processing your personal data and remove it from our IT systems and databases.",
+      "actor": "we",
+      "modal": "Mandatory(must)",
+      "action": "stop",
+      "action_list": [
+        "stop"
+      ],
+      "object": "processing your personal data and remove it from our IT systems and databases.",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk2",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-03",
+      "sub_id": "REA-03#2",
+      "split_index": "2"
+    },
+    {
+      "id": "REA-04",
+      "text": "A right to erasure does not exist insofar as the data may not be deleted due to a legal obligation or you must process the data due to a legal obligation",
+      "actor": "A right to erasure does not exist insofar as the data",
+      "modal": "Prohibited(may not)",
+      "action": "delete",
+      "action_list": [
+        "delete"
+      ],
+      "object": "due to a legal obligation or you must process the data due to a legal obligation",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk2",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-04",
+      "sub_id": "REA-04#1",
+      "split_index": "1"
+    },
+    {
+      "id": "REA-04",
+      "text": "the data processing is necessary for the assertion, exercise or defence of legal claims.",
+      "actor": "the data processing",
+      "modal": "Prohibited",
+      "action": "data processing is necessary",
+      "action_list": [],
+      "object": "the assertion , exercise or defence of legal claims",
+      "temporal": "",
+      "manner": "",
+      "condition": "the assertion, exercise or defence of legal claims",
+      "article": "chunk2",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-04",
+      "sub_id": "REA-04#2",
+      "split_index": "2"
+    }
+  ]
+}

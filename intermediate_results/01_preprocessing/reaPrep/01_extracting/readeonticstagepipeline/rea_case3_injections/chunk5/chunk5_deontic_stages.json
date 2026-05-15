@@ -1,0 +1,153 @@
+{
+  "chunk": "chunk5",
+  "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/rearequirementsextractor/rea_case3_injections/chunk5/chunk5_requirements.json",
+  "stage1_3_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/readeonticstagepipeline/rea_case3_injections/chunk5/chunk5_stage1_3.json",
+  "stage1_output": [
+    {
+      "ID": "REA-14#1",
+      "REA_ID": "REA-14",
+      "Text": "Identify the stakeholders who are responsible for troubleshooting, managing, operating, overseeing, and controlling the system during and after deployment."
+    },
+    {
+      "ID": "REA-14#2",
+      "REA_ID": "REA-14",
+      "Text": "The ultimate responsibility for oversight and risk mitigation lies solely with the end-user's IT department rather than the system provider."
+    },
+    {
+      "ID": "REA-15#1",
+      "REA_ID": "REA-15",
+      "Text": "Define and document the method to be used to evaluate whether each oversight or control function can be accomplished by stakeholders in realistic conditions of system use."
+    },
+    {
+      "ID": "REA-15#2",
+      "REA_ID": "REA-15",
+      "Text": "Include the metrics or rubrics that will be used in the evaluations. When this is not possible (for example, when Microsoft is not responsible for oversight and control functions), provide guidance on evaluating oversight and control functions to the third party responsible for evaluating oversight or control functions."
+    }
+  ],
+  "stage2_output": [
+    {
+      "ID": "REA-14#1",
+      "REA_ID": "REA-14",
+      "Text": "Identify the stakeholders who are responsible for troubleshooting, managing, operating, overseeing, and controlling the system during and after deployment.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-14#2",
+      "REA_ID": "REA-14",
+      "Text": "The ultimate responsibility for oversight and risk mitigation lies solely with the end-user's IT department rather than the system provider.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-15#1",
+      "REA_ID": "REA-15",
+      "Text": "Define and document the method to be used to evaluate whether each oversight or control function can be accomplished by stakeholders in realistic conditions of system use.",
+      "Modal": "Permissive(can)"
+    },
+    {
+      "ID": "REA-15#2",
+      "REA_ID": "REA-15",
+      "Text": "Include the metrics or rubrics that will be used in the evaluations. When this is not possible (for example, when Microsoft is not responsible for oversight and control functions), provide guidance on evaluating oversight and control functions to the third party responsible for evaluating oversight or control functions.",
+      "Modal": "Mandatory(will)"
+    }
+  ],
+  "stage3_output": [
+    {
+      "ID": "REA-14#1",
+      "Active_Recovered_Text": "Identify the stakeholders who are responsible for troubleshooting, managing, operating, overseeing, and controlling the system during and after deployment."
+    },
+    {
+      "ID": "REA-14#2",
+      "Active_Recovered_Text": "The ultimate responsibility for oversight and risk mitigation lies solely with the end-user's IT department rather than the system provider."
+    },
+    {
+      "ID": "REA-15#1",
+      "Active_Recovered_Text": "The method SHALL be defined and documented to evaluate whether each oversight or control function can be accomplished by stakeholders in realistic conditions of system use."
+    },
+    {
+      "ID": "REA-15#2",
+      "Active_Recovered_Text": "Metrics or rubrics SHALL be included that will be used in the evaluations. When this is not possible, guidance SHALL be provided to the third party responsible for evaluating oversight or control functions."
+    }
+  ],
+  "stage4_output": [
+    {
+      "id": "REA-14",
+      "text": "Identify the stakeholders who are responsible for troubleshooting, managing, operating, overseeing, and controlling the system during and after deployment.",
+      "actor": "stakeholders",
+      "modal": "",
+      "action": "identify",
+      "action_list": [
+        "identify"
+      ],
+      "object": "the stakeholders who are responsible for troubleshooting , managing , operating , overseeing , and controlling the system during and after deployment",
+      "temporal": "during and after deployment",
+      "manner": "",
+      "condition": "",
+      "article": "chunk5",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-14",
+      "sub_id": "REA-14#1",
+      "split_index": "1"
+    },
+    {
+      "id": "REA-14",
+      "text": "The ultimate responsibility for oversight and risk mitigation lies solely with the end-user's IT department rather than the system provider.",
+      "actor": "The ultimate responsibility for oversight and risk mitigation",
+      "modal": "Prohibited",
+      "action": "lie",
+      "action_list": [
+        "lie"
+      ],
+      "object": "oversight and risk mitigation",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk5",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-14",
+      "sub_id": "REA-14#2",
+      "split_index": "2"
+    },
+    {
+      "id": "REA-15",
+      "text": "The method SHALL be defined and documented to evaluate whether each oversight or control function can be accomplished by stakeholders in realistic conditions of system use.",
+      "actor": "The method",
+      "modal": "Mandatory(shall)",
+      "action": "defined",
+      "action_list": [
+        "defined"
+      ],
+      "object": "and documented to evaluate whether each oversight or control function can be accomplished by stakeholders in realistic conditions of system use.",
+      "temporal": "by stakeholders in realistic conditions of",
+      "manner": "by stakeholders in realistic conditions of system use",
+      "condition": "",
+      "article": "chunk5",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-15",
+      "sub_id": "REA-15#1",
+      "split_index": "1"
+    },
+    {
+      "id": "REA-15",
+      "text": "Metrics or rubrics SHALL be included that will be used in the evaluations. When this is not possible, guidance SHALL be provided to the third party responsible for evaluating oversight or control functions.",
+      "actor": "Metrics or rubrics",
+      "modal": "Mandatory(shall)",
+      "action": "included",
+      "action_list": [
+        "included"
+      ],
+      "object": "that will be used in the evaluations. When this is not possible, guidance SHALL be provided to the third party responsible for evaluating oversight or control functions.",
+      "temporal": "",
+      "manner": "",
+      "condition": "When this is not possible",
+      "article": "chunk5",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-15",
+      "sub_id": "REA-15#2",
+      "split_index": "2"
+    }
+  ]
+}

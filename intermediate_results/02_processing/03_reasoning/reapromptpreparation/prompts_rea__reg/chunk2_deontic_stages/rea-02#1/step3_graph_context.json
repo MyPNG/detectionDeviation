@@ -1,0 +1,9 @@
+{
+  "rea_sub_id": "REA-02#1",
+  "reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk2_deontic_stages/rea-02#1.json",
+  "top_k": 0,
+  "max_hop": 0,
+  "allowed_relations": [],
+  "main_constraints": [],
+  "visited_reg_ids": []
+}

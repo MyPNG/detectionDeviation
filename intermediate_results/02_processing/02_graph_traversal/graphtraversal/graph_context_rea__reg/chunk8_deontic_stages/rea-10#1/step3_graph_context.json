@@ -1,0 +1,312 @@
+{
+  "rea_sub_id": "REA-10#1",
+  "reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk8_deontic_stages/rea-10#1.json",
+  "top_k": 3,
+  "max_hop": 1,
+  "allowed_relations": [
+    "AND",
+    "PARENT_CHILD",
+    "REFERENCES",
+    "SEQUENCE"
+  ],
+  "main_constraints": [
+    {
+      "id": "REG-022",
+      "clause": "Art13(1(d))",
+      "text": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: (d) where the processing is based on point (f) of Article 6(1), the legitimate interests pursued by the controller or by a third party;",
+      "rerank_rank": 1,
+      "rerank_score": 0.34382006525993347,
+      "similarity_score": 0.775283,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-018",
+          "main_reg_id": "REG-022",
+          "edge_type": "PARENT_CHILD",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-018 -> REG-022",
+          "text": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information:",
+          "article": "13",
+          "paragraph": "1",
+          "clause": "Art13(1)"
+        },
+        {
+          "id": "REG-019",
+          "main_reg_id": "REG-022",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-022 <- REG-018 -> REG-019",
+          "text": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: (a) the identity and the contact details of the controller and, where applicable, of the controller's representative;",
+          "article": "13",
+          "paragraph": "1(a)",
+          "clause": "Art13(1(a))"
+        },
+        {
+          "id": "REG-020",
+          "main_reg_id": "REG-022",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-022 <- REG-018 -> REG-020",
+          "text": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: (b) the contact details of the data protection officer, where applicable;",
+          "article": "13",
+          "paragraph": "1(b)",
+          "clause": "Art13(1(b))"
+        },
+        {
+          "id": "REG-021",
+          "main_reg_id": "REG-022",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-022 <- REG-018 -> REG-021",
+          "text": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: (c) the purposes of the processing for which the personal data are intended as well as the legal basis for the processing;",
+          "article": "13",
+          "paragraph": "1(c)",
+          "clause": "Art13(1(c))"
+        },
+        {
+          "id": "REG-023",
+          "main_reg_id": "REG-022",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-022 <- REG-018 -> REG-023",
+          "text": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: (e) the recipients or categories of recipients of the personal data, if any;",
+          "article": "13",
+          "paragraph": "1(e)",
+          "clause": "Art13(1(e))"
+        },
+        {
+          "id": "REG-024",
+          "main_reg_id": "REG-022",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-022 <- REG-018 -> REG-024",
+          "text": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: (f) where applicable, the fact that the controller intends to transfer personal data to a third country or international organisation and the existence or absence of an adequacy decision by the Commission, or in the case of transfers referred to in Article 46 or 47, or the second subparagraph of Article 49(1), reference to the appropriate or suitable safeguards and the means by which to obtain a copy of them or where they have been made available.",
+          "article": "13",
+          "paragraph": "1(f)",
+          "clause": "Art13(1(f))"
+        }
+      ]
+    },
+    {
+      "id": "REG-043",
+      "clause": "Art14(2(b))",
+      "text": "In addition to the information referred to in paragraph 1, the controller shall provide the data subject with the following information necessary to ensure fair and transparent processing in respect of the data subject: (b) where the processing is based on point (f) of Article 6(1), the legitimate interests pursued by the controller or by a third party;",
+      "rerank_rank": 2,
+      "rerank_score": 0.12542647123336792,
+      "similarity_score": 0.772713,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-034",
+          "main_reg_id": "REG-043",
+          "edge_type": "REFERENCES",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-043 -> REG-034",
+          "text": "Where personal data have not been obtained from the data subject, the controller shall provide the data subject with the following information:",
+          "article": "14",
+          "paragraph": "1",
+          "clause": "Art14(1)"
+        },
+        {
+          "id": "REG-041",
+          "main_reg_id": "REG-043",
+          "edge_type": "PARENT_CHILD",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-041 -> REG-043",
+          "text": "In addition to the information referred to in paragraph 1, the controller shall provide the data subject with the following information necessary to ensure fair and transparent processing in respect of the data subject:",
+          "article": "14",
+          "paragraph": "2",
+          "clause": "Art14(2)"
+        },
+        {
+          "id": "REG-042",
+          "main_reg_id": "REG-043",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-043 <- REG-041 -> REG-042",
+          "text": "In addition to the information referred to in paragraph 1, the controller shall provide the data subject with the following information necessary to ensure fair and transparent processing in respect of the data subject: (a) the period for which the personal data will be stored, or if that is not possible, the criteria used to determine that period;",
+          "article": "14",
+          "paragraph": "2(a)",
+          "clause": "Art14(2(a))"
+        },
+        {
+          "id": "REG-044",
+          "main_reg_id": "REG-043",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-043 <- REG-041 -> REG-044",
+          "text": "In addition to the information referred to in paragraph 1, the controller shall provide the data subject with the following information necessary to ensure fair and transparent processing in respect of the data subject: (c) the existence of the right to request from the controller access to and rectification or erasure of personal data or restriction of processing concerning the data subject and to object to processing as well as the right to data portability;",
+          "article": "14",
+          "paragraph": "2(c)",
+          "clause": "Art14(2(c))"
+        },
+        {
+          "id": "REG-045",
+          "main_reg_id": "REG-043",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-043 <- REG-041 -> REG-045",
+          "text": "In addition to the information referred to in paragraph 1, the controller shall provide the data subject with the following information necessary to ensure fair and transparent processing in respect of the data subject: (d) where processing is based on point (a) of Article 6(1) or point (a) of Article 9(2), the existence of the right to withdraw consent at any time, without affecting the lawfulness of processing based on consent before its withdrawal;",
+          "article": "14",
+          "paragraph": "2(d)",
+          "clause": "Art14(2(d))"
+        },
+        {
+          "id": "REG-046",
+          "main_reg_id": "REG-043",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-043 <- REG-041 -> REG-046",
+          "text": "In addition to the information referred to in paragraph 1, the controller shall provide the data subject with the following information necessary to ensure fair and transparent processing in respect of the data subject: (e) the right to lodge a complaint with a supervisory authority;",
+          "article": "14",
+          "paragraph": "2(e)",
+          "clause": "Art14(2(e))"
+        },
+        {
+          "id": "REG-047",
+          "main_reg_id": "REG-043",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-043 <- REG-041 -> REG-047",
+          "text": "In addition to the information referred to in paragraph 1, the controller shall provide the data subject with the following information necessary to ensure fair and transparent processing in respect of the data subject: (f) from which source the personal data originate, and if applicable, whether it came from publicly accessible sources;",
+          "article": "14",
+          "paragraph": "2(f)",
+          "clause": "Art14(2(f))"
+        },
+        {
+          "id": "REG-048",
+          "main_reg_id": "REG-043",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-043 <- REG-041 -> REG-048",
+          "text": "In addition to the information referred to in paragraph 1, the controller shall provide the data subject with the following information necessary to ensure fair and transparent processing in respect of the data subject: (g) the existence of automated decision-making, including profiling, referred to in Article 22(1) and (4) and, at least in those cases, meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing for the data subject.",
+          "article": "14",
+          "paragraph": "2(g)",
+          "clause": "Art14(2(g))"
+        }
+      ]
+    },
+    {
+      "id": "REG-025",
+      "clause": "Art13(2)",
+      "text": "In addition to the information referred to in paragraph 1, the controller shall, at the time when personal data are obtained, provide the data subject with the following further information necessary to ensure fair and transparent processing:",
+      "rerank_rank": 3,
+      "rerank_score": 0.0455697625875473,
+      "similarity_score": 0.798413,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-026",
+          "main_reg_id": "REG-025",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-025 -> REG-026",
+          "text": "In addition to the information referred to in paragraph 1, the controller shall, at the time when personal data are obtained, provide the data subject with the following further information necessary to ensure fair and transparent processing: (a) the period for which the personal data will be stored, or if that is not possible, the criteria used to determine that period;",
+          "article": "13",
+          "paragraph": "2(a)",
+          "clause": "Art13(2(a))"
+        },
+        {
+          "id": "REG-027",
+          "main_reg_id": "REG-025",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-025 -> REG-027",
+          "text": "In addition to the information referred to in paragraph 1, the controller shall, at the time when personal data are obtained, provide the data subject with the following further information necessary to ensure fair and transparent processing: (b) the existence of the right to request from the controller access to and rectification or erasure of personal data or restriction of processing concerning the data subject or to object to processing as well as the right to data portability;",
+          "article": "13",
+          "paragraph": "2(b)",
+          "clause": "Art13(2(b))"
+        },
+        {
+          "id": "REG-028",
+          "main_reg_id": "REG-025",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-025 -> REG-028",
+          "text": "In addition to the information referred to in paragraph 1, the controller shall, at the time when personal data are obtained, provide the data subject with the following further information necessary to ensure fair and transparent processing: (c) where the processing is based on point (a) of Article 6(1) or point (a) of Article 9(2), the existence of the right to withdraw consent at any time, without affecting the lawfulness of processing based on consent before its withdrawal;",
+          "article": "13",
+          "paragraph": "2(c)",
+          "clause": "Art13(2(c))"
+        },
+        {
+          "id": "REG-029",
+          "main_reg_id": "REG-025",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-025 -> REG-029",
+          "text": "In addition to the information referred to in paragraph 1, the controller shall, at the time when personal data are obtained, provide the data subject with the following further information necessary to ensure fair and transparent processing: (d) the right to lodge a complaint with a supervisory authority;",
+          "article": "13",
+          "paragraph": "2(d)",
+          "clause": "Art13(2(d))"
+        },
+        {
+          "id": "REG-030",
+          "main_reg_id": "REG-025",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-025 -> REG-030",
+          "text": "In addition to the information referred to in paragraph 1, the controller shall, at the time when personal data are obtained, provide the data subject with the following further information necessary to ensure fair and transparent processing: (e) whether the provision of personal data is a statutory or contractual requirement, or a requirement necessary to enter into a contract, as well as whether the data subject is obliged to provide the personal data and of the possible consequences of failure to provide such data;",
+          "article": "13",
+          "paragraph": "2(e)",
+          "clause": "Art13(2(e))"
+        },
+        {
+          "id": "REG-031",
+          "main_reg_id": "REG-025",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-025 -> REG-031",
+          "text": "In addition to the information referred to in paragraph 1, the controller shall, at the time when personal data are obtained, provide the data subject with the following further information necessary to ensure fair and transparent processing: (f) the existence of automated decision-making, including profiling, referred to in Article 22(1) and (4) and, at least in those cases, meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing for the data subject.",
+          "article": "13",
+          "paragraph": "2(f)",
+          "clause": "Art13(2(f))"
+        }
+      ]
+    }
+  ],
+  "visited_reg_ids": [
+    "REG-018",
+    "REG-019",
+    "REG-020",
+    "REG-021",
+    "REG-022",
+    "REG-023",
+    "REG-024",
+    "REG-025",
+    "REG-026",
+    "REG-027",
+    "REG-028",
+    "REG-029",
+    "REG-030",
+    "REG-031",
+    "REG-034",
+    "REG-041",
+    "REG-042",
+    "REG-043",
+    "REG-044",
+    "REG-045",
+    "REG-046",
+    "REG-047",
+    "REG-048"
+  ]
+}

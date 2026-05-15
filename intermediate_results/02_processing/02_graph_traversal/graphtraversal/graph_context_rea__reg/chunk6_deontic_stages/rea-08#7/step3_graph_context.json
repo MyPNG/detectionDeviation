@@ -1,0 +1,103 @@
+{
+  "rea_sub_id": "REA-08#7",
+  "reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk6_deontic_stages/rea-08#7.json",
+  "top_k": 3,
+  "max_hop": 1,
+  "allowed_relations": [
+    "AND",
+    "PARENT_CHILD",
+    "REFERENCES",
+    "SEQUENCE"
+  ],
+  "main_constraints": [
+    {
+      "id": "REG-132",
+      "clause": "Art71(1)",
+      "text": "The report shall be made public and be transmitted to the European Parliament, to the Council and to the Commission.",
+      "rerank_rank": 1,
+      "rerank_score": 0.00520999263972044,
+      "similarity_score": 0.68446,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-131",
+          "main_reg_id": "REG-132",
+          "edge_type": "SEQUENCE",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-132 -> REG-131",
+          "text": "The Board shall draw up an annual report regarding the protection of natural persons with regard to processing in the Union and, where relevant, in third countries and international organisations.",
+          "article": "71",
+          "paragraph": "1",
+          "clause": "Art71(1)"
+        }
+      ]
+    },
+    {
+      "id": "REG-133",
+      "clause": "Art71(2)",
+      "text": "The annual report shall include a review of the practical application of the guidelines, recommendations and best practices referred to in point (l) of Article 70(1) as well as of the binding decisions referred to in Article 65.",
+      "rerank_rank": 2,
+      "rerank_score": 0.0042377645149827,
+      "similarity_score": 0.700012,
+      "already_visited_before_expansion": false,
+      "graph_context": []
+    },
+    {
+      "id": "REG-125",
+      "clause": "Art46(3)",
+      "text": "Subject to the authorisation from the competent supervisory authority, the appropriate safeguards referred to in paragraph 1 may also be provided for, in particular, by:",
+      "rerank_rank": 3,
+      "rerank_score": 0.0034463333431631327,
+      "similarity_score": 0.698498,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-117",
+          "main_reg_id": "REG-125",
+          "edge_type": "REFERENCES",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-125 -> REG-117",
+          "text": "In the absence of a decision pursuant to Article 45(3), a controller or processor may transfer personal data to a third country or an international organisation only if the controller or processor has provided appropriate safeguards, and on condition that enforceable data subject rights and effective legal remedies for data subjects are available.",
+          "article": "46",
+          "paragraph": "1",
+          "clause": "Art46(1)"
+        },
+        {
+          "id": "REG-126",
+          "main_reg_id": "REG-125",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-125 -> REG-126",
+          "text": "Subject to the authorisation from the competent supervisory authority, the appropriate safeguards referred to in paragraph 1 may also be provided for, in particular, by: (a) contractual clauses between the controller or processor and the controller, processor or the recipient of the personal data in the third country or international organisation; or",
+          "article": "46",
+          "paragraph": "3(a)",
+          "clause": "Art46(3(a))"
+        },
+        {
+          "id": "REG-127",
+          "main_reg_id": "REG-125",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-125 -> REG-127",
+          "text": "Subject to the authorisation from the competent supervisory authority, the appropriate safeguards referred to in paragraph 1 may also be provided for, in particular, by: (b) provisions to be inserted into administrative arrangements between public authorities or bodies which include enforceable and effective data subject rights.",
+          "article": "46",
+          "paragraph": "3(b)",
+          "clause": "Art46(3(b))"
+        }
+      ]
+    }
+  ],
+  "visited_reg_ids": [
+    "REG-117",
+    "REG-125",
+    "REG-126",
+    "REG-127",
+    "REG-131",
+    "REG-132",
+    "REG-133"
+  ]
+}

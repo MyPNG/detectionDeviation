@@ -1,0 +1,181 @@
+{
+  "rea_sub_id": "REA-13#2",
+  "reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea_case3_injections__reg_eu_ai_act_reranked/chunk4_deontic_stages/rea-13#2.json",
+  "top_k": 3,
+  "max_hop": 1,
+  "allowed_relations": [
+    "AND",
+    "PARENT_CHILD",
+    "REFERENCES",
+    "SEQUENCE"
+  ],
+  "main_constraints": [
+    {
+      "id": "REG-028",
+      "clause": "Art10(2(e))",
+      "text": "Those practices shall concern in particular: (e) an assessment of the availability, quantity and suitability of the data sets that are needed;",
+      "rerank_rank": 1,
+      "rerank_score": 0.02189590595662594,
+      "similarity_score": 0.786318,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-023",
+          "main_reg_id": "REG-028",
+          "edge_type": "PARENT_CHILD",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-023 -> REG-028",
+          "text": "Those practices shall concern in particular:",
+          "article": "10",
+          "paragraph": "2",
+          "clause": "Art10(2)"
+        },
+        {
+          "id": "REG-024",
+          "main_reg_id": "REG-028",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-028 <- REG-023 -> REG-024",
+          "text": "Those practices shall concern in particular: (a) the relevant design choices;",
+          "article": "10",
+          "paragraph": "2(a)",
+          "clause": "Art10(2(a))"
+        },
+        {
+          "id": "REG-025",
+          "main_reg_id": "REG-028",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-028 <- REG-023 -> REG-025",
+          "text": "Those practices shall concern in particular: (b) data collection processes and the origin of data, and in the case of personal data, the original purpose of the data collection;",
+          "article": "10",
+          "paragraph": "2(b)",
+          "clause": "Art10(2(b))"
+        },
+        {
+          "id": "REG-026",
+          "main_reg_id": "REG-028",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-028 <- REG-023 -> REG-026",
+          "text": "Those practices shall concern in particular: (c) relevant data-preparation processing operations, such as annotation, labelling, cleaning, updating, enrichment and aggregation;",
+          "article": "10",
+          "paragraph": "2(c)",
+          "clause": "Art10(2(c))"
+        },
+        {
+          "id": "REG-027",
+          "main_reg_id": "REG-028",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-028 <- REG-023 -> REG-027",
+          "text": "Those practices shall concern in particular: (d) the formulation of assumptions, in particular with respect to the information that the data are supposed to measure and represent;",
+          "article": "10",
+          "paragraph": "2(d)",
+          "clause": "Art10(2(d))"
+        },
+        {
+          "id": "REG-029",
+          "main_reg_id": "REG-028",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-028 <- REG-023 -> REG-029",
+          "text": "Those practices shall concern in particular: (f) examination in view of possible biases that are likely to affect the health and safety of persons, have a negative impact on fundamental rights or lead to discrimination prohibited under Union law, especially where data outputs influence inputs for future operations;",
+          "article": "10",
+          "paragraph": "2(f)",
+          "clause": "Art10(2(f))"
+        },
+        {
+          "id": "REG-030",
+          "main_reg_id": "REG-028",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-028 <- REG-023 -> REG-030",
+          "text": "Those practices shall concern in particular: (g) appropriate measures to detect, prevent and mitigate possible biases identified according to point (f);",
+          "article": "10",
+          "paragraph": "2(g)",
+          "clause": "Art10(2(g))"
+        },
+        {
+          "id": "REG-031",
+          "main_reg_id": "REG-028",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-028 <- REG-023 -> REG-031",
+          "text": "Those practices shall concern in particular: (h) the identification of relevant data gaps or shortcomings that prevent compliance with this Regulation, and how those gaps",
+          "article": "10",
+          "paragraph": "2(h)",
+          "clause": "Art10(2(h))"
+        },
+        {
+          "id": "REG-032",
+          "main_reg_id": "REG-028",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-028 <- REG-023 -> REG-032",
+          "text": "and shortcomings can be addressed.",
+          "article": "10",
+          "paragraph": "2(h)",
+          "clause": "Art10(2(h))"
+        }
+      ]
+    },
+    {
+      "id": "REG-085",
+      "clause": "Art15(3)",
+      "text": "The levels of accuracy and the relevant accuracy metrics of high-risk AI systems shall be declared in the accompanying instructions of use.",
+      "rerank_rank": 2,
+      "rerank_score": 0.016466174274683,
+      "similarity_score": 0.772103,
+      "already_visited_before_expansion": false,
+      "graph_context": []
+    },
+    {
+      "id": "REG-019",
+      "clause": "Art9(9)",
+      "text": "When implementing the risk management system as provided for in paragraphs 1 to 7, providers shall give consideration to whether in view of its intended purpose the high-risk AI system is likely to have an adverse impact on persons under the age of 18 and, as appropriate, other vulnerable groups.",
+      "rerank_rank": 3,
+      "rerank_score": 0.016466174274683,
+      "similarity_score": 0.724189,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-001",
+          "main_reg_id": "REG-019",
+          "edge_type": "REFERENCES",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-019 -> REG-001",
+          "text": "A risk management system shall be established, implemented, documented and maintained in relation to high-risk AI systems.",
+          "article": "9",
+          "paragraph": "1",
+          "clause": "Art9(1)"
+        }
+      ]
+    }
+  ],
+  "visited_reg_ids": [
+    "REG-001",
+    "REG-019",
+    "REG-023",
+    "REG-024",
+    "REG-025",
+    "REG-026",
+    "REG-027",
+    "REG-028",
+    "REG-029",
+    "REG-030",
+    "REG-031",
+    "REG-032",
+    "REG-085"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "rea_sub_id": "REA-01#1",
+  "reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea_case3_injections__reg_eu_ai_act_reranked/chunk1_deontic_stages/rea-01#1.json",
+  "top_k": 3,
+  "max_hop": 1,
+  "allowed_relations": [
+    "AND",
+    "PARENT_CHILD",
+    "REFERENCES",
+    "SEQUENCE"
+  ],
+  "main_constraints": [
+    {
+      "id": "REG-014",
+      "clause": "Art9(6)",
+      "text": "High-risk AI systems shall be tested for the purpose of identifying the most appropriate and targeted risk management measures.",
+      "rerank_rank": 1,
+      "rerank_score": 0.00854433048516512,
+      "similarity_score": 0.77651,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-015",
+          "main_reg_id": "REG-014",
+          "edge_type": "SEQUENCE",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-015 -> REG-014",
+          "text": "Testing shall ensure that high-risk AI systems perform consistently for their intended purpose and that they are in compliance with the requirements set out in this Section.",
+          "article": "9",
+          "paragraph": "6",
+          "clause": "Art9(6)"
+        }
+      ]
+    },
+    {
+      "id": "REG-018",
+      "clause": "Art9(8)",
+      "text": "Testing shall be carried out against prior defined metrics and probabilistic thresholds that are appropriate to the intended purpose of the high-risk AI system.",
+      "rerank_rank": 2,
+      "rerank_score": 0.007099023088812828,
+      "similarity_score": 0.759115,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-017",
+          "main_reg_id": "REG-018",
+          "edge_type": "SEQUENCE",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-018 -> REG-017",
+          "text": "The testing of high-risk AI systems shall be performed, as appropriate, at any time throughout the development process, and, in any event, prior to their being placed on the market or put into service.",
+          "article": "9",
+          "paragraph": "8",
+          "clause": "Art9(8)"
+        }
+      ]
+    },
+    {
+      "id": "REG-017",
+      "clause": "Art9(8)",
+      "text": "The testing of high-risk AI systems shall be performed, as appropriate, at any time throughout the development process, and, in any event, prior to their being placed on the market or put into service.",
+      "rerank_rank": 3,
+      "rerank_score": 0.006812382023781538,
+      "similarity_score": 0.785321,
+      "already_visited_before_expansion": true,
+      "graph_context": []
+    }
+  ],
+  "visited_reg_ids": [
+    "REG-014",
+    "REG-015",
+    "REG-017",
+    "REG-018"
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "rea_sub_id": "REA-02#3",
+  "reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea_with_injections__reg_for_injectiontest_reranked/chunk2_deontic_stages/rea-02#3.json",
+  "top_k": 3,
+  "max_hop": 1,
+  "allowed_relations": [
+    "AND",
+    "PARENT_CHILD",
+    "REFERENCES",
+    "SEQUENCE"
+  ],
+  "main_constraints": [
+    {
+      "id": "REG-091",
+      "clause": "Art17(1)",
+      "text": "and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies:",
+      "rerank_rank": 1,
+      "rerank_score": 0.009469669312238693,
+      "similarity_score": 0.782855,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-092",
+          "main_reg_id": "REG-091",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-091 -> REG-092",
+          "text": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay",
+          "article": "17",
+          "paragraph": "1(a)",
+          "clause": "Art17(1(a))"
+        },
+        {
+          "id": "REG-093",
+          "main_reg_id": "REG-091",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-091 -> REG-093",
+          "text": "and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies: (a) the personal data are no longer necessary in relation to the purposes for which they were collected or otherwise processed;",
+          "article": "17",
+          "paragraph": "1(a)",
+          "clause": "Art17(1(a))"
+        },
+        {
+          "id": "REG-094",
+          "main_reg_id": "REG-091",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-091 -> REG-094",
+          "text": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay",
+          "article": "17",
+          "paragraph": "1(b)",
+          "clause": "Art17(1(b))"
+        },
+        {
+          "id": "REG-095",
+          "main_reg_id": "REG-091",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-091 -> REG-095",
+          "text": "and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies: (b) the data subject withdraws consent on which the processing is based according to point (a) of Article 6(1), or point (a) of Article 9(2), and where there is no other legal ground for the processing;",
+          "article": "17",
+          "paragraph": "1(b)",
+          "clause": "Art17(1(b))"
+        },
+        {
+          "id": "REG-096",
+          "main_reg_id": "REG-091",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-091 -> REG-096",
+          "text": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay",
+          "article": "17",
+          "paragraph": "1(c)",
+          "clause": "Art17(1(c))"
+        },
+        {
+          "id": "REG-097",
+          "main_reg_id": "REG-091",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-091 -> REG-097",
+          "text": "and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies: (c) the data subject objects to the processing pursuant to Article 21(1) and there are no overriding legitimate grounds for the processing, or the data subject objects to the processing pursuant to Article 21(2);",
+          "article": "17",
+          "paragraph": "1(c)",
+          "clause": "Art17(1(c))"
+        },
+        {
+          "id": "REG-098",
+          "main_reg_id": "REG-091",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-091 -> REG-098",
+          "text": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay",
+          "article": "17",
+          "paragraph": "1(d)",
+          "clause": "Art17(1(d))"
+        },
+        {
+          "id": "REG-099",
+          "main_reg_id": "REG-091",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-091 -> REG-099",
+          "text": "and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies: (d) the personal data have been unlawfully processed;",
+          "article": "17",
+          "paragraph": "1(d)",
+          "clause": "Art17(1(d))"
+        },
+        {
+          "id": "REG-100",
+          "main_reg_id": "REG-091",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-091 -> REG-100",
+          "text": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay",
+          "article": "17",
+          "paragraph": "1(e)",
+          "clause": "Art17(1(e))"
+        },
+        {
+          "id": "REG-101",
+          "main_reg_id": "REG-091",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-091 -> REG-101",
+          "text": "and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies: (e) the personal data have to be erased for compliance with a legal obligation in Union or Member State law to which the controller is subject;",
+          "article": "17",
+          "paragraph": "1(e)",
+          "clause": "Art17(1(e))"
+        },
+        {
+          "id": "REG-102",
+          "main_reg_id": "REG-091",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-091 -> REG-102",
+          "text": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay",
+          "article": "17",
+          "paragraph": "1(f)",
+          "clause": "Art17(1(f))"
+        },
+        {
+          "id": "REG-103",
+          "main_reg_id": "REG-091",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-091 -> REG-103",
+          "text": "and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies: (f) the personal data have been collected in relation to the offer of information society services referred to in Article 8(1).",
+          "article": "17",
+          "paragraph": "1(f)",
+          "clause": "Art17(1(f))"
+        },
+        {
+          "id": "REG-090",
+          "main_reg_id": "REG-091",
+          "edge_type": "AND",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-091 -> REG-090",
+          "text": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay",
+          "article": "17",
+          "paragraph": "1",
+          "clause": "Art17(1)"
+        }
+      ]
+    },
+    {
+      "id": "REG-093",
+      "clause": "Art17(1(a))",
+      "text": "and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies: (a) the personal data are no longer necessary in relation to the purposes for which they were collected or otherwise processed;",
+      "rerank_rank": 2,
+      "rerank_score": 0.008370314724743366,
+      "similarity_score": 0.74982,
+      "already_visited_before_expansion": true,
+      "graph_context": []
+    },
+    {
+      "id": "REG-099",
+      "clause": "Art17(1(d))",
+      "text": "and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies: (d) the personal data have been unlawfully processed;",
+      "rerank_rank": 3,
+      "rerank_score": 0.007708708290010691,
+      "similarity_score": 0.771907,
+      "already_visited_before_expansion": true,
+      "graph_context": []
+    }
+  ],
+  "visited_reg_ids": [
+    "REG-090",
+    "REG-091",
+    "REG-092",
+    "REG-093",
+    "REG-094",
+    "REG-095",
+    "REG-096",
+    "REG-097",
+    "REG-098",
+    "REG-099",
+    "REG-100",
+    "REG-101",
+    "REG-102",
+    "REG-103"
+  ]
+}

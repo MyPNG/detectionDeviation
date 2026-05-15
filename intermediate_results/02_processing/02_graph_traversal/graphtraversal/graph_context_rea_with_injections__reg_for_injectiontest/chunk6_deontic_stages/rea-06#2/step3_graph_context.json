@@ -1,0 +1,232 @@
+{
+  "rea_sub_id": "REA-06#2",
+  "reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea_with_injections__reg_for_injectiontest_reranked/chunk6_deontic_stages/rea-06#2.json",
+  "top_k": 3,
+  "max_hop": 1,
+  "allowed_relations": [
+    "AND",
+    "PARENT_CHILD",
+    "REFERENCES",
+    "SEQUENCE"
+  ],
+  "main_constraints": [
+    {
+      "id": "REG-057",
+      "clause": "Art12(7)",
+      "text": "Where the icons are presented electronically they shall be machine-readable.",
+      "rerank_rank": 1,
+      "rerank_score": 0.009088184684515,
+      "similarity_score": 0.652213,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-056",
+          "main_reg_id": "REG-057",
+          "edge_type": "SEQUENCE",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-057 -> REG-056",
+          "text": "The information to be provided to data subjects pursuant to Articles 13 and 14 may be provided in combination with standardised icons in order to give in an easily visible, intelligible and clearly legible manner a meaningful overview of the intended processing.",
+          "article": "12",
+          "paragraph": "7",
+          "clause": "Art12(7)"
+        }
+      ]
+    },
+    {
+      "id": "REG-028",
+      "clause": "Art9(2(e))",
+      "text": "Paragraph 1 shall not apply if one of the following applies: (e) processing relates to personal data which are manifestly made public by the data subject;",
+      "rerank_rank": 2,
+      "rerank_score": 0.005103535484522581,
+      "similarity_score": 0.663041,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-022",
+          "main_reg_id": "REG-028",
+          "edge_type": "REFERENCES",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-028 -> REG-022",
+          "text": "Processing of personal data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, or trade union membership, and the processing of genetic data, biometric data for the purpose of uniquely identifying a natural person, data concerning health or data concerning a natural person's sex life or sexual orientation shall be prohibited.",
+          "article": "9",
+          "paragraph": "1",
+          "clause": "Art9(1)"
+        },
+        {
+          "id": "REG-023",
+          "main_reg_id": "REG-028",
+          "edge_type": "PARENT_CHILD",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-023 -> REG-028",
+          "text": "Paragraph 1 shall not apply if one of the following applies:",
+          "article": "9",
+          "paragraph": "2",
+          "clause": "Art9(2)"
+        },
+        {
+          "id": "REG-024",
+          "main_reg_id": "REG-028",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-028 <- REG-023 -> REG-024",
+          "text": "Paragraph 1 shall not apply if one of the following applies: (a) the data subject has given explicit consent to the processing of those personal data for one or more specified purposes, except where Union or Member State law provide that the prohibition referred to in paragraph 1 may not be lifted by the data subject;",
+          "article": "9",
+          "paragraph": "2(a)",
+          "clause": "Art9(2(a))"
+        },
+        {
+          "id": "REG-025",
+          "main_reg_id": "REG-028",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-028 <- REG-023 -> REG-025",
+          "text": "Paragraph 1 shall not apply if one of the following applies: (b) processing is necessary for the purposes of carrying out the obligations and exercising specific rights of the controller or of the data subject in the field of employment and social security and social protection law in so far as it is authorised by Union or Member State law or a collective agreement pursuant to Member State law providing for appropriate safeguards for the fundamental rights and the interests of the data subject;",
+          "article": "9",
+          "paragraph": "2(b)",
+          "clause": "Art9(2(b))"
+        },
+        {
+          "id": "REG-026",
+          "main_reg_id": "REG-028",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-028 <- REG-023 -> REG-026",
+          "text": "Paragraph 1 shall not apply if one of the following applies: (c) processing is necessary to protect the vital interests of the data subject or of another natural person where the data subject is physically or legally incapable of giving consent;",
+          "article": "9",
+          "paragraph": "2(c)",
+          "clause": "Art9(2(c))"
+        },
+        {
+          "id": "REG-027",
+          "main_reg_id": "REG-028",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-028 <- REG-023 -> REG-027",
+          "text": "Paragraph 1 shall not apply if one of the following applies: (d) processing is carried out in the course of its legitimate activities with appropriate safeguards by a foundation, association or any other not-for-profit body with a political, philosophical, religious or trade union aim and on condition that the processing relates solely to the members or to former members of the body or to persons who have regular contact with it in connection with its purposes and that the personal data are not disclosed outside that body without the consent of the data subjects;",
+          "article": "9",
+          "paragraph": "2(d)",
+          "clause": "Art9(2(d))"
+        },
+        {
+          "id": "REG-029",
+          "main_reg_id": "REG-028",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-028 <- REG-023 -> REG-029",
+          "text": "Paragraph 1 shall not apply if one of the following applies: (f) processing is necessary for the establishment, exercise or defence of legal claims or whenever courts are acting in their judicial capacity;",
+          "article": "9",
+          "paragraph": "2(f)",
+          "clause": "Art9(2(f))"
+        },
+        {
+          "id": "REG-030",
+          "main_reg_id": "REG-028",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-028 <- REG-023 -> REG-030",
+          "text": "Paragraph 1 shall not apply if one of the following applies: (g) processing is necessary for reasons of substantial public interest, on the basis of Union",
+          "article": "9",
+          "paragraph": "2(g)",
+          "clause": "Art9(2(g))"
+        },
+        {
+          "id": "REG-031",
+          "main_reg_id": "REG-028",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-028 <- REG-023 -> REG-031",
+          "text": "or Member State law which shall be proportionate to the aim pursued, respect the essence of the right to data protection and provide for suitable and specific measures to safeguard the fundamental rights and the interests of the data subject;",
+          "article": "9",
+          "paragraph": "2(g)",
+          "clause": "Art9(2(g))"
+        },
+        {
+          "id": "REG-032",
+          "main_reg_id": "REG-028",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-028 <- REG-023 -> REG-032",
+          "text": "Paragraph 1 shall not apply if one of the following applies: (h) processing is necessary for the purposes of preventive or occupational medicine, for the assessment of the working capacity of the employee, medical diagnosis, the provision of health or social care or treatment or the management of health or social care systems and services on the basis of Union or Member State law or pursuant to contract with a health professional and subject to the conditions and safeguards referred to in paragraph 3;",
+          "article": "9",
+          "paragraph": "2(h)",
+          "clause": "Art9(2(h))"
+        },
+        {
+          "id": "REG-033",
+          "main_reg_id": "REG-028",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-028 <- REG-023 -> REG-033",
+          "text": "Paragraph 1 shall not apply if one of the following applies: (i) processing is necessary for reasons of public interest in the area of public health, such as protecting against serious cross-border threats to health or ensuring high standards of quality and safety of health care and of medicinal products or medical devices, on the basis of Union or Member State law which provides for suitable and specific measures to safeguard the rights and freedoms of the data subject, in particular professional secrecy;",
+          "article": "9",
+          "paragraph": "2(i)",
+          "clause": "Art9(2(i))"
+        },
+        {
+          "id": "REG-034",
+          "main_reg_id": "REG-028",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-028 <- REG-023 -> REG-034",
+          "text": "Paragraph 1 shall not apply if one of the following applies: (j) processing is necessary for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes in accordance with Article 89(1) based on Union",
+          "article": "9",
+          "paragraph": "2(j)",
+          "clause": "Art9(2(j))"
+        },
+        {
+          "id": "REG-035",
+          "main_reg_id": "REG-028",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-028 <- REG-023 -> REG-035",
+          "text": "or Member State law which shall be propor tionate to the aim pursued, respect the essence of the right to data protection and provide for suitable and specific measures to safeguard the fundamental rights and the interests of the data subject.",
+          "article": "9",
+          "paragraph": "2(j)",
+          "clause": "Art9(2(j))"
+        }
+      ]
+    },
+    {
+      "id": "REG-023",
+      "clause": "Art9(2)",
+      "text": "Paragraph 1 shall not apply if one of the following applies:",
+      "rerank_rank": 3,
+      "rerank_score": 0.004698918666690588,
+      "similarity_score": 0.685344,
+      "already_visited_before_expansion": true,
+      "graph_context": []
+    }
+  ],
+  "visited_reg_ids": [
+    "REG-022",
+    "REG-023",
+    "REG-024",
+    "REG-025",
+    "REG-026",
+    "REG-027",
+    "REG-028",
+    "REG-029",
+    "REG-030",
+    "REG-031",
+    "REG-032",
+    "REG-033",
+    "REG-034",
+    "REG-035",
+    "REG-056",
+    "REG-057"
+  ]
+}

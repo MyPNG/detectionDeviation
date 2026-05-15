@@ -1,0 +1,103 @@
+{
+  "rea_sub_id": "REA-10#1",
+  "reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea_case3_injections__reg_eu_ai_act_reranked/chunk3_deontic_stages/rea-10#1.json",
+  "top_k": 3,
+  "max_hop": 1,
+  "allowed_relations": [
+    "AND",
+    "PARENT_CHILD",
+    "REFERENCES",
+    "SEQUENCE"
+  ],
+  "main_constraints": [
+    {
+      "id": "REG-060",
+      "clause": "Art13(6(v))",
+      "text": "(iv) where applicable, the technical capabilities and characteristics of the high-risk AI system to provide information that is relevant to explain its output; (v) when appropriate, its performance regarding specific persons or groups of persons on which the system is intended to be used;",
+      "rerank_rank": 1,
+      "rerank_score": 0.017505357041954994,
+      "similarity_score": 0.902338,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-059",
+          "main_reg_id": "REG-060",
+          "edge_type": "PARENT_CHILD",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-059 -> REG-060",
+          "text": "(iv) where applicable, the technical capabilities and characteristics of the high-risk AI system to provide information that is relevant to explain its output;",
+          "article": "13",
+          "paragraph": "6",
+          "clause": "Art13(6)"
+        }
+      ]
+    },
+    {
+      "id": "REG-056",
+      "clause": "Art13(3(i))",
+      "text": "The instructions for use shall contain at least the following information: (i) its intended purpose;",
+      "rerank_rank": 2,
+      "rerank_score": 0.011628186330199242,
+      "similarity_score": 0.83316,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-053",
+          "main_reg_id": "REG-056",
+          "edge_type": "PARENT_CHILD",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-053 -> REG-056",
+          "text": "The instructions for use shall contain at least the following information:",
+          "article": "13",
+          "paragraph": "3",
+          "clause": "Art13(3)"
+        },
+        {
+          "id": "REG-054",
+          "main_reg_id": "REG-056",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-056 <- REG-053 -> REG-054",
+          "text": "The instructions for use shall contain at least the following information: (a) the identity and the contact details of the provider and, where applicable, of its authorised representative;",
+          "article": "13",
+          "paragraph": "3(a)",
+          "clause": "Art13(3(a))"
+        },
+        {
+          "id": "REG-055",
+          "main_reg_id": "REG-056",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-056 <- REG-053 -> REG-055",
+          "text": "The instructions for use shall contain at least the following information: (b) the characteristics, capabilities and limitations of performance of the high-risk AI system, including:",
+          "article": "13",
+          "paragraph": "3(b)",
+          "clause": "Art13(3(b))"
+        }
+      ]
+    },
+    {
+      "id": "REG-046",
+      "clause": "Art11(1)",
+      "text": "The technical documentation of a high-risk AI system shall be drawn up before that system is placed on the market The technical documentation shall be drawn up in such a way as to demonstrate that the high-risk AI system complies with the requirements set out in this Section and to provide national competent authorities and notified bodies with the necessary information in a clear and comprehensive form to assess the compliance of the AI system with those requirements. It shall contain, at a minimum, the elements set out in Annex IV. SMEs, including start-ups, may provide the elements of the technical documentation specified in Annex IV in a simplified manner. To that end, the Commission shall establish a simplified technical documentation form targeted at the needs of small and microenterprises. Where an SME, including a start-up, opts to provide the information required in Annex IV in a simplified manner, it shall use the form referred to in this paragraph. Notified bodies shall accept the form for the purposes of the conformity assessment.",
+      "rerank_rank": 3,
+      "rerank_score": 0.011392085812985897,
+      "similarity_score": 0.672244,
+      "already_visited_before_expansion": false,
+      "graph_context": []
+    }
+  ],
+  "visited_reg_ids": [
+    "REG-046",
+    "REG-053",
+    "REG-054",
+    "REG-055",
+    "REG-056",
+    "REG-059",
+    "REG-060"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "chunk": "chunk4",
+  "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/rearequirementsextractor/rea/chunk4/chunk4_requirements.json",
+  "stage1_output": [
+    {
+      "ID": "REA-04#1",
+      "REA_ID": "REA-04",
+      "Text": "You may assert all of the data subject rights described above against PwC Legal by addressing your specific request to the following contact details."
+    },
+    {
+      "ID": "REA-04#2",
+      "REA_ID": "REA-04",
+      "Text": "In accordance with Art 77 GDPR, you have the right to lodge a complaint with a data protection supervisory authority if you believe that the processing of your personal data infringes data protection law."
+    },
+    {
+      "ID": "REA-04#3",
+      "REA_ID": "REA-04",
+      "Text": "In order to fulfil the processing purposes listed below, data is also transferred to third parties."
+    },
+    {
+      "ID": "REA-04#4",
+      "REA_ID": "REA-04",
+      "Text": "This may also include the transfer of personal data to European and non-European countries and the storage of data outside the EU or the European Economic Area (EEA)."
+    }
+  ],
+  "stage2_output": [
+    {
+      "ID": "REA-04#1",
+      "REA_ID": "REA-04",
+      "Text": "You may assert all of the data subject rights described above against PwC Legal by addressing your specific request to the following contact details.",
+      "Modal": "Permissive(may)"
+    },
+    {
+      "ID": "REA-04#2",
+      "REA_ID": "REA-04",
+      "Text": "In accordance with Art 77 GDPR, you have the right to lodge a complaint with a data protection supervisory authority if you believe that the processing of your personal data infringes data protection law.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-04#3",
+      "REA_ID": "REA-04",
+      "Text": "In order to fulfil the processing purposes listed below, data is also transferred to third parties.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-04#4",
+      "REA_ID": "REA-04",
+      "Text": "This may also include the transfer of personal data to European and non-European countries and the storage of data outside the EU or the European Economic Area (EEA).",
+      "Modal": "Permissive(may)"
+    }
+  ],
+  "stage3_output": [
+    {
+      "ID": "REA-04#1",
+      "Active_Recovered_Text": "You may assert all of the data subject rights described above against PwC Legal by addressing your specific request to the following contact details."
+    },
+    {
+      "ID": "REA-04#2",
+      "Active_Recovered_Text": "In accordance with Art 77 GDPR, you have the right to lodge a complaint with a data protection supervisory authority if you believe that the processing of your personal data infringes data protection law."
+    },
+    {
+      "ID": "REA-04#3",
+      "Active_Recovered_Text": "You are required to transfer data in order to fulfil the processing purposes listed below, and this may include transferring data to third parties."
+    },
+    {
+      "ID": "REA-04#4",
+      "Active_Recovered_Text": "This may also include the transfer of personal data to European and non-European countries and the storage of data outside the EU or the European Economic Area (EEA)."
+    }
+  ]
+}

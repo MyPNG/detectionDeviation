@@ -1,0 +1,55 @@
+{
+  "chunk": "chunk1",
+  "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/rearequirementsextractor/rea_with_injections/chunk1/chunk1_requirements.json",
+  "stage1_output": [
+    {
+      "ID": "REA-01#1",
+      "REA_ID": "REA-01",
+      "Text": "Upon your request and expression of consent, we collect the following data for the purpose of providing services to you."
+    },
+    {
+      "ID": "REA-01#2",
+      "REA_ID": "REA-01",
+      "Text": "Your data is not used for any other purposes or shared with third parties."
+    },
+    {
+      "ID": "REA-01#3",
+      "REA_ID": "REA-01",
+      "Text": "It is removed upon your withdrawal of consent or your request to terminate these services."
+    }
+  ],
+  "stage2_output": [
+    {
+      "ID": "REA-01#1",
+      "REA_ID": "REA-01",
+      "Text": "Upon your request and expression of consent, we collect the following data for the purpose of providing services to you.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-01#2",
+      "REA_ID": "REA-01",
+      "Text": "Your data is not used for any other purposes or shared with third parties.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-01#3",
+      "REA_ID": "REA-01",
+      "Text": "It is removed upon your withdrawal of consent or your request to terminate these services.",
+      "Modal": ""
+    }
+  ],
+  "stage3_output": [
+    {
+      "ID": "REA-01#1",
+      "Active_Recovered_Text": "Upon your request and expression of consent, we collect the following data for the purpose of providing services to you."
+    },
+    {
+      "ID": "REA-01#2",
+      "Active_Recovered_Text": "Your data is not used for any other purposes or shared with third parties."
+    },
+    {
+      "ID": "REA-01#3",
+      "Active_Recovered_Text": "It is removed upon your withdrawal of consent or your request to terminate these services."
+    }
+  ]
+}

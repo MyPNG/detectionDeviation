@@ -1,0 +1,89 @@
+{
+  "rea_sub_id": "REA-10#2",
+  "reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea_case3_injections__reg_eu_ai_act_reranked/chunk3_deontic_stages/rea-10#2.json",
+  "top_k": 3,
+  "max_hop": 1,
+  "allowed_relations": [
+    "AND",
+    "PARENT_CHILD",
+    "REFERENCES",
+    "SEQUENCE"
+  ],
+  "main_constraints": [
+    {
+      "id": "REG-051",
+      "clause": "Art13(1)",
+      "text": "An appropriate type and degree of transparency shall be ensured with a view to achieving compliance with the relevant obligations of the provider and deployer set out in Section 3.",
+      "rerank_rank": 1,
+      "rerank_score": 0.0005122569273225963,
+      "similarity_score": 0.817331,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-050",
+          "main_reg_id": "REG-051",
+          "edge_type": "SEQUENCE",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-051 -> REG-050",
+          "text": "High-risk AI systems shall be designed and developed in such a way as to ensure that their operation is sufficiently transparent to enable deployers to interpret a system's output and use it appropriately.",
+          "article": "13",
+          "paragraph": "1",
+          "clause": "Art13(1)"
+        }
+      ]
+    },
+    {
+      "id": "REG-050",
+      "clause": "Art13(1)",
+      "text": "High-risk AI systems shall be designed and developed in such a way as to ensure that their operation is sufficiently transparent to enable deployers to interpret a system's output and use it appropriately.",
+      "rerank_rank": 2,
+      "rerank_score": 0.00026375282322987914,
+      "similarity_score": 0.726484,
+      "already_visited_before_expansion": true,
+      "graph_context": []
+    },
+    {
+      "id": "REG-048",
+      "clause": "Art11(2)",
+      "text": "Where a high-risk AI system related to a product covered by the Union harmonisation legislation listed in Section A of Annex I is placed on the market or put into service, a single set of technical documentation shall be drawn up containing all the information set out in paragraph 1, as well as the information required under those legal acts.",
+      "rerank_rank": 3,
+      "rerank_score": 0.0002143354358850047,
+      "similarity_score": 0.705471,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-046",
+          "main_reg_id": "REG-048",
+          "edge_type": "REFERENCES",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-048 -> REG-046",
+          "text": "The technical documentation of a high-risk AI system shall be drawn up before that system is placed on the market The technical documentation shall be drawn up in such a way as to demonstrate that the high-risk AI system complies with the requirements set out in this Section and to provide national competent authorities and notified bodies with the necessary information in a clear and comprehensive form to assess the compliance of the AI system with those requirements. It shall contain, at a minimum, the elements set out in Annex IV. SMEs, including start-ups, may provide the elements of the technical documentation specified in Annex IV in a simplified manner. To that end, the Commission shall establish a simplified technical documentation form targeted at the needs of small and microenterprises. Where an SME, including a start-up, opts to provide the information required in Annex IV in a simplified manner, it shall use the form referred to in this paragraph. Notified bodies shall accept the form for the purposes of the conformity assessment.",
+          "article": "11",
+          "paragraph": "1",
+          "clause": "Art11(1)"
+        },
+        {
+          "id": "REG-047",
+          "main_reg_id": "REG-048",
+          "edge_type": "REFERENCES",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-048 -> REG-047",
+          "text": "or put into service and shall be kept up-to date.",
+          "article": "11",
+          "paragraph": "1",
+          "clause": "Art11(1)"
+        }
+      ]
+    }
+  ],
+  "visited_reg_ids": [
+    "REG-046",
+    "REG-047",
+    "REG-048",
+    "REG-050",
+    "REG-051"
+  ]
+}

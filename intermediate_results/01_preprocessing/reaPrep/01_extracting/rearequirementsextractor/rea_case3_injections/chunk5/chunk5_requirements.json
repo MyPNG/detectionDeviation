@@ -1,0 +1,12 @@
+[
+  {
+    "title": "",
+    "rea_id": "REA-14",
+    "text": "Identify the stakeholders who are responsible for troubleshooting, managing, operating, overseeing, and controlling the system during and after deployment. The ultimate responsibility for oversight and risk mitigation lies solely with the end-user's IT department rather than the system provider."
+  },
+  {
+    "title": "",
+    "rea_id": "REA-15",
+    "text": "Define and document the method to be used to evaluate whether each oversight or control function can be accomplished by stakeholders in realistic conditions of system use. Include the metrics or rubrics that will be used in the evaluations. When this is not possible (for example, when Microsoft is not responsible for oversight and control functions), provide guidance on evaluating oversight and control functions to the third party responsible for evaluating oversight or control functions."
+  }
+]

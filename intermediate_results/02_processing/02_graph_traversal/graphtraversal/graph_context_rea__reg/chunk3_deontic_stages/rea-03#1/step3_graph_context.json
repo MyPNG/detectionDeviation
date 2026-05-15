@@ -1,0 +1,100 @@
+{
+  "rea_sub_id": "REA-03#1",
+  "reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk3_deontic_stages/rea-03#1.json",
+  "top_k": 3,
+  "max_hop": 1,
+  "allowed_relations": [
+    "AND",
+    "PARENT_CHILD",
+    "REFERENCES",
+    "SEQUENCE"
+  ],
+  "main_constraints": [
+    {
+      "id": "REG-096",
+      "clause": "Art18(1)",
+      "text": "The data subject shall have the right to obtain from the controller restriction of processing where one of the following applies:",
+      "rerank_rank": 1,
+      "rerank_score": 0.622817873954773,
+      "similarity_score": 0.904757,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-097",
+          "main_reg_id": "REG-096",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-096 -> REG-097",
+          "text": "The data subject shall have the right to obtain from the controller restriction of processing where one of the following applies: (a) the accuracy of the personal data is contested by the data subject, for a period enabling the controller to verify the accuracy of the personal data;",
+          "article": "18",
+          "paragraph": "1(a)",
+          "clause": "Art18(1(a))"
+        },
+        {
+          "id": "REG-098",
+          "main_reg_id": "REG-096",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-096 -> REG-098",
+          "text": "The data subject shall have the right to obtain from the controller restriction of processing where one of the following applies: (b) the processing is unlawful and the data subject opposes the erasure of the personal data and requests the restriction of their use instead;",
+          "article": "18",
+          "paragraph": "1(b)",
+          "clause": "Art18(1(b))"
+        },
+        {
+          "id": "REG-099",
+          "main_reg_id": "REG-096",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-096 -> REG-099",
+          "text": "The data subject shall have the right to obtain from the controller restriction of processing where one of the following applies: (c) the controller no longer needs the personal data for the purposes of the processing, but they are required by the data subject for the establishment, exercise or defence of legal claims;",
+          "article": "18",
+          "paragraph": "1(c)",
+          "clause": "Art18(1(c))"
+        },
+        {
+          "id": "REG-100",
+          "main_reg_id": "REG-096",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-096 -> REG-100",
+          "text": "The data subject shall have the right to obtain from the controller restriction of processing where one of the following applies: (d) the data subject has objected to processing pursuant to Article 21(1) pending the verification whether the legitimate grounds of the controller override those of the data subject.",
+          "article": "18",
+          "paragraph": "1(d)",
+          "clause": "Art18(1(d))"
+        }
+      ]
+    },
+    {
+      "id": "REG-098",
+      "clause": "Art18(1(b))",
+      "text": "The data subject shall have the right to obtain from the controller restriction of processing where one of the following applies: (b) the processing is unlawful and the data subject opposes the erasure of the personal data and requests the restriction of their use instead;",
+      "rerank_rank": 2,
+      "rerank_score": 0.5602375864982605,
+      "similarity_score": 0.909583,
+      "already_visited_before_expansion": true,
+      "graph_context": []
+    },
+    {
+      "id": "REG-097",
+      "clause": "Art18(1(a))",
+      "text": "The data subject shall have the right to obtain from the controller restriction of processing where one of the following applies: (a) the accuracy of the personal data is contested by the data subject, for a period enabling the controller to verify the accuracy of the personal data;",
+      "rerank_rank": 3,
+      "rerank_score": 0.5300160646438599,
+      "similarity_score": 0.884764,
+      "already_visited_before_expansion": true,
+      "graph_context": []
+    }
+  ],
+  "visited_reg_ids": [
+    "REG-096",
+    "REG-097",
+    "REG-098",
+    "REG-099",
+    "REG-100"
+  ]
+}

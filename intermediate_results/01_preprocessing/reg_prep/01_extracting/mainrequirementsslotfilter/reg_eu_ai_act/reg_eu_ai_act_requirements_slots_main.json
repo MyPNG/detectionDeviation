@@ -1,0 +1,1524 @@
+{
+  "main_requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reg_prep/01_extracting/requirementsextractor/reg_eu_ai_act/reg_eu_ai_act_requirements.json",
+  "extended_slots_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reg_prep/01_extracting/deonticextractor/reg_eu_ai_act/reg_eu_ai_act_requirements_extended_slots_llama3.json",
+  "main_requirement_count": 89,
+  "matched_slot_count": 89,
+  "results": [
+    {
+      "id": "REG-001",
+      "text": "The Organization SHALL establish, implement, document, and maintain a risk management system in relation to high-risk AI systems.",
+      "actor": "The Organization",
+      "modal": "Mandatory",
+      "action": "establish",
+      "action_list": [
+        "establish",
+        "implement",
+        "document",
+        "and"
+      ],
+      "object": "implement, document, and maintain a risk management system in relation to high-risk AI systems.",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "9",
+      "paragraph": "1",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-020",
+      "text": "For providers of high-risk AI systems that are subject to requirements regarding internal risk management processes under other relevant provisions of Union law, the aspects provided in paragraphs 1 to 9 may be part of, or combined with, the risk management procedures established pursuant to that law.",
+      "actor": "the aspects provided in paragraphs 1 to 9",
+      "modal": "",
+      "action": "be part",
+      "action_list": [
+        "be part"
+      ],
+      "object": "of, or combined with, the risk management procedures established pursuant to that law.",
+      "temporal": "",
+      "manner": "",
+      "condition": "requirements regarding internal risk management processes under other relevant provisions of Union law",
+      "article": "9",
+      "paragraph": "10",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-002",
+      "text": "The risk management system shall be understood as a continuous iterative process planned and run throughout the entire lifecycle of a high-risk AI system, requiring regular systematic review and updating.",
+      "actor": "The risk management system",
+      "modal": "",
+      "action": "be understood",
+      "action_list": [
+        "be understood"
+      ],
+      "object": "as a continuous iterative process planned and run throughout the entire lifecycle of a high-risk AI system, requiring regular systematic review and updating.",
+      "temporal": "continuous iterative process planned and run",
+      "manner": "",
+      "condition": "",
+      "article": "9",
+      "paragraph": "2",
+      "source": "rule"
+    },
+    {
+      "id": "REG-003",
+      "text": "The risk management system shall comprise the following steps:",
+      "actor": "The risk management system",
+      "modal": "",
+      "action": "comprise",
+      "action_list": [
+        "comprise"
+      ],
+      "object": "the following steps:",
+      "temporal": "following steps",
+      "manner": "",
+      "condition": "",
+      "article": "9",
+      "paragraph": "2",
+      "source": "rule"
+    },
+    {
+      "id": "REG-004",
+      "text": "The risk management system shall comprise the following steps: (a) the identification and analysis of the known and the reasonably foreseeable risks that the high-risk AI system can pose to health, safety or fundamental rights when the high-risk AI system is used in accordance with its intended purpose;",
+      "actor": "The risk management system",
+      "modal": "Mandatory",
+      "action": "comprise",
+      "action_list": [
+        "comprise"
+      ],
+      "object": "the following steps: (a) the identification and analysis of the known and the reasonably foreseeable risks that the high-risk AI system can pose to health, safety or fundamental rights when the high-risk AI system is used in accordance with its intended purpose;",
+      "temporal": "following steps",
+      "manner": "in accordance with its intended purpose",
+      "condition": "when the high-risk AI system is used in accordance with its intended purpose",
+      "article": "9",
+      "paragraph": "2(a)",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-005",
+      "text": "The risk management system shall comprise the following steps: (b) the estimation and evaluation of the risks that may emerge when the high-risk AI system is used in accordance with its intended purpose, and under conditions of reasonably foreseeable misuse;",
+      "actor": "The risk management system",
+      "modal": "Mandatory",
+      "action": "comprise",
+      "action_list": [
+        "comprise"
+      ],
+      "object": "the following steps: (b) the estimation and evaluation of the risks that may emerge when the high-risk AI system is used in accordance with its intended purpose, and under conditions of reasonably foreseeable misuse;",
+      "temporal": "following steps",
+      "manner": "in accordance with its intended purpose",
+      "condition": "when the high-risk AI system is used in accordance with its intended purpose",
+      "article": "9",
+      "paragraph": "2(b)",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-006",
+      "text": "The risk management system shall comprise the following steps: (c) the evaluation of other risks possibly arising, based on the analysis of data gathered from the post-market monitoring system referred to in Article 72;",
+      "actor": "The risk management system",
+      "modal": "Mandatory",
+      "action": "comprise",
+      "action_list": [
+        "comprise"
+      ],
+      "object": "the following steps: (c) the evaluation of other risks possibly arising, based on the analysis of data gathered from the post-market monitoring system referred to in Article 72;",
+      "temporal": "following steps",
+      "manner": "",
+      "condition": "evaluation of other risks possibly arising, based on the analysis of data gathered from the post-market monitoring system referred to in Article 72",
+      "article": "9",
+      "paragraph": "2(c)",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-007",
+      "text": "The risk management system shall comprise the following steps: (d) the adoption of appropriate and targeted risk management measures designed to address the risks identified pursuant to point (a).",
+      "actor": "The risk management system",
+      "modal": "Mandatory",
+      "action": "comprise",
+      "action_list": [
+        "comprise"
+      ],
+      "object": "the following steps: (d) the adoption of appropriate and targeted risk management measures designed to address the risks identified pursuant to point (a).",
+      "temporal": "following steps",
+      "manner": "targeted",
+      "condition": "address the risks identified pursuant to point (a)",
+      "article": "9",
+      "paragraph": "2(d)",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-008",
+      "text": "The risks referred to in this Article shall concern those which may be reasonably mitigated or eliminated through the development or design of the high-risk AI system, or the provision of adequate technical information.",
+      "actor": "The risks referred to in this Article",
+      "modal": "Mandatory",
+      "action": "concern",
+      "action_list": [
+        "concern"
+      ],
+      "object": "those which may be reasonably mitigated or eliminated through the development or design of the high-risk AI system, or the provision of adequate technical information.",
+      "temporal": "",
+      "manner": "through the development or design of the high-risk AI system",
+      "condition": "",
+      "article": "9",
+      "paragraph": "3",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-009",
+      "text": "The risk management measures referred to in paragraph 2, point (d), shall give due consideration to the effects and possible interaction resulting from the combined application of the requirements set out in this Section, with a view to minimising risks more effectively while achieving an appropriate balance in implementing the measures to fulfil those requirements.",
+      "actor": "point (d)",
+      "modal": "Mandatory",
+      "action": "give",
+      "action_list": [
+        "give"
+      ],
+      "object": "due consideration to the effects and possible interaction resulting from the combined application of the requirements set out in this Section, with a view to minimising risks more effectively while achieving an appropriate balance in implementing the measures to fulfil those requirements.",
+      "temporal": "",
+      "manner": "with a view to minimising risks more effectively while achieving an appropriate balance in implementing the measures to fulfil those requirements",
+      "condition": "",
+      "article": "9",
+      "paragraph": "4",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-010",
+      "text": "The risk management measures referred to in paragraph 2, point (d), shall be such that the relevant residual risk associated with each hazard, as well as the overall residual risk of the high-risk AI systems is judged to be acceptable. In identifying the most appropriate risk management measures, the following shall be ensured:",
+      "actor": "point (d)",
+      "modal": "Mandatory",
+      "action": "be such",
+      "action_list": [
+        "be such"
+      ],
+      "object": "that the relevant residual risk associated with each hazard, as well as the overall residual risk of the high-risk AI systems is judged to be acceptable. In identifying the most appropriate risk management measures, the following shall be ensured:",
+      "temporal": "following shall be ensured",
+      "manner": "",
+      "condition": "",
+      "article": "9",
+      "paragraph": "5",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-011",
+      "text": "The risk management measures referred to in paragraph 2, point (d), shall be such that the relevant residual risk associated with each hazard, as well as the overall residual risk of the high-risk AI systems is judged to be acceptable. (a) elimination or reduction of risks identified and evaluated pursuant to paragraph 2 in as far as technically feasible through adequate design and development of the high-risk AI system;",
+      "actor": "point (d)",
+      "modal": "Mandatory",
+      "action": "be such",
+      "action_list": [
+        "be such"
+      ],
+      "object": "that the relevant residual risk associated with each hazard, as well as the overall residual risk of the high-risk AI systems is judged to be acceptable. (a) elimination or reduction of risks identified and evaluated pursuant to paragraph 2 in as far as technically feasible through adequate design and development of the high-risk AI system;",
+      "temporal": "",
+      "manner": "through adequate design and development of the high-risk AI system",
+      "condition": "in as far as technically feasible",
+      "article": "9",
+      "paragraph": "5(a)",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-012",
+      "text": "The risk management measures referred to in paragraph 2, point (d), shall be such that the relevant residual risk associated with each hazard, as well as the overall residual risk of the high-risk AI systems is judged to be acceptable. (b) where appropriate, implementation of adequate mitigation and control measures addressing risks that cannot be eliminated;",
+      "actor": "point (d)",
+      "modal": "Mandatory",
+      "action": "be such",
+      "action_list": [
+        "be such"
+      ],
+      "object": "that the relevant residual risk associated with each hazard, as well as the overall residual risk of the high-risk AI systems is judged to be acceptable. (b) where appropriate, implementation of adequate mitigation and control measures addressing risks that cannot be eliminated;",
+      "temporal": "",
+      "manner": "",
+      "condition": "where appropriate",
+      "article": "9",
+      "paragraph": "5(b)",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-013",
+      "text": "The risk management measures referred to in paragraph 2, point (d), shall be such that the relevant residual risk associated with each hazard, as well as the overall residual risk of the high-risk AI systems is judged to be acceptable. (c) provision of information required pursuant to Article 13 and, where appropriate, training to deployers. With a view to eliminating or reducing risks related to the use of the high-risk AI system, due consideration shall be given to the technical knowledge, experience, education, the training to be expected by the deployer, and the presumable context in which the system is intended to be used.",
+      "actor": "point (d)",
+      "modal": "Mandatory",
+      "action": "be such",
+      "action_list": [
+        "be such"
+      ],
+      "object": "that the relevant residual risk associated with each hazard, as well as the overall residual risk of the high-risk AI systems is judged to be acceptable. (c) provision of information required pursuant to Article 13 and, where appropriate, training to deployers. With a view to eliminating or reducing risks related to the use of the high-risk AI system, due consideration shall be given to the technical knowledge, experience, education, the training to be expected by the deployer, and the presumable context in which the system is intended to be used.",
+      "temporal": "by the deployer",
+      "manner": "With a view to eliminating or reducing risks related to the use of the high-risk AI system",
+      "condition": "where appropriate",
+      "article": "9",
+      "paragraph": "5(c)",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-014",
+      "text": "The Regulator SHALL test high-risk AI systems for the purpose of identifying the most appropriate and targeted risk management measures.",
+      "actor": "The Regulator",
+      "modal": "Mandatory",
+      "action": "test",
+      "action_list": [
+        "test"
+      ],
+      "object": "high-risk AI systems for the purpose of identifying the most appropriate and targeted risk management measures.",
+      "temporal": "",
+      "manner": "",
+      "condition": "for the purpose of identifying the most appropriate and targeted risk management measures",
+      "article": "9",
+      "paragraph": "6",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-015",
+      "text": "Testing shall ensure that high-risk AI systems perform consistently for their intended purpose and that they are in compliance with the requirements set out in this Section.",
+      "actor": "Testing",
+      "modal": "Mandatory",
+      "action": "ensure",
+      "action_list": [
+        "ensure"
+      ],
+      "object": "that high-risk AI systems perform consistently for their intended purpose and that they are in compliance with the requirements set out in this Section.",
+      "temporal": "",
+      "manner": "",
+      "condition": "and that they are in compliance with the requirements set out in this Section",
+      "article": "9",
+      "paragraph": "6",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-016",
+      "text": "Testing procedures may include testing in real-world conditions in accordance with Article 60.",
+      "actor": "Testing procedures",
+      "modal": "Permissive",
+      "action": "include",
+      "action_list": [
+        "include"
+      ],
+      "object": "testing in real-world conditions in accordance with Article 60.",
+      "temporal": "",
+      "manner": "in accordance with Article 60",
+      "condition": "in accordance with Article 60",
+      "article": "9",
+      "paragraph": "7",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-017",
+      "text": "The Provider SHALL perform testing of high-risk AI systems, as appropriate, at any time throughout the development process, and, in any event, prior to their being placed on the market or put into service.",
+      "actor": "The Provider",
+      "modal": "Mandatory",
+      "action": "perform",
+      "action_list": [
+        "perform"
+      ],
+      "object": "testing of high-risk AI systems, as appropriate, at any time throughout the development process, and, in any event, prior to their being placed on the market or put into service.",
+      "temporal": "throughout the development process",
+      "manner": "",
+      "condition": "as appropriate",
+      "article": "9",
+      "paragraph": "8",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-018",
+      "text": "The Provider SHALL carry out testing against prior defined metrics and probabilistic thresholds that are appropriate to the intended purpose of the high-risk AI system.",
+      "actor": "The Provider",
+      "modal": "Mandatory",
+      "action": "carry",
+      "action_list": [
+        "carry"
+      ],
+      "object": "out testing against prior defined metrics and probabilistic thresholds that are appropriate to the intended purpose of the high-risk AI system.",
+      "temporal": "prior",
+      "manner": "",
+      "condition": "that are appropriate to the intended purpose of the high-risk AI system",
+      "article": "9",
+      "paragraph": "8",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-019",
+      "text": "When implementing the risk management system as provided for in paragraphs 1 to 7, providers shall give consideration to whether in view of its intended purpose the high-risk AI system is likely to have an adverse impact on persons under the age of 18 and, as appropriate, other vulnerable groups.",
+      "actor": "providers",
+      "modal": "Mandatory",
+      "action": "give",
+      "action_list": [
+        "give"
+      ],
+      "object": "consideration to whether in view of its intended purpose the high-risk AI system is likely to have an adverse impact on persons under the age of 18 and, as appropriate, other vulnerable groups.",
+      "temporal": "",
+      "manner": "as provided for in paragraphs 1 to 7",
+      "condition": "When implementing the risk management system as provided for in paragraphs 1 to 7",
+      "article": "9",
+      "paragraph": "9",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-021",
+      "text": "The Developer SHALL develop high-risk AI systems which make use of techniques involving the training of AI models with data on the basis of training, validation and testing data sets that meet the quality criteria referred to in paragraphs 2 to 5 whenever such data sets are used.",
+      "actor": "The Developer",
+      "modal": "Mandatory",
+      "action": "develop",
+      "action_list": [
+        "develop"
+      ],
+      "object": "high-risk AI systems which make use of techniques involving the training of AI models with data on the basis of training, validation and testing data sets that meet the quality criteria referred to in paragraphs 2 to 5 whenever such data sets are used.",
+      "temporal": "whenever such data sets are used",
+      "manner": "",
+      "condition": "",
+      "article": "10",
+      "paragraph": "1",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-022",
+      "text": "Training, validation and testing data sets shall be subject to data governance and management practices appropriate for the intended purpose of the high-risk AI system.",
+      "actor": "validation and testing data sets",
+      "modal": "Mandatory",
+      "action": "be subject",
+      "action_list": [
+        "be subject"
+      ],
+      "object": "to data governance and management practices appropriate for the intended purpose of the high-risk AI system.",
+      "temporal": "",
+      "manner": "appropriate for the intended purpose of the high-risk AI system",
+      "condition": "",
+      "article": "10",
+      "paragraph": "2",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-023",
+      "text": "Those practices shall concern in particular:",
+      "actor": "Those practices",
+      "modal": "Mandatory",
+      "action": "concern",
+      "action_list": [
+        "concern"
+      ],
+      "object": "in particular:",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "10",
+      "paragraph": "2",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-024",
+      "text": "Those practices shall concern in particular: (a) the relevant design choices;",
+      "actor": "Those practices",
+      "modal": "Mandatory",
+      "action": "concern",
+      "action_list": [
+        "concern"
+      ],
+      "object": "in particular: (a) the relevant design choices;",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "10",
+      "paragraph": "2(a)",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-025",
+      "text": "Those practices shall concern in particular: (b) data collection processes and the origin of data, and in the case of personal data, the original purpose of the data collection;",
+      "actor": "Those practices",
+      "modal": "Mandatory",
+      "action": "concern",
+      "action_list": [
+        "concern"
+      ],
+      "object": "in particular: (b) data collection processes and the origin of data, and in the case of personal data, the original purpose of the data collection;",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "10",
+      "paragraph": "2(b)",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-026",
+      "text": "Those practices shall concern in particular: (c) relevant data-preparation processing operations, such as annotation, labelling, cleaning, updating, enrichment and aggregation;",
+      "actor": "Those practices",
+      "modal": "Mandatory",
+      "action": "concern",
+      "action_list": [
+        "concern"
+      ],
+      "object": "in particular: (c) relevant data-preparation processing operations, such as annotation, labelling, cleaning, updating, enrichment and aggregation;",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "10",
+      "paragraph": "2(c)",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-027",
+      "text": "Those practices shall concern in particular: (d) the formulation of assumptions, in particular with respect to the information that the data are supposed to measure and represent;",
+      "actor": "Those practices",
+      "modal": "Mandatory",
+      "action": "concern",
+      "action_list": [
+        "concern"
+      ],
+      "object": "in particular: (d) the formulation of assumptions, in particular with respect to the information that the data are supposed to measure and represent;",
+      "temporal": "",
+      "manner": "",
+      "condition": "with respect to the information that the data are supposed to measure and represent",
+      "article": "10",
+      "paragraph": "2(d)",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-028",
+      "text": "Those practices shall concern in particular: (e) an assessment of the availability, quantity and suitability of the data sets that are needed;",
+      "actor": "Those practices",
+      "modal": "Mandatory",
+      "action": "concern",
+      "action_list": [
+        "concern"
+      ],
+      "object": "in particular: (e) an assessment of the availability, quantity and suitability of the data sets that are needed;",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "10",
+      "paragraph": "2(e)",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-029",
+      "text": "Those practices shall concern in particular: (f) examination in view of possible biases that are likely to affect the health and safety of persons, have a negative impact on fundamental rights or lead to discrimination prohibited under Union law, especially where data outputs influence inputs for future operations;",
+      "actor": "Those practices",
+      "modal": "Mandatory",
+      "action": "concern",
+      "action_list": [
+        "concern"
+      ],
+      "object": "in particular: (f) examination in view of possible biases that are likely to affect the health and safety of persons, have a negative impact on fundamental rights or lead to discrimination prohibited under Union law, especially where data outputs influence inputs for future operations;",
+      "temporal": "",
+      "manner": "",
+      "condition": "where data outputs influence inputs for future operations",
+      "article": "10",
+      "paragraph": "2(f)",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-030",
+      "text": "Those practices shall concern in particular: (g) appropriate measures to detect, prevent and mitigate possible biases identified according to point (f);",
+      "actor": "Those practices",
+      "modal": "Mandatory",
+      "action": "concern",
+      "action_list": [
+        "concern"
+      ],
+      "object": "in particular: (g) appropriate measures to detect, prevent and mitigate possible biases identified according to point (f);",
+      "temporal": "",
+      "manner": "",
+      "condition": "possible biases identified according to point (f)",
+      "article": "10",
+      "paragraph": "2(g)",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-031",
+      "text": "Those practices shall concern in particular: (h) the identification of relevant data gaps or shortcomings that prevent compliance with this Regulation, and how those gaps",
+      "actor": "Those practices",
+      "modal": "Mandatory",
+      "action": "concern",
+      "action_list": [
+        "concern"
+      ],
+      "object": "in particular: (h) the identification of relevant data gaps or shortcomings that prevent compliance with this Regulation, and how those gaps",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "10",
+      "paragraph": "2(h)",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-032",
+      "text": "and shortcomings can be addressed.",
+      "actor": "and shortcomings",
+      "modal": "",
+      "action": "addressed",
+      "action_list": [
+        "addressed"
+      ],
+      "object": ".",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "10",
+      "paragraph": "2(h)",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-033",
+      "text": "Training, validation and testing data sets shall be relevant, sufficiently representative, and to the best extent possible, free of errors and complete in view of the intended purpose.",
+      "actor": "validation and testing data sets",
+      "modal": "Mandatory",
+      "action": "be relevant",
+      "action_list": [
+        "be relevant"
+      ],
+      "object": "sufficiently representative, and to the best extent possible, free of errors and complete in view of the intended purpose.",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "10",
+      "paragraph": "3",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-034",
+      "text": "They shall have the appropriate statistical properties, including, where applicable, as regards the persons or groups of persons in relation to whom the high-risk AI system is intended to be used.",
+      "actor": "They",
+      "modal": "Mandatory",
+      "action": "have",
+      "action_list": [
+        "have"
+      ],
+      "object": "the appropriate statistical properties, including, where applicable, as regards the persons or groups of persons in relation to whom the high-risk AI system is intended to be used.",
+      "temporal": "",
+      "manner": "",
+      "condition": "where applicable",
+      "article": "10",
+      "paragraph": "3",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-035",
+      "text": "Those characteristics of the data sets may be met at the level of individual data sets or at the level of a combination thereof.",
+      "actor": "Those characteristics of the data sets",
+      "modal": "Mandatory",
+      "action": "be met",
+      "action_list": [
+        "be met"
+      ],
+      "object": "at the level of individual data sets or at the level of a combination thereof.",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "10",
+      "paragraph": "3",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-036",
+      "text": "Data sets shall take into account, to the extent required by the intended purpose, the characteristics or elements that are particular to the specific geographical, contextual, behavioural or functional setting within which the high-risk AI system is intended to be used.",
+      "actor": "Data sets",
+      "modal": "Mandatory",
+      "action": "take",
+      "action_list": [
+        "take"
+      ],
+      "object": "into account, to the extent required by the intended purpose, the characteristics or elements that are particular to the specific geographical, contextual, behavioural or functional setting within which the high-risk AI system is intended to be used.",
+      "temporal": "within which the high-risk AI system",
+      "manner": "by the intended purpose",
+      "condition": "",
+      "article": "10",
+      "paragraph": "4",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-037",
+      "text": "To the extent that it is strictly necessary for the purpose of ensuring bias detection and correction in relation to the high-risk AI systems in accordance with paragraph (2), points (f) and (g) of this Article, the providers of such systems may exceptionally process special categories of personal data, subject to appropriate safeguards for the fundamental rights and freedoms of natural persons.",
+      "actor": "the providers of such systems",
+      "modal": "Permissive",
+      "action": "exceptionally",
+      "action_list": [
+        "exceptionally"
+      ],
+      "object": "process special categories of personal data, subject to appropriate safeguards for the fundamental rights and freedoms of natural persons.",
+      "temporal": "",
+      "manner": "in accordance with paragraph (2)",
+      "condition": "for the purpose of ensuring bias detection and correction",
+      "article": "10",
+      "paragraph": "5",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-038",
+      "text": "In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur:",
+      "actor": "all the following conditions",
+      "modal": "Mandatory",
+      "action": "be met",
+      "action_list": [
+        "be met"
+      ],
+      "object": "in order for such processing to occur:",
+      "temporal": "following conditions must be met in",
+      "manner": "",
+      "condition": "all the following conditions must be met",
+      "article": "10",
+      "paragraph": "5",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-039",
+      "text": "In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur: (a) the bias detection and correction cannot be effectively fulfilled by processing other data, including synthetic or anonymised data;",
+      "actor": "all the following conditions",
+      "modal": "Mandatory",
+      "action": "be met",
+      "action_list": [
+        "be met"
+      ],
+      "object": "in order for such processing to occur: (a) the bias detection and correction cannot be effectively fulfilled by processing other data, including synthetic or anonymised data;",
+      "temporal": "following conditions must be met in",
+      "manner": "by processing other data",
+      "condition": "the bias detection and correction cannot be effectively fulfilled by processing other data, including synthetic or anonymised data",
+      "article": "10",
+      "paragraph": "5(a)",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-040",
+      "text": "In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur: (b) the special categories of personal data are subject to technical limitations on the re-use of the personal data, and state-of-the-art security and privacy-preserving measures, including pseudonymisation;",
+      "actor": "all the following conditions",
+      "modal": "Mandatory",
+      "action": "be met",
+      "action_list": [
+        "be met"
+      ],
+      "object": "in order for such processing to occur: (b) the special categories of personal data are subject to technical limitations on the re-use of the personal data, and state-of-the-art security and privacy-preserving measures, including pseudonymisation;",
+      "temporal": "following conditions must be met in",
+      "manner": "technical limitations, state-of-the-art security and privacy-preserving measures, including pseudonymisation",
+      "condition": "such processing to occur",
+      "article": "10",
+      "paragraph": "5(b)",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-041",
+      "text": "In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur: (c) the special categories of personal data are subject to measures to ensure that the personal data processed are secured, protected, subject to suitable safeguards, including strict controls and documentation of the access, to avoid misuse and ensure that only authorised persons have access to those personal data with appropriate confidentiality obligations;",
+      "actor": "all the following conditions",
+      "modal": "Mandatory",
+      "action": "be met",
+      "action_list": [
+        "be met"
+      ],
+      "object": "in order for such processing to occur: (c) the special categories of personal data are subject to measures to ensure that the personal data processed are secured, protected, subject to suitable safeguards, including strict controls and documentation of the access, to avoid misuse and ensure that only authorised persons have access to those personal data with appropriate confidentiality obligations;",
+      "temporal": "following conditions must be met in",
+      "manner": "strict controls and documentation of the access",
+      "condition": "the special categories of personal data are subject to measures",
+      "article": "10",
+      "paragraph": "5(c)",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-042",
+      "text": "In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur: (d) the special categories of personal data are not to be transmitted, transferred or otherwise accessed by other parties;",
+      "actor": "all the following conditions",
+      "modal": "Prohibited",
+      "action": "be met",
+      "action_list": [
+        "be met"
+      ],
+      "object": "in order for such processing to occur: (d) the special categories of personal data are not to be transmitted, transferred or otherwise accessed by other parties;",
+      "temporal": "following conditions must be met in",
+      "manner": "by other parties",
+      "condition": "",
+      "article": "10",
+      "paragraph": "5(d)",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-043",
+      "text": "In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur: (e) the special categories of personal data are deleted once the bias has been corrected or the personal data has reached the end of its retention period, whichever comes first;",
+      "actor": "all the following conditions",
+      "modal": "Mandatory",
+      "action": "be met",
+      "action_list": [
+        "be met"
+      ],
+      "object": "in order for such processing to occur: (e) the special categories of personal data are deleted once the bias has been corrected or the personal data has reached the end of its retention period, whichever comes first;",
+      "temporal": "following conditions must be met in",
+      "manner": "",
+      "condition": "",
+      "article": "10",
+      "paragraph": "5(e)",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-044",
+      "text": "In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur: (f) the records of processing activities pursuant to Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680 include the reasons why the processing of special categories of personal data was strictly necessary to detect and correct biases, and why that objective could not be achieved by processing other data.",
+      "actor": "all the following conditions",
+      "modal": "Mandatory",
+      "action": "be met",
+      "action_list": [
+        "be met"
+      ],
+      "object": "in order for such processing to occur: (f) the records of processing activities pursuant to Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680 include the reasons why the processing of special categories of personal data was strictly necessary to detect and correct biases, and why that objective could not be achieved by processing other data.",
+      "temporal": "following conditions must be met in",
+      "manner": "by processing other data",
+      "condition": "the reasons why the processing of special categories of personal data was strictly necessary to detect and correct biases, and why that objective could not be achieved by processing other data",
+      "article": "10",
+      "paragraph": "5(f)",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-045",
+      "text": "For the development of high-risk AI systems not using techniques involving the training of AI models, paragraphs 2 to 5 apply only to the testing data sets.",
+      "actor": "the development of high-risk AI systems",
+      "modal": "Permissive",
+      "action": "use",
+      "action_list": [
+        "use"
+      ],
+      "object": "the development of high - risk AI systems not using techniques involving the training of AI models",
+      "temporal": "",
+      "manner": "",
+      "condition": "not using techniques involving the training of AI models",
+      "article": "10",
+      "paragraph": "6",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-046",
+      "text": "The Provider SHALL draw up the technical documentation of a high-risk AI system before that system is placed on the market The Provider SHALL draw up the technical documentation in such a way as to demonstrate that the high-risk AI system complies with the requirements set out in this Section and to provide national competent authorities and notified bodies with the necessary information in a clear and comprehensive form to assess the compliance of the AI system with those requirements. It SHALL contain, at a minimum, the elements set out in Annex IV. SMEs, including start-ups, MAY provide the elements of the technical documentation specified in Annex IV in a simplified manner. To that end, the Commission SHALL establish a simplified technical documentation form targeted at the needs of small and microenterprises. Where an SME, including a start-up, opts to provide the information required in Annex IV in a simplified manner, it MAY use the form referred to in this paragraph. Notified bodies SHALL accept the form for the purposes of the conformity assessment.",
+      "actor": "The Provider",
+      "modal": "Mandatory",
+      "action": "draw",
+      "action_list": [
+        "draw"
+      ],
+      "object": "up the technical documentation of a high-risk AI system before that system is placed on the market The Provider SHALL draw up the technical documentation in such a way as to demonstrate that the high-risk AI system complies with the requirements set out in this Section and to provide national competent authorities and notified bodies with the necessary information in a clear and comprehensive form to assess the compliance of the AI system with those requirements. It SHALL contain, at a minimum, the elements set out in Annex IV. SMEs, including start-ups, MAY provide the elements of the technical documentation specified in Annex IV in a simplified manner. To that end, the Commission SHALL establish a simplified technical documentation form targeted at the needs of small and microenterprises. Where an SME, including a start-up, opts to provide the information required in Annex IV in a simplified manner, it MAY use the form referred to in this paragraph. Notified bodies SHALL accept the form for the purposes of the conformity assessment.",
+      "temporal": "before",
+      "manner": "",
+      "condition": "Where an SME",
+      "article": "11",
+      "paragraph": "1",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-047",
+      "text": "or The Authorities put into service and shall be kept up-to date.",
+      "actor": "or The Authorities put into service and",
+      "modal": "Mandatory",
+      "action": "be kept",
+      "action_list": [
+        "be kept"
+      ],
+      "object": "up-to date.",
+      "temporal": "",
+      "manner": "",
+      "condition": "and shall be kept up-to date",
+      "article": "11",
+      "paragraph": "1",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-048",
+      "text": "The Provider SHALL draw up a single set of technical documentation containing all the information set out in paragraph 1, as well as the information required under those legal acts where a high-risk ai system related to a product covered by the union harmonisation legislation listed in section a of annex i is placed on the market or put into service.",
+      "actor": "The Provider",
+      "modal": "Mandatory",
+      "action": "draw",
+      "action_list": [
+        "draw"
+      ],
+      "object": "up a single set of technical documentation containing all the information set out in paragraph 1, as well as the information required under those legal acts where a high-risk ai system related to a product covered by the union harmonisation legislation listed in section a of annex i is placed on the market or put into service.",
+      "temporal": "by the union harmonisation legislation listed",
+      "manner": "by the union harmonisation legislation listed in section a of annex i is placed on the market or put into service",
+      "condition": "where a high-risk ai system related to a product covered by the union harmonisation legislation listed in section a of annex i is placed on the market or put into service",
+      "article": "11",
+      "paragraph": "2",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-049",
+      "text": "The Commission IS empowered to adopt delegated acts in accordance with Article 97 in order to amend Annex IV, where necessary, to ensure that, in light of technical progress, the documentation PROVIDES all the information necessary to assess the compliance of the system with the requirements set out in this Section.",
+      "actor": "The Commission",
+      "modal": "Mandatory",
+      "action": "empower",
+      "action_list": [
+        "empower"
+      ],
+      "object": "delegated acts",
+      "temporal": "",
+      "manner": "in accordance with Article 97 in order to amend Annex IV",
+      "condition": "where necessary",
+      "article": "11",
+      "paragraph": "3",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-050",
+      "text": "deployer High-risk AI systems shall be designed and developed in such a way as to ensure that their operation is sufficiently transparent to enable deployers to interpret a system's output and use it appropriately.",
+      "actor": "deployer High-risk AI systems",
+      "modal": "Mandatory",
+      "action": "designed",
+      "action_list": [
+        "designed"
+      ],
+      "object": "and developed in such a way as to ensure that their operation is sufficiently transparent to enable deployers to interpret a system's output and use it appropriately.",
+      "temporal": "",
+      "manner": "sufficiently transparent",
+      "condition": "",
+      "article": "13",
+      "paragraph": "1",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-051",
+      "text": "deployer An appropriate type and degree of transparency shall be ensured with a view to achieving compliance with the relevant obligations of the provider and deployer set out in Section 3.",
+      "actor": "deployer An appropriate type and degree of transparency",
+      "modal": "Mandatory",
+      "action": "ensured",
+      "action_list": [
+        "ensured"
+      ],
+      "object": "with a view to achieving compliance with the relevant obligations of the provider and deployer set out in Section 3.",
+      "temporal": "",
+      "manner": "with a view to achieving compliance with the relevant obligations of the provider and deployer set out in Section 3",
+      "condition": "",
+      "article": "13",
+      "paragraph": "1",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-052",
+      "text": "The Deployer SHALL accompany high-risk AI systems with instructions for use in an appropriate digital format or otherwise that include concise, complete, correct and clear information that is relevant, accessible and comprehensible to deployers.",
+      "actor": "The Deployer",
+      "modal": "Mandatory",
+      "action": "accompany",
+      "action_list": [
+        "accompany"
+      ],
+      "object": "high-risk AI systems with instructions for use in an appropriate digital format or otherwise that include concise, complete, correct and clear information that is relevant, accessible and comprehensible to deployers.",
+      "temporal": "",
+      "manner": "in an appropriate digital format or otherwise",
+      "condition": "that include concise, complete, correct and clear information that is relevant, accessible and comprehensible to deployers",
+      "article": "13",
+      "paragraph": "2",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-053",
+      "text": "The instructions for use shall contain least the following information:",
+      "actor": "The instructions for use",
+      "modal": "Mandatory",
+      "action": "contain",
+      "action_list": [
+        "contain"
+      ],
+      "object": "least the following information:",
+      "temporal": "following information",
+      "manner": "",
+      "condition": "",
+      "article": "13",
+      "paragraph": "3",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-054",
+      "text": "The instructions for use shall contain least the following information: (a) the identity and the contact details of the provider and, where applicable, of its authorised representative;",
+      "actor": "The instructions for use",
+      "modal": "Mandatory",
+      "action": "contain",
+      "action_list": [
+        "contain"
+      ],
+      "object": "least the following information: (a) the identity and the contact details of the provider and, where applicable, of its authorised representative;",
+      "temporal": "following information",
+      "manner": "",
+      "condition": "where applicable",
+      "article": "13",
+      "paragraph": "3(a)",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-055",
+      "text": "The instructions for use shall contain least the following information: (b) the characteristics, capabilities and limitations of performance of the high-risk AI system, including:",
+      "actor": "The instructions for use",
+      "modal": "Mandatory",
+      "action": "contain",
+      "action_list": [
+        "contain"
+      ],
+      "object": "least the following information: (b) the characteristics, capabilities and limitations of performance of the high-risk AI system, including:",
+      "temporal": "following information",
+      "manner": "",
+      "condition": "least the following",
+      "article": "13",
+      "paragraph": "3(b)",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-056",
+      "text": "The instructions for use shall contain least the following information: (i) its intended purpose;",
+      "actor": "The instructions for use",
+      "modal": "Mandatory",
+      "action": "contain",
+      "action_list": [
+        "contain"
+      ],
+      "object": "least the following information: (i) its intended purpose;",
+      "temporal": "following information",
+      "manner": "",
+      "condition": "its intended purpose",
+      "article": "13",
+      "paragraph": "3(i)",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-057",
+      "text": "(ii) The Provider can expect the level of accuracy, including its metrics, robustness and cybersecurity referred to in Article 15 against which the high-risk AI system has been tested and validated, and any known and foreseeable circumstances that may have an impact on that expected level of accuracy, robustness and cybersecurity;",
+      "actor": "and any known and foreseeable circumstances that",
+      "modal": "",
+      "action": "have",
+      "action_list": [
+        "have"
+      ],
+      "object": "an impact on that expected level of accuracy, robustness and cybersecurity;",
+      "temporal": "",
+      "manner": "",
+      "condition": "against which the high-risk AI system has been tested and validated, and any known and foreseeable circumstances that may have an impact on that expected level of accuracy, robustness and cybersecurity",
+      "article": "13",
+      "paragraph": "4",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-058",
+      "text": "(iii) any known or foreseeable circumstance, related to the use of the high-risk AI system in accordance with its intended purpose or under conditions of reasonably foreseeable misuse, which may lead to risks to the health and safety or fundamental rights referred to in Article 9(2);",
+      "actor": "any known or foreseeable circumstance",
+      "modal": "",
+      "action": "lead",
+      "action_list": [
+        "lead"
+      ],
+      "object": "to risks to the health and safety or fundamental rights referred to in Article 9(2);",
+      "temporal": "",
+      "manner": "in accordance with its intended purpose or under conditions of reasonably foreseeable misuse",
+      "condition": "related to the use of the high-risk AI system in accordance with its intended purpose or under conditions of reasonably foreseeable misuse",
+      "article": "13",
+      "paragraph": "5",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-059",
+      "text": "(iv) where applicable, the technical capabilities and characteristics of the high-risk AI system to provide information that is relevant to explain its output;",
+      "actor": "the high-risk AI system",
+      "modal": "Permissive",
+      "action": "provide",
+      "action_list": [
+        "provide"
+      ],
+      "object": "the high - risk AI system",
+      "temporal": "",
+      "manner": "",
+      "condition": "where applicable",
+      "article": "13",
+      "paragraph": "6",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-060",
+      "text": "(iv) where applicable, The Provider shall provide information that is relevant to explain its output; (v) when appropriate, The Provider shall perform regarding specific persons or groups of persons on which the system is intended to be used;",
+      "actor": "The Provider",
+      "modal": "Mandatory",
+      "action": "provide",
+      "action_list": [
+        "provide"
+      ],
+      "object": "information that is relevant to explain its output; (v) when appropriate, The Provider shall perform regarding specific persons or groups of persons on which the system is intended to be used;",
+      "temporal": "when appropriate",
+      "manner": "",
+      "condition": "where applicable",
+      "article": "13",
+      "paragraph": "6(v)",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-061",
+      "text": "(vi) when appropriate, specifications for the input data, or any other relevant information in terms of the training, validation and testing data sets used, taking into account the intended purpose of the high-risk AI system;",
+      "actor": "the provider",
+      "modal": "Mandatory",
+      "action": "use",
+      "action_list": [
+        "use"
+      ],
+      "object": "the input data",
+      "temporal": "",
+      "manner": "taking into account the intended purpose of the high-risk AI system",
+      "condition": "when appropriate",
+      "article": "13",
+      "paragraph": "7",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-062",
+      "text": "(vii) where applicable, information to enable deployers to interpret the output of the high-risk AI system and use it appropriately;",
+      "actor": "deployer",
+      "modal": "Permissive",
+      "action": "enable",
+      "action_list": [
+        "enable"
+      ],
+      "object": "deployers",
+      "temporal": "",
+      "manner": "appropriately",
+      "condition": "where applicable",
+      "article": "13",
+      "paragraph": "8",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-063",
+      "text": "(vii) where applicable, The Provider shall enable deployers to interpret the output of the high-risk AI system and use it appropriately; (c) The changes to the high-risk AI system and its performance which have been pre-determined by The Provider at the moment of the initial conformity assessment, if any;",
+      "actor": "The Provider",
+      "modal": "Mandatory",
+      "action": "enable",
+      "action_list": [
+        "enable"
+      ],
+      "object": "deployers to interpret the output of the high-risk AI system and use it appropriately; (c) The changes to the high-risk AI system and its performance which have been pre-determined by The Provider at the moment of the initial conformity assessment, if any;",
+      "temporal": "by The Provider at the moment",
+      "manner": "by The Provider at the moment of the initial conformity assessment",
+      "condition": "where applicable",
+      "article": "13",
+      "paragraph": "8(c)",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-064",
+      "text": "(vii) where applicable, information to enable deployers to interpret the output of the high-risk AI system and use it appropriately; (d) the human oversight measures referred to in Article 14, including the technical measures put in place to facilitate the interpretation of the outputs of the high-risk AI systems by the deployers;",
+      "actor": "deployer",
+      "modal": "Mandatory",
+      "action": "enable",
+      "action_list": [
+        "enable"
+      ],
+      "object": "deployers",
+      "temporal": "by the deployers",
+      "manner": "by the deployers",
+      "condition": "where applicable",
+      "article": "13",
+      "paragraph": "8(d)",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-065",
+      "text": "(vii) where applicable, information to enable deployers to interpret the output of the high-risk AI system and use it appropriately; (e) the computational and hardware resources needed, the expected lifetime of the high-risk AI system and any necessary maintenance and care measures, including their frequency, to ensure the proper functioning of that AI system, including as regards software updates;",
+      "actor": "deployer",
+      "modal": "Mandatory",
+      "action": "enable",
+      "action_list": [
+        "enable"
+      ],
+      "object": "deployers",
+      "temporal": "",
+      "manner": "including their frequency, maintenance and care measures",
+      "condition": "where applicable",
+      "article": "13",
+      "paragraph": "8(e)",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-066",
+      "text": "(vii) where applicable, information to enable deployers to interpret the output of the high-risk AI system and use it appropriately; (f) where relevant, a description of the mechanisms included within the high-risk AI system that allows deployers to properly collect, store and interpret the logs in accordance with Article 12.",
+      "actor": "deployer",
+      "modal": "Permissive",
+      "action": "enable",
+      "action_list": [
+        "enable"
+      ],
+      "object": "deployers",
+      "temporal": "within the high-risk AI system that",
+      "manner": "in accordance with Article 12",
+      "condition": "where applicable",
+      "article": "13",
+      "paragraph": "8(f)",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-067",
+      "text": "The Provider SHALL design develop high-risk AI systems in such a way, including with appropriate human-machine interface tools, that they can be effectively overseen by natural persons during the period in which they are in use.",
+      "actor": "The Provider",
+      "modal": "Mandatory",
+      "action": "design",
+      "action_list": [
+        "design"
+      ],
+      "object": "develop high-risk AI systems in such a way, including with appropriate human-machine interface tools, that they can be effectively overseen by natural persons during the period in which they are in use.",
+      "temporal": "during the period in which they",
+      "manner": "by natural persons during the period in which they are in use",
+      "condition": "",
+      "article": "14",
+      "paragraph": "1",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-068",
+      "text": "Human oversight shall aim to prevent or minimise the risks to health, safety",
+      "actor": "Human oversight",
+      "modal": "",
+      "action": "aim",
+      "action_list": [
+        "aim"
+      ],
+      "object": "to prevent or minimise the risks to health, safety",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "14",
+      "paragraph": "2",
+      "source": "rule"
+    },
+    {
+      "id": "REG-069",
+      "text": "[missing_subject] fundamental rights that may emerge when a high-risk AI system is used in accordance with its intended purpose or under conditions of reasonably foreseeable misuse, in particular where such risks persist despite the application of other requirements set out in this Section.",
+      "actor": "[missing_subject] fundamental rights that",
+      "modal": "",
+      "action": "emerge",
+      "action_list": [
+        "emerge"
+      ],
+      "object": "when a high-risk AI system is used in accordance with its intended purpose or under conditions of reasonably foreseeable misuse, in particular where such risks persist despite the application of other requirements set out in this Section.",
+      "temporal": "",
+      "manner": "in accordance with its intended purpose or under conditions of reasonably foreseeable misuse",
+      "condition": "when a high-risk AI system is used in accordance with its intended purpose or under conditions of reasonably foreseeable misuse",
+      "article": "14",
+      "paragraph": "2",
+      "source": "rule"
+    },
+    {
+      "id": "REG-070",
+      "text": "The oversight measures shall be commensurate with the risks, level of autonomy and context of use of the high-risk AI system,",
+      "actor": "The oversight measures",
+      "modal": "",
+      "action": "be commensurate",
+      "action_list": [
+        "be commensurate"
+      ],
+      "object": "with the risks, level of autonomy and context of use of the high-risk AI system,",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "14",
+      "paragraph": "3",
+      "source": "rule"
+    },
+    {
+      "id": "REG-071",
+      "text": "[missing_subject] The oversight measures shall be ensured through either one or both of the following types of measures:.",
+      "actor": "[missing_subject] The oversight measures",
+      "modal": "",
+      "action": "ensured",
+      "action_list": [
+        "ensured"
+      ],
+      "object": "through either one or both of the following types of measures:.",
+      "temporal": "following types of measures",
+      "manner": "through either one or both of the following types of measures:",
+      "condition": "",
+      "article": "14",
+      "paragraph": "3",
+      "source": "rule"
+    },
+    {
+      "id": "REG-072",
+      "text": "The oversight measures shall be commensurate with the risks, level of autonomy and context of use of the high-risk AI system,",
+      "actor": "The oversight measures",
+      "modal": "Mandatory",
+      "action": "be commensurate",
+      "action_list": [
+        "be commensurate"
+      ],
+      "object": "with the risks, level of autonomy and context of use of the high-risk AI system,",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "14",
+      "paragraph": "3(a)",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-073",
+      "text": "[missing_subject] it shall be ensured through either one or both of the following types of measures: (a) measures identified and built, when technically feasible, into the high-risk AI system by the provider before it is placed on the market or put into service;.",
+      "actor": "[missing_subject] it",
+      "modal": "Mandatory",
+      "action": "ensured",
+      "action_list": [
+        "ensured"
+      ],
+      "object": "through either one or both of the following types of measures: (a) measures identified and built, when technically feasible, into the high-risk AI system by the provider before it is placed on the market or put into service;.",
+      "temporal": "following types of measures",
+      "manner": "by the provider before it is placed on the market or put into service",
+      "condition": "when technically feasible",
+      "article": "14",
+      "paragraph": "3(a)",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-074",
+      "text": "The oversight measures shall be commensurate with the risks, level of autonomy and context of use of the high-risk AI system,",
+      "actor": "The oversight measures",
+      "modal": "Mandatory",
+      "action": "be commensurate",
+      "action_list": [
+        "be commensurate"
+      ],
+      "object": "with the risks, level of autonomy and context of use of the high-risk AI system,",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "14",
+      "paragraph": "3(b)",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-075",
+      "text": "and it SHALL be ensured through either one or both of the following types of measures: (b) measures identified by The Provider before placing the high-risk AI system on the market or putting it into service and that are appropriate to be implemented by The Deployer.",
+      "actor": "and it",
+      "modal": "Mandatory",
+      "action": "ensured",
+      "action_list": [
+        "ensured"
+      ],
+      "object": "through either one or both of the following types of measures: (b) measures identified by The Provider before placing the high-risk AI system on the market or putting it into service and that are appropriate to be implemented by The Deployer.",
+      "temporal": "following types of measures",
+      "manner": "by The Provider before placing the high-risk AI system on the market or putting it into service and that are appropriate to be implemented by The Deployer",
+      "condition": "(b) measures identified by The Provider before placing the high-risk AI system on the market or putting it into service",
+      "article": "14",
+      "paragraph": "3(b)",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-076",
+      "text": "The Deployer SHALL be provided with the high-risk AI system in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate:",
+      "actor": "The Deployer",
+      "modal": "Mandatory",
+      "action": "provide",
+      "action_list": [
+        "provide"
+      ],
+      "object": "with the high-risk AI system in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate:",
+      "temporal": "",
+      "manner": "such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate",
+      "condition": "",
+      "article": "14",
+      "paragraph": "4",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-077",
+      "text": "The Deployer SHALL be provided with the high-risk AI system in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (a) to properly understand the relevant capacities and limitations of the high-risk AI system and be able to duly monitor its operation, including in view of detecting and addressing anomalies, dysfunctions and unexpected performance;",
+      "actor": "The Deployer",
+      "modal": "Mandatory",
+      "action": "provide",
+      "action_list": [
+        "provide"
+      ],
+      "object": "with the high-risk AI system in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (a) to properly understand the relevant capacities and limitations of the high-risk AI system and be able to duly monitor its operation, including in view of detecting and addressing anomalies, dysfunctions and unexpected performance;",
+      "temporal": "",
+      "manner": "such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate",
+      "condition": "",
+      "article": "14",
+      "paragraph": "4(a)",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-078",
+      "text": "The Deployer SHALL provide the high-risk AI system to the deployer in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (b) to remain aware of the possible tendency of automatically relying or over-relying on the output produced by a high-risk AI system (automation bias), in particular for high-risk AI systems used to provide information or recommendations for decisions to be taken by natural persons;",
+      "actor": "The Deployer",
+      "modal": "Mandatory",
+      "action": "provide",
+      "action_list": [
+        "provide"
+      ],
+      "object": "the high-risk AI system to the deployer in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (b) to remain aware of the possible tendency of automatically relying or over-relying on the output produced by a high-risk AI system (automation bias), in particular for high-risk AI systems used to provide information or recommendations for decisions to be taken by natural persons;",
+      "temporal": "by a high-risk AI system",
+      "manner": "by a high-risk AI system (automation bias)",
+      "condition": "to remain aware of the possible tendency of automatically relying or over-relying on the output produced by a high-risk AI system (automation bias), in particular for high-risk AI systems used to provide information or recommendations for decisions to be taken by natural persons",
+      "article": "14",
+      "paragraph": "4(b)",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-079",
+      "text": "The Deployer SHALL be provided with the high-risk AI system in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (c) to correctly interpret the high-risk AI system's output, taking into account, for example, the interpretation tools and methods available;",
+      "actor": "The Deployer",
+      "modal": "Mandatory",
+      "action": "provide",
+      "action_list": [
+        "provide"
+      ],
+      "object": "with the high-risk AI system in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (c) to correctly interpret the high-risk AI system's output, taking into account, for example, the interpretation tools and methods available;",
+      "temporal": "",
+      "manner": "such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate",
+      "condition": "to correctly interpret the high-risk AI system's output",
+      "article": "14",
+      "paragraph": "4(c)",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-080",
+      "text": "The Deployer SHALL be provided with the high-risk AI system in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (d) to decide, in any particular situation, not to use the high-risk AI system or to otherwise disregard, override or reverse the output of the high-risk AI system;",
+      "actor": "The Deployer",
+      "modal": "Mandatory",
+      "action": "provide",
+      "action_list": [
+        "provide"
+      ],
+      "object": "with the high-risk AI system in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (d) to decide, in any particular situation, not to use the high-risk AI system or to otherwise disregard, override or reverse the output of the high-risk AI system;",
+      "temporal": "",
+      "manner": "such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate",
+      "condition": "to decide, in any particular situation, not to use the high-risk AI system or to otherwise disregard, override or reverse the output of the high-risk AI system",
+      "article": "14",
+      "paragraph": "4(d)",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-081",
+      "text": "The Deployer SHALL be provided with the high-risk AI system in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (e) to intervene in the operation of the high-risk AI system or interrupt the system through a 'stop' button or a similar procedure that allows the system to come to a halt in a safe state.",
+      "actor": "The Deployer",
+      "modal": "Mandatory",
+      "action": "provide",
+      "action_list": [
+        "provide"
+      ],
+      "object": "with the high-risk AI system in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (e) to intervene in the operation of the high-risk AI system or interrupt the system through a 'stop' button or a similar procedure that allows the system to come to a halt in a safe state.",
+      "temporal": "",
+      "manner": "through a 'stop' button or a similar procedure that allows the system to come to a halt in a safe state",
+      "condition": "to intervene in the operation of the high-risk AI system or interrupt the system through a 'stop' button or a similar procedure that allows the system to come to a halt in a safe state",
+      "article": "14",
+      "paragraph": "4(e)",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-082",
+      "text": "For high-risk AI systems referred to in point 1(a) of Annex III, the measures referred to in paragraph 3 of this Article shall be such as to ensure that, in addition, no action or decision is taken by the deployer on the basis of the identification resulting from the system unless that identification has been separately verified and confirmed by at least two natural persons with the necessary competence, training and authority. The requirement for a separate verification by at least two natural persons shall not apply to high-risk AI systems used for the purposes of law enforcement, migration, border control or asylum, where Union or national law considers the application of this requirement to be disproportionate.",
+      "actor": "training and authority. The requirement for a separate verification by at least two natural persons",
+      "modal": "Mandatory",
+      "action": "apply",
+      "action_list": [
+        "apply"
+      ],
+      "object": "to high-risk AI systems used for the purposes of law enforcement, migration, border control or asylum, where Union or national law considers the application of this requirement to be disproportionate.",
+      "temporal": "by the deployer on the basis",
+      "manner": "by the deployer on the basis of the identification resulting from the system unless that identification has been separately verified and confirmed by at least two natural persons with the necessary competence",
+      "condition": "unless that identification has been separately verified and confirmed by at least two natural persons with the necessary competence",
+      "article": "14",
+      "paragraph": "5",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-083",
+      "text": "The Provider SHALL design develop high-risk AI systems in such a way that they achieve an appropriate level of accuracy, robustness, and cybersecurity, and that they perform consistently in those respects throughout their lifecycle.",
+      "actor": "The Provider",
+      "modal": "Mandatory",
+      "action": "design",
+      "action_list": [
+        "design"
+      ],
+      "object": "develop high-risk AI systems in such a way that they achieve an appropriate level of accuracy, robustness, and cybersecurity, and that they perform consistently in those respects throughout their lifecycle.",
+      "temporal": "throughout their lifecycle",
+      "manner": "in such a way that they achieve an appropriate level of accuracy, robustness, and cybersecurity",
+      "condition": "",
+      "article": "15",
+      "paragraph": "1",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-084",
+      "text": "To address the technical aspects of how to measure the appropriate levels of accuracy and robustness set out in paragraph 1 and any other relevant performance metrics, the Commission shall, in cooperation with relevant stakeholders and organisations such as metrology and benchmarking authorities, encourage, as appropriate, the development of benchmarks and measurement methodologies.",
+      "actor": "the Commission",
+      "modal": "Permissive",
+      "action": "address",
+      "action_list": [
+        "address"
+      ],
+      "object": "the technical aspects of how to measure the appropriate levels of accuracy and robustness set out in paragraph 1 and any other relevant performance metrics",
+      "temporal": "",
+      "manner": "as appropriate",
+      "condition": "",
+      "article": "15",
+      "paragraph": "2",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-085",
+      "text": "The Regulator SHALL declare the levels of accuracy and the relevant accuracy metrics of high-risk AI systems in the accompanying instructions of use.",
+      "actor": "The Regulator",
+      "modal": "Mandatory",
+      "action": "declare",
+      "action_list": [
+        "declare"
+      ],
+      "object": "the levels of accuracy and the relevant accuracy metrics of high-risk AI systems in the accompanying instructions of use.",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "15",
+      "paragraph": "3",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-086",
+      "text": "High-risk AI systems shall be as resilient as possible regarding errors, faults The robustness of high-risk AI systems may be achieved through technical redundancy solutions, which may include backup or fail-safe plans. High-risk AI systems that continue to learn after being placed on the market or put into service shall be developed in such a way as to eliminate or reduce as far as possible the risk of possibly biased outputs influencing input for future operations (feedback loops), and as to ensure that any such feedback loops are duly addressed with appropriate mitigation measures.",
+      "actor": "High-risk AI systems",
+      "modal": "Mandatory",
+      "action": "be as",
+      "action_list": [
+        "be as"
+      ],
+      "object": "resilient as possible regarding errors, faults The robustness of high-risk AI systems may be achieved through technical redundancy solutions, which may include backup or fail-safe plans. High-risk AI systems that continue to learn after being placed on the market or put into service shall be developed in such a way as to eliminate or reduce as far as possible the risk of possibly biased outputs influencing input for future operations (feedback loops), and as to ensure that any such feedback loops are duly addressed with appropriate mitigation measures.",
+      "temporal": "after being placed on the market",
+      "manner": "through technical redundancy solutions",
+      "condition": "",
+      "article": "15",
+      "paragraph": "4",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-087",
+      "text": "or inconsistencies that may occur within the system or the environment in which the system operates, in particular due to their interaction with natural persons or other systems.",
+      "actor": "or inconsistencies that",
+      "modal": "Mandatory",
+      "action": "occur",
+      "action_list": [
+        "occur"
+      ],
+      "object": "within the system or the environment in which the system operates, in particular due to their interaction with natural persons or other systems.",
+      "temporal": "within the system or the environment",
+      "manner": "with appropriate mitigation measures",
+      "condition": "",
+      "article": "15",
+      "paragraph": "4",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-088",
+      "text": "The Provider SHALL take technical and organisational measures in this regard.",
+      "actor": "The Provider",
+      "modal": "Mandatory",
+      "action": "take",
+      "action_list": [
+        "take"
+      ],
+      "object": "technical and organisational measures in this regard.",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "15",
+      "paragraph": "4",
+      "source": "hybrid"
+    },
+    {
+      "id": "REG-089",
+      "text": "High-risk AI systems shall be resilient against attempts by unauthorised third parties to alter their use, outputs or performance by exploiting system vulnerabilities. The technical solutions aiming to ensure the cybersecurity of high-risk AI systems shall be appropriate to the relevant circumstances and the risks. The technical solutions to address AI specific vulnerabilities shall include, where appropriate, measures to prevent, detect, respond to, resolve and control for attacks trying to manipulate the training data set (data poisoning), or pre-trained components used in training (model poisoning), inputs designed to cause the AI model to make a mistake (adversarial examples or model evasion), confidentiality attacks or model flaws.",
+      "actor": "High-risk AI systems",
+      "modal": "Mandatory",
+      "action": "be resilient",
+      "action_list": [
+        "be resilient"
+      ],
+      "object": "against attempts by unauthorised third parties to alter their use, outputs or performance by exploiting system vulnerabilities. The technical solutions aiming to ensure the cybersecurity of high-risk AI systems shall be appropriate to the relevant circumstances and the risks. The technical solutions to address AI specific vulnerabilities shall include, where appropriate, measures to prevent, detect, respond to, resolve and control for attacks trying to manipulate the training data set (data poisoning), or pre-trained components used in training (model poisoning), inputs designed to cause the AI model to make a mistake (adversarial examples or model evasion), confidentiality attacks or model flaws.",
+      "temporal": "by unauthorised third parties to alter",
+      "manner": "by unauthorised third parties to alter their use",
+      "condition": "where appropriate",
+      "article": "15",
+      "paragraph": "5",
+      "source": "hybrid"
+    }
+  ]
+}

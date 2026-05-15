@@ -1,0 +1,90 @@
+{
+  "rea_sub_id": "REA-01#2",
+  "reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea_case3_injections__reg_eu_ai_act_reranked/chunk1_deontic_stages/rea-01#2.json",
+  "top_k": 3,
+  "max_hop": 1,
+  "allowed_relations": [
+    "AND",
+    "PARENT_CHILD",
+    "REFERENCES",
+    "SEQUENCE"
+  ],
+  "main_constraints": [
+    {
+      "id": "REG-087",
+      "clause": "Art15(4)",
+      "text": "or inconsistencies that may occur within the system or the environment in which the system operates, in particular due to their interaction with natural persons or other systems.",
+      "rerank_rank": 1,
+      "rerank_score": 0.0019304942106828094,
+      "similarity_score": 0.766213,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-088",
+          "main_reg_id": "REG-087",
+          "edge_type": "SEQUENCE",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-088 -> REG-087",
+          "text": "Technical and organisational measures shall be taken in this regard.",
+          "article": "15",
+          "paragraph": "4",
+          "clause": "Art15(4)"
+        }
+      ]
+    },
+    {
+      "id": "REG-048",
+      "clause": "Art11(2)",
+      "text": "Where a high-risk AI system related to a product covered by the Union harmonisation legislation listed in Section A of Annex I is placed on the market or put into service, a single set of technical documentation shall be drawn up containing all the information set out in paragraph 1, as well as the information required under those legal acts.",
+      "rerank_rank": 2,
+      "rerank_score": 0.0017048725858330727,
+      "similarity_score": 0.639294,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-046",
+          "main_reg_id": "REG-048",
+          "edge_type": "REFERENCES",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-048 -> REG-046",
+          "text": "The technical documentation of a high-risk AI system shall be drawn up before that system is placed on the market The technical documentation shall be drawn up in such a way as to demonstrate that the high-risk AI system complies with the requirements set out in this Section and to provide national competent authorities and notified bodies with the necessary information in a clear and comprehensive form to assess the compliance of the AI system with those requirements. It shall contain, at a minimum, the elements set out in Annex IV. SMEs, including start-ups, may provide the elements of the technical documentation specified in Annex IV in a simplified manner. To that end, the Commission shall establish a simplified technical documentation form targeted at the needs of small and microenterprises. Where an SME, including a start-up, opts to provide the information required in Annex IV in a simplified manner, it shall use the form referred to in this paragraph. Notified bodies shall accept the form for the purposes of the conformity assessment.",
+          "article": "11",
+          "paragraph": "1",
+          "clause": "Art11(1)"
+        },
+        {
+          "id": "REG-047",
+          "main_reg_id": "REG-048",
+          "edge_type": "REFERENCES",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-048 -> REG-047",
+          "text": "or put into service and shall be kept up-to date.",
+          "article": "11",
+          "paragraph": "1",
+          "clause": "Art11(1)"
+        }
+      ]
+    },
+    {
+      "id": "REG-049",
+      "clause": "Art11(3)",
+      "text": "The Commission is empowered to adopt delegated acts in accordance with Article 97 in order to amend Annex IV, where necessary, to ensure that, in light of technical progress, the technical documentation provides all the information necessary to assess the compliance of the system with the requirements set out in this Section.",
+      "rerank_rank": 3,
+      "rerank_score": 0.0015055801486596465,
+      "similarity_score": 0.643392,
+      "already_visited_before_expansion": false,
+      "graph_context": []
+    }
+  ],
+  "visited_reg_ids": [
+    "REG-046",
+    "REG-047",
+    "REG-048",
+    "REG-049",
+    "REG-087",
+    "REG-088"
+  ]
+}

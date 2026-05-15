@@ -1,0 +1,118 @@
+{
+  "chunk": "chunk6",
+  "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/rearequirementsextractor/rea_with_injections/chunk6/chunk6_requirements.json",
+  "stage1_3_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/readeonticstagepipeline/rea_with_injections/chunk6/chunk6_stage1_3.json",
+  "stage1_output": [
+    {
+      "ID": "REA-06#1",
+      "REA_ID": "REA-06",
+      "Text": "Articles on the Website may include embedded content (e.g. videos, charts, etc.)."
+    },
+    {
+      "ID": "REA-06#2",
+      "REA_ID": "REA-06",
+      "Text": "Embedded content from other websites behaves in the exact same way as if the visitor had visited the other website."
+    },
+    {
+      "ID": "REA-06#3",
+      "REA_ID": "REA-06",
+      "Text": "These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracing your interaction with the embedded content if you have an account and are logged in to that website."
+    }
+  ],
+  "stage2_output": [
+    {
+      "ID": "REA-06#1",
+      "REA_ID": "REA-06",
+      "Text": "Articles on the Website may include embedded content (e.g. videos, charts, etc.).",
+      "Modal": "Permissive(may)"
+    },
+    {
+      "ID": "REA-06#2",
+      "REA_ID": "REA-06",
+      "Text": "Embedded content from other websites behaves in the exact same way as if the visitor had visited the other website.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-06#3",
+      "REA_ID": "REA-06",
+      "Text": "These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracing your interaction with the embedded content if you have an account and are logged in to that website.",
+      "Modal": "Permissive(may)"
+    }
+  ],
+  "stage3_output": [
+    {
+      "ID": "REA-06#1",
+      "Active_Recovered_Text": "Articles on the Website may include embedded content (e.g. videos, charts, etc.)."
+    },
+    {
+      "ID": "REA-06#2",
+      "Active_Recovered_Text": "Embedded content from other websites behaves in the exact same way as if the visitor had visited the other website."
+    },
+    {
+      "ID": "REA-06#3",
+      "Active_Recovered_Text": "These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracing your interaction with the embedded content if you have an account and are logged in to that website."
+    }
+  ],
+  "stage4_output": [
+    {
+      "id": "REA-06",
+      "text": "Articles on the Website may include embedded content (e.g. videos, charts, etc.).",
+      "actor": "Articles on the Website",
+      "modal": "Permissive(may)",
+      "action": "include",
+      "action_list": [
+        "include"
+      ],
+      "object": "embedded content (e.g. videos, charts, etc.).",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk6",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-06",
+      "sub_id": "REA-06#1",
+      "split_index": "1"
+    },
+    {
+      "id": "REA-06",
+      "text": "Embedded content from other websites behaves in the exact same way as if the visitor had visited the other website.",
+      "actor": "Embedded content from other websites",
+      "modal": "",
+      "action": "embed",
+      "action_list": [
+        "embed"
+      ],
+      "object": "other websites",
+      "temporal": "",
+      "manner": "",
+      "condition": "if the visitor had visited the other website",
+      "article": "chunk6",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-06",
+      "sub_id": "REA-06#2",
+      "split_index": "2"
+    },
+    {
+      "id": "REA-06",
+      "text": "These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracing your interaction with the embedded content if you have an account and are logged in to that website.",
+      "actor": "These websites",
+      "modal": "Permissive(may)",
+      "action": "collect",
+      "action_list": [
+        "collect"
+      ],
+      "object": "data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracing your interaction with the embedded content if you have an account and are logged in to that website.",
+      "temporal": "",
+      "manner": "use cookies, embed additional third-party tracking, monitor interaction",
+      "condition": "if you have an account and are logged in to that website",
+      "article": "chunk6",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-06",
+      "sub_id": "REA-06#3",
+      "split_index": "3"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "rea_sub_id": "REA-05#3",
+  "reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea_with_injections__reg_for_injectiontest_reranked/chunk5_deontic_stages/rea-05#3.json",
+  "top_k": 3,
+  "max_hop": 1,
+  "allowed_relations": [
+    "AND",
+    "PARENT_CHILD",
+    "REFERENCES",
+    "SEQUENCE"
+  ],
+  "main_constraints": [
+    {
+      "id": "REG-120",
+      "clause": "Art21(2)",
+      "text": "Where personal data are processed for direct marketing purposes, the data subject shall have the right to object at any time to processing of personal data concerning him or her for such marketing, which includes profiling to the extent that it is related to such direct marketing.",
+      "rerank_rank": 1,
+      "rerank_score": 0.0252328310161829,
+      "similarity_score": 0.705224,
+      "already_visited_before_expansion": false,
+      "graph_context": []
+    },
+    {
+      "id": "REG-118",
+      "clause": "Art21(1)",
+      "text": "The data subject shall have the right to object, on grounds relating to his or her particular situation, at any time to processing of personal data concerning him or her which is based on point (e) or (f) of Article 6(1), including profiling based on those provisions.",
+      "rerank_rank": 2,
+      "rerank_score": 0.02234477736055851,
+      "similarity_score": 0.705858,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-119",
+          "main_reg_id": "REG-118",
+          "edge_type": "SEQUENCE",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-119 -> REG-118",
+          "text": "The controller shall no longer process the personal data unless the controller demonstrates compelling legitimate grounds for the processing which override the interests, rights and freedoms of the data subject or for the establishment, exercise or defence of legal claims.",
+          "article": "21",
+          "paragraph": "1",
+          "clause": "Art21(1)"
+        }
+      ]
+    },
+    {
+      "id": "REG-121",
+      "clause": "Art21(3)",
+      "text": "Where the data subject objects to processing for direct marketing purposes, the personal data shall no longer be processed for such purposes.",
+      "rerank_rank": 3,
+      "rerank_score": 0.02102445624768734,
+      "similarity_score": 0.717933,
+      "already_visited_before_expansion": false,
+      "graph_context": []
+    }
+  ],
+  "visited_reg_ids": [
+    "REG-118",
+    "REG-119",
+    "REG-120",
+    "REG-121"
+  ]
+}

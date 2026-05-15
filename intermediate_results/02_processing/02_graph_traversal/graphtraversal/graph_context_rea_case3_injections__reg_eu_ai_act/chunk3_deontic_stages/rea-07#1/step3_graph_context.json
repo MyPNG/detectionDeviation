@@ -1,0 +1,77 @@
+{
+  "rea_sub_id": "REA-07#1",
+  "reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea_case3_injections__reg_eu_ai_act_reranked/chunk3_deontic_stages/rea-07#1.json",
+  "top_k": 3,
+  "max_hop": 1,
+  "allowed_relations": [
+    "AND",
+    "PARENT_CHILD",
+    "REFERENCES",
+    "SEQUENCE"
+  ],
+  "main_constraints": [
+    {
+      "id": "REG-084",
+      "clause": "Art15(2)",
+      "text": "To address the technical aspects of how to measure the appropriate levels of accuracy and robustness set out in paragraph 1 and any other relevant performance metrics, the Commission shall, in cooperation with relevant stakeholders and organisations such as metrology and benchmarking authorities, encourage, as appropriate, the development of benchmarks and measurement methodologies.",
+      "rerank_rank": 1,
+      "rerank_score": 0.004698918666690588,
+      "similarity_score": 0.641103,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-083",
+          "main_reg_id": "REG-084",
+          "edge_type": "REFERENCES",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-084 -> REG-083",
+          "text": "High-risk AI systems shall be designed and developed in such a way that they achieve an appropriate level of accuracy, robustness, and cybersecurity, and that they perform consistently in those respects throughout their lifecycle.",
+          "article": "15",
+          "paragraph": "1",
+          "clause": "Art15(1)"
+        }
+      ]
+    },
+    {
+      "id": "REG-018",
+      "clause": "Art9(8)",
+      "text": "Testing shall be carried out against prior defined metrics and probabilistic thresholds that are appropriate to the intended purpose of the high-risk AI system.",
+      "rerank_rank": 2,
+      "rerank_score": 0.0044165560975670815,
+      "similarity_score": 0.549224,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-017",
+          "main_reg_id": "REG-018",
+          "edge_type": "SEQUENCE",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-018 -> REG-017",
+          "text": "The testing of high-risk AI systems shall be performed, as appropriate, at any time throughout the development process, and, in any event, prior to their being placed on the market or put into service.",
+          "article": "9",
+          "paragraph": "8",
+          "clause": "Art9(8)"
+        }
+      ]
+    },
+    {
+      "id": "REG-061",
+      "clause": "Art13(7)",
+      "text": "(vi) when appropriate, specifications for the input data, or any other relevant information in terms of the training, validation and testing data sets used, taking into account the intended purpose of the high-risk AI system;",
+      "rerank_rank": 3,
+      "rerank_score": 0.0030440916307270527,
+      "similarity_score": 0.528716,
+      "already_visited_before_expansion": false,
+      "graph_context": []
+    }
+  ],
+  "visited_reg_ids": [
+    "REG-017",
+    "REG-018",
+    "REG-061",
+    "REG-083",
+    "REG-084"
+  ]
+}

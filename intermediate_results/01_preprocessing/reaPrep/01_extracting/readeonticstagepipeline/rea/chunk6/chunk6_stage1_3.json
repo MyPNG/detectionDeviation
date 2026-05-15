@@ -1,0 +1,130 @@
+{
+  "chunk": "chunk6",
+  "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/rearequirementsextractor/rea/chunk6/chunk6_requirements.json",
+  "stage1_output": [
+    {
+      "ID": "REA-08#1",
+      "REA_ID": "REA-08",
+      "Text": "In addition, in individual cases, we also pass on your data to other third parties, such as public authorities, courts or other bodies, if we are required by law or by official or court order of an EU member state to disclose personal data to these bodies."
+    },
+    {
+      "ID": "REA-08#2",
+      "REA_ID": "REA-08",
+      "Text": "These bodies also use the data on their own responsibility."
+    },
+    {
+      "ID": "REA-08#3",
+      "REA_ID": "REA-08",
+      "Text": "Insofar as you have explicitly consented, Art 6 para 1 lit a)"
+    },
+    {
+      "ID": "REA-08#4",
+      "REA_ID": "REA-08",
+      "Text": "GDPR is the legal basis for the data transfer. If there is a legal obligation to disclose the data, the legal basis for the data transfer is Art 6 para 1 lit c) GDPR. If, on the other hand, the disclosure is necessary for the fulfilment of a contractual or pre-contractual measure with you as a natural person, Art 6 para 1 lit b)"
+    },
+    {
+      "ID": "REA-08#5",
+      "REA_ID": "REA-08",
+      "Text": "GDPR is the legal basis."
+    },
+    {
+      "ID": "REA-08#6",
+      "REA_ID": "REA-08",
+      "Text": "Otherwise, the transfer is based on our legitimate interests and the legal basis is Art 6 para 1 lit f) GDPR."
+    },
+    {
+      "ID": "REA-08#7",
+      "REA_ID": "REA-08",
+      "Text": "We and the other companies in the PwC network have an interest in making our work processes efficient and in sharing business processes within the PwC network for this purpose."
+    },
+    {
+      "ID": "REA-08#8",
+      "REA_ID": "REA-08",
+      "Text": "Insofar as any of the above-mentioned data transfers are made to a recipient outside the EEA (to so-called “third countries”), an appropriate level of data protection for the foreign transfer is ensured by means of suitable security measures."
+    }
+  ],
+  "stage2_output": [
+    {
+      "ID": "REA-08#1",
+      "REA_ID": "REA-08",
+      "Text": "In addition, in individual cases, we also pass on your data to other third parties, such as public authorities, courts or other bodies, if we are required by law or by official or court order of an EU member state to disclose personal data to these bodies.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-08#2",
+      "REA_ID": "REA-08",
+      "Text": "These bodies also use the data on their own responsibility.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-08#3",
+      "REA_ID": "REA-08",
+      "Text": "Insofar as you have explicitly consented, Art 6 para 1 lit a)",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-08#4",
+      "REA_ID": "REA-08",
+      "Text": "GDPR is the legal basis for the data transfer. If there is a legal obligation to disclose the data, the legal basis for the data transfer is Art 6 para 1 lit c) GDPR. If, on the other hand, the disclosure is necessary for the fulfilment of a contractual or pre-contractual measure with you as a natural person, Art 6 para 1 lit b)",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-08#5",
+      "REA_ID": "REA-08",
+      "Text": "GDPR is the legal basis.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-08#6",
+      "REA_ID": "REA-08",
+      "Text": "Otherwise, the transfer is based on our legitimate interests and the legal basis is Art 6 para 1 lit f) GDPR.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-08#7",
+      "REA_ID": "REA-08",
+      "Text": "We and the other companies in the PwC network have an interest in making our work processes efficient and in sharing business processes within the PwC network for this purpose.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-08#8",
+      "REA_ID": "REA-08",
+      "Text": "Insofar as any of the above-mentioned data transfers are made to a recipient outside the EEA (to so-called “third countries”), an appropriate level of data protection for the foreign transfer is ensured by means of suitable security measures.",
+      "Modal": ""
+    }
+  ],
+  "stage3_output": [
+    {
+      "ID": "REA-08#1",
+      "Active_Recovered_Text": "We shall pass on your data to other third parties, such as public authorities, courts or other bodies, if we are required by law or by official or court order of an EU member state to disclose personal data to these bodies."
+    },
+    {
+      "ID": "REA-08#2",
+      "Active_Recovered_Text": "These bodies also use the data on their own responsibility."
+    },
+    {
+      "ID": "REA-08#3",
+      "Active_Recovered_Text": "Insofar as you have explicitly consented, Art 6 para 1 lit a)"
+    },
+    {
+      "ID": "REA-08#4",
+      "Active_Recovered_Text": "GDPR is the legal basis for the data transfer. If there is a legal obligation to disclose the data, the legal basis for the data transfer is Art 6 para 1 lit c) GDPR. If, on the other hand, the disclosure is necessary for the fulfilment of a contractual or pre-contractual measure with you as a natural person, Art 6 para 1 lit b)"
+    },
+    {
+      "ID": "REA-08#5",
+      "Active_Recovered_Text": "GDPR is the legal basis."
+    },
+    {
+      "ID": "REA-08#6",
+      "Active_Recovered_Text": "Otherwise, the transfer is based on our legitimate interests and the legal basis is Art 6 para 1 lit f) GDPR."
+    },
+    {
+      "ID": "REA-08#7",
+      "Active_Recovered_Text": "We and the other companies in the PwC network have an interest in making our work processes efficient and in sharing business processes within the PwC network for this purpose."
+    },
+    {
+      "ID": "REA-08#8",
+      "Active_Recovered_Text": "Insofar as any of the above-mentioned data transfers are made to a recipient outside the EEA (to so-called “third countries”), an appropriate level of data protection for the foreign transfer is ensured by means of suitable security measures."
+    }
+  ]
+}

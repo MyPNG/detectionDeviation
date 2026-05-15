@@ -1,0 +1,466 @@
+{
+  "chunk": "chunk7",
+  "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/rearequirementsextractor/rea_with_injections/chunk7/chunk7_requirements.json",
+  "stage1_3_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/readeonticstagepipeline/rea_with_injections/chunk7/chunk7_stage1_3.json",
+  "stage1_output": [
+    {
+      "ID": "REA-07#1",
+      "REA_ID": "REA-07",
+      "Text": "If you have left comments on the Website, you can request to receive an exported file of the personal data we hold about you."
+    },
+    {
+      "ID": "REA-07#2",
+      "REA_ID": "REA-07",
+      "Text": "We will respond to all data access requests within a standard period of 90 days."
+    },
+    {
+      "ID": "REA-07#3",
+      "REA_ID": "REA-07",
+      "Text": "Furthermore, data portability requests will be fulfilled exclusively by printing your data on physical paper and mailing it to your address."
+    },
+    {
+      "ID": "REA-08#1",
+      "REA_ID": "REA-08",
+      "Text": "You can also request that we rectify or erase any personal data we hold about you."
+    },
+    {
+      "ID": "REA-08#2",
+      "REA_ID": "REA-08",
+      "Text": "However, all requests for rectification must be handled directly by our third-party server host, and you must contact them directly rather than us."
+    },
+    {
+      "ID": "REA-08#3",
+      "REA_ID": "REA-08",
+      "Text": "The right to withdraw consent The right of access."
+    },
+    {
+      "ID": "REA-08#4",
+      "REA_ID": "REA-08",
+      "Text": "However, please note we will not provide confirmation to you as to whether or not personal data concerning you is being processed."
+    },
+    {
+      "ID": "REA-08#5",
+      "REA_ID": "REA-08",
+      "Text": "The right to erasure The right to rectification The right to data portability The right to object."
+    },
+    {
+      "ID": "REA-08#6",
+      "REA_ID": "REA-08",
+      "Text": "The right to object is strictly limited to our use of your email for direct marketing campaigns."
+    },
+    {
+      "ID": "REA-08#7",
+      "REA_ID": "REA-08",
+      "Text": "Notification of data breaches."
+    },
+    {
+      "ID": "REA-08#8",
+      "REA_ID": "REA-08",
+      "Text": "In the event of a data breach, we will first issue a press release to the public media, and subsequently notify the supervisory authority."
+    },
+    {
+      "ID": "REA-08#9",
+      "REA_ID": "REA-08",
+      "Text": "We will ensure the supervisory authority is notified within 12 hours of our team becoming aware of the breach."
+    },
+    {
+      "ID": "REA-08#10",
+      "REA_ID": "REA-08",
+      "Text": "The right to lodge a complaint with a supervisory authority"
+    }
+  ],
+  "stage2_output": [
+    {
+      "ID": "REA-07#1",
+      "REA_ID": "REA-07",
+      "Text": "If you have left comments on the Website, you can request to receive an exported file of the personal data we hold about you.",
+      "Modal": "Permissive(can)"
+    },
+    {
+      "ID": "REA-07#2",
+      "REA_ID": "REA-07",
+      "Text": "We will respond to all data access requests within a standard period of 90 days.",
+      "Modal": "Mandatory(will)"
+    },
+    {
+      "ID": "REA-07#3",
+      "REA_ID": "REA-07",
+      "Text": "Furthermore, data portability requests will be fulfilled exclusively by printing your data on physical paper and mailing it to your address.",
+      "Modal": "Mandatory(will)"
+    },
+    {
+      "ID": "REA-08#1",
+      "REA_ID": "REA-08",
+      "Text": "You can also request that we rectify or erase any personal data we hold about you.",
+      "Modal": "Permissive(can)"
+    },
+    {
+      "ID": "REA-08#2",
+      "REA_ID": "REA-08",
+      "Text": "However, all requests for rectification must be handled directly by our third-party server host, and you must contact them directly rather than us.",
+      "Modal": "Mandatory(must)"
+    },
+    {
+      "ID": "REA-08#3",
+      "REA_ID": "REA-08",
+      "Text": "The right to withdraw consent The right of access.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-08#4",
+      "REA_ID": "REA-08",
+      "Text": "However, please note we will not provide confirmation to you as to whether or not personal data concerning you is being processed.",
+      "Modal": "Mandatory(will)"
+    },
+    {
+      "ID": "REA-08#5",
+      "REA_ID": "REA-08",
+      "Text": "The right to erasure The right to rectification The right to data portability The right to object.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-08#6",
+      "REA_ID": "REA-08",
+      "Text": "The right to object is strictly limited to our use of your email for direct marketing campaigns.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-08#7",
+      "REA_ID": "REA-08",
+      "Text": "Notification of data breaches.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-08#8",
+      "REA_ID": "REA-08",
+      "Text": "In the event of a data breach, we will first issue a press release to the public media, and subsequently notify the supervisory authority.",
+      "Modal": "Mandatory(will)"
+    },
+    {
+      "ID": "REA-08#9",
+      "REA_ID": "REA-08",
+      "Text": "We will ensure the supervisory authority is notified within 12 hours of our team becoming aware of the breach.",
+      "Modal": "Mandatory(will)"
+    },
+    {
+      "ID": "REA-08#10",
+      "REA_ID": "REA-08",
+      "Text": "The right to lodge a complaint with a supervisory authority",
+      "Modal": ""
+    }
+  ],
+  "stage3_output": [
+    {
+      "ID": "REA-07#1",
+      "Active_Recovered_Text": "If you have left comments on the Website, you can request to receive an exported file of the personal data we hold about you."
+    },
+    {
+      "ID": "REA-07#2",
+      "Active_Recovered_Text": "We will respond to all data access requests within a standard period of 90 days."
+    },
+    {
+      "ID": "REA-07#3",
+      "Active_Recovered_Text": "Data portability requests will be fulfilled exclusively by printing your data on physical paper and mailing it to your address."
+    },
+    {
+      "ID": "REA-08#1",
+      "Active_Recovered_Text": "You can also request that we rectify or erase any personal data we hold about you."
+    },
+    {
+      "ID": "REA-08#2",
+      "Active_Recovered_Text": "All requests for rectification must be handled directly by our third-party server host, and you must contact them directly rather than us."
+    },
+    {
+      "ID": "REA-08#3",
+      "Active_Recovered_Text": "The right to withdraw consent The right of access."
+    },
+    {
+      "ID": "REA-08#4",
+      "Active_Recovered_Text": "However, please note we will not provide confirmation to you as to whether or not personal data concerning you is being processed."
+    },
+    {
+      "ID": "REA-08#5",
+      "Active_Recovered_Text": "The right to erasure The right to rectification The right to data portability The right to object."
+    },
+    {
+      "ID": "REA-08#6",
+      "Active_Recovered_Text": "The right to object is strictly limited to our use of your email for direct marketing campaigns."
+    },
+    {
+      "ID": "REA-08#7",
+      "Active_Recovered_Text": "Notification of data breaches."
+    },
+    {
+      "ID": "REA-08#8",
+      "Active_Recovered_Text": "In the event of a data breach, we will first issue a press release to the public media, and subsequently notify the supervisory authority."
+    },
+    {
+      "ID": "REA-08#9",
+      "Active_Recovered_Text": "We will ensure the supervisory authority is notified within 12 hours of our team becoming aware of the breach."
+    },
+    {
+      "ID": "REA-08#10",
+      "Active_Recovered_Text": "The right to lodge a complaint with a supervisory authority"
+    }
+  ],
+  "stage4_output": [
+    {
+      "id": "REA-07",
+      "text": "If you have left comments on the Website, you can request to receive an exported file of the personal data we hold about you.",
+      "actor": "you",
+      "modal": "Permissive(can)",
+      "action": "request",
+      "action_list": [
+        "request"
+      ],
+      "object": "to receive an exported file of the personal data we hold about you.",
+      "temporal": "",
+      "manner": "",
+      "condition": "If you have left comments on the Website",
+      "article": "chunk7",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-07",
+      "sub_id": "REA-07#1",
+      "split_index": "1"
+    },
+    {
+      "id": "REA-07",
+      "text": "We will respond to all data access requests within a standard period of 90 days.",
+      "actor": "We",
+      "modal": "Mandatory(will)",
+      "action": "respond",
+      "action_list": [
+        "respond"
+      ],
+      "object": "to all data access requests within a standard period of 90 days.",
+      "temporal": "within a standard period of 90",
+      "manner": "",
+      "condition": "",
+      "article": "chunk7",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-07",
+      "sub_id": "REA-07#2",
+      "split_index": "2"
+    },
+    {
+      "id": "REA-07",
+      "text": "Data portability requests will be fulfilled exclusively by printing your data on physical paper and mailing it to your address.",
+      "actor": "Data portability requests",
+      "modal": "Mandatory(will)",
+      "action": "fulfilled",
+      "action_list": [
+        "fulfilled"
+      ],
+      "object": "exclusively by printing your data on physical paper and mailing it to your address.",
+      "temporal": "by printing your data on physical",
+      "manner": "by printing your data on physical paper and mailing it to your address",
+      "condition": "",
+      "article": "chunk7",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-07",
+      "sub_id": "REA-07#3",
+      "split_index": "3"
+    },
+    {
+      "id": "REA-08",
+      "text": "You can also request that we rectify or erase any personal data we hold about you.",
+      "actor": "You",
+      "modal": "Permissive(can)",
+      "action": "also",
+      "action_list": [
+        "also"
+      ],
+      "object": "request that we rectify or erase any personal data we hold about you.",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk7",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-08",
+      "sub_id": "REA-08#1",
+      "split_index": "1"
+    },
+    {
+      "id": "REA-08",
+      "text": "All requests for rectification must be handled directly by our third-party server host, and you must contact them directly rather than us.",
+      "actor": "All requests for rectification",
+      "modal": "Mandatory(must)",
+      "action": "handled",
+      "action_list": [
+        "handled"
+      ],
+      "object": "directly by our third-party server host, and you must contact them directly rather than us.",
+      "temporal": "by our third-party server host",
+      "manner": "by our third-party server host",
+      "condition": "",
+      "article": "chunk7",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-08",
+      "sub_id": "REA-08#2",
+      "split_index": "2"
+    },
+    {
+      "id": "REA-08",
+      "text": "The right to withdraw consent The right of access.",
+      "actor": "",
+      "modal": "",
+      "action": "withdraw",
+      "action_list": [
+        "withdraw"
+      ],
+      "object": "The right of access",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk7",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-08",
+      "sub_id": "REA-08#3",
+      "split_index": "3"
+    },
+    {
+      "id": "REA-08",
+      "text": "However, please note we will not provide confirmation to you as to whether or not personal data concerning you is being processed.",
+      "actor": "please note we",
+      "modal": "Mandatory(will)",
+      "action": "provide",
+      "action_list": [
+        "provide"
+      ],
+      "object": "confirmation to you as to whether or not personal data concerning you is being processed.",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk7",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-08",
+      "sub_id": "REA-08#4",
+      "split_index": "4"
+    },
+    {
+      "id": "REA-08",
+      "text": "The right to erasure The right to rectification The right to data portability The right to object.",
+      "actor": "",
+      "modal": "",
+      "action": "erasure",
+      "action_list": [
+        "erasure"
+      ],
+      "object": "The right to rectification The right to data portability",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk7",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-08",
+      "sub_id": "REA-08#5",
+      "split_index": "5"
+    },
+    {
+      "id": "REA-08",
+      "text": "The right to object is strictly limited to our use of your email for direct marketing campaigns.",
+      "actor": "The right to object",
+      "modal": "Permissive",
+      "action": "limit",
+      "action_list": [
+        "limit"
+      ],
+      "object": "our use of your email for direct marketing campaigns",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk7",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-08",
+      "sub_id": "REA-08#6",
+      "split_index": "6"
+    },
+    {
+      "id": "REA-08",
+      "text": "Notification of data breaches.",
+      "actor": "",
+      "modal": "",
+      "action": "",
+      "action_list": [],
+      "object": "data breaches",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk7",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-08",
+      "sub_id": "REA-08#7",
+      "split_index": "7"
+    },
+    {
+      "id": "REA-08",
+      "text": "In the event of a data breach, we will first issue a press release to the public media, and subsequently notify the supervisory authority.",
+      "actor": "we",
+      "modal": "Mandatory(will)",
+      "action": "first",
+      "action_list": [
+        "first"
+      ],
+      "object": "issue a press release to the public media, and subsequently notify the supervisory authority.",
+      "temporal": "subsequently notify the supervisory authority",
+      "manner": "",
+      "condition": "in the event of a data breach",
+      "article": "chunk7",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-08",
+      "sub_id": "REA-08#8",
+      "split_index": "8"
+    },
+    {
+      "id": "REA-08",
+      "text": "We will ensure the supervisory authority is notified within 12 hours of our team becoming aware of the breach.",
+      "actor": "We",
+      "modal": "Mandatory(will)",
+      "action": "ensure",
+      "action_list": [
+        "ensure"
+      ],
+      "object": "the supervisory authority is notified within 12 hours of our team becoming aware of the breach.",
+      "temporal": "within 12 hours of our team",
+      "manner": "",
+      "condition": "",
+      "article": "chunk7",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-08",
+      "sub_id": "REA-08#9",
+      "split_index": "9"
+    },
+    {
+      "id": "REA-08",
+      "text": "The right to lodge a complaint with a supervisory authority",
+      "actor": "authorities",
+      "modal": "",
+      "action": "lodge",
+      "action_list": [
+        "lodge"
+      ],
+      "object": "a complaint",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk7",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-08",
+      "sub_id": "REA-08#10",
+      "split_index": "10"
+    }
+  ]
+}

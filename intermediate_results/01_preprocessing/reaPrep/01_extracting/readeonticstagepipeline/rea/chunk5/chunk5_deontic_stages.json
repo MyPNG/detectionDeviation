@@ -1,0 +1,153 @@
+{
+  "chunk": "chunk5",
+  "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/rearequirementsextractor/rea/chunk5/chunk5_requirements.json",
+  "stage1_3_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/readeonticstagepipeline/rea/chunk5/chunk5_stage1_3.json",
+  "stage1_output": [
+    {
+      "ID": "REA-05#1",
+      "REA_ID": "REA-05",
+      "Text": "We share your data with service providers bound by instructions, both within the PwC network and with other third parties, such as IT service providers, who support us in our activities, e.g. as part of the administration and maintenance of the websites and the related systems and/or for other internal or administrative purposes."
+    },
+    {
+      "ID": "REA-06#1",
+      "REA_ID": "REA-06",
+      "Text": "If we pass on data to service providers bound by instructions, we do not require a separate legal basis for this."
+    },
+    {
+      "ID": "REA-07#1",
+      "REA_ID": "REA-07",
+      "Text": "In addition, we share your data in individual cases both within the PwC network and with other third parties who use your data under their own responsibility."
+    },
+    {
+      "ID": "REA-07#2",
+      "REA_ID": "REA-07",
+      "Text": "For example, in individual cases we also transfer personal data to other companies in the PwC network to support and improve the effectiveness of our business processes (including coordinated marketing activities), specifically to PricewaterhouseCoopers GmbH Wirtschaftsprüfungsgesellschaft."
+    }
+  ],
+  "stage2_output": [
+    {
+      "ID": "REA-05#1",
+      "REA_ID": "REA-05",
+      "Text": "We share your data with service providers bound by instructions, both within the PwC network and with other third parties, such as IT service providers, who support us in our activities, e.g. as part of the administration and maintenance of the websites and the related systems and/or for other internal or administrative purposes.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-06#1",
+      "REA_ID": "REA-06",
+      "Text": "If we pass on data to service providers bound by instructions, we do not require a separate legal basis for this.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-07#1",
+      "REA_ID": "REA-07",
+      "Text": "In addition, we share your data in individual cases both within the PwC network and with other third parties who use your data under their own responsibility.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-07#2",
+      "REA_ID": "REA-07",
+      "Text": "For example, in individual cases we also transfer personal data to other companies in the PwC network to support and improve the effectiveness of our business processes (including coordinated marketing activities), specifically to PricewaterhouseCoopers GmbH Wirtschaftsprüfungsgesellschaft.",
+      "Modal": ""
+    }
+  ],
+  "stage3_output": [
+    {
+      "ID": "REA-05#1",
+      "Active_Recovered_Text": "We share your data with service providers bound by instructions, both within the PwC network and with other third parties, such as IT service providers, who support us in our activities, e.g. as part of the administration and maintenance of the websites and the related systems and/or for other internal or administrative purposes."
+    },
+    {
+      "ID": "REA-06#1",
+      "Active_Recovered_Text": "If we pass on data to service providers bound by instructions, we do not require a separate legal basis for this."
+    },
+    {
+      "ID": "REA-07#1",
+      "Active_Recovered_Text": "In addition, we share your data in individual cases both within the PwC network and with other third parties who use your data under their own responsibility."
+    },
+    {
+      "ID": "REA-07#2",
+      "Active_Recovered_Text": "For example, in individual cases we also transfer personal data to other companies in the PwC network to support and improve the effectiveness of our business processes (including coordinated marketing activities), specifically to PricewaterhouseCoopers GmbH Wirtschaftsprüfungsgesellschaft."
+    }
+  ],
+  "stage4_output": [
+    {
+      "id": "REA-05",
+      "text": "We share your data with service providers bound by instructions, both within the PwC network and with other third parties, such as IT service providers, who support us in our activities, e.g. as part of the administration and maintenance of the websites and the related systems and/or for other internal or administrative purposes.",
+      "actor": "We",
+      "modal": "Permissive",
+      "action": "share",
+      "action_list": [
+        "share"
+      ],
+      "object": "your data with service providers bound by instructions",
+      "temporal": "within the PwC network and with",
+      "manner": "by instructions",
+      "condition": "",
+      "article": "chunk5",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-05",
+      "sub_id": "REA-05#1",
+      "split_index": "1"
+    },
+    {
+      "id": "REA-06",
+      "text": "If we pass on data to service providers bound by instructions, we do not require a separate legal basis for this.",
+      "actor": "we",
+      "modal": "Permissive",
+      "action": "pass",
+      "action_list": [
+        "pass"
+      ],
+      "object": "data to service providers bound by instructions",
+      "temporal": "by instructions",
+      "manner": "by instructions",
+      "condition": "If we pass on data to service providers bound by instructions",
+      "article": "chunk5",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-06",
+      "sub_id": "REA-06#1",
+      "split_index": "1"
+    },
+    {
+      "id": "REA-07",
+      "text": "In addition, we share your data in individual cases both within the PwC network and with other third parties who use your data under their own responsibility.",
+      "actor": "we",
+      "modal": "Permissive",
+      "action": "share",
+      "action_list": [
+        "share"
+      ],
+      "object": "addition",
+      "temporal": "within the PwC network and with",
+      "manner": "under their own responsibility",
+      "condition": "",
+      "article": "chunk5",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-07",
+      "sub_id": "REA-07#1",
+      "split_index": "1"
+    },
+    {
+      "id": "REA-07",
+      "text": "For example, in individual cases we also transfer personal data to other companies in the PwC network to support and improve the effectiveness of our business processes (including coordinated marketing activities), specifically to PricewaterhouseCoopers GmbH Wirtschaftsprüfungsgesellschaft.",
+      "actor": "we",
+      "modal": "Permissive",
+      "action": "transfer",
+      "action_list": [
+        "transfer"
+      ],
+      "object": "example",
+      "temporal": "",
+      "manner": "to support and improve the effectiveness of our business processes",
+      "condition": "",
+      "article": "chunk5",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-07",
+      "sub_id": "REA-07#2",
+      "split_index": "2"
+    }
+  ]
+}

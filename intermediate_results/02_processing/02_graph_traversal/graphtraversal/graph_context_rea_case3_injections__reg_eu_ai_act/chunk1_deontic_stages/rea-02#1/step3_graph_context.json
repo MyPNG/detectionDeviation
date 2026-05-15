@@ -1,0 +1,130 @@
+{
+  "rea_sub_id": "REA-02#1",
+  "reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea_case3_injections__reg_eu_ai_act_reranked/chunk1_deontic_stages/rea-02#1.json",
+  "top_k": 3,
+  "max_hop": 1,
+  "allowed_relations": [
+    "AND",
+    "PARENT_CHILD",
+    "REFERENCES",
+    "SEQUENCE"
+  ],
+  "main_constraints": [
+    {
+      "id": "REG-059",
+      "clause": "Art13(6)",
+      "text": "(iv) where applicable, the technical capabilities and characteristics of the high-risk AI system to provide information that is relevant to explain its output;",
+      "rerank_rank": 1,
+      "rerank_score": 0.000775572785641998,
+      "similarity_score": 0.711624,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-060",
+          "main_reg_id": "REG-059",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-059 -> REG-060",
+          "text": "(iv) where applicable, the technical capabilities and characteristics of the high-risk AI system to provide information that is relevant to explain its output; (v) when appropriate, its performance regarding specific persons or groups of persons on which the system is intended to be used;",
+          "article": "13",
+          "paragraph": "6(v)",
+          "clause": "Art13(6(v))"
+        }
+      ]
+    },
+    {
+      "id": "REG-004",
+      "clause": "Art9(2(a))",
+      "text": "The risk management system shall comprise the following steps: (a) the identification and analysis of the known and the reasonably foreseeable risks that the high-risk AI system can pose to health, safety or fundamental rights when the high-risk AI system is used in accordance with its intended purpose;",
+      "rerank_rank": 2,
+      "rerank_score": 0.0007138378568924963,
+      "similarity_score": 0.717619,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-003",
+          "main_reg_id": "REG-004",
+          "edge_type": "PARENT_CHILD",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-003 -> REG-004",
+          "text": "The risk management system shall comprise the following steps:",
+          "article": "9",
+          "paragraph": "2",
+          "clause": "Art9(2)"
+        },
+        {
+          "id": "REG-005",
+          "main_reg_id": "REG-004",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-004 <- REG-003 -> REG-005",
+          "text": "The risk management system shall comprise the following steps: (b) the estimation and evaluation of the risks that may emerge when the high-risk AI system is used in accordance with its intended purpose, and under conditions of reasonably foreseeable misuse;",
+          "article": "9",
+          "paragraph": "2(b)",
+          "clause": "Art9(2(b))"
+        },
+        {
+          "id": "REG-006",
+          "main_reg_id": "REG-004",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-004 <- REG-003 -> REG-006",
+          "text": "The risk management system shall comprise the following steps: (c) the evaluation of other risks possibly arising, based on the analysis of data gathered from the post-market monitoring system referred to in Article 72;",
+          "article": "9",
+          "paragraph": "2(c)",
+          "clause": "Art9(2(c))"
+        },
+        {
+          "id": "REG-007",
+          "main_reg_id": "REG-004",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-004 <- REG-003 -> REG-007",
+          "text": "The risk management system shall comprise the following steps: (d) the adoption of appropriate and targeted risk management measures designed to address the risks identified pursuant to point (a).",
+          "article": "9",
+          "paragraph": "2(d)",
+          "clause": "Art9(2(d))"
+        }
+      ]
+    },
+    {
+      "id": "REG-058",
+      "clause": "Art13(5)",
+      "text": "(iii) any known or foreseeable circumstance, related to the use of the high-risk AI system in accordance with its intended purpose or under conditions of reasonably foreseeable misuse, which may lead to risks to the health and safety or fundamental rights referred to in Article 9(2);",
+      "rerank_rank": 3,
+      "rerank_score": 0.0007138378568924963,
+      "similarity_score": 0.697799,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-002",
+          "main_reg_id": "REG-058",
+          "edge_type": "REFERENCES",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-058 -> REG-002",
+          "text": "The risk management system shall be understood as a continuous iterative process planned and run throughout the entire lifecycle of a high-risk AI system, requiring regular systematic review and updating.",
+          "article": "9",
+          "paragraph": "2",
+          "clause": "Art9(2)"
+        }
+      ]
+    }
+  ],
+  "visited_reg_ids": [
+    "REG-002",
+    "REG-003",
+    "REG-004",
+    "REG-005",
+    "REG-006",
+    "REG-007",
+    "REG-058",
+    "REG-059",
+    "REG-060"
+  ]
+}

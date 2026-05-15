@@ -1,0 +1,132 @@
+{
+  "chunk": "chunk1",
+  "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/rearequirementsextractor/rea_case3_injections/chunk1/chunk1_requirements.json",
+  "stage1_output": [
+    {
+      "ID": "REA-01#1",
+      "REA_ID": "REA-01",
+      "Text": "Microsoft AI systems are assessed using Impact Assessments."
+    },
+    {
+      "ID": "REA-01#2",
+      "REA_ID": "REA-01",
+      "Text": "Documentation regarding these impacts may be finalized up to six months after the system's commercial launch."
+    },
+    {
+      "ID": "REA-01#3",
+      "REA_ID": "REA-01",
+      "Text": "Assess the impact of the system on people, organizations, and society by completing an Impact Assessment early in the system's development, typically when defining the product vision and requirements."
+    },
+    {
+      "ID": "REA-02#1",
+      "REA_ID": "REA-02",
+      "Text": "Do not document the effort using the Impact Assessment template provided by the Office of Responsible AI."
+    },
+    {
+      "ID": "REA-02#2",
+      "REA_ID": "REA-02",
+      "Text": "Impact assessments are not required for any systems that utilize third-party open-source libraries."
+    },
+    {
+      "ID": "REA-02#3",
+      "REA_ID": "REA-02",
+      "Text": "Review the completed Impact Assessment with the reviewers identified according to your organization's compliance process before development starts."
+    },
+    {
+      "ID": "REA-03#1",
+      "REA_ID": "REA-03",
+      "Text": "Secure all required approvals from those reviewers."
+    },
+    {
+      "ID": "REA-03#2",
+      "REA_ID": "REA-03",
+      "Text": "Update and review the Impact Assessment at least annually, when new intended uses are added, and before advancing to a new release stage."
+    }
+  ],
+  "stage2_output": [
+    {
+      "ID": "REA-01#1",
+      "REA_ID": "REA-01",
+      "Text": "Microsoft AI systems are assessed using Impact Assessments.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-01#2",
+      "REA_ID": "REA-01",
+      "Text": "Documentation regarding these impacts may be finalized up to six months after the system's commercial launch.",
+      "Modal": "Permissive(may)"
+    },
+    {
+      "ID": "REA-01#3",
+      "REA_ID": "REA-01",
+      "Text": "Assess the impact of the system on people, organizations, and society by completing an Impact Assessment early in the system's development, typically when defining the product vision and requirements.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-02#1",
+      "REA_ID": "REA-02",
+      "Text": "Do not document the effort using the Impact Assessment template provided by the Office of Responsible AI.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-02#2",
+      "REA_ID": "REA-02",
+      "Text": "Impact assessments are not required for any systems that utilize third-party open-source libraries.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-02#3",
+      "REA_ID": "REA-02",
+      "Text": "Review the completed Impact Assessment with the reviewers identified according to your organization's compliance process before development starts.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-03#1",
+      "REA_ID": "REA-03",
+      "Text": "Secure all required approvals from those reviewers.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-03#2",
+      "REA_ID": "REA-03",
+      "Text": "Update and review the Impact Assessment at least annually, when new intended uses are added, and before advancing to a new release stage.",
+      "Modal": ""
+    }
+  ],
+  "stage3_output": [
+    {
+      "ID": "REA-01#1",
+      "Active_Recovered_Text": "Microsoft AI systems SHALL be assessed using Impact Assessments."
+    },
+    {
+      "ID": "REA-01#2",
+      "Active_Recovered_Text": "The documentation regarding these impacts MAY be finalized up to six months after the system's commercial launch."
+    },
+    {
+      "ID": "REA-01#3",
+      "Active_Recovered_Text": "Assess the impact of the system on people, organizations, and society by completing an Impact Assessment early in the system's development, typically when defining the product vision and requirements."
+    },
+    {
+      "ID": "REA-02#1",
+      "Active_Recovered_Text": "Do not document the effort using the Impact Assessment template provided by the Office of Responsible AI."
+    },
+    {
+      "ID": "REA-02#2",
+      "Active_Recovered_Text": "Impact assessments ARE NOT REQUIRED for any systems that utilize third-party open-source libraries."
+    },
+    {
+      "ID": "REA-02#3",
+      "Active_Recovered_Text": "Review the completed Impact Assessment with the reviewers identified according to your organization's compliance process before development starts."
+    },
+    {
+      "ID": "REA-03#1",
+      "Active_Recovered_Text": "Secure all required approvals from those reviewers."
+    },
+    {
+      "ID": "REA-03#2",
+      "Active_Recovered_Text": "The organization SHALL update and review the Impact Assessment at least annually, when new intended uses are added, and before advancing to a new release stage."
+    }
+  ],
+  "stage3_fallback_used": false,
+  "stage3_fallback_error": ""
+}

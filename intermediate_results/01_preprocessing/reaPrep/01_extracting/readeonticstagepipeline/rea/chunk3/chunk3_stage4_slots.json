@@ -1,0 +1,86 @@
+{
+  "chunk": "chunk3",
+  "stage1_3_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/readeonticstagepipeline/rea/chunk3/chunk3_stage1_3.json",
+  "stage4_output": [
+    {
+      "id": "REA-03",
+      "text": "You have the right to request that we restrict the processing of your personal data.",
+      "actor": "You",
+      "modal": "Mandatory",
+      "action": "have",
+      "action_list": [
+        "have"
+      ],
+      "object": "the right to request that we restrict the processing of your personal data",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk3",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-03",
+      "sub_id": "REA-03#1",
+      "split_index": "1"
+    },
+    {
+      "id": "REA-03",
+      "text": "You have the right to receive from us the data you have provided in a structured, common and machine-readable format, as well as the right to have this data transferred to another controller.",
+      "actor": "You",
+      "modal": "Mandatory",
+      "action": "have",
+      "action_list": [
+        "have"
+      ],
+      "object": "the right to receive from us the data you have provided in a structured , common and machine - readable format , as well as the right to have this data transferred to another controller",
+      "temporal": "",
+      "manner": "",
+      "condition": "",
+      "article": "chunk3",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-03",
+      "sub_id": "REA-03#2",
+      "split_index": "2"
+    },
+    {
+      "id": "REA-03",
+      "text": "This right only exists if you have provided us with the data on the basis of consent or on the basis of a contract concluded with you and the processing is carried out by automated means.",
+      "actor": "This right",
+      "modal": "Mandatory",
+      "action": "exist",
+      "action_list": [
+        "exist"
+      ],
+      "object": "us",
+      "temporal": "by automated means",
+      "manner": "by automated means",
+      "condition": "if you have provided us with the data on the basis of consent or on the basis of a contract concluded with you and the processing is carried out by automated means",
+      "article": "chunk3",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-03",
+      "sub_id": "REA-03#3",
+      "split_index": "3"
+    },
+    {
+      "id": "REA-04",
+      "text": "If the processing of your data is based on Art 6 para 1 lit f) GDPR, you may object to the processing at any time.",
+      "actor": "you",
+      "modal": "Permissive(may)",
+      "action": "object",
+      "action_list": [
+        "object"
+      ],
+      "object": "to the processing at any time.",
+      "temporal": "",
+      "manner": "",
+      "condition": "If the processing of your data is based on Art 6 para 1 lit f) GDPR",
+      "article": "chunk3",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-04",
+      "sub_id": "REA-04#1",
+      "split_index": "1"
+    }
+  ]
+}

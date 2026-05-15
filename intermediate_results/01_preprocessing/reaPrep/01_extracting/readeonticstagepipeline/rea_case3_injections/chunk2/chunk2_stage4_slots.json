@@ -1,0 +1,46 @@
+{
+  "chunk": "chunk2",
+  "stage1_3_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/readeonticstagepipeline/rea_case3_injections/chunk2/chunk2_stage1_3.json",
+  "stage4_output": [
+    {
+      "id": "REA-04",
+      "text": "Review defined Restricted Uses to determine whether the system meets the definition of any Restricted Use. If it does, document this in the Impact Assessment, and follow the requirements for the Restricted Use.",
+      "actor": "Review",
+      "modal": "Mandatory",
+      "action": "define",
+      "action_list": [
+        "define"
+      ],
+      "object": "Restricted Uses",
+      "temporal": "",
+      "manner": "",
+      "condition": "If it does",
+      "article": "chunk2",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-04",
+      "sub_id": "REA-04#1",
+      "split_index": "1"
+    },
+    {
+      "id": "REA-05",
+      "text": "Answer prompts in the Impact Assessment template to determine whether the system meets the definition of a Sensitive Use. If it does, report it to the Office of Responsible AI, and follow any additional requirements resulting from a Sensitive Uses review.",
+      "actor": "the system",
+      "modal": "Mandatory",
+      "action": "determine",
+      "action_list": [
+        "determine"
+      ],
+      "object": "the Impact Assessment template",
+      "temporal": "",
+      "manner": "",
+      "condition": "If it does",
+      "article": "chunk2",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-05",
+      "sub_id": "REA-05#1",
+      "split_index": "1"
+    }
+  ]
+}

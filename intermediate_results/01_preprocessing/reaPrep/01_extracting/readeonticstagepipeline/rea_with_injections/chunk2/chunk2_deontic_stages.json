@@ -1,0 +1,153 @@
+{
+  "chunk": "chunk2",
+  "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/rearequirementsextractor/rea_with_injections/chunk2/chunk2_requirements.json",
+  "stage1_3_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/readeonticstagepipeline/rea_with_injections/chunk2/chunk2_stage1_3.json",
+  "stage1_output": [
+    {
+      "ID": "REA-02#1",
+      "REA_ID": "REA-02",
+      "Text": "Name, email address, content of the comment: this data is collected when you leave a comment and displayed on the Website. If you leave a comment on the Website, your name and email address will also be saved in cookies."
+    },
+    {
+      "ID": "REA-02#2",
+      "REA_ID": "REA-02",
+      "Text": "These are for your convenience so that you do not have to fill in your details again when you leave another comment."
+    },
+    {
+      "ID": "REA-02#3",
+      "REA_ID": "REA-02",
+      "Text": "These cookies will be saved on your computer until you delete them."
+    },
+    {
+      "ID": "REA-02#4",
+      "REA_ID": "REA-02",
+      "Text": "IP and browser user agent string: this data is collected when you leave a comment."
+    }
+  ],
+  "stage2_output": [
+    {
+      "ID": "REA-02#1",
+      "REA_ID": "REA-02",
+      "Text": "Name, email address, content of the comment: this data is collected when you leave a comment and displayed on the Website. If you leave a comment on the Website, your name and email address will also be saved in cookies.",
+      "Modal": "Mandatory(will)"
+    },
+    {
+      "ID": "REA-02#2",
+      "REA_ID": "REA-02",
+      "Text": "These are for your convenience so that you do not have to fill in your details again when you leave another comment.",
+      "Modal": ""
+    },
+    {
+      "ID": "REA-02#3",
+      "REA_ID": "REA-02",
+      "Text": "These cookies will be saved on your computer until you delete them.",
+      "Modal": "Mandatory(will)"
+    },
+    {
+      "ID": "REA-02#4",
+      "REA_ID": "REA-02",
+      "Text": "IP and browser user agent string: this data is collected when you leave a comment.",
+      "Modal": ""
+    }
+  ],
+  "stage3_output": [
+    {
+      "ID": "REA-02#1",
+      "Active_Recovered_Text": "Name, email address, content of the comment: this data is collected when you leave a comment and displayed on the Website. If you leave a comment on the Website, your name and email address will also be saved in cookies."
+    },
+    {
+      "ID": "REA-02#2",
+      "Active_Recovered_Text": "These are for your convenience so that you do not have to fill in your details again when you leave another comment."
+    },
+    {
+      "ID": "REA-02#3",
+      "Active_Recovered_Text": "These cookies will be saved on the User's computer until These cookies delete them."
+    },
+    {
+      "ID": "REA-02#4",
+      "Active_Recovered_Text": "The User SHALL collect IP and browser user agent string: this data when leaving a comment."
+    }
+  ],
+  "stage4_output": [
+    {
+      "id": "REA-02",
+      "text": "Name, email address, content of the comment: this data is collected when you leave a comment and displayed on the Website. If you leave a comment on the Website, your name and email address will also be saved in cookies.",
+      "actor": "your name and email address",
+      "modal": "Mandatory(will)",
+      "action": "also",
+      "action_list": [
+        "also"
+      ],
+      "object": "be saved in cookies.",
+      "temporal": "when you leave a comment",
+      "manner": "",
+      "condition": "when you leave a comment and displayed on the Website",
+      "article": "chunk2",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-02",
+      "sub_id": "REA-02#1",
+      "split_index": "1"
+    },
+    {
+      "id": "REA-02",
+      "text": "These are for your convenience so that you do not have to fill in your details again when you leave another comment.",
+      "actor": "you",
+      "modal": "",
+      "action": "have",
+      "action_list": [
+        "have"
+      ],
+      "object": "your convenience",
+      "temporal": "when you leave another comment",
+      "manner": "",
+      "condition": "when you leave another comment",
+      "article": "chunk2",
+      "paragraph": "1",
+      "source": "hybrid",
+      "rea_id": "REA-02",
+      "sub_id": "REA-02#2",
+      "split_index": "2"
+    },
+    {
+      "id": "REA-02",
+      "text": "These cookies will be saved on the User's computer until These cookies delete them.",
+      "actor": "These cookies",
+      "modal": "Mandatory(will)",
+      "action": "saved",
+      "action_list": [
+        "saved"
+      ],
+      "object": "on the User's computer until These cookies delete them.",
+      "temporal": "until These cookies delete them",
+      "manner": "",
+      "condition": "",
+      "article": "chunk2",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-02",
+      "sub_id": "REA-02#3",
+      "split_index": "3"
+    },
+    {
+      "id": "REA-02",
+      "text": "The User SHALL collect IP and browser user agent string: this data when leaving a comment.",
+      "actor": "The User",
+      "modal": "Mandatory(shall)",
+      "action": "collect",
+      "action_list": [
+        "collect"
+      ],
+      "object": "IP and browser user agent string: this data when leaving a comment.",
+      "temporal": "",
+      "manner": "",
+      "condition": "when leaving a comment",
+      "article": "chunk2",
+      "paragraph": "1",
+      "source": "rule",
+      "rea_id": "REA-02",
+      "sub_id": "REA-02#4",
+      "split_index": "4"
+    }
+  ]
+}

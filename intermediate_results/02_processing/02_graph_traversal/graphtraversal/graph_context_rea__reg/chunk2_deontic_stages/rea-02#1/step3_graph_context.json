@@ -1,0 +1,91 @@
+{
+  "rea_sub_id": "REA-02#1",
+  "reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk2_deontic_stages/rea-02#1.json",
+  "top_k": 3,
+  "max_hop": 1,
+  "allowed_relations": [
+    "AND",
+    "PARENT_CHILD",
+    "REFERENCES",
+    "SEQUENCE"
+  ],
+  "main_constraints": [
+    {
+      "id": "REG-075",
+      "clause": "Art17(1)",
+      "text": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay",
+      "rerank_rank": 1,
+      "rerank_score": 0.07008872926235199,
+      "similarity_score": 0.809131,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-076",
+          "main_reg_id": "REG-075",
+          "edge_type": "AND",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-076 -> REG-075",
+          "text": "and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies:",
+          "article": "17",
+          "paragraph": "1",
+          "clause": "Art17(1)"
+        }
+      ]
+    },
+    {
+      "id": "REG-077",
+      "clause": "Art17(1(a))",
+      "text": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay",
+      "rerank_rank": 2,
+      "rerank_score": 0.06874819844961166,
+      "similarity_score": 0.809131,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-078",
+          "main_reg_id": "REG-077",
+          "edge_type": "AND",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-078 -> REG-077",
+          "text": "and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies: (a) the personal data are no longer necessary in relation to the purposes for which they were collected or otherwise processed;",
+          "article": "17",
+          "paragraph": "1(a)",
+          "clause": "Art17(1(a))"
+        }
+      ]
+    },
+    {
+      "id": "REG-079",
+      "clause": "Art17(1(b))",
+      "text": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay",
+      "rerank_rank": 3,
+      "rerank_score": 0.06874819844961166,
+      "similarity_score": 0.809131,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-080",
+          "main_reg_id": "REG-079",
+          "edge_type": "AND",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-080 -> REG-079",
+          "text": "and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies: (b) the data subject withdraws consent on which the processing is based according to point (a) of Article 6(1), or point (a) of Article 9(2), and where there is no other legal ground for the processing;",
+          "article": "17",
+          "paragraph": "1(b)",
+          "clause": "Art17(1(b))"
+        }
+      ]
+    }
+  ],
+  "visited_reg_ids": [
+    "REG-075",
+    "REG-076",
+    "REG-077",
+    "REG-078",
+    "REG-079",
+    "REG-080"
+  ]
+}

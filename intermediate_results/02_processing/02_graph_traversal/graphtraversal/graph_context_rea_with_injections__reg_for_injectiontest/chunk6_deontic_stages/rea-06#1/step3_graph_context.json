@@ -1,0 +1,89 @@
+{
+  "rea_sub_id": "REA-06#1",
+  "reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea_with_injections__reg_for_injectiontest_reranked/chunk6_deontic_stages/rea-06#1.json",
+  "top_k": 3,
+  "max_hop": 1,
+  "allowed_relations": [
+    "AND",
+    "PARENT_CHILD",
+    "REFERENCES",
+    "SEQUENCE"
+  ],
+  "main_constraints": [
+    {
+      "id": "REG-057",
+      "clause": "Art12(7)",
+      "text": "Where the icons are presented electronically they shall be machine-readable.",
+      "rerank_rank": 1,
+      "rerank_score": 0.012114985845983028,
+      "similarity_score": 0.705482,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-056",
+          "main_reg_id": "REG-057",
+          "edge_type": "SEQUENCE",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-057 -> REG-056",
+          "text": "The information to be provided to data subjects pursuant to Articles 13 and 14 may be provided in combination with standardised icons in order to give in an easily visible, intelligible and clearly legible manner a meaningful overview of the intended processing.",
+          "article": "12",
+          "paragraph": "7",
+          "clause": "Art12(7)"
+        }
+      ]
+    },
+    {
+      "id": "REG-042",
+      "clause": "Art12(1)",
+      "text": "The information shall be provided in writing, or by other means, including, where appropriate, by electronic means.",
+      "rerank_rank": 2,
+      "rerank_score": 0.010071823373436928,
+      "similarity_score": 0.780723,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-041",
+          "main_reg_id": "REG-042",
+          "edge_type": "SEQUENCE",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-042 -> REG-041",
+          "text": "The controller shall take appropriate measures to provide any information referred to in Articles 13 and 14 and any communication under Articles 15 to 22 and 34 relating to processing to the data subject in a concise, transparent, intelligible and easily accessible form, using clear and plain language, in particular for any information addressed specifically to a child.",
+          "article": "12",
+          "paragraph": "1",
+          "clause": "Art12(1)"
+        },
+        {
+          "id": "REG-043",
+          "main_reg_id": "REG-042",
+          "edge_type": "SEQUENCE",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-043 -> REG-042",
+          "text": "When requested by the data subject, the information may be provided orally, provided that the identity of the data subject is proven by other means.",
+          "article": "12",
+          "paragraph": "1",
+          "clause": "Art12(1)"
+        }
+      ]
+    },
+    {
+      "id": "REG-056",
+      "clause": "Art12(7)",
+      "text": "The information to be provided to data subjects pursuant to Articles 13 and 14 may be provided in combination with standardised icons in order to give in an easily visible, intelligible and clearly legible manner a meaningful overview of the intended processing.",
+      "rerank_rank": 3,
+      "rerank_score": 0.009276984259486198,
+      "similarity_score": 0.743185,
+      "already_visited_before_expansion": true,
+      "graph_context": []
+    }
+  ],
+  "visited_reg_ids": [
+    "REG-041",
+    "REG-042",
+    "REG-043",
+    "REG-056",
+    "REG-057"
+  ]
+}

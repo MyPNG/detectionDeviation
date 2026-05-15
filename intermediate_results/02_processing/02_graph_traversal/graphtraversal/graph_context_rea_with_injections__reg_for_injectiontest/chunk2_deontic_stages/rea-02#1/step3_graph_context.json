@@ -1,0 +1,258 @@
+{
+  "rea_sub_id": "REA-02#1",
+  "reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea_with_injections__reg_for_injectiontest_reranked/chunk2_deontic_stages/rea-02#1.json",
+  "top_k": 3,
+  "max_hop": 1,
+  "allowed_relations": [
+    "AND",
+    "PARENT_CHILD",
+    "REFERENCES",
+    "SEQUENCE"
+  ],
+  "main_constraints": [
+    {
+      "id": "REG-066",
+      "clause": "Art13(2)",
+      "text": "In addition to the information referred to in paragraph 1, the controller shall, at the time when personal data are obtained, provide the data subject with the following further information necessary to ensure fair and transparent processing:",
+      "rerank_rank": 1,
+      "rerank_score": 0.05388670414686203,
+      "similarity_score": 0.800131,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-059",
+          "main_reg_id": "REG-066",
+          "edge_type": "REFERENCES",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-066 -> REG-059",
+          "text": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information:",
+          "article": "13",
+          "paragraph": "1",
+          "clause": "Art13(1)"
+        },
+        {
+          "id": "REG-067",
+          "main_reg_id": "REG-066",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-066 -> REG-067",
+          "text": "In addition to the information referred to in paragraph 1, the controller shall, at the time when personal data are obtained, provide the data subject with the following further information necessary to ensure fair and transparent processing: (a) the period for which the personal data will be stored, or if that is not possible, the criteria used to determine that period;",
+          "article": "13",
+          "paragraph": "2(a)",
+          "clause": "Art13(2(a))"
+        },
+        {
+          "id": "REG-068",
+          "main_reg_id": "REG-066",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-066 -> REG-068",
+          "text": "In addition to the information referred to in paragraph 1, the controller shall, at the time when personal data are obtained, provide the data subject with the following further information necessary to ensure fair and transparent processing: (b) the existence of the right to request from the controller access to and rectification or erasure of personal data or restriction of processing concerning the data subject or to object to processing as well as the right to data portability;",
+          "article": "13",
+          "paragraph": "2(b)",
+          "clause": "Art13(2(b))"
+        },
+        {
+          "id": "REG-069",
+          "main_reg_id": "REG-066",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-066 -> REG-069",
+          "text": "In addition to the information referred to in paragraph 1, the controller shall, at the time when personal data are obtained, provide the data subject with the following further information necessary to ensure fair and transparent processing: (c) where the processing is based on point (a) of Article 6(1) or point (a) of Article 9(2), the existence of the right to withdraw consent at any time, without affecting the lawfulness of processing based on consent before its withdrawal;",
+          "article": "13",
+          "paragraph": "2(c)",
+          "clause": "Art13(2(c))"
+        },
+        {
+          "id": "REG-070",
+          "main_reg_id": "REG-066",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-066 -> REG-070",
+          "text": "In addition to the information referred to in paragraph 1, the controller shall, at the time when personal data are obtained, provide the data subject with the following further information necessary to ensure fair and transparent processing: (d) the right to lodge a complaint with a supervisory authority;",
+          "article": "13",
+          "paragraph": "2(d)",
+          "clause": "Art13(2(d))"
+        },
+        {
+          "id": "REG-071",
+          "main_reg_id": "REG-066",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-066 -> REG-071",
+          "text": "In addition to the information referred to in paragraph 1, the controller shall, at the time when personal data are obtained, provide the data subject with the following further information necessary to ensure fair and transparent processing: (e) whether the provision of personal data is a statutory or contractual requirement, or a requirement necessary to enter into a contract, as well as whether the data subject is obliged to provide the personal data and of the possible consequences of failure to provide such data;",
+          "article": "13",
+          "paragraph": "2(e)",
+          "clause": "Art13(2(e))"
+        },
+        {
+          "id": "REG-072",
+          "main_reg_id": "REG-066",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-066 -> REG-072",
+          "text": "In addition to the information referred to in paragraph 1, the controller shall, at the time when personal data are obtained, provide the data subject with the following further information necessary to ensure fair and transparent processing: (f) the existence of automated decision-making, including profiling, referred to in Article 22(1) and (4) and, at least in those cases, meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing for the data subject.",
+          "article": "13",
+          "paragraph": "2(f)",
+          "clause": "Art13(2(f))"
+        }
+      ]
+    },
+    {
+      "id": "REG-059",
+      "clause": "Art13(1)",
+      "text": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information:",
+      "rerank_rank": 2,
+      "rerank_score": 0.05336014926433563,
+      "similarity_score": 0.811361,
+      "already_visited_before_expansion": true,
+      "graph_context": []
+    },
+    {
+      "id": "REG-145",
+      "clause": "Art23(2(b))",
+      "text": "In particular, any legislative measure referred to in paragraph 1 shall contain specific provisions at least, where relevant, as to: (b) the categories of personal data;",
+      "rerank_rank": 3,
+      "rerank_score": 0.052321575582027435,
+      "similarity_score": 0.765423,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-132",
+          "main_reg_id": "REG-145",
+          "edge_type": "REFERENCES",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-145 -> REG-132",
+          "text": "Union or Member State law to which the data controller or processor is subject may restrict by way of a legislative measure the scope of the obligations and rights provided for in Articles 12 to 22 and Article 34, as well as Article 5 in so far as its provisions correspond to the rights and obligations provided for in Articles 12 to 22, when such a restriction respects the essence of the fundamental rights and freedoms and is a necessary and proportionate measure in a democratic society to safeguard:",
+          "article": "23",
+          "paragraph": "1",
+          "clause": "Art23(1)"
+        },
+        {
+          "id": "REG-143",
+          "main_reg_id": "REG-145",
+          "edge_type": "PARENT_CHILD",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-143 -> REG-145",
+          "text": "In particular, any legislative measure referred to in paragraph 1 shall contain specific provisions at least, where relevant, as to:",
+          "article": "23",
+          "paragraph": "2",
+          "clause": "Art23(2)"
+        },
+        {
+          "id": "REG-144",
+          "main_reg_id": "REG-145",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-145 <- REG-143 -> REG-144",
+          "text": "In particular, any legislative measure referred to in paragraph 1 shall contain specific provisions at least, where relevant, as to: (a) the purposes of the processing or categories of processing;",
+          "article": "23",
+          "paragraph": "2(a)",
+          "clause": "Art23(2(a))"
+        },
+        {
+          "id": "REG-146",
+          "main_reg_id": "REG-145",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-145 <- REG-143 -> REG-146",
+          "text": "In particular, any legislative measure referred to in paragraph 1 shall contain specific provisions at least, where relevant, as to: (c) the scope of the restrictions introduced;",
+          "article": "23",
+          "paragraph": "2(c)",
+          "clause": "Art23(2(c))"
+        },
+        {
+          "id": "REG-147",
+          "main_reg_id": "REG-145",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-145 <- REG-143 -> REG-147",
+          "text": "In particular, any legislative measure referred to in paragraph 1 shall contain specific provisions at least, where relevant, as to: (d) the safeguards to prevent abuse or unlawful access or transfer;",
+          "article": "23",
+          "paragraph": "2(d)",
+          "clause": "Art23(2(d))"
+        },
+        {
+          "id": "REG-148",
+          "main_reg_id": "REG-145",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-145 <- REG-143 -> REG-148",
+          "text": "In particular, any legislative measure referred to in paragraph 1 shall contain specific provisions at least, where relevant, as to: (e) the specification of the controller or categories of controllers;",
+          "article": "23",
+          "paragraph": "2(e)",
+          "clause": "Art23(2(e))"
+        },
+        {
+          "id": "REG-149",
+          "main_reg_id": "REG-145",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-145 <- REG-143 -> REG-149",
+          "text": "In particular, any legislative measure referred to in paragraph 1 shall contain specific provisions at least, where relevant, as to: (f) the storage periods and the applicable safeguards taking into account the nature, scope and purposes of the processing or categories of processing;",
+          "article": "23",
+          "paragraph": "2(f)",
+          "clause": "Art23(2(f))"
+        },
+        {
+          "id": "REG-150",
+          "main_reg_id": "REG-145",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-145 <- REG-143 -> REG-150",
+          "text": "In particular, any legislative measure referred to in paragraph 1 shall contain specific provisions at least, where relevant, as to: (g) the risks to the rights and freedoms of data subjects; and",
+          "article": "23",
+          "paragraph": "2(g)",
+          "clause": "Art23(2(g))"
+        },
+        {
+          "id": "REG-151",
+          "main_reg_id": "REG-145",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-145 <- REG-143 -> REG-151",
+          "text": "In particular, any legislative measure referred to in paragraph 1 shall contain specific provisions at least, where relevant, as to: (h) the right of data subjects to be informed about the restriction, unless that may be prejudicial to the purpose of the restriction.",
+          "article": "23",
+          "paragraph": "2(h)",
+          "clause": "Art23(2(h))"
+        }
+      ]
+    }
+  ],
+  "visited_reg_ids": [
+    "REG-059",
+    "REG-066",
+    "REG-067",
+    "REG-068",
+    "REG-069",
+    "REG-070",
+    "REG-071",
+    "REG-072",
+    "REG-132",
+    "REG-143",
+    "REG-144",
+    "REG-145",
+    "REG-146",
+    "REG-147",
+    "REG-148",
+    "REG-149",
+    "REG-150",
+    "REG-151"
+  ]
+}

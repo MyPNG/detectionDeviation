@@ -1,0 +1,1254 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="relation" attr.type="string"/>
+<key id="d5" for="node" attr.name="article_number" attr.type="string"/>
+<key id="d4" for="node" attr.name="system_name" attr.type="string"/>
+<key id="d3" for="node" attr.name="text" attr.type="string"/>
+<key id="d2" for="node" attr.name="paragraph" attr.type="string"/>
+<key id="d1" for="node" attr.name="article" attr.type="string"/>
+<key id="d0" for="node" attr.name="node_type" attr.type="string"/>
+<graph edgedefault="directed"><node id="REG-001">
+  <data key="d0">Provision</data>
+  <data key="d1">9</data>
+  <data key="d2">1</data>
+  <data key="d3">A risk management system shall be established, implemented, documented and maintained in relation to high-risk AI systems.</data>
+  <data key="d4">Art9(1)</data>
+</node>
+<node id="Art9">
+  <data key="d0">Article</data>
+  <data key="d5">9</data>
+</node>
+<node id="REG-002">
+  <data key="d0">Provision</data>
+  <data key="d1">9</data>
+  <data key="d2">2</data>
+  <data key="d3">The risk management system shall be understood as a continuous iterative process planned and run throughout the entire lifecycle of a high-risk AI system, requiring regular systematic review and updating.</data>
+  <data key="d4">Art9(2)</data>
+</node>
+<node id="REG-003">
+  <data key="d0">Provision</data>
+  <data key="d1">9</data>
+  <data key="d2">2</data>
+  <data key="d3">The risk management system shall comprise the following steps:</data>
+  <data key="d4">Art9(2)</data>
+</node>
+<node id="REG-004">
+  <data key="d0">Provision</data>
+  <data key="d1">9</data>
+  <data key="d2">2(a)</data>
+  <data key="d3">The risk management system shall comprise the following steps: (a) the identification and analysis of the known and the reasonably foreseeable risks that the high-risk AI system can pose to health, safety or fundamental rights when the high-risk AI system is used in accordance with its intended purpose;</data>
+  <data key="d4">Art9(2(a))</data>
+</node>
+<node id="REG-005">
+  <data key="d0">Provision</data>
+  <data key="d1">9</data>
+  <data key="d2">2(b)</data>
+  <data key="d3">The risk management system shall comprise the following steps: (b) the estimation and evaluation of the risks that may emerge when the high-risk AI system is used in accordance with its intended purpose, and under conditions of reasonably foreseeable misuse;</data>
+  <data key="d4">Art9(2(b))</data>
+</node>
+<node id="REG-006">
+  <data key="d0">Provision</data>
+  <data key="d1">9</data>
+  <data key="d2">2(c)</data>
+  <data key="d3">The risk management system shall comprise the following steps: (c) the evaluation of other risks possibly arising, based on the analysis of data gathered from the post-market monitoring system referred to in Article 72;</data>
+  <data key="d4">Art9(2(c))</data>
+</node>
+<node id="REG-007">
+  <data key="d0">Provision</data>
+  <data key="d1">9</data>
+  <data key="d2">2(d)</data>
+  <data key="d3">The risk management system shall comprise the following steps: (d) the adoption of appropriate and targeted risk management measures designed to address the risks identified pursuant to point (a).</data>
+  <data key="d4">Art9(2(d))</data>
+</node>
+<node id="REG-008">
+  <data key="d0">Provision</data>
+  <data key="d1">9</data>
+  <data key="d2">3</data>
+  <data key="d3">The risks referred to in this Article shall concern only those which may be reasonably mitigated or eliminated through the development or design of the high-risk AI system, or the provision of adequate technical information.</data>
+  <data key="d4">Art9(3)</data>
+</node>
+<node id="REG-009">
+  <data key="d0">Provision</data>
+  <data key="d1">9</data>
+  <data key="d2">4</data>
+  <data key="d3">The risk management measures referred to in paragraph 2, point (d), shall give due consideration to the effects and possible interaction resulting from the combined application of the requirements set out in this Section, with a view to minimising risks more effectively while achieving an appropriate balance in implementing the measures to fulfil those requirements.</data>
+  <data key="d4">Art9(4)</data>
+</node>
+<node id="REG-010">
+  <data key="d0">Provision</data>
+  <data key="d1">9</data>
+  <data key="d2">5</data>
+  <data key="d3">The risk management measures referred to in paragraph 2, point (d), shall be such that the relevant residual risk associated with each hazard, as well as the overall residual risk of the high-risk AI systems is judged to be acceptable. In identifying the most appropriate risk management measures, the following shall be ensured:</data>
+  <data key="d4">Art9(5)</data>
+</node>
+<node id="REG-011">
+  <data key="d0">Provision</data>
+  <data key="d1">9</data>
+  <data key="d2">5(a)</data>
+  <data key="d3">The risk management measures referred to in paragraph 2, point (d), shall be such that the relevant residual risk associated with each hazard, as well as the overall residual risk of the high-risk AI systems is judged to be acceptable. (a) elimination or reduction of risks identified and evaluated pursuant to paragraph 2 in as far as technically feasible through adequate design and development of the high-risk AI system;</data>
+  <data key="d4">Art9(5(a))</data>
+</node>
+<node id="REG-012">
+  <data key="d0">Provision</data>
+  <data key="d1">9</data>
+  <data key="d2">5(b)</data>
+  <data key="d3">The risk management measures referred to in paragraph 2, point (d), shall be such that the relevant residual risk associated with each hazard, as well as the overall residual risk of the high-risk AI systems is judged to be acceptable. (b) where appropriate, implementation of adequate mitigation and control measures addressing risks that cannot be eliminated;</data>
+  <data key="d4">Art9(5(b))</data>
+</node>
+<node id="REG-013">
+  <data key="d0">Provision</data>
+  <data key="d1">9</data>
+  <data key="d2">5(c)</data>
+  <data key="d3">The risk management measures referred to in paragraph 2, point (d), shall be such that the relevant residual risk associated with each hazard, as well as the overall residual risk of the high-risk AI systems is judged to be acceptable. (c) provision of information required pursuant to Article 13 and, where appropriate, training to deployers. With a view to eliminating or reducing risks related to the use of the high-risk AI system, due consideration shall be given to the technical knowledge, experience, education, the training to be expected by the deployer, and the presumable context in which the system is intended to be used.</data>
+  <data key="d4">Art9(5(c))</data>
+</node>
+<node id="REG-014">
+  <data key="d0">Provision</data>
+  <data key="d1">9</data>
+  <data key="d2">6</data>
+  <data key="d3">High-risk AI systems shall be tested for the purpose of identifying the most appropriate and targeted risk management measures.</data>
+  <data key="d4">Art9(6)</data>
+</node>
+<node id="REG-015">
+  <data key="d0">Provision</data>
+  <data key="d1">9</data>
+  <data key="d2">6</data>
+  <data key="d3">Testing shall ensure that high-risk AI systems perform consistently for their intended purpose and that they are in compliance with the requirements set out in this Section.</data>
+  <data key="d4">Art9(6)</data>
+</node>
+<node id="REG-016">
+  <data key="d0">Provision</data>
+  <data key="d1">9</data>
+  <data key="d2">7</data>
+  <data key="d3">Testing procedures may include testing in real-world conditions in accordance with Article 60.</data>
+  <data key="d4">Art9(7)</data>
+</node>
+<node id="REG-017">
+  <data key="d0">Provision</data>
+  <data key="d1">9</data>
+  <data key="d2">8</data>
+  <data key="d3">The testing of high-risk AI systems shall be performed, as appropriate, at any time throughout the development process, and, in any event, prior to their being placed on the market or put into service.</data>
+  <data key="d4">Art9(8)</data>
+</node>
+<node id="REG-018">
+  <data key="d0">Provision</data>
+  <data key="d1">9</data>
+  <data key="d2">8</data>
+  <data key="d3">Testing shall be carried out against prior defined metrics and probabilistic thresholds that are appropriate to the intended purpose of the high-risk AI system.</data>
+  <data key="d4">Art9(8)</data>
+</node>
+<node id="REG-019">
+  <data key="d0">Provision</data>
+  <data key="d1">9</data>
+  <data key="d2">9</data>
+  <data key="d3">When implementing the risk management system as provided for in paragraphs 1 to 7, providers shall give consideration to whether in view of its intended purpose the high-risk AI system is likely to have an adverse impact on persons under the age of 18 and, as appropriate, other vulnerable groups.</data>
+  <data key="d4">Art9(9)</data>
+</node>
+<node id="REG-020">
+  <data key="d0">Provision</data>
+  <data key="d1">9</data>
+  <data key="d2">10</data>
+  <data key="d3">For providers of high-risk AI systems that are subject to requirements regarding internal risk management processes under other relevant provisions of Union law, the aspects provided in paragraphs 1 to 9 may be part of, or combined with, the risk management procedures established pursuant to that law.</data>
+  <data key="d4">Art9(10)</data>
+</node>
+<node id="REG-021">
+  <data key="d0">Provision</data>
+  <data key="d1">10</data>
+  <data key="d2">1</data>
+  <data key="d3">High-risk AI systems which make use of techniques involving the training of AI models with data shall be developed on the basis of training, validation and testing data sets that meet the quality criteria referred to in paragraphs 2 to 5 whenever such data sets are used.</data>
+  <data key="d4">Art10(1)</data>
+</node>
+<node id="Art10">
+  <data key="d0">Article</data>
+  <data key="d5">10</data>
+</node>
+<node id="REG-022">
+  <data key="d0">Provision</data>
+  <data key="d1">10</data>
+  <data key="d2">2</data>
+  <data key="d3">Training, validation and testing data sets shall be subject to data governance and management practices appropriate for the intended purpose of the high-risk AI system.</data>
+  <data key="d4">Art10(2)</data>
+</node>
+<node id="REG-023">
+  <data key="d0">Provision</data>
+  <data key="d1">10</data>
+  <data key="d2">2</data>
+  <data key="d3">Those practices shall concern in particular:</data>
+  <data key="d4">Art10(2)</data>
+</node>
+<node id="REG-024">
+  <data key="d0">Provision</data>
+  <data key="d1">10</data>
+  <data key="d2">2(a)</data>
+  <data key="d3">Those practices shall concern in particular: (a) the relevant design choices;</data>
+  <data key="d4">Art10(2(a))</data>
+</node>
+<node id="REG-025">
+  <data key="d0">Provision</data>
+  <data key="d1">10</data>
+  <data key="d2">2(b)</data>
+  <data key="d3">Those practices shall concern in particular: (b) data collection processes and the origin of data, and in the case of personal data, the original purpose of the data collection;</data>
+  <data key="d4">Art10(2(b))</data>
+</node>
+<node id="REG-026">
+  <data key="d0">Provision</data>
+  <data key="d1">10</data>
+  <data key="d2">2(c)</data>
+  <data key="d3">Those practices shall concern in particular: (c) relevant data-preparation processing operations, such as annotation, labelling, cleaning, updating, enrichment and aggregation;</data>
+  <data key="d4">Art10(2(c))</data>
+</node>
+<node id="REG-027">
+  <data key="d0">Provision</data>
+  <data key="d1">10</data>
+  <data key="d2">2(d)</data>
+  <data key="d3">Those practices shall concern in particular: (d) the formulation of assumptions, in particular with respect to the information that the data are supposed to measure and represent;</data>
+  <data key="d4">Art10(2(d))</data>
+</node>
+<node id="REG-028">
+  <data key="d0">Provision</data>
+  <data key="d1">10</data>
+  <data key="d2">2(e)</data>
+  <data key="d3">Those practices shall concern in particular: (e) an assessment of the availability, quantity and suitability of the data sets that are needed;</data>
+  <data key="d4">Art10(2(e))</data>
+</node>
+<node id="REG-029">
+  <data key="d0">Provision</data>
+  <data key="d1">10</data>
+  <data key="d2">2(f)</data>
+  <data key="d3">Those practices shall concern in particular: (f) examination in view of possible biases that are likely to affect the health and safety of persons, have a negative impact on fundamental rights or lead to discrimination prohibited under Union law, especially where data outputs influence inputs for future operations;</data>
+  <data key="d4">Art10(2(f))</data>
+</node>
+<node id="REG-030">
+  <data key="d0">Provision</data>
+  <data key="d1">10</data>
+  <data key="d2">2(g)</data>
+  <data key="d3">Those practices shall concern in particular: (g) appropriate measures to detect, prevent and mitigate possible biases identified according to point (f);</data>
+  <data key="d4">Art10(2(g))</data>
+</node>
+<node id="REG-031">
+  <data key="d0">Provision</data>
+  <data key="d1">10</data>
+  <data key="d2">2(h)</data>
+  <data key="d3">Those practices shall concern in particular: (h) the identification of relevant data gaps or shortcomings that prevent compliance with this Regulation, and how those gaps</data>
+  <data key="d4">Art10(2(h))</data>
+</node>
+<node id="REG-032">
+  <data key="d0">Provision</data>
+  <data key="d1">10</data>
+  <data key="d2">2(h)</data>
+  <data key="d3">and shortcomings can be addressed.</data>
+  <data key="d4">Art10(2(h))</data>
+</node>
+<node id="REG-033">
+  <data key="d0">Provision</data>
+  <data key="d1">10</data>
+  <data key="d2">3</data>
+  <data key="d3">Training, validation and testing data sets shall be relevant, sufficiently representative, and to the best extent possible, free of errors and complete in view of the intended purpose.</data>
+  <data key="d4">Art10(3)</data>
+</node>
+<node id="REG-034">
+  <data key="d0">Provision</data>
+  <data key="d1">10</data>
+  <data key="d2">3</data>
+  <data key="d3">They shall have the appropriate statistical properties, including, where applicable, as regards the persons or groups of persons in relation to whom the high-risk AI system is intended to be used.</data>
+  <data key="d4">Art10(3)</data>
+</node>
+<node id="REG-035">
+  <data key="d0">Provision</data>
+  <data key="d1">10</data>
+  <data key="d2">3</data>
+  <data key="d3">Those characteristics of the data sets may be met at the level of individual data sets or at the level of a combination thereof.</data>
+  <data key="d4">Art10(3)</data>
+</node>
+<node id="REG-036">
+  <data key="d0">Provision</data>
+  <data key="d1">10</data>
+  <data key="d2">4</data>
+  <data key="d3">Data sets shall take into account, to the extent required by the intended purpose, the characteristics or elements that are particular to the specific geographical, contextual, behavioural or functional setting within which the high-risk AI system is intended to be used.</data>
+  <data key="d4">Art10(4)</data>
+</node>
+<node id="REG-037">
+  <data key="d0">Provision</data>
+  <data key="d1">10</data>
+  <data key="d2">5</data>
+  <data key="d3">To the extent that it is strictly necessary for the purpose of ensuring bias detection and correction in relation to the high-risk AI systems in accordance with paragraph (2), points (f) and (g) of this Article, the providers of such systems may exceptionally process special categories of personal data, subject to appropriate safeguards for the fundamental rights and freedoms of natural persons.</data>
+  <data key="d4">Art10(5)</data>
+</node>
+<node id="REG-038">
+  <data key="d0">Provision</data>
+  <data key="d1">10</data>
+  <data key="d2">5</data>
+  <data key="d3">In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur:</data>
+  <data key="d4">Art10(5)</data>
+</node>
+<node id="REG-039">
+  <data key="d0">Provision</data>
+  <data key="d1">10</data>
+  <data key="d2">5(a)</data>
+  <data key="d3">In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur: (a) the bias detection and correction cannot be effectively fulfilled by processing other data, including synthetic or anonymised data;</data>
+  <data key="d4">Art10(5(a))</data>
+</node>
+<node id="REG-040">
+  <data key="d0">Provision</data>
+  <data key="d1">10</data>
+  <data key="d2">5(b)</data>
+  <data key="d3">In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur: (b) the special categories of personal data are subject to technical limitations on the re-use of the personal data, and state-of-the-art security and privacy-preserving measures, including pseudonymisation;</data>
+  <data key="d4">Art10(5(b))</data>
+</node>
+<node id="REG-041">
+  <data key="d0">Provision</data>
+  <data key="d1">10</data>
+  <data key="d2">5(c)</data>
+  <data key="d3">In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur: (c) the special categories of personal data are subject to measures to ensure that the personal data processed are secured, protected, subject to suitable safeguards, including strict controls and documentation of the access, to avoid misuse and ensure that only authorised persons have access to those personal data with appropriate confidentiality obligations;</data>
+  <data key="d4">Art10(5(c))</data>
+</node>
+<node id="REG-042">
+  <data key="d0">Provision</data>
+  <data key="d1">10</data>
+  <data key="d2">5(d)</data>
+  <data key="d3">In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur: (d) the special categories of personal data are not to be transmitted, transferred or otherwise accessed by other parties;</data>
+  <data key="d4">Art10(5(d))</data>
+</node>
+<node id="REG-043">
+  <data key="d0">Provision</data>
+  <data key="d1">10</data>
+  <data key="d2">5(e)</data>
+  <data key="d3">In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur: (e) the special categories of personal data are deleted once the bias has been corrected or the personal data has reached the end of its retention period, whichever comes first;</data>
+  <data key="d4">Art10(5(e))</data>
+</node>
+<node id="REG-044">
+  <data key="d0">Provision</data>
+  <data key="d1">10</data>
+  <data key="d2">5(f)</data>
+  <data key="d3">In addition to the provisions set out in Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, all the following conditions must be met in order for such processing to occur: (f) the records of processing activities pursuant to Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680 include the reasons why the processing of special categories of personal data was strictly necessary to detect and correct biases, and why that objective could not be achieved by processing other data.</data>
+  <data key="d4">Art10(5(f))</data>
+</node>
+<node id="REG-045">
+  <data key="d0">Provision</data>
+  <data key="d1">10</data>
+  <data key="d2">6</data>
+  <data key="d3">For the development of high-risk AI systems not using techniques involving the training of AI models, paragraphs 2 to 5 apply only to the testing data sets.</data>
+  <data key="d4">Art10(6)</data>
+</node>
+<node id="REG-046">
+  <data key="d0">Provision</data>
+  <data key="d1">11</data>
+  <data key="d2">1</data>
+  <data key="d3">The technical documentation of a high-risk AI system shall be drawn up before that system is placed on the market The technical documentation shall be drawn up in such a way as to demonstrate that the high-risk AI system complies with the requirements set out in this Section and to provide national competent authorities and notified bodies with the necessary information in a clear and comprehensive form to assess the compliance of the AI system with those requirements. It shall contain, at a minimum, the elements set out in Annex IV. SMEs, including start-ups, may provide the elements of the technical documentation specified in Annex IV in a simplified manner. To that end, the Commission shall establish a simplified technical documentation form targeted at the needs of small and microenterprises. Where an SME, including a start-up, opts to provide the information required in Annex IV in a simplified manner, it shall use the form referred to in this paragraph. Notified bodies shall accept the form for the purposes of the conformity assessment.</data>
+  <data key="d4">Art11(1)</data>
+</node>
+<node id="Art11">
+  <data key="d0">Article</data>
+  <data key="d5">11</data>
+</node>
+<node id="REG-047">
+  <data key="d0">Provision</data>
+  <data key="d1">11</data>
+  <data key="d2">1</data>
+  <data key="d3">or put into service and shall be kept up-to date.</data>
+  <data key="d4">Art11(1)</data>
+</node>
+<node id="REG-048">
+  <data key="d0">Provision</data>
+  <data key="d1">11</data>
+  <data key="d2">2</data>
+  <data key="d3">Where a high-risk AI system related to a product covered by the Union harmonisation legislation listed in Section A of Annex I is placed on the market or put into service, a single set of technical documentation shall be drawn up containing all the information set out in paragraph 1, as well as the information required under those legal acts.</data>
+  <data key="d4">Art11(2)</data>
+</node>
+<node id="REG-049">
+  <data key="d0">Provision</data>
+  <data key="d1">11</data>
+  <data key="d2">3</data>
+  <data key="d3">The Commission is empowered to adopt delegated acts in accordance with Article 97 in order to amend Annex IV, where necessary, to ensure that, in light of technical progress, the technical documentation provides all the information necessary to assess the compliance of the system with the requirements set out in this Section.</data>
+  <data key="d4">Art11(3)</data>
+</node>
+<node id="REG-050">
+  <data key="d0">Provision</data>
+  <data key="d1">13</data>
+  <data key="d2">1</data>
+  <data key="d3">High-risk AI systems shall be designed and developed in such a way as to ensure that their operation is sufficiently transparent to enable deployers to interpret a system's output and use it appropriately.</data>
+  <data key="d4">Art13(1)</data>
+</node>
+<node id="Art13">
+  <data key="d0">Article</data>
+  <data key="d5">13</data>
+</node>
+<node id="REG-051">
+  <data key="d0">Provision</data>
+  <data key="d1">13</data>
+  <data key="d2">1</data>
+  <data key="d3">An appropriate type and degree of transparency shall be ensured with a view to achieving compliance with the relevant obligations of the provider and deployer set out in Section 3.</data>
+  <data key="d4">Art13(1)</data>
+</node>
+<node id="REG-052">
+  <data key="d0">Provision</data>
+  <data key="d1">13</data>
+  <data key="d2">2</data>
+  <data key="d3">High-risk AI systems shall be accompanied by instructions for use in an appropriate digital format or otherwise that include concise, complete, correct and clear information that is relevant, accessible and comprehensible to deployers.</data>
+  <data key="d4">Art13(2)</data>
+</node>
+<node id="REG-053">
+  <data key="d0">Provision</data>
+  <data key="d1">13</data>
+  <data key="d2">3</data>
+  <data key="d3">The instructions for use shall contain at least the following information:</data>
+  <data key="d4">Art13(3)</data>
+</node>
+<node id="REG-054">
+  <data key="d0">Provision</data>
+  <data key="d1">13</data>
+  <data key="d2">3(a)</data>
+  <data key="d3">The instructions for use shall contain at least the following information: (a) the identity and the contact details of the provider and, where applicable, of its authorised representative;</data>
+  <data key="d4">Art13(3(a))</data>
+</node>
+<node id="REG-055">
+  <data key="d0">Provision</data>
+  <data key="d1">13</data>
+  <data key="d2">3(b)</data>
+  <data key="d3">The instructions for use shall contain at least the following information: (b) the characteristics, capabilities and limitations of performance of the high-risk AI system, including:</data>
+  <data key="d4">Art13(3(b))</data>
+</node>
+<node id="REG-056">
+  <data key="d0">Provision</data>
+  <data key="d1">13</data>
+  <data key="d2">3(i)</data>
+  <data key="d3">The instructions for use shall contain at least the following information: (i) its intended purpose;</data>
+  <data key="d4">Art13(3(i))</data>
+</node>
+<node id="REG-057">
+  <data key="d0">Provision</data>
+  <data key="d1">13</data>
+  <data key="d2">4</data>
+  <data key="d3">(ii) the level of accuracy, including its metrics, robustness and cybersecurity referred to in Article 15 against which the high-risk AI system has been tested and validated and which can be expected, and any known and foreseeable circumstances that may have an impact on that expected level of accuracy, robustness and cybersecurity;</data>
+  <data key="d4">Art13(4)</data>
+</node>
+<node id="REG-058">
+  <data key="d0">Provision</data>
+  <data key="d1">13</data>
+  <data key="d2">5</data>
+  <data key="d3">(iii) any known or foreseeable circumstance, related to the use of the high-risk AI system in accordance with its intended purpose or under conditions of reasonably foreseeable misuse, which may lead to risks to the health and safety or fundamental rights referred to in Article 9(2);</data>
+  <data key="d4">Art13(5)</data>
+</node>
+<node id="REG-059">
+  <data key="d0">Provision</data>
+  <data key="d1">13</data>
+  <data key="d2">6</data>
+  <data key="d3">(iv) where applicable, the technical capabilities and characteristics of the high-risk AI system to provide information that is relevant to explain its output;</data>
+  <data key="d4">Art13(6)</data>
+</node>
+<node id="REG-060">
+  <data key="d0">Provision</data>
+  <data key="d1">13</data>
+  <data key="d2">6(v)</data>
+  <data key="d3">(iv) where applicable, the technical capabilities and characteristics of the high-risk AI system to provide information that is relevant to explain its output; (v) when appropriate, its performance regarding specific persons or groups of persons on which the system is intended to be used;</data>
+  <data key="d4">Art13(6(v))</data>
+</node>
+<node id="REG-061">
+  <data key="d0">Provision</data>
+  <data key="d1">13</data>
+  <data key="d2">7</data>
+  <data key="d3">(vi) when appropriate, specifications for the input data, or any other relevant information in terms of the training, validation and testing data sets used, taking into account the intended purpose of the high-risk AI system;</data>
+  <data key="d4">Art13(7)</data>
+</node>
+<node id="REG-062">
+  <data key="d0">Provision</data>
+  <data key="d1">13</data>
+  <data key="d2">8</data>
+  <data key="d3">(vii) where applicable, information to enable deployers to interpret the output of the high-risk AI system and use it appropriately;</data>
+  <data key="d4">Art13(8)</data>
+</node>
+<node id="REG-063">
+  <data key="d0">Provision</data>
+  <data key="d1">13</data>
+  <data key="d2">8(c)</data>
+  <data key="d3">(vii) where applicable, information to enable deployers to interpret the output of the high-risk AI system and use it appropriately; (c) the changes to the high-risk AI system and its performance which have been pre-determined by the provider at the moment of the initial conformity assessment, if any;</data>
+  <data key="d4">Art13(8(c))</data>
+</node>
+<node id="REG-064">
+  <data key="d0">Provision</data>
+  <data key="d1">13</data>
+  <data key="d2">8(d)</data>
+  <data key="d3">(vii) where applicable, information to enable deployers to interpret the output of the high-risk AI system and use it appropriately; (d) the human oversight measures referred to in Article 14, including the technical measures put in place to facilitate the interpretation of the outputs of the high-risk AI systems by the deployers;</data>
+  <data key="d4">Art13(8(d))</data>
+</node>
+<node id="REG-065">
+  <data key="d0">Provision</data>
+  <data key="d1">13</data>
+  <data key="d2">8(e)</data>
+  <data key="d3">(vii) where applicable, information to enable deployers to interpret the output of the high-risk AI system and use it appropriately; (e) the computational and hardware resources needed, the expected lifetime of the high-risk AI system and any necessary maintenance and care measures, including their frequency, to ensure the proper functioning of that AI system, including as regards software updates;</data>
+  <data key="d4">Art13(8(e))</data>
+</node>
+<node id="REG-066">
+  <data key="d0">Provision</data>
+  <data key="d1">13</data>
+  <data key="d2">8(f)</data>
+  <data key="d3">(vii) where applicable, information to enable deployers to interpret the output of the high-risk AI system and use it appropriately; (f) where relevant, a description of the mechanisms included within the high-risk AI system that allows deployers to properly collect, store and interpret the logs in accordance with Article 12.</data>
+  <data key="d4">Art13(8(f))</data>
+</node>
+<node id="REG-067">
+  <data key="d0">Provision</data>
+  <data key="d1">14</data>
+  <data key="d2">1</data>
+  <data key="d3">High-risk AI systems shall be designed and developed in such a way, including with appropriate human-machine interface tools, that they can be effectively overseen by natural persons during the period in which they are in use.</data>
+  <data key="d4">Art14(1)</data>
+</node>
+<node id="Art14">
+  <data key="d0">Article</data>
+  <data key="d5">14</data>
+</node>
+<node id="REG-068">
+  <data key="d0">Provision</data>
+  <data key="d1">14</data>
+  <data key="d2">2</data>
+  <data key="d3">Human oversight shall aim to prevent or minimise the risks to health, safety</data>
+  <data key="d4">Art14(2)</data>
+</node>
+<node id="REG-069">
+  <data key="d0">Provision</data>
+  <data key="d1">14</data>
+  <data key="d2">2</data>
+  <data key="d3">or fundamental rights that may emerge when a high-risk AI system is used in accordance with its intended purpose or under conditions of reasonably foreseeable misuse, in particular where such risks persist despite the application of other requirements set out in this Section.</data>
+  <data key="d4">Art14(2)</data>
+</node>
+<node id="REG-070">
+  <data key="d0">Provision</data>
+  <data key="d1">14</data>
+  <data key="d2">3</data>
+  <data key="d3">The oversight measures shall be commensurate with the risks, level of autonomy and context of use of the high-risk AI system,</data>
+  <data key="d4">Art14(3)</data>
+</node>
+<node id="REG-071">
+  <data key="d0">Provision</data>
+  <data key="d1">14</data>
+  <data key="d2">3</data>
+  <data key="d3">and shall be ensured through either one or both of the following types of measures:</data>
+  <data key="d4">Art14(3)</data>
+</node>
+<node id="REG-072">
+  <data key="d0">Provision</data>
+  <data key="d1">14</data>
+  <data key="d2">3(a)</data>
+  <data key="d3">The oversight measures shall be commensurate with the risks, level of autonomy and context of use of the high-risk AI system,</data>
+  <data key="d4">Art14(3(a))</data>
+</node>
+<node id="REG-073">
+  <data key="d0">Provision</data>
+  <data key="d1">14</data>
+  <data key="d2">3(a)</data>
+  <data key="d3">and shall be ensured through either one or both of the following types of measures: (a) measures identified and built, when technically feasible, into the high-risk AI system by the provider before it is placed on the market or put into service;</data>
+  <data key="d4">Art14(3(a))</data>
+</node>
+<node id="REG-074">
+  <data key="d0">Provision</data>
+  <data key="d1">14</data>
+  <data key="d2">3(b)</data>
+  <data key="d3">The oversight measures shall be commensurate with the risks, level of autonomy and context of use of the high-risk AI system,</data>
+  <data key="d4">Art14(3(b))</data>
+</node>
+<node id="REG-075">
+  <data key="d0">Provision</data>
+  <data key="d1">14</data>
+  <data key="d2">3(b)</data>
+  <data key="d3">and shall be ensured through either one or both of the following types of measures: (b) measures identified by the provider before placing the high-risk AI system on the market or putting it into service and that are appropriate to be implemented by the deployer.</data>
+  <data key="d4">Art14(3(b))</data>
+</node>
+<node id="REG-076">
+  <data key="d0">Provision</data>
+  <data key="d1">14</data>
+  <data key="d2">4</data>
+  <data key="d3">For the purpose of implementing paragraphs 1, 2 and 3, the high-risk AI system shall be provided to the deployer in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate:</data>
+  <data key="d4">Art14(4)</data>
+</node>
+<node id="REG-077">
+  <data key="d0">Provision</data>
+  <data key="d1">14</data>
+  <data key="d2">4(a)</data>
+  <data key="d3">For the purpose of implementing paragraphs 1, 2 and 3, the high-risk AI system shall be provided to the deployer in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (a) to properly understand the relevant capacities and limitations of the high-risk AI system and be able to duly monitor its operation, including in view of detecting and addressing anomalies, dysfunctions and unexpected performance;</data>
+  <data key="d4">Art14(4(a))</data>
+</node>
+<node id="REG-078">
+  <data key="d0">Provision</data>
+  <data key="d1">14</data>
+  <data key="d2">4(b)</data>
+  <data key="d3">For the purpose of implementing paragraphs 1, 2 and 3, the high-risk AI system shall be provided to the deployer in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (b) to remain aware of the possible tendency of automatically relying or over-relying on the output produced by a high-risk AI system (automation bias), in particular for high-risk AI systems used to provide information or recommendations for decisions to be taken by natural persons;</data>
+  <data key="d4">Art14(4(b))</data>
+</node>
+<node id="REG-079">
+  <data key="d0">Provision</data>
+  <data key="d1">14</data>
+  <data key="d2">4(c)</data>
+  <data key="d3">For the purpose of implementing paragraphs 1, 2 and 3, the high-risk AI system shall be provided to the deployer in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (c) to correctly interpret the high-risk AI system's output, taking into account, for example, the interpretation tools and methods available;</data>
+  <data key="d4">Art14(4(c))</data>
+</node>
+<node id="REG-080">
+  <data key="d0">Provision</data>
+  <data key="d1">14</data>
+  <data key="d2">4(d)</data>
+  <data key="d3">For the purpose of implementing paragraphs 1, 2 and 3, the high-risk AI system shall be provided to the deployer in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (d) to decide, in any particular situation, not to use the high-risk AI system or to otherwise disregard, override or reverse the output of the high-risk AI system;</data>
+  <data key="d4">Art14(4(d))</data>
+</node>
+<node id="REG-081">
+  <data key="d0">Provision</data>
+  <data key="d1">14</data>
+  <data key="d2">4(e)</data>
+  <data key="d3">For the purpose of implementing paragraphs 1, 2 and 3, the high-risk AI system shall be provided to the deployer in such a way that natural persons to whom human oversight is assigned are enabled, as appropriate and proportionate: (e) to intervene in the operation of the high-risk AI system or interrupt the system through a 'stop' button or a similar procedure that allows the system to come to a halt in a safe state.</data>
+  <data key="d4">Art14(4(e))</data>
+</node>
+<node id="REG-082">
+  <data key="d0">Provision</data>
+  <data key="d1">14</data>
+  <data key="d2">5</data>
+  <data key="d3">For high-risk AI systems referred to in point 1(a) of Annex III, the measures referred to in paragraph 3 of this Article shall be such as to ensure that, in addition, no action or decision is taken by the deployer on the basis of the identification resulting from the system unless that identification has been separately verified and confirmed by at least two natural persons with the necessary competence, training and authority. The requirement for a separate verification by at least two natural persons shall not apply to high-risk AI systems used for the purposes of law enforcement, migration, border control or asylum, where Union or national law considers the application of this requirement to be disproportionate.</data>
+  <data key="d4">Art14(5)</data>
+</node>
+<node id="REG-083">
+  <data key="d0">Provision</data>
+  <data key="d1">15</data>
+  <data key="d2">1</data>
+  <data key="d3">High-risk AI systems shall be designed and developed in such a way that they achieve an appropriate level of accuracy, robustness, and cybersecurity, and that they perform consistently in those respects throughout their lifecycle.</data>
+  <data key="d4">Art15(1)</data>
+</node>
+<node id="Art15">
+  <data key="d0">Article</data>
+  <data key="d5">15</data>
+</node>
+<node id="REG-084">
+  <data key="d0">Provision</data>
+  <data key="d1">15</data>
+  <data key="d2">2</data>
+  <data key="d3">To address the technical aspects of how to measure the appropriate levels of accuracy and robustness set out in paragraph 1 and any other relevant performance metrics, the Commission shall, in cooperation with relevant stakeholders and organisations such as metrology and benchmarking authorities, encourage, as appropriate, the development of benchmarks and measurement methodologies.</data>
+  <data key="d4">Art15(2)</data>
+</node>
+<node id="REG-085">
+  <data key="d0">Provision</data>
+  <data key="d1">15</data>
+  <data key="d2">3</data>
+  <data key="d3">The levels of accuracy and the relevant accuracy metrics of high-risk AI systems shall be declared in the accompanying instructions of use.</data>
+  <data key="d4">Art15(3)</data>
+</node>
+<node id="REG-086">
+  <data key="d0">Provision</data>
+  <data key="d1">15</data>
+  <data key="d2">4</data>
+  <data key="d3">High-risk AI systems shall be as resilient as possible regarding errors, faults The robustness of high-risk AI systems may be achieved through technical redundancy solutions, which may include backup or fail-safe plans. High-risk AI systems that continue to learn after being placed on the market or put into service shall be developed in such a way as to eliminate or reduce as far as possible the risk of possibly biased outputs influencing input for future operations (feedback loops), and as to ensure that any such feedback loops are duly addressed with appropriate mitigation measures.</data>
+  <data key="d4">Art15(4)</data>
+</node>
+<node id="REG-087">
+  <data key="d0">Provision</data>
+  <data key="d1">15</data>
+  <data key="d2">4</data>
+  <data key="d3">or inconsistencies that may occur within the system or the environment in which the system operates, in particular due to their interaction with natural persons or other systems.</data>
+  <data key="d4">Art15(4)</data>
+</node>
+<node id="REG-088">
+  <data key="d0">Provision</data>
+  <data key="d1">15</data>
+  <data key="d2">4</data>
+  <data key="d3">Technical and organisational measures shall be taken in this regard.</data>
+  <data key="d4">Art15(4)</data>
+</node>
+<node id="REG-089">
+  <data key="d0">Provision</data>
+  <data key="d1">15</data>
+  <data key="d2">5</data>
+  <data key="d3">High-risk AI systems shall be resilient against attempts by unauthorised third parties to alter their use, outputs or performance by exploiting system vulnerabilities. The technical solutions aiming to ensure the cybersecurity of high-risk AI systems shall be appropriate to the relevant circumstances and the risks. The technical solutions to address AI specific vulnerabilities shall include, where appropriate, measures to prevent, detect, respond to, resolve and control for attacks trying to manipulate the training data set (data poisoning), or pre-trained components used in training (model poisoning), inputs designed to cause the AI model to make a mistake (adversarial examples or model evasion), confidentiality attacks or model flaws.</data>
+  <data key="d4">Art15(5)</data>
+</node>
+<node id="Art72">
+  <data key="d0">Article</data>
+  <data key="d5">72</data>
+</node>
+<node id="Art60">
+  <data key="d0">Article</data>
+  <data key="d5">60</data>
+</node>
+<node id="Art97">
+  <data key="d0">Article</data>
+  <data key="d5">97</data>
+</node>
+<node id="Art12">
+  <data key="d0">Article</data>
+  <data key="d5">12</data>
+</node>
+<edge source="REG-001" target="Art9">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-002" target="Art9">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-003" target="Art9">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-003" target="REG-004">
+  <data key="d6">PARENT_CHILD</data>
+</edge>
+<edge source="REG-003" target="REG-005">
+  <data key="d6">PARENT_CHILD</data>
+</edge>
+<edge source="REG-003" target="REG-006">
+  <data key="d6">PARENT_CHILD</data>
+</edge>
+<edge source="REG-003" target="REG-007">
+  <data key="d6">PARENT_CHILD</data>
+</edge>
+<edge source="REG-003" target="REG-002">
+  <data key="d6">SEQUENCE</data>
+</edge>
+<edge source="REG-004" target="Art9">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-005" target="Art9">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-006" target="Art9">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-006" target="Art72">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-007" target="Art9">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-008" target="Art9">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-009" target="Art9">
+  <data key="d6">BELONGS_TO|REFERENCES</data>
+</edge>
+<edge source="REG-010" target="Art9">
+  <data key="d6">BELONGS_TO|REFERENCES</data>
+</edge>
+<edge source="REG-010" target="REG-011">
+  <data key="d6">PARENT_CHILD</data>
+</edge>
+<edge source="REG-010" target="REG-012">
+  <data key="d6">PARENT_CHILD</data>
+</edge>
+<edge source="REG-010" target="REG-013">
+  <data key="d6">PARENT_CHILD</data>
+</edge>
+<edge source="REG-011" target="Art9">
+  <data key="d6">BELONGS_TO|REFERENCES</data>
+</edge>
+<edge source="REG-012" target="Art9">
+  <data key="d6">BELONGS_TO|REFERENCES</data>
+</edge>
+<edge source="REG-013" target="Art9">
+  <data key="d6">BELONGS_TO|REFERENCES</data>
+</edge>
+<edge source="REG-013" target="Art13">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-014" target="Art9">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-015" target="Art9">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-015" target="REG-014">
+  <data key="d6">SEQUENCE</data>
+</edge>
+<edge source="REG-016" target="Art9">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-016" target="Art60">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-017" target="Art9">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-018" target="Art9">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-018" target="REG-017">
+  <data key="d6">SEQUENCE</data>
+</edge>
+<edge source="REG-019" target="Art9">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-019" target="REG-001">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-020" target="Art9">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-020" target="REG-001">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-021" target="Art10">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-021" target="REG-022">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-021" target="REG-023">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-022" target="Art10">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-023" target="Art10">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-023" target="REG-024">
+  <data key="d6">PARENT_CHILD</data>
+</edge>
+<edge source="REG-023" target="REG-025">
+  <data key="d6">PARENT_CHILD</data>
+</edge>
+<edge source="REG-023" target="REG-026">
+  <data key="d6">PARENT_CHILD</data>
+</edge>
+<edge source="REG-023" target="REG-027">
+  <data key="d6">PARENT_CHILD</data>
+</edge>
+<edge source="REG-023" target="REG-028">
+  <data key="d6">PARENT_CHILD</data>
+</edge>
+<edge source="REG-023" target="REG-029">
+  <data key="d6">PARENT_CHILD</data>
+</edge>
+<edge source="REG-023" target="REG-030">
+  <data key="d6">PARENT_CHILD</data>
+</edge>
+<edge source="REG-023" target="REG-031">
+  <data key="d6">PARENT_CHILD</data>
+</edge>
+<edge source="REG-023" target="REG-032">
+  <data key="d6">PARENT_CHILD</data>
+</edge>
+<edge source="REG-023" target="REG-022">
+  <data key="d6">SEQUENCE</data>
+</edge>
+<edge source="REG-024" target="Art10">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-025" target="Art10">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-026" target="Art10">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-027" target="Art10">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-028" target="Art10">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-029" target="Art10">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-030" target="Art10">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-031" target="Art10">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-032" target="Art10">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-032" target="REG-031">
+  <data key="d6">AND</data>
+</edge>
+<edge source="REG-033" target="Art10">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-034" target="Art10">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-034" target="REG-033">
+  <data key="d6">SEQUENCE</data>
+</edge>
+<edge source="REG-035" target="Art10">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-035" target="REG-034">
+  <data key="d6">SEQUENCE</data>
+</edge>
+<edge source="REG-036" target="Art10">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-037" target="Art10">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-038" target="Art10">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-038" target="REG-039">
+  <data key="d6">PARENT_CHILD</data>
+</edge>
+<edge source="REG-038" target="REG-040">
+  <data key="d6">PARENT_CHILD</data>
+</edge>
+<edge source="REG-038" target="REG-041">
+  <data key="d6">PARENT_CHILD</data>
+</edge>
+<edge source="REG-038" target="REG-042">
+  <data key="d6">PARENT_CHILD</data>
+</edge>
+<edge source="REG-038" target="REG-043">
+  <data key="d6">PARENT_CHILD</data>
+</edge>
+<edge source="REG-038" target="REG-044">
+  <data key="d6">PARENT_CHILD</data>
+</edge>
+<edge source="REG-038" target="REG-037">
+  <data key="d6">SEQUENCE</data>
+</edge>
+<edge source="REG-039" target="Art10">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-040" target="Art10">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-041" target="Art10">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-042" target="Art10">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-043" target="Art10">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-044" target="Art10">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-045" target="Art10">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-045" target="REG-022">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-045" target="REG-023">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-046" target="Art11">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-047" target="Art11">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-047" target="REG-046">
+  <data key="d6">OR</data>
+</edge>
+<edge source="REG-048" target="Art11">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-048" target="REG-046">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-048" target="REG-047">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-049" target="Art11">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-049" target="Art97">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-050" target="Art13">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-051" target="Art13">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-051" target="REG-050">
+  <data key="d6">SEQUENCE</data>
+</edge>
+<edge source="REG-052" target="Art13">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-053" target="Art13">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-053" target="REG-054">
+  <data key="d6">PARENT_CHILD</data>
+</edge>
+<edge source="REG-053" target="REG-055">
+  <data key="d6">PARENT_CHILD</data>
+</edge>
+<edge source="REG-053" target="REG-056">
+  <data key="d6">PARENT_CHILD</data>
+</edge>
+<edge source="REG-054" target="Art13">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-055" target="Art13">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-056" target="Art13">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-057" target="Art13">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-057" target="Art15">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-058" target="Art13">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-058" target="REG-002">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-058" target="REG-003">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-059" target="Art13">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-059" target="REG-060">
+  <data key="d6">PARENT_CHILD</data>
+</edge>
+<edge source="REG-060" target="Art13">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-061" target="Art13">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-062" target="Art13">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-062" target="REG-063">
+  <data key="d6">PARENT_CHILD</data>
+</edge>
+<edge source="REG-062" target="REG-064">
+  <data key="d6">PARENT_CHILD</data>
+</edge>
+<edge source="REG-062" target="REG-065">
+  <data key="d6">PARENT_CHILD</data>
+</edge>
+<edge source="REG-062" target="REG-066">
+  <data key="d6">PARENT_CHILD</data>
+</edge>
+<edge source="REG-063" target="Art13">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-064" target="Art13">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-064" target="Art14">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-065" target="Art13">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-066" target="Art13">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-066" target="Art12">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-067" target="Art14">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-068" target="Art14">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-069" target="Art14">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-069" target="REG-068">
+  <data key="d6">OR</data>
+</edge>
+<edge source="REG-070" target="Art14">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-071" target="Art14">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-071" target="REG-072">
+  <data key="d6">PARENT_CHILD</data>
+</edge>
+<edge source="REG-071" target="REG-073">
+  <data key="d6">PARENT_CHILD</data>
+</edge>
+<edge source="REG-071" target="REG-074">
+  <data key="d6">PARENT_CHILD</data>
+</edge>
+<edge source="REG-071" target="REG-075">
+  <data key="d6">PARENT_CHILD</data>
+</edge>
+<edge source="REG-071" target="REG-070">
+  <data key="d6">AND</data>
+</edge>
+<edge source="REG-072" target="Art14">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-073" target="Art14">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-073" target="REG-072">
+  <data key="d6">AND</data>
+</edge>
+<edge source="REG-074" target="Art14">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-075" target="Art14">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-075" target="REG-074">
+  <data key="d6">AND</data>
+</edge>
+<edge source="REG-076" target="Art14">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-076" target="REG-067">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-076" target="REG-068">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-076" target="REG-069">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-076" target="REG-070">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-076" target="REG-071">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-076" target="REG-077">
+  <data key="d6">PARENT_CHILD</data>
+</edge>
+<edge source="REG-076" target="REG-078">
+  <data key="d6">PARENT_CHILD</data>
+</edge>
+<edge source="REG-076" target="REG-079">
+  <data key="d6">PARENT_CHILD</data>
+</edge>
+<edge source="REG-076" target="REG-080">
+  <data key="d6">PARENT_CHILD</data>
+</edge>
+<edge source="REG-076" target="REG-081">
+  <data key="d6">PARENT_CHILD</data>
+</edge>
+<edge source="REG-077" target="Art14">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-077" target="REG-067">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-077" target="REG-068">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-077" target="REG-069">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-077" target="REG-070">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-077" target="REG-071">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-078" target="Art14">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-078" target="REG-067">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-078" target="REG-068">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-078" target="REG-069">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-078" target="REG-070">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-078" target="REG-071">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-079" target="Art14">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-079" target="REG-067">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-079" target="REG-068">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-079" target="REG-069">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-079" target="REG-070">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-079" target="REG-071">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-080" target="Art14">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-080" target="REG-067">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-080" target="REG-068">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-080" target="REG-069">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-080" target="REG-070">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-080" target="REG-071">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-081" target="Art14">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-081" target="REG-067">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-081" target="REG-068">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-081" target="REG-069">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-081" target="REG-070">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-081" target="REG-071">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-082" target="Art14">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-082" target="REG-070">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-082" target="REG-071">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-083" target="Art15">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-084" target="Art15">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-084" target="REG-083">
+  <data key="d6">REFERENCES</data>
+</edge>
+<edge source="REG-085" target="Art15">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-086" target="Art15">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-087" target="Art15">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-087" target="REG-086">
+  <data key="d6">OR</data>
+</edge>
+<edge source="REG-088" target="Art15">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+<edge source="REG-088" target="REG-087">
+  <data key="d6">SEQUENCE</data>
+</edge>
+<edge source="REG-089" target="Art15">
+  <data key="d6">BELONGS_TO</data>
+</edge>
+</graph></graphml>

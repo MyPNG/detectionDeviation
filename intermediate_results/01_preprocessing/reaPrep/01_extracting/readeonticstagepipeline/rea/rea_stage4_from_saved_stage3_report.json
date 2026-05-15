@@ -1,0 +1,79 @@
+{
+  "input_root": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/rearequirementsextractor/rea",
+  "output_root": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/readeonticstagepipeline/rea",
+  "chunk_count": 8,
+  "results": [
+    {
+      "chunk": "chunk1",
+      "status": "ok",
+      "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/rearequirementsextractor/rea/chunk1/chunk1_requirements.json",
+      "stage1_3_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/readeonticstagepipeline/rea/chunk1/chunk1_stage1_3.json",
+      "stage4_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/readeonticstagepipeline/rea/chunk1/chunk1_stage4_slots.json",
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/readeonticstagepipeline/rea/chunk1/chunk1_deontic_stages.json",
+      "stage4_rows": 4
+    },
+    {
+      "chunk": "chunk2",
+      "status": "ok",
+      "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/rearequirementsextractor/rea/chunk2/chunk2_requirements.json",
+      "stage1_3_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/readeonticstagepipeline/rea/chunk2/chunk2_stage1_3.json",
+      "stage4_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/readeonticstagepipeline/rea/chunk2/chunk2_stage4_slots.json",
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/readeonticstagepipeline/rea/chunk2/chunk2_deontic_stages.json",
+      "stage4_rows": 5
+    },
+    {
+      "chunk": "chunk3",
+      "status": "ok",
+      "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/rearequirementsextractor/rea/chunk3/chunk3_requirements.json",
+      "stage1_3_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/readeonticstagepipeline/rea/chunk3/chunk3_stage1_3.json",
+      "stage4_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/readeonticstagepipeline/rea/chunk3/chunk3_stage4_slots.json",
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/readeonticstagepipeline/rea/chunk3/chunk3_deontic_stages.json",
+      "stage4_rows": 4
+    },
+    {
+      "chunk": "chunk4",
+      "status": "ok",
+      "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/rearequirementsextractor/rea/chunk4/chunk4_requirements.json",
+      "stage1_3_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/readeonticstagepipeline/rea/chunk4/chunk4_stage1_3.json",
+      "stage4_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/readeonticstagepipeline/rea/chunk4/chunk4_stage4_slots.json",
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/readeonticstagepipeline/rea/chunk4/chunk4_deontic_stages.json",
+      "stage4_rows": 4
+    },
+    {
+      "chunk": "chunk5",
+      "status": "ok",
+      "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/rearequirementsextractor/rea/chunk5/chunk5_requirements.json",
+      "stage1_3_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/readeonticstagepipeline/rea/chunk5/chunk5_stage1_3.json",
+      "stage4_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/readeonticstagepipeline/rea/chunk5/chunk5_stage4_slots.json",
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/readeonticstagepipeline/rea/chunk5/chunk5_deontic_stages.json",
+      "stage4_rows": 4
+    },
+    {
+      "chunk": "chunk6",
+      "status": "ok",
+      "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/rearequirementsextractor/rea/chunk6/chunk6_requirements.json",
+      "stage1_3_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/readeonticstagepipeline/rea/chunk6/chunk6_stage1_3.json",
+      "stage4_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/readeonticstagepipeline/rea/chunk6/chunk6_stage4_slots.json",
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/readeonticstagepipeline/rea/chunk6/chunk6_deontic_stages.json",
+      "stage4_rows": 8
+    },
+    {
+      "chunk": "chunk7",
+      "status": "ok",
+      "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/rearequirementsextractor/rea/chunk7/chunk7_requirements.json",
+      "stage1_3_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/readeonticstagepipeline/rea/chunk7/chunk7_stage1_3.json",
+      "stage4_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/readeonticstagepipeline/rea/chunk7/chunk7_stage4_slots.json",
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/readeonticstagepipeline/rea/chunk7/chunk7_deontic_stages.json",
+      "stage4_rows": 3
+    },
+    {
+      "chunk": "chunk8",
+      "status": "ok",
+      "requirements_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/rearequirementsextractor/rea/chunk8/chunk8_requirements.json",
+      "stage1_3_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/readeonticstagepipeline/rea/chunk8/chunk8_stage1_3.json",
+      "stage4_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/readeonticstagepipeline/rea/chunk8/chunk8_stage4_slots.json",
+      "output_file": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/01_preprocessing/reaPrep/01_extracting/readeonticstagepipeline/rea/chunk8/chunk8_deontic_stages.json",
+      "stage4_rows": 2
+    }
+  ]
+}

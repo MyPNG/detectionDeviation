@@ -1,0 +1,316 @@
+{
+  "reranked_root": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked",
+  "output_root": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg",
+  "top_k": 3,
+  "max_main_reg_per_prompt": 3,
+  "graph_context_mode": "empty",
+  "file_count": 34,
+  "results": [
+    {
+      "status": "ok",
+      "input_reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk1_deontic_stages/rea-01#1.json",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk1_deontic_stages/rea-01#1/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk1_deontic_stages/rea-01#1/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk1_deontic_stages/rea-01#1/step4_prompt_payload.md",
+      "batch_count": 1,
+      "relative_path": "chunk1_deontic_stages/rea-01#1.json"
+    },
+    {
+      "status": "ok",
+      "input_reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk1_deontic_stages/rea-01#2.json",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk1_deontic_stages/rea-01#2/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk1_deontic_stages/rea-01#2/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk1_deontic_stages/rea-01#2/step4_prompt_payload.md",
+      "batch_count": 1,
+      "relative_path": "chunk1_deontic_stages/rea-01#2.json"
+    },
+    {
+      "status": "ok",
+      "input_reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk1_deontic_stages/rea-01#3.json",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk1_deontic_stages/rea-01#3/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk1_deontic_stages/rea-01#3/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk1_deontic_stages/rea-01#3/step4_prompt_payload.md",
+      "batch_count": 1,
+      "relative_path": "chunk1_deontic_stages/rea-01#3.json"
+    },
+    {
+      "status": "ok",
+      "input_reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk1_deontic_stages/rea-01#4.json",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk1_deontic_stages/rea-01#4/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk1_deontic_stages/rea-01#4/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk1_deontic_stages/rea-01#4/step4_prompt_payload.md",
+      "batch_count": 1,
+      "relative_path": "chunk1_deontic_stages/rea-01#4.json"
+    },
+    {
+      "status": "ok",
+      "input_reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk2_deontic_stages/rea-02#1.json",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk2_deontic_stages/rea-02#1/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk2_deontic_stages/rea-02#1/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk2_deontic_stages/rea-02#1/step4_prompt_payload.md",
+      "batch_count": 1,
+      "relative_path": "chunk2_deontic_stages/rea-02#1.json"
+    },
+    {
+      "status": "ok",
+      "input_reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk2_deontic_stages/rea-03#1.json",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk2_deontic_stages/rea-03#1/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk2_deontic_stages/rea-03#1/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk2_deontic_stages/rea-03#1/step4_prompt_payload.md",
+      "batch_count": 1,
+      "relative_path": "chunk2_deontic_stages/rea-03#1.json"
+    },
+    {
+      "status": "ok",
+      "input_reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk2_deontic_stages/rea-03#2.json",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk2_deontic_stages/rea-03#2/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk2_deontic_stages/rea-03#2/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk2_deontic_stages/rea-03#2/step4_prompt_payload.md",
+      "batch_count": 1,
+      "relative_path": "chunk2_deontic_stages/rea-03#2.json"
+    },
+    {
+      "status": "ok",
+      "input_reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk2_deontic_stages/rea-04#1.json",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk2_deontic_stages/rea-04#1/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk2_deontic_stages/rea-04#1/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk2_deontic_stages/rea-04#1/step4_prompt_payload.md",
+      "batch_count": 1,
+      "relative_path": "chunk2_deontic_stages/rea-04#1.json"
+    },
+    {
+      "status": "ok",
+      "input_reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk2_deontic_stages/rea-04#2.json",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk2_deontic_stages/rea-04#2/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk2_deontic_stages/rea-04#2/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk2_deontic_stages/rea-04#2/step4_prompt_payload.md",
+      "batch_count": 1,
+      "relative_path": "chunk2_deontic_stages/rea-04#2.json"
+    },
+    {
+      "status": "ok",
+      "input_reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk3_deontic_stages/rea-03#1.json",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk3_deontic_stages/rea-03#1/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk3_deontic_stages/rea-03#1/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk3_deontic_stages/rea-03#1/step4_prompt_payload.md",
+      "batch_count": 1,
+      "relative_path": "chunk3_deontic_stages/rea-03#1.json"
+    },
+    {
+      "status": "ok",
+      "input_reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk3_deontic_stages/rea-03#2.json",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk3_deontic_stages/rea-03#2/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk3_deontic_stages/rea-03#2/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk3_deontic_stages/rea-03#2/step4_prompt_payload.md",
+      "batch_count": 1,
+      "relative_path": "chunk3_deontic_stages/rea-03#2.json"
+    },
+    {
+      "status": "ok",
+      "input_reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk3_deontic_stages/rea-03#3.json",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk3_deontic_stages/rea-03#3/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk3_deontic_stages/rea-03#3/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk3_deontic_stages/rea-03#3/step4_prompt_payload.md",
+      "batch_count": 1,
+      "relative_path": "chunk3_deontic_stages/rea-03#3.json"
+    },
+    {
+      "status": "ok",
+      "input_reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk3_deontic_stages/rea-04#1.json",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk3_deontic_stages/rea-04#1/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk3_deontic_stages/rea-04#1/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk3_deontic_stages/rea-04#1/step4_prompt_payload.md",
+      "batch_count": 1,
+      "relative_path": "chunk3_deontic_stages/rea-04#1.json"
+    },
+    {
+      "status": "ok",
+      "input_reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk4_deontic_stages/rea-04#1.json",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk4_deontic_stages/rea-04#1/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk4_deontic_stages/rea-04#1/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk4_deontic_stages/rea-04#1/step4_prompt_payload.md",
+      "batch_count": 1,
+      "relative_path": "chunk4_deontic_stages/rea-04#1.json"
+    },
+    {
+      "status": "ok",
+      "input_reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk4_deontic_stages/rea-04#2.json",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk4_deontic_stages/rea-04#2/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk4_deontic_stages/rea-04#2/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk4_deontic_stages/rea-04#2/step4_prompt_payload.md",
+      "batch_count": 1,
+      "relative_path": "chunk4_deontic_stages/rea-04#2.json"
+    },
+    {
+      "status": "ok",
+      "input_reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk4_deontic_stages/rea-04#3.json",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk4_deontic_stages/rea-04#3/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk4_deontic_stages/rea-04#3/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk4_deontic_stages/rea-04#3/step4_prompt_payload.md",
+      "batch_count": 1,
+      "relative_path": "chunk4_deontic_stages/rea-04#3.json"
+    },
+    {
+      "status": "ok",
+      "input_reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk4_deontic_stages/rea-04#4.json",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk4_deontic_stages/rea-04#4/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk4_deontic_stages/rea-04#4/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk4_deontic_stages/rea-04#4/step4_prompt_payload.md",
+      "batch_count": 1,
+      "relative_path": "chunk4_deontic_stages/rea-04#4.json"
+    },
+    {
+      "status": "ok",
+      "input_reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk5_deontic_stages/rea-05#1.json",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk5_deontic_stages/rea-05#1/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk5_deontic_stages/rea-05#1/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk5_deontic_stages/rea-05#1/step4_prompt_payload.md",
+      "batch_count": 1,
+      "relative_path": "chunk5_deontic_stages/rea-05#1.json"
+    },
+    {
+      "status": "ok",
+      "input_reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk5_deontic_stages/rea-06#1.json",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk5_deontic_stages/rea-06#1/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk5_deontic_stages/rea-06#1/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk5_deontic_stages/rea-06#1/step4_prompt_payload.md",
+      "batch_count": 1,
+      "relative_path": "chunk5_deontic_stages/rea-06#1.json"
+    },
+    {
+      "status": "ok",
+      "input_reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk5_deontic_stages/rea-07#1.json",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk5_deontic_stages/rea-07#1/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk5_deontic_stages/rea-07#1/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk5_deontic_stages/rea-07#1/step4_prompt_payload.md",
+      "batch_count": 1,
+      "relative_path": "chunk5_deontic_stages/rea-07#1.json"
+    },
+    {
+      "status": "ok",
+      "input_reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk5_deontic_stages/rea-07#2.json",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk5_deontic_stages/rea-07#2/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk5_deontic_stages/rea-07#2/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk5_deontic_stages/rea-07#2/step4_prompt_payload.md",
+      "batch_count": 1,
+      "relative_path": "chunk5_deontic_stages/rea-07#2.json"
+    },
+    {
+      "status": "ok",
+      "input_reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk6_deontic_stages/rea-08#1.json",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk6_deontic_stages/rea-08#1/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk6_deontic_stages/rea-08#1/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk6_deontic_stages/rea-08#1/step4_prompt_payload.md",
+      "batch_count": 1,
+      "relative_path": "chunk6_deontic_stages/rea-08#1.json"
+    },
+    {
+      "status": "ok",
+      "input_reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk6_deontic_stages/rea-08#2.json",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk6_deontic_stages/rea-08#2/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk6_deontic_stages/rea-08#2/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk6_deontic_stages/rea-08#2/step4_prompt_payload.md",
+      "batch_count": 1,
+      "relative_path": "chunk6_deontic_stages/rea-08#2.json"
+    },
+    {
+      "status": "ok",
+      "input_reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk6_deontic_stages/rea-08#3.json",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk6_deontic_stages/rea-08#3/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk6_deontic_stages/rea-08#3/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk6_deontic_stages/rea-08#3/step4_prompt_payload.md",
+      "batch_count": 1,
+      "relative_path": "chunk6_deontic_stages/rea-08#3.json"
+    },
+    {
+      "status": "ok",
+      "input_reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk6_deontic_stages/rea-08#4.json",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk6_deontic_stages/rea-08#4/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk6_deontic_stages/rea-08#4/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk6_deontic_stages/rea-08#4/step4_prompt_payload.md",
+      "batch_count": 1,
+      "relative_path": "chunk6_deontic_stages/rea-08#4.json"
+    },
+    {
+      "status": "ok",
+      "input_reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk6_deontic_stages/rea-08#5.json",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk6_deontic_stages/rea-08#5/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk6_deontic_stages/rea-08#5/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk6_deontic_stages/rea-08#5/step4_prompt_payload.md",
+      "batch_count": 1,
+      "relative_path": "chunk6_deontic_stages/rea-08#5.json"
+    },
+    {
+      "status": "ok",
+      "input_reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk6_deontic_stages/rea-08#6.json",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk6_deontic_stages/rea-08#6/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk6_deontic_stages/rea-08#6/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk6_deontic_stages/rea-08#6/step4_prompt_payload.md",
+      "batch_count": 1,
+      "relative_path": "chunk6_deontic_stages/rea-08#6.json"
+    },
+    {
+      "status": "ok",
+      "input_reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk6_deontic_stages/rea-08#7.json",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk6_deontic_stages/rea-08#7/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk6_deontic_stages/rea-08#7/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk6_deontic_stages/rea-08#7/step4_prompt_payload.md",
+      "batch_count": 1,
+      "relative_path": "chunk6_deontic_stages/rea-08#7.json"
+    },
+    {
+      "status": "ok",
+      "input_reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk6_deontic_stages/rea-08#8.json",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk6_deontic_stages/rea-08#8/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk6_deontic_stages/rea-08#8/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk6_deontic_stages/rea-08#8/step4_prompt_payload.md",
+      "batch_count": 1,
+      "relative_path": "chunk6_deontic_stages/rea-08#8.json"
+    },
+    {
+      "status": "ok",
+      "input_reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk7_deontic_stages/rea-09#1.json",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk7_deontic_stages/rea-09#1/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk7_deontic_stages/rea-09#1/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk7_deontic_stages/rea-09#1/step4_prompt_payload.md",
+      "batch_count": 1,
+      "relative_path": "chunk7_deontic_stages/rea-09#1.json"
+    },
+    {
+      "status": "ok",
+      "input_reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk7_deontic_stages/rea-09#2.json",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk7_deontic_stages/rea-09#2/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk7_deontic_stages/rea-09#2/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk7_deontic_stages/rea-09#2/step4_prompt_payload.md",
+      "batch_count": 1,
+      "relative_path": "chunk7_deontic_stages/rea-09#2.json"
+    },
+    {
+      "status": "ok",
+      "input_reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk7_deontic_stages/rea-09#3.json",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk7_deontic_stages/rea-09#3/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk7_deontic_stages/rea-09#3/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk7_deontic_stages/rea-09#3/step4_prompt_payload.md",
+      "batch_count": 1,
+      "relative_path": "chunk7_deontic_stages/rea-09#3.json"
+    },
+    {
+      "status": "ok",
+      "input_reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk8_deontic_stages/rea-10#1.json",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk8_deontic_stages/rea-10#1/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk8_deontic_stages/rea-10#1/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk8_deontic_stages/rea-10#1/step4_prompt_payload.md",
+      "batch_count": 1,
+      "relative_path": "chunk8_deontic_stages/rea-10#1.json"
+    },
+    {
+      "status": "ok",
+      "input_reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk8_deontic_stages/rea-10#2.json",
+      "step3_graph_context_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk8_deontic_stages/rea-10#2/step3_graph_context.json",
+      "step4_prompt_payload_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk8_deontic_stages/rea-10#2/step4_prompt_payload.json",
+      "step4_prompt_payload_md": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/03_reasoning/reapromptpreparation/prompts_rea__reg/chunk8_deontic_stages/rea-10#2/step4_prompt_payload.md",
+      "batch_count": 1,
+      "relative_path": "chunk8_deontic_stages/rea-10#2.json"
+    }
+  ]
+}

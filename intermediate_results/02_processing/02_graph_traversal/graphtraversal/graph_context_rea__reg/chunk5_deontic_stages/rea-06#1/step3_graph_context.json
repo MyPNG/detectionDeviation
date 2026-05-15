@@ -1,0 +1,286 @@
+{
+  "rea_sub_id": "REA-06#1",
+  "reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk5_deontic_stages/rea-06#1.json",
+  "top_k": 3,
+  "max_hop": 1,
+  "allowed_relations": [
+    "AND",
+    "PARENT_CHILD",
+    "REFERENCES",
+    "SEQUENCE"
+  ],
+  "main_constraints": [
+    {
+      "id": "REG-037",
+      "clause": "Art14(1(c))",
+      "text": "Where personal data have not been obtained from the data subject, the controller shall provide the data subject with the following information: (c) the purposes of the processing for which the personal data are intended as well as the legal basis for the processing;",
+      "rerank_rank": 1,
+      "rerank_score": 0.0015692822635173798,
+      "similarity_score": 0.833839,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-034",
+          "main_reg_id": "REG-037",
+          "edge_type": "PARENT_CHILD",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-034 -> REG-037",
+          "text": "Where personal data have not been obtained from the data subject, the controller shall provide the data subject with the following information:",
+          "article": "14",
+          "paragraph": "1",
+          "clause": "Art14(1)"
+        },
+        {
+          "id": "REG-035",
+          "main_reg_id": "REG-037",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-037 <- REG-034 -> REG-035",
+          "text": "Where personal data have not been obtained from the data subject, the controller shall provide the data subject with the following information: (a) the identity and the contact details of the controller and, where applicable, of the controller's representative;",
+          "article": "14",
+          "paragraph": "1(a)",
+          "clause": "Art14(1(a))"
+        },
+        {
+          "id": "REG-036",
+          "main_reg_id": "REG-037",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-037 <- REG-034 -> REG-036",
+          "text": "Where personal data have not been obtained from the data subject, the controller shall provide the data subject with the following information: (b) the contact details of the data protection officer, where applicable;",
+          "article": "14",
+          "paragraph": "1(b)",
+          "clause": "Art14(1(b))"
+        },
+        {
+          "id": "REG-038",
+          "main_reg_id": "REG-037",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-037 <- REG-034 -> REG-038",
+          "text": "Where personal data have not been obtained from the data subject, the controller shall provide the data subject with the following information: (d) the categories of personal data concerned;",
+          "article": "14",
+          "paragraph": "1(d)",
+          "clause": "Art14(1(d))"
+        },
+        {
+          "id": "REG-039",
+          "main_reg_id": "REG-037",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-037 <- REG-034 -> REG-039",
+          "text": "Where personal data have not been obtained from the data subject, the controller shall provide the data subject with the following information: (e) the recipients or categories of recipients of the personal data, if any;",
+          "article": "14",
+          "paragraph": "1(e)",
+          "clause": "Art14(1(e))"
+        },
+        {
+          "id": "REG-040",
+          "main_reg_id": "REG-037",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-037 <- REG-034 -> REG-040",
+          "text": "Where personal data have not been obtained from the data subject, the controller shall provide the data subject with the following information: (f) where applicable, that the controller intends to transfer personal data to a recipient in a third country or internat ional organisation and the existence or absence of an adequacy decision by the Commission, or in the case of transfers referred to in Article 46 or 47, or the second subparagraph of Article 49(1), reference to the appropriate or suitable safeguards and the means to obtain a copy of them or where they have been made available.",
+          "article": "14",
+          "paragraph": "1(f)",
+          "clause": "Art14(1(f))"
+        }
+      ]
+    },
+    {
+      "id": "REG-021",
+      "clause": "Art13(1(c))",
+      "text": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: (c) the purposes of the processing for which the personal data are intended as well as the legal basis for the processing;",
+      "rerank_rank": 2,
+      "rerank_score": 0.0015692822635173798,
+      "similarity_score": 0.819724,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-018",
+          "main_reg_id": "REG-021",
+          "edge_type": "PARENT_CHILD",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-018 -> REG-021",
+          "text": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information:",
+          "article": "13",
+          "paragraph": "1",
+          "clause": "Art13(1)"
+        },
+        {
+          "id": "REG-019",
+          "main_reg_id": "REG-021",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-021 <- REG-018 -> REG-019",
+          "text": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: (a) the identity and the contact details of the controller and, where applicable, of the controller's representative;",
+          "article": "13",
+          "paragraph": "1(a)",
+          "clause": "Art13(1(a))"
+        },
+        {
+          "id": "REG-020",
+          "main_reg_id": "REG-021",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-021 <- REG-018 -> REG-020",
+          "text": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: (b) the contact details of the data protection officer, where applicable;",
+          "article": "13",
+          "paragraph": "1(b)",
+          "clause": "Art13(1(b))"
+        },
+        {
+          "id": "REG-022",
+          "main_reg_id": "REG-021",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-021 <- REG-018 -> REG-022",
+          "text": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: (d) where the processing is based on point (f) of Article 6(1), the legitimate interests pursued by the controller or by a third party;",
+          "article": "13",
+          "paragraph": "1(d)",
+          "clause": "Art13(1(d))"
+        },
+        {
+          "id": "REG-023",
+          "main_reg_id": "REG-021",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-021 <- REG-018 -> REG-023",
+          "text": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: (e) the recipients or categories of recipients of the personal data, if any;",
+          "article": "13",
+          "paragraph": "1(e)",
+          "clause": "Art13(1(e))"
+        },
+        {
+          "id": "REG-024",
+          "main_reg_id": "REG-021",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-021 <- REG-018 -> REG-024",
+          "text": "Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: (f) where applicable, the fact that the controller intends to transfer personal data to a third country or international organisation and the existence or absence of an adequacy decision by the Commission, or in the case of transfers referred to in Article 46 or 47, or the second subparagraph of Article 49(1), reference to the appropriate or suitable safeguards and the means by which to obtain a copy of them or where they have been made available.",
+          "article": "13",
+          "paragraph": "1(f)",
+          "clause": "Art13(1(f))"
+        }
+      ]
+    },
+    {
+      "id": "REG-004",
+      "clause": "Art6(1(c))",
+      "text": "Processing shall be lawful only if and to the extent that at least one of the following applies: (c) processing is necessary for compliance with a legal obligation to which the controller is subject;",
+      "rerank_rank": 3,
+      "rerank_score": 0.0012755697825923562,
+      "similarity_score": 0.795015,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-001",
+          "main_reg_id": "REG-004",
+          "edge_type": "PARENT_CHILD",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-001 -> REG-004",
+          "text": "Processing shall be lawful only if and to the extent that at least one of the following applies:",
+          "article": "6",
+          "paragraph": "1",
+          "clause": "Art6(1)"
+        },
+        {
+          "id": "REG-002",
+          "main_reg_id": "REG-004",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-004 <- REG-001 -> REG-002",
+          "text": "Processing shall be lawful only if and to the extent that at least one of the following applies: (a) the data subject has given consent to the processing of his or her personal data for one or more specific purposes;",
+          "article": "6",
+          "paragraph": "1(a)",
+          "clause": "Art6(1(a))"
+        },
+        {
+          "id": "REG-003",
+          "main_reg_id": "REG-004",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-004 <- REG-001 -> REG-003",
+          "text": "Processing shall be lawful only if and to the extent that at least one of the following applies: (b) processing is necessary for the performance of a contract to which the data subject is party or in order to take steps at the request of the data subject prior to entering into a contract;",
+          "article": "6",
+          "paragraph": "1(b)",
+          "clause": "Art6(1(b))"
+        },
+        {
+          "id": "REG-005",
+          "main_reg_id": "REG-004",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-004 <- REG-001 -> REG-005",
+          "text": "Processing shall be lawful only if and to the extent that at least one of the following applies: (d) processing is necessary in order to protect the vital interests of the data subject or of another natural person;",
+          "article": "6",
+          "paragraph": "1(d)",
+          "clause": "Art6(1(d))"
+        },
+        {
+          "id": "REG-006",
+          "main_reg_id": "REG-004",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-004 <- REG-001 -> REG-006",
+          "text": "Processing shall be lawful only if and to the extent that at least one of the following applies: (e) processing is necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller;",
+          "article": "6",
+          "paragraph": "1(e)",
+          "clause": "Art6(1(e))"
+        },
+        {
+          "id": "REG-007",
+          "main_reg_id": "REG-004",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-004 <- REG-001 -> REG-007",
+          "text": "Processing shall be lawful only if and to the extent that at least one of the following applies: (f) processing is necessary for the purposes of the legitimate interests pursued by the controller or by a third party, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection of personal data, in particular where the data subject is a child. Point (f) of the first subparagraph shall not apply to processing carried out by public authorities in the performance of their tasks.",
+          "article": "6",
+          "paragraph": "1(f)",
+          "clause": "Art6(1(f))"
+        }
+      ]
+    }
+  ],
+  "visited_reg_ids": [
+    "REG-001",
+    "REG-002",
+    "REG-003",
+    "REG-004",
+    "REG-005",
+    "REG-006",
+    "REG-007",
+    "REG-018",
+    "REG-019",
+    "REG-020",
+    "REG-021",
+    "REG-022",
+    "REG-023",
+    "REG-024",
+    "REG-034",
+    "REG-035",
+    "REG-036",
+    "REG-037",
+    "REG-038",
+    "REG-039",
+    "REG-040"
+  ]
+}

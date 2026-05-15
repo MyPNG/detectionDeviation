@@ -1,0 +1,208 @@
+{
+  "rea_sub_id": "REA-01#3",
+  "reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk1_deontic_stages/rea-01#3.json",
+  "top_k": 3,
+  "max_hop": 1,
+  "allowed_relations": [
+    "AND",
+    "PARENT_CHILD",
+    "REFERENCES",
+    "SEQUENCE"
+  ],
+  "main_constraints": [
+    {
+      "id": "REG-057",
+      "clause": "Art14(5(b))",
+      "text": "In such cases the controller shall take appropriate measures to protect the data subject's rights and freedoms and legitimate interests, including making the information publicly available;",
+      "rerank_rank": 1,
+      "rerank_score": 0.01978057250380516,
+      "similarity_score": 0.788081,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-056",
+          "main_reg_id": "REG-057",
+          "edge_type": "SEQUENCE",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-057 -> REG-056",
+          "text": "Paragraphs 1 to 4 shall not apply where and insofar as: (b) the provision of such information proves impossible or would involve a disproportionate effort, in particular for processing for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes, subject to the conditions and safeguards referred to in Article 89(1) or in so far as the obligation referred to in paragraph 1 of this Article is likely to render impossible or seriously impair the achievement of the objectives of that processing.",
+          "article": "14",
+          "paragraph": "5(b)",
+          "clause": "Art14(5(b))"
+        },
+        {
+          "id": "REG-054",
+          "main_reg_id": "REG-057",
+          "edge_type": "PARENT_CHILD",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-054 -> REG-057",
+          "text": "Paragraphs 1 to 4 shall not apply where and insofar as:",
+          "article": "14",
+          "paragraph": "5",
+          "clause": "Art14(5)"
+        },
+        {
+          "id": "REG-055",
+          "main_reg_id": "REG-057",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-057 <- REG-054 -> REG-055",
+          "text": "Paragraphs 1 to 4 shall not apply where and insofar as: (a) the data subject already has the information;",
+          "article": "14",
+          "paragraph": "5(a)",
+          "clause": "Art14(5(a))"
+        },
+        {
+          "id": "REG-058",
+          "main_reg_id": "REG-057",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-057 <- REG-054 -> REG-058",
+          "text": "Paragraphs 1 to 4 shall not apply where and insofar as: (c) obtaining or disclosure is expressly laid down by Union or Member State law to which the controller is subject and which provides appropriate measures to protect the data subject's legitimate interests or",
+          "article": "14",
+          "paragraph": "5(c)",
+          "clause": "Art14(5(c))"
+        },
+        {
+          "id": "REG-059",
+          "main_reg_id": "REG-057",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-057 <- REG-054 -> REG-059",
+          "text": "Paragraphs 1 to 4 shall not apply where and insofar as: (d) where the personal data must remain confidential subject to an obligation of professional secrecy regulated by Union or Member State law, including a statutory obligation of secrecy.",
+          "article": "14",
+          "paragraph": "5(d)",
+          "clause": "Art14(5(d))"
+        }
+      ]
+    },
+    {
+      "id": "REG-034",
+      "clause": "Art14(1)",
+      "text": "Where personal data have not been obtained from the data subject, the controller shall provide the data subject with the following information:",
+      "rerank_rank": 2,
+      "rerank_score": 0.019382191821932793,
+      "similarity_score": 0.770447,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-035",
+          "main_reg_id": "REG-034",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-034 -> REG-035",
+          "text": "Where personal data have not been obtained from the data subject, the controller shall provide the data subject with the following information: (a) the identity and the contact details of the controller and, where applicable, of the controller's representative;",
+          "article": "14",
+          "paragraph": "1(a)",
+          "clause": "Art14(1(a))"
+        },
+        {
+          "id": "REG-036",
+          "main_reg_id": "REG-034",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-034 -> REG-036",
+          "text": "Where personal data have not been obtained from the data subject, the controller shall provide the data subject with the following information: (b) the contact details of the data protection officer, where applicable;",
+          "article": "14",
+          "paragraph": "1(b)",
+          "clause": "Art14(1(b))"
+        },
+        {
+          "id": "REG-037",
+          "main_reg_id": "REG-034",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-034 -> REG-037",
+          "text": "Where personal data have not been obtained from the data subject, the controller shall provide the data subject with the following information: (c) the purposes of the processing for which the personal data are intended as well as the legal basis for the processing;",
+          "article": "14",
+          "paragraph": "1(c)",
+          "clause": "Art14(1(c))"
+        },
+        {
+          "id": "REG-038",
+          "main_reg_id": "REG-034",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-034 -> REG-038",
+          "text": "Where personal data have not been obtained from the data subject, the controller shall provide the data subject with the following information: (d) the categories of personal data concerned;",
+          "article": "14",
+          "paragraph": "1(d)",
+          "clause": "Art14(1(d))"
+        },
+        {
+          "id": "REG-039",
+          "main_reg_id": "REG-034",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-034 -> REG-039",
+          "text": "Where personal data have not been obtained from the data subject, the controller shall provide the data subject with the following information: (e) the recipients or categories of recipients of the personal data, if any;",
+          "article": "14",
+          "paragraph": "1(e)",
+          "clause": "Art14(1(e))"
+        },
+        {
+          "id": "REG-040",
+          "main_reg_id": "REG-034",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-034 -> REG-040",
+          "text": "Where personal data have not been obtained from the data subject, the controller shall provide the data subject with the following information: (f) where applicable, that the controller intends to transfer personal data to a recipient in a third country or internat ional organisation and the existence or absence of an adequacy decision by the Commission, or in the case of transfers referred to in Article 46 or 47, or the second subparagraph of Article 49(1), reference to the appropriate or suitable safeguards and the means to obtain a copy of them or where they have been made available.",
+          "article": "14",
+          "paragraph": "1(f)",
+          "clause": "Art14(1(f))"
+        }
+      ]
+    },
+    {
+      "id": "REG-073",
+      "clause": "Art15(3)",
+      "text": "Where the data subject makes the request by electronic means, and unless otherwise requested by the data subject, the information shall be provided in a commonly used electronic form.",
+      "rerank_rank": 3,
+      "rerank_score": 0.018991678953170776,
+      "similarity_score": 0.790665,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-072",
+          "main_reg_id": "REG-073",
+          "edge_type": "SEQUENCE",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-073 -> REG-072",
+          "text": "For any further copies requested by the data subject, the controller may charge a reasonable fee based on administrative costs.",
+          "article": "15",
+          "paragraph": "3",
+          "clause": "Art15(3)"
+        }
+      ]
+    }
+  ],
+  "visited_reg_ids": [
+    "REG-034",
+    "REG-035",
+    "REG-036",
+    "REG-037",
+    "REG-038",
+    "REG-039",
+    "REG-040",
+    "REG-054",
+    "REG-055",
+    "REG-056",
+    "REG-057",
+    "REG-058",
+    "REG-059",
+    "REG-072",
+    "REG-073"
+  ]
+}

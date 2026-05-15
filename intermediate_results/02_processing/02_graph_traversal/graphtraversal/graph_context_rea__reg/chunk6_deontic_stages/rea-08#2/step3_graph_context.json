@@ -1,0 +1,167 @@
+{
+  "rea_sub_id": "REA-08#2",
+  "reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk6_deontic_stages/rea-08#2.json",
+  "top_k": 3,
+  "max_hop": 1,
+  "allowed_relations": [
+    "AND",
+    "PARENT_CHILD",
+    "REFERENCES",
+    "SEQUENCE"
+  ],
+  "main_constraints": [
+    {
+      "id": "REG-127",
+      "clause": "Art46(3(b))",
+      "text": "Subject to the authorisation from the competent supervisory authority, the appropriate safeguards referred to in paragraph 1 may also be provided for, in particular, by: (b) provisions to be inserted into administrative arrangements between public authorities or bodies which include enforceable and effective data subject rights.",
+      "rerank_rank": 1,
+      "rerank_score": 0.018608884885907173,
+      "similarity_score": 0.727159,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-117",
+          "main_reg_id": "REG-127",
+          "edge_type": "REFERENCES",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-127 -> REG-117",
+          "text": "In the absence of a decision pursuant to Article 45(3), a controller or processor may transfer personal data to a third country or an international organisation only if the controller or processor has provided appropriate safeguards, and on condition that enforceable data subject rights and effective legal remedies for data subjects are available.",
+          "article": "46",
+          "paragraph": "1",
+          "clause": "Art46(1)"
+        },
+        {
+          "id": "REG-125",
+          "main_reg_id": "REG-127",
+          "edge_type": "PARENT_CHILD",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-125 -> REG-127",
+          "text": "Subject to the authorisation from the competent supervisory authority, the appropriate safeguards referred to in paragraph 1 may also be provided for, in particular, by:",
+          "article": "46",
+          "paragraph": "3",
+          "clause": "Art46(3)"
+        },
+        {
+          "id": "REG-126",
+          "main_reg_id": "REG-127",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-127 <- REG-125 -> REG-126",
+          "text": "Subject to the authorisation from the competent supervisory authority, the appropriate safeguards referred to in paragraph 1 may also be provided for, in particular, by: (a) contractual clauses between the controller or processor and the controller, processor or the recipient of the personal data in the third country or international organisation; or",
+          "article": "46",
+          "paragraph": "3(a)",
+          "clause": "Art46(3(a))"
+        }
+      ]
+    },
+    {
+      "id": "REG-119",
+      "clause": "Art46(2(a))",
+      "text": "The appropriate safeguards referred to in paragraph 1 may be provided for, without requiring any specific authoris ation from a supervisory authority, by: (a) a legally binding and enforceable instrument between public authorities or bodies;",
+      "rerank_rank": 2,
+      "rerank_score": 0.01715199649333954,
+      "similarity_score": 0.70559,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-118",
+          "main_reg_id": "REG-119",
+          "edge_type": "PARENT_CHILD",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-118 -> REG-119",
+          "text": "The appropriate safeguards referred to in paragraph 1 may be provided for, without requiring any specific authoris ation from a supervisory authority, by:",
+          "article": "46",
+          "paragraph": "2",
+          "clause": "Art46(2)"
+        },
+        {
+          "id": "REG-120",
+          "main_reg_id": "REG-119",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-119 <- REG-118 -> REG-120",
+          "text": "The appropriate safeguards referred to in paragraph 1 may be provided for, without requiring any specific authoris ation from a supervisory authority, by: (b) binding corporate rules in accordance with Article 47;",
+          "article": "46",
+          "paragraph": "2(b)",
+          "clause": "Art46(2(b))"
+        },
+        {
+          "id": "REG-121",
+          "main_reg_id": "REG-119",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-119 <- REG-118 -> REG-121",
+          "text": "The appropriate safeguards referred to in paragraph 1 may be provided for, without requiring any specific authoris ation from a supervisory authority, by: (c) standard data protection clauses adopted by the Commission in accordance with the examination procedure referred to in Article 93(2);",
+          "article": "46",
+          "paragraph": "2(c)",
+          "clause": "Art46(2(c))"
+        },
+        {
+          "id": "REG-122",
+          "main_reg_id": "REG-119",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-119 <- REG-118 -> REG-122",
+          "text": "The appropriate safeguards referred to in paragraph 1 may be provided for, without requiring any specific authoris ation from a supervisory authority, by: (d) standard data protection clauses adopted by a supervisory authority and approved by the Commission pursuant to the examination procedure referred to in Article 93(2);",
+          "article": "46",
+          "paragraph": "2(d)",
+          "clause": "Art46(2(d))"
+        },
+        {
+          "id": "REG-123",
+          "main_reg_id": "REG-119",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-119 <- REG-118 -> REG-123",
+          "text": "The appropriate safeguards referred to in paragraph 1 may be provided for, without requiring any specific authoris ation from a supervisory authority, by: (e) an approved code of conduct pursuant to Article 40 together with binding and enforceable commitments of the controller or processor in the third country to apply the appropriate safeguards, including as regards data subjects' rights; or",
+          "article": "46",
+          "paragraph": "2(e)",
+          "clause": "Art46(2(e))"
+        },
+        {
+          "id": "REG-124",
+          "main_reg_id": "REG-119",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-119 <- REG-118 -> REG-124",
+          "text": "The appropriate safeguards referred to in paragraph 1 may be provided for, without requiring any specific authoris ation from a supervisory authority, by: (f) an approved certification mechanism pursuant to Article 42 together with binding and enforceable commitments of the controller or processor in the third country to apply the appropriate safeguards, including as regards data subjects' rights.",
+          "article": "46",
+          "paragraph": "2(f)",
+          "clause": "Art46(2(f))"
+        }
+      ]
+    },
+    {
+      "id": "REG-125",
+      "clause": "Art46(3)",
+      "text": "Subject to the authorisation from the competent supervisory authority, the appropriate safeguards referred to in paragraph 1 may also be provided for, in particular, by:",
+      "rerank_rank": 3,
+      "rerank_score": 0.013699370436370373,
+      "similarity_score": 0.718738,
+      "already_visited_before_expansion": true,
+      "graph_context": []
+    }
+  ],
+  "visited_reg_ids": [
+    "REG-117",
+    "REG-118",
+    "REG-119",
+    "REG-120",
+    "REG-121",
+    "REG-122",
+    "REG-123",
+    "REG-124",
+    "REG-125",
+    "REG-126",
+    "REG-127"
+  ]
+}

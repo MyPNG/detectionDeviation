@@ -1,0 +1,74 @@
+{
+  "rea_sub_id": "REA-03#2",
+  "reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk3_deontic_stages/rea-03#2.json",
+  "top_k": 3,
+  "max_hop": 1,
+  "allowed_relations": [
+    "AND",
+    "PARENT_CHILD",
+    "REFERENCES",
+    "SEQUENCE"
+  ],
+  "main_constraints": [
+    {
+      "id": "REG-103",
+      "clause": "Art20(1)",
+      "text": "The data subject shall have the right to receive the personal data concerning him or her, which he or she has provided to a controller, in a structured, commonly used and machine-readable format and have the right to transmit those data to another controller without hindrance from the controller to which the personal data have been provided, where:",
+      "rerank_rank": 1,
+      "rerank_score": 0.9813286066055298,
+      "similarity_score": 0.911671,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-104",
+          "main_reg_id": "REG-103",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-103 -> REG-104",
+          "text": "The data subject shall have the right to receive the personal data concerning him or her, which he or she has provided to a controller, in a structured, commonly used and machine-readable format and have the right to transmit those data to another controller without hindrance from the controller to which the personal data have been provided, where: (a) the processing is based on consent pursuant to point (a) of Article 6(1) or point (a) of Article 9(2) or on a contract pursuant to point (b) of Article 6(1); and",
+          "article": "20",
+          "paragraph": "1(a)",
+          "clause": "Art20(1(a))"
+        },
+        {
+          "id": "REG-105",
+          "main_reg_id": "REG-103",
+          "edge_type": "PARENT_CHILD",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-103 -> REG-105",
+          "text": "The data subject shall have the right to receive the personal data concerning him or her, which he or she has provided to a controller, in a structured, commonly used and machine-readable format and have the right to transmit those data to another controller without hindrance from the controller to which the personal data have been provided, where: (b) the processing is carried out by automated means.",
+          "article": "20",
+          "paragraph": "1(b)",
+          "clause": "Art20(1(b))"
+        }
+      ]
+    },
+    {
+      "id": "REG-105",
+      "clause": "Art20(1(b))",
+      "text": "The data subject shall have the right to receive the personal data concerning him or her, which he or she has provided to a controller, in a structured, commonly used and machine-readable format and have the right to transmit those data to another controller without hindrance from the controller to which the personal data have been provided, where: (b) the processing is carried out by automated means.",
+      "rerank_rank": 2,
+      "rerank_score": 0.9708402156829834,
+      "similarity_score": 0.90947,
+      "already_visited_before_expansion": true,
+      "graph_context": []
+    },
+    {
+      "id": "REG-104",
+      "clause": "Art20(1(a))",
+      "text": "The data subject shall have the right to receive the personal data concerning him or her, which he or she has provided to a controller, in a structured, commonly used and machine-readable format and have the right to transmit those data to another controller without hindrance from the controller to which the personal data have been provided, where: (a) the processing is based on consent pursuant to point (a) of Article 6(1) or point (a) of Article 9(2) or on a contract pursuant to point (b) of Article 6(1); and",
+      "rerank_rank": 3,
+      "rerank_score": 0.9657545685768127,
+      "similarity_score": 0.892335,
+      "already_visited_before_expansion": true,
+      "graph_context": []
+    }
+  ],
+  "visited_reg_ids": [
+    "REG-103",
+    "REG-104",
+    "REG-105"
+  ]
+}

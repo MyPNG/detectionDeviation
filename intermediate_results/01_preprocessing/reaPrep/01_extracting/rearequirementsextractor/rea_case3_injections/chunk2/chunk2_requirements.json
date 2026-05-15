@@ -1,0 +1,12 @@
+[
+  {
+    "title": "",
+    "rea_id": "REA-04",
+    "text": "Review defined Restricted Uses to determine whether the system meets the definition of any Restricted Use. If it does, document this in the Impact Assessment, and follow the requirements for the Restricted Use."
+  },
+  {
+    "title": "",
+    "rea_id": "REA-05",
+    "text": "Answer prompts in the Impact Assessment template to determine whether the system meets the definition of a Sensitive Use. If it does, report it to the Office of Responsible AI, and follow any additional requirements resulting from a Sensitive Uses review."
+  }
+]

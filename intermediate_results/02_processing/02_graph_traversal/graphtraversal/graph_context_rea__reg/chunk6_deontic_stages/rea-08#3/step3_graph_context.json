@@ -1,0 +1,312 @@
+{
+  "rea_sub_id": "REA-08#3",
+  "reranked_json": "/Users/my/Documents/projects/detectionDeviation/intermediate_results/02_processing/01_retrieval/reranker/artifact_01_rea__reg_reranked/chunk6_deontic_stages/rea-08#3.json",
+  "top_k": 3,
+  "max_hop": 1,
+  "allowed_relations": [
+    "AND",
+    "PARENT_CHILD",
+    "REFERENCES",
+    "SEQUENCE"
+  ],
+  "main_constraints": [
+    {
+      "id": "REG-104",
+      "clause": "Art20(1(a))",
+      "text": "The data subject shall have the right to receive the personal data concerning him or her, which he or she has provided to a controller, in a structured, commonly used and machine-readable format and have the right to transmit those data to another controller without hindrance from the controller to which the personal data have been provided, where: (a) the processing is based on consent pursuant to point (a) of Article 6(1) or point (a) of Article 9(2) or on a contract pursuant to point (b) of Article 6(1); and",
+      "rerank_rank": 1,
+      "rerank_score": 0.047409333288669586,
+      "similarity_score": 0.764934,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-103",
+          "main_reg_id": "REG-104",
+          "edge_type": "PARENT_CHILD",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-103 -> REG-104",
+          "text": "The data subject shall have the right to receive the personal data concerning him or her, which he or she has provided to a controller, in a structured, commonly used and machine-readable format and have the right to transmit those data to another controller without hindrance from the controller to which the personal data have been provided, where:",
+          "article": "20",
+          "paragraph": "1",
+          "clause": "Art20(1)"
+        },
+        {
+          "id": "REG-105",
+          "main_reg_id": "REG-104",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-104 <- REG-103 -> REG-105",
+          "text": "The data subject shall have the right to receive the personal data concerning him or her, which he or she has provided to a controller, in a structured, commonly used and machine-readable format and have the right to transmit those data to another controller without hindrance from the controller to which the personal data have been provided, where: (b) the processing is carried out by automated means.",
+          "article": "20",
+          "paragraph": "1(b)",
+          "clause": "Art20(1(b))"
+        }
+      ]
+    },
+    {
+      "id": "REG-002",
+      "clause": "Art6(1(a))",
+      "text": "Processing shall be lawful only if and to the extent that at least one of the following applies: (a) the data subject has given consent to the processing of his or her personal data for one or more specific purposes;",
+      "rerank_rank": 2,
+      "rerank_score": 0.030257539823651314,
+      "similarity_score": 0.761574,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-001",
+          "main_reg_id": "REG-002",
+          "edge_type": "PARENT_CHILD",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-001 -> REG-002",
+          "text": "Processing shall be lawful only if and to the extent that at least one of the following applies:",
+          "article": "6",
+          "paragraph": "1",
+          "clause": "Art6(1)"
+        },
+        {
+          "id": "REG-003",
+          "main_reg_id": "REG-002",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-002 <- REG-001 -> REG-003",
+          "text": "Processing shall be lawful only if and to the extent that at least one of the following applies: (b) processing is necessary for the performance of a contract to which the data subject is party or in order to take steps at the request of the data subject prior to entering into a contract;",
+          "article": "6",
+          "paragraph": "1(b)",
+          "clause": "Art6(1(b))"
+        },
+        {
+          "id": "REG-004",
+          "main_reg_id": "REG-002",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-002 <- REG-001 -> REG-004",
+          "text": "Processing shall be lawful only if and to the extent that at least one of the following applies: (c) processing is necessary for compliance with a legal obligation to which the controller is subject;",
+          "article": "6",
+          "paragraph": "1(c)",
+          "clause": "Art6(1(c))"
+        },
+        {
+          "id": "REG-005",
+          "main_reg_id": "REG-002",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-002 <- REG-001 -> REG-005",
+          "text": "Processing shall be lawful only if and to the extent that at least one of the following applies: (d) processing is necessary in order to protect the vital interests of the data subject or of another natural person;",
+          "article": "6",
+          "paragraph": "1(d)",
+          "clause": "Art6(1(d))"
+        },
+        {
+          "id": "REG-006",
+          "main_reg_id": "REG-002",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-002 <- REG-001 -> REG-006",
+          "text": "Processing shall be lawful only if and to the extent that at least one of the following applies: (e) processing is necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller;",
+          "article": "6",
+          "paragraph": "1(e)",
+          "clause": "Art6(1(e))"
+        },
+        {
+          "id": "REG-007",
+          "main_reg_id": "REG-002",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-002 <- REG-001 -> REG-007",
+          "text": "Processing shall be lawful only if and to the extent that at least one of the following applies: (f) processing is necessary for the purposes of the legitimate interests pursued by the controller or by a third party, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection of personal data, in particular where the data subject is a child. Point (f) of the first subparagraph shall not apply to processing carried out by public authorities in the performance of their tasks.",
+          "article": "6",
+          "paragraph": "1(f)",
+          "clause": "Art6(1(f))"
+        }
+      ]
+    },
+    {
+      "id": "REG-080",
+      "clause": "Art17(1(b))",
+      "text": "and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies: (b) the data subject withdraws consent on which the processing is based according to point (a) of Article 6(1), or point (a) of Article 9(2), and where there is no other legal ground for the processing;",
+      "rerank_rank": 3,
+      "rerank_score": 0.02280263602733612,
+      "similarity_score": 0.748021,
+      "already_visited_before_expansion": false,
+      "graph_context": [
+        {
+          "id": "REG-079",
+          "main_reg_id": "REG-080",
+          "edge_type": "AND",
+          "direction": "outgoing",
+          "hop_count": 1,
+          "relation_path": "REG-080 -> REG-079",
+          "text": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay",
+          "article": "17",
+          "paragraph": "1(b)",
+          "clause": "Art17(1(b))"
+        },
+        {
+          "id": "REG-076",
+          "main_reg_id": "REG-080",
+          "edge_type": "PARENT_CHILD",
+          "direction": "incoming",
+          "hop_count": 1,
+          "relation_path": "REG-076 -> REG-080",
+          "text": "and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies:",
+          "article": "17",
+          "paragraph": "1",
+          "clause": "Art17(1)"
+        },
+        {
+          "id": "REG-077",
+          "main_reg_id": "REG-080",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-080 <- REG-076 -> REG-077",
+          "text": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay",
+          "article": "17",
+          "paragraph": "1(a)",
+          "clause": "Art17(1(a))"
+        },
+        {
+          "id": "REG-078",
+          "main_reg_id": "REG-080",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-080 <- REG-076 -> REG-078",
+          "text": "and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies: (a) the personal data are no longer necessary in relation to the purposes for which they were collected or otherwise processed;",
+          "article": "17",
+          "paragraph": "1(a)",
+          "clause": "Art17(1(a))"
+        },
+        {
+          "id": "REG-081",
+          "main_reg_id": "REG-080",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-080 <- REG-076 -> REG-081",
+          "text": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay",
+          "article": "17",
+          "paragraph": "1(c)",
+          "clause": "Art17(1(c))"
+        },
+        {
+          "id": "REG-082",
+          "main_reg_id": "REG-080",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-080 <- REG-076 -> REG-082",
+          "text": "and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies: (c) the data subject objects to the processing pursuant to Article 21(1) and there are no overriding legitimate grounds for the processing, or the data subject objects to the processing pursuant to Article 21(2);",
+          "article": "17",
+          "paragraph": "1(c)",
+          "clause": "Art17(1(c))"
+        },
+        {
+          "id": "REG-083",
+          "main_reg_id": "REG-080",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-080 <- REG-076 -> REG-083",
+          "text": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay",
+          "article": "17",
+          "paragraph": "1(d)",
+          "clause": "Art17(1(d))"
+        },
+        {
+          "id": "REG-084",
+          "main_reg_id": "REG-080",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-080 <- REG-076 -> REG-084",
+          "text": "and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies: (d) the personal data have been unlawfully processed;",
+          "article": "17",
+          "paragraph": "1(d)",
+          "clause": "Art17(1(d))"
+        },
+        {
+          "id": "REG-085",
+          "main_reg_id": "REG-080",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-080 <- REG-076 -> REG-085",
+          "text": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay",
+          "article": "17",
+          "paragraph": "1(e)",
+          "clause": "Art17(1(e))"
+        },
+        {
+          "id": "REG-086",
+          "main_reg_id": "REG-080",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-080 <- REG-076 -> REG-086",
+          "text": "and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies: (e) the personal data have to be erased for compliance with a legal obligation in Union or Member State law to which the controller is subject;",
+          "article": "17",
+          "paragraph": "1(e)",
+          "clause": "Art17(1(e))"
+        },
+        {
+          "id": "REG-087",
+          "main_reg_id": "REG-080",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-080 <- REG-076 -> REG-087",
+          "text": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay",
+          "article": "17",
+          "paragraph": "1(f)",
+          "clause": "Art17(1(f))"
+        },
+        {
+          "id": "REG-088",
+          "main_reg_id": "REG-080",
+          "edge_type": "PARENT_CHILD",
+          "direction": "via_parent_outgoing",
+          "hop_count": 2,
+          "relation_path": "REG-080 <- REG-076 -> REG-088",
+          "text": "and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies: (f) the personal data have been collected in relation to the offer of information society services referred to in Article 8(1).",
+          "article": "17",
+          "paragraph": "1(f)",
+          "clause": "Art17(1(f))"
+        }
+      ]
+    }
+  ],
+  "visited_reg_ids": [
+    "REG-001",
+    "REG-002",
+    "REG-003",
+    "REG-004",
+    "REG-005",
+    "REG-006",
+    "REG-007",
+    "REG-076",
+    "REG-077",
+    "REG-078",
+    "REG-079",
+    "REG-080",
+    "REG-081",
+    "REG-082",
+    "REG-083",
+    "REG-084",
+    "REG-085",
+    "REG-086",
+    "REG-087",
+    "REG-088",
+    "REG-103",
+    "REG-104",
+    "REG-105"
+  ]
+}
